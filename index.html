@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Player - External Data</title>
+    <style>
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; font-family: sans-serif; color: white; }
+        #player-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
+        iframe { width: 100%; height: 100%; border: none; }
+        
+        #splash { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #111; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 9999; cursor: pointer; }
+        .start-btn { padding: 20px 50px; background: #ff0000; color: white; font-size: 24px; font-weight: bold; border: none; border-radius: 50px; }
+
+        #sidebar { position: fixed; top: 0; left: 0; width: 320px; height: 100%; background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(10px); z-index: 100; transform: translateX(-100%); transition: transform 0.3s ease-in-out; border-right: 1px solid rgba(255,255,255,0.1); display: flex; flex-direction: column; }
+        #sidebar.active { transform: translateX(0); }
+        #channel-list { flex: 1; overflow-y: auto; list-style: none; padding: 10px; margin: 0; }
+        .channel-item { display: flex; align-items: center; padding: 10px; margin-bottom: 5px; cursor: pointer; border-radius: 8px; background: rgba(255,255,255,0.05); border: 2px solid transparent; }
+        .channel-item.selected { background: rgba(255, 0, 0, 0.3); border-color: #ff0000; }
+        .channel-item img { width: 50px; height: 35px; object-fit: contain; margin-right: 15px; background: white; border-radius: 4px; }
+        .channel-name { font-size: 13px; }
+
+        #osd { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.8); padding: 12px 30px; border-radius: 50px; z-index: 50; display: none; border: 1px solid #ff0000; }
+    </style>
+</head>
+<body onmousemove="showSidebar()">
+
+    <!-- LINK TO EXTERNAL FILE HERE -->
+    <script src="channels.js"></script>
+
+    <div id="splash" onclick="startApp()">
+        <button class="start-btn">START WATCHING</button>
+    </div>
+
+    <div id="player-container">
+        <iframe id="main-frame" src="" allow="autoplay; fullscreen"></iframe>
+    </div>
+
+    <div id="sidebar">
+        <div style="padding:20px; text-align:center; color:red; font-weight:bold; border-bottom:1px solid #333">CHANNELS</div>
+        <ul id="channel-list"></ul>
+    </div>
+
+    <div id="osd"></div>
+
+    <script>
+        let currentIndex = 0;
+        let sidebarTimer;
+        const frame = document.getElementById('main-frame');
+        const sidebar = document.getElementById('sidebar');
+        const osd = document.getElementById('osd');
+
+        function init() {
+            const list = document.getElementById('channel-list');
+            // The 'channels' variable comes from channels.js
+            channels.forEach((ch, i) => {
+                const li = document.createElement('li');
+                li.className = 'channel-item';
+                li.id = "ch-" + i;
+                const logoUrl = `http://10.99.99.99/assets/images/${ch.logo}`;
+                li.innerHTML = `<img src="${logoUrl}"> <span class="channel-name">${ch.name}</span>`;
+                li.onclick = (e) => { e.stopPropagation(); playChannel(i); };
+                list.appendChild(li);
+            });
+        }
+
+        function startApp() {
+            document.getElementById('splash').style.display = 'none';
+            playChannel(0);
+        }
+
+        function playChannel(index) {
+            currentIndex = index;
+            const ch = channels[currentIndex];
+            frame.src = `http://10.99.99.99/player.php?stream=${ch.id}&autoplay=1`;
+
+            document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
+            const active = document.getElementById("ch-" + index);
+            if (active) {
+                active.classList.add('selected');
+                active.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+
+            osd.innerHTML = `CH ${index + 1}: <b>${ch.name}</b>`;
+            osd.style.display = 'block';
+            setTimeout(() => osd.style.display = 'none', 3000);
+            showSidebar();
+        }
+
+        function showSidebar() {
+            sidebar.classList.add('active');
+            clearTimeout(sidebarTimer);
+            sidebarTimer = setTimeout(() => sidebar.classList.remove('active'), 10000);
+        }
+
+        window.addEventListener('keydown', (e) => {
+            showSidebar();
+            if (e.key === "ArrowUp" || e.key === "PageUp") {
+                e.preventDefault();
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : channels.length - 1;
+                playChannel(currentIndex);
+            } 
+            else if (e.key === "ArrowDown" || e.key === "PageDown") {
+                e.preventDefault();
+                currentIndex = (currentIndex < channels.length - 1) ? currentIndex + 1 : 0;
+                playChannel(currentIndex);
+            }
+        });
+
+        init();
+    </script>
+</body>
+</html>
