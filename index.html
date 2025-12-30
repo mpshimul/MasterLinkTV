@@ -3,33 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TV Player - External Data</title>
+    <title>Live TV Player - All Channels</title>
     <style>
-        body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; font-family: sans-serif; color: white; }
-        #player-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
-        iframe { width: 100%; height: 100%; border: none; }
-        
-        #splash { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #111; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 9999; cursor: pointer; }
-        .start-btn { padding: 20px 50px; background: #ff0000; color: white; font-size: 24px; font-weight: bold; border: none; border-radius: 50px; }
+        body, html {
+            margin: 0; padding: 0; width: 100%; height: 100%;
+            background-color: #000; overflow: hidden;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+        }
 
-        #sidebar { position: fixed; top: 0; left: 0; width: 320px; height: 100%; background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(10px); z-index: 100; transform: translateX(-100%); transition: transform 0.3s ease-in-out; border-right: 1px solid rgba(255,255,255,0.1); display: flex; flex-direction: column; }
+        /* Full Screen Player */
+        #player-container {
+            position: absolute; top: 0; left: 0;
+            width: 100%; height: 100%; z-index: 1;
+        }
+        iframe { width: 100%; height: 100%; border: none; background: #000; }
+
+        /* Splash Screen for Autoplay */
+        #splash {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: #111; display: flex; flex-direction: column;
+            justify-content: center; align-items: center; z-index: 9999;
+            cursor: pointer;
+        }
+        .start-btn {
+            padding: 20px 50px; background: #ff0000; color: white;
+            font-size: 24px; font-weight: bold; border: none; border-radius: 50px;
+            box-shadow: 0 0 20px rgba(255,0,0,0.5);
+        }
+
+        /* Sidebar - Overlays the video */
+        #sidebar {
+            position: fixed; top: 0; left: 0; width: 320px; height: 100%;
+            background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(10px);
+            z-index: 100; transform: translateX(-100%);
+            transition: transform 0.3s ease-in-out;
+            display: flex; flex-direction: column;
+            border-right: 1px solid rgba(255,255,255,0.1);
+        }
         #sidebar.active { transform: translateX(0); }
-        #channel-list { flex: 1; overflow-y: auto; list-style: none; padding: 10px; margin: 0; }
-        .channel-item { display: flex; align-items: center; padding: 10px; margin-bottom: 5px; cursor: pointer; border-radius: 8px; background: rgba(255,255,255,0.05); border: 2px solid transparent; }
+
+        .sidebar-header {
+            padding: 20px; font-size: 22px; font-weight: bold;
+            color: #ff0000; border-bottom: 1px solid #333; text-align: center;
+        }
+
+        #channel-list {
+            flex: 1; overflow-y: auto; list-style: none; padding: 10px; margin: 0;
+        }
+        #channel-list::-webkit-scrollbar { width: 5px; }
+        #channel-list::-webkit-scrollbar-thumb { background: #444; }
+
+        .channel-item {
+            display: flex; align-items: center; padding: 10px;
+            margin-bottom: 5px; cursor: pointer; border-radius: 8px;
+            background: rgba(255,255,255,0.05); border: 2px solid transparent;
+            transition: 0.2s;
+        }
         .channel-item.selected { background: rgba(255, 0, 0, 0.3); border-color: #ff0000; }
         .channel-item img { width: 50px; height: 35px; object-fit: contain; margin-right: 15px; background: white; border-radius: 4px; }
-        .channel-name { font-size: 13px; }
+        .channel-name { font-size: 13px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-        #osd { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.8); padding: 12px 30px; border-radius: 50px; z-index: 50; display: none; border: 1px solid #ff0000; }
+        /* Notification */
+        #osd {
+            position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%);
+            background: rgba(0,0,0,0.8); padding: 12px 30px; border-radius: 50px;
+            z-index: 50; display: none; border: 1px solid #ff0000; font-size: 18px;
+        }
     </style>
 </head>
 <body onmousemove="showSidebar()">
 
-    <!-- LINK TO EXTERNAL FILE HERE -->
-    <!--APPINVENTOR_JS_HERE-->
-
     <div id="splash" onclick="startApp()">
         <button class="start-btn">START WATCHING</button>
+        <p style="margin-top:15px">Click to enable sound and video</p>
     </div>
 
     <div id="player-container">
@@ -37,13 +84,106 @@
     </div>
 
     <div id="sidebar">
-        <div style="padding:20px; text-align:center; color:red; font-weight:bold; border-bottom:1px solid #333">CHANNELS</div>
+        <div class="sidebar-header">90 CHANNELS</div>
         <ul id="channel-list"></ul>
     </div>
 
     <div id="osd"></div>
 
     <script>
+        const channels = [
+            { name: "A SPORTS HD", id: "88", logo: "A SPORTS HD1745044782.png" },
+            { name: "ALJAZEETA HD", id: "85", logo: "ALJAZEETA HD1745044358.png" },
+            { name: "AND FLIX HD", id: "35", logo: "AND FLIX HD1745040018.png" },
+            { name: "AND PICTURS HD", id: "5", logo: "AND PICTURS HD1745031440.png" },
+            { name: "AND PRIVE HD", id: "41", logo: "AND PRIVE HD1745040451.png" },
+            { name: "AND XPLORE", id: "61", logo: "AND XPLORE1745043080.png" },
+            { name: "ANIMAL PLANET HD", id: "26", logo: "ANIMAL PLANET HD1745038671.png" },
+            { name: "ATN BANGLA", id: "80", logo: "ATN BANGLA1745044183.png" },
+            { name: "ATN NEWS", id: "95", logo: "ATN NEWS1745045113.png" },
+            { name: "AXN HD", id: "97", logo: "AXN HD1745045171.png" },
+            { name: "BAL BHARAT", id: "50", logo: "BAL BHARAT1745041576.png" },
+            { name: "BBC EARTH HD", id: "102", logo: "BBC EARTH HD1745150455.png" },
+            { name: "CARTOON NETWORK", id: "8", logo: "CARTOON NETWORK1745033414.png" },
+            { name: "CHANNEL 24", id: "82", logo: "CHANNEL 241745044263.png" },
+            { name: "CHANNEL I", id: "81", logo: "CHANNEL I1745044237.png" },
+            { name: "COLORS BANGLA CINEMA", id: "47", logo: "COLORS BANGLA CINEMA1745041486.png" },
+            { name: "COLORS BANGLA HD", id: "12", logo: "COLORS BANGLA HD1745033576.png" },
+            { name: "COLORS CINEPLEX HD", id: "10", logo: "COLORS CINEPLEX HD1745033519.png" },
+            { name: "COLORS HD", id: "4", logo: "COLORS HD1745031404.png" },
+            { name: "DISCOVERY HD", id: "22", logo: "discovery hd.png" },
+            { name: "DURANTA TV", id: "68", logo: "DURANTA TV1745043400.png" },
+            { name: "ENTERR 10", id: "84", logo: "ENTERR 101745044330.png" },
+            { name: "EUROSPORTS HD", id: "40", logo: "EUROSPORTS HD1745040406.png" },
+            { name: "FAST SPORTS HD", id: "87", logo: "FAST SPORTS HD1745044750.png" },
+            { name: "GEO NEWS HD", id: "90", logo: "GEO NEWS HD1745044892.png" },
+            { name: "GOLF SPORTS", id: "66", logo: "GOLF SPORTS1745043338.png" },
+            { name: "GTV", id: "56", logo: "GTV1745042853.png" },
+            { name: "HISTORY TV HD", id: "15", logo: "HISTORY TV HD1745033679.png" },
+            { name: "HITZ MUSIC", id: "70", logo: "HITZ MUSIC1745043478.png" },
+            { name: "HUM TV", id: "89", logo: "HUM TV1745044837.png" },
+            { name: "HUNGAMA", id: "49", logo: "HUNGAMA1745041551.png" },
+            { name: "INDEPENDENT TV", id: "77", logo: "INDEPENDENT TV1745044077.png" },
+            { name: "JALSHA MOVIES HD", id: "19", logo: "JALSHA MOVIES HD1745034005.png" },
+            { name: "JAMUNA TV", id: "76", logo: "JAMUNA TV1745044052.png" },
+            { name: "LOTUS TV", id: "91", logo: "LOTUS TV1745044960.png" },
+            { name: "LOVE NATURE", id: "67", logo: "LOVE NATURE1745043370.png" },
+            { name: "MAASRANGA HD", id: "78", logo: "MAASRANGA HD1745044117.png" },
+            { name: "MADANI TV HD", id: "83", logo: "MADANI TV HD1745044303.png" },
+            { name: "MN PLUS", id: "36", logo: "MN PLUS1745040057.png" },
+            { name: "MNX HD", id: "33", logo: "MNX HD1745039955.png" },
+            { name: "MOVIES NOW HD", id: "39", logo: "MOVIES NOW HD1745040368.png" },
+            { name: "NAGORIK", id: "54", logo: "NAGORIK1745042776.png" },
+            { name: "NATGEO HD", id: "25", logo: "NATGEO HD1745038634.png" },
+            { name: "NATGEO WILD HD", id: "23", logo: "NATGEO WILD HD1745038542.png" },
+            { name: "NICK", id: "46", logo: "NICK1745041451.png" },
+            { name: "NICK JR", id: "51", logo: "NICK JR1745042397.png" },
+            { name: "PEACE TV BANGLA", id: "86", logo: "PEACE TV BANGLA1745044480.png" },
+            { name: "POGO", id: "48", logo: "POGO1745041515.png" },
+            { name: "PTV SPORTS HD", id: "92", logo: "PTV SPORTS HD1745044993.png" },
+            { name: "ROMEDY NOW", id: "34", logo: "ROMEDY NOW1745039988.png" },
+            { name: "SOMOY TV", id: "79", logo: "SOMOY TV1745044149.png" },
+            { name: "SONIC", id: "45", logo: "SONIC1745041154.png" },
+            { name: "SONY AAT", id: "44", logo: "SONY AAT1745041124.png" },
+            { name: "SONY BBC EARTH HD", id: "6", logo: "SONY BBC EARTH HD1745031522.png" },
+            { name: "SONY ENT HD", id: "11", logo: "SONY ENT HD1745033553.png" },
+            { name: "SONY MAX HD", id: "21", logo: "SONY MAX HD1745034069.png" },
+            { name: "SONY PIX HD", id: "32", logo: "SONY PIX HD1745039925.png" },
+            { name: "SONY SPORTS 1 HD", id: "74", logo: "sony sports 1 hd.png" },
+            { name: "SONY SPORTS 2 HD", id: "29", logo: "sony sports 2 hd.png" },
+            { name: "SONY SPORTS 3", id: "30", logo: "Sony sports 3.png" },
+            { name: "SONY SPORTS 4", id: "72", logo: "sony sports 4.png" },
+            { name: "SONY SPORTS 5 HD", id: "101", logo: "sony sports 5 hd.png" },
+            { name: "SONY YAY", id: "93", logo: "SONY YAY1745045046.png" },
+            { name: "SSC SPORTS", id: "96", logo: "ssc 1 hd.png" },
+            { name: "SSC SPORTS 5 HD", id: "103", logo: "ssc 5 hd.png" },
+            { name: "STAR BHARAT HD", id: "100", logo: "STAR BHARAT HD1745045255.png" },
+            { name: "STAR GOLD 2 HD", id: "69", logo: "STAR GOLD 2 HD1745043441.png" },
+            { name: "STAR GOLD HD", id: "20", logo: "STAR GOLD HD1745034037.png" },
+            { name: "STAR GOLD SELECT HD", id: "71", logo: "STAR GOLD SELECT HD1745043508.png" },
+            { name: "STAR JALSHA HD", id: "18", logo: "STAR JALSHA HD1745033819.png" },
+            { name: "STAR MOVIES HD", id: "38", logo: "STAR MOVIES HD1745040174.png" },
+            { name: "STAR MOVIES SELECT HD", id: "27", logo: "STAR MOVIES SELECT HD1745038723.png" },
+            { name: "STAR PLUS HD", id: "24", logo: "STAR PLUS HD1745038577.png" },
+            { name: "STAR SELECT 1 HD", id: "28", logo: "STAR SELECT 1 HD1745038777.png" },
+            { name: "STAR SPORTS 1 HD", id: "2", logo: "STAR SPORTS 1 HD1744991778.png" },
+            { name: "STAR SPORTS 2 HD", id: "3", logo: "STAR SPORTS 2 HD1744991842.png" },
+            { name: "STAR SPORTS 3", id: "31", logo: "STAR SPORTS 31745039893.png" },
+            { name: "STAR SPORTS SELECT 2 HD", id: "16", logo: "STAR SPORTS SELECT 2 HD1745033722.png" },
+            { name: "SUN BANGLA HD", id: "17", logo: "SUN BANGLA HD1745033791.png" },
+            { name: "SUPER HUNGAMA", id: "75", logo: "SUPER HUNGAMA1745044022.png" },
+            { name: "T SPORTS", id: "1", logo: "T SPORTS1744972630.png" },
+            { name: "TLC HD", id: "9", logo: "TLC HD1745033484.png" },
+            { name: "TRAVEL XP", id: "62", logo: "TRAVEL XP1745043118.png" },
+            { name: "ZEE BANGLA CINEMA", id: "43", logo: "ZEE BANGLA CINEMA1745040996.png" },
+            { name: "ZEE BANGLA HD", id: "14", logo: "ZEE BANGLA HD1745033633.png" },
+            { name: "ZEE CAFE HD", id: "37", logo: "ZEE CAFE HD1745040102.png" },
+            { name: "ZEE CINEMA HD", id: "13", logo: "ZEE CINEMA HD1745033602.png" },
+            { name: "ZEE TV HD", id: "7", logo: "ZEE TV HD1745033383.png" },
+            { name: "ZING", id: "53", logo: "ZING1745042718.png" },
+            { name: "ZOOM", id: "42", logo: "ZOOM1745040961.png" }
+        ];
+
         let currentIndex = 0;
         let sidebarTimer;
         const frame = document.getElementById('main-frame');
@@ -52,7 +192,6 @@
 
         function init() {
             const list = document.getElementById('channel-list');
-            // The 'channels' variable comes from channels.js
             channels.forEach((ch, i) => {
                 const li = document.createElement('li');
                 li.className = 'channel-item';
@@ -74,6 +213,7 @@
             const ch = channels[currentIndex];
             frame.src = `http://10.99.99.99/player.php?stream=${ch.id}&autoplay=1`;
 
+            // Update UI
             document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
             const active = document.getElementById("ch-" + index);
             if (active) {
@@ -81,26 +221,31 @@
                 active.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }
 
+            // Show OSD Notification
             osd.innerHTML = `CH ${index + 1}: <b>${ch.name}</b>`;
             osd.style.display = 'block';
             setTimeout(() => osd.style.display = 'none', 3000);
+
             showSidebar();
         }
 
         function showSidebar() {
             sidebar.classList.add('active');
             clearTimeout(sidebarTimer);
-            sidebarTimer = setTimeout(() => sidebar.classList.remove('active'), 10000);
+            sidebarTimer = setTimeout(() => {
+                sidebar.classList.remove('active');
+            }, 10000); // 10 second hide
         }
 
+        // REMOTE CONTROL KEYS
         window.addEventListener('keydown', (e) => {
             showSidebar();
-            if (e.key === "ArrowUp" || e.key === "PageUp") {
+            if (e.key === "ArrowUp" || e.key === "PageUp") { // CH+
                 e.preventDefault();
                 currentIndex = (currentIndex > 0) ? currentIndex - 1 : channels.length - 1;
                 playChannel(currentIndex);
             } 
-            else if (e.key === "ArrowDown" || e.key === "PageDown") {
+            else if (e.key === "ArrowDown" || e.key === "PageDown") { // CH-
                 e.preventDefault();
                 currentIndex = (currentIndex < channels.length - 1) ? currentIndex + 1 : 0;
                 playChannel(currentIndex);
@@ -110,5 +255,4 @@
         init();
     </script>
 </body>
-
 </html>
