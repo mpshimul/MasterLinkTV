@@ -1,77 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live TV Player - All Channels</title>
-    <style>
-        body, html {
-            margin: 0; padding: 0; width: 100%; height: 100%;
-            background-color: #000; overflow: hidden;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: white;
-        }
-
-        /* Full Screen Player */
-        #player-container {
-            position: absolute; top: 0; left: 0;
-            width: 100%; height: 100%; z-index: 1;
-        }
-        iframe { width: 100%; height: 100%; border: none; background: #000; }
-
-        /* Splash Screen for Autoplay */
-        #splash {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: #111; display: flex; flex-direction: column;
-            justify-content: center; align-items: center; z-index: 9999;
-            cursor: pointer;
-        }
-        .start-btn {
-            padding: 20px 50px; background: #ff0000; color: white;
-            font-size: 24px; font-weight: bold; border: none; border-radius: 50px;
-            box-shadow: 0 0 20px rgba(255,0,0,0.5);
-        }
-
-        /* Sidebar - Overlays the video */
-        #sidebar {
-            position: fixed; top: 0; left: 0; width: 320px; height: 100%;
-            background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(10px);
-            z-index: 100; transform: translateX(-100%);
-            transition: transform 0.3s ease-in-out;
-            display: flex; flex-direction: column;
-            border-right: 1px solid rgba(255,255,255,0.1);
-        }
-        #sidebar.active { transform: translateX(0); }
-
-        .sidebar-header {
-            padding: 20px; font-size: 22px; font-weight: bold;
-            color: #ff0000; border-bottom: 1px solid #333; text-align: center;
-        }
-
-        #channel-list {
-            flex: 1; overflow-y: auto; list-style: none; padding: 10px; margin: 0;
-        }
-        #channel-list::-webkit-scrollbar { width: 5px; }
-        #channel-list::-webkit-scrollbar-thumb { background: #444; }
-
-        .channel-item {
-            display: flex; align-items: center; padding: 10px;
-            margin-bottom: 5px; cursor: pointer; border-radius: 8px;
-            background: rgba(255,255,255,0.05); border: 2px solid transparent;
-            transition: 0.2s;
-        }
-        .channel-item.selected { background: rgba(255, 0, 0, 0.3); border-color: #ff0000; }
-        .channel-item img { width: 50px; height: 35px; object-fit: contain; margin-right: 15px; background: white; border-radius: 4px; }
-        .channel-name { font-size: 13px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-
-        /* Notification */
-        #osd {
-            position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%);
-            background: rgba(0,0,0,0.8); padding: 12px 30px; border-radius: 50px;
-            z-index: 50; display: none; border: 1px solid #ff0000; font-size: 18px;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI2 WebViewer Test</title>
+  <style>
+    body { margin:0; font-family: system-ui, Arial; background:#111; color:#eee; }
+    header { padding:14px 16px; background:#222; position:sticky; top:0; }
+    button { padding:10px 14px; border:0; border-radius:10px; background:#ff2d2d; color:white; font-weight:700; }
+    #log { padding:12px 16px; white-space:pre-wrap; font-family: ui-monospace, monospace; font-size:13px; color:#9f9; }
+    ul { list-style:none; padding:0; margin:0; }
+    li { padding:12px 16px; border-top:1px solid #333; }
+  </style>
 </head>
-<body>Hello</body>
-</html>
+<body>
+  <header>
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;">
+      <div>
+        <div style="font-weight:800;">WebViewer Test Page</div>
+        <div style="opacity:.8;font-size:13px;">If you see this, WebViewString is working.</div>
+      </div>
+      <button id="btn">Tap me</button>
+    </div>
+  </header>
 
+  <div id="log">Loading…</div>
+
+  <ul id="list"></ul>
+
+  <script>
+    // Show errors on-screen (very useful in WebViewer)
+    const logEl = document.getElementById('log');
+    function log(msg){ logEl.textContent += "\n" + msg; }
+
+    window.addEventListener('error', (e) => {
+      log("JS ERROR: " + e.message);
+      log("at: " + (e.filename||"?") + ":" + (e.lineno||"?"));
+    });
+
+    logEl.textContent = "readyState=" + document.readyState;
+    log("userAgent=" + navigator.userAgent);
+
+    // Simple data + render
+    const channels = [
+      { name: "Channel One", id: "1" },
+      { name: "Channel Two", id: "2" },
+      { name: "Channel Three", id: "3" }
+    ];
+
+    function render(){
+      const ul = document.getElementById('list');
+      ul.innerHTML = "";
+      channels.forEach(c => {
+        const li = document.createElement('li');
+        li.textContent = c.name + " (id=" + c.id + ")";
+        li.addEventListener('click', () => {
+          log("Clicked: " + c.name);
+        });
+        ul.appendChild(li);
+      });
+      log("Rendered " + channels.length + " items.");
+    }
+
+    document.getElementById('btn').addEventListener('click', () => {
+      log("Button tapped!");
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      log("DOMContentLoaded fired");
+      render();
+    });
+  </script>
+</body>
+</html>
