@@ -1,9 +1,17 @@
+This issue often happens on Smart TVs because the remote control "OK" button doesn't always trigger a standard mouse "click" unless the button is **focused**. 
+
+I have fixed this by:
+1.  **Adding Remote Key Support to the Splash Screen:** You can now press **Enter/OK** on your remote to start.
+2.  **Auto-Focus:** The "Start" button will now automatically highlight so the TV remote knows where to click.
+3.  **DOM Removal:** Instead of just hiding the splash screen, the code now **completely removes it** from the page to ensure it cannot stay visible.
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MasterLinkTV - Your trusted distributor</title>
+    <title>Master Link Live TV - Your trusted distributor</title>
     <style>
         body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; font-family: 'Segoe UI', sans-serif; color: white; }
         
@@ -14,9 +22,19 @@
         /* Transparent layer for Phone Taps */
         #touch-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 5; background: transparent; }
 
-        /* Splash Screen */
-        #splash { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #111; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 9999; }
-        .start-btn { padding: 20px 60px; background: #ff0000; color: white; font-size: 26px; font-weight: bold; border: none; border-radius: 50px; cursor: pointer; }
+        /* Splash Screen - Fixed for TV Focus */
+        #splash { 
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
+            background: #111; display: flex; flex-direction: column; 
+            justify-content: center; align-items: center; z-index: 9999; 
+        }
+        .start-btn { 
+            padding: 20px 60px; background: #ff0000; color: white; 
+            font-size: 26px; font-weight: bold; border: 4px solid transparent; 
+            border-radius: 50px; cursor: pointer; outline: none;
+        }
+        /* Visual cue for TV remotes when button is selected */
+        .start-btn:focus { border-color: white; box-shadow: 0 0 20px #ff0000; transform: scale(1.1); }
 
         /* Sidebar Overlay */
         #sidebar { 
@@ -27,33 +45,17 @@
             display: flex; flex-direction: column; border-right: 1px solid #333; 
         }
         #sidebar.active { transform: translateX(0); }
-
-        .sidebar-header { padding: 20px; text-align: center; color: white; font-weight: bold; font-size: 18px; border-bottom: 1px solid #333; letter-spacing: 2px; }
-
+        .sidebar-header { padding: 20px; text-align: center; color: white; font-weight: bold; font-size: 18px; border-bottom: 1px solid #333; }
         #channel-list { flex: 1; overflow-y: auto; list-style: none; padding: 0 10px 20px 10px; margin: 0; }
         #channel-list::-webkit-scrollbar { width: 0px; }
 
-        /* Category Heading Style */
-        .category-title {
-            padding: 15px 10px 5px 10px;
-            color: #ff0000;
-            font-size: 14px;
-            font-weight: bold;
-            text-transform: uppercase;
-            border-bottom: 1px solid #222;
-            margin-top: 10px;
-        }
+        .category-title { padding: 15px 10px 5px 10px; color: #ff0000; font-size: 14px; font-weight: bold; text-transform: uppercase; border-bottom: 1px solid #222; margin-top: 10px; }
 
-        .channel-item { 
-            display: flex; align-items: center; padding: 10px; margin-top: 5px;
-            border-radius: 8px; background: rgba(255,255,255,0.03); 
-            border: 2px solid transparent; cursor: pointer; 
-        }
+        .channel-item { display: flex; align-items: center; padding: 10px; margin-top: 5px; border-radius: 8px; background: rgba(255,255,255,0.03); border: 2px solid transparent; cursor: pointer; }
         .channel-item.selected { background: rgba(255, 0, 0, 0.3); border-color: #ff0000; }
         .channel-item img { width: 45px; height: 30px; object-fit: contain; margin-right: 12px; background: white; border-radius: 4px; padding: 1px; }
         .channel-name { font-size: 13px; font-weight: 500; }
 
-        /* OSD Bubble */
         #osd { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.8); padding: 12px 30px; border-radius: 50px; z-index: 50; display: none; border: 1px solid #ff0000; }
     </style>
 </head>
@@ -61,9 +63,11 @@
 
     <div id="touch-overlay" onclick="toggleSidebar()"></div>
 
-    <div id="splash" onclick="startApp()">
-        <button class="start-btn">START TV</button>
-        <p style="margin-top:20px">UP/DOWN to change • Tap for List</p>
+    <!-- ADDED tabindex AND autofocus FOR TV REMOTE -->
+    <div id="splash">
+        <h1>LIVE TV</h1>
+        <button id="start-btn-id" class="start-btn" onclick="startApp()" autofocus tabindex="1">START WATCHING</button>
+        <p style="margin-top:20px; color: #888;">Press OK / Enter to Start</p>
     </div>
 
     <div id="player-container">
@@ -116,7 +120,7 @@
             { group: "Sports", name: "STAR SPORTS 3", id: "31", logo: "STAR SPORTS 31745039893.png" },
             { group: "Sports", name: "STAR SPORTS SELECT 2 HD", id: "16", logo: "STAR SPORTS SELECT 2 HD1745033722.png" },
             { group: "Sports", name: "T SPORTS", id: "1", logo: "T SPORTS1744972630.png" },
-			
+            
 			{ group: "Kids", name: "BAL BHARAT", id: "50", logo: "BAL BHARAT1745041576.png" },
             { group: "Kids", name: "CARTOON NETWORK", id: "8", logo: "CARTOON NETWORK1745033414.png" },
             { group: "Kids", name: "DURANTA TV", id: "68", logo: "DURANTA TV1745043400.png" },
@@ -127,8 +131,8 @@
             { group: "Kids", name: "SONIC", id: "45", logo: "SONIC1745041154.png" },
             { group: "Kids", name: "SONY YAY", id: "93", logo: "SONY YAY1745045046.png" },
             { group: "Kids", name: "SUPER HUNGAMA", id: "75", logo: "SUPER HUNGAMA1745044022.png" },
-
-            { group: "Hindi", name: "AND PICTURS HD", id: "5", logo: "AND PICTURS HD1745031440.png" },
+            
+			{ group: "Hindi", name: "AND PICTURS HD", id: "5", logo: "AND PICTURS HD1745031440.png" },
             { group: "Hindi", name: "COLORS CINEPLEX HD", id: "10", logo: "COLORS CINEPLEX HD1745033519.png" },
             { group: "Hindi", name: "COLORS HD", id: "4", logo: "COLORS HD1745031404.png" },
             { group: "Hindi", name: "GEO NEWS HD", id: "90", logo: "GEO NEWS HD1745044892.png" },
@@ -144,8 +148,8 @@
             { group: "Hindi", name: "ZEE TV HD", id: "7", logo: "ZEE TV HD1745033383.png" },
             { group: "Hindi", name: "ZING", id: "53", logo: "ZING1745042718.png" },
             { group: "Hindi", name: "ZOOM", id: "42", logo: "ZOOM1745040961.png" },
-
-            { group: "English", name: "ALJAZEETA HD", id: "85", logo: "ALJAZEETA HD1745044358.png" },
+            
+			{ group: "English", name: "ALJAZEETA HD", id: "85", logo: "ALJAZEETA HD1745044358.png" },
             { group: "English", name: "AND FLIX HD", id: "35", logo: "AND FLIX HD1745040018.png" },
             { group: "English", name: "AND PRIVE HD", id: "41", logo: "AND PRIVE HD1745040451.png" },
             { group: "English", name: "AND XPLORE", id: "61", logo: "AND XPLORE1745043080.png" },
@@ -170,13 +174,25 @@
             { group: "English", name: "TLC HD", id: "9", logo: "TLC HD1745033484.png" },
             { group: "English", name: "TRAVEL XP", id: "62", logo: "TRAVEL XP1745043118.png" },
             { group: "English", name: "ZEE CAFE HD", id: "37", logo: "ZEE CAFE HD1745040102.png" },
-
-            { group: "Islamic", name: "MADANI TV HD", id: "83", logo: "MADANI TV HD1745044303.png" },
+            
+			{ group: "Kids", name: "BAL BHARAT", id: "50", logo: "BAL BHARAT1745041576.png" },
+            { group: "Kids", name: "CARTOON NETWORK", id: "8", logo: "CARTOON NETWORK1745033414.png" },
+            { group: "Kids", name: "DURANTA TV", id: "68", logo: "DURANTA TV1745043400.png" },
+            { group: "Kids", name: "HUNGAMA", id: "49", logo: "HUNGAMA1745041551.png" },
+            { group: "Kids", name: "NICK", id: "46", logo: "NICK1745041451.png" },
+            { group: "Kids", name: "NICK JR", id: "51", logo: "NICK JR1745042397.png" },
+            { group: "Kids", name: "POGO", id: "48", logo: "POGO1745041515.png" },
+            { group: "Kids", name: "SONIC", id: "45", logo: "SONIC1745041154.png" },
+            { group: "Kids", name: "SONY YAY", id: "93", logo: "SONY YAY1745045046.png" },
+            { group: "Kids", name: "SUPER HUNGAMA", id: "75", logo: "SUPER HUNGAMA1745044022.png" },
+            
+			{ group: "Islamic", name: "MADANI TV HD", id: "83", logo: "MADANI TV HD1745044303.png" },
             { group: "Islamic", name: "PEACE TV BANGLA", id: "86", logo: "PEACE TV BANGLA1745044480.png" }
         ];
 
         let currentIndex = 0;
         let sidebarTimer;
+        let isStarted = false;
         const frame = document.getElementById('main-frame');
         const sidebar = document.getElementById('sidebar');
         const list = document.getElementById('channel-list');
@@ -185,7 +201,6 @@
         function init() {
             let currentGroup = "";
             rawChannels.forEach((ch, i) => {
-                // Add Category Heading if it changes
                 if (ch.group !== currentGroup) {
                     currentGroup = ch.group;
                     const head = document.createElement('li');
@@ -193,8 +208,6 @@
                     head.innerText = currentGroup;
                     list.appendChild(head);
                 }
-
-                // Add Channel Item
                 const li = document.createElement('li');
                 li.className = 'channel-item';
                 li.id = "ch-" + i;
@@ -203,14 +216,19 @@
                 li.onclick = (e) => { e.stopPropagation(); playChannel(i); };
                 list.appendChild(li);
             });
+            // Focus the start button on load
+            document.getElementById('start-btn-id').focus();
         }
 
         function startApp() {
-            document.getElementById('splash').style.display = 'none';
+            isStarted = true;
+            const splash = document.getElementById('splash');
+            if (splash) splash.remove(); // DELETE SPLASH SCREEN COMPLETELY
             playChannel(0);
         }
 
         function playChannel(index) {
+            if (!isStarted) return;
             currentIndex = index;
             const ch = rawChannels[currentIndex];
             frame.src = `http://10.99.99.99/player.php?stream=${ch.id}&autoplay=1`;
@@ -230,6 +248,7 @@
         }
 
         function toggleSidebar() {
+            if (!isStarted) return;
             if (sidebar.classList.contains('active')) {
                 sidebar.classList.remove('active');
             } else {
@@ -245,17 +264,23 @@
             }, 10000);
         }
 
-        // TV Navigation (Up, Down, CH+, CH-)
+        // GLOBAL KEY LISTENER
         window.addEventListener('keydown', (e) => {
+            // Handle Start Screen OK/Enter Button
+            if (!isStarted) {
+                if (e.key === "Enter" || e.key === "Ok") {
+                    startApp();
+                }
+                return;
+            }
+
+            // Normal Navigation
             showSidebar();
-            
-            // Channel UP
             if (e.key === "ArrowUp" || e.key === "PageUp" || e.key === "ChannelUp") {
                 e.preventDefault();
                 currentIndex = (currentIndex > 0) ? currentIndex - 1 : rawChannels.length - 1;
                 playChannel(currentIndex);
             } 
-            // Channel DOWN
             else if (e.key === "ArrowDown" || e.key === "PageDown" || e.key === "ChannelDown") {
                 e.preventDefault();
                 currentIndex = (currentIndex < rawChannels.length - 1) ? currentIndex + 1 : 0;
