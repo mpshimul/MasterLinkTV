@@ -1,89 +1,111 @@
-This issue often happens on Smart TVs because the remote control "OK" button doesn't always trigger a standard mouse "click" unless the button is **focused**. 
-
-I have fixed this by:
-1.  **Adding Remote Key Support to the Splash Screen:** You can now press **Enter/OK** on your remote to start.
-2.  **Auto-Focus:** The "Start" button will now automatically highlight so the TV remote knows where to click.
-3.  **DOM Removal:** Instead of just hiding the splash screen, the code now **completely removes it** from the page to ensure it cannot stay visible.
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Master Link Live TV - Your trusted distributor</title>
+    <title>Live TV Pro</title>
     <style>
         body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; font-family: 'Segoe UI', sans-serif; color: white; }
         
+        /* Notice Bar (Marquee) */
+        #notice-bar {
+            position: fixed; top: 0; left: 0; width: 100%; height: 35px;
+            background: rgba(229, 9, 20, 0.6); color: white;
+            z-index: 2000; overflow: hidden; line-height: 35px;
+            font-size: 16px; font-weight: bold; pointer-events: none;
+            border-bottom: 2px solid gold;
+        }
+        .marquee {
+            display: inline-block; white-space: nowrap;
+            padding-left: 100%; 
+            animation: marquee 20s linear infinite; /* One spin is 20s */
+        }
+        @keyframes marquee {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(-100%, 0); }
+        }
+
         /* Video Background */
         #player-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
         iframe { width: 100%; height: 100%; border: none; background: #000; }
 
-        /* Transparent layer for Phone Taps */
+        /* Loading Screen */
+        #loading-screen {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: #000; display: none; flex-direction: column;
+            justify-content: center; align-items: center; z-index: 3000;
+        }
+        #loading-img { width: 90px; height: 70px; object-fit: contain; margin-bottom: 20px; background: white; padding: 8px; border-radius: 12px; }
+        #loading-msg { font-size: 20px; font-weight: bold; margin-bottom: 15px; text-align: center; }
+        .spinner { width: 40px; height: 40px; border: 4px solid #333; border-top: 4px solid #ff0000; border-radius: 50%; animation: spin 1s linear infinite; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        /* Touch Overlay for Phone */
         #touch-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 5; background: transparent; }
 
-        /* Splash Screen - Fixed for TV Focus */
-        #splash { 
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
-            background: #111; display: flex; flex-direction: column; 
-            justify-content: center; align-items: center; z-index: 9999; 
-        }
-        .start-btn { 
-            padding: 20px 60px; background: #ff0000; color: white; 
-            font-size: 26px; font-weight: bold; border: 4px solid transparent; 
-            border-radius: 50px; cursor: pointer; outline: none;
-        }
-        /* Visual cue for TV remotes when button is selected */
-        .start-btn:focus { border-color: white; box-shadow: 0 0 20px #ff0000; transform: scale(1.1); }
+        /* Splash Screen */
+        #splash { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #111; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 9999; }
+        .start-btn { padding: 20px 60px; background: #ff0000; color: white; font-size: 26px; font-weight: bold; border: 4px solid transparent; border-radius: 50px; cursor: pointer; outline: none; transition: 0.3s; }
+        .start-btn:focus { border-color: white; box-shadow: 0 0 25px #ff0000; transform: scale(1.1); }
 
         /* Sidebar Overlay */
         #sidebar { 
-            position: fixed; top: 0; left: 0; width: 320px; height: 100%; 
-            background: rgba(0, 0, 0, 0.9); backdrop-filter: blur(15px); 
-            z-index: 100; transform: translateX(-100%); 
+            position: fixed; top: 0; left: 0; width: 300px; height: 100%; 
+            background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(15px); 
+            z-index: 4000; transform: translateX(-100%); 
             transition: transform 0.3s ease-in-out; 
             display: flex; flex-direction: column; border-right: 1px solid #333; 
         }
         #sidebar.active { transform: translateX(0); }
-        .sidebar-header { padding: 20px; text-align: center; color: white; font-weight: bold; font-size: 18px; border-bottom: 1px solid #333; }
+        .sidebar-header { padding: 20px 20px 20px 20px; text-align: center; color: white; font-weight: bold; font-size: 20px; border-bottom: 1px solid #333; }
         #channel-list { flex: 1; overflow-y: auto; list-style: none; padding: 0 10px 20px 10px; margin: 0; }
         #channel-list::-webkit-scrollbar { width: 0px; }
 
-        .category-title { padding: 15px 10px 5px 10px; color: #ff0000; font-size: 14px; font-weight: bold; text-transform: uppercase; border-bottom: 1px solid #222; margin-top: 10px; }
-
-        .channel-item { display: flex; align-items: center; padding: 10px; margin-top: 5px; border-radius: 8px; background: rgba(255,255,255,0.03); border: 2px solid transparent; cursor: pointer; }
+        .category-title { padding: 18px 10px 5px 10px; color: #ff0000; font-size: 14px; font-weight: bold; text-transform: uppercase; border-bottom: 1px solid #222; margin-top: 10px; }
+        .channel-item { display: flex; align-items: center; padding: 12px; margin-top: 5px; border-radius: 8px; background: rgba(255,255,255,0.03); border: 2px solid transparent; cursor: pointer; }
         .channel-item.selected { background: rgba(255, 0, 0, 0.3); border-color: #ff0000; }
         .channel-item img { width: 45px; height: 30px; object-fit: contain; margin-right: 12px; background: white; border-radius: 4px; padding: 1px; }
         .channel-name { font-size: 13px; font-weight: 500; }
 
-        #osd { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.8); padding: 12px 30px; border-radius: 50px; z-index: 50; display: none; border: 1px solid #ff0000; }
+        #osd { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.8); padding: 12px 30px; border-radius: 50px; z-index: 50; display: none; border: 1px solid #ff0000; text-align: center;}
     </style>
 </head>
 <body>
 
+    <div id="notice-bar">
+        <div id="marquee-text" class="marquee">WELCOME TO LIVE TV! PLEASE ENSURE YOU ARE CONNECTED TO THE ISP NETWORK FOR BEST PERFORMANCE. ENJOY HIGH-QUALITY STREAMING OF YOUR FAVORITE CHANNELS.  •  WELCOME TO LIVE TV! • </div>
+    </div>
+
     <div id="touch-overlay" onclick="toggleSidebar()"></div>
 
-    <!-- ADDED tabindex AND autofocus FOR TV REMOTE -->
+    <div id="loading-screen">
+        <img id="loading-img" src="" alt="">
+        <div id="loading-msg">Channel loading...</div>
+        <div id="loading-spinner" class="spinner"></div>
+    </div>
+
     <div id="splash">
-        <h1>LIVE TV</h1>
+        <h1 style="color:red; font-size: 50px; margin-bottom: 0;">MASTER LINK LIVE TV</h1>
+        <p style="color: #666; margin-bottom: 30px;">Premium ISP Streaming</p>
         <button id="start-btn-id" class="start-btn" onclick="startApp()" autofocus tabindex="1">START WATCHING</button>
-        <p style="margin-top:20px; color: #888;">Press OK / Enter to Start</p>
+        <p style="margin-top:20px; color: #888;">Use TV remote Ok / Touch to start</p>
     </div>
 
     <div id="player-container">
-        <iframe id="main-frame" src="" allow="autoplay; fullscreen"></iframe>
+        <iframe id="main-frame" src="" allow="autoplay; fullscreen" onload="hideLoading()"></iframe>
     </div>
 
     <div id="sidebar">
-        <div class="sidebar-header">Master Link TV</div>
+        <div class="sidebar-header">MASTER LINK TV</div>
         <ul id="channel-list"></ul>
     </div>
 
     <div id="osd"></div>
 
     <script>
+        // FULL DATASET (Simplified for code length, includes all 90 IDs internally)
         const rawChannels = [
-			{ group: "Bangla", name: "ATN BANGLA", id: "80", logo: "ATN BANGLA1745044183.png" },
+            { group: "Bangla", name: "ATN BANGLA", id: "80", logo: "ATN BANGLA1745044183.png" },
             { group: "Bangla", name: "ATN NEWS", id: "95", logo: "ATN NEWS1745045113.png" },
             { group: "Bangla", name: "CHANNEL 24", id: "82", logo: "CHANNEL 241745044263.png" },
             { group: "Bangla", name: "CHANNEL I", id: "81", logo: "CHANNEL I1745044237.png" },
@@ -192,13 +214,27 @@ I have fixed this by:
 
         let currentIndex = 0;
         let sidebarTimer;
+        let loadTimeout;
         let isStarted = false;
+        let marqueeCycles = 0;
+        
         const frame = document.getElementById('main-frame');
         const sidebar = document.getElementById('sidebar');
         const list = document.getElementById('channel-list');
+        const loader = document.getElementById('loading-screen');
         const osd = document.getElementById('osd');
+        const marqueeEl = document.getElementById('marquee-text');
+        const noticeBar = document.getElementById('notice-bar');
 
         function init() {
+            // Notice Bar cycle counter
+            marqueeEl.addEventListener('animationiteration', () => {
+                marqueeCycles++;
+                if (marqueeCycles >= 3) {
+                    noticeBar.style.display = 'none';
+                }
+            });
+
             let currentGroup = "";
             rawChannels.forEach((ch, i) => {
                 if (ch.group !== currentGroup) {
@@ -211,26 +247,38 @@ I have fixed this by:
                 const li = document.createElement('li');
                 li.className = 'channel-item';
                 li.id = "ch-" + i;
-                const logoUrl = `http://10.99.99.99/assets/images/${ch.logo}`;
-                li.innerHTML = `<img src="${logoUrl}"> <span class="channel-name">${ch.name}</span>`;
+                li.innerHTML = `<img src="http://10.99.99.99/assets/images/${ch.logo}"> <span class="channel-name">${ch.name}</span>`;
                 li.onclick = (e) => { e.stopPropagation(); playChannel(i); };
                 list.appendChild(li);
             });
-            // Focus the start button on load
             document.getElementById('start-btn-id').focus();
         }
 
         function startApp() {
             isStarted = true;
-            const splash = document.getElementById('splash');
-            if (splash) splash.remove(); // DELETE SPLASH SCREEN COMPLETELY
-            playChannel(0);
+            document.getElementById('splash').remove();
+            
+            // Resume history
+            const lastChannel = localStorage.getItem('last_tv_channel');
+            playChannel(lastChannel ? parseInt(lastChannel) : 0);
         }
 
         function playChannel(index) {
             if (!isStarted) return;
             currentIndex = index;
             const ch = rawChannels[currentIndex];
+
+            // Save history
+            localStorage.setItem('last_tv_channel', currentIndex);
+
+            // Loader
+            loader.style.display = 'flex';
+            document.getElementById('loading-img').src = `http://10.99.99.99/assets/images/${ch.logo}`;
+            document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:#888; font-size:14px">Buffering Stream...</span>`;
+
+            clearTimeout(loadTimeout);
+            loadTimeout = setTimeout(() => { loader.style.display = 'none'; }, 10000);
+
             frame.src = `http://10.99.99.99/player.php?stream=${ch.id}&autoplay=1`;
 
             document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
@@ -240,41 +288,35 @@ I have fixed this by:
                 active.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }
 
-            osd.innerHTML = `[${ch.group}] <b>${ch.name}</b>`;
+            osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
             osd.style.display = 'block';
-            setTimeout(() => osd.style.display = 'none', 3000);
+            setTimeout(() => { osd.style.display = 'none'; }, 4000);
             
             showSidebar();
         }
 
+        function hideLoading() {
+            clearTimeout(loadTimeout);
+            loader.style.display = 'none';
+        }
+
         function toggleSidebar() {
             if (!isStarted) return;
-            if (sidebar.classList.contains('active')) {
-                sidebar.classList.remove('active');
-            } else {
-                showSidebar();
-            }
+            if (sidebar.classList.contains('active')) sidebar.classList.remove('active');
+            else showSidebar();
         }
 
         function showSidebar() {
             sidebar.classList.add('active');
             clearTimeout(sidebarTimer);
-            sidebarTimer = setTimeout(() => {
-                sidebar.classList.remove('active');
-            }, 10000);
+            sidebarTimer = setTimeout(() => { sidebar.classList.remove('active'); }, 5000);
         }
 
-        // GLOBAL KEY LISTENER
         window.addEventListener('keydown', (e) => {
-            // Handle Start Screen OK/Enter Button
             if (!isStarted) {
-                if (e.key === "Enter" || e.key === "Ok") {
-                    startApp();
-                }
+                if (e.key === "Enter" || e.key === "Ok") startApp();
                 return;
             }
-
-            // Normal Navigation
             showSidebar();
             if (e.key === "ArrowUp" || e.key === "PageUp" || e.key === "ChannelUp") {
                 e.preventDefault();
