@@ -50,7 +50,7 @@
 
         /* Sidebar Overlay */
         #sidebar { 
-            position: fixed; top: 0; left: 0; width: 300px; height: 100%; 
+            position: fixed; top: 0; left: 0; width: 20%; height: 100%; 
             background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(15px); 
             z-index: 4000; transform: translateX(-100%); 
             transition: transform 0.3s ease-in-out; 
@@ -197,17 +197,6 @@
             { group: "English", name: "TRAVEL XP", id: "62", logo: "TRAVEL XP1745043118.png" },
             { group: "English", name: "ZEE CAFE HD", id: "37", logo: "ZEE CAFE HD1745040102.png" },
             
-			{ group: "Kids", name: "BAL BHARAT", id: "50", logo: "BAL BHARAT1745041576.png" },
-            { group: "Kids", name: "CARTOON NETWORK", id: "8", logo: "CARTOON NETWORK1745033414.png" },
-            { group: "Kids", name: "DURANTA TV", id: "68", logo: "DURANTA TV1745043400.png" },
-            { group: "Kids", name: "HUNGAMA", id: "49", logo: "HUNGAMA1745041551.png" },
-            { group: "Kids", name: "NICK", id: "46", logo: "NICK1745041451.png" },
-            { group: "Kids", name: "NICK JR", id: "51", logo: "NICK JR1745042397.png" },
-            { group: "Kids", name: "POGO", id: "48", logo: "POGO1745041515.png" },
-            { group: "Kids", name: "SONIC", id: "45", logo: "SONIC1745041154.png" },
-            { group: "Kids", name: "SONY YAY", id: "93", logo: "SONY YAY1745045046.png" },
-            { group: "Kids", name: "SUPER HUNGAMA", id: "75", logo: "SUPER HUNGAMA1745044022.png" },
-            
 			{ group: "Islamic", name: "MADANI TV HD", id: "83", logo: "MADANI TV HD1745044303.png" },
             { group: "Islamic", name: "PEACE TV BANGLA", id: "86", logo: "PEACE TV BANGLA1745044480.png" }
         ];
@@ -290,7 +279,7 @@
 
             osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
             osd.style.display = 'block';
-            setTimeout(() => { osd.style.display = 'none'; }, 4000);
+            setTimeout(() => { osd.style.display = 'none'; }, 6000);
             
             showSidebar();
         }
@@ -336,5 +325,6 @@
     </script>
 </body>
 </html>
+
 
 
