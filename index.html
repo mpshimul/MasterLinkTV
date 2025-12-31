@@ -295,9 +295,11 @@
             showSidebar();
         }
 
+         // HIDE LOADING SCREEN 2 SECONDS AFTER STARTING
         function hideLoading() {
-            clearTimeout(loadTimeout);
-            loader.style.display = 'none';
+            setTimeout(() => {
+                loader.style.display = 'none';
+            }, 2000); // 2000ms = 2 Seconds
         }
 
         function toggleSidebar() {
@@ -334,3 +336,4 @@
     </script>
 </body>
 </html>
+
