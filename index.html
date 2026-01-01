@@ -203,7 +203,6 @@
 
         let currentIndex = 0;
         let sidebarTimer;
-        let loadTimeout;
         let isStarted = false;
         let marqueeCycles = 0;
         
@@ -216,12 +215,10 @@
         const noticeBar = document.getElementById('notice-bar');
 
         function init() {
-            // Notice Bar cycle counter
+            // Notice Bar cycle counter: hide after 2 iterations
             marqueeEl.addEventListener('animationiteration', () => {
                 marqueeCycles++;
-                if (marqueeCycles >= 3) {
-                    noticeBar.style.display = 'none';
-                }
+                if (marqueeCycles >= 2) noticeBar.style.display = 'none';
             });
 
             let currentGroup = "";
@@ -237,7 +234,7 @@
                 li.className = 'channel-item';
                 li.id = "ch-" + i;
                 li.innerHTML = `<img src="http://10.99.99.99/assets/images/${ch.logo}"> <span class="channel-name">${ch.name}</span>`;
-                li.onclick = (e) => { e.stopPropagation(); playChannel(i); };
+                li.onclick = (e) => { e.stopPropagation(); playChannel(i, true); };
                 list.appendChild(li);
             });
             document.getElementById('start-btn-id').focus();
@@ -249,10 +246,10 @@
             
             // Resume history
             const lastChannel = localStorage.getItem('last_tv_channel');
-            playChannel(lastChannel ? parseInt(lastChannel) : 0);
+            playChannel(lastChannel ? parseInt(lastChannel) : 0, false);
         }
 
-        function playChannel(index) {
+        function playChannel(index, showSidebarAfter) {
             if (!isStarted) return;
             currentIndex = index;
             const ch = rawChannels[currentIndex];
@@ -260,16 +257,15 @@
             // Save history
             localStorage.setItem('last_tv_channel', currentIndex);
 
-            // Loader
+            // Loader UI
             loader.style.display = 'flex';
             document.getElementById('loading-img').src = `http://10.99.99.99/assets/images/${ch.logo}`;
-            document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:#888; font-size:14px">Buffering Stream...</span>`;
+            document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:#888; font-size:14px">Buffering...</span>`;
 
-            clearTimeout(loadTimeout);
-            loadTimeout = setTimeout(() => { loader.style.display = 'none'; }, 10000);
-
+            // Change Stream URL
             frame.src = `http://10.99.99.99/player.php?stream=${ch.id}&autoplay=1`;
 
+            // UI Highlight
             document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
             const active = document.getElementById("ch-" + index);
             if (active) {
@@ -277,18 +273,19 @@
                 active.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }
 
-            osd.innerHTML = `[${ch.group}] <b>${ch.name}</b>`;
+            // Pop-up Info
+            osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
             osd.style.display = 'block';
             setTimeout(() => { osd.style.display = 'none'; }, 8000);
             
-            showSidebar();
+            if (showSidebarAfter) showSidebar();
         }
 
-         // HIDE LOADING SCREEN 2 SECONDS AFTER STARTING
         function hideLoading() {
+            // Wait 2 seconds before hiding loading screen after iframe loads
             setTimeout(() => {
                 loader.style.display = 'none';
-            }, 3000); // 2000ms = 2 Seconds
+            }, 4000);
         }
 
         function toggleSidebar() {
@@ -308,16 +305,30 @@
                 if (e.key === "Enter" || e.key === "Ok") startApp();
                 return;
             }
-            showSidebar();
-            if (e.key === "ArrowUp" || e.key === "PageUp" || e.key === "ChannelUp") {
+
+            // UP/DOWN shows Sidebar. CH+/CH- (PageUp/Down) does NOT show Sidebar.
+            if (e.key === "ArrowUp") {
                 e.preventDefault();
                 currentIndex = (currentIndex > 0) ? currentIndex - 1 : rawChannels.length - 1;
-                playChannel(currentIndex);
+                playChannel(currentIndex, true); 
             } 
-            else if (e.key === "ArrowDown" || e.key === "PageDown" || e.key === "ChannelDown") {
+            else if (e.key === "ArrowDown") {
                 e.preventDefault();
                 currentIndex = (currentIndex < rawChannels.length - 1) ? currentIndex + 1 : 0;
-                playChannel(currentIndex);
+                playChannel(currentIndex, true);
+            }
+            else if (e.key === "PageUp" || e.key === "ChannelUp") {
+                e.preventDefault();
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : rawChannels.length - 1;
+                playChannel(currentIndex, false); 
+            }
+            else if (e.key === "PageDown" || e.key === "ChannelDown") {
+                e.preventDefault();
+                currentIndex = (currentIndex < rawChannels.length - 1) ? currentIndex + 1 : 0;
+                playChannel(currentIndex, false); 
+            }
+            else if (e.key === "Enter" || e.key === "Ok") {
+                toggleSidebar();
             }
         });
 
@@ -325,6 +336,7 @@
     </script>
 </body>
 </html>
+
 
 
 
