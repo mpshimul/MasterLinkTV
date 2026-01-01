@@ -69,22 +69,30 @@
 
         #osd { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.8); padding: 12px 30px; border-radius: 50px; z-index: 50; display: none; border: 1px solid #ff0000; text-align: center;}
 		
-		        /* Mobile CH Buttons with Logos */
+		        /* Mobile CH Buttons - HIDDEN BY DEFAULT */
         .mobile-ch-controls {
             position: fixed;
-            right: 10px;
+            right: 15px;
             top: 50%;
             transform: translateY(-50%);
-            display: flex;
+            display: none; /* Hidden on TV/Desktop */
             flex-direction: column;
-            gap: 30px;
+            gap: 40px;
             z-index: 5000;
         }
+
+        /* Show ONLY on touch-screen devices (Phones/Tablets) */
+        @media (pointer: coarse) {
+            .mobile-ch-controls {
+                display: flex;
+            }
+        }
+
         .ch-button {
             width: 50px;
             height: 50px;
             background: rgba(255, 255, 255, 0.15);
-            border: 2px solid rgba(255, 255, 255, 0.4);
+            border: 2px solid rgba(255, 255, 255, 0.5);
             border-radius: 50%;
             display: flex;
             flex-direction: column;
@@ -92,7 +100,6 @@
             align-items: center;
             cursor: pointer;
             backdrop-filter: blur(8px);
-            overflow: visible;
             position: relative;
         }
         .ch-button img {
@@ -100,8 +107,8 @@
             height: 90%;
             object-fit: contain;
             border-radius: 50%;
-            background: white; /* Ensures transparent logos are visible */
-            padding: 1px;
+            background: white;
+            padding: 2px;
         }
         .ch-label-next {
             position: absolute;
@@ -122,8 +129,6 @@
             padding: 2px 6px;
             border-radius: 10px;
             text-transform: uppercase;
-        }
-        @media (pointer: fine) { .mobile-ch-controls { display: none; } }
         }
     </style>
 </head>
@@ -282,12 +287,22 @@
         const marqueeEl = document.getElementById('marquee-text');
         const noticeBar = document.getElementById('notice-bar');
 
-        function init() {
+                function init() {
+            // 1. Detect if it's a TV and hide mobile buttons if so
+            const userAgent = navigator.userAgent.toLowerCase();
+            const isTV = userAgent.includes("tv") || userAgent.includes("smarttv") || userAgent.includes("googletv") || userAgent.includes("appletv");
+            
+            if (isTV) {
+                document.querySelector('.mobile-ch-controls').style.display = 'none';
+            }
+
+            // 2. Marquee logic
             marqueeEl.addEventListener('animationiteration', () => {
                 marqueeCycles++;
-                if (marqueeCycles >= 2) noticeBar.style.display = 'none';
+                if (marqueeCycles >= 3) noticeBar.style.display = 'none';
             });
 
+            // 3. Render Channel List
             let currentGroup = "";
             rawChannels.forEach((ch, i) => {
                 if (ch.group !== currentGroup) {
@@ -304,6 +319,7 @@
                 li.onclick = (e) => { e.stopPropagation(); playChannel(i, true); };
                 list.appendChild(li);
             });
+
             document.getElementById('start-btn-id').focus();
         }
 
