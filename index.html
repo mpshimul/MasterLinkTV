@@ -178,101 +178,102 @@
     <script>
         // FULL DATASET (Simplified for code length, includes all 90 IDs internally)
         const rawChannels = [
-            { group: "Bangla", name: "ATN BANGLA", id: "80", logo: "ATN BANGLA1745044183.png" },
-            { group: "Bangla", name: "ATN NEWS", id: "95", logo: "ATN NEWS1745045113.png" },
-            { group: "Bangla", name: "CHANNEL 24", id: "82", logo: "CHANNEL 241745044263.png" },
-            { group: "Bangla", name: "CHANNEL I", id: "81", logo: "CHANNEL I1745044237.png" },
-            { group: "Bangla", name: "COLORS BANGLA CINEMA", id: "47", logo: "COLORS BANGLA CINEMA1745041486.png" },
-            { group: "Bangla", name: "COLORS BANGLA HD", id: "12", logo: "COLORS BANGLA HD1745033576.png" },
-            { group: "Bangla", name: "GTV", id: "56", logo: "GTV1745042853.png" },
-            { group: "Bangla", name: "INDEPENDENT TV", id: "77", logo: "INDEPENDENT TV1745044077.png" },
-            { group: "Bangla", name: "JAMUNA TV", id: "76", logo: "JAMUNA TV1745044052.png" },
-            { group: "Bangla", name: "JALSHA MOVIES HD", id: "19", logo: "JALSHA MOVIES HD1745034005.png" },
-            { group: "Bangla", name: "MAASRANGA HD", id: "78", logo: "MAASRANGA HD1745044117.png" },
-            { group: "Bangla", name: "NAGORIK", id: "54", logo: "NAGORIK1745042776.png" },
-            { group: "Bangla", name: "SOMOY TV", id: "79", logo: "SOMOY TV1745044149.png" },
-            { group: "Bangla", name: "SONY AAT", id: "44", logo: "SONY AAT1745041124.png" },
-            { group: "Bangla", name: "STAR JALSHA HD", id: "18", logo: "STAR JALSHA HD1745033819.png" },
-            { group: "Bangla", name: "SUN BANGLA HD", id: "17", logo: "SUN BANGLA HD1745033791.png" },
-            { group: "Bangla", name: "ZEE BANGLA CINEMA", id: "43", logo: "ZEE BANGLA CINEMA1745040996.png" },
-            { group: "Bangla", name: "ZEE BANGLA HD", id: "14", logo: "ZEE BANGLA HD1745033633.png" },
-			
-            { group: "Sports", name: "A SPORTS HD", id: "88", logo: "A SPORTS HD1745044782.png" },
-            { group: "Sports", name: "EUROSPORTS HD", id: "40", logo: "EUROSPORTS HD1745040406.png" },
-            { group: "Sports", name: "FAST SPORTS HD", id: "87", logo: "FAST SPORTS HD1745044750.png" },
-            { group: "Sports", name: "GOLF SPORTS", id: "66", logo: "GOLF SPORTS1745043338.png" },
-            { group: "Sports", name: "PTV SPORTS HD", id: "92", logo: "PTV SPORTS HD1745044993.png" },
-            { group: "Sports", name: "SONY SPORTS 1 HD", id: "74", logo: "sony sports 1 hd.png" },
-            { group: "Sports", name: "SONY SPORTS 2 HD", id: "29", logo: "sony sports 2 hd.png" },
-            { group: "Sports", name: "SONY SPORTS 3", id: "30", logo: "Sony sports 3.png" },
-            { group: "Sports", name: "SONY SPORTS 4", id: "72", logo: "sony sports 4.png" },
-            { group: "Sports", name: "SONY SPORTS 5 HD", id: "101", logo: "sony sports 5 hd.png" },
-            { group: "Sports", name: "SSC SPORTS", id: "96", logo: "ssc 1 hd.png" },
-            { group: "Sports", name: "SSC SPORTS 5 HD", id: "103", logo: "ssc 5 hd.png" },
-            { group: "Sports", name: "STAR SELECT 1 HD", id: "28", logo: "STAR SELECT 1 HD1745038777.png" },
-            { group: "Sports", name: "STAR SPORTS 1 HD", id: "2", logo: "STAR SPORTS 1 HD1744991778.png" },
-            { group: "Sports", name: "STAR SPORTS 2 HD", id: "3", logo: "STAR SPORTS 2 HD1744991842.png" },
-            { group: "Sports", name: "STAR SPORTS 3", id: "31", logo: "STAR SPORTS 31745039893.png" },
-            { group: "Sports", name: "STAR SPORTS SELECT 2 HD", id: "16", logo: "STAR SPORTS SELECT 2 HD1745033722.png" },
-            { group: "Sports", name: "T SPORTS", id: "1", logo: "T SPORTS1744972630.png" },
-            
-			{ group: "Kids", name: "BAL BHARAT", id: "50", logo: "BAL BHARAT1745041576.png" },
-            { group: "Kids", name: "CARTOON NETWORK", id: "8", logo: "CARTOON NETWORK1745033414.png" },
-            { group: "Kids", name: "DURANTA TV", id: "68", logo: "DURANTA TV1745043400.png" },
-            { group: "Kids", name: "HUNGAMA", id: "49", logo: "HUNGAMA1745041551.png" },
-            { group: "Kids", name: "NICK", id: "46", logo: "NICK1745041451.png" },
-            { group: "Kids", name: "NICK JR", id: "51", logo: "NICK JR1745042397.png" },
-            { group: "Kids", name: "POGO", id: "48", logo: "POGO1745041515.png" },
-            { group: "Kids", name: "SONIC", id: "45", logo: "SONIC1745041154.png" },
-            { group: "Kids", name: "SONY YAY", id: "93", logo: "SONY YAY1745045046.png" },
-            { group: "Kids", name: "SUPER HUNGAMA", id: "75", logo: "SUPER HUNGAMA1745044022.png" },
-            
-			{ group: "Hindi", name: "AND PICTURS HD", id: "5", logo: "AND PICTURS HD1745031440.png" },
-            { group: "Hindi", name: "COLORS CINEPLEX HD", id: "10", logo: "COLORS CINEPLEX HD1745033519.png" },
-            { group: "Hindi", name: "COLORS HD", id: "4", logo: "COLORS HD1745031404.png" },
-            { group: "Hindi", name: "GEO NEWS HD", id: "90", logo: "GEO NEWS HD1745044892.png" },
-            { group: "Hindi", name: "HUM TV", id: "89", logo: "HUM TV1745044837.png" },
-            { group: "Hindi", name: "SONY ENT HD", id: "11", logo: "SONY ENT HD1745033553.png" },
-            { group: "Hindi", name: "SONY MAX HD", id: "21", logo: "SONY MAX HD1745034069.png" },
-            { group: "Hindi", name: "STAR BHARAT HD", id: "100", logo: "STAR BHARAT HD1745045255.png" },
-            { group: "Hindi", name: "STAR GOLD 2 HD", id: "69", logo: "STAR GOLD 2 HD1745043441.png" },
-            { group: "Hindi", name: "STAR GOLD HD", id: "20", logo: "STAR GOLD HD1745034037.png" },
-            { group: "Hindi", name: "STAR GOLD SELECT HD", id: "71", logo: "STAR GOLD SELECT HD1745043508.png" },
-            { group: "Hindi", name: "STAR PLUS HD", id: "24", logo: "STAR PLUS HD1745038577.png" },
-            { group: "Hindi", name: "ZEE CINEMA HD", id: "13", logo: "ZEE CINEMA HD1745033602.png" },
-            { group: "Hindi", name: "ZEE TV HD", id: "7", logo: "ZEE TV HD1745033383.png" },
-            { group: "Hindi", name: "ZING", id: "53", logo: "ZING1745042718.png" },
-            { group: "Hindi", name: "ZOOM", id: "42", logo: "ZOOM1745040961.png" },
-            
-			{ group: "English", name: "ALJAZEETA HD", id: "85", logo: "ALJAZEETA HD1745044358.png" },
-            { group: "English", name: "AND FLIX HD", id: "35", logo: "AND FLIX HD1745040018.png" },
-            { group: "English", name: "AND PRIVE HD", id: "41", logo: "AND PRIVE HD1745040451.png" },
-            { group: "English", name: "AND XPLORE", id: "61", logo: "AND XPLORE1745043080.png" },
-            { group: "English", name: "ANIMAL PLANET HD", id: "26", logo: "ANIMAL PLANET HD1745038671.png" },
-            { group: "English", name: "AXN HD", id: "97", logo: "AXN HD1745045171.png" },
-            { group: "English", name: "BBC EARTH HD", id: "102", logo: "BBC EARTH HD1745150455.png" },
-            { group: "English", name: "DISCOVERY HD", id: "22", logo: "discovery hd.png" },
-            { group: "English", name: "HISTORY TV HD", id: "15", logo: "HISTORY TV HD1745033679.png" },
-            { group: "English", name: "HITZ MUSIC", id: "70", logo: "HITZ MUSIC1745043478.png" },
-            { group: "English", name: "LOTUS TV", id: "91", logo: "LOTUS TV1745044960.png" },
-            { group: "English", name: "LOVE NATURE", id: "67", logo: "LOVE NATURE1745043370.png" },
-            { group: "English", name: "MN PLUS", id: "36", logo: "MN PLUS1745040057.png" },
-            { group: "English", name: "MNX HD", id: "33", logo: "MNX HD1745039955.png" },
-            { group: "English", name: "MOVIES NOW HD", id: "39", logo: "MOVIES NOW HD1745040368.png" },
-            { group: "English", name: "NATGEO HD", id: "25", logo: "NATGEO HD1745038634.png" },
-            { group: "English", name: "NATGEO WILD HD", id: "23", logo: "NATGEO WILD HD1745038542.png" },
-            { group: "English", name: "ROMEDY NOW", id: "34", logo: "ROMEDY NOW1745039988.png" },
-            { group: "English", name: "SONY BBC EARTH HD", id: "6", logo: "SONY BBC EARTH HD1745031522.png" },
-            { group: "English", name: "SONY PIX HD", id: "32", logo: "SONY PIX HD1745039925.png" },
-            { group: "English", name: "STAR MOVIES HD", id: "38", logo: "STAR MOVIES HD1745040174.png" },
-            { group: "English", name: "STAR MOVIES SELECT HD", id: "27", logo: "STAR MOVIES SELECT HD1745038723.png" },
-            { group: "English", name: "TLC HD", id: "9", logo: "TLC HD1745033484.png" },
-            { group: "English", name: "TRAVEL XP", id: "62", logo: "TRAVEL XP1745043118.png" },
-            { group: "English", name: "ZEE CAFE HD", id: "37", logo: "ZEE CAFE HD1745040102.png" },
-            
-			{ group: "Islamic", name: "MADANI TV HD", id: "83", logo: "MADANI TV HD1745044303.png" },
-            { group: "Islamic", name: "PEACE TV BANGLA", id: "86", logo: "PEACE TV BANGLA1745044480.png" }
-        ];
+	{ group: "Bangla", name: "ATN BANGLA", stream: "http://10.99.99.99/player.php?stream=80&autoplay=1", logo: "http://10.99.99.99/assets/images/ATN BANGLA1745044183.png" },
+    { group: "Bangla", name: "ATN NEWS", stream: "http://10.99.99.99/player.php?stream=95&autoplay=1", logo: "http://10.99.99.99/assets/images/ATN NEWS1745045113.png" },
+    { group: "Bangla", name: "CHANNEL 24", stream: "http://10.99.99.99/player.php?stream=82&autoplay=1", logo: "http://10.99.99.99/assets/images/CHANNEL 241745044263.png" },
+    { group: "Bangla", name: "CHANNEL I", stream: "http://10.99.99.99/player.php?stream=81&autoplay=1", logo: "http://10.99.99.99/assets/images/CHANNEL I1745044237.png" },
+    { group: "Bangla", name: "COLORS BANGLA CINEMA", stream: "http://10.99.99.99/player.php?stream=47&autoplay=1", logo: "http://10.99.99.99/assets/images/COLORS BANGLA CINEMA1745041486.png" },
+    { group: "Bangla", name: "COLORS BANGLA HD", stream: "http://10.99.99.99/player.php?stream=12&autoplay=1", logo: "http://10.99.99.99/assets/images/COLORS BANGLA HD1745033576.png" },
+    { group: "Bangla", name: "GTV", stream: "http://10.99.99.99/player.php?stream=56&autoplay=1", logo: "http://10.99.99.99/assets/images/GTV1745042853.png" },
+    { group: "Bangla", name: "INDEPENDENT TV", stream: "http://10.99.99.99/player.php?stream=77&autoplay=1", logo: "http://10.99.99.99/assets/images/INDEPENDENT TV1745044077.png" },
+    { group: "Bangla", name: "JAMUNA TV", stream: "http://10.99.99.99/player.php?stream=76&autoplay=1", logo: "http://10.99.99.99/assets/images/JAMUNA TV1745044052.png" },
+    { group: "Bangla", name: "JALSHA MOVIES HD", stream: "http://10.99.99.99/player.php?stream=19&autoplay=1", logo: "http://10.99.99.99/assets/images/JALSHA MOVIES HD1745034005.png" },
+    { group: "Bangla", name: "MAASRANGA HD", stream: "http://10.99.99.99/player.php?stream=78&autoplay=1", logo: "http://10.99.99.99/assets/images/MAASRANGA HD1745044117.png" },
+    { group: "Bangla", name: "NAGORIK", stream: "http://10.99.99.99/player.php?stream=54&autoplay=1", logo: "http://10.99.99.99/assets/images/NAGORIK1745042776.png" },
+    { group: "Bangla", name: "SOMOY TV", stream: "http://10.99.99.99/player.php?stream=79&autoplay=1", logo: "http://10.99.99.99/assets/images/SOMOY TV1745044149.png" },
+    { group: "Bangla", name: "SONY AAT", stream: "http://10.99.99.99/player.php?stream=44&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY AAT1745041124.png" },
+    { group: "Bangla", name: "STAR JALSHA HD", stream: "http://10.99.99.99/player.php?stream=18&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR JALSHA HD1745033819.png" },
+    { group: "Bangla", name: "SUN BANGLA HD", stream: "http://10.99.99.99/player.php?stream=17&autoplay=1", logo: "http://10.99.99.99/assets/images/SUN BANGLA HD1745033791.png" },
+    { group: "Bangla", name: "ZEE BANGLA CINEMA", stream: "http://10.99.99.99/player.php?stream=43&autoplay=1", logo: "http://10.99.99.99/assets/images/ZEE BANGLA CINEMA1745040996.png" },
+    { group: "Bangla", name: "ZEE BANGLA HD", stream: "http://10.99.99.99/player.php?stream=14&autoplay=1", logo: "http://10.99.99.99/assets/images/ZEE BANGLA HD1745033633.png" },
+
+    { group: "Sports", name: "A SPORTS HD", stream: "http://10.99.99.99/player.php?stream=88&autoplay=1", logo: "http://10.99.99.99/assets/images/A SPORTS HD1745044782.png" },
+    { group: "Sports", name: "EUROSPORTS HD", stream: "http://10.99.99.99/player.php?stream=40&autoplay=1", logo: "http://10.99.99.99/assets/images/EUROSPORTS HD1745040406.png" },
+    { group: "Sports", name: "FAST SPORTS HD", stream: "http://10.99.99.99/player.php?stream=87&autoplay=1", logo: "http://10.99.99.99/assets/images/FAST SPORTS HD1745044750.png" },
+    { group: "Sports", name: "GOLF SPORTS", stream: "http://10.99.99.99/player.php?stream=66&autoplay=1", logo: "http://10.99.99.99/assets/images/GOLF SPORTS1745043338.png" },
+    { group: "Sports", name: "PTV SPORTS HD", stream: "http://10.99.99.99/player.php?stream=92&autoplay=1", logo: "http://10.99.99.99/assets/images/PTV SPORTS HD1745044993.png" },
+    { group: "Sports", name: "SONY SPORTS 1 HD", stream: "http://10.99.99.99/player.php?stream=74&autoplay=1", logo: "http://10.99.99.99/assets/images/sony sports 1 hd.png" },
+    { group: "Sports", name: "SONY SPORTS 2 HD", stream: "http://10.99.99.99/player.php?stream=29&autoplay=1", logo: "http://10.99.99.99/assets/images/sony sports 2 hd.png" },
+    { group: "Sports", name: "SONY SPORTS 3", stream: "http://10.99.99.99/player.php?stream=30&autoplay=1", logo: "http://10.99.99.99/assets/images/Sony sports 3.png" },
+    { group: "Sports", name: "SONY SPORTS 4", stream: "http://10.99.99.99/player.php?stream=72&autoplay=1", logo: "http://10.99.99.99/assets/images/sony sports 4.png" },
+    { group: "Sports", name: "SONY SPORTS 5 HD", stream: "http://10.99.99.99/player.php?stream=101&autoplay=1", logo: "http://10.99.99.99/assets/images/sony sports 5 hd.png" },
+    { group: "Sports", name: "SSC SPORTS", stream: "http://10.99.99.99/player.php?stream=96&autoplay=1", logo: "http://10.99.99.99/assets/images/ssc 1 hd.png" },
+    { group: "Sports", name: "SSC SPORTS 5 HD", stream: "http://10.99.99.99/player.php?stream=103&autoplay=1", logo: "http://10.99.99.99/assets/images/ssc 5 hd.png" },
+    { group: "Sports", name: "STAR SELECT 1 HD", stream: "http://10.99.99.99/player.php?stream=28&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR SELECT 1 HD1745038777.png" },
+    { group: "Sports", name: "STAR SPORTS 1 HD", stream: "http://10.99.99.99/player.php?stream=2&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR SPORTS 1 HD1744991778.png" },
+    { group: "Sports", name: "STAR SPORTS 2 HD", stream: "http://10.99.99.99/player.php?stream=3&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR SPORTS 2 HD1744991842.png" },
+    { group: "Sports", name: "STAR SPORTS 3", stream: "http://10.99.99.99/player.php?stream=31&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR SPORTS 31745039893.png" },
+    { group: "Sports", name: "STAR SPORTS SELECT 2 HD", stream: "http://10.99.99.99/player.php?stream=16&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR SPORTS SELECT 2 HD1745033722.png" },
+    { group: "Sports", name: "T SPORTS", stream: "http://10.99.99.99/player.php?stream=1&autoplay=1", logo: "http://10.99.99.99/assets/images/T SPORTS1744972630.png" },
+	
+    { group: "Kids", name: "BAL BHARAT", stream: "http://10.99.99.99/player.php?stream=50&autoplay=1", logo: "http://10.99.99.99/assets/images/BAL BHARAT1745041576.png" },
+	{ group: "Kids", name: "CARTOON NETWORK", stream: "http://10.99.99.99/player.php?stream=8&autoplay=1", logo: "http://10.99.99.99/assets/images/CARTOON NETWORK1745033414.png" },
+    { group: "Kids", name: "DURANTA TV", stream: "http://10.99.99.99/player.php?stream=68&autoplay=1", logo: "http://10.99.99.99/assets/images/DURANTA TV1745043400.png" },
+    { group: "Kids", name: "HUNGAMA", stream: "http://10.99.99.99/player.php?stream=49&autoplay=1", logo: "http://10.99.99.99/assets/images/HUNGAMA1745041551.png" },
+    { group: "Kids", name: "NICK", stream: "http://10.99.99.99/player.php?stream=46&autoplay=1", logo: "http://10.99.99.99/assets/images/NICK1745041451.png" },
+    { group: "Kids", name: "NICK JR", stream: "http://10.99.99.99/player.php?stream=51&autoplay=1", logo: "http://10.99.99.99/assets/images/NICK JR1745042397.png" },
+    { group: "Kids", name: "POGO", stream: "http://10.99.99.99/player.php?stream=48&autoplay=1", logo: "http://10.99.99.99/assets/images/POGO1745041515.png" },
+    { group: "Kids", name: "SONIC", stream: "http://10.99.99.99/player.php?stream=45&autoplay=1", logo: "http://10.99.99.99/assets/images/SONIC1745041154.png" },
+	{ group: "Kids", name: "SONY YAY BANGLA", stream: "https://tv.roarzone.info/player.php?stream=toffee/sonyyay", logo: "http://10.99.99.99/assets/images/SONY YAY1745045046.png" },
+	{ group: "Kids", name: "SONY YAY HINDI", stream: "http://10.99.99.99/player.php?stream=93&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY YAY1745045046.png" },
+    { group: "Kids", name: "SUPER HUNGAMA", stream: "http://10.99.99.99/player.php?stream=75&autoplay=1", logo: "http://10.99.99.99/assets/images/SUPER HUNGAMA1745044022.png" },
+	
+    { group: "Hindi", name: "AND PICTURS HD", stream: "http://10.99.99.99/player.php?stream=5&autoplay=1", logo: "http://10.99.99.99/assets/images/AND PICTURS HD1745031440.png" },
+    { group: "Hindi", name: "COLORS CINEPLEX HD", stream: "http://10.99.99.99/player.php?stream=10&autoplay=1", logo: "http://10.99.99.99/assets/images/COLORS CINEPLEX HD1745033519.png" },
+    { group: "Hindi", name: "COLORS HD", stream: "http://10.99.99.99/player.php?stream=4&autoplay=1", logo: "http://10.99.99.99/assets/images/COLORS HD1745031404.png" },
+    { group: "Hindi", name: "GEO NEWS HD", stream: "http://10.99.99.99/player.php?stream=90&autoplay=1", logo: "http://10.99.99.99/assets/images/GEO NEWS HD1745044892.png" },
+    { group: "Hindi", name: "HUM TV", stream: "http://10.99.99.99/player.php?stream=89&autoplay=1", logo: "http://10.99.99.99/assets/images/HUM TV1745044837.png" },
+    { group: "Hindi", name: "SONY ENT HD", stream: "http://10.99.99.99/player.php?stream=11&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY ENT HD1745033553.png" },
+    { group: "Hindi", name: "SONY MAX HD", stream: "http://10.99.99.99/player.php?stream=21&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY MAX HD1745034069.png" },
+    { group: "Hindi", name: "STAR BHARAT HD", stream: "http://10.99.99.99/player.php?stream=100&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR BHARAT HD1745045255.png" },
+    { group: "Hindi", name: "STAR GOLD 2 HD", stream: "http://10.99.99.99/player.php?stream=69&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR GOLD 2 HD1745043441.png" },
+    { group: "Hindi", name: "STAR GOLD HD", stream: "http://10.99.99.99/player.php?stream=20&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR GOLD HD1745034037.png" },
+    { group: "Hindi", name: "STAR GOLD SELECT HD", stream: "http://10.99.99.99/player.php?stream=71&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR GOLD SELECT HD1745043508.png" },
+    { group: "Hindi", name: "STAR PLUS HD", stream: "http://10.99.99.99/player.php?stream=24&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR PLUS HD1745038577.png" },
+    { group: "Hindi", name: "ZEE CINEMA HD", stream: "http://10.99.99.99/player.php?stream=13&autoplay=1", logo: "http://10.99.99.99/assets/images/ZEE CINEMA HD1745033602.png" },
+    { group: "Hindi", name: "ZEE TV HD", stream: "http://10.99.99.99/player.php?stream=7&autoplay=1", logo: "http://10.99.99.99/assets/images/ZEE TV HD1745033383.png" },
+    { group: "Hindi", name: "ZING", stream: "http://10.99.99.99/player.php?stream=53&autoplay=1", logo: "http://10.99.99.99/assets/images/ZING1745042718.png" },
+    { group: "Hindi", name: "ZOOM", stream: "http://10.99.99.99/player.php?stream=42&autoplay=1", logo: "http://10.99.99.99/assets/images/ZOOM1745040961.png" },
+
+    { group: "English", name: "ALJAZEETA HD", stream: "http://10.99.99.99/player.php?stream=85&autoplay=1", logo: "http://10.99.99.99/assets/images/ALJAZEETA HD1745044358.png" },
+    { group: "English", name: "AND FLIX HD", stream: "http://10.99.99.99/player.php?stream=35&autoplay=1", logo: "http://10.99.99.99/assets/images/AND FLIX HD1745040018.png" },
+    { group: "English", name: "AND PRIVE HD", stream: "http://10.99.99.99/player.php?stream=41&autoplay=1", logo: "http://10.99.99.99/assets/images/AND PRIVE HD1745040451.png" },
+    { group: "English", name: "AND XPLORE", stream: "http://10.99.99.99/player.php?stream=61&autoplay=1", logo: "http://10.99.99.99/assets/images/AND XPLORE1745043080.png" },
+    { group: "English", name: "ANIMAL PLANET HD", stream: "http://10.99.99.99/player.php?stream=26&autoplay=1", logo: "http://10.99.99.99/assets/images/ANIMAL PLANET HD1745038671.png" },
+    { group: "English", name: "AXN HD", stream: "http://10.99.99.99/player.php?stream=97&autoplay=1", logo: "http://10.99.99.99/assets/images/AXN HD1745045171.png" },
+    { group: "English", name: "BBC EARTH HD", stream: "http://10.99.99.99/player.php?stream=102&autoplay=1", logo: "http://10.99.99.99/assets/images/BBC EARTH HD1745150455.png" },
+    { group: "English", name: "DISCOVERY HD", stream: "http://10.99.99.99/player.php?stream=22&autoplay=1", logo: "http://10.99.99.99/assets/images/discovery hd.png" },
+    { group: "English", name: "HISTORY TV HD", stream: "http://10.99.99.99/player.php?stream=15&autoplay=1", logo: "http://10.99.99.99/assets/images/HISTORY TV HD1745033679.png" },
+    { group: "English", name: "HITZ MUSIC", stream: "http://10.99.99.99/player.php?stream=70&autoplay=1", logo: "http://10.99.99.99/assets/images/HITZ MUSIC1745043478.png" },
+    { group: "English", name: "LOTUS TV", stream: "http://10.99.99.99/player.php?stream=91&autoplay=1", logo: "http://10.99.99.99/assets/images/LOTUS TV1745044960.png" },
+    { group: "English", name: "LOVE NATURE", stream: "http://10.99.99.99/player.php?stream=67&autoplay=1", logo: "http://10.99.99.99/assets/images/LOVE NATURE1745043370.png" },
+    { group: "English", name: "MN PLUS", stream: "http://10.99.99.99/player.php?stream=36&autoplay=1", logo: "http://10.99.99.99/assets/images/MN PLUS1745040057.png" },
+    { group: "English", name: "MNX HD", stream: "http://10.99.99.99/player.php?stream=33&autoplay=1", logo: "http://10.99.99.99/assets/images/MNX HD1745039955.png" },
+    { group: "English", name: "MOVIES NOW HD", stream: "http://10.99.99.99/player.php?stream=39&autoplay=1", logo: "http://10.99.99.99/assets/images/MOVIES NOW HD1745040368.png" },
+    { group: "English", name: "NATGEO HD", stream: "http://10.99.99.99/player.php?stream=25&autoplay=1", logo: "http://10.99.99.99/assets/images/NATGEO HD1745038634.png" },
+    { group: "English", name: "NATGEO WILD HD", stream: "http://10.99.99.99/player.php?stream=23&autoplay=1", logo: "http://10.99.99.99/assets/images/NATGEO WILD HD1745038542.png" },
+    { group: "English", name: "ROMEDY NOW", stream: "http://10.99.99.99/player.php?stream=34&autoplay=1", logo: "http://10.99.99.99/assets/images/ROMEDY NOW1745039988.png" },
+    { group: "English", name: "SONY BBC EARTH HD", stream: "http://10.99.99.99/player.php?stream=6&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY BBC EARTH HD1745031522.png" },
+    { group: "English", name: "SONY PIX HD", stream: "http://10.99.99.99/player.php?stream=32&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY PIX HD1745039925.png" },
+    { group: "English", name: "STAR MOVIES HD", stream: "http://10.99.99.99/player.php?stream=38&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR MOVIES HD1745040174.png" },
+    { group: "English", name: "STAR MOVIES SELECT HD", stream: "http://10.99.99.99/player.php?stream=27&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR MOVIES SELECT HD1745038723.png" },
+    { group: "English", name: "TLC HD", stream: "http://10.99.99.99/player.php?stream=9&autoplay=1", logo: "http://10.99.99.99/assets/images/TLC HD1745033484.png" },
+    { group: "English", name: "TRAVEL XP", stream: "http://10.99.99.99/player.php?stream=62&autoplay=1", logo: "http://10.99.99.99/assets/images/TRAVEL XP1745043118.png" },
+    { group: "English", name: "ZEE CAFE HD", stream: "http://10.99.99.99/player.php?stream=37&autoplay=1", logo: "http://10.99.99.99/assets/images/ZEE CAFE HD1745040102.png" },
+
+    { group: "Islamic", name: "MADANI TV HD", stream: "http://10.99.99.99/player.php?stream=83&autoplay=1", logo: "http://10.99.99.99/assets/images/MADANI TV HD1745044303.png" },
+    { group: "Islamic", name: "PEACE TV BANGLA", stream: "http://10.99.99.99/player.php?stream=86&autoplay=1", logo: "http://10.99.99.99/assets/images/PEACE TV BANGLA1745044480.png" }
+];
 
         let currentIndex = 0;
         let sidebarTimer;
@@ -287,22 +288,22 @@
         const marqueeEl = document.getElementById('marquee-text');
         const noticeBar = document.getElementById('notice-bar');
 
-                function init() {
-            // 1. Detect if it's a TV and hide mobile buttons if so
-            const userAgent = navigator.userAgent.toLowerCase();
-            const isTV = userAgent.includes("tv") || userAgent.includes("smarttv") || userAgent.includes("googletv") || userAgent.includes("appletv");
-            
-            if (isTV) {
-                document.querySelector('.mobile-ch-controls').style.display = 'none';
-            }
-
-            // 2. Marquee logic
+        function init() {
+            // Notice Bar hide after 2 iterations
             marqueeEl.addEventListener('animationiteration', () => {
                 marqueeCycles++;
-                if (marqueeCycles >= 3) noticeBar.style.display = 'none';
+                if (marqueeCycles >= 2) noticeBar.style.display = 'none';
             });
 
-            // 3. Render Channel List
+            // TV Detection to hide mobile buttons
+            const userAgent = navigator.userAgent.toLowerCase();
+            const isTV = userAgent.includes("tv") || userAgent.includes("smarttv") || userAgent.includes("googletv");
+            if (isTV) {
+                const mobControls = document.querySelector('.mobile-ch-controls');
+                if(mobControls) mobControls.style.display = 'none';
+            }
+
+            // Build Grouped List
             let currentGroup = "";
             rawChannels.forEach((ch, i) => {
                 if (ch.group !== currentGroup) {
@@ -315,22 +316,24 @@
                 const li = document.createElement('li');
                 li.className = 'channel-item';
                 li.id = "ch-" + i;
-                li.innerHTML = `<img src="http://10.99.99.99/assets/images/${ch.logo}"> <span class="channel-name">${ch.name}</span>`;
+                li.innerHTML = `<img src="${ch.logo}"> <span class="channel-name">${ch.name}</span>`;
                 li.onclick = (e) => { e.stopPropagation(); playChannel(i, true); };
                 list.appendChild(li);
             });
-
             document.getElementById('start-btn-id').focus();
         }
 
         function startApp() {
             isStarted = true;
             document.getElementById('splash').remove();
+            
+            // History: Load last watched or start at 0
             const lastChannel = localStorage.getItem('last_tv_channel');
             playChannel(lastChannel ? parseInt(lastChannel) : 0, false);
         }
 
         function mobileChangeChannel(direction) {
+            // direction -1 is prev, 1 is next
             let nextIndex = currentIndex + direction;
             if (nextIndex < 0) nextIndex = rawChannels.length - 1;
             if (nextIndex >= rawChannels.length) nextIndex = 0;
@@ -341,8 +344,10 @@
             const prevIdx = (currentIndex > 0) ? currentIndex - 1 : rawChannels.length - 1;
             const nextIdx = (currentIndex < rawChannels.length - 1) ? currentIndex + 1 : 0;
             
-            document.getElementById('btn-prev-img').src = `http://10.99.99.99/assets/images/${rawChannels[prevIdx].logo}`;
-            document.getElementById('btn-next-img').src = `http://10.99.99.99/assets/images/${rawChannels[nextIdx].logo}`;
+            const prevBtn = document.getElementById('btn-prev-img');
+            const nextBtn = document.getElementById('btn-next-img');
+            if (prevBtn) prevBtn.src = rawChannels[prevIdx].logo;
+            if (nextBtn) nextBtn.src = rawChannels[nextIdx].logo;
         }
 
         function playChannel(index, showSidebarAfter) {
@@ -351,15 +356,18 @@
             const ch = rawChannels[currentIndex];
             localStorage.setItem('last_tv_channel', currentIndex);
 
-            // Update mobile button logos
+            // Update mobile button previews
             updateMobileLogos();
 
+            // Show Loading Screen
             loader.style.display = 'flex';
-            document.getElementById('loading-img').src = `http://10.99.99.99/assets/images/${ch.logo}`;
+            document.getElementById('loading-img').src = ch.logo;
             document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:#888; font-size:14px">Buffering...</span>`;
 
-            frame.src = `http://10.99.99.99/player.php?stream=${ch.id}&autoplay=1`;
+            // Change Stream
+            frame.src = ch.stream;
 
+            // List UI update
             document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
             const active = document.getElementById("ch-" + index);
             if (active) {
@@ -367,6 +375,7 @@
                 active.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }
 
+            // OSD Popup
             osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
             osd.style.display = 'block';
             setTimeout(() => { osd.style.display = 'none'; }, 8000);
@@ -375,7 +384,10 @@
         }
 
         function hideLoading() {
-            setTimeout(() => { loader.style.display = 'none'; }, 4000);
+            // Wait 2 seconds after iframe loads to hide loader
+            setTimeout(() => {
+                loader.style.display = 'none';
+            }, 3000);
         }
 
         function toggleSidebar() {
@@ -395,6 +407,8 @@
                 if (e.key === "Enter" || e.key === "Ok") startApp();
                 return;
             }
+
+            // LOGIC: Arrow UP/DOWN opens sidebar. CH+/CH- (PageUp/Down) does NOT open sidebar.
             if (e.key === "ArrowUp") {
                 e.preventDefault();
                 currentIndex = (currentIndex > 0) ? currentIndex - 1 : rawChannels.length - 1;
@@ -424,10 +438,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-
-
-
