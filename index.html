@@ -165,12 +165,7 @@
     </div>
 
     <div id="player-container">
-	<iframe 
-	    id="main-frame" 
-	    src="" 
-	    allow="autoplay; encrypted-media; picture-in-picture" 
-	    onload="hideLoading()">
-	</iframe>
+        <iframe id="main-frame" src="" allow="autoplay; fullscreen" onload="hideLoading()"></iframe>
     </div>
 
     <div id="sidebar">
@@ -180,10 +175,9 @@
 
     <div id="osd"></div>
 
-	<script>
+    <script>
         // FULL DATASET (Simplified for code length, includes all 90 IDs internally)
-
-		const rawChannels = [
+        const rawChannels = [
 	{ group: "Bangla", name: "ATN BANGLA", stream: "http://10.99.99.99/player.php?stream=80&autoplay=1", logo: "http://10.99.99.99/assets/images/ATN BANGLA1745044183.png" },
     { group: "Bangla", name: "ATN NEWS", stream: "http://10.99.99.99/player.php?stream=95&autoplay=1", logo: "http://10.99.99.99/assets/images/ATN NEWS1745045113.png" },
     { group: "Bangla", name: "CHANNEL 24", stream: "http://10.99.99.99/player.php?stream=82&autoplay=1", logo: "http://10.99.99.99/assets/images/CHANNEL 241745044263.png" },
@@ -278,19 +272,8 @@
     { group: "English", name: "ZEE CAFE HD", stream: "http://10.99.99.99/player.php?stream=37&autoplay=1", logo: "http://10.99.99.99/assets/images/ZEE CAFE HD1745040102.png" },
 
     { group: "Islamic", name: "MADANI TV HD", stream: "http://10.99.99.99/player.php?stream=83&autoplay=1", logo: "http://10.99.99.99/assets/images/MADANI TV HD1745044303.png" },
-    { group: "Islamic", name: "PEACE TV BANGLA", stream: "http://10.99.99.99/player.php?stream=86&autoplay=1", logo: "http://10.99.99.99/assets/images/PEACE TV BANGLA1745044480.png" },
-
-			  // --- DOCUMENTARY ---
-  { group: "Documentary", name: "Discovery HD", stream: "https://tv.roarzone.info/player.php?stream=bk/83", logo: "https://tvassets.roarzone.info/images/43.png" },
-  { group: "Documentary", name: "Discovery Science", stream: "https://tv.roarzone.info/player.php?stream=toffee/discovery_science", logo: "https://tvassets.roarzone.info/images/discoveryscience.png" },
-  { group: "Documentary", name: "Discovery Turbo", stream: "https://tv.roarzone.info/player.php?stream=toffee/discovery_turbo", logo: "https://tvassets.roarzone.info/images/discoveryturbo.png" },
-  { group: "Documentary", name: "Discovery HD Investigation", stream: "https://tv.roarzone.info/player.php?stream=toffee/discovary_investigation_hd", logo: "https://tvassets.roarzone.info/images/discoveryhdInvestigation.png" },
-  { group: "Documentary", name: "CNN", stream: "https://tv.roarzone.info/player.php?stream=toffee/cnn", logo: "https://tvassets.roarzone.info/images/cnn.png" },
-  { group: "Documentary", name: "Sony BBC Earth HD", stream: "https://tv.roarzone.info/player.php?stream=bk/44", logo: "https://tvassets.roarzone.info/images/44.png" },
-  { group: "Documentary", name: "Natgeo", stream: "https://tv.roarzone.info/player.php?stream=bk/35", logo: "https://tvassets.roarzone.info/images/35.png" },
-  { group: "Documentary", name: "Animal Planet", stream: "https://tv.roarzone.info/player.php?stream=toffee/animal_planet_hd", logo: "https://tvassets.roarzone.info/images/animalplanet.png" }
+    { group: "Islamic", name: "PEACE TV BANGLA", stream: "http://10.99.99.99/player.php?stream=86&autoplay=1", logo: "http://10.99.99.99/assets/images/PEACE TV BANGLA1745044480.png" }
 ];
-
 
         let currentIndex = 0;
         let sidebarTimer;
@@ -367,57 +350,38 @@
             if (nextBtn) nextBtn.src = rawChannels[nextIdx].logo;
         }
 
-		function playChannel(index, showSidebarAfter) {
-			if (!isStarted) return;
-			currentIndex = index;
-			const ch = rawChannels[currentIndex];
-			localStorage.setItem('last_tv_channel', currentIndex);
-		
-			updateMobileLogos();
-		
-			loader.style.display = 'flex';
-			document.getElementById('loading-img').src = ch.logo;
-			document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:gold; font-size:14px">Buffering... Click video if no sound.</span>`;
-		
-			// ✅ Add muted=0 to URL to force audio on Android
-			let streamUrl = ch.stream;
-			if (!streamUrl.includes('?')) {
-				streamUrl += '?muted=0';
-			} else {
-				streamUrl += '&muted=0';
-			}
-			frame.src = streamUrl;
-		
-			document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
-			const active = document.getElementById("ch-" + index);
-			if (active) {
-				active.classList.add('selected');
-				active.scrollIntoView({ behavior: 'smooth', block: 'center' });
-			}
-		
-			osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
-			osd.style.display = 'block';
-			setTimeout(() => { osd.style.display = 'none'; }, 4000);
-			
-			if (showSidebarAfter) showSidebar();
-		}
+        function playChannel(index, showSidebarAfter) {
+            if (!isStarted) return;
+            currentIndex = index;
+            const ch = rawChannels[currentIndex];
+            localStorage.setItem('last_tv_channel', currentIndex);
 
-				// Listen for 'unmute' message from parent
-		window.addEventListener('message', function(event) {
-		    if (event.data && event.data.type === 'unmute') {
-		        // Try to unmute video elements
-		        const videos = document.querySelectorAll('video');
-		        videos.forEach(video => {
-		            video.muted = false;
-		            video.play().catch(e => console.log('Unmute failed:', e));
-		        });
-		
-		        // If you have a custom player, call its unmute function
-		        if (typeof player !== 'undefined' && player.unmute) {
-		            player.unmute();
-		        }
-		    }
-		});
+            // Update mobile button previews
+            updateMobileLogos();
+
+            // Show Loading Screen
+            loader.style.display = 'flex';
+            document.getElementById('loading-img').src = ch.logo;
+            document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:#888; font-size:14px">Buffering...</span>`;
+
+            // Change Stream
+            frame.src = ch.stream;
+
+            // List UI update
+            document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
+            const active = document.getElementById("ch-" + index);
+            if (active) {
+                active.classList.add('selected');
+                active.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+
+            // OSD Popup
+            osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
+            osd.style.display = 'block';
+            setTimeout(() => { osd.style.display = 'none'; }, 8000);
+            
+            if (showSidebarAfter) showSidebar();
+        }
 
         function hideLoading() {
             // Wait 2 seconds after iframe loads to hide loader
@@ -474,10 +438,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-
-
-
