@@ -367,38 +367,40 @@
             if (nextBtn) nextBtn.src = rawChannels[nextIdx].logo;
         }
 
-        function playChannel(index, showSidebarAfter) {
-            if (!isStarted) return;
-            currentIndex = index;
-            const ch = rawChannels[currentIndex];
-            localStorage.setItem('last_tv_channel', currentIndex);
+		function playChannel(index, showSidebarAfter) {
+			if (!isStarted) return;
+			currentIndex = index;
+			const ch = rawChannels[currentIndex];
+			localStorage.setItem('last_tv_channel', currentIndex);
 
-            // Update mobile button previews
-            updateMobileLogos();
+			updateMobileLogos();
 
-            // Show Loading Screen
-            loader.style.display = 'flex';
-            document.getElementById('loading-img').src = ch.logo;
-            document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:#888; font-size:14px">Buffering...</span>`;
+			loader.style.display = 'flex';
+			document.getElementById('loading-img').src = ch.logo;
+			document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:gold; font-size:14px">Buffering... Click video if no sound.</span>`;
 
-            // Change Stream
-            frame.src = ch.stream;
+			// ✅ Add muted=0 to URL to force audio on Android
+			let streamUrl = ch.stream;
+			if (!streamUrl.includes('?')) {
+				streamUrl += '?muted=0';
+			} else {
+				streamUrl += '&muted=0';
+			}
+			frame.src = streamUrl;
 
-            // List UI update
-            document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
-            const active = document.getElementById("ch-" + index);
-            if (active) {
-                active.classList.add('selected');
-                active.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }
+			document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
+			const active = document.getElementById("ch-" + index);
+			if (active) {
+				active.classList.add('selected');
+				active.scrollIntoView({ behavior: 'smooth', block: 'center' });
+			}
 
-            // OSD Popup
-            osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
-            osd.style.display = 'block';
-            setTimeout(() => { osd.style.display = 'none'; }, 8000);
-            
-            if (showSidebarAfter) showSidebar();
-        }
+			osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
+			osd.style.display = 'block';
+			setTimeout(() => { osd.style.display = 'none'; }, 8000);
+			
+			if (showSidebarAfter) showSidebar();
+		}
 
         function hideLoading() {
             // Wait 2 seconds after iframe loads to hide loader
@@ -455,6 +457,7 @@
     </script>
 </body>
 </html>
+
 
 
 
