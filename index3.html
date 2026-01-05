@@ -131,6 +131,9 @@
             text-transform: uppercase;
         }
     </style>
+
+	<script src="https://raw.githubusercontent.com/mpshimul/MasterLinkTV/main/channels3.js"></script>
+	
 </head>
 <body>
 
@@ -179,7 +182,7 @@
     </div>
 
     <div id="osd"></div>
-	<script src="https://raw.githubusercontent.com/mpshimul/MasterLinkTV/main/channels3.js"></script>
+	
 	<script>
         // FULL DATASET (Simplified for code length, includes all 90 IDs internally)
 
@@ -258,57 +261,60 @@
             if (nextBtn) nextBtn.src = rawChannels[nextIdx].logo;
         }
 
-		function playChannel(index, showSidebarAfter) {
-			if (!isStarted) return;
-			currentIndex = index;
-			const ch = rawChannels[currentIndex];
-			localStorage.setItem('last_tv_channel', currentIndex);
-		
-			updateMobileLogos();
-		
-			loader.style.display = 'flex';
-			document.getElementById('loading-img').src = ch.logo;
-			document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:gold; font-size:14px">Buffering... Click video if no sound.</span>`;
-		
-			// ✅ Add muted=0 to URL to force audio on Android
-			let streamUrl = ch.stream;
-			if (!streamUrl.includes('?')) {
-				streamUrl += '?muted=0';
-			} else {
-				streamUrl += '&muted=0';
-			}
-			frame.src = streamUrl;
-		
-			document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
-			const active = document.getElementById("ch-" + index);
-			if (active) {
-				active.classList.add('selected');
-				active.scrollIntoView({ behavior: 'smooth', block: 'center' });
-			}
-		
-			osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
-			osd.style.display = 'block';
-			setTimeout(() => { osd.style.display = 'none'; }, 4000);
-			
-			if (showSidebarAfter) showSidebar();
-		}
+function playChannel(index, showSidebarAfter) {
+    if (!isStarted) return;
+    currentIndex = index;
+    const ch = rawChannels[currentIndex];
+    localStorage.setItem('last_tv_channel', currentIndex);
 
-				// Listen for 'unmute' message from parent
-		window.addEventListener('message', function(event) {
-		    if (event.data && event.data.type === 'unmute') {
-		        // Try to unmute video elements
-		        const videos = document.querySelectorAll('video');
-		        videos.forEach(video => {
-		            video.muted = false;
-		            video.play().catch(e => console.log('Unmute failed:', e));
-		        });
-		
-		        // If you have a custom player, call its unmute function
-		        if (typeof player !== 'undefined' && player.unmute) {
-		            player.unmute();
-		        }
-		    }
-		});
+    updateMobileLogos();
+
+    loader.style.display = 'flex';
+    document.getElementById('loading-img').src = ch.logo;
+    document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:gold; font-size:14px">Buffering... Click video if no sound.</span>`;
+
+    // ✅ Add muted=0 to URL to force audio on Android
+    let streamUrl = ch.stream;
+    if (!streamUrl.includes('?')) {
+        streamUrl += '?muted=0';
+    } else {
+        streamUrl += '&muted=0';
+    }
+    frame.src = streamUrl;
+
+    document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
+    const active = document.getElementById("ch-" + index);
+    if (active) {
+        active.classList.add('selected');
+        active.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
+    osd.style.display = 'block';
+    setTimeout(() => { osd.style.display = 'none'; }, 4000);
+    
+    if (showSidebarAfter) showSidebar();
+}
+
+// Listen for 'unmute' message from parent
+window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'unmute') {
+        // Try to unmute video elements
+        const videos = document.querySelectorAll('video');
+        videos.forEach(video => {
+            video.muted = false;
+            video.play().catch(e => console.log('Unmute failed:', e));
+        });
+
+        // If you have a custom player, call its unmute function
+        if (typeof player !== 'undefined' && player.unmute) {
+            player.unmute();
+        }
+
+        // Also try to focus the body to trigger user gesture
+        document.body.focus();
+    }
+});
 
         function hideLoading() {
             // Wait 2 seconds after iframe loads to hide loader
