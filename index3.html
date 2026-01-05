@@ -130,6 +130,15 @@
             border-radius: 10px;
             text-transform: uppercase;
         }
+		#touch-overlay { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 60px; /* Only left edge! */ 
+    height: 100%; 
+    z-index: 10; 
+    cursor: pointer;
+}
     </style>
 
 	<script src="https://raw.githubusercontent.com/mpshimul/MasterLinkTV/main/channels3.js"></script>
@@ -271,16 +280,20 @@ function playChannel(index, showSidebarAfter) {
 
     loader.style.display = 'flex';
     document.getElementById('loading-img').src = ch.logo;
-    document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:gold; font-size:14px">Buffering... Click video if no sound.</span>`;
+    document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:#888; font-size:14px">Buffering...</span>`;
 
-    // ✅ Add muted=0 to URL to force audio on Android
-    let streamUrl = ch.stream;
-    if (!streamUrl.includes('?')) {
-        streamUrl += '?muted=0';
-    } else {
-        streamUrl += '&muted=0';
-    }
-    frame.src = streamUrl;
+    // Set stream (no need for &muted=0, the player ignores it anyway)
+    frame.src = ch.stream;
+
+    // ⭐ SEND UNMUTE MESSAGE AFTER FRAME LOADS
+    setTimeout(() => {
+        try {
+            frame.contentWindow.postMessage({action: 'unmute'}, '*');
+            console.log('Sent unmute to player');
+        } catch(e) {
+            console.log('Could not send unmute:', e);
+        }
+    }, 3000); // Wait 3 seconds for player to initialize
 
     document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
     const active = document.getElementById("ch-" + index);
