@@ -165,12 +165,12 @@
     </div>
 
     <div id="player-container">
-        <iframe 
-    id="main-frame" 
-    src="" 
-    allow="autoplay; encrypted-media; picture-in-picture" 
-    onload="hideLoading()">
-		</iframe>
+	<iframe 
+	    id="main-frame" 
+	    src="" 
+	    allow="autoplay; encrypted-media; picture-in-picture" 
+	    onload="hideLoading()">
+	</iframe>
     </div>
 
     <div id="sidebar">
@@ -372,13 +372,13 @@
 			currentIndex = index;
 			const ch = rawChannels[currentIndex];
 			localStorage.setItem('last_tv_channel', currentIndex);
-
+		
 			updateMobileLogos();
-
+		
 			loader.style.display = 'flex';
 			document.getElementById('loading-img').src = ch.logo;
 			document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:gold; font-size:14px">Buffering... Click video if no sound.</span>`;
-
+		
 			// ✅ Add muted=0 to URL to force audio on Android
 			let streamUrl = ch.stream;
 			if (!streamUrl.includes('?')) {
@@ -387,17 +387,17 @@
 				streamUrl += '&muted=0';
 			}
 			frame.src = streamUrl;
-
+		
 			document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
 			const active = document.getElementById("ch-" + index);
 			if (active) {
 				active.classList.add('selected');
 				active.scrollIntoView({ behavior: 'smooth', block: 'center' });
 			}
-
+		
 			osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
 			osd.style.display = 'block';
-			setTimeout(() => { osd.style.display = 'none'; }, 8000);
+			setTimeout(() => { osd.style.display = 'none'; }, 4000);
 			
 			if (showSidebarAfter) showSidebar();
 		}
@@ -457,6 +457,7 @@
     </script>
 </body>
 </html>
+
 
 
 
