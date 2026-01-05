@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live TV Pro</title>
+    <style>
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; font-family: 'Segoe UI', sans-serif; color: white; }
+        
+        /* Notice Bar (Marquee) */
+        #notice-bar {
+            position: fixed; top: 0; left: 0; width: 100%; height: 35px;
+            background: rgba(229, 9, 20, 0.6); color: white;
+            z-index: 2000; overflow: hidden; line-height: 35px;
+            font-size: 16px; font-weight: bold; pointer-events: none;
+            border-bottom: 2px solid gold;
+        }
+        .marquee {
+            display: inline-block; white-space: nowrap;
+            padding-left: 100%; 
+            animation: marquee 20s linear infinite; /* One spin is 20s */
+        }
+        @keyframes marquee {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(-100%, 0); }
+        }
+
+        /* Video Background */
+        #player-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
+        iframe { width: 100%; height: 100%; border: none; background: #000; }
+
+        /* Loading Screen */
+        #loading-screen {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: #000; display: none; flex-direction: column;
+            justify-content: center; align-items: center; z-index: 3000;
+        }
+        #loading-img { width: 90px; height: 70px; object-fit: contain; margin-bottom: 20px; background: white; padding: 8px; border-radius: 12px; }
+        #loading-msg { font-size: 20px; font-weight: bold; margin-bottom: 15px; text-align: center; }
+        .spinner { width: 40px; height: 40px; border: 4px solid #333; border-top: 4px solid #ff0000; border-radius: 50%; animation: spin 1s linear infinite; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        /* Touch Overlay for Phone */
+        #touch-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 5; background: transparent; }
+
+        /* Splash Screen */
+        #splash { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #111; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 9999; }
+        .start-btn { padding: 20px 60px; background: #ff0000; color: white; font-size: 26px; font-weight: bold; border: 4px solid transparent; border-radius: 50px; cursor: pointer; outline: none; transition: 0.3s; }
+        .start-btn:focus { border-color: white; box-shadow: 0 0 25px #ff0000; transform: scale(1.1); }
+
+        /* Sidebar Overlay */
+        #sidebar { 
+            position: fixed; top: 0; left: 0; width: 15%; height: 100%; 
+            background: rgba(0, 0, 0, 0.4); backdrop-filter: blur(15px); 
+            z-index: 4000; transform: translateX(-100%); 
+            transition: transform 0.3s ease-in-out; 
+            display: flex; flex-direction: column; border-right: 1px solid #333; 
+        }
+        #sidebar.active { transform: translateX(0); }
+        .sidebar-header { padding: 20px 20px 20px 20px; text-align: center; color: white; font-weight: bold; font-size: 16px; border-bottom: 1px solid #333; }
+        #channel-list { flex: 1; overflow-y: auto; list-style: none; padding: 0 5px 15px 5px; margin: 0; }
+        #channel-list::-webkit-scrollbar { width: 0px; }
+
+        .category-title { padding: 18px 10px 5px 10px; color: #ff0000; font-size: 14px; font-weight: bold; text-transform: uppercase; border-bottom: 1px solid #222; margin-top: 10px; }
+        .channel-item { display: flex; align-items: center; padding: 6px; margin-top: 5px; border-radius: 8px; background: rgba(255,255,255,0.03); border: 2px solid transparent; cursor: pointer; }
+        .channel-item.selected { background: rgba(255, 0, 0, 0.3); border-color: #ff0000; }
+        .channel-item img { width: 45px; height: 30px; object-fit: contain; margin-right: 12px; background: white; border-radius: 4px; padding: 1px; }
+        .channel-name { font-size: 9px; font-weight: 500; }
+
+        #osd { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.8); padding: 12px 30px; border-radius: 50px; z-index: 50; display: none; border: 1px solid #ff0000; text-align: center;}
+		
+		        /* Mobile CH Buttons - HIDDEN BY DEFAULT */
+        .mobile-ch-controls {
+            position: fixed;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: none; /* Hidden on TV/Desktop */
+            flex-direction: column;
+            gap: 40px;
+            z-index: 5000;
+        }
+
+        /* Show ONLY on touch-screen devices (Phones/Tablets) */
+        @media (pointer: coarse) {
+            .mobile-ch-controls {
+                display: flex;
+            }
+        }
+
+        .ch-button {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.15);
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            backdrop-filter: blur(8px);
+            position: relative;
+        }
+        .ch-button img {
+            width: 90%;
+            height: 90%;
+            object-fit: contain;
+            border-radius: 50%;
+            background: white;
+            padding: 2px;
+        }
+        .ch-label-next {
+            position: absolute;
+            bottom: -20px;
+            font-size: 10px;
+            font-weight: bold;
+            background: rgba(255, 0, 0, 0.8);
+            padding: 2px 6px;
+            border-radius: 10px;
+            text-transform: uppercase;
+        }
+		.ch-label-prev {
+            position: absolute;
+            top: -20px;
+            font-size: 10px;
+            font-weight: bold;
+            background: rgba(255, 0, 0, 0.8);
+            padding: 2px 6px;
+            border-radius: 10px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="notice-bar">
+        <div id="marquee-text" class="marquee">WELCOME TO LIVE TV! PLEASE ENSURE YOU ARE CONNECTED TO THE ISP NETWORK FOR BEST PERFORMANCE. ENJOY HIGH-QUALITY STREAMING OF YOUR FAVORITE CHANNELS.  •  WELCOME TO LIVE TV! • </div>
+    </div>
+	
+	    <div class="mobile-ch-controls">
+        <div class="ch-button" onclick="event.stopPropagation(); mobileChangeChannel(-1)">
+            <span class="ch-label-prev">Prev</span>
+            <img id="btn-prev-img" src="" alt="Prev">
+        </div>
+        <div class="ch-button" onclick="event.stopPropagation(); mobileChangeChannel(1)">
+            <span class="ch-label-next">Next</span>
+            <img id="btn-next-img" src="" alt="Next">
+        </div>
+    </div>
+
+    <div id="touch-overlay" onclick="toggleSidebar()"></div>
+
+    <div id="loading-screen">
+        <img id="loading-img" src="" alt="">
+        <div id="loading-msg">Channel loading...</div>
+        <div id="loading-spinner" class="spinner"></div>
+    </div>
+
+    <div id="splash">
+        <h1 style="color:red; font-size: 50px; margin-bottom: 0;">MASTER LINK LIVE TV</h1>
+        <p style="color: #666; margin-bottom: 30px;">Premium ISP Streaming</p>
+        <button id="start-btn-id" class="start-btn" onclick="startApp()" autofocus tabindex="1">START WATCHING</button>
+        <p style="margin-top:20px; color: #888;">Use TV remote Ok / Touch to start</p>
+    </div>
+
+    <div id="player-container">
+	<iframe 
+	    id="main-frame" 
+	    src="" 
+	    allow="autoplay; encrypted-media; picture-in-picture" 
+	    onload="hideLoading()">
+	</iframe>
+    </div>
+
+    <div id="sidebar">
+        <div class="sidebar-header">MASTER LINK TV</div>
+        <ul id="channel-list"></ul>
+    </div>
+
+    <div id="osd"></div>
+
+	<script>
+        // FULL DATASET (Simplified for code length, includes all 90 IDs internally)
+
+		const rawChannels = [
+	{ group: "Bangla", name: "ATN BANGLA", stream: "http://10.99.99.99/player.php?stream=80&autoplay=1", logo: "http://10.99.99.99/assets/images/ATN BANGLA1745044183.png" },
+    { group: "Bangla", name: "ATN NEWS", stream: "http://10.99.99.99/player.php?stream=95&autoplay=1", logo: "http://10.99.99.99/assets/images/ATN NEWS1745045113.png" },
+    { group: "Bangla", name: "CHANNEL 24", stream: "http://10.99.99.99/player.php?stream=82&autoplay=1", logo: "http://10.99.99.99/assets/images/CHANNEL 241745044263.png" },
+    { group: "Bangla", name: "CHANNEL I", stream: "http://10.99.99.99/player.php?stream=81&autoplay=1", logo: "http://10.99.99.99/assets/images/CHANNEL I1745044237.png" },
+    { group: "Bangla", name: "COLORS BANGLA CINEMA", stream: "http://10.99.99.99/player.php?stream=47&autoplay=1", logo: "http://10.99.99.99/assets/images/COLORS BANGLA CINEMA1745041486.png" },
+    { group: "Bangla", name: "COLORS BANGLA HD", stream: "http://10.99.99.99/player.php?stream=12&autoplay=1", logo: "http://10.99.99.99/assets/images/COLORS BANGLA HD1745033576.png" },
+    { group: "Bangla", name: "GTV", stream: "http://10.99.99.99/player.php?stream=56&autoplay=1", logo: "http://10.99.99.99/assets/images/GTV1745042853.png" },
+    { group: "Bangla", name: "INDEPENDENT TV", stream: "http://10.99.99.99/player.php?stream=77&autoplay=1", logo: "http://10.99.99.99/assets/images/INDEPENDENT TV1745044077.png" },
+    { group: "Bangla", name: "JAMUNA TV", stream: "http://10.99.99.99/player.php?stream=76&autoplay=1", logo: "http://10.99.99.99/assets/images/JAMUNA TV1745044052.png" },
+    { group: "Bangla", name: "JALSHA MOVIES HD", stream: "http://10.99.99.99/player.php?stream=19&autoplay=1", logo: "http://10.99.99.99/assets/images/JALSHA MOVIES HD1745034005.png" },
+    { group: "Bangla", name: "MAASRANGA HD", stream: "http://10.99.99.99/player.php?stream=78&autoplay=1", logo: "http://10.99.99.99/assets/images/MAASRANGA HD1745044117.png" },
+    { group: "Bangla", name: "NAGORIK", stream: "http://10.99.99.99/player.php?stream=54&autoplay=1", logo: "http://10.99.99.99/assets/images/NAGORIK1745042776.png" },
+    { group: "Bangla", name: "SOMOY TV", stream: "http://10.99.99.99/player.php?stream=79&autoplay=1", logo: "http://10.99.99.99/assets/images/SOMOY TV1745044149.png" },
+    { group: "Bangla", name: "SONY AAT", stream: "http://10.99.99.99/player.php?stream=44&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY AAT1745041124.png" },
+    { group: "Bangla", name: "STAR JALSHA HD", stream: "http://10.99.99.99/player.php?stream=18&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR JALSHA HD1745033819.png" },
+    { group: "Bangla", name: "SUN BANGLA HD", stream: "http://10.99.99.99/player.php?stream=17&autoplay=1", logo: "http://10.99.99.99/assets/images/SUN BANGLA HD1745033791.png" },
+    { group: "Bangla", name: "ZEE BANGLA CINEMA", stream: "http://10.99.99.99/player.php?stream=43&autoplay=1", logo: "http://10.99.99.99/assets/images/ZEE BANGLA CINEMA1745040996.png" },
+    { group: "Bangla", name: "ZEE BANGLA HD", stream: "http://10.99.99.99/player.php?stream=14&autoplay=1", logo: "http://10.99.99.99/assets/images/ZEE BANGLA HD1745033633.png" },
+
+    { group: "Sports", name: "A SPORTS HD", stream: "http://10.99.99.99/player.php?stream=88&autoplay=1", logo: "http://10.99.99.99/assets/images/A SPORTS HD1745044782.png" },
+    { group: "Sports", name: "EUROSPORTS HD", stream: "http://10.99.99.99/player.php?stream=40&autoplay=1", logo: "http://10.99.99.99/assets/images/EUROSPORTS HD1745040406.png" },
+    { group: "Sports", name: "FAST SPORTS HD", stream: "http://10.99.99.99/player.php?stream=87&autoplay=1", logo: "http://10.99.99.99/assets/images/FAST SPORTS HD1745044750.png" },
+    { group: "Sports", name: "GOLF SPORTS", stream: "http://10.99.99.99/player.php?stream=66&autoplay=1", logo: "http://10.99.99.99/assets/images/GOLF SPORTS1745043338.png" },
+    { group: "Sports", name: "PTV SPORTS HD", stream: "http://10.99.99.99/player.php?stream=92&autoplay=1", logo: "http://10.99.99.99/assets/images/PTV SPORTS HD1745044993.png" },
+    { group: "Sports", name: "SONY SPORTS 1 HD", stream: "http://10.99.99.99/player.php?stream=74&autoplay=1", logo: "http://10.99.99.99/assets/images/sony sports 1 hd.png" },
+    { group: "Sports", name: "SONY SPORTS 2 HD", stream: "http://10.99.99.99/player.php?stream=29&autoplay=1", logo: "http://10.99.99.99/assets/images/sony sports 2 hd.png" },
+    { group: "Sports", name: "SONY SPORTS 3", stream: "http://10.99.99.99/player.php?stream=30&autoplay=1", logo: "http://10.99.99.99/assets/images/Sony sports 3.png" },
+    { group: "Sports", name: "SONY SPORTS 4", stream: "http://10.99.99.99/player.php?stream=72&autoplay=1", logo: "http://10.99.99.99/assets/images/sony sports 4.png" },
+    { group: "Sports", name: "SONY SPORTS 5 HD", stream: "http://10.99.99.99/player.php?stream=101&autoplay=1", logo: "http://10.99.99.99/assets/images/sony sports 5 hd.png" },
+    { group: "Sports", name: "SSC SPORTS", stream: "http://10.99.99.99/player.php?stream=96&autoplay=1", logo: "http://10.99.99.99/assets/images/ssc 1 hd.png" },
+    { group: "Sports", name: "SSC SPORTS 5 HD", stream: "http://10.99.99.99/player.php?stream=103&autoplay=1", logo: "http://10.99.99.99/assets/images/ssc 5 hd.png" },
+    { group: "Sports", name: "STAR SELECT 1 HD", stream: "http://10.99.99.99/player.php?stream=28&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR SELECT 1 HD1745038777.png" },
+    { group: "Sports", name: "STAR SPORTS 1 HD", stream: "http://10.99.99.99/player.php?stream=2&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR SPORTS 1 HD1744991778.png" },
+    { group: "Sports", name: "STAR SPORTS 2 HD", stream: "http://10.99.99.99/player.php?stream=3&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR SPORTS 2 HD1744991842.png" },
+    { group: "Sports", name: "STAR SPORTS 3", stream: "http://10.99.99.99/player.php?stream=31&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR SPORTS 31745039893.png" },
+    { group: "Sports", name: "STAR SPORTS SELECT 2 HD", stream: "http://10.99.99.99/player.php?stream=16&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR SPORTS SELECT 2 HD1745033722.png" },
+    { group: "Sports", name: "T SPORTS", stream: "http://10.99.99.99/player.php?stream=1&autoplay=1", logo: "http://10.99.99.99/assets/images/T SPORTS1744972630.png" },
+	
+    { group: "Kids", name: "BAL BHARAT", stream: "http://10.99.99.99/player.php?stream=50&autoplay=1", logo: "http://10.99.99.99/assets/images/BAL BHARAT1745041576.png" },
+	{ group: "Kids", name: "CARTOON NETWORK", stream: "http://10.99.99.99/player.php?stream=8&autoplay=1", logo: "http://10.99.99.99/assets/images/CARTOON NETWORK1745033414.png" },
+    { group: "Kids", name: "DURANTA TV", stream: "http://10.99.99.99/player.php?stream=68&autoplay=1", logo: "http://10.99.99.99/assets/images/DURANTA TV1745043400.png" },
+    { group: "Kids", name: "HUNGAMA", stream: "http://10.99.99.99/player.php?stream=49&autoplay=1", logo: "http://10.99.99.99/assets/images/HUNGAMA1745041551.png" },
+    { group: "Kids", name: "NICK", stream: "http://10.99.99.99/player.php?stream=46&autoplay=1", logo: "http://10.99.99.99/assets/images/NICK1745041451.png" },
+    { group: "Kids", name: "NICK JR", stream: "http://10.99.99.99/player.php?stream=51&autoplay=1", logo: "http://10.99.99.99/assets/images/NICK JR1745042397.png" },
+    { group: "Kids", name: "POGO", stream: "http://10.99.99.99/player.php?stream=48&autoplay=1", logo: "http://10.99.99.99/assets/images/POGO1745041515.png" },
+    { group: "Kids", name: "SONIC", stream: "http://10.99.99.99/player.php?stream=45&autoplay=1", logo: "http://10.99.99.99/assets/images/SONIC1745041154.png" },
+	{ group: "Kids", name: "SONY YAY BANGLA", stream: "https://tv.roarzone.info/player.php?stream=toffee/sonyyay", logo: "http://10.99.99.99/assets/images/SONY YAY1745045046.png" },
+	{ group: "Kids", name: "SONY YAY HINDI", stream: "http://10.99.99.99/player.php?stream=93&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY YAY1745045046.png" },
+    { group: "Kids", name: "SUPER HUNGAMA", stream: "http://10.99.99.99/player.php?stream=75&autoplay=1", logo: "http://10.99.99.99/assets/images/SUPER HUNGAMA1745044022.png" },
+	
+    { group: "Hindi", name: "AND PICTURS HD", stream: "http://10.99.99.99/player.php?stream=5&autoplay=1", logo: "http://10.99.99.99/assets/images/AND PICTURS HD1745031440.png" },
+    { group: "Hindi", name: "COLORS CINEPLEX HD", stream: "http://10.99.99.99/player.php?stream=10&autoplay=1", logo: "http://10.99.99.99/assets/images/COLORS CINEPLEX HD1745033519.png" },
+    { group: "Hindi", name: "COLORS HD", stream: "http://10.99.99.99/player.php?stream=4&autoplay=1", logo: "http://10.99.99.99/assets/images/COLORS HD1745031404.png" },
+    { group: "Hindi", name: "GEO NEWS HD", stream: "http://10.99.99.99/player.php?stream=90&autoplay=1", logo: "http://10.99.99.99/assets/images/GEO NEWS HD1745044892.png" },
+    { group: "Hindi", name: "HUM TV", stream: "http://10.99.99.99/player.php?stream=89&autoplay=1", logo: "http://10.99.99.99/assets/images/HUM TV1745044837.png" },
+    { group: "Hindi", name: "SONY ENT HD", stream: "http://10.99.99.99/player.php?stream=11&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY ENT HD1745033553.png" },
+    { group: "Hindi", name: "SONY MAX HD", stream: "http://10.99.99.99/player.php?stream=21&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY MAX HD1745034069.png" },
+    { group: "Hindi", name: "STAR BHARAT HD", stream: "http://10.99.99.99/player.php?stream=100&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR BHARAT HD1745045255.png" },
+    { group: "Hindi", name: "STAR GOLD 2 HD", stream: "http://10.99.99.99/player.php?stream=69&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR GOLD 2 HD1745043441.png" },
+    { group: "Hindi", name: "STAR GOLD HD", stream: "http://10.99.99.99/player.php?stream=20&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR GOLD HD1745034037.png" },
+    { group: "Hindi", name: "STAR GOLD SELECT HD", stream: "http://10.99.99.99/player.php?stream=71&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR GOLD SELECT HD1745043508.png" },
+    { group: "Hindi", name: "STAR PLUS HD", stream: "http://10.99.99.99/player.php?stream=24&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR PLUS HD1745038577.png" },
+    { group: "Hindi", name: "ZEE CINEMA HD", stream: "http://10.99.99.99/player.php?stream=13&autoplay=1", logo: "http://10.99.99.99/assets/images/ZEE CINEMA HD1745033602.png" },
+    { group: "Hindi", name: "ZEE TV HD", stream: "http://10.99.99.99/player.php?stream=7&autoplay=1", logo: "http://10.99.99.99/assets/images/ZEE TV HD1745033383.png" },
+    { group: "Hindi", name: "ZING", stream: "http://10.99.99.99/player.php?stream=53&autoplay=1", logo: "http://10.99.99.99/assets/images/ZING1745042718.png" },
+    { group: "Hindi", name: "ZOOM", stream: "http://10.99.99.99/player.php?stream=42&autoplay=1", logo: "http://10.99.99.99/assets/images/ZOOM1745040961.png" },
+
+    { group: "English", name: "ALJAZEETA HD", stream: "http://10.99.99.99/player.php?stream=85&autoplay=1", logo: "http://10.99.99.99/assets/images/ALJAZEETA HD1745044358.png" },
+    { group: "English", name: "AND FLIX HD", stream: "http://10.99.99.99/player.php?stream=35&autoplay=1", logo: "http://10.99.99.99/assets/images/AND FLIX HD1745040018.png" },
+    { group: "English", name: "AND PRIVE HD", stream: "http://10.99.99.99/player.php?stream=41&autoplay=1", logo: "http://10.99.99.99/assets/images/AND PRIVE HD1745040451.png" },
+    { group: "English", name: "AND XPLORE", stream: "http://10.99.99.99/player.php?stream=61&autoplay=1", logo: "http://10.99.99.99/assets/images/AND XPLORE1745043080.png" },
+    { group: "English", name: "ANIMAL PLANET HD", stream: "http://10.99.99.99/player.php?stream=26&autoplay=1", logo: "http://10.99.99.99/assets/images/ANIMAL PLANET HD1745038671.png" },
+    { group: "English", name: "AXN HD", stream: "http://10.99.99.99/player.php?stream=97&autoplay=1", logo: "http://10.99.99.99/assets/images/AXN HD1745045171.png" },
+    { group: "English", name: "BBC EARTH HD", stream: "http://10.99.99.99/player.php?stream=102&autoplay=1", logo: "http://10.99.99.99/assets/images/BBC EARTH HD1745150455.png" },
+    { group: "English", name: "DISCOVERY HD", stream: "http://10.99.99.99/player.php?stream=22&autoplay=1", logo: "http://10.99.99.99/assets/images/discovery hd.png" },
+    { group: "English", name: "HISTORY TV HD", stream: "http://10.99.99.99/player.php?stream=15&autoplay=1", logo: "http://10.99.99.99/assets/images/HISTORY TV HD1745033679.png" },
+    { group: "English", name: "HITZ MUSIC", stream: "http://10.99.99.99/player.php?stream=70&autoplay=1", logo: "http://10.99.99.99/assets/images/HITZ MUSIC1745043478.png" },
+    { group: "English", name: "LOTUS TV", stream: "http://10.99.99.99/player.php?stream=91&autoplay=1", logo: "http://10.99.99.99/assets/images/LOTUS TV1745044960.png" },
+    { group: "English", name: "LOVE NATURE", stream: "http://10.99.99.99/player.php?stream=67&autoplay=1", logo: "http://10.99.99.99/assets/images/LOVE NATURE1745043370.png" },
+    { group: "English", name: "MN PLUS", stream: "http://10.99.99.99/player.php?stream=36&autoplay=1", logo: "http://10.99.99.99/assets/images/MN PLUS1745040057.png" },
+    { group: "English", name: "MNX HD", stream: "http://10.99.99.99/player.php?stream=33&autoplay=1", logo: "http://10.99.99.99/assets/images/MNX HD1745039955.png" },
+    { group: "English", name: "MOVIES NOW HD", stream: "http://10.99.99.99/player.php?stream=39&autoplay=1", logo: "http://10.99.99.99/assets/images/MOVIES NOW HD1745040368.png" },
+    { group: "English", name: "NATGEO HD", stream: "http://10.99.99.99/player.php?stream=25&autoplay=1", logo: "http://10.99.99.99/assets/images/NATGEO HD1745038634.png" },
+    { group: "English", name: "NATGEO WILD HD", stream: "http://10.99.99.99/player.php?stream=23&autoplay=1", logo: "http://10.99.99.99/assets/images/NATGEO WILD HD1745038542.png" },
+    { group: "English", name: "ROMEDY NOW", stream: "http://10.99.99.99/player.php?stream=34&autoplay=1", logo: "http://10.99.99.99/assets/images/ROMEDY NOW1745039988.png" },
+    { group: "English", name: "SONY BBC EARTH HD", stream: "http://10.99.99.99/player.php?stream=6&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY BBC EARTH HD1745031522.png" },
+    { group: "English", name: "SONY PIX HD", stream: "http://10.99.99.99/player.php?stream=32&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY PIX HD1745039925.png" },
+    { group: "English", name: "STAR MOVIES HD", stream: "http://10.99.99.99/player.php?stream=38&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR MOVIES HD1745040174.png" },
+    { group: "English", name: "STAR MOVIES SELECT HD", stream: "http://10.99.99.99/player.php?stream=27&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR MOVIES SELECT HD1745038723.png" },
+    { group: "English", name: "TLC HD", stream: "http://10.99.99.99/player.php?stream=9&autoplay=1", logo: "http://10.99.99.99/assets/images/TLC HD1745033484.png" },
+    { group: "English", name: "TRAVEL XP", stream: "http://10.99.99.99/player.php?stream=62&autoplay=1", logo: "http://10.99.99.99/assets/images/TRAVEL XP1745043118.png" },
+    { group: "English", name: "ZEE CAFE HD", stream: "http://10.99.99.99/player.php?stream=37&autoplay=1", logo: "http://10.99.99.99/assets/images/ZEE CAFE HD1745040102.png" },
+
+    { group: "Islamic", name: "MADANI TV HD", stream: "http://10.99.99.99/player.php?stream=83&autoplay=1", logo: "http://10.99.99.99/assets/images/MADANI TV HD1745044303.png" },
+    { group: "Islamic", name: "PEACE TV BANGLA", stream: "http://10.99.99.99/player.php?stream=86&autoplay=1", logo: "http://10.99.99.99/assets/images/PEACE TV BANGLA1745044480.png" },
+
+			  // --- DOCUMENTARY ---
+  { group: "Documentary", name: "Discovery HD", stream: "https://tv.roarzone.info/player.php?stream=bk/83", logo: "https://tvassets.roarzone.info/images/43.png" },
+  { group: "Documentary", name: "Discovery Science", stream: "https://tv.roarzone.info/player.php?stream=toffee/discovery_science", logo: "https://tvassets.roarzone.info/images/discoveryscience.png" },
+  { group: "Documentary", name: "Discovery Turbo", stream: "https://tv.roarzone.info/player.php?stream=toffee/discovery_turbo", logo: "https://tvassets.roarzone.info/images/discoveryturbo.png" },
+  { group: "Documentary", name: "Discovery HD Investigation", stream: "https://tv.roarzone.info/player.php?stream=toffee/discovary_investigation_hd", logo: "https://tvassets.roarzone.info/images/discoveryhdInvestigation.png" },
+  { group: "Documentary", name: "CNN", stream: "https://tv.roarzone.info/player.php?stream=toffee/cnn", logo: "https://tvassets.roarzone.info/images/cnn.png" },
+  { group: "Documentary", name: "Sony BBC Earth HD", stream: "https://tv.roarzone.info/player.php?stream=bk/44", logo: "https://tvassets.roarzone.info/images/44.png" },
+  { group: "Documentary", name: "Natgeo", stream: "https://tv.roarzone.info/player.php?stream=bk/35", logo: "https://tvassets.roarzone.info/images/35.png" },
+  { group: "Documentary", name: "Animal Planet", stream: "https://tv.roarzone.info/player.php?stream=toffee/animal_planet_hd", logo: "https://tvassets.roarzone.info/images/animalplanet.png" }
+];
+
+
+        let currentIndex = 0;
+        let sidebarTimer;
+        let isStarted = false;
+        let marqueeCycles = 0;
+        
+        const frame = document.getElementById('main-frame');
+        const sidebar = document.getElementById('sidebar');
+        const list = document.getElementById('channel-list');
+        const loader = document.getElementById('loading-screen');
+        const osd = document.getElementById('osd');
+        const marqueeEl = document.getElementById('marquee-text');
+        const noticeBar = document.getElementById('notice-bar');
+
+        function init() {
+            // Notice Bar hide after 2 iterations
+            marqueeEl.addEventListener('animationiteration', () => {
+                marqueeCycles++;
+                if (marqueeCycles >= 2) noticeBar.style.display = 'none';
+            });
+
+            // TV Detection to hide mobile buttons
+            const userAgent = navigator.userAgent.toLowerCase();
+            const isTV = userAgent.includes("tv") || userAgent.includes("smarttv") || userAgent.includes("googletv");
+            if (isTV) {
+                const mobControls = document.querySelector('.mobile-ch-controls');
+                if(mobControls) mobControls.style.display = 'none';
+            }
+
+            // Build Grouped List
+            let currentGroup = "";
+            rawChannels.forEach((ch, i) => {
+                if (ch.group !== currentGroup) {
+                    currentGroup = ch.group;
+                    const head = document.createElement('li');
+                    head.className = 'category-title';
+                    head.innerText = currentGroup;
+                    list.appendChild(head);
+                }
+                const li = document.createElement('li');
+                li.className = 'channel-item';
+                li.id = "ch-" + i;
+                li.innerHTML = `<img src="${ch.logo}"> <span class="channel-name">${ch.name}</span>`;
+                li.onclick = (e) => { e.stopPropagation(); playChannel(i, true); };
+                list.appendChild(li);
+            });
+            document.getElementById('start-btn-id').focus();
+        }
+
+        function startApp() {
+            isStarted = true;
+            document.getElementById('splash').remove();
+            
+            // History: Load last watched or start at 0
+            const lastChannel = localStorage.getItem('last_tv_channel');
+            playChannel(lastChannel ? parseInt(lastChannel) : 0, false);
+        }
+
+        function mobileChangeChannel(direction) {
+            // direction -1 is prev, 1 is next
+            let nextIndex = currentIndex + direction;
+            if (nextIndex < 0) nextIndex = rawChannels.length - 1;
+            if (nextIndex >= rawChannels.length) nextIndex = 0;
+            playChannel(nextIndex, false);
+        }
+
+        function updateMobileLogos() {
+            const prevIdx = (currentIndex > 0) ? currentIndex - 1 : rawChannels.length - 1;
+            const nextIdx = (currentIndex < rawChannels.length - 1) ? currentIndex + 1 : 0;
+            
+            const prevBtn = document.getElementById('btn-prev-img');
+            const nextBtn = document.getElementById('btn-next-img');
+            if (prevBtn) prevBtn.src = rawChannels[prevIdx].logo;
+            if (nextBtn) nextBtn.src = rawChannels[nextIdx].logo;
+        }
+
+		function playChannel(index, showSidebarAfter) {
+			if (!isStarted) return;
+			currentIndex = index;
+			const ch = rawChannels[currentIndex];
+			localStorage.setItem('last_tv_channel', currentIndex);
+		
+			updateMobileLogos();
+		
+			loader.style.display = 'flex';
+			document.getElementById('loading-img').src = ch.logo;
+			document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:gold; font-size:14px">Buffering... Click video if no sound.</span>`;
+		
+			// ✅ Add muted=0 to URL to force audio on Android
+			let streamUrl = ch.stream;
+			if (!streamUrl.includes('?')) {
+				streamUrl += '?muted=0';
+			} else {
+				streamUrl += '&muted=0';
+			}
+			frame.src = streamUrl;
+		
+			document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
+			const active = document.getElementById("ch-" + index);
+			if (active) {
+				active.classList.add('selected');
+				active.scrollIntoView({ behavior: 'smooth', block: 'center' });
+			}
+		
+			osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
+			osd.style.display = 'block';
+			setTimeout(() => { osd.style.display = 'none'; }, 4000);
+			
+			if (showSidebarAfter) showSidebar();
+		}
+
+				// Listen for 'unmute' message from parent
+		window.addEventListener('message', function(event) {
+		    if (event.data && event.data.type === 'unmute') {
+		        // Try to unmute video elements
+		        const videos = document.querySelectorAll('video');
+		        videos.forEach(video => {
+		            video.muted = false;
+		            video.play().catch(e => console.log('Unmute failed:', e));
+		        });
+		
+		        // If you have a custom player, call its unmute function
+		        if (typeof player !== 'undefined' && player.unmute) {
+		            player.unmute();
+		        }
+		    }
+		});
+
+        function hideLoading() {
+            // Wait 2 seconds after iframe loads to hide loader
+            setTimeout(() => {
+                loader.style.display = 'none';
+            }, 3000);
+        }
+
+        function toggleSidebar() {
+            if (!isStarted) return;
+            if (sidebar.classList.contains('active')) sidebar.classList.remove('active');
+            else showSidebar();
+        }
+
+        function showSidebar() {
+            sidebar.classList.add('active');
+            clearTimeout(sidebarTimer);
+            sidebarTimer = setTimeout(() => { sidebar.classList.remove('active'); }, 5000);
+        }
+
+        window.addEventListener('keydown', (e) => {
+            if (!isStarted) {
+                if (e.key === "Enter" || e.key === "Ok") startApp();
+                return;
+            }
+
+            // LOGIC: Arrow UP/DOWN opens sidebar. CH+/CH- (PageUp/Down) does NOT open sidebar.
+            if (e.key === "ArrowUp") {
+                e.preventDefault();
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : rawChannels.length - 1;
+                playChannel(currentIndex, true); 
+            } 
+            else if (e.key === "ArrowDown") {
+                e.preventDefault();
+                currentIndex = (currentIndex < rawChannels.length - 1) ? currentIndex + 1 : 0;
+                playChannel(currentIndex, true);
+            }
+            else if (e.key === "PageUp" || e.key === "ChannelUp") {
+                e.preventDefault();
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : rawChannels.length - 1;
+                playChannel(currentIndex, false); 
+            }
+            else if (e.key === "PageDown" || e.key === "ChannelDown") {
+                e.preventDefault();
+                currentIndex = (currentIndex < rawChannels.length - 1) ? currentIndex + 1 : 0;
+                playChannel(currentIndex, false); 
+            }
+            else if (e.key === "Enter" || e.key === "Ok") {
+                toggleSidebar();
+            }
+        });
+
+        init();
+    </script>
+</body>
+</html>
+
+
+
+
+
+
