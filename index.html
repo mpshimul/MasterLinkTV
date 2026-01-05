@@ -402,6 +402,23 @@
 			if (showSidebarAfter) showSidebar();
 		}
 
+				// Listen for 'unmute' message from parent
+		window.addEventListener('message', function(event) {
+		    if (event.data && event.data.type === 'unmute') {
+		        // Try to unmute video elements
+		        const videos = document.querySelectorAll('video');
+		        videos.forEach(video => {
+		            video.muted = false;
+		            video.play().catch(e => console.log('Unmute failed:', e));
+		        });
+		
+		        // If you have a custom player, call its unmute function
+		        if (typeof player !== 'undefined' && player.unmute) {
+		            player.unmute();
+		        }
+		    }
+		});
+
         function hideLoading() {
             // Wait 2 seconds after iframe loads to hide loader
             setTimeout(() => {
@@ -457,6 +474,7 @@
     </script>
 </body>
 </html>
+
 
 
 
