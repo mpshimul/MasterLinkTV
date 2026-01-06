@@ -295,9 +295,9 @@ function playChannel(index, showSidebarAfter) {
         active.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
 
-    osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
+    osd.innerHTML = `[${ch.group}] <b>${ch.name}</b>`;
     osd.style.display = 'block';
-    setTimeout(() => { osd.style.display = 'none'; }, 4000);
+    setTimeout(() => { osd.style.display = 'none'; }, 8000);
     
     if (showSidebarAfter) showSidebar();
 }
@@ -323,10 +323,10 @@ window.addEventListener('message', function(event) {
 });
 
         function hideLoading() {
-            // Wait 2 seconds after iframe loads to hide loader
+            // Wait 4 seconds after iframe loads to hide loader
             setTimeout(() => {
                 loader.style.display = 'none';
-            }, 3000);
+            }, 4000);
         }
 
         function toggleSidebar() {
