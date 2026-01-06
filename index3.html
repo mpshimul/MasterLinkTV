@@ -138,6 +138,51 @@
 
 </head>
 <body>
+	
+	<div id="update-notice" style="
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.85);
+    color: #fff;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+">
+    <h2 style="color: #ffdd00;">🔔 App Update Required</h2>
+    <p style="font-size: 18px; margin: 10px 0;">
+        Please update this app before <strong>January 15</strong>.<br>
+        You may stop getting new channels.
+    </p>
+    <a href="https://yourwebsite.com/latest-app.apk" style="
+        display: inline-block;
+        margin: 15px auto;
+        background: #ff0033;
+        color: white;
+        padding: 12px 24px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 16px;
+    ">⬇️ Update App Now</a>
+    <button onclick="document.getElementById('update-notice').style.display='none'" style="
+        margin-top: 20px;
+        background: transparent;
+        border: 2px solid white;
+        color: white;
+        padding: 6px 14px;
+        border-radius: 6px;
+        font-size: 14px;
+        cursor: pointer;
+    ">
+        Close and Continue Anyway
+    </button>
+</div>
 
     <div id="notice-bar">
         <div id="marquee-text" class="marquee">WELCOME TO LIVE TV! PLEASE ENSURE YOU ARE CONNECTED TO THE ISP NETWORK FOR BEST PERFORMANCE. ENJOY HIGH-QUALITY STREAMING OF YOUR FAVORITE CHANNELS.  •  WELCOME TO LIVE TV! • </div>
