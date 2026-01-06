@@ -1,0 +1,7 @@
+android {
+    defaultConfig {
+        versionCode 3  // Change this to 2, 3, etc. when releasing updates
+        versionName "1.0.3"
+        // ... rest of config
+    }
+}
