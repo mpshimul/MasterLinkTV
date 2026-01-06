@@ -155,34 +155,36 @@
     font-family: sans-serif;
     padding: 20px;
 ">
-    <h2 style="color: #ffdd00;">🔔 App Update Required</h2>
+    <h2 style="color: #ffd700;">🔔 App Update Needed</h2>
     <p style="font-size: 18px; margin: 10px 0;">
-        Please update this app before <strong>January 15</strong>.<br>
-        You may stop getting new channels.
+        Please update before <b>January 15</b> to continue getting new channels.
     </p>
-    <a href="https://github.com/mpshimul/MasterLinkTV/blob/main/MASTER_LINK_TV_.apk" style="
-        display: inline-block;
-        margin: 15px auto;
-        background: #ff0033;
-        color: white;
-        padding: 12px 24px;
-        text-decoration: none;
-        border-radius: 8px;
-        font-size: 16px;
-    ">⬇️ Update App Now</a>
-    <button onclick="document.getElementById('update-notice').style.display='none'" style="
-        margin-top: 20px;
-        background: transparent;
-        border: 2px solid white;
-        color: white;
-        padding: 6px 14px;
-        border-radius: 6px;
-        font-size: 14px;
-        cursor: pointer;
-    ">
-        Close and Continue Anyway
+    <a href="#" onclick="openInBrowser('https://yourwebsite.com/latest-app.apk')"
+        style="margin: 15px; background: #ff0033; color: white; padding: 12px 24px;
+               text-decoration: none; border-radius: 8px; font-size: 16px;">
+        ⬇️ Update Now
+    </a>
+    <button onclick="document.getElementById('update-notice').style.display='none'"
+            style="margin-top: 10px; background: transparent; border: 2px solid white;
+                   color: white; padding: 6px 14px; border-radius: 6px; font-size: 14px;">
+        Close and continue
     </button>
 </div>
+
+<script>
+function openInBrowser(url) {
+    try {
+        window.location.href = url; // Default (may open externally)
+    } catch (e) {
+        // Fallback:
+        const a = document.createElement('a');
+        a.href = url;
+        a.target = '_blank';
+        a.rel = 'noopener';
+        a.click();
+    }
+}
+</script>
 
     <div id="notice-bar">
         <div id="marquee-text" class="marquee">WELCOME TO LIVE TV! PLEASE ENSURE YOU ARE CONNECTED TO THE ISP NETWORK FOR BEST PERFORMANCE. ENJOY HIGH-QUALITY STREAMING OF YOUR FAVORITE CHANNELS.  •  WELCOME TO LIVE TV! • </div>
