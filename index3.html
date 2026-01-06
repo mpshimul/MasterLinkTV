@@ -136,35 +136,6 @@
 
 	<script src="channels3.js"></script>
 
-	<script>
-const REQUIRED_VERSION = "1.0.5"; // Set this remotely in your HTML
-
-window.addEventListener("load", () => {
-    if (typeof appVersion !== 'undefined' && appVersion !== REQUIRED_VERSION) {
-        showUpdateBanner();
-    }
-});
-
-function showUpdateBanner() {
-    const banner = document.createElement("div");
-    banner.style.position = "fixed";
-    banner.style.bottom = "0";
-    banner.style.left = "0";
-    banner.style.width = "100%";
-    banner.style.background = "#ff0033";
-    banner.style.color = "#fff";
-    banner.style.padding = "12px";
-    banner.style.zIndex = "9999";
-    banner.style.textAlign = "center";
-    banner.style.fontSize = "16px";
-    banner.innerHTML = `
-        🚨 New version available! Please update your app for best experience.
-        <br><small><a href="https://yourwebsite.com/update" style="color:#ffd;">Tap here to update</a></small>
-    `;
-    document.body.appendChild(banner);
-}
-</script>
-	
 </head>
 <body>
 
@@ -404,6 +375,34 @@ window.addEventListener('message', function(event) {
 
         init();
     </script>
+		<script>
+const REQUIRED_VERSION = "1.0.5"; // Set this remotely in your HTML
+
+window.addEventListener("load", () => {
+    if (typeof appVersion !== 'undefined' && appVersion !== REQUIRED_VERSION) {
+        showUpdateBanner();
+    }
+});
+
+function showUpdateBanner() {
+    const banner = document.createElement("div");
+    banner.style.position = "fixed";
+    banner.style.bottom = "0";
+    banner.style.left = "0";
+    banner.style.width = "100%";
+    banner.style.background = "#ff0033";
+    banner.style.color = "#fff";
+    banner.style.padding = "12px";
+    banner.style.zIndex = "9999";
+    banner.style.textAlign = "center";
+    banner.style.fontSize = "16px";
+    banner.innerHTML = `
+        🚨 New version available! Please update your app for best experience.
+        <br><small><a href="https://yourwebsite.com/update" style="color:#ffd;">Tap here to update</a></small>
+    `;
+    document.body.appendChild(banner);
+}
+</script>
 </body>
 </html>
 
