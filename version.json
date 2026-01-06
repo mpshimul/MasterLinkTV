@@ -1,7 +1,7 @@
-android {
-    defaultConfig {
-        versionCode 3  // Change this to 2, 3, etc. when releasing updates
-        versionName "1.0.3"
-        // ... rest of config
-    }
+{
+  "versionCode": 3,
+  "versionName": "1.0.3",
+  "updateUrl": "https://play.google.com/store/apps/details?id=com.shimulfp.masterlinktv",
+  "forceUpdate": false,
+  "changelog": "Added support for multiple channel lists"
 }
