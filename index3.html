@@ -139,13 +139,6 @@
 </head>
 <body>
 	
-<div id="update-notice" style="position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.85);color:#fff;z-index:9999;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px;">
-    <h2 style="color:#ffd700;">🚀 New Update Available</h2>
-    <p>Please update before <b>Jan 15</b> to get latest channels and support.</p>
-    <a href="#" onclick="openInBrowser('https://yourwebsite.com/latest.apk')" style="background:#ff0033;color:#fff;padding:12px 24px;border-radius:6px;font-size:16px;margin:15px;text-decoration:none;">⬇️ Update Now</a>
-    <button onclick="document.getElementById('update-notice').style.display='none'" style="border: 1px solid #fff;padding: 8px 16px;border-radius:6px;background:transparent;color:#fff;">Close</button>
-</div>
-
     <div id="notice-bar">
         <div id="marquee-text" class="marquee">WELCOME TO LIVE TV! PLEASE ENSURE YOU ARE CONNECTED TO THE ISP NETWORK FOR BEST PERFORMANCE. ENJOY HIGH-QUALITY STREAMING OF YOUR FAVORITE CHANNELS.  •  WELCOME TO LIVE TV! • </div>
     </div>
@@ -382,19 +375,6 @@ window.addEventListener('message', function(event) {
 
         init();
     </script>
-
-	<script>
-function openInBrowser(url) {
-    // This will work even on WebView
-    const a = document.createElement('a');
-    a.href = url;
-    a.target = '_blank'; // Opens in external browser
-    a.rel = 'noopener noreferrer';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-}
-</script>
 
 </body>
 </html>
