@@ -4,6 +4,7 @@ import re
 import json
 from datetime import datetime
 import requests
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 GROUP_ORDER = [
     "Bangla",
@@ -58,7 +59,7 @@ KEYWORDS = {
     ]
 }
 
-# ----- STRONG VALIDATION -----
+# ----- STRONG STREAM VALIDATION -----
 def is_stream_alive(url):
     """Check if stream is alive by reading actual data"""
     headers = {
@@ -102,88 +103,88 @@ def read_lines(filename):
         with open(filename, "r", encoding="latin-1") as f:
             return f.readlines()
 
+# ----- PROCESS SINGLE CHANNEL -----
+def process_channel(extinf, url):
+    """Return channel dict if alive, else None"""
+    name = extinf.split(",", 1)[1].strip() if "," in extinf else "Unknown"
+    if not is_stream_alive(url):
+        return None
+    def get(attr):
+        m = re.search(rf'{attr}="([^"]*)"', extinf)
+        return m.group(1) if m else ""
+    group_title = get("group-title")
+    category = detect_group(name, group_title)
+    return {
+        "group": category,
+        "name": name,
+        "stream": url,
+        "logo": get("tvg-logo")
+    }
+
 # ----- MAIN FUNCTION -----
-def parse_m3u_to_js(m3u_file, out_js="ch2.js"):
-    groups = {g: [] for g in GROUP_ORDER}
-    seen_urls = set()
-    seen_names = set()
-
+def parse_m3u_to_js(m3u_file, out_js="ch2.js", max_workers=20):
     lines = read_lines(m3u_file)
+    channels_to_check = []
+
     extinf = None
-
-    total = kept = skipped = duplicates = 0
-
     for line in lines:
         line = line.strip()
         if not line or line.startswith("#EXTM3U"):
             continue
-
         if line.startswith("#EXTINF"):
             extinf = line
             continue
-
         if line.startswith("#"):
             continue
-
         if extinf and "://" in line:
-            total += 1
-            name = extinf.split(",", 1)[1].strip() if "," in extinf else "Unknown"
-
-            # Check for duplicate by name or URL
-            if name.lower() in seen_names or line in seen_urls:
-                duplicates += 1
-                extinf = None
-                continue
-
-            def get(attr):
-                m = re.search(rf'{attr}="([^"]*)"', extinf)
-                return m.group(1) if m else ""
-
-            # Strong validation
-            if not is_stream_alive(line):
-                skipped += 1
-                extinf = None
-                continue
-
-            group_title = get("group-title")
-            category = detect_group(name, group_title)
-
-            groups[category].append({
-                "group": category,
-                "name": name,
-                "stream": line,
-                "logo": get("tvg-logo")
-            })
-
-            seen_names.add(name.lower())
-            seen_urls.add(line)
+            channels_to_check.append((extinf, line))
             extinf = None
-            kept += 1
 
-    # Sort channels A–Z inside each group
+    seen_names = set()
+    seen_urls = set()
+    groups = {g: [] for g in GROUP_ORDER}
+
+    total = len(channels_to_check)
+    kept = skipped = duplicates = 0
+
+    # ----- PARALLEL VALIDATION -----
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        future_to_channel = {executor.submit(process_channel, e, u): (e, u) for e, u in channels_to_check}
+        for future in as_completed(future_to_channel):
+            e, u = future_to_channel[future]
+            try:
+                ch = future.result()
+                if not ch:
+                    skipped += 1
+                    continue
+                # Check duplicates by name or URL
+                if ch["name"].lower() in seen_names or ch["stream"] in seen_urls:
+                    duplicates += 1
+                    continue
+                groups[ch["group"]].append(ch)
+                seen_names.add(ch["name"].lower())
+                seen_urls.add(ch["stream"])
+                kept += 1
+            except Exception:
+                skipped += 1
+
+    # Sort channels inside each group
     for g in groups:
         groups[g].sort(key=lambda x: x["name"].lower())
 
     # UTC timestamp
     timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
-    # ----- WRITE JS IN RAW FORMAT -----
+    # ----- WRITE JS -----
     with open(out_js, "w", encoding="utf-8") as f:
         f.write(f"// Auto-generated IPTV channel list\n")
         f.write(f"// Last updated: {timestamp}\n\n")
         f.write("const rawChannels = [\n")
-
         for g in GROUP_ORDER:
             if groups[g]:
                 f.write(f"  // --- {g.upper()} ---\n")
                 for ch in groups[g]:
-                    line_js = (
-                        f'  {{ group: "{ch["group"]}", '
-                        f'name: "{ch["name"]}", '
-                        f'stream: "{ch["stream"]}", '
-                        f'logo: "{ch["logo"]}" }},\n'
-                    )
-                    f.write(line_js)
+                    f.write(f'  {{ group: "{ch["group"]}", name: "{ch["name"]}", stream: "{ch["stream"]}", logo: "{ch["logo"]}" }},\n')
         f.write("];\n")
 
     print(f"✅ {kept} channels written to {out_js} (skipped {skipped} dead, {duplicates} duplicates)")
