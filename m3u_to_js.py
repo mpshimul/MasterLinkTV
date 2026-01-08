@@ -1,64 +1,151 @@
+# m3u_to_js.py
 import sys
 import re
 import json
 
-def parse_m3u_to_js(m3u_filename, js_output="channels.js"):
-    channels = []
-    
-    with open(m3u_filename, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
+GROUP_ORDER = [
+    "Bangla",
+    "Sports",
+    "Kids",
+    "Hindi",
+    "Movies",
+    "Documentary",
+    "Others"
+]
 
-    current_extinf = None
+KEYWORDS = {
+    "Bangla": [
+        "bangla", "bengali", "bd",
+        "atn", "btv", "somoy", "jamuna", "dbc",
+        "rtv", "ntv", "channel i", "ekattor",
+        "maasranga", "boishakhi", "gaan bangla", "duronto"
+    ],
+
+    "Sports": [
+        "sport", "sports", "cricket", "football", "soccer",
+        "sony ten", "ten sports", "star sports",
+        "t sports", "gazi tv", "ptv sports",
+        "beinsports", "be in sports", "espn",
+        "supersport", "sky sports", "fox sports",
+        "ipl", "bpl", "fifa", "icc", "ucl"
+    ],
+
+    "Kids": [
+        "kids", "cartoon", "nick", "nickelodeon",
+        "disney junior", "disney jr", "hungama",
+        "pogo", "toon", "baby tv",
+        "cartoon network", "cn"
+    ],
+
+    "Hindi": [
+        "hindi",
+        "zee tv", "zee anmol", "zee cinema",
+        "sony tv", "sony sab", "sony pal",
+        "star plus", "star bharat",
+        "colors", "and tv", "&tv",
+        "dangal", "dd national"
+    ],
+
+    "Movies": [
+        "movie", "movies", "cinema", "films",
+        "box office", "bollywood", "hollywood",
+        "hbo", "hbo hits", "star movies",
+        "sony pix", "flix"
+    ],
+
+    "Documentary": [
+        "documentary", "docu",
+        "discovery", "nat geo", "national geographic",
+        "animal planet", "history",
+        "science", "wild", "geo wild",
+        "investigation"
+    ]
+}
+
+def detect_group(name, group_title):
+    text = f"{name} {group_title}".lower()
+
+    for group in GROUP_ORDER:
+        if group not in KEYWORDS:
+            continue
+
+        for key in KEYWORDS[group]:
+            if len(key) <= 3:
+                if re.search(rf"\b{re.escape(key)}\b", text):
+                    return group
+            else:
+                if key in text:
+                    return group
+
+    return "Others"
+
+
+def parse_m3u_to_js(m3u_file, out_js="ch2.js"):
+    groups = {g: [] for g in GROUP_ORDER}
+    seen = set()
+
+    try:
+        lines = open(m3u_file, "r", encoding="utf-8").readlines()
+    except UnicodeDecodeError:
+        lines = open(m3u_file, "r", encoding="latin-1").readlines()
+
+    extinf = None
 
     for line in lines:
         line = line.strip()
         if not line or line.startswith("#EXTM3U"):
             continue
 
-        if line.startswith("#EXTINF:"):
-            current_extinf = line
+        if line.startswith("#EXTINF"):
+            extinf = line
             continue
 
         if line.startswith("#"):
-            continue  # skip other comments
+            continue
 
-        if current_extinf and line.startswith("http"):
-            # Parse #EXTINF line
-            extinf = current_extinf
-            
-            # Extract group-title (optional)
-            group_match = re.search(r'group-title="([^"]*)"', extinf)
-            group = group_match.group(1) if group_match else ""
+        if extinf and "://" in line:
+            if line in seen:
+                extinf = None
+                continue
 
-            # Extract tvg-logo (optional)
-            logo_match = re.search(r'tvg-logo="([^"]*)"', extinf)
-            logo = logo_match.group(1) if logo_match else ""
+            def get(attr):
+                m = re.search(rf'{attr}="([^"]*)"', extinf)
+                return m.group(1) if m else ""
 
-            # Extract channel name (after last comma)
-            parts = extinf.split(',', 1)
-            name = parts[1] if len(parts) > 1 else "Unknown"
+            name = extinf.split(",", 1)[1].strip() if "," in extinf else "Unknown"
+            group_title = get("group-title")
 
-            channels.append({
-                "group": group,
+            category = detect_group(name, group_title)
+
+            groups[category].append({
                 "name": name,
                 "stream": line,
-                "logo": logo
+                "logo": get("tvg-logo"),
+                "group": category
             })
-            current_extinf = None
 
-    # Write to JS file: `const channels = [ ... ];`
-    with open(js_output, 'w', encoding='utf-8') as f:
-        js_content = "const channels = " + json.dumps(channels, indent=2, ensure_ascii=False) + ";\n"
-        f.write(js_content)
+            seen.add(line)
+            extinf = None
 
-    print(f"✅ Successfully wrote {len(channels)} channels to {js_output}")
+    # Sort channels A–Z inside each group
+    for g in groups:
+        groups[g].sort(key=lambda x: x["name"].lower())
+
+    with open(out_js, "w", encoding="utf-8") as f:
+        f.write("const channels = ")
+        json.dump(groups, f, indent=2, ensure_ascii=False)
+        f.write(";\n")
+
+    total = sum(len(v) for v in groups.values())
+    print(f"✅ {total} channels written to {out_js}")
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python m3u_to_js.py <input.m3u> [output.js]")
+        print("Usage: python m3u_to_js.py <playlist.m3u> [output.js]")
         sys.exit(1)
 
-    input_file = sys.argv[1]
-    output_file = sys.argv[2] if len(sys.argv) > 2 else "ch.js"
+    input_m3u = sys.argv[1]
+    output_js = sys.argv[2] if len(sys.argv) > 2 else "ch2.js"
 
-    parse_m3u_to_js(input_file, output_file)
+    parse_m3u_to_js(input_m3u, output_js)
