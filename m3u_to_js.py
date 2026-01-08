@@ -59,6 +59,6 @@ if __name__ == "__main__":
         sys.exit(1)
 
     input_file = sys.argv[1]
-    output_file = sys.argv[2] if len(sys.argv) > 2 else "channels.js"
+    output_file = sys.argv[2] if len(sys.argv) > 2 else "ch.js"
 
     parse_m3u_to_js(input_file, output_file)
