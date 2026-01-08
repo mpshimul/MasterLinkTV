@@ -3,6 +3,7 @@ import sys
 import re
 import json
 from datetime import datetime
+import requests
 
 GROUP_ORDER = [
     "Bangla",
@@ -57,9 +58,29 @@ KEYWORDS = {
     ]
 }
 
+# ----- STRONG VALIDATION -----
+def is_stream_alive(url):
+    """Check if stream is alive by reading actual data"""
+    headers = {
+        "User-Agent": "VLC/3.0.20 LibVLC/3.0.20",
+        "Accept": "*/*",
+        "Range": "bytes=0-4096",
+        "Connection": "close"
+    }
+    try:
+        r = requests.get(url, headers=headers, timeout=10, stream=True)
+        if r.status_code not in (200, 206):
+            return False
+        for chunk in r.iter_content(chunk_size=1024):
+            if chunk:
+                return True
+    except:
+        return False
+    return False
+
+# ----- DETECT GROUP -----
 def detect_group(name, group_title):
     text = f"{name} {group_title}".lower()
-
     for group in GROUP_ORDER:
         if group not in KEYWORDS:
             continue
@@ -72,17 +93,25 @@ def detect_group(name, group_title):
                     return group
     return "Others"
 
+# ----- READ FILE -----
+def read_lines(filename):
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            return f.readlines()
+    except UnicodeDecodeError:
+        with open(filename, "r", encoding="latin-1") as f:
+            return f.readlines()
 
+# ----- MAIN FUNCTION -----
 def parse_m3u_to_js(m3u_file, out_js="ch2.js"):
     groups = {g: [] for g in GROUP_ORDER}
-    seen = set()
+    seen_urls = set()
+    seen_names = set()
 
-    try:
-        lines = open(m3u_file, "r", encoding="utf-8").readlines()
-    except UnicodeDecodeError:
-        lines = open(m3u_file, "r", encoding="latin-1").readlines()
-
+    lines = read_lines(m3u_file)
     extinf = None
+
+    total = kept = skipped = duplicates = 0
 
     for line in lines:
         line = line.strip()
@@ -97,7 +126,12 @@ def parse_m3u_to_js(m3u_file, out_js="ch2.js"):
             continue
 
         if extinf and "://" in line:
-            if line in seen:
+            total += 1
+            name = extinf.split(",", 1)[1].strip() if "," in extinf else "Unknown"
+
+            # Check for duplicate by name or URL
+            if name.lower() in seen_names or line in seen_urls:
+                duplicates += 1
                 extinf = None
                 continue
 
@@ -105,40 +139,57 @@ def parse_m3u_to_js(m3u_file, out_js="ch2.js"):
                 m = re.search(rf'{attr}="([^"]*)"', extinf)
                 return m.group(1) if m else ""
 
-            name = extinf.split(",", 1)[1].strip() if "," in extinf else "Unknown"
-            group_title = get("group-title")
+            # Strong validation
+            if not is_stream_alive(line):
+                skipped += 1
+                extinf = None
+                continue
 
+            group_title = get("group-title")
             category = detect_group(name, group_title)
 
             groups[category].append({
+                "group": category,
                 "name": name,
                 "stream": line,
-                "logo": get("tvg-logo"),
-                "group": category
+                "logo": get("tvg-logo")
             })
 
-            seen.add(line)
+            seen_names.add(name.lower())
+            seen_urls.add(line)
             extinf = None
+            kept += 1
 
-    # Sort A–Z inside each group
+    # Sort channels A–Z inside each group
     for g in groups:
         groups[g].sort(key=lambda x: x["name"].lower())
 
     # UTC timestamp
     timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
+    # ----- WRITE JS IN RAW FORMAT -----
     with open(out_js, "w", encoding="utf-8") as f:
-        f.write("// Auto-generated IPTV channel list\n")
+        f.write(f"// Auto-generated IPTV channel list\n")
         f.write(f"// Last updated: {timestamp}\n\n")
-        f.write("const channels = ")
-        json.dump(groups, f, indent=2, ensure_ascii=False)
-        f.write(";\n")
+        f.write("const rawChannels = [\n")
 
-    total = sum(len(v) for v in groups.values())
-    print(f"✅ {total} channels written to {out_js}")
-    print(f"🕒 Updated at: {timestamp}")
+        for g in GROUP_ORDER:
+            if groups[g]:
+                f.write(f"  // --- {g.upper()} ---\n")
+                for ch in groups[g]:
+                    line_js = (
+                        f'  {{ group: "{ch["group"]}", '
+                        f'name: "{ch["name"]}", '
+                        f'stream: "{ch["stream"]}", '
+                        f'logo: "{ch["logo"]}" }},\n'
+                    )
+                    f.write(line_js)
+        f.write("];\n")
 
+    print(f"✅ {kept} channels written to {out_js} (skipped {skipped} dead, {duplicates} duplicates)")
+    print(f"🕒 Last updated: {timestamp}")
 
+# ----- ENTRY POINT -----
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python m3u_to_js.py <playlist.m3u> [output.js]")
