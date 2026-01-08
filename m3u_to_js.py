@@ -2,6 +2,7 @@
 import sys
 import re
 import json
+from datetime import datetime
 
 GROUP_ORDER = [
     "Bangla",
@@ -20,23 +21,19 @@ KEYWORDS = {
         "rtv", "ntv", "channel i", "ekattor",
         "maasranga", "boishakhi", "gaan bangla", "duronto"
     ],
-
     "Sports": [
         "sport", "sports", "cricket", "football", "soccer",
         "sony ten", "ten sports", "star sports",
         "t sports", "gazi tv", "ptv sports",
         "beinsports", "be in sports", "espn",
-        "supersport", "sky sports", "fox sports",
         "ipl", "bpl", "fifa", "icc", "ucl"
     ],
-
     "Kids": [
         "kids", "cartoon", "nick", "nickelodeon",
         "disney junior", "disney jr", "hungama",
         "pogo", "toon", "baby tv",
         "cartoon network", "cn"
     ],
-
     "Hindi": [
         "hindi",
         "zee tv", "zee anmol", "zee cinema",
@@ -45,14 +42,12 @@ KEYWORDS = {
         "colors", "and tv", "&tv",
         "dangal", "dd national"
     ],
-
     "Movies": [
         "movie", "movies", "cinema", "films",
         "box office", "bollywood", "hollywood",
         "hbo", "hbo hits", "star movies",
         "sony pix", "flix"
     ],
-
     "Documentary": [
         "documentary", "docu",
         "discovery", "nat geo", "national geographic",
@@ -68,7 +63,6 @@ def detect_group(name, group_title):
     for group in GROUP_ORDER:
         if group not in KEYWORDS:
             continue
-
         for key in KEYWORDS[group]:
             if len(key) <= 3:
                 if re.search(rf"\b{re.escape(key)}\b", text):
@@ -76,7 +70,6 @@ def detect_group(name, group_title):
             else:
                 if key in text:
                     return group
-
     return "Others"
 
 
@@ -127,17 +120,23 @@ def parse_m3u_to_js(m3u_file, out_js="ch2.js"):
             seen.add(line)
             extinf = None
 
-    # Sort channels A–Z inside each group
+    # Sort A–Z inside each group
     for g in groups:
         groups[g].sort(key=lambda x: x["name"].lower())
 
+    # UTC timestamp
+    timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+
     with open(out_js, "w", encoding="utf-8") as f:
+        f.write("// Auto-generated IPTV channel list\n")
+        f.write(f"// Last updated: {timestamp}\n\n")
         f.write("const channels = ")
         json.dump(groups, f, indent=2, ensure_ascii=False)
         f.write(";\n")
 
     total = sum(len(v) for v in groups.values())
     print(f"✅ {total} channels written to {out_js}")
+    print(f"🕒 Updated at: {timestamp}")
 
 
 if __name__ == "__main__":
