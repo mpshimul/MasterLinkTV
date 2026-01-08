@@ -2,57 +2,86 @@
 import sys
 import requests
 
-def download(url, filename):
-    r = requests.get(url, timeout=30)
-    r.raise_for_status()
-    with open(filename, "wb") as f:
-        f.write(r.content)
+TIMEOUT = 8
 
-def clean_m3u(filename):
-    with open(filename, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
+HEADERS = {
+    "User-Agent": "Mozilla/5.0",
+    "Range": "bytes=0-1024"
+}
 
-    result = []
-    seen_urls = set()
-    prev_inf = None
+def is_stream_alive(url):
+    try:
+        r = requests.head(url, timeout=TIMEOUT, allow_redirects=True)
+        if r.status_code in (200, 206):
+            return True
+    except:
+        pass
+
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, stream=True)
+        if r.status_code in (200, 206):
+            return True
+    except:
+        pass
+
+    return False
+
+
+def clean_m3u(src_url, out_file="playlist.m3u"):
+    print("⬇️ Downloading playlist...")
+    lines = requests.get(src_url, timeout=30).text.splitlines()
+
+    result = ["#EXTM3U"]
+    seen = set()
+    extinf = None
+
+    total = kept = dead = dup = 0
 
     for line in lines:
         line = line.strip()
         if not line:
             continue
-        if line.startswith("#EXTM3U"):
-            result = ["#EXTM3U"]
-            prev_inf = None
-            continue
-        if line.startswith("#EXTINF"):
-            prev_inf = line
-            continue
-        if line.startswith("#"):
-            continue  # skip #EXTVLCOPT, etc.
-        if prev_inf and (line not in seen_urls):
-            result.append("")
-            result.append(prev_inf)
-            result.append(line)
-            seen_urls.add(line)
-            prev_inf = None
 
-    with open(filename, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(result).strip() + '\n')
+        if line.startswith("#EXTINF"):
+            extinf = line
+            continue
+
+        if line.startswith("#"):
+            continue
+
+        if extinf and "://" in line:
+            total += 1
+
+            if line in seen:
+                dup += 1
+                extinf = None
+                continue
+
+            print(f"🔍 Checking: {line[:60]}")
+
+            if is_stream_alive(line):
+                result.append(extinf)
+                result.append(line)
+                seen.add(line)
+                kept += 1
+            else:
+                dead += 1
+
+            extinf = None
+
+    with open(out_file, "w", encoding="utf-8") as f:
+        f.write("\n".join(result) + "\n")
+
+    print("\n✅ CLEANING DONE")
+    print(f"📺 Total     : {total}")
+    print(f"✅ Working   : {kept}")
+    print(f"❌ Dead      : {dead}")
+    print(f"🧹 Duplicate : {dup}")
+
 
 if __name__ == "__main__":
-    if len(sys.argv) == 2 and sys.argv[1].startswith("http"):
-        SRC = sys.argv[1]
-        OUT = "playlist.m3u"
-        try:
-            download(SRC, OUT)
-            clean_m3u(OUT)
-        except Exception as e:
-            print(f"Failed: {e}")
-            sys.exit(1)
-    elif len(sys.argv) == 2:
-        clean_m3u(sys.argv[1])
-    else:
-        print("Usage:")
-        print("  python clean_m3u.py <playlist.m3u>")
-        print("  python clean_m3u.py <source-url>")
+    if len(sys.argv) != 2:
+        print("Usage: python clean_m3u.py <m3u-url>")
         sys.exit(1)
+
+    clean_m3u(sys.argv[1])
