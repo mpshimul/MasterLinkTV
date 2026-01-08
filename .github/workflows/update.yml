@@ -2,8 +2,8 @@ name: Hourly IPTV Auto-Updater
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Every hour at minute 0 (UTC)
-  workflow_dispatch:     # Allow manual run
+    - cron: '0 * * * *'  # Every hour (UTC)
+  workflow_dispatch:
 
 jobs:
   update:
@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -32,4 +34,10 @@ jobs:
           git config --global user.name 'IPTV Bot'
           git config --global user.email 'bot@example.com'
           git add playlist.m3u ch2.js
-          git diff --staged --quiet || (git commit -m "🔄 Auto-update: $(date '+%Y-%m-%d %H:%M UTC')" && git push)
+          
+          if ! git diff --cached --quiet; then
+            git commit -m "🔄 Auto-update: $(date '+%Y-%m-%d %H:%M UTC')"
+            git push
+          else
+            echo "⏭️ No changes. Nothing to commit."
+          fi
