@@ -1,87 +1,110 @@
 # clean_m3u.py
 import sys
 import requests
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
-TIMEOUT = 8
+# ----- DOWNLOAD M3U -----
+def download(url, filename):
+    r = requests.get(url, timeout=30)
+    r.raise_for_status()
+    with open(filename, "wb") as f:
+        f.write(r.content)
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0",
-    "Range": "bytes=0-1024"
-}
-
+# ----- STRONG STREAM VALIDATION -----
 def is_stream_alive(url):
+    headers = {
+        "User-Agent": "VLC/3.0.20 LibVLC/3.0.20",
+        "Accept": "*/*",
+        "Range": "bytes=0-4096",
+        "Connection": "close"
+    }
     try:
-        r = requests.head(url, timeout=TIMEOUT, allow_redirects=True)
-        if r.status_code in (200, 206):
-            return True
+        r = requests.get(url, headers=headers, timeout=10, stream=True)
+        if r.status_code not in (200, 206):
+            return False
+        for chunk in r.iter_content(chunk_size=1024):
+            if chunk:
+                return True
     except:
-        pass
-
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, stream=True)
-        if r.status_code in (200, 206):
-            return True
-    except:
-        pass
-
+        return False
     return False
 
+# ----- PROCESS SINGLE ENTRY -----
+def process_entry(extinf, url):
+    """Return tuple (extinf, url) if alive, else None"""
+    if is_stream_alive(url):
+        return extinf, url
+    return None
 
-def clean_m3u(src_url, out_file="playlist.m3u"):
-    print("⬇️ Downloading playlist...")
-    lines = requests.get(src_url, timeout=30).text.splitlines()
+# ----- CLEAN M3U -----
+def clean_m3u(filename, max_workers=20):
+    with open(filename, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
 
-    result = ["#EXTM3U"]
-    seen = set()
+    entries = []
     extinf = None
-
-    total = kept = dead = dup = 0
 
     for line in lines:
         line = line.strip()
         if not line:
             continue
-
+        if line.startswith("#EXTM3U"):
+            continue
         if line.startswith("#EXTINF"):
             extinf = line
             continue
-
         if line.startswith("#"):
             continue
-
-        if extinf and "://" in line:
-            total += 1
-
-            if line in seen:
-                dup += 1
-                extinf = None
-                continue
-
-            print(f"🔍 Checking: {line[:60]}")
-
-            if is_stream_alive(line):
-                result.append(extinf)
-                result.append(line)
-                seen.add(line)
-                kept += 1
-            else:
-                dead += 1
-
+        if extinf and line.startswith("http"):
+            entries.append((extinf, line))
             extinf = None
 
-    with open(out_file, "w", encoding="utf-8") as f:
-        f.write("\n".join(result) + "\n")
+    # Remove duplicates by URL
+    unique_entries = []
+    seen_urls = set()
+    for ext, url in entries:
+        if url not in seen_urls:
+            unique_entries.append((ext, url))
+            seen_urls.add(url)
 
-    print("\n✅ CLEANING DONE")
-    print(f"📺 Total     : {total}")
-    print(f"✅ Working   : {kept}")
-    print(f"❌ Dead      : {dead}")
-    print(f"🧹 Duplicate : {dup}")
+    result = ["#EXTM3U"]
+    kept = skipped = 0
 
+    # ----- PARALLEL VALIDATION -----
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {executor.submit(process_entry, e, u): (e, u) for e, u in unique_entries}
+        for future in as_completed(futures):
+            res = future.result()
+            if res:
+                ext, url = res
+                result.append("")
+                result.append(ext)
+                result.append(url)
+                kept += 1
+            else:
+                skipped += 1
 
+    # ----- WRITE BACK -----
+    with open(filename, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(result).strip() + '\n')
+
+    print(f"✅ Cleaned {filename}: {kept} streams kept, {skipped} streams removed/dead")
+
+# ----- ENTRY POINT -----
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python clean_m3u.py <m3u-url>")
+    if len(sys.argv) == 2 and sys.argv[1].startswith("http"):
+        SRC = sys.argv[1]
+        OUT = "playlist.m3u"
+        try:
+            download(SRC, OUT)
+            clean_m3u(OUT)
+        except Exception as e:
+            print(f"Failed: {e}")
+            sys.exit(1)
+    elif len(sys.argv) == 2:
+        clean_m3u(sys.argv[1])
+    else:
+        print("Usage:")
+        print("  python clean_m3u.py <playlist.m3u>")
+        print("  python clean_m3u.py <source-url>")
         sys.exit(1)
-
-    clean_m3u(sys.argv[1])
