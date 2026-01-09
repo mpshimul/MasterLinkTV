@@ -1,5 +1,5 @@
 // Auto-generated IPTV channel list
-// Last updated: 2026-01-09 15:28 UTC
+// Last updated: 2026-01-09 16:32 UTC
 
 const rawChannels = [
   // --- BANGLA ---
@@ -23,7 +23,6 @@ const rawChannels = [
   { group: "Bangla", name: "Green TV", stream: "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/chunks.m3u8", logo: "" },
   { group: "Bangla", name: "Jankhar tv", stream: "https://dbcanada.sonarbanglatv.com/jhankartv/jtv/index.m3u8", logo: "" },
   { group: "Bangla", name: "Me-tv", stream: "https://iptvbd.live/metv1080/1080.m3u8", logo: "" },
-  { group: "Bangla", name: "MUSIC BANGLA", stream: "http://live.matribhumitv.com/music-bangla/index.m3u8", logo: "https://static.wikia.nocookie.net/logopedia/images/7/75/Music_Bangla_new.jpeg" },
   { group: "Bangla", name: "NTV UK", stream: "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/ntvuk00332211.stream/playlist.m3u8", logo: "" },
   { group: "Bangla", name: "R Plus Gold", stream: "https://cdn-4.pishow.tv/live/1231/1231_1.m3u8", logo: "" },
   { group: "Bangla", name: "R Plus Gould", stream: "https://cdn-4.pishow.tv/live/1231/1231_2.m3u8", logo: "" },
@@ -50,7 +49,7 @@ const rawChannels = [
   { group: "Sports", name: "Dubai Sports 3", stream: "https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8", logo: "https://s3.aynaott.com/storage/833148a9228c3a12ef0effc8f265cf1f" },
   { group: "Sports", name: "KTV Sport Plus", stream: "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8", logo: "https://s3.aynaott.com/storage/b54495ee3cdd53ddaa19d1f98120f488" },
   { group: "Sports", name: "Live Quran TV üéØ üì°", stream: "https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/playlist.m3u8", logo: "" },
-  { group: "Sports", name: "Live Sports", stream: "https://starsportshindiii.pages.dev/index.m3u8", logo: "" },
+  { group: "Sports", name: "Live Sports", stream: "https://starsportshindiii.pages.dev/720p.m3u8", logo: "" },
   { group: "Sports", name: "M4 SPORTS", stream: "http://dvr1.kablova.tv/M4/index.m3u8", logo: "" },
   { group: "Sports", name: "MORE THEN SPORTS TV", stream: "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8", logo: "https://s3.aynaott.com/storage/39174e32d4f8d29a95c881637fe1ecdb" },
   { group: "Sports", name: "Motor Sports TV", stream: "https://25dee28f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vdG9yc3BvcnR0di0xX0hMUw/playlist.m3u8", logo: "https://s3.aynaott.com/storage/98963a3064053f0f01bdf9186c86c432" },
@@ -85,6 +84,7 @@ const rawChannels = [
   { group: "Sports", name: "‡¶∏‡ßç‡¶™‡¶æ‡¶á‡¶∏ FM Radio ‡¶Æ‡ßã‡¶¨‡¶æ‡¶á‡¶≤ ‡¶≤‡¶ï ‡¶ï‡¶∞‡¶æ ‡¶Ö‡¶¨‡¶∏‡ßç‡¶•‡¶æ‡¶Ø‡¶º‡¶ì ‡¶ö‡¶≤‡¶§‡ßá ‡¶•‡¶æ‡¶ï‡¶¨‡ßá", stream: "https://stream.spicefmbd.com/stream.m3u8", logo: "" },
   // --- KIDS ---
   { group: "Kids", name: "BBC Cbeebies", stream: "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8", logo: "" },
+  { group: "Kids", name: "Cartoon Network HD", stream: "http://103.60.204.26:3255/CartoonNetwork/tracks-v1a1/mono.m3u8", logo: "" },
   { group: "Kids", name: "Dios Te Ve Kids", stream: "https://s.emisoras.tv:8081/diostevekids/index.m3u8", logo: "https://s3.aynaott.com/storage/6712a3c8a28689cfda4148faf095fa67" },
   { group: "Kids", name: "DISNEY JR", stream: "http://fl1.moveonjoy.com/DISNEY_JR/index.m3u8", logo: "" },
   { group: "Kids", name: "Gopal Bhar", stream: "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8", logo: "" },
@@ -117,6 +117,7 @@ const rawChannels = [
   { group: "Hindi", name: "Sheemaroo Bollywood", stream: "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8", logo: "" },
   { group: "Hindi", name: "ShemarooTV", stream: "https://cdn-3.pishow.tv/live/230/master.m3u8", logo: "https://s3.aynaott.com/storage/c63628e7301ba1eded68c0f75ab8d903" },
   { group: "Hindi", name: "SONY SAB", stream: "http://206.212.244.71:8080/BRIDGITS@YAHOO.COM/BRIDGITS@2022/125809", logo: "" },
+  { group: "Hindi", name: "Sony TV HD", stream: "http://103.60.204.26:3255/SonyEntertainmentTelevisionHD/tracks-v1a1/mono.m3u8", logo: "" },
   { group: "Hindi", name: "South Movies", stream: "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8", logo: "" },
   { group: "Hindi", name: "ZEE ANMOL", stream: "http://163.61.227.29:8000/play/a04a/index.m3u8", logo: "" },
   { group: "Hindi", name: "Zoom TV", stream: "https://live.zoomnews.info/live/Zoom_playlist.m3u8", logo: "https://s3.aynaott.com/storage/bb1e93cd63ca86130fe6f66393b7497b" },
@@ -135,6 +136,7 @@ const rawChannels = [
   { group: "Movies", name: "Rakuten Movies", stream: "https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8", logo: "https://s3.aynaott.com/storage/22af43810a37af9a151f1e0a23adde63" },
   // --- DOCUMENTARY ---
   { group: "Documentary", name: "Adventure Earth", stream: "https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8", logo: "https://s3.aynaott.com/storage/13c04e44967d653c70eac9670b47fa5d" },
+  { group: "Documentary", name: "Animal Planet HD", stream: "http://103.60.204.26:3255/AnimalPlanetHD/tracks-v1a1/mono.m3u8", logo: "" },
   { group: "Documentary", name: "Nat Geo HD", stream: "http://151.80.18.177:86/National_Geo_HD/index.m3u8", logo: "" },
   { group: "Documentary", name: "Wild TV", stream: "https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476.m3u8", logo: "https://s3.aynaott.com/storage/597c839e577e81813e44812cedc50892" },
   // --- OTHERS ---
@@ -174,7 +176,7 @@ const rawChannels = [
   { group: "Others", name: "Epic", stream: "http://epiconvh.akamaized.net/live/epic/master.m3u8", logo: "" },
   { group: "Others", name: "FASHION ONE", stream: "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8", logo: "" },
   { group: "Others", name: "Food Network", stream: "https://viamotionhsi.netplus.ch/live/eds/foodnetwork/browser-dash/foodnetwork.mpd", logo: "" },
-  { group: "Others", name: "FOX NEWS", stream: "https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8", logo: "" },
+  { group: "Others", name: "FOX NEWS", stream: "https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8", logo: "" },
   { group: "Others", name: "Fox Weather", stream: "https://247wlive.foxweather.com/stream/index.m3u8", logo: "https://s3.aynaott.com/storage/6dd20ecde19ea3f6b6cf6c040701973e" },
   { group: "Others", name: "France 24", stream: "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8", logo: "" },
   { group: "Others", name: "France 24 English (720p)", stream: "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8", logo: "" },
