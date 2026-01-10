@@ -322,7 +322,7 @@ function hideLoading(){
     hideLoaderTimer = setTimeout(() => {
         loader.style.display = 'none';
         hideLoaderTimer = null; // Clear ID after execution
-    }, 2000); 
+    }, 4000); 
 }
 
 /* =========================
@@ -573,7 +573,7 @@ function playChannel(index, showSidebarAfter) {
 
     // === TIMER STRATEGY ===
     // 1. FAST FAIL CHECK (100ms) - Catches instant, silent iframe failures
-    fastFailTimeout = setTimeout(onChannelFail, 100); 
+    fastFailTimeout = setTimeout(onChannelFail, 1000); 
 
     // 2. SLOW FAIL/HANG CHECK (5000ms) - Catches slow buffering or hanging streams
     errorTimeout = setTimeout(onChannelFail, 5000); 
