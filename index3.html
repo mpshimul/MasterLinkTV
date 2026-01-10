@@ -27,6 +27,21 @@
 
         /* Video Background */
         #player-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
+        
+        /* Error Background Style */
+        #error-background {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background-color: #111; /* Fallback color (dark grey) */
+            
+            /* FINAL REFERENCE: Assumes GIF is named 'error.gif' in the same folder */
+            background-image: url('https://gifdb.com/images/high/glitch-tv-static-hixli6jku4r36prq.gif'); 
+            
+            background-size: cover; 
+            background-position: center;
+            z-index: 0; /* Behind the active player */
+            display: none; /* HIDDEN by default */
+        }
+        
         iframe { width: 100%; height: 100%; border: none; background: #000; }
 
         /* Loading Screen */
@@ -67,9 +82,13 @@
         .channel-item img { width: 40px; height: 40px; object-fit: contain; margin-right: 12px; background: white; border-radius: 4px; padding: 1px; }
         .channel-name { font-size: 9px; font-weight: 500; }
 
-        #osd { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.8); padding: 12px 30px; border-radius: 50px; z-index: 50; display: none; border: 1px solid #ff0000; text-align: center;}
+        #osd { 
+            position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); 
+            background: rgba(0,0,0,0.8); padding: 12px 30px; border-radius: 50px; 
+            z-index: 50; display: none; border: 1px solid #ff0000; text-align: center;
+        }
 		
-		        /* Mobile CH Buttons - HIDDEN BY DEFAULT */
+		/* Mobile CH Buttons - HIDDEN BY DEFAULT */
         .mobile-ch-controls {
             position: fixed;
             right: 15px;
@@ -203,13 +222,14 @@
     </div>
 
     <div id="player-container">
-	<iframe 
-	    id="main-frame" 
-	    src="" 
-	    allow="autoplay; encrypted-media; picture-in-picture" 
-	    onload="hideLoading()">
-	</iframe>
-	<video id="main-video" playsinline controls style="display: none;"></video>
+	    <div id="error-background"></div> 
+        
+	    <iframe 
+	        id="main-frame" 
+	        src="" 
+	        allow="autoplay; encrypted-media; picture-in-picture">
+	    </iframe>
+	    <video id="main-video" playsinline controls style="display: none;"></video>
     </div>
 
     <div id="sidebar">
@@ -224,14 +244,17 @@
     <div id="osd"></div>
 	
 <script>
+// GLOBAL VARIABLES
 const availableLists = ['channels.js', 'ch2.js'];
 let currentListFile = 'channels.js';
 let currentListIndex = 0;
-
 let currentIndex = 0;
 let sidebarTimer;
 let isStarted = false;
 let marqueeCycles = 0;
+let hideLoaderTimer = null; 
+let errorTimeout = null; // New global timer for fallback error handling
+let fastFailTimeout = null;
 
 const frame = document.getElementById('main-frame');
 const video = document.getElementById('main-video') || null;
@@ -241,6 +264,7 @@ const loader = document.getElementById('loading-screen');
 const osd = document.getElementById('osd');
 const marqueeEl = document.getElementById('marquee-text');
 const noticeBar = document.getElementById('notice-bar');
+const errorBackground = document.getElementById('error-background'); 
 
 const GROUP_COLORS = {
   Bangla: "#1e88e5",
@@ -258,12 +282,12 @@ function svgLogo(channelName, group) {
   const bg = GROUP_COLORS[group] || GROUP_COLORS.Default;
 
   // Split name into max 2 lines
-  const lines = channelName.split(' ').slice(0, 4); // Adjust max words per line
-  const lineHeight = 18; // same as font-size
+  const lines = channelName.split(' ').slice(0, 4); 
+  const lineHeight = 18; 
 
   let tspans = '';
   lines.forEach((line, i) => {
-    const y = 50 + i * lineHeight; // vertical position
+    const y = 50 + i * lineHeight; 
     tspans += `<tspan x="60" y="${y}">${line}</tspan>`;
   });
 
@@ -279,13 +303,81 @@ function svgLogo(channelName, group) {
   return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
 
-
-
 // Decide which logo to use
 function getLogo(ch) {
   if(currentListFile === 'ch2.js') return svgLogo(ch.name, ch.group);
   return ch.logo || '';
 }
+
+/* =========================
+   LOADING SCREEN LOGIC 
+========================= */
+function hideLoading(){
+    // Clear any previous timer to prevent conflicts if a channel changes quickly
+    if (hideLoaderTimer) {
+        clearTimeout(hideLoaderTimer);
+    }
+    
+    // Set a 2000ms (2 second) delay after the player is 'ready' to cover visual stabilization
+    hideLoaderTimer = setTimeout(() => {
+        loader.style.display = 'none';
+        hideLoaderTimer = null; // Clear ID after execution
+    }, 2000); 
+}
+
+/* =========================
+   ERROR HANDLING (ULTIMATE ROBUST FIX)
+========================= */
+function showError(channelName) {
+    // 1. Clear loading screen and success/error timers
+    if (hideLoaderTimer) {
+        clearTimeout(hideLoaderTimer);
+        hideLoaderTimer = null;
+    }
+    if (errorTimeout) {
+        clearTimeout(errorTimeout);
+        errorTimeout = null;
+    }
+    loader.style.display = 'none';
+    
+    // 2. AGGRESSIVELY CLEAR AND HIDE THE PLAYER
+    frame.src = 'about:blank'; // Clears iframe content immediately
+    frame.style.display = 'none'; 
+    
+    if (video) { 
+        video.pause(); // Stop video playback
+        video.src = ''; // Hard clear the video source
+        
+        // ** FORCE HIDE VIA CSS PROPERTIES **
+        video.style.display = 'none';
+        video.style.opacity = '0'; 
+        video.style.visibility = 'hidden'; 
+    }
+
+    // --- SHOW: Show the animated error background ---
+    errorBackground.style.display = 'block';
+    errorBackground.style.zIndex = '900'; 
+
+    // 3. Display the error message in the OSD
+    const errorMessage = `
+        <span style="color: #FF0000; font-weight: bold;">[ERROR]</span><br>
+        Could not load channel: <b>${channelName}</b>.<br>
+        Please try another channel or check your network.<br>
+        <span style="color:gold; font-size:12px; margin-top:5px; display:block;">
+            Tip: Press 
+            <span style="font-size: 16px; margin: 0 5px; border: 1px solid gold; padding: 2px 5px; border-radius: 4px;">&larr;</span> 
+            / 
+            <span style="font-size: 16px; margin: 0 5px; border: 1px solid gold; padding: 2px 5px; border-radius: 4px;">&rarr;</span> 
+            on your remote to switch channel lists.
+        </span>
+    `;
+    osd.innerHTML = errorMessage;
+    osd.style.display = 'block';
+
+    // 4. Hide the error message after a longer duration (10 seconds)
+    setTimeout(() => osd.style.display = 'none', 10000); 
+}
+
 
 /* =========================
    INIT UI
@@ -358,13 +450,13 @@ function switchList(filename, listIdx) {
 }
 
 /* =========================
-   MOBILE CHANNEL CHANGE
+   MOBILE CHANNEL CHANGE 
 ========================= */
 function mobileChangeChannel(direction) {
   currentIndex += direction;
   if(currentIndex < 0) currentIndex = rawChannels.length - 1;
   if(currentIndex >= rawChannels.length) currentIndex = 0;
-  playChannel(currentIndex, true);
+  playChannel(currentIndex, false); 
 }
 
 /* =========================
@@ -411,48 +503,130 @@ function startApp() {
 }
 
 /* =========================
-   PLAY CHANNEL
+   PLAY CHANNEL (ULTIMATE RELIABILITY FIX: INSTANT + 5S TIMERS)
 ========================= */
 function playChannel(index, showSidebarAfter) {
-  if(!isStarted) return;
+    if(!isStarted) return;
 
-  currentIndex = index;
-  const ch = rawChannels[index];
-  localStorage.setItem('last_tv_channel', index);
+    // Clear both timers before starting a new channel
+    if (errorTimeout) {
+        clearTimeout(errorTimeout);
+        errorTimeout = null;
+    }
+    if (fastFailTimeout) {
+        clearTimeout(fastFailTimeout);
+        fastFailTimeout = null;
+    }
+    
+    // --- HIDE: Hide Error Background when attempting to play a new channel ---
+    errorBackground.style.display = 'none';
 
-  updateMobileLogos();
+    currentIndex = index;
+    const ch = rawChannels[index];
+    localStorage.setItem('last_tv_channel', index);
 
-  loader.style.display = 'flex';
-  const loadingImg = document.getElementById('loading-img');
-  loadingImg.src = getLogo(ch);
+    updateMobileLogos();
 
-  document.getElementById('loading-msg').innerHTML =
-    `${ch.name}<br><span style="color:#888;font-size:14px">Buffering...</span>`;
+    // Clear pending hide loader timer
+    if (hideLoaderTimer) {
+        clearTimeout(hideLoaderTimer);
+        hideLoaderTimer = null;
+    }
 
-  const isM3U8 = ch.stream.includes('.m3u8');
+    // 1. SHOW LOADING SCREEN IMMEDIATELY
+    loader.style.display = 'flex';
+    const loadingImg = document.getElementById('loading-img');
+    loadingImg.src = getLogo(ch);
 
-  if(isM3U8 && video){
-    frame.style.display = 'none';
-    frame.src = '';
-    video.style.display = 'block';
-    video.src = ch.stream;
-    video.muted = false;
-    video.play().catch(()=>{});
-    setTimeout(()=>loader.style.display='none',2000);
-  } else {
-    if(video){ video.pause(); video.src=''; video.style.display='none'; }
-    frame.style.display='block';
-    frame.src = ch.stream;
-  }
+    document.getElementById('loading-msg').innerHTML =
+        `${ch.name}<br><span style="color:#888;font-size:14px">Buffering...</span>`;
 
-  document.querySelectorAll('.channel-item').forEach(el=>el.classList.remove('selected'));
-  document.getElementById("ch-"+index)?.classList.add('selected');
+    const isM3U8 = ch.stream.includes('.m3u8');
+    
+    // Function to clear ALL timers and hide loader on success
+    const onSuccess = () => {
+        if (errorTimeout) {
+            clearTimeout(errorTimeout);
+            errorTimeout = null;
+        }
+        if (fastFailTimeout) {
+            clearTimeout(fastFailTimeout);
+            fastFailTimeout = null;
+        }
+        hideLoading();
+    };
+    
+    // Function called on failure (either native event or timer trigger)
+    const onChannelFail = () => {
+        // Clear all timers one last time before showing the error
+        if (errorTimeout) {
+            clearTimeout(errorTimeout);
+            errorTimeout = null;
+        }
+        if (fastFailTimeout) {
+            clearTimeout(fastFailTimeout);
+            fastFailTimeout = null;
+        }
+        showError(ch.name);
+    };
 
-  osd.innerHTML=`[${ch.group}]<br><b>${ch.name}</b>`;
-  osd.style.display='block';
-  setTimeout(()=>osd.style.display='none',6000);
 
-  if(showSidebarAfter) showSidebar();
+    // === TIMER STRATEGY ===
+    // 1. FAST FAIL CHECK (100ms) - Catches instant, silent iframe failures
+    fastFailTimeout = setTimeout(onChannelFail, 100); 
+
+    // 2. SLOW FAIL/HANG CHECK (5000ms) - Catches slow buffering or hanging streams
+    errorTimeout = setTimeout(onChannelFail, 5000); 
+    
+    // === STREAM LOADING LOGIC ===
+    if(isM3U8 && video){
+        // HLS/m3u8 Streams
+        frame.style.display = 'none';
+        frame.src = '';
+        
+        video.style.opacity = '1';
+        video.style.visibility = 'visible';
+        video.style.display = 'block';
+
+        video.src = ch.stream;
+        video.muted = false;
+        video.volume = 0.5;
+
+        // If successful or if native video error occurs, we handle it and clear timers
+        video.onloadeddata = onSuccess; 
+        video.onerror = onChannelFail; 
+
+        video.play().catch(()=>{});
+
+    } else {
+        // MP4/Iframe Streams
+        if(video){ 
+            video.pause(); 
+            video.src=''; 
+            video.style.display='none'; 
+            video.style.opacity = '0';
+            video.style.visibility = 'hidden';
+        }
+        frame.style.display='block';
+        frame.src = ch.stream;
+
+        // If successful, clear timers
+        frame.onload = onSuccess; 
+        
+        // Native onerror (unreliable) is also linked to the failure handler
+        frame.onerror = onChannelFail; 
+    }
+    
+    // IMPORTANT: If any onSuccess or onChannelFail runs, it clears BOTH timers.
+
+    document.querySelectorAll('.channel-item').forEach(el=>el.classList.remove('selected'));
+    document.getElementById("ch-"+index)?.classList.add('selected');
+
+    osd.innerHTML=`[${ch.group}]<br><b>${ch.name}</b>`;
+    osd.style.display='block';
+    setTimeout(()=>osd.style.display='none',6000);
+
+    if(showSidebarAfter) showSidebar();
 }
 
 /* =========================
@@ -469,10 +643,37 @@ function showSidebar(){
 }
 
 /* =========================
-   KEY HANDLING
+   FULLSCREEN TOGGLE
+========================= */
+function toggleFullScreen() {
+    const player = document.getElementById('player-container');
+    const isFullscreen = document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement || document.msFullscreenElement;
+
+    if (!isFullscreen) {
+        // Request fullscreen on the player container
+        if (player.requestFullscreen) { player.requestFullscreen(); }
+        else if (player.mozRequestFullScreen) { player.mozRequestFullScreen(); }
+        else if (player.webkitRequestFullscreen) { player.webkitRequestFullscreen(); }
+        else if (player.msRequestFullscreen) { player.msRequestFullscreen(); }
+    } else {
+        // Exit fullscreen
+        if (document.exitFullscreen) { document.exitFullscreen(); }
+        else if (document.mozCancelFullScreen) { document.mozCancelFullScreen(); }
+        else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); }
+        else if (document.msExitFullscreen) { document.msExitFullscreen(); }
+    }
+}
+
+
+/* =========================
+   KEY HANDLING 
 ========================= */
 window.addEventListener('keydown', e=>{
   if(!isStarted){ if(e.key==="Enter"||e.key==="Ok") startApp(); return; }
+
+  // Check if a video element is currently active and can be controlled
+  const controllableVideo = video && video.style.display !== 'none' ? video : null;
+  const volumeStep = 0.1; // 10% step
 
   if(e.key==="ArrowUp") playChannel((currentIndex-1+rawChannels.length)%rawChannels.length,true);
   else if(e.key==="ArrowDown") playChannel((currentIndex+1)%rawChannels.length,true);
@@ -481,6 +682,31 @@ window.addEventListener('keydown', e=>{
   else if(e.key==="PageUp") playChannel((currentIndex-1+rawChannels.length)%rawChannels.length,false);
   else if(e.key==="PageDown") playChannel((currentIndex+1)%rawChannels.length,false);
   else if(e.key==="Enter"||e.key==="Ok") toggleSidebar();
+  
+  // VOLUME CONTROL
+  else if(controllableVideo && (e.key==="+" || e.key==="=")) {
+    // Increase Volume (max 1.0)
+    controllableVideo.volume = Math.min(1.0, controllableVideo.volume + volumeStep);
+    osd.innerHTML = `Volume: ${Math.round(controllableVideo.volume * 100)}%`;
+    osd.style.display='block';
+    setTimeout(()=>osd.style.display='none', 1000);
+  }
+  else if(controllableVideo && e.key==="-") {
+    // Decrease Volume (min 0.0)
+    controllableVideo.volume = Math.max(0.0, controllableVideo.volume - volumeStep);
+    osd.innerHTML = `Volume: ${Math.round(controllableVideo.volume * 100)}%`;
+    osd.style.display='block';
+    setTimeout(()=>osd.style.display='none', 1000);
+  }
+  
+  // FULLSCREEN TOGGLE
+  else if(e.key==="f" || e.key==="F") {
+      toggleFullScreen();
+      osd.innerHTML = document.fullscreenElement ? `Fullscreen On` : `Fullscreen Off`;
+      osd.style.display='block';
+      setTimeout(()=>osd.style.display='none', 2000);
+  }
+  
 });
 
 /* =========================
@@ -488,8 +714,5 @@ window.addEventListener('keydown', e=>{
 ========================= */
 init();
 </script>
-
-
-
 </body>
 </html>
