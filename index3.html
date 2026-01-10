@@ -35,7 +35,7 @@
             background: #000; display: none; flex-direction: column;
             justify-content: center; align-items: center; z-index: 3000;
         }
-        #loading-img { width: 90px; height: 70px; object-fit: contain; margin-bottom: 20px; background: white; padding: 8px; border-radius: 12px; }
+        #loading-img { width: 90px; height: 90px; object-fit: contain; margin-bottom: 20px; background: white; padding: 5px; border-radius: 12px; }
         #loading-msg { font-size: 20px; font-weight: bold; margin-bottom: 15px; text-align: center; }
         .spinner { width: 40px; height: 40px; border: 4px solid #333; border-top: 4px solid #ff0000; border-radius: 50%; animation: spin 1s linear infinite; }
         @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
@@ -64,7 +64,7 @@
         .category-title { padding: 18px 10px 5px 10px; color: #ff0000; font-size: 14px; font-weight: bold; text-transform: uppercase; border-bottom: 1px solid #222; margin-top: 10px; }
         .channel-item { display: flex; align-items: center; padding: 6px; margin-top: 5px; border-radius: 8px; background: rgba(255,255,255,0.03); border: 2px solid transparent; cursor: pointer; }
         .channel-item.selected { background: rgba(255, 0, 0, 0.3); border-color: #ff0000; }
-        .channel-item img { width: 45px; height: 30px; object-fit: contain; margin-right: 12px; background: white; border-radius: 4px; padding: 1px; }
+        .channel-item img { width: 40px; height: 40px; object-fit: contain; margin-right: 12px; background: white; border-radius: 4px; padding: 1px; }
         .channel-name { font-size: 9px; font-weight: 500; }
 
         #osd { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.8); padding: 12px 30px; border-radius: 50px; z-index: 50; display: none; border: 1px solid #ff0000; text-align: center;}
@@ -130,15 +130,48 @@
             border-radius: 10px;
             text-transform: uppercase;
         }
-		#touch-overlay { 
+		
+		/* ADD: Video tag same as iframe */
+		#main-video { 
+			width: 100%; 
+			height: 100%; 
+			border: none; 
+			background: #000; 
+			display: none; 
+		}
+
+		/* ADD: List Switcher in Sidebar (above the header) */
+		.list-switcher { 
+			display: flex; 
+			padding: 10px; 
+			gap: 8px; 
+			border-bottom: 1px solid #333; 
+			background: rgba(0,0,0,0.5); 
+		}
+		.list-btn { 
+			flex: 1; 
+			padding: 8px; 
+			background: rgba(255,255,255,0.1); 
+			border: 2px solid #555; 
+			color: white; 
+			border-radius: 6px; 
+			cursor: pointer; 
+			font-size: 12px; 
+			font-weight: bold; 
+		}
+		.list-btn.active { 
+			border-color: #ff0000; 
+			background: rgba(255,0,0,0.3); 
+		}
+
 
     </style>
 
 	<script src="channels.js"></script>
-
+	
 </head>
 <body>
-	
+
     <div id="notice-bar">
         <div id="marquee-text" class="marquee">WELCOME TO LIVE TV! PLEASE ENSURE YOU ARE CONNECTED TO THE ISP NETWORK FOR BEST PERFORMANCE. ENJOY HIGH-QUALITY STREAMING OF YOUR FAVORITE CHANNELS.  •  WELCOME TO LIVE TV! • </div>
     </div>
@@ -176,211 +209,287 @@
 	    allow="autoplay; encrypted-media; picture-in-picture" 
 	    onload="hideLoading()">
 	</iframe>
+	<video id="main-video" playsinline controls style="display: none;"></video>
     </div>
 
     <div id="sidebar">
         <div class="sidebar-header">MASTER LINK TV</div>
+		<div class="list-switcher">
+			<button class="list-btn active" onclick="switchList('channels.js', 0)">List 1</button>
+			<button class="list-btn" onclick="switchList('channels2.js', 1)">List 2</button>
+		</div>
         <ul id="channel-list"></ul>
     </div>
 
     <div id="osd"></div>
 	
-	<script>
-        // FULL DATASET (Simplified for code length, includes all 90 IDs internally)
+<script>
+const availableLists = ['channels.js', 'channels2.js'];
+let currentListFile = 'channels.js';
+let currentListIndex = 0;
 
-		let currentIndex = 0;
-        let sidebarTimer;
-        let isStarted = false;
-        let marqueeCycles = 0;
-        
-        const frame = document.getElementById('main-frame');
-        const sidebar = document.getElementById('sidebar');
-        const list = document.getElementById('channel-list');
-        const loader = document.getElementById('loading-screen');
-        const osd = document.getElementById('osd');
-        const marqueeEl = document.getElementById('marquee-text');
-        const noticeBar = document.getElementById('notice-bar');
+let currentIndex = 0;
+let sidebarTimer;
+let isStarted = false;
+let marqueeCycles = 0;
 
-        function init() {
-            // Notice Bar hide after 2 iterations
-            marqueeEl.addEventListener('animationiteration', () => {
-                marqueeCycles++;
-                if (marqueeCycles >= 2) noticeBar.style.display = 'none';
-            });
+const frame = document.getElementById('main-frame');
+const video = document.getElementById('main-video') || null;
+const sidebar = document.getElementById('sidebar');
+const list = document.getElementById('channel-list');
+const loader = document.getElementById('loading-screen');
+const osd = document.getElementById('osd');
+const marqueeEl = document.getElementById('marquee-text');
+const noticeBar = document.getElementById('notice-bar');
 
-            // TV Detection to hide mobile buttons
-            const userAgent = navigator.userAgent.toLowerCase();
-            const isTV = userAgent.includes("tv") || userAgent.includes("smarttv") || userAgent.includes("googletv");
-            if (isTV) {
-                const mobControls = document.querySelector('.mobile-ch-controls');
-                if(mobControls) mobControls.style.display = 'none';
-            }
+const GROUP_COLORS = {
+  Bangla: "#1e88e5",
+  Sports: "#43a047",
+  Movies: "#e53935",
+  Hindi: "#8e24aa",
+  Kids: "#fbc02d",
+  Documentary: "#fb8c00",
+  Religious: "#00897b",
+  Default: "#424242"
+};
 
-            // Build Grouped List
-            let currentGroup = "";
-            rawChannels.forEach((ch, i) => {
-                if (ch.group !== currentGroup) {
-                    currentGroup = ch.group;
-                    const head = document.createElement('li');
-                    head.className = 'category-title';
-                    head.innerText = currentGroup;
-                    list.appendChild(head);
-                }
-                const li = document.createElement('li');
-                li.className = 'channel-item';
-                li.id = "ch-" + i;
-                li.innerHTML = `<img src="${ch.logo}"> <span class="channel-name">${ch.name}</span>`;
-                li.onclick = (e) => { e.stopPropagation(); playChannel(i, true); };
-                list.appendChild(li);
-            });
-            document.getElementById('start-btn-id').focus();
-        }
+// SVG logo generator
+function svgLogo(channelName, group) {
+  const bg = GROUP_COLORS[group] || GROUP_COLORS.Default;
 
-        function startApp() {
-            isStarted = true;
-            document.getElementById('splash').remove();
-            
-            // History: Load last watched or start at 0
-            const lastChannel = localStorage.getItem('last_tv_channel');
-            playChannel(lastChannel ? parseInt(lastChannel) : 0, false);
-        }
+  // Split name into max 2 lines
+  const lines = channelName.split(' ').slice(0, 4); // Adjust max words per line
+  const lineHeight = 18; // same as font-size
 
-        function mobileChangeChannel(direction) {
-            // direction -1 is prev, 1 is next
-            let nextIndex = currentIndex + direction;
-            if (nextIndex < 0) nextIndex = rawChannels.length - 1;
-            if (nextIndex >= rawChannels.length) nextIndex = 0;
-            playChannel(nextIndex, false);
-        }
+  let tspans = '';
+  lines.forEach((line, i) => {
+    const y = 50 + i * lineHeight; // vertical position
+    tspans += `<tspan x="60" y="${y}">${line}</tspan>`;
+  });
 
-        function updateMobileLogos() {
-            const prevIdx = (currentIndex > 0) ? currentIndex - 1 : rawChannels.length - 1;
-            const nextIdx = (currentIndex < rawChannels.length - 1) ? currentIndex + 1 : 0;
-            
-            const prevBtn = document.getElementById('btn-prev-img');
-            const nextBtn = document.getElementById('btn-next-img');
-            if (prevBtn) prevBtn.src = rawChannels[prevIdx].logo;
-            if (nextBtn) nextBtn.src = rawChannels[nextIdx].logo;
-        }
+  const svg = `
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <rect width="120" height="120" rx="8" fill="${bg}"/>
+  <text text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+    ${tspans}
+  </text>
+</svg>
+  `.trim();
 
-function playChannel(index, showSidebarAfter) {
-    if (!isStarted) return;
-    currentIndex = index;
-    const ch = rawChannels[currentIndex];
-    localStorage.setItem('last_tv_channel', currentIndex);
-
-    updateMobileLogos();
-
-    loader.style.display = 'flex';
-    document.getElementById('loading-img').src = ch.logo;
-    document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:#888; font-size:14px">Buffering...</span>`;
-
-    // Set stream (no need for &muted=0, the player ignores it anyway)
-    frame.src = ch.stream;
-
-    // ⭐ SEND UNMUTE MESSAGE AFTER FRAME LOADS
-    setTimeout(() => {
-        try {
-            frame.contentWindow.postMessage({action: 'unmute'}, '*');
-            console.log('Sent unmute to player');
-        } catch(e) {
-            console.log('Could not send unmute:', e);
-        }
-    }, 3000); // Wait 3 seconds for player to initialize
-
-    document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
-    const active = document.getElementById("ch-" + index);
-    if (active) {
-        active.classList.add('selected');
-        active.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
-
-    osd.innerHTML = `[${ch.group}] <b>${ch.name}</b>`;
-    osd.style.display = 'block';
-    setTimeout(() => { osd.style.display = 'none'; }, 8000);
-    
-    if (showSidebarAfter) showSidebar();
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
 
-// Listen for 'unmute' message from parent
-window.addEventListener('message', function(event) {
-    if (event.data && event.data.type === 'unmute') {
-        // Try to unmute video elements
-        const videos = document.querySelectorAll('video');
-        videos.forEach(video => {
-            video.muted = false;
-            video.play().catch(e => console.log('Unmute failed:', e));
-        });
 
-        // If you have a custom player, call its unmute function
-        if (typeof player !== 'undefined' && player.unmute) {
-            player.unmute();
-        }
 
-        // Also try to focus the body to trigger user gesture
-        document.body.focus();
+// Decide which logo to use
+function getLogo(ch) {
+  if(currentListFile === 'channels2.js') return svgLogo(ch.name, ch.group);
+  return ch.logo || '';
+}
+
+/* =========================
+   INIT UI
+========================= */
+function init() {
+  marqueeEl?.addEventListener('animationiteration', () => {
+    marqueeCycles++;
+    if (marqueeCycles >= 2) noticeBar.style.display = 'none';
+  });
+
+  // Build channel list
+  list.innerHTML = '';
+  let currentGroup = "";
+
+  rawChannels.forEach((ch, i) => {
+    if (ch.group !== currentGroup) {
+      currentGroup = ch.group;
+      const head = document.createElement('li');
+      head.className = 'category-title';
+      head.innerText = currentGroup;
+      list.appendChild(head);
     }
+
+    const li = document.createElement('li');
+    li.className = 'channel-item';
+    li.id = "ch-" + i;
+
+    li.innerHTML = `
+      <img src="${getLogo(ch)}" alt="${ch.name}">
+      <span class="channel-name">${ch.name}</span>
+    `;
+
+    li.onclick = e => { e.stopPropagation(); playChannel(i, true); };
+    list.appendChild(li);
+  });
+
+  // List switch buttons
+  document.querySelectorAll('.list-btn').forEach((btn, idx) => {
+    btn.classList.toggle('active', idx === currentListIndex);
+    btn.onclick = () => switchList(availableLists[idx], idx);
+  });
+
+  // Mobile prev/next buttons
+  const prevBtn = document.getElementById('btn-prev-img');
+  const nextBtn = document.getElementById('btn-next-img');
+  if(prevBtn) prevBtn.onclick = () => mobileChangeChannel(0);
+  if(nextBtn) nextBtn.onclick = () => mobileChangeChannel(0);
+}
+
+/* =========================
+   SWITCH LIST
+========================= */
+function switchList(filename, listIdx) {
+  if (filename === currentListFile) return;
+
+  const oldScript = document.querySelector(`script[src="${currentListFile}"]`);
+  if (oldScript) oldScript.remove();
+
+  const script = document.createElement('script');
+  script.src = filename;
+  script.onload = () => {
+    currentListFile = filename;
+    currentListIndex = listIdx;
+    localStorage.setItem('last_list', filename);
+    currentIndex = 0;
+    init();
+    playChannel(0, true);
+  };
+  document.head.appendChild(script);
+}
+
+/* =========================
+   MOBILE CHANNEL CHANGE
+========================= */
+function mobileChangeChannel(direction) {
+  currentIndex += direction;
+  if(currentIndex < 0) currentIndex = rawChannels.length - 1;
+  if(currentIndex >= rawChannels.length) currentIndex = 0;
+  playChannel(currentIndex, true);
+}
+
+/* =========================
+   UPDATE MOBILE LOGOS
+========================= */
+function updateMobileLogos() {
+  const prevIdx = currentIndex > 0 ? currentIndex - 1 : rawChannels.length - 1;
+  const nextIdx = currentIndex < rawChannels.length - 1 ? currentIndex + 1 : 0;
+
+  const prevBtn = document.getElementById('btn-prev-img');
+  const nextBtn = document.getElementById('btn-next-img');
+  if (!prevBtn || !nextBtn) return;
+
+  prevBtn.src = getLogo(rawChannels[prevIdx]);
+  nextBtn.src = getLogo(rawChannels[nextIdx]);
+}
+
+/* =========================
+   START APP
+========================= */
+function startApp() {
+  isStarted = true;
+  document.getElementById('splash')?.remove();
+
+  const lastChannel = localStorage.getItem('last_tv_channel');
+  const savedList = localStorage.getItem('last_list');
+
+  if(savedList && savedList !== 'channels.js' && availableLists.includes(savedList)){
+    const defaultScript = document.querySelector('script[src="channels.js"]');
+    if(defaultScript) defaultScript.remove();
+
+    const script = document.createElement('script');
+    script.src = savedList;
+    script.onload = () => {
+      currentListFile = savedList;
+      currentListIndex = availableLists.indexOf(savedList);
+      init();
+      playChannel(lastChannel ? parseInt(lastChannel) : 0, false);
+    };
+    document.head.appendChild(script);
+  } else {
+    playChannel(lastChannel ? parseInt(lastChannel) : 0, false);
+  }
+}
+
+/* =========================
+   PLAY CHANNEL
+========================= */
+function playChannel(index, showSidebarAfter) {
+  if(!isStarted) return;
+
+  currentIndex = index;
+  const ch = rawChannels[index];
+  localStorage.setItem('last_tv_channel', index);
+
+  updateMobileLogos();
+
+  loader.style.display = 'flex';
+  const loadingImg = document.getElementById('loading-img');
+  loadingImg.src = getLogo(ch);
+
+  document.getElementById('loading-msg').innerHTML =
+    `${ch.name}<br><span style="color:#888;font-size:14px">Buffering...</span>`;
+
+  const isM3U8 = ch.stream.includes('.m3u8');
+
+  if(isM3U8 && video){
+    frame.style.display = 'none';
+    frame.src = '';
+    video.style.display = 'block';
+    video.src = ch.stream;
+    video.muted = false;
+    video.play().catch(()=>{});
+    setTimeout(()=>loader.style.display='none',2000);
+  } else {
+    if(video){ video.pause(); video.src=''; video.style.display='none'; }
+    frame.style.display='block';
+    frame.src = ch.stream;
+  }
+
+  document.querySelectorAll('.channel-item').forEach(el=>el.classList.remove('selected'));
+  document.getElementById("ch-"+index)?.classList.add('selected');
+
+  osd.innerHTML=`[${ch.group}]<br><b>${ch.name}</b>`;
+  osd.style.display='block';
+  setTimeout(()=>osd.style.display='none',6000);
+
+  if(showSidebarAfter) showSidebar();
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+function toggleSidebar(){
+  if(!isStarted) return;
+  sidebar.classList.toggle('active');
+}
+function showSidebar(){
+  sidebar.classList.add('active');
+  clearTimeout(sidebarTimer);
+  sidebarTimer = setTimeout(()=>sidebar.classList.remove('active'),5000);
+}
+
+/* =========================
+   KEY HANDLING
+========================= */
+window.addEventListener('keydown', e=>{
+  if(!isStarted){ if(e.key==="Enter"||e.key==="Ok") startApp(); return; }
+
+  if(e.key==="ArrowUp") playChannel((currentIndex-1+rawChannels.length)%rawChannels.length,true);
+  else if(e.key==="ArrowDown") playChannel((currentIndex+1)%rawChannels.length,true);
+  else if(e.key==="ArrowLeft"){ currentListIndex=(currentListIndex-1+availableLists.length)%availableLists.length; switchList(availableLists[currentListIndex],currentListIndex); }
+  else if(e.key==="ArrowRight"){ currentListIndex=(currentListIndex+1)%availableLists.length; switchList(availableLists[currentListIndex],currentListIndex); }
+  else if(e.key==="PageUp") playChannel((currentIndex-1+rawChannels.length)%rawChannels.length,false);
+  else if(e.key==="PageDown") playChannel((currentIndex+1)%rawChannels.length,false);
+  else if(e.key==="Enter"||e.key==="Ok") toggleSidebar();
 });
 
-        function hideLoading() {
-            // Wait 4 seconds after iframe loads to hide loader
-            setTimeout(() => {
-                loader.style.display = 'none';
-            }, 4000);
-        }
+/* =========================
+   INIT
+========================= */
+init();
+</script>
 
-        function toggleSidebar() {
-            if (!isStarted) return;
-            if (sidebar.classList.contains('active')) sidebar.classList.remove('active');
-            else showSidebar();
-        }
 
-        function showSidebar() {
-            sidebar.classList.add('active');
-            clearTimeout(sidebarTimer);
-            sidebarTimer = setTimeout(() => { sidebar.classList.remove('active'); }, 5000);
-        }
-
-        window.addEventListener('keydown', (e) => {
-            if (!isStarted) {
-                if (e.key === "Enter" || e.key === "Ok") startApp();
-                return;
-            }
-
-            // LOGIC: Arrow UP/DOWN opens sidebar. CH+/CH- (PageUp/Down) does NOT open sidebar.
-            if (e.key === "ArrowUp") {
-                e.preventDefault();
-                currentIndex = (currentIndex > 0) ? currentIndex - 1 : rawChannels.length - 1;
-                playChannel(currentIndex, true); 
-            } 
-            else if (e.key === "ArrowDown") {
-                e.preventDefault();
-                currentIndex = (currentIndex < rawChannels.length - 1) ? currentIndex + 1 : 0;
-                playChannel(currentIndex, true);
-            }
-            else if (e.key === "PageUp" || e.key === "ChannelUp") {
-                e.preventDefault();
-                currentIndex = (currentIndex > 0) ? currentIndex - 1 : rawChannels.length - 1;
-                playChannel(currentIndex, false); 
-            }
-            else if (e.key === "PageDown" || e.key === "ChannelDown") {
-                e.preventDefault();
-                currentIndex = (currentIndex < rawChannels.length - 1) ? currentIndex + 1 : 0;
-                playChannel(currentIndex, false); 
-            }
-            else if (e.key === "Enter" || e.key === "Ok") {
-                toggleSidebar();
-            }
-        });
-
-        init();
-    </script>
 
 </body>
 </html>
-
-
-
-
-
-
