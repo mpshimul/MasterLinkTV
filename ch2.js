@@ -1,5 +1,5 @@
 // Auto-generated IPTV channel list
-// Last updated: 2026-01-10 07:22 UTC
+// Last updated: 2026-01-10 08:30 UTC
 
 const rawChannels = [
   // --- BANGLA ---
@@ -55,7 +55,7 @@ const rawChannels = [
   { group: "Sports", name: "KTV Sport Plus", stream: "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8", logo: "https://s3.aynaott.com/storage/b54495ee3cdd53ddaa19d1f98120f488" },
   { group: "Sports", name: "Lemar TV AFG", stream: "http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-lemar/index.m3u8", logo: "" },
   { group: "Sports", name: "Live Quran TV üéØ üì°", stream: "https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/playlist.m3u8", logo: "" },
-  { group: "Sports", name: "Live Sports", stream: "https://starsportshindiii.pages.dev/index.m3u8", logo: "" },
+  { group: "Sports", name: "Live Sports", stream: "https://starsportshindiii.pages.dev/720p.m3u8", logo: "" },
   { group: "Sports", name: "M4 SPORTS", stream: "http://dvr1.kablova.tv/M4/index.m3u8", logo: "" },
   { group: "Sports", name: "MORE THEN SPORTS TV", stream: "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8", logo: "https://s3.aynaott.com/storage/39174e32d4f8d29a95c881637fe1ecdb" },
   { group: "Sports", name: "Motor Sports TV", stream: "https://25dee28f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vdG9yc3BvcnR0di0xX0hMUw/playlist.m3u8", logo: "https://s3.aynaott.com/storage/98963a3064053f0f01bdf9186c86c432" },
@@ -91,6 +91,7 @@ const rawChannels = [
   { group: "Sports", name: "‡¶∏‡ßç‡¶™‡¶æ‡¶á‡¶∏ FM Radio ‡¶Æ‡ßã‡¶¨‡¶æ‡¶á‡¶≤ ‡¶≤‡¶ï ‡¶ï‡¶∞‡¶æ ‡¶Ö‡¶¨‡¶∏‡ßç‡¶•‡¶æ‡¶Ø‡¶º‡¶ì ‡¶ö‡¶≤‡¶§‡ßá ‡¶•‡¶æ‡¶ï‡¶¨‡ßá", stream: "https://stream.spicefmbd.com/stream.m3u8", logo: "" },
   // --- KIDS ---
   { group: "Kids", name: "BBC Cbeebies", stream: "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8", logo: "" },
+  { group: "Kids", name: "Cartoon Network", stream: "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8", logo: "" },
   { group: "Kids", name: "Dios Te Ve Kids", stream: "https://s.emisoras.tv:8081/diostevekids/index.m3u8", logo: "https://s3.aynaott.com/storage/6712a3c8a28689cfda4148faf095fa67" },
   { group: "Kids", name: "DISNEY JR", stream: "http://fl1.moveonjoy.com/DISNEY_JR/index.m3u8", logo: "" },
   { group: "Kids", name: "Gopal Bhar", stream: "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8", logo: "" },
@@ -210,7 +211,7 @@ const rawChannels = [
   { group: "Others", name: "Peace TV Urdu", stream: "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8", logo: "" },
   { group: "Others", name: "Persiana Travel", stream: "https://ptravelhls.persiana.live/hls/stream.m3u8", logo: "https://s3.aynaott.com/storage/be9b48d87dcd7711cac19c17d8e01b27" },
   { group: "Others", name: "Power Turk", stream: "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8", logo: "https://s3.aynaott.com/storage/c4f27e64c99b50629e7021b99ac9387a" },
-  { group: "Others", name: "Quran", stream: "https://download.quranicaudio.com/qdc/abdurrahmaan_as_sudais/murattal/96.mp3", logo: "" },
+  { group: "Others", name: "QURAN", stream: "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8", logo: "" },
   { group: "Others", name: "QURAN RADIOTV SMC", stream: "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8", logo: "" },
   { group: "Others", name: "RT News (EN) üõú", stream: "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8", logo: "" },
   { group: "Others", name: "RTNEWS GLOBAL", stream: "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8?v=1", logo: "" },
