@@ -216,7 +216,7 @@
         <div class="sidebar-header">MASTER LINK TV</div>
 		<div class="list-switcher">
 			<button class="list-btn active" onclick="switchList('channels.js', 0)">List 1</button>
-			<button class="list-btn" onclick="switchList('channels2.js', 1)">List 2</button>
+			<button class="list-btn" onclick="switchList('ch2.js', 1)">List 2</button>
 		</div>
         <ul id="channel-list"></ul>
     </div>
@@ -224,7 +224,7 @@
     <div id="osd"></div>
 	
 <script>
-const availableLists = ['channels.js', 'channels2.js'];
+const availableLists = ['channels.js', 'ch2.js'];
 let currentListFile = 'channels.js';
 let currentListIndex = 0;
 
@@ -283,7 +283,7 @@ function svgLogo(channelName, group) {
 
 // Decide which logo to use
 function getLogo(ch) {
-  if(currentListFile === 'channels2.js') return svgLogo(ch.name, ch.group);
+  if(currentListFile === 'ch2.js') return svgLogo(ch.name, ch.group);
   return ch.logo || '';
 }
 
