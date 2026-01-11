@@ -559,12 +559,21 @@ function playChannel(index, showSidebarAfter) {
         frame.style.display = 'none';
 
         // Call the Kotlin function to launch ExoPlayer
-        AndroidTVBridge.playStream(ch.stream, ch.name);
+        // ⭐ NEW (Required) JavaScript Call - You must change this in your HTML/JS code!
+		try {
+		    const allChannelsArray = window.ChannelData || []; // Get the full array of channels (replace 'window.ChannelData' with your actual array variable name)
+		    const listJsonString = JSON.stringify(allChannelsArray); // Convert the Array to a JSON String
+		    
+		    AndroidTVBridge.playStream(streamUrl, channelName, listJsonString, currentIndex);
+		    console.log("Called AndroidTVBridge with JSON string for channel list.");
+		} catch (e) {
+		    console.error("Error preparing data for Android:", e);
+		}
         
         // Hide loader quickly as control passes to native app
         setTimeout(() => loader.style.display = 'none', 500); 
 
-    } else {
+    	} else {
         // ROUTE B: Embedded Stream (List 1) -> Use Iframe within WebView
 
         // Ensure ExoPlayer is not active/visible (even though it's launching a new activity)
