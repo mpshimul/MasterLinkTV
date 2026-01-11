@@ -244,121 +244,151 @@
     <div id="osd"></div>
 	
 <script>
-// GLOBAL VARIABLES
-const availableLists = ['channels.js', 'ch2.js'];
-let currentListFile = 'channels.js';
-let currentListIndex = 0;
-let currentIndex = 0;
-let sidebarTimer;
-let isStarted = false;
-let marqueeCycles = 0;
-let hideLoaderTimer = null; 
-let errorTimeout = null; // New global timer for fallback error handling
-let fastFailTimeout = null;
+/**
+ * ==============================================================================
+ * MASTER LINK TV FRONTEND SCRIPT (index.html)
+ * ------------------------------------------------------------------------------
+ * This script manages the user interface (sidebar, channel list, OSD),
+ * channel switching, key handling, and the critical handoff to the native
+ * ExoPlayer (AndroidTVBridge) for stream playback.
+ *
+ * NOTE: It relies on 'rawChannels' being loaded globally by an external <script> tag.
+ * ==============================================================================
+ */
 
-const frame = document.getElementById('main-frame');
-const video = document.getElementById('main-video') || null;
-const sidebar = document.getElementById('sidebar');
-const list = document.getElementById('channel-list');
-const loader = document.getElementById('loading-screen');
-const osd = document.getElementById('osd');
-const marqueeEl = document.getElementById('marquee-text');
-const noticeBar = document.getElementById('notice-bar');
-const errorBackground = document.getElementById('error-background'); 
+// --- 1. GLOBAL CONFIGURATION & DOM REFERENCES ---
+const CONFIG = {
+    // List management
+    AVAILABLE_LISTS: ['channels.js', 'ch2.js'],
+    INITIAL_LIST_FILE: 'channels.js',
 
-const GROUP_COLORS = {
-  Bangla: "#1e88e5",
-  Sports: "#43a047",
-  Movies: "#e53935",
-  Hindi: "#8e24aa",
-  Kids: "#fbc02d",
-  Documentary: "#fb8c00",
-  Religious: "#00897b",
-  Default: "#424242"
+    // UI timings
+    SIDEBAR_TIMEOUT_MS: 5000,
+    OSD_TIMEOUT_MS: 6000,
+    LOADER_HIDE_DELAY_MS: 5000,
 };
 
-// SVG logo generator
+const UI = {
+    frame: document.getElementById('main-frame'),
+    video: document.getElementById('main-video'), // Generally for standard HTML5 video fallback
+    sidebar: document.getElementById('sidebar'),
+    channelListContainer: document.getElementById('channel-list'),
+    loader: document.getElementById('loading-screen'),
+    osd: document.getElementById('osd'),
+    marqueeEl: document.getElementById('marquee-text'),
+    noticeBar: document.getElementById('notice-bar'),
+    errorBackground: document.getElementById('error-background'),
+    playerContainer: document.getElementById('player-container'), // For fullscreen toggle
+};
+
+// State Variables (Encapsulated)
+let appState = {
+    currentListFile: CONFIG.INITIAL_LIST_FILE,
+    currentListIndex: 0,
+    currentIndex: 0,
+    isStarted: false,
+    sidebarTimer: null,
+    hideLoaderTimer: null,
+    errorTimeout: null,
+    fastFailTimeout: null,
+    marqueeCycles: 0,
+};
+
+const GROUP_COLORS = {
+    Bangla: "#1e88e5",
+    Sports: "#43a047",
+    Movies: "#e53935",
+    Hindi: "#8e24aa",
+    Kids: "#fbc02d",
+    Documentary: "#fb8c00",
+    Religious: "#00897b",
+    Default: "#424242"
+};
+
+
+// --- 2. UTILITY FUNCTIONS ---
+
+/**
+ * Generates an SVG logo for channels without a dedicated image.
+ */
 function svgLogo(channelName, group) {
-  const bg = GROUP_COLORS[group] || GROUP_COLORS.Default;
+    const bg = GROUP_COLORS[group] || GROUP_COLORS.Default;
+    const lines = channelName.split(' ').slice(0, 4);
+    const lineHeight = 18;
+    
+    let tspans = '';
+    lines.forEach((line, i) => {
+        const y = 50 + i * lineHeight;
+        tspans += `<tspan x="60" y="${y}">${line}</tspan>`;
+    });
 
-  // Split name into max 2 lines
-  const lines = channelName.split(' ').slice(0, 4); 
-  const lineHeight = 18; 
-
-  let tspans = '';
-  lines.forEach((line, i) => {
-    const y = 50 + i * lineHeight; 
-    tspans += `<tspan x="60" y="${y}">${line}</tspan>`;
-  });
-
-  const svg = `
+    return `
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <rect width="120" height="120" rx="8" fill="${bg}"/>
-  <text text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
-    ${tspans}
-  </text>
+    <rect width="120" height="120" rx="8" fill="${bg}"/>
+    <text text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+        ${tspans}
+    </text>
 </svg>
-  `.trim();
-
-  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+    `.trim();
 }
 
-// Decide which logo to use
+/**
+ * Gets the correct logo URL/SVG data for a channel based on the current list.
+ */
 function getLogo(ch) {
-  if(currentListFile === 'ch2.js') return svgLogo(ch.name, ch.group);
-  return ch.logo || '';
+    // Assuming 'ch2.js' is the list that needs SVG generated logos
+    if (appState.currentListFile === 'ch2.js') {
+        return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svgLogo(ch.name, ch.group))}`;
+    }
+    return ch.logo || '';
 }
 
-/* =========================
-   LOADING SCREEN LOGIC 
-========================= */
-function hideLoading(){
+/**
+ * Hides the loading spinner after a delay, confirming stream stabilization.
+ */
+function hideLoading() {
     // Clear any previous timer to prevent conflicts if a channel changes quickly
-    if (hideLoaderTimer) {
-        clearTimeout(hideLoaderTimer);
+    if (appState.hideLoaderTimer) {
+        clearTimeout(appState.hideLoaderTimer);
     }
     
-    // Set a 2000ms (2 second) delay after the player is 'ready' to cover visual stabilization
-    hideLoaderTimer = setTimeout(() => {
-        loader.style.display = 'none';
-        hideLoaderTimer = null; // Clear ID after execution
-    }, 5000); 
+    // Set a 5000ms (5 second) delay after the player is 'ready' to cover visual stabilization
+    appState.hideLoaderTimer = setTimeout(() => {
+        UI.loader.style.display = 'none';
+        appState.hideLoaderTimer = null; // Clear ID after execution
+    }, CONFIG.LOADER_HIDE_DELAY_MS);
 }
 
-/* =========================
-   ERROR HANDLING (ULTIMATE ROBUST FIX)
-========================= */
+/**
+ * Shows a persistent error screen and message.
+ */
 function showError(channelName) {
-    // 1. Clear loading screen and success/error timers
-    if (hideLoaderTimer) {
-        clearTimeout(hideLoaderTimer);
-        hideLoaderTimer = null;
-    }
-    if (errorTimeout) {
-        clearTimeout(errorTimeout);
-        errorTimeout = null;
-    }
-    loader.style.display = 'none';
+    // 1. Clear all pending timers
+    if (appState.errorTimeout) clearTimeout(appState.errorTimeout);
+    if (appState.fastFailTimeout) clearTimeout(appState.fastFailTimeout);
+    if (appState.hideLoaderTimer) clearTimeout(appState.hideLoaderTimer);
+    appState.errorTimeout = null;
+    appState.fastFailTimeout = null;
+    appState.hideLoaderTimer = null;
+
+    // 2. Hide everything related to playback and loading
+    UI.loader.style.display = 'none';
+    UI.frame.src = 'about:blank'; // Clears iframe content immediately
+    UI.frame.style.display = 'none';
     
-    // 2. AGGRESSIVELY CLEAR AND HIDE THE PLAYER
-    frame.src = 'about:blank'; // Clears iframe content immediately
-    frame.style.display = 'none'; 
-    
-    if (video) { 
-        video.pause(); // Stop video playback
-        video.src = ''; // Hard clear the video source
-        
-        // ** FORCE HIDE VIA CSS PROPERTIES **
-        video.style.display = 'none';
-        video.style.opacity = '0'; 
-        video.style.visibility = 'hidden'; 
+    if (UI.video) {
+        UI.video.pause(); // Stop video playback
+        UI.video.src = ''; // Hard clear the video source
+        UI.video.style.display = 'none';
+        UI.video.style.opacity = '0'; // ** FORCE HIDE VIA CSS PROPERTIES **
+        UI.video.style.visibility = 'hidden';
     }
 
     // --- SHOW: Show the animated error background ---
-    errorBackground.style.display = 'block';
-    errorBackground.style.zIndex = '900'; 
+    UI.errorBackground.style.display = 'block';
+    UI.errorBackground.style.zIndex = '900';
 
-    // 3. Display the error message in the OSD
+    // 3. Display the error message in the OSD (visual elements kept from user input)
     const errorMessage = `
         <span style="color: #FF0000; font-weight: bold;">[ERROR]</span><br>
         Could not load channel: <b>${channelName}</b>.<br>
@@ -371,274 +401,43 @@ function showError(channelName) {
             on your remote to switch channel lists.
         </span>
     `;
-    osd.innerHTML = errorMessage;
-    osd.style.display = 'block';
+    UI.osd.innerHTML = errorMessage;
+    UI.osd.style.display = 'block';
 
     // 4. Hide the error message after a longer duration (10 seconds)
-    setTimeout(() => osd.style.display = 'none', 100000); 
+    setTimeout(() => UI.osd.style.display = 'none', 100000); // 100 seconds
 }
 
-
-/* =========================
-   INIT UI
-========================= */
-function init() {
-  marqueeEl?.addEventListener('animationiteration', () => {
-    marqueeCycles++;
-    if (marqueeCycles >= 2) noticeBar.style.display = 'none';
-  });
-
-  // Build channel list
-  list.innerHTML = '';
-  let currentGroup = "";
-
-  rawChannels.forEach((ch, i) => {
-    if (ch.group !== currentGroup) {
-      currentGroup = ch.group;
-      const head = document.createElement('li');
-      head.className = 'category-title';
-      head.innerText = currentGroup;
-      list.appendChild(head);
-    }
-
-    const li = document.createElement('li');
-    li.className = 'channel-item';
-    li.id = "ch-" + i;
-
-    li.innerHTML = `
-      <img src="${getLogo(ch)}" alt="${ch.name}">
-      <span class="channel-name">${ch.name}</span>
-    `;
-
-    li.onclick = e => { e.stopPropagation(); playChannel(i, true); };
-    list.appendChild(li);
-  });
-
-  // List switch buttons
-  document.querySelectorAll('.list-btn').forEach((btn, idx) => {
-    btn.classList.toggle('active', idx === currentListIndex);
-    btn.onclick = () => switchList(availableLists[idx], idx);
-  });
-
-  // Mobile prev/next buttons
-  const prevBtn = document.getElementById('btn-prev-img');
-  const nextBtn = document.getElementById('btn-next-img');
-  if(prevBtn) prevBtn.onclick = () => mobileChangeChannel(0);
-  if(nextBtn) nextBtn.onclick = () => mobileChangeChannel(0);
+/**
+ * Toggles the visibility of the channel sidebar.
+ */
+function toggleSidebar() {
+    if (!appState.isStarted) return;
+    UI.sidebar.classList.toggle('active');
 }
 
-/* =========================
-   SWITCH LIST
-========================= */
-function switchList(filename, listIdx) {
-  if (filename === currentListFile) return;
-
-  const oldScript = document.querySelector(`script[src="${currentListFile}"]`);
-  if (oldScript) oldScript.remove();
-
-  const script = document.createElement('script');
-  script.src = filename;
-  script.onload = () => {
-    currentListFile = filename;
-    currentListIndex = listIdx;
-    localStorage.setItem('last_list', filename);
-    currentIndex = 0;
-    init();
-    playChannel(0, true);
-  };
-  document.head.appendChild(script);
+/**
+ * Shows the sidebar and sets a timer to hide it automatically.
+ */
+function showSidebar() {
+    UI.sidebar.classList.add('active');
+    clearTimeout(appState.sidebarTimer);
+    appState.sidebarTimer = setTimeout(() => UI.sidebar.classList.remove('active'), CONFIG.SIDEBAR_TIMEOUT_MS);
 }
 
-/* =========================
-   MOBILE CHANNEL CHANGE 
-========================= */
-function mobileChangeChannel(direction) {
-  currentIndex += direction;
-  if(currentIndex < 0) currentIndex = rawChannels.length - 1;
-  if(currentIndex >= rawChannels.length) currentIndex = 0;
-  playChannel(currentIndex, false); 
-}
-
-/* =========================
-   UPDATE MOBILE LOGOS
-========================= */
-function updateMobileLogos() {
-  const prevIdx = currentIndex > 0 ? currentIndex - 1 : rawChannels.length - 1;
-  const nextIdx = currentIndex < rawChannels.length - 1 ? currentIndex + 1 : 0;
-
-  const prevBtn = document.getElementById('btn-prev-img');
-  const nextBtn = document.getElementById('btn-next-img');
-  if (!prevBtn || !nextBtn) return;
-
-  prevBtn.src = getLogo(rawChannels[prevIdx]);
-  nextBtn.src = getLogo(rawChannels[nextIdx]);
-}
-
-/* =========================
-   START APP
-========================= */
-function startApp() {
-  isStarted = true;
-  document.getElementById('splash')?.remove();
-
-  const lastChannel = localStorage.getItem('last_tv_channel');
-  const savedList = localStorage.getItem('last_list');
-
-  if(savedList && savedList !== 'channels.js' && availableLists.includes(savedList)){
-    const defaultScript = document.querySelector('script[src="channels.js"]');
-    if(defaultScript) defaultScript.remove();
-
-    const script = document.createElement('script');
-    script.src = savedList;
-    script.onload = () => {
-      currentListFile = savedList;
-      currentListIndex = availableLists.indexOf(savedList);
-      init();
-      playChannel(lastChannel ? parseInt(lastChannel) : 0, false);
-    };
-    document.head.appendChild(script);
-  } else {
-    playChannel(lastChannel ? parseInt(lastChannel) : 0, false);
-  }
-}
-
-/* =========================
-   PLAY CHANNEL (HYBRID: IFRAME for List 1 / NATIVE for List 2)
-========================= */
-function playChannel(index, showSidebarAfter) {
-    if(!isStarted) return;
-
-    // --- Cleanup & Setup ---
-    if (errorTimeout) clearTimeout(errorTimeout);
-    if (fastFailTimeout) clearTimeout(fastFailTimeout);
-    errorTimeout = null;
-    fastFailTimeout = null;
-
-    // Clear pending hide loader timer
-    if (hideLoaderTimer) {
-        clearTimeout(hideLoaderTimer);
-        hideLoaderTimer = null;
-    }
-
-    const ch = rawChannels[index];
-    currentIndex = index;
-    localStorage.setItem('last_tv_channel', index);
-    
-    const frame = document.getElementById('main-frame');
-    const video = document.getElementById('main-video'); // Keeping this unused but referenced
-    const isNativeStream = ch.stream.includes('.m3u8') || ch.stream.includes('.mp4'); // Define what ExoPlayer can handle
-
-    // 1. Show Loading Screen
-    errorBackground.style.display = 'none';
-    loader.style.display = 'flex';
-    document.getElementById('loading-img').src = getLogo(ch);
-    document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:#888;font-size:14px">Buffering...</span>`;
-    
-    updateMobileLogos();
-
-    // 2. The Failure Handler
-    const onChannelFail = () => {
-        if (errorTimeout) clearTimeout(errorTimeout);
-        if (fastFailTimeout) clearTimeout(fastFailTimeout);
-        showError(ch.name);
-    };
-    
-    // 3. The Success Handler
-    const onSuccess = () => {
-        if (errorTimeout) clearTimeout(errorTimeout);
-        if (fastFailTimeout) clearTimeout(fastFailTimeout);
-        hideLoading(); // Hides loader after the stream stabilizes
-    };
-
-    // --- STREAM ROUTING LOGIC ---
-    if (isNativeStream && typeof AndroidTVBridge !== 'undefined') {
-        // ROUTE A: Native Stream (List 2) -> Use ExoPlayer
-        
-        // Ensure iframe is hidden
-        frame.src = 'about:blank';
-        frame.style.display = 'none';
-
-        // Call the Kotlin function to launch ExoPlayer
-        // ⭐ NEW (Required) JavaScript Call - You must change this in your HTML/JS code!
-		try {
-		    const allChannelsArray = window.ChannelData || []; // Get the full array of channels (replace 'window.ChannelData' with your actual array variable name)
-		    const listJsonString = JSON.stringify(allChannelsArray); // Convert the Array to a JSON String
-		    
-		    AndroidTVBridge.playStream(streamUrl, channelName, listJsonString, currentIndex);
-		    console.log("Called AndroidTVBridge with JSON string for channel list.");
-		} catch (e) {
-		    console.error("Error preparing data for Android:", e);
-		}
-        
-        // Hide loader quickly as control passes to native app
-        setTimeout(() => loader.style.display = 'none', 500); 
-
-    	} else {
-        // ROUTE B: Embedded Stream (List 1) -> Use Iframe within WebView
-
-        // Ensure ExoPlayer is not active/visible (even though it's launching a new activity)
-        // More importantly, ensure the HTML <video> tag is clean if used as a fallback
-        if(video) { 
-            video.pause(); 
-            video.src=''; 
-            video.style.display='none'; 
-        }
-
-        // Show iframe and set source
-        frame.style.display = 'block';
-        frame.src = ch.stream;
-
-        // Set up the timers for the iframe (since native errors are unreliable)
-        // 100ms: Catches instant, silent failure (PHP file not found, bad URL format)
-        fastFailTimeout = setTimeout(onChannelFail, 100000); 
-        // 5000ms: Catches stream hanging/slow buffer/player failure
-        errorTimeout = setTimeout(onChannelFail, 5000000); 
-
-        // Iframe success handler (fires when the page loads)
-        frame.onload = onSuccess; 
-        // Unreliable onerror remains as a safeguard
-        frame.onerror = onChannelFail;
-    }
-
-    // --- UI Update & Sidebar ---
-    document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
-    document.getElementById("ch-"+index)?.classList.add('selected');
-
-    osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
-    osd.style.display = 'block';
-    setTimeout(() => osd.style.display = 'none', 6000);
-
-    if(showSidebarAfter) showSidebar();
-}
-
-/* =========================
-   SIDEBAR
-========================= */
-function toggleSidebar(){
-  if(!isStarted) return;
-  sidebar.classList.toggle('active');
-}
-function showSidebar(){
-  sidebar.classList.add('active');
-  clearTimeout(sidebarTimer);
-  sidebarTimer = setTimeout(()=>sidebar.classList.remove('active'),5000);
-}
-
-/* =========================
-   FULLSCREEN TOGGLE
-========================= */
+/**
+ * Toggles fullscreen mode for the player container.
+ */
 function toggleFullScreen() {
-    const player = document.getElementById('player-container');
     const isFullscreen = document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement || document.msFullscreenElement;
 
     if (!isFullscreen) {
-        // Request fullscreen on the player container
+        const player = UI.playerContainer;
         if (player.requestFullscreen) { player.requestFullscreen(); }
         else if (player.mozRequestFullScreen) { player.mozRequestFullScreen(); }
         else if (player.webkitRequestFullscreen) { player.webkitRequestFullscreen(); }
         else if (player.msRequestFullscreen) { player.msRequestFullscreen(); }
     } else {
-        // Exit fullscreen
         if (document.exitFullscreen) { document.exitFullscreen(); }
         else if (document.mozCancelFullScreen) { document.mozCancelFullScreen(); }
         else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); }
@@ -647,54 +446,337 @@ function toggleFullScreen() {
 }
 
 
-/* =========================
-   KEY HANDLING 
-========================= */
-window.addEventListener('keydown', e=>{
-  if(!isStarted){ if(e.key==="Enter"||e.key==="Ok") startApp(); return; }
+// --- 3. CORE LOGIC ---
 
-  // Check if a video element is currently active and can be controlled
-  const controllableVideo = video && video.style.display !== 'none' ? video : null;
-  const volumeStep = 0.1; // 10% step
+/**
+ * Builds and initializes the channel list in the sidebar.
+ */
+function initChannelList() {
+    UI.channelListContainer.innerHTML = '';
+    let currentGroup = "";
 
-  if(e.key==="ArrowUp") playChannel((currentIndex-1+rawChannels.length)%rawChannels.length,true);
-  else if(e.key==="ArrowDown") playChannel((currentIndex+1)%rawChannels.length,true);
-  else if(e.key==="ArrowLeft"){ currentListIndex=(currentListIndex-1+availableLists.length)%availableLists.length; switchList(availableLists[currentListIndex],currentListIndex); }
-  else if(e.key==="ArrowRight"){ currentListIndex=(currentListIndex+1)%availableLists.length; switchList(availableLists[currentListIndex],currentListIndex); }
-  else if(e.key==="PageUp") playChannel((currentIndex-1+rawChannels.length)%rawChannels.length,false);
-  else if(e.key==="PageDown") playChannel((currentIndex+1)%rawChannels.length,false);
-  else if(e.key==="Enter"||e.key==="Ok") toggleSidebar();
-  
-  // VOLUME CONTROL
-  else if(controllableVideo && (e.key==="+" || e.key==="=")) {
-    // Increase Volume (max 1.0)
-    controllableVideo.volume = Math.min(1.0, controllableVideo.volume + volumeStep);
-    osd.innerHTML = `Volume: ${Math.round(controllableVideo.volume * 100)}%`;
-    osd.style.display='block';
-    setTimeout(()=>osd.style.display='none', 1000);
-  }
-  else if(controllableVideo && e.key==="-") {
-    // Decrease Volume (min 0.0)
-    controllableVideo.volume = Math.max(0.0, controllableVideo.volume - volumeStep);
-    osd.innerHTML = `Volume: ${Math.round(controllableVideo.volume * 100)}%`;
-    osd.style.display='block';
-    setTimeout(()=>osd.style.display='none', 1000);
-  }
-  
-  // FULLSCREEN TOGGLE
-  else if(e.key==="f" || e.key==="F") {
-      toggleFullScreen();
-      osd.innerHTML = document.fullscreenElement ? `Fullscreen On` : `Fullscreen Off`;
-      osd.style.display='block';
-      setTimeout(()=>osd.style.display='none', 2000);
-  }
-  
+    if (typeof rawChannels === 'undefined' || !Array.isArray(rawChannels)) {
+        console.error("rawChannels array not found. Cannot initialize channel list.");
+        return;
+    }
+
+    rawChannels.forEach((ch, i) => {
+        // Group header logic
+        if (ch.group !== currentGroup) {
+            currentGroup = ch.group;
+            const head = document.createElement('li');
+            head.className = 'category-title';
+            head.innerText = currentGroup;
+            UI.channelListContainer.appendChild(head);
+        }
+
+        const li = document.createElement('li');
+        li.className = 'channel-item';
+        li.id = "ch-" + i;
+
+        li.innerHTML = `
+            <img src="${getLogo(ch)}" alt="${ch.name}">
+            <span class="channel-name">${ch.name}</span>
+        `;
+
+        li.onclick = e => { e.stopPropagation(); playChannel(i, true); };
+        UI.channelListContainer.appendChild(li);
+    });
+
+    // List switch buttons activation
+    document.querySelectorAll('.list-btn').forEach((btn, idx) => {
+        btn.classList.toggle('active', idx === appState.currentListIndex);
+        btn.onclick = () => switchList(CONFIG.AVAILABLE_LISTS[idx], idx);
+    });
+
+    // Mobile buttons (re-initialization logic retained from original code)
+    const prevBtn = document.getElementById('btn-prev-img');
+    const nextBtn = document.getElementById('btn-next-img');
+    if(prevBtn) prevBtn.onclick = () => mobileChangeChannel(-1); // Changed to -1
+    if(nextBtn) nextBtn.onclick = () => mobileChangeChannel(1); // Changed to 1
+}
+
+/**
+ * Loads a new channel list script and re-initializes the UI.
+ */
+function switchList(filename, listIdx) {
+    if (filename === appState.currentListFile) return;
+
+    // Remove old script to prevent namespace pollution (if possible)
+    const oldScript = document.querySelector(`script[src="${appState.currentListFile}"]`);
+    if (oldScript) oldScript.remove();
+
+    // Load new script
+    const script = document.createElement('script');
+    script.src = filename;
+    script.onload = () => {
+        appState.currentListFile = filename;
+        appState.currentListIndex = listIdx;
+        localStorage.setItem('last_list', filename);
+        appState.currentIndex = 0;
+        
+        // Rebuild UI with the new rawChannels data
+        initChannelList();
+        
+        // Start playback on the first channel of the new list
+        playChannel(0, true);
+    };
+    document.head.appendChild(script);
+}
+
+/**
+ * Simple channel change logic for mobile buttons (retained from original code structure)
+ */
+function mobileChangeChannel(direction) {
+    appState.currentIndex += direction;
+    if(appState.currentIndex < 0) appState.currentIndex = rawChannels.length - 1;
+    if(appState.currentIndex >= rawChannels.length) appState.currentIndex = 0;
+    playChannel(appState.currentIndex, false);
+}
+
+/**
+ * Updates logos for mobile next/previous buttons (retained from original code structure)
+ */
+function updateMobileLogos() {
+    if (!rawChannels || rawChannels.length === 0) return;
+    const prevIdx = appState.currentIndex > 0 ? appState.currentIndex - 1 : rawChannels.length - 1;
+    const nextIdx = appState.currentIndex < rawChannels.length - 1 ? appState.currentIndex + 1 : 0;
+
+    const prevBtn = document.getElementById('btn-prev-img');
+    const nextBtn = document.getElementById('btn-next-img');
+    if (!prevBtn || !nextBtn) return;
+
+    prevBtn.src = getLogo(rawChannels[prevIdx]);
+    nextBtn.src = getLogo(rawChannels[nextIdx]);
+}
+
+/**
+ * Initializes the app after the splash screen is dismissed.
+ */
+function startApp() {
+    if (appState.isStarted) return;
+    appState.isStarted = true;
+    document.getElementById('splash')?.remove();
+
+    const lastChannelIndex = parseInt(localStorage.getItem('last_tv_channel') || 0);
+    const savedListFile = localStorage.getItem('last_list');
+
+    // 1. Handle saved list file
+    if (savedListFile && savedListFile !== CONFIG.INITIAL_LIST_FILE && CONFIG.AVAILABLE_LISTS.includes(savedListFile)) {
+        
+        // Remove default script reference if a saved one exists
+        const defaultScript = document.querySelector(`script[src="${CONFIG.INITIAL_LIST_FILE}"]`);
+        if (defaultScript) defaultScript.remove();
+        
+        // Load the saved list file
+        const script = document.createElement('script');
+        script.src = savedListFile;
+        script.onload = () => {
+            appState.currentListFile = savedListFile;
+            appState.currentListIndex = CONFIG.AVAILABLE_LISTS.indexOf(savedListFile);
+            initChannelList();
+            playChannel(lastChannelIndex, false);
+        };
+        document.head.appendChild(script);
+    } else {
+        // 2. Use default list (must be available/loaded)
+        initChannelList();
+        playChannel(lastChannelIndex, false);
+    }
+}
+
+/**
+ * Handles the logic for playing a specific channel, routing the stream 
+ * to either the WebView's iframe or the Native ExoPlayer.
+ *
+ * @param {number} index - Index of the channel in the rawChannels array.
+ * @param {boolean} showSidebarAfter - Whether to briefly show the sidebar.
+ */
+function playChannel(index, showSidebarAfter) {
+    if (!appState.isStarted || !rawChannels || rawChannels.length === 0) return;
+
+    // Clamp index to array bounds
+    index = (index % rawChannels.length + rawChannels.length) % rawChannels.length;
+
+    // --- Cleanup & Setup ---
+    clearTimeout(appState.errorTimeout);
+    clearTimeout(appState.fastFailTimeout);
+    clearTimeout(appState.hideLoaderTimer);
+    appState.errorTimeout = null;
+    appState.fastFailTimeout = null;
+    appState.hideLoaderTimer = null;
+
+    const ch = rawChannels[index];
+    appState.currentIndex = index;
+    localStorage.setItem('last_tv_channel', index);
+
+    // 1. Show Loading Screen
+    UI.errorBackground.style.display = 'none';
+    UI.loader.style.display = 'flex';
+    document.getElementById('loading-img').src = getLogo(ch);
+    document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:#888;font-size:14px">Buffering...</span>`;
+
+    updateMobileLogos();
+
+    // 2. Determine Stream Type
+    // The native player can usually handle .m3u8 (HLS) and .mp4 (direct progressive).
+    const isNativeStream = ch.stream && (ch.stream.includes('.m3u8') || ch.stream.includes('.mp4'));
+
+    // --- STREAM ROUTING LOGIC ---
+    if (isNativeStream && typeof AndroidTVBridge !== 'undefined') {
+        
+        // ROUTE A: Native Stream -> Use ExoPlayer (in a separate Android Activity)
+        
+        // Hide WebView playback elements
+        UI.frame.src = 'about:blank';
+        UI.frame.style.display = 'none';
+        if (UI.video) UI.video.style.display = 'none';
+        
+        try {
+            // ⭐ CRITICAL FIX: Use the actual global variable 'rawChannels'
+            const allChannelsArray = rawChannels || []; 
+            
+            // Map the array of channel objects to an array of stream URLs (strings)
+            const streamUrlsArray = allChannelsArray.map(channel => channel.stream); 
+            const listJsonString = JSON.stringify(streamUrlsArray);
+            
+            // Call the Kotlin function with the fixed signature (String, String, JSON String, Int)
+            AndroidTVBridge.playStream(ch.stream, ch.name, listJsonString, appState.currentIndex);
+            
+            console.log(`[Native Bridge] Stream launched: ${ch.name}`);
+        } catch (e) {
+            console.error("[Native Bridge] Error calling playStream: Method not found or Bridge error:", e);
+            showError(ch.name); // Fallback to displaying a JS error message
+        }
+        
+        // Hide loader quickly as control passes to native app
+        setTimeout(() => UI.loader.style.display = 'none', 500);
+
+    } else {
+        
+        // ROUTE B: Embedded Stream -> Use Iframe within WebView (Legacy or non-native streams)
+
+        // Clean up video element if it was used as a fallback
+        if (UI.video) {
+            UI.video.pause();
+            UI.video.src = '';
+            UI.video.style.display = 'none';
+        }
+
+        // Show iframe and set source
+        UI.frame.style.display = 'block';
+        UI.frame.src = ch.stream;
+
+        // Set up the failure timers (using original timeout values)
+        appState.fastFailTimeout = setTimeout(onChannelFail, 100000); // Retained original user value
+        appState.errorTimeout = setTimeout(onChannelFail, 5000000);   // Retained original user value
+
+        // Iframe success handler
+        UI.frame.onload = onSuccess;
+        UI.frame.onerror = onChannelFail; // Unreliable onerror remains as a safeguard
+    }
+
+    // --- Local UI Updates ---
+    document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
+    document.getElementById("ch-" + index)?.classList.add('selected');
+
+    UI.osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
+    UI.osd.style.display = 'block';
+    setTimeout(() => UI.osd.style.display = 'none', CONFIG.OSD_TIMEOUT_MS);
+
+    if (showSidebarAfter) showSidebar();
+}
+
+/**
+ * Handles error/failure detection for WebView-based streams.
+ */
+function onChannelFail() {
+    clearTimeout(appState.errorTimeout);
+    clearTimeout(appState.fastFailTimeout);
+    if(rawChannels && rawChannels[appState.currentIndex]) {
+        showError(rawChannels[appState.currentIndex].name);
+    } else {
+         showError("Unknown Channel (Initialization Error)");
+    }
+}
+
+/**
+ * Handles success for WebView-based streams.
+ */
+function onSuccess() {
+    clearTimeout(appState.errorTimeout);
+    clearTimeout(appState.fastFailTimeout);
+    hideLoading();
+}
+
+
+// --- 4. EVENT HANDLERS ---
+
+/**
+ * Main key handler for remote control navigation.
+ */
+window.addEventListener('keydown', e => {
+    // If not started, only "Enter" or "Ok" can start the app
+    if (!appState.isStarted) { 
+        if (e.key === "Enter" || e.key === "Ok") startApp(); 
+        return; 
+    }
+
+    const controllableVideo = UI.video && UI.video.style.display !== 'none' ? UI.video : null;
+    const volumeStep = 0.1;
+
+    if (e.key === "ArrowUp") {
+        playChannel(appState.currentIndex - 1, true);
+    } else if (e.key === "ArrowDown") {
+        playChannel(appState.currentIndex + 1, true);
+    } else if (e.key === "ArrowLeft") {
+        appState.currentListIndex = (appState.currentListIndex - 1 + CONFIG.AVAILABLE_LISTS.length) % CONFIG.AVAILABLE_LISTS.length;
+        switchList(CONFIG.AVAILABLE_LISTS[appState.currentListIndex], appState.currentListIndex);
+    } else if (e.key === "ArrowRight") {
+        appState.currentListIndex = (appState.currentListIndex + 1) % CONFIG.AVAILABLE_LISTS.length;
+        switchList(CONFIG.AVAILABLE_LISTS[appState.currentListIndex], appState.currentListIndex);
+    } else if (e.key === "PageUp") { // Retained original key names
+        playChannel(appState.currentIndex - 1, false);
+    } else if (e.key === "PageDown") { // Retained original key names
+        playChannel(appState.currentIndex + 1, false);
+    } else if (e.key === "Enter" || e.key === "Ok") {
+        toggleSidebar();
+    } 
+    // VOLUME CONTROL
+    else if (controllableVideo && (e.key === "+" || e.key === "=")) {
+        // Increase Volume (max 1.0)
+        controllableVideo.volume = Math.min(1.0, controllableVideo.volume + volumeStep);
+        UI.osd.innerHTML = `Volume: ${Math.round(controllableVideo.volume * 100)}%`;
+        UI.osd.style.display = 'block';
+        setTimeout(() => UI.osd.style.display = 'none', 1000);
+    } else if (controllableVideo && e.key === "-") {
+        // Decrease Volume (min 0.0)
+        controllableVideo.volume = Math.max(0.0, controllableVideo.volume - volumeStep);
+        UI.osd.innerHTML = `Volume: ${Math.round(controllableVideo.volume * 100)}%`;
+        UI.osd.style.display = 'block';
+        setTimeout(() => UI.osd.style.display = 'none', 1000);
+    } 
+    // FULLSCREEN TOGGLE
+    else if (e.key === "f" || e.key === "F") {
+        toggleFullScreen();
+        UI.osd.innerHTML = document.fullscreenElement ? `Fullscreen On` : `Fullscreen Off`;
+        UI.osd.style.display = 'block';
+        setTimeout(() => UI.osd.style.display = 'none', 2000);
+    }
 });
 
-/* =========================
-   INIT
-========================= */
-init();
+
+// --- 5. INITIAL SETUP ---
+
+// Attach listener for marquee text completion
+UI.marqueeEl?.addEventListener('animationiteration', () => {
+    appState.marqueeCycles++;
+    if (appState.marqueeCycles >= 2) UI.noticeBar.style.display = 'none';
+});
+
+// Initial run to check for rawChannels. The app waits for a keypress (Enter/Ok) 
+// to ensure the user is ready and that all files downloaded by MainActivity are in place.
+console.log("App ready. Waiting for initial keypress (Enter/Ok) to start.");
 </script>
 </body>
 </html>
