@@ -581,9 +581,9 @@ function playChannel(index, showSidebarAfter) {
 
         // Set up the timers for the iframe (since native errors are unreliable)
         // 100ms: Catches instant, silent failure (PHP file not found, bad URL format)
-        fastFailTimeout = setTimeout(onChannelFail, 100); 
+        fastFailTimeout = setTimeout(onChannelFail, 100000); 
         // 5000ms: Catches stream hanging/slow buffer/player failure
-        errorTimeout = setTimeout(onChannelFail, 5000); 
+        errorTimeout = setTimeout(onChannelFail, 5000000); 
 
         // Iframe success handler (fires when the page loads)
         frame.onload = onSuccess; 
