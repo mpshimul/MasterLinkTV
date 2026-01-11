@@ -1,5 +1,5 @@
 // Auto-generated IPTV channel list
-// Last updated: 2026-01-11 04:11 UTC
+// Last updated: 2026-01-11 06:36 UTC
 
 var rawChannels = [
   // --- BANGLA ---
@@ -45,7 +45,7 @@ var rawChannels = [
   { group: "Sports", name: "Dubai Sports 3", stream: "https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8", logo: "https://s3.aynaott.com/storage/833148a9228c3a12ef0effc8f265cf1f" },
   { group: "Sports", name: "KTV Sport Plus", stream: "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8", logo: "https://s3.aynaott.com/storage/b54495ee3cdd53ddaa19d1f98120f488" },
   { group: "Sports", name: "Live Quran TV üéØ üì°", stream: "https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/playlist.m3u8", logo: "" },
-  { group: "Sports", name: "Live Sports", stream: "https://starsportshindiii.pages.dev/720p.m3u8", logo: "" },
+  { group: "Sports", name: "Live Sports", stream: "https://starsportshindiii.pages.dev/index.m3u8", logo: "" },
   { group: "Sports", name: "M4 SPORTS", stream: "http://dvr1.kablova.tv/M4/index.m3u8", logo: "" },
   { group: "Sports", name: "MORE THEN SPORTS TV", stream: "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8", logo: "https://s3.aynaott.com/storage/39174e32d4f8d29a95c881637fe1ecdb" },
   { group: "Sports", name: "Motor Sports TV", stream: "https://25dee28f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vdG9yc3BvcnR0di0xX0hMUw/playlist.m3u8", logo: "https://s3.aynaott.com/storage/98963a3064053f0f01bdf9186c86c432" },
@@ -53,7 +53,6 @@ var rawChannels = [
   { group: "Sports", name: "MTR Sports-1", stream: "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8", logo: "" },
   { group: "Sports", name: "NBC Sports", stream: "https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8", logo: "https://s3.aynaott.com/storage/0a241a80bf51d2c3b3722531706ce086" },
   { group: "Sports", name: "Oman Sports TV", stream: "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8", logo: "https://s3.aynaott.com/storage/33f87783637fc95fdb8837ba9344c9e9" },
-  { group: "Sports", name: "Premium Sports", stream: "https://7pal.short.gy/prsport1", logo: "" },
   { group: "Sports", name: "Premium Sports-2", stream: "https://7pal.short.gy/prsport2", logo: "" },
   { group: "Sports", name: "Pro Sports International", stream: "https://proshls.wns.live/hls/stream.m3u8", logo: "https://s3.aynaott.com/storage/370762bb5582389fb52469931cdcd357" },
   { group: "Sports", name: "PSN 1 Sports", stream: "https://cdn4.skygo.mn/live/disk1/SPSPrime/HLSv3-FTA/SPSPrime.m3u8", logo: "https://s3.aynaott.com/storage/b0befd2d80789976ef317aeb5ef935b9" },
@@ -79,7 +78,6 @@ var rawChannels = [
   { group: "Sports", name: "TNT SPORTS 2", stream: "http://178.33.239.54:8080/510/index.m3u8", logo: "" },
   { group: "Sports", name: "TNT SPORTS 3", stream: "http://178.33.239.54:8080/511/index.m3u8", logo: "" },
   { group: "Sports", name: "WAZ TV üéØ üì°", stream: "https://tplay.live/originals/ilm-tv/index.m3u8", logo: "" },
-  { group: "Sports", name: "Willow Sports  üì∫", stream: "http://xxip9.top:8080/live/7656691303/chrisbolden765%40icloud.com/58847.m3u8", logo: "" },
   { group: "Sports", name: "WOF 1", stream: "https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8", logo: "https://s3.aynaott.com/storage/1a580ee2636a0c4761e623bc131ba7a6" },
   { group: "Sports", name: "Xtream Sports", stream: "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8", logo: "https://s3.aynaott.com/storage/e1749cf3040f11c63e722c941f213927" },
   { group: "Sports", name: "‡¶∏‡ßç‡¶™‡¶æ‡¶á‡¶∏ FM Radio ‡¶Æ‡ßã‡¶¨‡¶æ‡¶á‡¶≤ ‡¶≤‡¶ï ‡¶ï‡¶∞‡¶æ ‡¶Ö‡¶¨‡¶∏‡ßç‡¶•‡¶æ‡¶Ø‡¶º‡¶ì ‡¶ö‡¶≤‡¶§‡ßá ‡¶•‡¶æ‡¶ï‡¶¨‡ßá", stream: "https://stream.spicefmbd.com/stream.m3u8", logo: "" },
@@ -90,6 +88,7 @@ var rawChannels = [
   { group: "Kids", name: "Gopal Bhar", stream: "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8", logo: "" },
   { group: "Kids", name: "Hungama Kids", stream: "https://cloudfrontnet.vercel.app/tplay/playout/209902/master.m3u8", logo: "" },
   { group: "Kids", name: "Kids Pang TV", stream: "https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8", logo: "https://s3.aynaott.com/storage/bc2a021f901e4d1de4948f314536c1bf" },
+  { group: "Kids", name: "Kids TV", stream: "http://origin5.mediacdn.ru/live/kidstv/index.m3u8", logo: "https://s3.aynaott.com/storage/24f86d03093467c8b9fa0e17f72c4e06" },
   { group: "Kids", name: "Motu Patlu", stream: "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8", logo: "" },
   { group: "Kids", name: "Nick", stream: "http://fl1.moveonjoy.com/NICKELODEON/index.m3u8", logo: "" },
   { group: "Kids", name: "PBS Kids", stream: "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8", logo: "" },
@@ -100,7 +99,7 @@ var rawChannels = [
   // --- HINDI ---
   { group: "Hindi", name: "Awaaz India", stream: "http://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8", logo: "https://s3.aynaott.com/storage/6f17785db48e7b5fb68b7d441ad3ad10" },
   { group: "Hindi", name: "B4U Kadak", stream: "https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8", logo: "https://s3.aynaott.com/storage/dfb6c20649dd691bab10b2f9d2f0e400" },
-  { group: "Hindi", name: "B4U Movies", stream: "https://cdnb4u.wiseplayout.com/B4U_Movies/HD1080/HD1080.m3u8", logo: "" },
+  { group: "Hindi", name: "B4U Movies", stream: "https://cdnb4u.wiseplayout.com/B4U_Movies/SD216/SD216.m3u8", logo: "" },
   { group: "Hindi", name: "B4U Movies India", stream: "https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8", logo: "https://s3.aynaott.com/storage/5088d0894a79b329031d5f4669bbb0fe" },
   { group: "Hindi", name: "B4u Music", stream: "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8", logo: "https://s3.aynaott.com/storage/75f6b460a3b05eb2614b04ab013710dc" },
   { group: "Hindi", name: "Colors Cineplex HD", stream: "https://cdn-2.pishow.tv/live/228/228_1.m3u8", logo: "" },
@@ -202,7 +201,6 @@ var rawChannels = [
   { group: "Others", name: "Padma Tv", stream: "https://padmaonline.duckdns.org:8088/pcv/index.m3u8", logo: "" },
   { group: "Others", name: "Peace Tv English", stream: "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8", logo: "" },
   { group: "Others", name: "Persiana Travel", stream: "https://ptravelhls.persiana.live/hls/stream.m3u8", logo: "https://s3.aynaott.com/storage/be9b48d87dcd7711cac19c17d8e01b27" },
-  { group: "Others", name: "Power Turk", stream: "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8", logo: "https://s3.aynaott.com/storage/c4f27e64c99b50629e7021b99ac9387a" },
   { group: "Others", name: "Quran", stream: "https://download.quranicaudio.com/qdc/abdurrahmaan_as_sudais/murattal/96.mp3", logo: "" },
   { group: "Others", name: "RT News (EN) üõú", stream: "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8", logo: "" },
   { group: "Others", name: "RTNEWS GLOBAL", stream: "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8?v=1", logo: "" },
@@ -220,7 +218,6 @@ var rawChannels = [
   { group: "Others", name: "TRT 2 HD", stream: "https://tv-trt2.medya.trt.com.tr/master.m3u8", logo: "" },
   { group: "Others", name: "TRT TURK", stream: "https://tv-trtturk.medya.trt.com.tr/master_720.m3u8", logo: "" },
   { group: "Others", name: "TRT World", stream: "https://tv-trtworld.medya.trt.com.tr/master.m3u8", logo: "https://s3.aynaott.com/storage/f63d4aad95532175f7f44be439f74111" },
-  { group: "Others", name: "Utsav Gold", stream: "http://45.148.145.57/IN_STU/index.m3u8", logo: "" },
   { group: "Others", name: "Weather SPY", stream: "https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8", logo: "https://s3.aynaott.com/storage/b0bdea4df810e2d46f689cbb6c990c91" },
   { group: "Others", name: "Wion", stream: "https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8", logo: "https://s3.aynaott.com/storage/671cfb22f8d0362ae01403b6e748f2e2" },
   { group: "Others", name: "World War TV", stream: "https://aenetworks-worldwartv-rakuten.amagi.tv/playlist.m3u8", logo: "https://s3.aynaott.com/storage/1e7dc35fdb26ce3aca17b41fae1aa56f" },
