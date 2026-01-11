@@ -503,29 +503,16 @@ function startApp() {
 }
 
 /* =========================
-   PLAY CHANNEL (ULTIMATE RELIABILITY FIX: INSTANT + 5S TIMERS)
+   PLAY CHANNEL (HYBRID: IFRAME for List 1 / NATIVE for List 2)
 ========================= */
 function playChannel(index, showSidebarAfter) {
     if(!isStarted) return;
 
-    // Clear both timers before starting a new channel
-    if (errorTimeout) {
-        clearTimeout(errorTimeout);
-        errorTimeout = null;
-    }
-    if (fastFailTimeout) {
-        clearTimeout(fastFailTimeout);
-        fastFailTimeout = null;
-    }
-    
-    // --- HIDE: Hide Error Background when attempting to play a new channel ---
-    errorBackground.style.display = 'none';
-
-    currentIndex = index;
-    const ch = rawChannels[index];
-    localStorage.setItem('last_tv_channel', index);
-
-    updateMobileLogos();
+    // --- Cleanup & Setup ---
+    if (errorTimeout) clearTimeout(errorTimeout);
+    if (fastFailTimeout) clearTimeout(fastFailTimeout);
+    errorTimeout = null;
+    fastFailTimeout = null;
 
     // Clear pending hide loader timer
     if (hideLoaderTimer) {
@@ -533,98 +520,84 @@ function playChannel(index, showSidebarAfter) {
         hideLoaderTimer = null;
     }
 
-    // 1. SHOW LOADING SCREEN IMMEDIATELY
+    const ch = rawChannels[index];
+    currentIndex = index;
+    localStorage.setItem('last_tv_channel', index);
+    
+    const frame = document.getElementById('main-frame');
+    const video = document.getElementById('main-video'); // Keeping this unused but referenced
+    const isNativeStream = ch.stream.includes('.m3u8') || ch.stream.includes('.mp4'); // Define what ExoPlayer can handle
+
+    // 1. Show Loading Screen
+    errorBackground.style.display = 'none';
     loader.style.display = 'flex';
-    const loadingImg = document.getElementById('loading-img');
-    loadingImg.src = getLogo(ch);
-
-    document.getElementById('loading-msg').innerHTML =
-        `${ch.name}<br><span style="color:#888;font-size:14px">Buffering...</span>`;
-
-    const isM3U8 = ch.stream.includes('.m3u8');
+    document.getElementById('loading-img').src = getLogo(ch);
+    document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:#888;font-size:14px">Buffering...</span>`;
     
-    // Function to clear ALL timers and hide loader on success
-    const onSuccess = () => {
-        if (errorTimeout) {
-            clearTimeout(errorTimeout);
-            errorTimeout = null;
-        }
-        if (fastFailTimeout) {
-            clearTimeout(fastFailTimeout);
-            fastFailTimeout = null;
-        }
-        hideLoading();
-    };
-    
-    // Function called on failure (either native event or timer trigger)
+    updateMobileLogos();
+
+    // 2. The Failure Handler
     const onChannelFail = () => {
-        // Clear all timers one last time before showing the error
-        if (errorTimeout) {
-            clearTimeout(errorTimeout);
-            errorTimeout = null;
-        }
-        if (fastFailTimeout) {
-            clearTimeout(fastFailTimeout);
-            fastFailTimeout = null;
-        }
+        if (errorTimeout) clearTimeout(errorTimeout);
+        if (fastFailTimeout) clearTimeout(fastFailTimeout);
         showError(ch.name);
     };
-
-
-    // === TIMER STRATEGY ===
-    // 1. FAST FAIL CHECK (100ms) - Catches instant, silent iframe failures
-    fastFailTimeout = setTimeout(onChannelFail, 2000); 
-
-    // 2. SLOW FAIL/HANG CHECK (5000ms) - Catches slow buffering or hanging streams
-    errorTimeout = setTimeout(onChannelFail, 6000); 
     
-    // === STREAM LOADING LOGIC ===
-    if(isM3U8 && video){
-        // HLS/m3u8 Streams
-        frame.style.display = 'none';
-        frame.src = '';
+    // 3. The Success Handler
+    const onSuccess = () => {
+        if (errorTimeout) clearTimeout(errorTimeout);
+        if (fastFailTimeout) clearTimeout(fastFailTimeout);
+        hideLoading(); // Hides loader after the stream stabilizes
+    };
+
+    // --- STREAM ROUTING LOGIC ---
+    if (isNativeStream && typeof AndroidTVBridge !== 'undefined') {
+        // ROUTE A: Native Stream (List 2) -> Use ExoPlayer
         
-        video.style.opacity = '1';
-        video.style.visibility = 'visible';
-        video.style.display = 'block';
+        // Ensure iframe is hidden
+        frame.src = 'about:blank';
+        frame.style.display = 'none';
 
-        video.src = ch.stream;
-        video.muted = false;
-        video.volume = 0.5;
-
-        // If successful or if native video error occurs, we handle it and clear timers
-        video.onloadeddata = onSuccess; 
-        video.onerror = onChannelFail; 
-
-        video.play().catch(()=>{});
+        // Call the Kotlin function to launch ExoPlayer
+        AndroidTVBridge.playStream(ch.stream, ch.name);
+        
+        // Hide loader quickly as control passes to native app
+        setTimeout(() => loader.style.display = 'none', 500); 
 
     } else {
-        // MP4/Iframe Streams
-        if(video){ 
+        // ROUTE B: Embedded Stream (List 1) -> Use Iframe within WebView
+
+        // Ensure ExoPlayer is not active/visible (even though it's launching a new activity)
+        // More importantly, ensure the HTML <video> tag is clean if used as a fallback
+        if(video) { 
             video.pause(); 
             video.src=''; 
             video.style.display='none'; 
-            video.style.opacity = '0';
-            video.style.visibility = 'hidden';
         }
-        frame.style.display='block';
+
+        // Show iframe and set source
+        frame.style.display = 'block';
         frame.src = ch.stream;
 
-        // If successful, clear timers
-        frame.onload = onSuccess; 
-        
-        // Native onerror (unreliable) is also linked to the failure handler
-        frame.onerror = onChannelFail; 
-    }
-    
-    // IMPORTANT: If any onSuccess or onChannelFail runs, it clears BOTH timers.
+        // Set up the timers for the iframe (since native errors are unreliable)
+        // 100ms: Catches instant, silent failure (PHP file not found, bad URL format)
+        fastFailTimeout = setTimeout(onChannelFail, 100); 
+        // 5000ms: Catches stream hanging/slow buffer/player failure
+        errorTimeout = setTimeout(onChannelFail, 5000); 
 
-    document.querySelectorAll('.channel-item').forEach(el=>el.classList.remove('selected'));
+        // Iframe success handler (fires when the page loads)
+        frame.onload = onSuccess; 
+        // Unreliable onerror remains as a safeguard
+        frame.onerror = onChannelFail;
+    }
+
+    // --- UI Update & Sidebar ---
+    document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
     document.getElementById("ch-"+index)?.classList.add('selected');
 
-    osd.innerHTML=`[${ch.group}]<br><b>${ch.name}</b>`;
-    osd.style.display='block';
-    setTimeout(()=>osd.style.display='none',6000);
+    osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
+    osd.style.display = 'block';
+    setTimeout(() => osd.style.display = 'none', 6000);
 
     if(showSidebarAfter) showSidebar();
 }
