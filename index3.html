@@ -636,11 +636,20 @@ function playChannel(index, showSidebarAfter) {
             // ⭐ CRITICAL FIX: Use the actual global variable 'rawChannels'
             const allChannelsArray = rawChannels || []; 
             
-            // Map the array of channel objects to an array of stream URLs (strings)
-            const streamUrlsArray = allChannelsArray.map(channel => channel.stream); 
-            const listJsonString = JSON.stringify(streamUrlsArray);
+            // =========================================================================
+            //  THE NEW CODE BLOCK GOES HERE
+            //  It maps the full channel data (name, stream, logo) for the native list.
+            // =========================================================================
+            const channelDataForNative = allChannelsArray.map(channel => ({
+                name: channel.name,
+                stream: channel.stream,
+                logo: channel.logo || "" // Include logo (or empty string if missing)
+            })); 
             
-            // Call the Kotlin function with the fixed signature (String, String, JSON String, Int)
+            // Convert the array of objects into a single JSON String
+            const listJsonString = JSON.stringify(channelDataForNative);
+            
+            // Call the Kotlin function with the fixed signature (currentStream, currentName, JSON String list, currentIndex)
             AndroidTVBridge.playStream(ch.stream, ch.name, listJsonString, appState.currentIndex);
             
             console.log(`[Native Bridge] Stream launched: ${ch.name}`);
