@@ -246,30 +246,56 @@
     <div id="osd"></div>
 	
 <script>
-// GLOBAL VARIABLES
-const availableLists = ['channels.js', 'ch2.js'];
-let currentListFile = 'channels.js';
-let currentListIndex = 0;
-let currentIndex = 0;
-let sidebarTimer;
-let isStarted = false;
-let marqueeCycles = 0;
-let hideLoaderTimer = null; 
-let errorTimeout = null; 
-let fastFailTimeout = null;
+/**
+ * ==============================================================================
+ * MASTER LINK TV FRONTEND SCRIPT (index.html)
+ * ==============================================================================
+ */
 
-let shakaPlayerInstance = null; // NEW: Global Shaka player instance
-const SHAKA_STREAM_REGEX = /\.(m3u8|mpd|ts|smil|m3u)$/i; // Stream detection regex
+// --- 1. GLOBAL CONFIGURATION & DOM REFERENCES ---
+const CONFIG = {
+    // List management
+    AVAILABLE_LISTS: ['channels.js', 'ch2.js'],
+    INITIAL_LIST_FILE: 'channels.js',
 
-const frame = document.getElementById('main-frame');
-const video = document.getElementById('main-video') || null;
-const sidebar = document.getElementById('sidebar');
-const list = document.getElementById('channel-list');
-const loader = document.getElementById('loading-screen');
-const osd = document.getElementById('osd');
-const marqueeEl = document.getElementById('marquee-text');
-const noticeBar = document.getElementById('notice-bar');
-const errorBackground = document.getElementById('error-background'); 
+    // UI timings
+    SIDEBAR_TIMEOUT_MS: 5000,
+    OSD_TIMEOUT_MS: 6000,
+    // Reduced delay for faster UI response after stream starts
+    LOADER_HIDE_DELAY_MS: 500, 
+};
+
+const UI = {
+    frame: document.getElementById('main-frame'),
+    video: document.getElementById('main-video'),
+    sidebar: document.getElementById('sidebar'),
+    channelListContainer: document.getElementById('channel-list'),
+    loader: document.getElementById('loading-screen'),
+    osd: document.getElementById('osd'),
+    marqueeEl: document.getElementById('marquee-text'),
+    noticeBar: document.getElementById('notice-bar'),
+    errorBackground: document.getElementById('error-background'),
+    playerContainer: document.getElementById('player-container'),
+};
+
+// State Variables (Encapsulated)
+let appState = {
+    currentListFile: CONFIG.INITIAL_LIST_FILE,
+    currentListIndex: 0,
+    currentIndex: 0,
+    isStarted: false,
+    sidebarTimer: null,
+    hideLoaderTimer: null,
+    errorTimeout: null,
+    fastFailTimeout: null,
+    marqueeCycles: 0,
+};
+
+// --- SHAKA PLAYER VARIABLES ---
+let shakaPlayerInstance = null; // Global Shaka player instance
+// Regex is no longer the primary determinant, but keep it simple for generic checks if needed
+// const SHAKA_STREAM_REGEX = /\.(m3u8|mpd|ts|smil|m3u|mp4|webm|flv|php|aspx|ashx)$/i; 
+// We are only explicitly checking for .m3u8 now for channels.js
 
 const GROUP_COLORS = {
     Bangla: "#1e88e5",
@@ -283,21 +309,17 @@ const GROUP_COLORS = {
 };
 
 
-/* =========================
-   UTILITY LOGIC
-========================= */
+// --- 2. UTILITY FUNCTIONS ---
 
-// SVG logo generator
 function svgLogo(channelName, group) {
+    // ... (SVG logo generation code retained)
     const bg = GROUP_COLORS[group] || GROUP_COLORS.Default;
-
-    // Split name into max 2 lines
-    const lines = channelName.split(' ').slice(0, 4); 
-    const lineHeight = 18; 
-
+    const lines = channelName.split(' ').slice(0, 4);
+    const lineHeight = 18;
+    
     let tspans = '';
     lines.forEach((line, i) => {
-        const y = 50 + i * lineHeight; 
+        const y = 50 + i * lineHeight;
         tspans += `<tspan x="60" y="${y}">${line}</tspan>`;
     });
 
@@ -313,100 +335,66 @@ function svgLogo(channelName, group) {
     return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
 
-// Decide which logo to use
 function getLogo(ch) {
-    if(currentListFile === 'ch2.js') return svgLogo(ch.name, ch.group);
+    if (appState.currentListFile === 'ch2.js') {
+        // Need to ensure the ch2.js list structure is being handled here if different
+        // Assuming ch2.js structure is similar and logo generation is needed.
+        return svgLogo(ch.name, ch.group);
+    }
     return ch.logo || '';
 }
 
-/* =========================
-   LOADING & ERROR HANDLING 
-   (THESE ARE NOW GLOBAL FOR RELIABILITY)
-========================= */
+function hideLoading() {
+    if (appState.hideLoaderTimer) {
+        clearTimeout(appState.hideLoaderTimer);
+    }
+    
+    appState.hideLoaderTimer = setTimeout(() => {
+        UI.loader.style.display = 'none';
+        appState.hideLoaderTimer = null;
+    }, CONFIG.LOADER_HIDE_DELAY_MS);
+}
 
-/**
- * Global function called on successful load.
- */
 function onSuccess() {
-    // Clear all error/loading timers
-    if (errorTimeout) {
-        clearTimeout(errorTimeout);
-        errorTimeout = null;
-    }
-    if (fastFailTimeout) {
-        clearTimeout(fastFailTimeout);
-        fastFailTimeout = null;
-    }
+    clearTimeout(appState.errorTimeout);
+    clearTimeout(appState.fastFailTimeout);
+    appState.errorTimeout = null;
+    appState.fastFailTimeout = null;
     hideLoading();
 }
 
-/**
- * Global function called on channel failure (by Shaka or a timer).
- */
 function onChannelFail() {
-    // Get the name of the channel that was *supposed* to be playing
-    const ch = rawChannels[currentIndex];
-
-    // Clear all timers one last time before showing the error
-    if (errorTimeout) {
-        clearTimeout(errorTimeout);
-        errorTimeout = null;
+    clearTimeout(appState.errorTimeout);
+    clearTimeout(appState.fastFailTimeout);
+    appState.errorTimeout = null;
+    appState.fastFailTimeout = null;
+    if(rawChannels && rawChannels[appState.currentIndex]) {
+        showError(rawChannels[appState.currentIndex].name);
+    } else {
+         showError("Unknown Channel (Initialization Error)");
     }
-    if (fastFailTimeout) {
-        clearTimeout(fastFailTimeout);
-        fastFailTimeout = null;
-    }
-    
-    // Clean up Shaka Player
-    if (shakaPlayerInstance) {
-        shakaPlayerInstance.unload().catch(() => {});
-    }
-    
-    showError(ch ? ch.name : "Unknown Channel");
 }
 
-/**
- * Hides the loading screen after a stabilization delay.
- */
-function hideLoading(){
-    // Clear any previous timer to prevent conflicts if a channel changes quickly
-    if (hideLoaderTimer) {
-        clearTimeout(hideLoaderTimer);
-    }
-    
-    // Set a 500ms (0.5 second) delay to hide loading screen faster
-    hideLoaderTimer = setTimeout(() => {
-        loader.style.display = 'none';
-        hideLoaderTimer = null; // Clear ID after execution
-    }, 500); 
-}
-
-/**
- * Displays the error message and static background.
- */
 function showError(channelName) {
-    // 1. Clear loading screen and success/error timers (done in onChannelFail, but ensure)
-    loader.style.display = 'none';
+    // Clear playback elements
+    UI.loader.style.display = 'none';
+    UI.frame.src = 'about:blank';
+    UI.frame.style.display = 'none';
     
-    // 2. AGGRESSIVELY CLEAR AND HIDE THE PLAYER
-    frame.src = 'about:blank'; // Clears iframe content immediately
-    frame.style.display = 'none'; 
-    
-    if (video) { 
-        video.pause(); // Stop video playback
-        video.src = ''; // Hard clear the video source
-        
-        // ** FORCE HIDE VIA CSS PROPERTIES **
-        video.style.display = 'none';
-        video.style.opacity = '0'; 
-        video.style.visibility = 'hidden'; 
+    if (UI.video) {
+        if(shakaPlayerInstance) shakaPlayerInstance.unload().catch(() => {});
+        UI.video.pause();
+        UI.video.src = '';
+        UI.video.style.display = 'none';
+        UI.video.style.opacity = '0';
+        UI.video.style.visibility = 'hidden';
     }
 
-    // --- SHOW: Show the animated error background ---
-    errorBackground.style.display = 'block';
-    errorBackground.style.zIndex = '900'; 
+    // Show error background
+    UI.errorBackground.style.display = 'block';
+    UI.errorBackground.style.zIndex = '900';
 
-    // 3. Display the error message in the OSD
+    // Display the error message in the OSD
     const errorMessage = `
         <span style="color: #FF0000; font-weight: bold;">[ERROR]</span><br>
         Could not load channel: <b>${channelName}</b>.<br>
@@ -419,20 +407,45 @@ function showError(channelName) {
             on your remote to switch channel lists.
         </span>
     `;
-    osd.innerHTML = errorMessage;
-    osd.style.display = 'block';
+    UI.osd.innerHTML = errorMessage;
+    UI.osd.style.display = 'block';
 
-    // 4. Hide the error message after a longer duration (10 seconds)
-    setTimeout(() => osd.style.display = 'none', 10000); 
+    setTimeout(() => UI.osd.style.display = 'none', 10000); // Hide error after 10s
+}
+
+function toggleSidebar() {
+    if (!appState.isStarted) return;
+    UI.sidebar.classList.toggle('active');
+}
+
+function showSidebar() {
+    UI.sidebar.classList.add('active');
+    clearTimeout(appState.sidebarTimer);
+    appState.sidebarTimer = setTimeout(() => UI.sidebar.classList.remove('active'), CONFIG.SIDEBAR_TIMEOUT_MS);
+}
+
+function toggleFullScreen() {
+    const isFullscreen = document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement || document.msFullscreenElement;
+
+    if (!isFullscreen) {
+        const player = UI.playerContainer;
+        if (player.requestFullscreen) { player.requestFullscreen(); }
+        else if (player.mozRequestFullScreen) { player.mozRequestFullScreen(); }
+        else if (player.webkitRequestFullscreen) { player.webkitRequestFullscreen(); }
+        else if (player.msRequestFullscreen) { player.msRequestFullscreen(); }
+    } else {
+        if (document.exitFullscreen) { document.exitFullscreen(); }
+        else if (document.mozCancelFullScreen) { document.mozCancelFullScreen(); }
+        else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); }
+        else if (document.msExitFullscreen) { document.msExitFullscreen(); }
+    }
 }
 
 
-/* =========================
-   SHAKA PLAYER LOGIC
-========================= */
+// --- 3. CORE LOGIC ---
 
 /**
- * Initializes Shaka Player once.
+ * Initializes Shaka Player once with fast-start and low-latency settings.
  */
 function initShakaPlayer(videoElement) {
     if (shakaPlayerInstance) return;
@@ -446,7 +459,7 @@ function initShakaPlayer(videoElement) {
     }
 
     // 1. Remove the Shaka UI overlay to use custom loading screen/no controls
-    const uiContainer = videoElement.closest('#player-container').querySelector('.shaka-player-container');
+    const uiContainer = videoElement.closest('#player-container')?.querySelector('.shaka-player-container');
     if (uiContainer) {
         uiContainer.remove();
         console.log('Removed Shaka UI container.');
@@ -463,57 +476,49 @@ function initShakaPlayer(videoElement) {
         streaming: {
             lowLatencyMode: true,
             defaultManifestScheme: 'hls',
-            // Aggressive buffer settings for faster Time-to-First-Frame
-            rebufferingGoal: 0.5, 
-            bufferGoal: 15,        
-            bufferingGoal: 2,     
+            // *** OPTIMIZED BUFFER SETTINGS ***
+            rebufferingGoal: 0.5, // Start playback after 0.5s of buffer (Fastest Start)
+            bufferGoal: 5,        // Keep maximum buffer at 5s (Low Latency)
+            bufferingGoal: 2,     // Rebuffer only needs 2s to resume (Quick Recovery)
             retryParameters: { maxAttempts: 5 }
         },
         abr: { 
             enabled: true, 
-            // ** FAST START OPTIMIZATION **
-            // Set a low default bandwidth (500 kbps) to force the player to select 
-            // the lowest available quality variant first. ABR then quickly switches up.
-            defaultBandwidthEstimate: 100000 
+            // *** FAST SD START OPTIMIZATION ***
+            defaultBandwidthEstimate: 500000 
         },
         manifest: { retryParameters: { maxAttempts: 5 } }
     });
 
     // CRITICAL: Attach the global error handler
     shakaPlayerInstance.addEventListener('error', onShakaError);
-    console.log('Shaka Player initialized (controls disabled, fast-start enabled).');
+    console.log('Shaka Player initialized (fully optimized).');
 }
 
 /**
  * Handles Shaka Player errors.
- * This function now calls the global onChannelFail.
  */
 function onShakaError(errorEvent) {
     console.error('Shaka Player Error:', errorEvent.detail);
     onChannelFail(); 
 }
 
-
-/* =========================
-   INIT UI
-========================= */
-function init() {
-    marqueeEl?.addEventListener('animationiteration', () => {
-        marqueeCycles++;
-        if (marqueeCycles >= 2) noticeBar.style.display = 'none';
-    });
-
-    // Build channel list
-    list.innerHTML = '';
+function initChannelList() {
+    UI.channelListContainer.innerHTML = '';
     let currentGroup = "";
 
-    window.rawChannels.forEach((ch, i) => {
+    if (typeof rawChannels === 'undefined' || !Array.isArray(rawChannels)) {
+        console.error("rawChannels array not found. Cannot initialize channel list.");
+        return;
+    }
+
+    rawChannels.forEach((ch, i) => {
         if (ch.group !== currentGroup) {
             currentGroup = ch.group;
             const head = document.createElement('li');
             head.className = 'category-title';
             head.innerText = currentGroup;
-            list.appendChild(head);
+            UI.channelListContainer.appendChild(head);
         }
 
         const li = document.createElement('li');
@@ -526,54 +531,47 @@ function init() {
         `;
 
         li.onclick = e => { e.stopPropagation(); playChannel(i, true); };
-        list.appendChild(li);
+        UI.channelListContainer.appendChild(li);
     });
 
-    // List switch buttons
     document.querySelectorAll('.list-btn').forEach((btn, idx) => {
-        btn.classList.toggle('active', idx === currentListIndex);
-        btn.onclick = () => switchList(availableLists[idx], idx);
+        btn.classList.toggle('active', idx === appState.currentListIndex);
+        btn.onclick = () => switchList(CONFIG.AVAILABLE_LISTS[idx], idx);
     });
 }
 
-/* =========================
-   SWITCH LIST
-========================= */
 function switchList(filename, listIdx) {
-    if (filename === currentListFile) return;
+    if (filename === appState.currentListFile) return;
 
-    const oldScript = document.querySelector(`script[src="${currentListFile}"]`);
+    const oldScript = document.querySelector(`script[src="${appState.currentListFile}"]`);
     if (oldScript) oldScript.remove();
 
     const script = document.createElement('script');
     script.src = filename;
     script.onload = () => {
-        currentListFile = filename;
-        currentListIndex = listIdx;
+        appState.currentListFile = filename;
+        appState.currentListIndex = listIdx;
         localStorage.setItem('last_list', filename);
-        currentIndex = 0;
-        init();
+        appState.currentIndex = 0;
+        
+        initChannelList();
+        
         playChannel(0, true);
     };
     document.head.appendChild(script);
 }
 
-/* =========================
-   MOBILE CHANNEL CHANGE 
-========================= */
 function mobileChangeChannel(direction) {
-    currentIndex += direction;
-    if(currentIndex < 0) currentIndex = rawChannels.length - 1;
-    if(currentIndex >= rawChannels.length) currentIndex = 0;
-    playChannel(currentIndex, false); 
+    appState.currentIndex += direction;
+    if(appState.currentIndex < 0) appState.currentIndex = rawChannels.length - 1;
+    if(appState.currentIndex >= rawChannels.length) appState.currentIndex = 0;
+    playChannel(appState.currentIndex, false);
 }
 
-/* =========================
-   UPDATE MOBILE LOGOS
-========================= */
 function updateMobileLogos() {
-    const prevIdx = currentIndex > 0 ? currentIndex - 1 : rawChannels.length - 1;
-    const nextIdx = currentIndex < rawChannels.length - 1 ? currentIndex + 1 : 0;
+    if (!rawChannels || rawChannels.length === 0) return;
+    const prevIdx = appState.currentIndex > 0 ? appState.currentIndex - 1 : rawChannels.length - 1;
+    const nextIdx = appState.currentIndex < rawChannels.length - 1 ? appState.currentIndex + 1 : 0;
 
     const prevBtn = document.getElementById('btn-prev-img');
     const nextBtn = document.getElementById('btn-next-img');
@@ -583,235 +581,206 @@ function updateMobileLogos() {
     nextBtn.src = getLogo(rawChannels[nextIdx]);
 }
 
-/* =========================
-   START APP
-========================= */
 function startApp() {
-    isStarted = true;
+    if (appState.isStarted) return;
+    appState.isStarted = true;
     document.getElementById('splash')?.remove();
 
-    const lastChannel = localStorage.getItem('last_tv_channel');
-    const savedList = localStorage.getItem('last_list');
+    const lastChannelIndex = parseInt(localStorage.getItem('last_tv_channel') || 0);
+    const savedListFile = localStorage.getItem('last_list');
 
-    if(savedList && savedList !== 'channels.js' && availableLists.includes(savedList)){
-        const defaultScript = document.querySelector('script[src="channels.js"]');
-        if(defaultScript) defaultScript.remove();
-
+    if (savedListFile && savedListFile !== CONFIG.INITIAL_LIST_FILE && CONFIG.AVAILABLE_LISTS.includes(savedListFile)) {
+        
+        const defaultScript = document.querySelector(`script[src="${CONFIG.INITIAL_LIST_FILE}"]`);
+        if (defaultScript) defaultScript.remove();
+        
         const script = document.createElement('script');
-        script.src = savedList;
+        script.src = savedListFile;
         script.onload = () => {
-            currentListFile = savedList;
-            currentListIndex = availableLists.indexOf(savedList);
-            init();
-            playChannel(lastChannel ? parseInt(lastChannel) : 0, false);
+            appState.currentListFile = savedListFile;
+            appState.currentListIndex = CONFIG.AVAILABLE_LISTS.indexOf(savedListFile);
+            initChannelList();
+            playChannel(lastChannelIndex, false);
         };
         document.head.appendChild(script);
     } else {
-        init(); // Ensure list is built if we are using the default list
-        playChannel(lastChannel ? parseInt(lastChannel) : 0, false);
+        initChannelList();
+        playChannel(lastChannelIndex, false);
     }
 }
 
-/* =========================
-   PLAY CHANNEL (SHAKA INTEGRATION)
-========================= */
+/**
+ * Handles the logic for playing a specific channel, routing the stream 
+ * to either Shaka Player or the WebView's iframe based on the active channel list.
+ */
 function playChannel(index, showSidebarAfter) {
-    if(!isStarted) return;
+    if (!appState.isStarted || !rawChannels || rawChannels.length === 0) return;
 
-    // Clear both timers before starting a new channel
-    if (errorTimeout) {
-        clearTimeout(errorTimeout);
-        errorTimeout = null;
-    }
-    if (fastFailTimeout) {
-        clearTimeout(fastFailTimeout);
-        fastFailTimeout = null;
-    }
-    
-    // --- HIDE: Hide Error Background when attempting to play a new channel ---
-    errorBackground.style.display = 'none';
+    index = (index % rawChannels.length + rawChannels.length) % rawChannels.length;
 
-    currentIndex = index;
+    // --- Cleanup & Setup ---
+    clearTimeout(appState.errorTimeout);
+    clearTimeout(appState.fastFailTimeout);
+    clearTimeout(appState.hideLoaderTimer);
+    appState.errorTimeout = null;
+    appState.fastFailTimeout = null;
+    appState.hideLoaderTimer = null;
+
     const ch = rawChannels[index];
+    appState.currentIndex = index;
     localStorage.setItem('last_tv_channel', index);
+
+    // 1. Show Loading Screen
+    UI.errorBackground.style.display = 'none';
+    UI.loader.style.display = 'flex';
+    document.getElementById('loading-img').src = getLogo(ch);
+    document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:#888;font-size:14px">Buffering...</span>`;
 
     updateMobileLogos();
 
-    // Clear pending hide loader timer
-    if (hideLoaderTimer) {
-        clearTimeout(hideLoaderTimer);
-        hideLoaderTimer = null;
+    // 2. Determine Stream Type based on list file
+    let isShakaStream = false;
+    
+    if (appState.currentListFile === 'ch2.js') {
+        // Strategy 1: If using ch2.js, use Shaka Player for EVERYTHING
+        isShakaStream = true; 
+    } else {
+        // Strategy 2: If using channels.js, only use Shaka for m3u8 (HLS)
+        isShakaStream = ch.stream.toLowerCase().includes('.m3u8');
     }
-
-    // 1. SHOW LOADING SCREEN IMMEDIATELY
-    loader.style.display = 'flex';
-    const loadingImg = document.getElementById('loading-img');
-    loadingImg.src = getLogo(ch);
-
-    document.getElementById('loading-msg').innerHTML =
-        `${ch.name}<br><span style="color:#888;font-size:14px">Buffering...</span>`;
-
-    const isShakaStream = SHAKA_STREAM_REGEX.test(ch.stream);
     
-    
-    // === TIMER STRATEGY ===
-    // 1. FAST FAIL CHECK (10s) - Catches instant errors
-    fastFailTimeout = setTimeout(onChannelFail, 10000); 
 
-    // 2. SLOW FAIL/HANG CHECK (30s) - Catches slow buffering/hanging streams
-    errorTimeout = setTimeout(onChannelFail, 30000); 
-    
-    
-    // === STREAM LOADING LOGIC ===
-    if(isShakaStream && video){
-        // --- METHOD 1: Use Shaka Player (HLS/DASH/TS) ---
+    // --- STREAM ROUTING LOGIC ---
+    if (isShakaStream && UI.video) {
         
-        // 1. Prepare Iframe for cleanup
-        frame.style.display = 'none';
-        frame.src = 'about:blank';
+        // ROUTE A: Adaptive Stream or Direct Video -> Use Optimized Shaka Player
+        
+        // 1. Clean up iframe
+        UI.frame.style.display = 'none';
+        UI.frame.src = 'about:blank';
         
         // 2. Prepare Video Element for Shaka
-        video.style.opacity = '1';
-        video.style.visibility = 'visible';
-        video.style.display = 'block';
+        UI.video.style.opacity = '1';
+        UI.video.style.visibility = 'visible';
+        UI.video.style.display = 'block';
         
         // 3. Initialize and Load Stream
-        initShakaPlayer(video);
+        initShakaPlayer(UI.video);
         
         if (shakaPlayerInstance) {
             shakaPlayerInstance.load(ch.stream).then(() => {
                 console.log('Shaka stream loaded successfully.');
-                video.play();
+                UI.video.play().catch(e => console.error("Autoplay failed:", e)); 
                 onSuccess(); 
             }).catch(onShakaError); 
         } else {
-             // Fallback if Shaka failed to initialize (e.g., browser unsupported)
              onChannelFail(); 
         }
+        
+        // Set up the failure timers (30s max for modern streaming)
+        appState.fastFailTimeout = setTimeout(onChannelFail, 10000); // 10s fast fail
+        appState.errorTimeout = setTimeout(onChannelFail, 30000);    // 30s slow fail
 
     } else {
-        // --- METHOD 2: Use Iframe (PHP/Embedded/Unsupported) ---
         
-        // 1. Clean up Shaka Player
+        // ROUTE B: Embedded Stream (Legacy/Unsupported/Non-HLS in channels.js) -> Use Iframe
+
+        // Clean up Shaka Player
         if(shakaPlayerInstance) { 
             shakaPlayerInstance.unload().catch(() => {}); 
         }
         
-        // 2. Clean up Video Element
-        if(video){ 
-            video.pause(); 
-            video.src=''; 
-            video.style.display='none'; 
-            video.style.opacity = '0';
-            video.style.visibility = 'hidden';
+        // Clean up Video Element
+        if(UI.video){ 
+            UI.video.pause(); 
+            UI.video.src=''; 
+            UI.video.style.display='none'; 
+            UI.video.style.opacity = '0';
+            UI.video.style.visibility = 'hidden';
         }
 
-        // 3. Load Iframe
-        frame.style.display='block';
-        frame.src = ch.stream;
+        // Show iframe and set source
+        UI.frame.style.display = 'block';
+        UI.frame.src = ch.stream;
 
-        // If successful, clear timers (iframe onload is unreliable but best attempt)
-        frame.onload = onSuccess; 
-        frame.onerror = onChannelFail; 
+        // Set up the failure timers (Using Shaka times for consistency)
+        appState.fastFailTimeout = setTimeout(onChannelFail, 10000);
+        appState.errorTimeout = setTimeout(onChannelFail, 30000);
+
+        // Iframe success handler
+        UI.frame.onload = onSuccess;
+        UI.frame.onerror = onChannelFail;
     }
-    
-    document.querySelectorAll('.channel-item').forEach(el=>el.classList.remove('selected'));
-    document.getElementById("ch-"+index)?.classList.add('selected');
 
-    osd.innerHTML=`[${ch.group}]<br><b>${ch.name}</b>`;
-    osd.style.display='block';
-    setTimeout(()=>osd.style.display='none',6000);
+    // --- Local UI Updates ---
+    document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
+    document.getElementById("ch-" + index)?.classList.add('selected');
 
-    if(showSidebarAfter) showSidebar();
+    UI.osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
+    UI.osd.style.display = 'block';
+    setTimeout(() => UI.osd.style.display = 'none', CONFIG.OSD_TIMEOUT_MS);
+
+    if (showSidebarAfter) showSidebar();
 }
 
-/* =========================
-   SIDEBAR
-========================= */
-function toggleSidebar(){
-    if(!isStarted) return;
-    sidebar.classList.toggle('active');
-}
-function showSidebar(){
-    sidebar.classList.add('active');
-    clearTimeout(sidebarTimer);
-    sidebarTimer = setTimeout(()=>sidebar.classList.remove('active'),5000);
-}
 
-/* =========================
-   FULLSCREEN TOGGLE
-========================= */
-function toggleFullScreen() {
-    const player = document.getElementById('player-container');
-    const isFullscreen = document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement || document.msFullscreenElement;
+// --- 4. EVENT HANDLERS (Keydown logic retained) ---
 
-    if (!isFullscreen) {
-        // Request fullscreen on the player container
-        if (player.requestFullscreen) { player.requestFullscreen(); }
-        else if (player.mozRequestFullScreen) { player.mozRequestFullScreen(); }
-        else if (player.webkitRequestFullscreen) { player.webkitRequestFullscreen(); }
-        else if (player.msRequestFullscreen) { player.msRequestFullscreen(); }
-    } else {
-        // Exit fullscreen
-        if (document.exitFullscreen) { document.exitFullscreen(); }
-        else if (document.mozCancelFullScreen) { document.mozCancelFullScreen(); }
-        else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); }
-        else if (document.msExitFullscreen) { document.msExitFullscreen(); }
+window.addEventListener('keydown', e => {
+// ... (Keydown logic is the same) ...
+    if (!appState.isStarted) { 
+        if (e.key === "Enter" || e.key === "Ok") startApp(); 
+        return; 
     }
-}
 
+    const controllableVideo = UI.video && UI.video.style.display !== 'none' ? UI.video : null;
+    const volumeStep = 0.1;
 
-/* =========================
-   KEY HANDLING 
-========================= */
-window.addEventListener('keydown', e=>{
-    if(!isStarted){ if(e.key==="Enter"||e.key==="Ok") startApp(); return; }
-
-    // Check if a video element (used by Shaka) is currently active and can be controlled
-    const controllableVideo = video && video.style.display !== 'none' ? video : null;
-    const volumeStep = 0.1; // 10% step
-
-    if(e.key==="ArrowUp") playChannel((currentIndex-1+rawChannels.length)%rawChannels.length,true);
-    else if(e.key==="ArrowDown") playChannel((currentIndex+1)%rawChannels.length,true);
-    else if(e.key==="ArrowLeft"){ currentListIndex=(currentListIndex-1+availableLists.length)%availableLists.length; switchList(availableLists[currentListIndex],currentListIndex); }
-    else if(e.key==="ArrowRight"){ currentListIndex=(currentListIndex+1)%availableLists.length; switchList(availableLists[currentListIndex],currentListIndex); }
-    else if(e.key==="PageUp") playChannel((currentIndex-1+rawChannels.length)%rawChannels.length,false);
-    else if(e.key==="PageDown") playChannel((currentIndex+1)%rawChannels.length,false);
-    else if(e.key==="Enter"||e.key==="Ok") toggleSidebar();
-    
-    // VOLUME CONTROL
-    else if(controllableVideo && (e.key==="+" || e.key==="=")) {
-        // Increase Volume (max 1.0)
+    if (e.key === "ArrowUp") {
+        playChannel(appState.currentIndex - 1, true);
+    } else if (e.key === "ArrowDown") {
+        playChannel(appState.currentIndex + 1, true);
+    } else if (e.key === "ArrowLeft") {
+        appState.currentListIndex = (appState.currentListIndex - 1 + CONFIG.AVAILABLE_LISTS.length) % CONFIG.AVAILABLE_LISTS.length;
+        switchList(CONFIG.AVAILABLE_LISTS[appState.currentListIndex], appState.currentListIndex);
+    } else if (e.key === "ArrowRight") {
+        appState.currentListIndex = (appState.currentListIndex + 1) % CONFIG.AVAILABLE_LISTS.length;
+        switchList(CONFIG.AVAILABLE_LISTS[appState.currentListIndex], appState.currentListIndex);
+    } else if (e.key === "PageUp") {
+        playChannel(appState.currentIndex - 1, false);
+    } else if (e.key === "PageDown") {
+        playChannel(appState.currentIndex + 1, false);
+    } else if (e.key === "Enter" || e.key === "Ok") {
+        toggleSidebar();
+    } 
+    else if (controllableVideo && (e.key === "+" || e.key === "=")) {
         controllableVideo.volume = Math.min(1.0, controllableVideo.volume + volumeStep);
-        osd.innerHTML = `Volume: ${Math.round(controllableVideo.volume * 100)}%`;
-        osd.style.display='block';
-        setTimeout(()=>osd.style.display='none', 1000);
-    }
-    else if(controllableVideo && e.key==="-") {
-        // Decrease Volume (min 0.0)
+        UI.osd.innerHTML = `Volume: ${Math.round(controllableVideo.volume * 100)}%`;
+        UI.osd.style.display = 'block';
+        setTimeout(() => UI.osd.style.display = 'none', 1000);
+    } else if (controllableVideo && e.key === "-") {
         controllableVideo.volume = Math.max(0.0, controllableVideo.volume - volumeStep);
-        osd.innerHTML = `Volume: ${Math.round(controllableVideo.volume * 100)}%`;
-        osd.style.display='block';
-        setTimeout(()=>osd.style.display='none', 1000);
-    }
-    
-    // FULLSCREEN TOGGLE
-    else if(e.key==="f" || e.key==="F") {
+        UI.osd.innerHTML = `Volume: ${Math.round(controllableVideo.volume * 100)}%`;
+        UI.osd.style.display = 'block';
+        setTimeout(() => UI.osd.style.display = 'none', 1000);
+    } 
+    else if (e.key === "f" || e.key === "F") {
         toggleFullScreen();
-        osd.innerHTML = document.fullscreenElement ? `Fullscreen On` : `Fullscreen Off`;
-        osd.style.display='block';
-        setTimeout(()=>osd.style.display='none', 2000);
+        UI.osd.innerHTML = document.fullscreenElement ? `Fullscreen On` : `Fullscreen Off`;
+        UI.osd.style.display = 'block';
+        setTimeout(() => UI.osd.style.display = 'none', 2000);
     }
-    
 });
 
-/* =========================
-   INIT
-========================= */
-init();
 
-// Attach the event listener after the DOM and script are loaded.
-document.getElementById('start-btn-id')?.addEventListener('click', startApp);
+// --- 5. INITIAL SETUP ---
+
+UI.marqueeEl?.addEventListener('animationiteration', () => {
+    appState.marqueeCycles++;
+    if (appState.marqueeCycles >= 2) UI.noticeBar.style.display = 'none';
+});
+
 </script>
+
 </body>
 </html>
