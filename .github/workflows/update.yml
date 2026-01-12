@@ -1,8 +1,8 @@
-name: Hourly IPTV Auto-Updater
+name: Half Hourly IPTV Auto-Updater
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Every hour (UTC)
+    - cron: '*/30 * * * *'  # Every 30 mintes (UTC)
   workflow_dispatch:
 
 permissions:
