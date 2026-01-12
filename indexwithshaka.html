@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live TV Pro</title>
+    <style>
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; font-family: 'Segoe UI', sans-serif; color: white; }
+        
+        /* Notice Bar (Marquee) */
+        #notice-bar {
+            position: fixed; top: 0; left: 0; width: 100%; height: 35px;
+            background: rgba(229, 9, 20, 0.6); color: white;
+            z-index: 2000; overflow: hidden; line-height: 35px;
+            font-size: 16px; font-weight: bold; pointer-events: none;
+            border-bottom: 2px solid gold;
+        }
+        .marquee {
+            display: inline-block; white-space: nowrap;
+            padding-left: 100%; 
+            animation: marquee 20s linear infinite; /* One spin is 20s */
+        }
+        @keyframes marquee {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(-100%, 0); }
+        }
+
+        /* Video Background */
+        #player-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
+        
+        /* Error Background Style */
+        #error-background {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background-color: #111; 
+            background-image: url('https://gifdb.com/images/high/glitch-tv-static-hixli6jku4r36prq.gif'); 
+            background-size: cover; 
+            background-position: center;
+            z-index: 0; 
+            display: none; 
+        }
+        
+        iframe { width: 100%; height: 100%; border: none; background: #000; }
+
+        /* Loading Screen */
+        #loading-screen {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: #000; display: none; flex-direction: column;
+            justify-content: center; align-items: center; z-index: 3000;
+        }
+        #loading-img { width: 90px; height: 90px; object-fit: contain; margin-bottom: 20px; background: white; padding: 5px; border-radius: 12px; }
+        #loading-msg { font-size: 20px; font-weight: bold; margin-bottom: 15px; text-align: center; }
+        .spinner { width: 40px; height: 40px; border: 4px solid #333; border-top: 4px solid #ff0000; border-radius: 50%; animation: spin 1s linear infinite; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        /* Touch Overlay for Phone */
+        #touch-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 5; background: transparent; }
+
+        /* Splash Screen */
+        #splash { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #111; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 8999; }
+        .start-btn { padding: 20px 60px; background: #ff0000; color: white; font-size: 26px; font-weight: bold; border: 4px solid transparent; border-radius: 50px; cursor: pointer; outline: none; transition: 0.3s; }
+        .start-btn:focus { border-color: white; box-shadow: 0 0 25px #ff0000; transform: scale(1.1); }
+
+        /* Sidebar Overlay */
+        #sidebar { 
+            position: fixed; top: 0; left: 0; width: 15%; height: 100%; 
+            background: rgba(0, 0, 0, 0.4); backdrop-filter: blur(15px); 
+            z-index: 4000; transform: translateX(-100%); 
+            transition: transform 0.3s ease-in-out; 
+            display: flex; flex-direction: column; border-right: 1px solid #333; 
+        }
+        #sidebar.active { transform: translateX(0); }
+        .sidebar-header { padding: 20px 20px 20px 20px; text-align: center; color: white; font-weight: bold; font-size: 16px; border-bottom: 1px solid #333; }
+        #channel-list { flex: 1; overflow-y: auto; list-style: none; padding: 0 5px 15px 5px; margin: 0; }
+        #channel-list::-webkit-scrollbar { width: 0px; }
+
+        .category-title { padding: 18px 10px 5px 10px; color: #ff0000; font-size: 14px; font-weight: bold; text-transform: uppercase; border-bottom: 1px solid #222; margin-top: 10px; }
+        .channel-item { display: flex; align-items: center; padding: 6px; margin-top: 5px; border-radius: 8px; background: rgba(255,255,255,0.03); border: 2px solid transparent; cursor: pointer; }
+        .channel-item.selected { background: rgba(255, 0, 0, 0.3); border-color: #ff0000; }
+        .channel-item img { width: 40px; height: 40px; object-fit: contain; margin-right: 12px; background: white; border-radius: 4px; padding: 1px; }
+        .channel-name { font-size: 9px; font-weight: 500; }
+
+        #osd { 
+            position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); 
+            background: rgba(0,0,0,0.8); padding: 12px 30px; border-radius: 50px; 
+            z-index: 50; display: none; border: 1px solid #ff0000; text-align: center;
+        }
+		
+		/* Mobile CH Buttons - HIDDEN BY DEFAULT */
+        .mobile-ch-controls {
+            position: fixed;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: none; 
+            flex-direction: column;
+            gap: 40px;
+            z-index: 5000;
+        }
+
+        /* Show ONLY on touch-screen devices (Phones/Tablets) */
+        @media (pointer: coarse) {
+            .mobile-ch-controls {
+                display: flex;
+            }
+        }
+
+        .ch-button {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.15);
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            backdrop-filter: blur(8px);
+            position: relative;
+        }
+        .ch-button img {
+            width: 90%;
+            height: 90%;
+            object-fit: contain;
+            border-radius: 50%;
+            background: white;
+            padding: 2px;
+        }
+        .ch-label-next {
+            position: absolute;
+            bottom: -20px;
+            font-size: 10px;
+            font-weight: bold;
+            background: rgba(255, 0, 0, 0.8);
+            padding: 2px 6px;
+            border-radius: 10px;
+            text-transform: uppercase;
+        }
+		.ch-label-prev {
+            position: absolute;
+            top: -20px;
+            font-size: 10px;
+            font-weight: bold;
+            background: rgba(255, 0, 0, 0.8);
+            padding: 2px 6px;
+            border-radius: 10px;
+            text-transform: uppercase;
+        }
+		
+		/* ADD: Video tag same as iframe */
+		#main-video { 
+			width: 100%; 
+			height: 100%; 
+			border: none; 
+			background: #000; 
+			display: none; 
+		}
+
+		/* ADD: List Switcher in Sidebar (above the header) */
+		.list-switcher { 
+			display: flex; 
+			padding: 10px; 
+			gap: 8px; 
+			border-bottom: 1px solid #333; 
+			background: rgba(0,0,0,0.5); 
+		}
+		.list-btn { 
+			flex: 1; 
+			padding: 8px; 
+			background: rgba(255,255,255,0.1); 
+			border: 2px solid #555; 
+			color: white; 
+			border-radius: 6px; 
+			cursor: pointer; 
+			font-size: 12px; 
+			font-weight: bold; 
+		}
+		.list-btn.active { 
+			border-color: #ff0000; 
+			background: rgba(255,0,0,0.3); 
+		}
+
+
+    </style>
+
+	<script src="channels.js"></script>
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/shaka-player/4.7.12/shaka-player.compiled.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/shaka-player/4.7.12/shaka-player.ui.js"></script>
+
+</head>
+<body>
+
+    <div id="notice-bar">
+        <div id="marquee-text" class="marquee">WELCOME TO LIVE TV! PLEASE ENSURE YOU ARE CONNECTED TO THE ISP NETWORK FOR BEST PERFORMANCE. ENJOY HIGH-QUALITY STREAMING OF YOUR FAVORITE CHANNELS. • WELCOME TO LIVE TV! • </div>
+    </div>
+	
+	<div class="mobile-ch-controls">
+        <div class="ch-button" onclick="event.stopPropagation(); mobileChangeChannel(-1)">
+            <span class="ch-label-prev">Prev</span>
+            <img id="btn-prev-img" src="" alt="Prev">
+        </div>
+        <div class="ch-button" onclick="event.stopPropagation(); mobileChangeChannel(1)">
+            <span class="ch-label-next">Next</span>
+            <img id="btn-next-img" src="" alt="Next">
+        </div>
+    </div>
+
+    <div id="touch-overlay" onclick="toggleSidebar()"></div>
+
+    <div id="loading-screen">
+        <img id="loading-img" src="" alt="">
+        <div id="loading-msg">Channel loading...</div>
+        <div id="loading-spinner" class="spinner"></div>
+    </div>
+
+    <div id="splash">
+        <h1 style="color:red; font-size: 50px; margin-bottom: 0;">MASTER LINK LIVE TV</h1>
+        <p style="color: #666; margin-bottom: 30px;">Premium ISP Streaming</p>
+        
+        <button id="start-btn-id" class="start-btn" autofocus tabindex="1">START WATCHING</button>
+        
+        <p style="margin-top:20px; color: #888;">Use TV remote Ok / Touch to start</p>
+    </div>
+
+    <div id="player-container">
+	    <div id="error-background"></div> 
+        
+	    <iframe 
+	        id="main-frame" 
+	        src="" 
+	        allow="autoplay; encrypted-media; picture-in-picture">
+	    </iframe>
+        <video id="main-video" playsinline style="display: none;"></video>
+    </div>
+
+    <div id="sidebar">
+        <div class="sidebar-header">MASTER LINK TV</div>
+		<div class="list-switcher">
+			<button class="list-btn active" onclick="switchList('channels.js', 0)">List 1</button>
+			<button class="list-btn" onclick="switchList('ch2.js', 1)">List 2</button>
+		</div>
+        <ul id="channel-list"></ul>
+    </div>
+
+    <div id="osd"></div>
+	
+<script>
+// GLOBAL VARIABLES
+const availableLists = ['channels.js', 'ch2.js'];
+let currentListFile = 'channels.js';
+let currentListIndex = 0;
+let currentIndex = 0;
+let sidebarTimer;
+let isStarted = false;
+let marqueeCycles = 0;
+let hideLoaderTimer = null; 
+let errorTimeout = null; 
+let fastFailTimeout = null;
+
+let shakaPlayerInstance = null; // NEW: Global Shaka player instance
+const SHAKA_STREAM_REGEX = /\.(m3u8|mpd|ts|smil|m3u)$/i; // Stream detection regex
+
+const frame = document.getElementById('main-frame');
+const video = document.getElementById('main-video') || null;
+const sidebar = document.getElementById('sidebar');
+const list = document.getElementById('channel-list');
+const loader = document.getElementById('loading-screen');
+const osd = document.getElementById('osd');
+const marqueeEl = document.getElementById('marquee-text');
+const noticeBar = document.getElementById('notice-bar');
+const errorBackground = document.getElementById('error-background'); 
+
+const GROUP_COLORS = {
+    Bangla: "#1e88e5",
+    Sports: "#43a047",
+    Movies: "#e53935",
+    Hindi: "#8e24aa",
+    Kids: "#fbc02d",
+    Documentary: "#fb8c00",
+    Religious: "#00897b",
+    Default: "#424242"
+};
+
+
+/* =========================
+   UTILITY LOGIC
+========================= */
+
+// SVG logo generator
+function svgLogo(channelName, group) {
+    const bg = GROUP_COLORS[group] || GROUP_COLORS.Default;
+
+    // Split name into max 2 lines
+    const lines = channelName.split(' ').slice(0, 4); 
+    const lineHeight = 18; 
+
+    let tspans = '';
+    lines.forEach((line, i) => {
+        const y = 50 + i * lineHeight; 
+        tspans += `<tspan x="60" y="${y}">${line}</tspan>`;
+    });
+
+    const svg = `
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+    <rect width="120" height="120" rx="8" fill="${bg}"/>
+    <text text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+        ${tspans}
+    </text>
+</svg>
+    `.trim();
+
+    return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
+
+// Decide which logo to use
+function getLogo(ch) {
+    if(currentListFile === 'ch2.js') return svgLogo(ch.name, ch.group);
+    return ch.logo || '';
+}
+
+/* =========================
+   LOADING & ERROR HANDLING 
+   (THESE ARE NOW GLOBAL FOR RELIABILITY)
+========================= */
+
+/**
+ * Global function called on successful load.
+ */
+function onSuccess() {
+    // Clear all error/loading timers
+    if (errorTimeout) {
+        clearTimeout(errorTimeout);
+        errorTimeout = null;
+    }
+    if (fastFailTimeout) {
+        clearTimeout(fastFailTimeout);
+        fastFailTimeout = null;
+    }
+    hideLoading();
+}
+
+/**
+ * Global function called on channel failure (by Shaka or a timer).
+ */
+function onChannelFail() {
+    // Get the name of the channel that was *supposed* to be playing
+    const ch = rawChannels[currentIndex];
+
+    // Clear all timers one last time before showing the error
+    if (errorTimeout) {
+        clearTimeout(errorTimeout);
+        errorTimeout = null;
+    }
+    if (fastFailTimeout) {
+        clearTimeout(fastFailTimeout);
+        fastFailTimeout = null;
+    }
+    
+    // Clean up Shaka Player
+    if (shakaPlayerInstance) {
+        shakaPlayerInstance.unload().catch(() => {});
+    }
+    
+    showError(ch ? ch.name : "Unknown Channel");
+}
+
+/**
+ * Hides the loading screen after a stabilization delay.
+ */
+function hideLoading(){
+    // Clear any previous timer to prevent conflicts if a channel changes quickly
+    if (hideLoaderTimer) {
+        clearTimeout(hideLoaderTimer);
+    }
+    
+    // Set a 500ms (0.5 second) delay to hide loading screen faster
+    hideLoaderTimer = setTimeout(() => {
+        loader.style.display = 'none';
+        hideLoaderTimer = null; // Clear ID after execution
+    }, 500); 
+}
+
+/**
+ * Displays the error message and static background.
+ */
+function showError(channelName) {
+    // 1. Clear loading screen and success/error timers (done in onChannelFail, but ensure)
+    loader.style.display = 'none';
+    
+    // 2. AGGRESSIVELY CLEAR AND HIDE THE PLAYER
+    frame.src = 'about:blank'; // Clears iframe content immediately
+    frame.style.display = 'none'; 
+    
+    if (video) { 
+        video.pause(); // Stop video playback
+        video.src = ''; // Hard clear the video source
+        
+        // ** FORCE HIDE VIA CSS PROPERTIES **
+        video.style.display = 'none';
+        video.style.opacity = '0'; 
+        video.style.visibility = 'hidden'; 
+    }
+
+    // --- SHOW: Show the animated error background ---
+    errorBackground.style.display = 'block';
+    errorBackground.style.zIndex = '900'; 
+
+    // 3. Display the error message in the OSD
+    const errorMessage = `
+        <span style="color: #FF0000; font-weight: bold;">[ERROR]</span><br>
+        Could not load channel: <b>${channelName}</b>.<br>
+        Please try another channel or check your network.<br>
+        <span style="color:gold; font-size:12px; margin-top:5px; display:block;">
+            Tip: Press 
+            <span style="font-size: 16px; margin: 0 5px; border: 1px solid gold; padding: 2px 5px; border-radius: 4px;">&larr;</span> 
+            / 
+            <span style="font-size: 16px; margin: 0 5px; border: 1px solid gold; padding: 2px 5px; border-radius: 4px;">&rarr;</span> 
+            on your remote to switch channel lists.
+        </span>
+    `;
+    osd.innerHTML = errorMessage;
+    osd.style.display = 'block';
+
+    // 4. Hide the error message after a longer duration (10 seconds)
+    setTimeout(() => osd.style.display = 'none', 10000); 
+}
+
+
+/* =========================
+   SHAKA PLAYER LOGIC
+========================= */
+
+/**
+ * Initializes Shaka Player once.
+ */
+function initShakaPlayer(videoElement) {
+    if (shakaPlayerInstance) return;
+
+    shaka.polyfill.installAll();
+
+    if (!shaka.Player.isBrowserSupported()) {
+        console.error('Shaka Player: Browser not supported!');
+        onChannelFail(); 
+        return;
+    }
+
+    // 1. Remove the Shaka UI overlay to use custom loading screen/no controls
+    const uiContainer = videoElement.closest('#player-container').querySelector('.shaka-player-container');
+    if (uiContainer) {
+        uiContainer.remove();
+        console.log('Removed Shaka UI container.');
+    }
+    
+    // 2. Ensure the video element itself does not have controls
+    videoElement.removeAttribute('controls');
+    
+    // 3. Initialize the core player
+    shakaPlayerInstance = new shaka.Player(videoElement);
+
+    // Apply Shaka configuration
+    shakaPlayerInstance.configure({
+        streaming: {
+            lowLatencyMode: true,
+            defaultManifestScheme: 'hls',
+            // Aggressive buffer settings for faster Time-to-First-Frame
+            rebufferingGoal: 0.5, 
+            bufferGoal: 15,        
+            bufferingGoal: 2,     
+            retryParameters: { maxAttempts: 5 }
+        },
+        abr: { 
+            enabled: true, 
+            // ** FAST START OPTIMIZATION **
+            // Set a low default bandwidth (500 kbps) to force the player to select 
+            // the lowest available quality variant first. ABR then quickly switches up.
+            defaultBandwidthEstimate: 100000 
+        },
+        manifest: { retryParameters: { maxAttempts: 5 } }
+    });
+
+    // CRITICAL: Attach the global error handler
+    shakaPlayerInstance.addEventListener('error', onShakaError);
+    console.log('Shaka Player initialized (controls disabled, fast-start enabled).');
+}
+
+/**
+ * Handles Shaka Player errors.
+ * This function now calls the global onChannelFail.
+ */
+function onShakaError(errorEvent) {
+    console.error('Shaka Player Error:', errorEvent.detail);
+    onChannelFail(); 
+}
+
+
+/* =========================
+   INIT UI
+========================= */
+function init() {
+    marqueeEl?.addEventListener('animationiteration', () => {
+        marqueeCycles++;
+        if (marqueeCycles >= 2) noticeBar.style.display = 'none';
+    });
+
+    // Build channel list
+    list.innerHTML = '';
+    let currentGroup = "";
+
+    window.rawChannels.forEach((ch, i) => {
+        if (ch.group !== currentGroup) {
+            currentGroup = ch.group;
+            const head = document.createElement('li');
+            head.className = 'category-title';
+            head.innerText = currentGroup;
+            list.appendChild(head);
+        }
+
+        const li = document.createElement('li');
+        li.className = 'channel-item';
+        li.id = "ch-" + i;
+
+        li.innerHTML = `
+            <img src="${getLogo(ch)}" alt="${ch.name}">
+            <span class="channel-name">${ch.name}</span>
+        `;
+
+        li.onclick = e => { e.stopPropagation(); playChannel(i, true); };
+        list.appendChild(li);
+    });
+
+    // List switch buttons
+    document.querySelectorAll('.list-btn').forEach((btn, idx) => {
+        btn.classList.toggle('active', idx === currentListIndex);
+        btn.onclick = () => switchList(availableLists[idx], idx);
+    });
+}
+
+/* =========================
+   SWITCH LIST
+========================= */
+function switchList(filename, listIdx) {
+    if (filename === currentListFile) return;
+
+    const oldScript = document.querySelector(`script[src="${currentListFile}"]`);
+    if (oldScript) oldScript.remove();
+
+    const script = document.createElement('script');
+    script.src = filename;
+    script.onload = () => {
+        currentListFile = filename;
+        currentListIndex = listIdx;
+        localStorage.setItem('last_list', filename);
+        currentIndex = 0;
+        init();
+        playChannel(0, true);
+    };
+    document.head.appendChild(script);
+}
+
+/* =========================
+   MOBILE CHANNEL CHANGE 
+========================= */
+function mobileChangeChannel(direction) {
+    currentIndex += direction;
+    if(currentIndex < 0) currentIndex = rawChannels.length - 1;
+    if(currentIndex >= rawChannels.length) currentIndex = 0;
+    playChannel(currentIndex, false); 
+}
+
+/* =========================
+   UPDATE MOBILE LOGOS
+========================= */
+function updateMobileLogos() {
+    const prevIdx = currentIndex > 0 ? currentIndex - 1 : rawChannels.length - 1;
+    const nextIdx = currentIndex < rawChannels.length - 1 ? currentIndex + 1 : 0;
+
+    const prevBtn = document.getElementById('btn-prev-img');
+    const nextBtn = document.getElementById('btn-next-img');
+    if (!prevBtn || !nextBtn) return;
+
+    prevBtn.src = getLogo(rawChannels[prevIdx]);
+    nextBtn.src = getLogo(rawChannels[nextIdx]);
+}
+
+/* =========================
+   START APP
+========================= */
+function startApp() {
+    isStarted = true;
+    document.getElementById('splash')?.remove();
+
+    const lastChannel = localStorage.getItem('last_tv_channel');
+    const savedList = localStorage.getItem('last_list');
+
+    if(savedList && savedList !== 'channels.js' && availableLists.includes(savedList)){
+        const defaultScript = document.querySelector('script[src="channels.js"]');
+        if(defaultScript) defaultScript.remove();
+
+        const script = document.createElement('script');
+        script.src = savedList;
+        script.onload = () => {
+            currentListFile = savedList;
+            currentListIndex = availableLists.indexOf(savedList);
+            init();
+            playChannel(lastChannel ? parseInt(lastChannel) : 0, false);
+        };
+        document.head.appendChild(script);
+    } else {
+        init(); // Ensure list is built if we are using the default list
+        playChannel(lastChannel ? parseInt(lastChannel) : 0, false);
+    }
+}
+
+/* =========================
+   PLAY CHANNEL (SHAKA INTEGRATION)
+========================= */
+function playChannel(index, showSidebarAfter) {
+    if(!isStarted) return;
+
+    // Clear both timers before starting a new channel
+    if (errorTimeout) {
+        clearTimeout(errorTimeout);
+        errorTimeout = null;
+    }
+    if (fastFailTimeout) {
+        clearTimeout(fastFailTimeout);
+        fastFailTimeout = null;
+    }
+    
+    // --- HIDE: Hide Error Background when attempting to play a new channel ---
+    errorBackground.style.display = 'none';
+
+    currentIndex = index;
+    const ch = rawChannels[index];
+    localStorage.setItem('last_tv_channel', index);
+
+    updateMobileLogos();
+
+    // Clear pending hide loader timer
+    if (hideLoaderTimer) {
+        clearTimeout(hideLoaderTimer);
+        hideLoaderTimer = null;
+    }
+
+    // 1. SHOW LOADING SCREEN IMMEDIATELY
+    loader.style.display = 'flex';
+    const loadingImg = document.getElementById('loading-img');
+    loadingImg.src = getLogo(ch);
+
+    document.getElementById('loading-msg').innerHTML =
+        `${ch.name}<br><span style="color:#888;font-size:14px">Buffering...</span>`;
+
+    const isShakaStream = SHAKA_STREAM_REGEX.test(ch.stream);
+    
+    
+    // === TIMER STRATEGY ===
+    // 1. FAST FAIL CHECK (10s) - Catches instant errors
+    fastFailTimeout = setTimeout(onChannelFail, 10000); 
+
+    // 2. SLOW FAIL/HANG CHECK (30s) - Catches slow buffering/hanging streams
+    errorTimeout = setTimeout(onChannelFail, 30000); 
+    
+    
+    // === STREAM LOADING LOGIC ===
+    if(isShakaStream && video){
+        // --- METHOD 1: Use Shaka Player (HLS/DASH/TS) ---
+        
+        // 1. Prepare Iframe for cleanup
+        frame.style.display = 'none';
+        frame.src = 'about:blank';
+        
+        // 2. Prepare Video Element for Shaka
+        video.style.opacity = '1';
+        video.style.visibility = 'visible';
+        video.style.display = 'block';
+        
+        // 3. Initialize and Load Stream
+        initShakaPlayer(video);
+        
+        if (shakaPlayerInstance) {
+            shakaPlayerInstance.load(ch.stream).then(() => {
+                console.log('Shaka stream loaded successfully.');
+                video.play();
+                onSuccess(); 
+            }).catch(onShakaError); 
+        } else {
+             // Fallback if Shaka failed to initialize (e.g., browser unsupported)
+             onChannelFail(); 
+        }
+
+    } else {
+        // --- METHOD 2: Use Iframe (PHP/Embedded/Unsupported) ---
+        
+        // 1. Clean up Shaka Player
+        if(shakaPlayerInstance) { 
+            shakaPlayerInstance.unload().catch(() => {}); 
+        }
+        
+        // 2. Clean up Video Element
+        if(video){ 
+            video.pause(); 
+            video.src=''; 
+            video.style.display='none'; 
+            video.style.opacity = '0';
+            video.style.visibility = 'hidden';
+        }
+
+        // 3. Load Iframe
+        frame.style.display='block';
+        frame.src = ch.stream;
+
+        // If successful, clear timers (iframe onload is unreliable but best attempt)
+        frame.onload = onSuccess; 
+        frame.onerror = onChannelFail; 
+    }
+    
+    document.querySelectorAll('.channel-item').forEach(el=>el.classList.remove('selected'));
+    document.getElementById("ch-"+index)?.classList.add('selected');
+
+    osd.innerHTML=`[${ch.group}]<br><b>${ch.name}</b>`;
+    osd.style.display='block';
+    setTimeout(()=>osd.style.display='none',6000);
+
+    if(showSidebarAfter) showSidebar();
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+function toggleSidebar(){
+    if(!isStarted) return;
+    sidebar.classList.toggle('active');
+}
+function showSidebar(){
+    sidebar.classList.add('active');
+    clearTimeout(sidebarTimer);
+    sidebarTimer = setTimeout(()=>sidebar.classList.remove('active'),5000);
+}
+
+/* =========================
+   FULLSCREEN TOGGLE
+========================= */
+function toggleFullScreen() {
+    const player = document.getElementById('player-container');
+    const isFullscreen = document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement || document.msFullscreenElement;
+
+    if (!isFullscreen) {
+        // Request fullscreen on the player container
+        if (player.requestFullscreen) { player.requestFullscreen(); }
+        else if (player.mozRequestFullScreen) { player.mozRequestFullScreen(); }
+        else if (player.webkitRequestFullscreen) { player.webkitRequestFullscreen(); }
+        else if (player.msRequestFullscreen) { player.msRequestFullscreen(); }
+    } else {
+        // Exit fullscreen
+        if (document.exitFullscreen) { document.exitFullscreen(); }
+        else if (document.mozCancelFullScreen) { document.mozCancelFullScreen(); }
+        else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); }
+        else if (document.msExitFullscreen) { document.msExitFullscreen(); }
+    }
+}
+
+
+/* =========================
+   KEY HANDLING 
+========================= */
+window.addEventListener('keydown', e=>{
+    if(!isStarted){ if(e.key==="Enter"||e.key==="Ok") startApp(); return; }
+
+    // Check if a video element (used by Shaka) is currently active and can be controlled
+    const controllableVideo = video && video.style.display !== 'none' ? video : null;
+    const volumeStep = 0.1; // 10% step
+
+    if(e.key==="ArrowUp") playChannel((currentIndex-1+rawChannels.length)%rawChannels.length,true);
+    else if(e.key==="ArrowDown") playChannel((currentIndex+1)%rawChannels.length,true);
+    else if(e.key==="ArrowLeft"){ currentListIndex=(currentListIndex-1+availableLists.length)%availableLists.length; switchList(availableLists[currentListIndex],currentListIndex); }
+    else if(e.key==="ArrowRight"){ currentListIndex=(currentListIndex+1)%availableLists.length; switchList(availableLists[currentListIndex],currentListIndex); }
+    else if(e.key==="PageUp") playChannel((currentIndex-1+rawChannels.length)%rawChannels.length,false);
+    else if(e.key==="PageDown") playChannel((currentIndex+1)%rawChannels.length,false);
+    else if(e.key==="Enter"||e.key==="Ok") toggleSidebar();
+    
+    // VOLUME CONTROL
+    else if(controllableVideo && (e.key==="+" || e.key==="=")) {
+        // Increase Volume (max 1.0)
+        controllableVideo.volume = Math.min(1.0, controllableVideo.volume + volumeStep);
+        osd.innerHTML = `Volume: ${Math.round(controllableVideo.volume * 100)}%`;
+        osd.style.display='block';
+        setTimeout(()=>osd.style.display='none', 1000);
+    }
+    else if(controllableVideo && e.key==="-") {
+        // Decrease Volume (min 0.0)
+        controllableVideo.volume = Math.max(0.0, controllableVideo.volume - volumeStep);
+        osd.innerHTML = `Volume: ${Math.round(controllableVideo.volume * 100)}%`;
+        osd.style.display='block';
+        setTimeout(()=>osd.style.display='none', 1000);
+    }
+    
+    // FULLSCREEN TOGGLE
+    else if(e.key==="f" || e.key==="F") {
+        toggleFullScreen();
+        osd.innerHTML = document.fullscreenElement ? `Fullscreen On` : `Fullscreen Off`;
+        osd.style.display='block';
+        setTimeout(()=>osd.style.display='none', 2000);
+    }
+    
+});
+
+/* =========================
+   INIT
+========================= */
+init();
+
+// Attach the event listener after the DOM and script are loaded.
+document.getElementById('start-btn-id')?.addEventListener('click', startApp);
+</script>
+</body>
+</html>
