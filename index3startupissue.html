@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live TV Pro</title>
+    <style>
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; font-family: 'Segoe UI', sans-serif; color: white; }
+        
+        /* Notice Bar (Marquee) */
+        #notice-bar {
+            position: fixed; top: 0; left: 0; width: 100%; height: 35px;
+            background: rgba(229, 9, 20, 0.6); color: white;
+            z-index: 2000; overflow: hidden; line-height: 35px;
+            font-size: 16px; font-weight: bold; pointer-events: none;
+            border-bottom: 2px solid gold;
+        }
+        .marquee {
+            display: inline-block; white-space: nowrap;
+            padding-left: 100%; 
+            animation: marquee 20s linear infinite; /* One spin is 20s */
+        }
+        @keyframes marquee {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(-100%, 0); }
+        }
+
+        /* Video Background */
+        #player-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
+        
+        /* Error Background Style */
+        #error-background {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background-color: #111; 
+            background-image: url('https://gifdb.com/images/high/glitch-tv-static-hixli6jku4r36prq.gif'); 
+            background-size: cover; 
+            background-position: center;
+            z-index: 0; 
+            display: none; 
+        }
+        
+        iframe { width: 100%; height: 100%; border: none; background: #000; }
+
+        /* Loading Screen */
+        #loading-screen {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: #000; display: none; flex-direction: column;
+            justify-content: center; align-items: center; z-index: 3000;
+        }
+        #loading-img { width: 90px; height: 90px; object-fit: contain; margin-bottom: 20px; background: white; padding: 5px; border-radius: 12px; }
+        #loading-msg { font-size: 20px; font-weight: bold; margin-bottom: 15px; text-align: center; }
+        .spinner { width: 40px; height: 40px; border: 4px solid #333; border-top: 4px solid #ff0000; border-radius: 50%; animation: spin 1s linear infinite; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        /* Touch Overlay for Phone */
+        #touch-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 5; background: transparent; }
+
+        /* Splash Screen */
+        #splash { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #111; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 8999; }
+        .start-btn { padding: 20px 60px; background: #ff0000; color: white; font-size: 26px; font-weight: bold; border: 4px solid transparent; border-radius: 50px; cursor: pointer; outline: none; transition: 0.3s; }
+        .start-btn:focus { border-color: white; box-shadow: 0 0 25px #ff0000; transform: scale(1.1); }
+
+        /* Sidebar Overlay */
+        #sidebar { 
+            position: fixed; top: 0; left: 0; width: 15%; height: 100%; 
+            background: rgba(0, 0, 0, 0.4); backdrop-filter: blur(15px); 
+            z-index: 4000; transform: translateX(-100%); 
+            transition: transform 0.3s ease-in-out; 
+            display: flex; flex-direction: column; border-right: 1px solid #333; 
+        }
+        #sidebar.active { transform: translateX(0); }
+        .sidebar-header { padding: 20px 20px 20px 20px; text-align: center; color: white; font-weight: bold; font-size: 16px; border-bottom: 1px solid #333; }
+        #channel-list { flex: 1; overflow-y: auto; list-style: none; padding: 0 5px 15px 5px; margin: 0; }
+        #channel-list::-webkit-scrollbar { width: 0px; }
+
+        .category-title { padding: 18px 10px 5px 10px; color: #ff0000; font-size: 14px; font-weight: bold; text-transform: uppercase; border-bottom: 1px solid #222; margin-top: 10px; }
+        .channel-item { display: flex; align-items: center; padding: 6px; margin-top: 5px; border-radius: 8px; background: rgba(255,255,255,0.03); border: 2px solid transparent; cursor: pointer; }
+        .channel-item.selected { background: rgba(255, 0, 0, 0.3); border-color: #ff0000; }
+        .channel-item img { width: 40px; height: 40px; object-fit: contain; margin-right: 12px; background: white; border-radius: 4px; padding: 1px; }
+        .channel-name { font-size: 9px; font-weight: 500; }
+
+        #osd { 
+            position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); 
+            background: rgba(0,0,0,0.8); padding: 12px 30px; border-radius: 50px; 
+            z-index: 50; display: none; border: 1px solid #ff0000; text-align: center;
+        }
+		
+		/* Mobile CH Buttons - HIDDEN BY DEFAULT */
+        .mobile-ch-controls {
+            position: fixed;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: none; 
+            flex-direction: column;
+            gap: 40px;
+            z-index: 5000;
+        }
+
+        /* Show ONLY on touch-screen devices (Phones/Tablets) */
+        @media (pointer: coarse) {
+            .mobile-ch-controls {
+                display: flex;
+            }
+        }
+
+        .ch-button {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.15);
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            backdrop-filter: blur(8px);
+            position: relative;
+        }
+        .ch-button img {
+            width: 90%;
+            height: 90%;
+            object-fit: contain;
+            border-radius: 50%;
+            background: white;
+            padding: 2px;
+        }
+        .ch-label-next {
+            position: absolute;
+            bottom: -20px;
+            font-size: 10px;
+            font-weight: bold;
+            background: rgba(255, 0, 0, 0.8);
+            padding: 2px 6px;
+            border-radius: 10px;
+            text-transform: uppercase;
+        }
+		.ch-label-prev {
+            position: absolute;
+            top: -20px;
+            font-size: 10px;
+            font-weight: bold;
+            background: rgba(255, 0, 0, 0.8);
+            padding: 2px 6px;
+            border-radius: 10px;
+            text-transform: uppercase;
+        }
+		
+		/* ADD: Video tag same as iframe */
+		#main-video { 
+			width: 100%; 
+			height: 100%; 
+			border: none; 
+			background: #000; 
+			display: none; 
+		}
+
+		/* ADD: List Switcher in Sidebar (above the header) */
+		.list-switcher { 
+			display: flex; 
+			padding: 10px; 
+			gap: 8px; 
+			border-bottom: 1px solid #333; 
+			background: rgba(0,0,0,0.5); 
+		}
+		.list-btn { 
+			flex: 1; 
+			padding: 8px; 
+			background: rgba(255,255,255,0.1); 
+			border: 2px solid #555; 
+			color: white; 
+			border-radius: 6px; 
+			cursor: pointer; 
+			font-size: 12px; 
+			font-weight: bold; 
+		}
+		.list-btn.active { 
+			border-color: #ff0000; 
+			background: rgba(255,0,0,0.3); 
+		}
+
+
+    </style>
+
+	<script src="channels.js"></script>
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/shaka-player/4.7.12/shaka-player.compiled.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/shaka-player/4.7.12/shaka-player.ui.js"></script>
+
+</head>
+<body>
+
+    <div id="notice-bar">
+        <div id="marquee-text" class="marquee">WELCOME TO LIVE TV! PLEASE ENSURE YOU ARE CONNECTED TO THE ISP NETWORK FOR BEST PERFORMANCE. ENJOY HIGH-QUALITY STREAMING OF YOUR FAVORITE CHANNELS. • WELCOME TO LIVE TV! • </div>
+    </div>
+	
+	<div class="mobile-ch-controls">
+        <div class="ch-button" onclick="event.stopPropagation(); mobileChangeChannel(-1)">
+            <span class="ch-label-prev">Prev</span>
+            <img id="btn-prev-img" src="" alt="Prev">
+        </div>
+        <div class="ch-button" onclick="event.stopPropagation(); mobileChangeChannel(1)">
+            <span class="ch-label-next">Next</span>
+            <img id="btn-next-img" src="" alt="Next">
+        </div>
+    </div>
+
+    <div id="touch-overlay" onclick="toggleSidebar()"></div>
+
+    <div id="loading-screen">
+        <img id="loading-img" src="" alt="">
+        <div id="loading-msg">Channel loading...</div>
+        <div id="loading-spinner" class="spinner"></div>
+    </div>
+
+    <div id="splash">
+        <h1 style="color:red; font-size: 50px; margin-bottom: 0;">MASTER LINK LIVE TV</h1>
+        <p style="color: #666; margin-bottom: 30px;">Premium ISP Streaming</p>
+        
+        <button id="start-btn-id" class="start-btn" autofocus tabindex="1">START WATCHING</button>
+        
+        <p style="margin-top:20px; color: #888;">Use TV remote Ok / Touch to start</p>
+    </div>
+
+    <div id="player-container">
+	    <div id="error-background"></div> 
+        
+	    <iframe 
+	        id="main-frame" 
+	        src="" 
+	        allow="autoplay; encrypted-media; picture-in-picture">
+	    </iframe>
+        <video id="main-video" playsinline style="display: none;"></video>
+    </div>
+
+    <div id="sidebar">
+        <div class="sidebar-header">MASTER LINK TV</div>
+		<div class="list-switcher">
+			<button class="list-btn active" onclick="switchList('channels.js', 0)">List 1</button>
+			<button class="list-btn" onclick="switchList('ch2.js', 1)">List 2</button>
+		</div>
+        <ul id="channel-list"></ul>
+    </div>
+
+    <div id="osd"></div>
+	
+<script>
+/**
+ * ==============================================================================
+ * MASTER LINK TV FRONTEND SCRIPT (index.html)
+ * ==============================================================================
+ */
+
+// --- 1. GLOBAL CONFIGURATION & DOM REFERENCES ---
+const CONFIG = {
+    // List management
+    AVAILABLE_LISTS: ['channels.js', 'ch2.js'],
+    INITIAL_LIST_FILE: 'channels.js',
+
+    // UI timings
+    SIDEBAR_TIMEOUT_MS: 5000,
+    OSD_TIMEOUT_MS: 6000,
+    // Reduced delay for faster UI response after stream starts
+    LOADER_HIDE_DELAY_MS: 500, 
+};
+
+const UI = {
+    frame: document.getElementById('main-frame'),
+    video: document.getElementById('main-video'),
+    sidebar: document.getElementById('sidebar'),
+    channelListContainer: document.getElementById('channel-list'),
+    loader: document.getElementById('loading-screen'),
+    osd: document.getElementById('osd'),
+    marqueeEl: document.getElementById('marquee-text'),
+    noticeBar: document.getElementById('notice-bar'),
+    errorBackground: document.getElementById('error-background'),
+    playerContainer: document.getElementById('player-container'),
+};
+
+// State Variables (Encapsulated)
+let appState = {
+    currentListFile: CONFIG.INITIAL_LIST_FILE,
+    currentListIndex: 0,
+    currentIndex: 0,
+    isStarted: false,
+    sidebarTimer: null,
+    hideLoaderTimer: null,
+    errorTimeout: null,
+    fastFailTimeout: null,
+    marqueeCycles: 0,
+};
+
+// --- SHAKA PLAYER VARIABLES ---
+let shakaPlayerInstance = null; // Global Shaka player instance
+
+const GROUP_COLORS = {
+    Bangla: "#1e88e5",
+    Sports: "#43a047",
+    Movies: "#e53935",
+    Hindi: "#8e24aa",
+    Kids: "#fbc02d",
+    Documentary: "#fb8c00",
+    Religious: "#00897b",
+    Default: "#424242"
+};
+
+
+// --- 2. UTILITY FUNCTIONS ---
+
+function svgLogo(channelName, group) {
+    const bg = GROUP_COLORS[group] || GROUP_COLORS.Default;
+    const lines = channelName.split(' ').slice(0, 4);
+    const lineHeight = 18;
+    
+    let tspans = '';
+    lines.forEach((line, i) => {
+        const y = 50 + i * lineHeight;
+        tspans += `<tspan x="60" y="${y}">${line}</tspan>`;
+    });
+
+    const svg = `
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+    <rect width="120" height="120" rx="8" fill="${bg}"/>
+    <text text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+        ${tspans}
+    </text>
+</svg>
+    `.trim();
+
+    return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
+
+function getLogo(ch) {
+    if (appState.currentListFile === 'ch2.js') {
+        // ch2.js is assumed to require SVG logo generation
+        return svgLogo(ch.name, ch.group);
+    }
+    // Default channels.js is assumed to use image links
+    return ch.logo || '';
+}
+
+/**
+ * Hides the loading spinner after a delay, confirming stream stabilization.
+ */
+function hideLoading() {
+    if (appState.hideLoaderTimer) {
+        clearTimeout(appState.hideLoaderTimer);
+    }
+    
+    appState.hideLoaderTimer = setTimeout(() => {
+        UI.loader.style.display = 'none';
+        appState.hideLoaderTimer = null;
+    }, CONFIG.LOADER_HIDE_DELAY_MS);
+}
+
+/**
+ * Handles successful stream playback.
+ */
+function onSuccess() {
+    clearTimeout(appState.errorTimeout);
+    clearTimeout(appState.fastFailTimeout);
+    appState.errorTimeout = null;
+    appState.fastFailTimeout = null;
+    hideLoading();
+}
+
+/**
+ * Handles error/failure detection for streams.
+ */
+function onChannelFail() {
+    clearTimeout(appState.errorTimeout);
+    clearTimeout(appState.fastFailTimeout);
+    appState.errorTimeout = null;
+    appState.fastFailTimeout = null;
+    if(rawChannels && rawChannels[appState.currentIndex]) {
+        showError(rawChannels[appState.currentIndex].name);
+    } else {
+         showError("Unknown Channel (Initialization Error)");
+    }
+}
+
+/**
+ * Displays a persistent error screen and message.
+ */
+function showError(channelName) {
+    // Clear playback elements
+    UI.loader.style.display = 'none';
+    UI.frame.src = 'about:blank';
+    UI.frame.style.display = 'none';
+    
+    if (UI.video) {
+        if(shakaPlayerInstance) shakaPlayerInstance.unload().catch(() => {});
+        UI.video.pause();
+        UI.video.src = '';
+        UI.video.style.display = 'none';
+        UI.video.style.opacity = '0';
+        UI.video.style.visibility = 'hidden';
+    }
+
+    // Show error background
+    UI.errorBackground.style.display = 'block';
+    UI.errorBackground.style.zIndex = '900';
+
+    // Display the error message in the OSD
+    const errorMessage = `
+        <span style="color: #FF0000; font-weight: bold;">[ERROR]</span><br>
+        Could not load channel: <b>${channelName}</b>.<br>
+        Please try another channel or check your network.<br>
+        <span style="color:gold; font-size:12px; margin-top:5px; display:block;">
+            Tip: Press 
+            <span style="font-size: 16px; margin: 0 5px; border: 1px solid gold; padding: 2px 5px; border-radius: 4px;">&larr;</span> 
+            / 
+            <span style="font-size: 16px; margin: 0 5px; border: 1px solid gold; padding: 2px 5px; border-radius: 4px;">&rarr;</span> 
+            on your remote to switch channel lists.
+        </span>
+    `;
+    UI.osd.innerHTML = errorMessage;
+    UI.osd.style.display = 'block';
+
+    setTimeout(() => UI.osd.style.display = 'none', 10000); // Hide error after 10s
+}
+
+function toggleSidebar() {
+    if (!appState.isStarted) return;
+    UI.sidebar.classList.toggle('active');
+}
+
+function showSidebar() {
+    UI.sidebar.classList.add('active');
+    clearTimeout(appState.sidebarTimer);
+    appState.sidebarTimer = setTimeout(() => UI.sidebar.classList.remove('active'), CONFIG.SIDEBAR_TIMEOUT_MS);
+}
+
+function toggleFullScreen() {
+    const isFullscreen = document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement || document.msFullscreenElement;
+
+    if (!isFullscreen) {
+        const player = UI.playerContainer;
+        if (player.requestFullscreen) { player.requestFullscreen(); }
+        else if (player.mozRequestFullScreen) { player.mozRequestFullScreen(); }
+        else if (player.webkitRequestFullscreen) { player.webkitRequestFullscreen(); }
+        else if (player.msRequestFullscreen) { player.msRequestFullscreen(); }
+    } else {
+        if (document.exitFullscreen) { document.exitFullscreen(); }
+        else if (document.mozCancelFullScreen) { document.mozCancelFullScreen(); }
+        else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); }
+        else if (document.msExitFullscreen) { document.msExitFullscreen(); }
+    }
+}
+
+
+// --- 3. CORE LOGIC ---
+
+/**
+ * Initializes Shaka Player once with fast-start and low-latency settings.
+ */
+function initShakaPlayer(videoElement) {
+    if (shakaPlayerInstance) return;
+
+    shaka.polyfill.installAll();
+
+    if (!shaka.Player.isBrowserSupported()) {
+        console.error('Shaka Player: Browser not supported!');
+        onChannelFail(); 
+        return;
+    }
+
+    // Remove Shaka's built-in UI if present
+    const uiContainer = videoElement.closest('#player-container')?.querySelector('.shaka-player-container');
+    if (uiContainer) {
+        uiContainer.remove();
+    }
+    
+    videoElement.removeAttribute('controls');
+    
+    shakaPlayerInstance = new shaka.Player(videoElement);
+
+    shakaPlayerInstance.configure({
+        streaming: {
+            lowLatencyMode: true,
+            defaultManifestScheme: 'hls',
+            // *** OPTIMIZED BUFFER SETTINGS (Fast Start, Low Latency) ***
+            rebufferingGoal: 0.5, // Start playback after 0.5s of buffer 
+            bufferGoal: 5,        // Keep maximum buffer at 5s 
+            bufferingGoal: 2,     // Rebuffer only needs 2s to resume 
+            retryParameters: { maxAttempts: 5 }
+        },
+        abr: { 
+            enabled: true, 
+            // *** FAST SD START OPTIMIZATION ***
+            defaultBandwidthEstimate: 500000 // Forces lowest quality variant first
+        },
+        manifest: { retryParameters: { maxAttempts: 5 } }
+    });
+
+    shakaPlayerInstance.addEventListener('error', onShakaError);
+}
+
+/**
+ * Handles Shaka Player errors.
+ */
+function onShakaError(errorEvent) {
+    console.error('Shaka Player Error:', errorEvent.detail);
+    onChannelFail(); 
+}
+
+function initChannelList() {
+    UI.channelListContainer.innerHTML = '';
+    let currentGroup = "";
+
+    if (typeof rawChannels === 'undefined' || !Array.isArray(rawChannels)) {
+        console.error("rawChannels array not found. Cannot initialize channel list.");
+        return;
+    }
+
+    rawChannels.forEach((ch, i) => {
+        if (ch.group !== currentGroup) {
+            currentGroup = ch.group;
+            const head = document.createElement('li');
+            head.className = 'category-title';
+            head.innerText = currentGroup;
+            UI.channelListContainer.appendChild(head);
+        }
+
+        const li = document.createElement('li');
+        li.className = 'channel-item';
+        li.id = "ch-" + i;
+
+        li.innerHTML = `
+            <img src="${getLogo(ch)}" alt="${ch.name}">
+            <span class="channel-name">${ch.name}</span>
+        `;
+
+        li.onclick = e => { e.stopPropagation(); playChannel(i, true); };
+        UI.channelListContainer.appendChild(li);
+    });
+
+    document.querySelectorAll('.list-btn').forEach((btn, idx) => {
+        btn.classList.toggle('active', idx === appState.currentListIndex);
+        btn.onclick = () => switchList(CONFIG.AVAILABLE_LISTS[idx], idx);
+    });
+}
+
+function switchList(filename, listIdx) {
+    if (filename === appState.currentListFile) return;
+
+    // Remove the old script tag
+    const oldScript = document.querySelector(`script[src="${appState.currentListFile}"]`);
+    if (oldScript) oldScript.remove();
+
+    // Load the new script file
+    const script = document.createElement('script');
+    script.src = filename;
+    script.onload = () => {
+        appState.currentListFile = filename;
+        appState.currentListIndex = listIdx;
+        localStorage.setItem('last_list', filename);
+        appState.currentIndex = 0;
+        
+        initChannelList();
+        
+        playChannel(0, true);
+    };
+    document.head.appendChild(script);
+}
+
+function mobileChangeChannel(direction) {
+    appState.currentIndex += direction;
+    if(appState.currentIndex < 0) appState.currentIndex = rawChannels.length - 1;
+    if(appState.currentIndex >= rawChannels.length) appState.currentIndex = 0;
+    playChannel(appState.currentIndex, false);
+}
+
+function updateMobileLogos() {
+    if (!rawChannels || rawChannels.length === 0) return;
+    const prevIdx = appState.currentIndex > 0 ? appState.currentIndex - 1 : rawChannels.length - 1;
+    const nextIdx = appState.currentIndex < rawChannels.length - 1 ? appState.currentIndex + 1 : 0;
+
+    const prevBtn = document.getElementById('btn-prev-img');
+    const nextBtn = document.getElementById('btn-next-img');
+    if (!prevBtn || !nextBtn) return;
+
+    prevBtn.src = getLogo(rawChannels[prevIdx]);
+    nextBtn.src = getLogo(rawChannels[nextIdx]);
+}
+
+function startApp() {
+    if (appState.isStarted) return;
+    appState.isStarted = true;
+    document.getElementById('splash')?.remove();
+
+    const lastChannelIndex = parseInt(localStorage.getItem('last_tv_channel') || 0);
+    const savedListFile = localStorage.getItem('last_list');
+
+    if (savedListFile && savedListFile !== CONFIG.INITIAL_LIST_FILE && CONFIG.AVAILABLE_LISTS.includes(savedListFile)) {
+        
+        const defaultScript = document.querySelector(`script[src="${CONFIG.INITIAL_LIST_FILE}"]`);
+        if (defaultScript) defaultScript.remove();
+        
+        const script = document.createElement('script');
+        script.src = savedListFile;
+        script.onload = () => {
+            appState.currentListFile = savedListFile;
+            appState.currentListIndex = CONFIG.AVAILABLE_LISTS.indexOf(savedListFile);
+            initChannelList();
+            playChannel(lastChannelIndex, false);
+        };
+        document.head.appendChild(script);
+    } else {
+        initChannelList();
+        playChannel(lastChannelIndex, false);
+    }
+}
+
+/**
+ * Handles the logic for playing a specific channel, routing the stream 
+ * to either Shaka Player or the WebView's iframe based on the active channel list.
+ */
+function playChannel(index, showSidebarAfter) {
+    if (!appState.isStarted || !rawChannels || rawChannels.length === 0) return;
+
+    index = (index % rawChannels.length + rawChannels.length) % rawChannels.length;
+
+    // --- Cleanup & Setup ---
+    clearTimeout(appState.errorTimeout);
+    clearTimeout(appState.fastFailTimeout);
+    clearTimeout(appState.hideLoaderTimer);
+    appState.errorTimeout = null;
+    appState.fastFailTimeout = null;
+    appState.hideLoaderTimer = null;
+
+    const ch = rawChannels[index];
+    appState.currentIndex = index;
+    localStorage.setItem('last_tv_channel', index);
+
+    // 1. Show Loading Screen
+    UI.errorBackground.style.display = 'none';
+    UI.loader.style.display = 'flex';
+    document.getElementById('loading-img').src = getLogo(ch);
+    document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:#888;font-size:14px">Buffering...</span>`;
+
+    updateMobileLogos();
+
+    // 2. Determine Stream Type based on list file
+    let isShakaStream = false;
+    
+    if (appState.currentListFile === 'ch2.js') {
+        // Strategy 1: If using ch2.js, use Shaka Player for EVERYTHING (maximizes optimization)
+        isShakaStream = true; 
+    } else {
+        // Strategy 2: If using channels.js, only use Shaka for m3u8 (HLS)
+        // Fallback to iframe for other types (e.g., complex embeds)
+        isShakaStream = ch.stream.toLowerCase().includes('.m3u8');
+    }
+    
+
+    // --- STREAM ROUTING LOGIC ---
+    if (isShakaStream && UI.video) {
+        
+        // ROUTE A: Adaptive Stream or Direct Video -> Use Optimized Shaka Player
+        
+        // 1. Clean up iframe
+        UI.frame.style.display = 'none';
+        UI.frame.src = 'about:blank';
+        
+        // 2. Prepare Video Element for Shaka
+        UI.video.style.opacity = '1';
+        UI.video.style.visibility = 'visible';
+        UI.video.style.display = 'block';
+        
+        // 3. Initialize and Load Stream
+        initShakaPlayer(UI.video);
+        
+        if (shakaPlayerInstance) {
+            shakaPlayerInstance.load(ch.stream).then(() => {
+                // Play is required for Shaka to start the stream
+                UI.video.play().catch(e => console.error("Autoplay failed:", e)); 
+                onSuccess(); 
+            }).catch(onShakaError); 
+        } else {
+             onChannelFail(); 
+        }
+        
+        // Set up the failure timers
+        appState.fastFailTimeout = setTimeout(onChannelFail, 10000); 
+        appState.errorTimeout = setTimeout(onChannelFail, 30000);    
+
+    } else {
+        
+        // ROUTE B: Embedded Stream -> Use Iframe (Fallback)
+
+        // Clean up Shaka Player
+        if(shakaPlayerInstance) { 
+            shakaPlayerInstance.unload().catch(() => {}); 
+        }
+        
+        // Clean up Video Element
+        if(UI.video){ 
+            UI.video.pause(); 
+            UI.video.src=''; 
+            UI.video.style.display='none'; 
+            UI.video.style.opacity = '0';
+            UI.video.style.visibility = 'hidden';
+        }
+
+        // Show iframe and set source
+        UI.frame.style.display = 'block';
+        UI.frame.src = ch.stream;
+
+        // Set up the failure timers
+        appState.fastFailTimeout = setTimeout(onChannelFail, 10000);
+        appState.errorTimeout = setTimeout(onChannelFail, 30000);
+
+        // Iframe success handler
+        UI.frame.onload = onSuccess;
+        // Note: Iframe errors are hard to capture consistently, but this helps.
+        UI.frame.onerror = onChannelFail; 
+    }
+
+    // --- Local UI Updates ---
+    document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
+    document.getElementById("ch-" + index)?.classList.add('selected');
+
+    UI.osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
+    UI.osd.style.display = 'block';
+    setTimeout(() => UI.osd.style.display = 'none', CONFIG.OSD_TIMEOUT_MS);
+
+    if (showSidebarAfter) showSidebar();
+}
+
+
+// --- 4. EVENT HANDLERS (Keydown logic retained) ---
+
+window.addEventListener('keydown', e => {
+    if (!appState.isStarted) { 
+        if (e.key === "Enter" || e.key === "Ok") startApp(); 
+        return; 
+    }
+
+    const controllableVideo = UI.video && UI.video.style.display !== 'none' ? UI.video : null;
+    const volumeStep = 0.1;
+
+    if (e.key === "ArrowUp") {
+        playChannel(appState.currentIndex - 1, true);
+    } else if (e.key === "ArrowDown") {
+        playChannel(appState.currentIndex + 1, true);
+    } else if (e.key === "ArrowLeft") {
+        appState.currentListIndex = (appState.currentListIndex - 1 + CONFIG.AVAILABLE_LISTS.length) % CONFIG.AVAILABLE_LISTS.length;
+        switchList(CONFIG.AVAILABLE_LISTS[appState.currentListIndex], appState.currentListIndex);
+    } else if (e.key === "ArrowRight") {
+        appState.currentListIndex = (appState.currentListIndex + 1) % CONFIG.AVAILABLE_LISTS.length;
+        switchList(CONFIG.AVAILABLE_LISTS[appState.currentListIndex], appState.currentListIndex);
+    } else if (e.key === "PageUp") {
+        playChannel(appState.currentIndex - 1, false);
+    } else if (e.key === "PageDown") {
+        playChannel(appState.currentIndex + 1, false);
+    } else if (e.key === "Enter" || e.key === "Ok") {
+        toggleSidebar();
+    } 
+    else if (controllableVideo && (e.key === "+" || e.key === "=")) {
+        controllableVideo.volume = Math.min(1.0, controllableVideo.volume + volumeStep);
+        UI.osd.innerHTML = `Volume: ${Math.round(controllableVideo.volume * 100)}%`;
+        UI.osd.style.display = 'block';
+        setTimeout(() => UI.osd.style.display = 'none', 1000);
+    } else if (controllableVideo && e.key === "-") {
+        controllableVideo.volume = Math.max(0.0, controllableVideo.volume - volumeStep);
+        UI.osd.innerHTML = `Volume: ${Math.round(controllableVideo.volume * 100)}%`;
+        UI.osd.style.display = 'block';
+        setTimeout(() => UI.osd.style.display = 'none', 1000);
+    } 
+    else if (e.key === "f" || e.key === "F") {
+        toggleFullScreen();
+        UI.osd.innerHTML = document.fullscreenElement ? `Fullscreen On` : `Fullscreen Off`;
+        UI.osd.style.display = 'block';
+        setTimeout(() => UI.osd.style.display = 'none', 2000);
+    }
+});
+
+
+// --- 5. INITIAL SETUP ---
+
+UI.marqueeEl?.addEventListener('animationiteration', () => {
+    appState.marqueeCycles++;
+    if (appState.marqueeCycles >= 2) UI.noticeBar.style.display = 'none';
+});
+
+</script>
+
+
+</body>
+</html>
+
