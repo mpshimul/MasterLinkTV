@@ -12,7 +12,9 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # Replace with your actual input link
 INPUT_URL = "https://tplay.live/main.js" 
 OUTPUT_FILE = "ch2.js"
-GROUP_ORDER = ["Bangla", "Sports", "Kids", "Hindi", "Movies", "Documentary", "Others"]
+GROUP_ORDER = ["Bangla", "Sports", "Kids", "Entertainment", "News", "Movie", "Music", "Religious", "Hindi", "Movies", "Documentary", "Others"]
+
+
 
 def is_stream_alive(url):
     """Check if a specific stream URL is active."""
