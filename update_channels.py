@@ -10,7 +10,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # --- SETTINGS ---
 # Replace with your actual input link
-INPUT_URL = "YOUR_INPUT_JS_LINK_HERE" 
+INPUT_URL = "https://tplay.live/main.js" 
 OUTPUT_FILE = "ch2.js"
 GROUP_ORDER = ["Bangla", "Sports", "Kids", "Hindi", "Movies", "Documentary", "Others"]
 
