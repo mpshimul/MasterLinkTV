@@ -476,7 +476,7 @@ const ImageHelper = {
 // ============================================
 const InitialLoader = {
     progress: 0,
-    totalSteps: 3, // Shaka + HLS.js + Setup
+    totalSteps: 3,
     
     updateProgress(step, message) {
         this.progress = Math.min(100, (step / this.totalSteps) * 100);
@@ -495,7 +495,6 @@ const InitialLoader = {
     complete() {
         this.updateProgress(this.totalSteps, 'Ready!');
         
-        // Hide initial loading screen
         setTimeout(() => {
             if (UI.initLoading) {
                 UI.initLoading.style.display = 'none';
@@ -685,9 +684,7 @@ function detectBestPlayerForStream(url) {
     
     const lowerUrl = url.toLowerCase();
     
-    // Check if it's HLS (.m3u8)
     if (lowerUrl.includes('.m3u8')) {
-        // For m3u8: Try Shaka first, then HLS.js
         if (CONFIG.USE_SHAKA_AS_PRIMARY && ShakaLoader.loaded) {
             return 'shaka';
         } else if (CONFIG.USE_HLSJS_AS_FALLBACK && HlsJsLoader.loaded) {
@@ -696,7 +693,6 @@ function detectBestPlayerForStream(url) {
         return 'iframe';
     }
     
-    // Check if it's MPEG-DASH (.mpd)
     if (lowerUrl.includes('.mpd')) {
         if (CONFIG.USE_SHAKA_AS_PRIMARY && ShakaLoader.loaded) {
             return 'shaka';
@@ -704,7 +700,6 @@ function detectBestPlayerForStream(url) {
         return 'iframe';
     }
     
-    // For all other URLs (including .php, .html, etc.) - USE IFRAME
     return 'iframe';
 }
 
@@ -786,17 +781,15 @@ async function initHlsJsPlayer(videoElement, streamUrl, channel) {
 }
 
 // ============================================
-// PLAYER MANAGEMENT - SIMPLIFIED
+// PLAYER MANAGEMENT
 // ============================================
 const PlayerManager = {
     async loadStream(videoElement, streamUrl, channel, listType) {
         console.log(`🎬 Loading ${channel.name} from ${listType}`);
         
-        // Detect which player to use based on URL
         const playerType = detectBestPlayerForStream(streamUrl);
         console.log(`🔍 Detected player type: ${playerType.toUpperCase()} for URL: ${streamUrl.substring(0, 50)}...`);
         
-        // Try the detected player
         switch(playerType) {
             case 'shaka':
                 return await this.tryShakaPlayer(videoElement, streamUrl, channel);
@@ -805,7 +798,6 @@ const PlayerManager = {
             case 'iframe':
                 return await this.useIframe(streamUrl, channel);
             default:
-                // Fallback to iframe for everything else
                 return await this.useIframe(streamUrl, channel);
         }
     },
@@ -967,7 +959,7 @@ const PlayerManager = {
 };
 
 // ============================================
-// CONTROL FUNCTIONS
+// CONTROL FUNCTIONS - UPDATED KEY HANDLING
 // ============================================
 
 function setupControls() {
@@ -999,6 +991,197 @@ function setupControls() {
     UI.initStatus = document.getElementById('init-status');
     
     setupEventListeners();
+}
+
+// UPDATED: Key handling function with Up/Down changing channels
+function handleKeyDown(e) {
+    if (!State.appStarted) return;
+    
+    const key = e.key;
+    
+    // Prevent default for all media/control keys
+    if ([
+        'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight',
+        'PageUp', 'PageDown', ' ', 'Enter', 'Escape',
+        'q', 'Q', '+', '-', '=', '_'
+    ].includes(key)) {
+        e.preventDefault();
+    }
+    
+    console.log(`⌨️ Key pressed: ${key}, Sidebar visible: ${State.sidebarVisible}`);
+    
+    // ALWAYS: Switch channel lists with Left/Right (regardless of sidebar)
+    if (key === 'ArrowLeft' || key === 'ArrowRight') {
+        e.preventDefault();
+        const direction = key === 'ArrowLeft' ? 'prev' : 'next';
+        switchChannelList(direction);
+        return; // Stop here - Left/Right ONLY switches lists
+    }
+    
+    // Handle Up/Down keys - they open sidebar AND change channels
+    if (key === 'ArrowUp' || key === 'ArrowDown') {
+        e.preventDefault();
+        const direction = key === 'ArrowUp' ? -1 : 1;
+        
+        // First, show sidebar if not already visible
+        if (!State.sidebarVisible) {
+            showSidebar();
+        }
+        
+        // Change channel based on direction
+        changeChannelWithUpDown(direction);
+        return;
+    }
+    
+    // WITH SIDEBAR VISIBLE: Other navigation
+    if (State.sidebarVisible) {
+        switch(key) {
+            case 'Enter':
+            case ' ':
+                e.preventDefault();
+                // Play the selected channel and hide sidebar
+                const selectedItem = document.querySelector('.channel-item.selected');
+                if (selectedItem) {
+                    const index = parseInt(selectedItem.id.replace('ch-', ''));
+                    playChannel(index, false);
+                    hideSidebar();
+                }
+                break;
+            case 'Escape':
+                e.preventDefault();
+                hideSidebar();
+                hideQualitySelector();
+                break;
+        }
+    } 
+    // WITHOUT SIDEBAR (Fullscreen mode) - handle PageUp/PageDown
+    else {
+        switch(key) {
+            case 'PageUp':
+            case '-':
+            case '_':
+                e.preventDefault();
+                // Previous channel, sidebar stays hidden
+                if (State.currentIndex > 0) {
+                    playChannel(State.currentIndex - 1, false);
+                }
+                break;
+                
+            case 'PageDown':
+            case '+':
+            case '=':
+                e.preventDefault();
+                // Next channel, sidebar stays hidden
+                if (State.currentIndex < State.rawChannels.length - 1) {
+                    playChannel(State.currentIndex + 1, false);
+                }
+                break;
+                
+            case 'Enter':
+            case ' ':
+                e.preventDefault();
+                // Toggle sidebar
+                toggleSidebar();
+                if (State.sidebarVisible) {
+                    highlightCurrentInSidebar();
+                }
+                break;
+                
+            case 'Escape':
+                e.preventDefault();
+                hideSidebar();
+                hideQualitySelector();
+                break;
+                
+            case 'q':
+            case 'Q':
+                e.preventDefault();
+                toggleQualitySelector();
+                break;
+        }
+    }
+}
+
+// NEW FUNCTION: Change channel with Up/Down keys
+function changeChannelWithUpDown(direction) {
+    if (!State.rawChannels.length) return;
+    
+    let newIndex;
+    if (direction === -1) {
+        // Up - previous channel
+        newIndex = State.currentIndex > 0 ? State.currentIndex - 1 : State.rawChannels.length - 1;
+    } else {
+        // Down - next channel
+        newIndex = State.currentIndex < State.rawChannels.length - 1 ? State.currentIndex + 1 : 0;
+    }
+    
+    // Play the new channel
+    playChannel(newIndex, true); // true = keep sidebar visible after changing
+    
+    // Update selection in sidebar
+    highlightCurrentInSidebar();
+}
+
+// Helper function to navigate in sidebar (for mouse/touch)
+function navigateInSidebar(direction) {
+    const items = document.querySelectorAll('.channel-item');
+    if (items.length === 0) return;
+    
+    let currentIndex = -1;
+    items.forEach((item, index) => {
+        if (item.classList.contains('selected')) {
+            currentIndex = index;
+        }
+    });
+    
+    if (currentIndex === -1) {
+        items[0].classList.add('selected');
+        scrollToItem(items[0]);
+        return;
+    }
+    
+    const newIndex = (currentIndex + direction + items.length) % items.length;
+    
+    items[currentIndex].classList.remove('selected');
+    items[newIndex].classList.add('selected');
+    
+    scrollToItem(items[newIndex]);
+}
+
+// Helper to scroll to item in sidebar
+function scrollToItem(item) {
+    if (item && UI.channelList) {
+        item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+}
+
+// Helper to highlight current channel in sidebar
+function highlightCurrentInSidebar() {
+    const items = document.querySelectorAll('.channel-item');
+    items.forEach(item => item.classList.remove('selected'));
+    
+    const currentItem = document.getElementById(`ch-${State.currentIndex}`);
+    if (currentItem) {
+        currentItem.classList.add('selected');
+        scrollToItem(currentItem);
+    }
+}
+
+// Function to switch channel lists
+function switchChannelList(direction) {
+    const currentIndex = CONFIG.AVAILABLE_LISTS.indexOf(State.currentListFile);
+    let newIndex;
+    
+    if (direction === 'next') {
+        newIndex = (currentIndex + 1) % CONFIG.AVAILABLE_LISTS.length;
+    } else {
+        newIndex = (currentIndex - 1 + CONFIG.AVAILABLE_LISTS.length) % CONFIG.AVAILABLE_LISTS.length;
+    }
+    
+    const newList = CONFIG.AVAILABLE_LISTS[newIndex];
+    console.log(`🔄 Switching to list: ${newList}`);
+    loadChannelList(newList);
+    showOSD(`Switched to ${newList === 'channels.js' ? 'List 1' : 'List 2'}`);
 }
 
 function setupEventListeners() {
@@ -1058,45 +1241,17 @@ function setupEventListeners() {
         });
     }
     
-    document.addEventListener('keydown', (e) => {
-        switch(e.key) {
-            case 'ArrowLeft':
-                e.preventDefault();
-                if (State.currentIndex > 0) {
-                    playChannel(State.currentIndex - 1, false);
-                }
-                break;
-            case 'ArrowRight':
-                e.preventDefault();
-                if (State.currentIndex < State.rawChannels.length - 1) {
-                    playChannel(State.currentIndex + 1, false);
-                }
-                break;
-            case ' ':
-            case 'Enter':
-                e.preventDefault();
-                if (State.appStarted) {
-                    toggleSidebar();
-                }
-                break;
-            case 'Escape':
-                e.preventDefault();
-                hideSidebar();
-                hideQualitySelector();
-                break;
-            case 'q':
-            case 'Q':
-                e.preventDefault();
-                toggleQualitySelector();
-                break;
-        }
-    });
+    // Single keydown event listener
+    document.addEventListener('keydown', handleKeyDown);
 }
 
 function showSidebar() {
     if (UI.sidebar) {
         UI.sidebar.classList.add('active');
         State.sidebarVisible = true;
+        
+        // Highlight current channel
+        highlightCurrentInSidebar();
         
         clearTimeout(State.timers.sidebar);
         State.timers.sidebar = setTimeout(() => {
@@ -1248,7 +1403,6 @@ function showError(channelName) {
         }, 10000);
     }
     
-    // Auto-retry after 5 seconds
     if (State.timers.retry) clearTimeout(State.timers.retry);
     State.timers.retry = setTimeout(() => {
         if (State.rawChannels.length > 0) {
@@ -1264,7 +1418,6 @@ function startApp() {
     State.appStarted = true;
     console.log('🚀 Starting app...');
     
-    // Load saved quality preference
     const savedQuality = State.load('preferred_quality');
     if (savedQuality && CONFIG.QUALITY_LEVELS.includes(savedQuality)) {
         QualityManager.setQuality(savedQuality);
@@ -1522,7 +1675,7 @@ function getChannelUrl(channel) {
 }
 
 // ============================================
-// MAIN PLAY CHANNEL FUNCTION - SIMPLIFIED
+// MAIN PLAY CHANNEL FUNCTION
 // ============================================
 async function playChannel(index, showSidebarAfter = false) {
     if (!State.rawChannels.length) {
@@ -1558,7 +1711,6 @@ async function playChannel(index, showSidebarAfter = false) {
     }
     
     try {
-        // Use the simplified player manager
         const result = await PlayerManager.loadStream(UI.video, streamUrl, channel, State.currentListFile);
         
         if (result.success) {
@@ -1569,6 +1721,13 @@ async function playChannel(index, showSidebarAfter = false) {
             console.log(`✅ Using ${playerName} player for ${channel.name}`);
             updateMobileLogos();
             QualityManager.autoAdjust();
+            
+            // Keep sidebar visible if requested
+            if (showSidebarAfter) {
+                showSidebar();
+            } else {
+                hideSidebar();
+            }
         } else {
             console.error('Playback failed:', result.error);
             showError(channel.name);
@@ -1577,10 +1736,6 @@ async function playChannel(index, showSidebarAfter = false) {
     } catch (error) {
         console.error('Playback failed:', error);
         showError(channel.name);
-    }
-    
-    if (showSidebarAfter) {
-        showSidebar();
     }
 }
 
@@ -1634,55 +1789,6 @@ function showLoading(message = 'Loading...', channel = null) {
 }
 
 // ============================================
-// INITIALIZATION - LOAD PLAYERS FIRST
-// ============================================
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('🚀 Initializing Live TV...');
-    
-    // Setup controls first
-    setupControls();
-    
-    // Show initial loading screen
-    InitialLoader.updateProgress(0, 'Starting...');
-    
-    // Load players in parallel with progress tracking
-    console.log('📥 Loading players first...');
-    
-    Promise.all([
-        ShakaLoader.load(),
-        HlsJsLoader.load()
-    ]).then(([shakaLoaded, hlsLoaded]) => {
-        console.log(`Players loaded: Shaka=${shakaLoaded}, HLS.js=${hlsLoaded}`);
-        
-        // Complete initial loading
-        setTimeout(() => {
-            InitialLoader.complete();
-        }, 500);
-        
-    }).catch(error => {
-        console.error('Player loading error:', error);
-        // Still continue even if players fail
-        setTimeout(() => {
-            InitialLoader.complete();
-        }, 500);
-    });
-    
-    // Hide notice bar after 2 cycles
-    const marquee = document.getElementById('marquee-text');
-    if (marquee) {
-        let cycles = 0;
-        marquee.addEventListener('animationiteration', () => {
-            cycles++;
-            if (cycles >= 2 && UI.noticeBar) {
-                UI.noticeBar.style.display = 'none';
-            }
-        });
-    }
-    
-    console.log('✅ Setup started - Loading players first...');
-});
-
-// ============================================
 // NETWORK MONITOR
 // ============================================
 const NetworkMonitor = {
@@ -1721,7 +1827,6 @@ const NetworkMonitor = {
                 }
             }
         } else {
-            // More realistic fallback simulation
             State.connectionSpeed = this.simulateNetworkSpeed();
             State.networkQuality = State.connectionSpeed > 8 ? 'good' : State.connectionSpeed > 3 ? 'fair' : 'poor';
             this.updateNetworkUI();
@@ -1819,6 +1924,49 @@ const QualityManager = {
         }
     }
 };
+
+// ============================================
+// INITIALIZATION
+// ============================================
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('🚀 Initializing Live TV...');
+    
+    setupControls();
+    
+    InitialLoader.updateProgress(0, 'Starting...');
+    
+    console.log('📥 Loading players first...');
+    
+    Promise.all([
+        ShakaLoader.load(),
+        HlsJsLoader.load()
+    ]).then(([shakaLoaded, hlsLoaded]) => {
+        console.log(`Players loaded: Shaka=${shakaLoaded}, HLS.js=${hlsLoaded}`);
+        
+        setTimeout(() => {
+            InitialLoader.complete();
+        }, 500);
+        
+    }).catch(error => {
+        console.error('Player loading error:', error);
+        setTimeout(() => {
+            InitialLoader.complete();
+        }, 500);
+    });
+    
+    const marquee = document.getElementById('marquee-text');
+    if (marquee) {
+        let cycles = 0;
+        marquee.addEventListener('animationiteration', () => {
+            cycles++;
+            if (cycles >= 2 && UI.noticeBar) {
+                UI.noticeBar.style.display = 'none';
+            }
+        });
+    }
+    
+    console.log('✅ Setup started - Loading players first...');
+});
 
 // ============================================
 // CLEANUP
