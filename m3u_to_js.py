@@ -179,7 +179,7 @@ def parse_m3u_to_js(m3u_file, out_js="ch2.js", max_workers=20):
     with open(out_js, "w", encoding="utf-8") as f:
         f.write(f"// Auto-generated IPTV channel list\n")
         f.write(f"// Last updated: {timestamp}\n\n")
-        f.write("var rawChannels = [\n")
+        f.write("window.rawChannels2 = [\n")
         for g in GROUP_ORDER:
             if groups[g]:
                 f.write(f"  // --- {g.upper()} ---\n")
