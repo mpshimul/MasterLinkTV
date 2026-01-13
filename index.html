@@ -3,438 +3,2701 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live TV Pro</title>
+    <title>Live TV Pro - TV Optimized</title>
     <style>
-        body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; font-family: 'Segoe UI', sans-serif; color: white; }
+        /* TV OPTIMIZED CSS */
+        :root {
+            --red: #ff0000;
+            --dark-bg: #000;
+            --sidebar-bg: rgba(0,0,0,0.95);
+        }
         
-        /* Notice Bar (Marquee) */
-        #notice-bar {
-            position: fixed; top: 0; left: 0; width: 100%; height: 35px;
-            background: rgba(229, 9, 20, 0.6); color: white;
-            z-index: 2000; overflow: hidden; line-height: 35px;
-            font-size: 16px; font-weight: bold; pointer-events: none;
-            border-bottom: 2px solid gold;
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body, html { width: 100%; height: 100%; background: var(--dark-bg); 
+                    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; color: white; 
+                    overflow: hidden; -webkit-tap-highlight-color: transparent; }
+        
+        #notice-bar { 
+            position: fixed; top: 0; left: 0; width: 100%; height: 35px; 
+            background: rgba(229, 9, 20, 0.8); z-index: 1000; 
+            overflow: hidden; line-height: 35px; font-size: 16px; 
+            pointer-events: none; border-bottom: 2px solid gold; 
+            font-weight: bold;
         }
-        .marquee {
-            display: inline-block; white-space: nowrap;
-            padding-left: 100%; 
-            animation: marquee 20s linear infinite; /* One spin is 20s */
+        .marquee { 
+            display: inline-block; white-space: nowrap; padding-left: 100%; 
+            animation: marquee 30s linear infinite; 
         }
-        @keyframes marquee {
-            0% { transform: translate(0, 0); }
-            100% { transform: translate(-100%, 0); }
+        @keyframes marquee { 
+            0% { transform: translateX(0); } 
+            100% { transform: translateX(-100%); } 
         }
-
-        /* Video Background */
-        #player-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
-        iframe { width: 100%; height: 100%; border: none; background: #000; }
-
-        /* Loading Screen */
-        #loading-screen {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: #000; display: none; flex-direction: column;
-            justify-content: center; align-items: center; z-index: 3000;
+        
+        #player-container { 
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+            z-index: 1; 
         }
-        #loading-img { width: 90px; height: 70px; object-fit: contain; margin-bottom: 20px; background: white; padding: 8px; border-radius: 12px; }
-        #loading-msg { font-size: 20px; font-weight: bold; margin-bottom: 15px; text-align: center; }
-        .spinner { width: 40px; height: 40px; border: 4px solid #333; border-top: 4px solid #ff0000; border-radius: 50%; animation: spin 1s linear infinite; }
-        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-
-        /* Touch Overlay for Phone */
-        #touch-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 5; background: transparent; }
-
-        /* Splash Screen */
-        #splash { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #111; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 9999; }
-        .start-btn { padding: 20px 60px; background: #ff0000; color: white; font-size: 26px; font-weight: bold; border: 4px solid transparent; border-radius: 50px; cursor: pointer; outline: none; transition: 0.3s; }
-        .start-btn:focus { border-color: white; box-shadow: 0 0 25px #ff0000; transform: scale(1.1); }
-
-        /* Sidebar Overlay */
+        #error-background { 
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+            background-color: #111; 
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiMxMTEiLz48cGF0aCBkPSJNMCA1MEgxMDBtLTUwLTUwdjEwMCIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4='); 
+            background-size: 60px; z-index: 0; display: none; 
+        }
+        iframe, #main-video { 
+            width: 100%; height: 100%; border: none; background: #000; 
+            display: none; 
+        }
+        
+        #loading-screen { 
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
+            background: #000; display: none; flex-direction: column; 
+            justify-content: center; align-items: center; z-index: 3000; 
+        }
+        #loading-img { 
+            width: 80px; height: 80px; object-fit: contain; margin-bottom: 20px; 
+            background: white; padding: 5px; border-radius: 12px; 
+        }
+        #loading-msg { 
+            font-size: 22px; font-weight: bold; margin-bottom: 15px; 
+            text-align: center; padding: 0 30px; 
+        }
+        
+        #touch-overlay { 
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+            z-index: 5; background: transparent; cursor: pointer; 
+        }
+        
+        /* TV-FRIENDLY SIDEBAR */
         #sidebar { 
-            position: fixed; top: 0; left: 0; width: 15%; height: 100%; 
-            background: rgba(0, 0, 0, 0.4); backdrop-filter: blur(15px); 
-            z-index: 4000; transform: translateX(-100%); 
-            transition: transform 0.3s ease-in-out; 
-            display: flex; flex-direction: column; border-right: 1px solid #333; 
+            position: fixed; top: 0; left: 0; width: 380px; max-width: 90%; 
+            height: 100%; background: var(--sidebar-bg); 
+            backdrop-filter: blur(10px); z-index: 4000; 
+            transform: translateX(-100%); transition: transform 0.3s ease-out; 
+            display: flex; flex-direction: column; border-right: 3px solid var(--red); 
+            box-shadow: 5px 0 30px rgba(0,0,0,0.7);
         }
         #sidebar.active { transform: translateX(0); }
-        .sidebar-header { padding: 20px 20px 20px 20px; text-align: center; color: white; font-weight: bold; font-size: 16px; border-bottom: 1px solid #333; }
-        #channel-list { flex: 1; overflow-y: auto; list-style: none; padding: 0 5px 15px 5px; margin: 0; }
-        #channel-list::-webkit-scrollbar { width: 0px; }
-
-        .category-title { padding: 18px 10px 5px 10px; color: #ff0000; font-size: 14px; font-weight: bold; text-transform: uppercase; border-bottom: 1px solid #222; margin-top: 10px; }
-        .channel-item { display: flex; align-items: center; padding: 6px; margin-top: 5px; border-radius: 8px; background: rgba(255,255,255,0.03); border: 2px solid transparent; cursor: pointer; }
-        .channel-item.selected { background: rgba(255, 0, 0, 0.3); border-color: #ff0000; }
-        .channel-item img { width: 45px; height: 30px; object-fit: contain; margin-right: 12px; background: white; border-radius: 4px; padding: 1px; }
-        .channel-name { font-size: 9px; font-weight: 500; }
-
-        #osd { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.8); padding: 12px 30px; border-radius: 50px; z-index: 50; display: none; border: 1px solid #ff0000; text-align: center;}
-		
-		        /* Mobile CH Buttons - HIDDEN BY DEFAULT */
-        .mobile-ch-controls {
-            position: fixed;
-            right: 15px;
-            top: 50%;
-            transform: translateY(-50%);
-            display: none; /* Hidden on TV/Desktop */
-            flex-direction: column;
-            gap: 40px;
-            z-index: 5000;
+        .sidebar-header { 
+            padding: 25px 20px; text-align: center; color: white; 
+            font-weight: bold; font-size: 24px; border-bottom: 3px solid #333; 
+            background: rgba(0,0,0,0.7); flex-shrink: 0; 
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
-
-        /* Show ONLY on touch-screen devices (Phones/Tablets) */
-        @media (pointer: coarse) {
-            .mobile-ch-controls {
-                display: flex;
-            }
+        
+        #channel-list { 
+            flex: 1; overflow-y: auto; list-style: none; 
+            padding: 15px; margin: 0; 
         }
-
-        .ch-button {
-            width: 50px;
-            height: 50px;
-            background: rgba(255, 255, 255, 0.15);
-            border: 2px solid rgba(255, 255, 255, 0.5);
+        .category-title { 
+            padding: 20px 10px 10px 10px; color: var(--red); font-size: 18px; 
+            font-weight: bold; text-transform: uppercase; letter-spacing: 1px;
+            border-bottom: 2px solid #333; margin-top: 10px; 
+        }
+        .channel-item { 
+            display: flex; align-items: center; padding: 15px; margin-top: 8px; 
+            border-radius: 10px; background: rgba(255,255,255,0.05); 
+            border: 2px solid transparent; cursor: pointer; 
+            transition: all 0.2s ease; min-height: 70px;
+        }
+        .channel-item:hover { 
+            background: rgba(255,255,255,0.1); 
+            transform: translateX(5px);
+        }
+        .channel-item.selected { 
+            background: rgba(255, 0, 0, 0.2); border-color: var(--red); 
+            box-shadow: 0 5px 15px rgba(255,0,0,0.3);
+        }
+        .channel-item:focus {
+            outline: 2px solid var(--red);
+            outline-offset: 2px;
+        }
+        .channel-item img { 
+            width: 50px; height: 50px; object-fit: contain; 
+            margin-right: 15px; background: white; border-radius: 8px; 
+            flex-shrink: 0; padding: 3px;
+        }
+        .channel-name { 
+            font-size: 18px; font-weight: 500; line-height: 1.3; 
+            overflow: hidden; text-overflow: ellipsis; display: -webkit-box; 
+            -webkit-line-clamp: 2; -webkit-box-orient: vertical; 
+        }
+        
+        /* TV-FRIENDLY OSD */
+        #osd { 
+            position: fixed; bottom: 50px; left: 50%; transform: translateX(-50%); 
+            background: rgba(0,0,0,0.9); padding: 20px 40px; 
+            border-radius: 50px; z-index: 50; display: none; 
+            border: 3px solid var(--red); text-align: center; 
+            max-width: 90%; font-size: 20px; font-weight: bold;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.7);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        /* TV-FRIENDLY MOBILE CONTROLS */
+        .mobile-ch-controls { 
+            position: fixed; right: 30px; top: 50%; transform: translateY(-50%); 
+            display: none; flex-direction: column; gap: 40px; z-index: 5000; 
+        }
+        @media (pointer: coarse) { .mobile-ch-controls { display: flex; } }
+        .ch-button { 
+            width: 80px; height: 80px; background: rgba(255, 255, 255, 0.15); 
+            border: 3px solid rgba(255, 255, 255, 0.4); border-radius: 50%; 
+            display: flex; flex-direction: column; justify-content: center; 
+            align-items: center; cursor: pointer; backdrop-filter: blur(10px); 
+            position: relative; transition: all 0.2s;
+        }
+        .ch-button:hover, .ch-button:focus { 
+            background: rgba(255, 255, 255, 0.25); 
+            border-color: var(--red);
+            transform: scale(1.1);
+        }
+        .ch-button:active { transform: scale(0.95); }
+        .ch-button img { 
+            width: 85%; height: 85%; object-fit: contain; border-radius: 50%; 
+            background: white; padding: 5px;
+        }
+        .ch-label-next, .ch-label-prev { 
+            position: absolute; font-size: 14px; font-weight: bold; 
+            background: rgba(255, 0, 0, 0.9); padding: 5px 10px; 
+            border-radius: 15px; text-transform: uppercase; 
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+        .ch-label-next { bottom: -25px; }
+        .ch-label-prev { top: -25px; }
+        
+        /* LIST SWITCHER */
+        .list-switcher { 
+            display: flex; padding: 15px; gap: 10px; border-bottom: 3px solid #333; 
+            background: rgba(0,0,0,0.4); flex-shrink: 0; 
+        }
+        .list-btn { 
+            flex: 1; padding: 15px; background: rgba(255,255,255,0.08); 
+            border: 3px solid #555; color: white; border-radius: 10px; 
+            cursor: pointer; font-size: 18px; font-weight: bold; 
+            transition: all 0.2s;
+        }
+        .list-btn:hover, .list-btn:focus { 
+            background: rgba(255,255,255,0.15); 
+            border-color: #777;
+        }
+        .list-btn.active { 
+            border-color: var(--red); background: rgba(255,0,0,0.3); 
+            box-shadow: 0 5px 15px rgba(255,0,0,0.2);
+        }
+        
+        /* NETWORK STATUS */
+        #network-status { 
+            position: fixed; top: 10px; right: 10px; background: rgba(0,0,0,0.8); 
+            padding: 8px 15px; border-radius: 25px; font-size: 16px; 
+            z-index: 1000; display: none; border: 2px solid #333;
+        }
+        .network-good { color: #4CAF50; }
+        .network-fair { color: #FF9800; }
+        .network-poor { color: #F44336; }
+        
+        /* QUALITY SELECTOR */
+        #quality-selector { 
+            position: fixed; bottom: 120px; right: 30px; 
+            background: rgba(0,0,0,0.97); border: 3px solid var(--red); 
+            border-radius: 15px; padding: 20px; z-index: 6000; display: none; 
+            flex-direction: column; gap: 10px; min-width: 180px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+        }
+        .quality-btn { 
+            padding: 15px 20px; background: rgba(255,255,255,0.08); 
+            border: 2px solid #444; color: white; border-radius: 10px; 
+            cursor: pointer; text-align: center; font-size: 18px; font-weight: bold;
+            transition: all 0.2s;
+        }
+        .quality-btn:hover, .quality-btn:focus { 
+            background: rgba(255,255,255,0.15); 
+            border-color: #666;
+        }
+        .quality-btn.active { 
+            background: rgba(255,0,0,0.3); border-color: var(--red); 
+            box-shadow: 0 5px 15px rgba(255,0,0,0.2);
+        }
+        
+        /* SPINNER */
+        .spinner {
+            width: 60px;
+            height: 60px;
+            border: 6px solid #333;
+            border-top: 6px solid var(--red);
             border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-top: 25px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* INITIAL LOADING */
+        #init-loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            cursor: pointer;
-            backdrop-filter: blur(8px);
-            position: relative;
+            z-index: 9999;
+            color: white;
         }
-        .ch-button img {
-            width: 90%;
-            height: 90%;
+        
+        .init-progress {
+            width: 300px;
+            height: 8px;
+            background: #333;
+            margin-top: 30px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .init-progress-bar {
+            height: 100%;
+            background: var(--red);
+            width: 0%;
+            transition: width 0.3s;
+        }
+        
+        /* LOADING OVERLAY - TV OPTIMIZED */
+        #loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.97);
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 7000;
+            color: white;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            text-align: center;
+        }
+        
+        .loading-overlay-content {
+            max-width: 600px;
+            padding: 40px;
+            background: rgba(20, 20, 20, 0.95);
+            border-radius: 25px;
+            border: 4px solid var(--red);
+            box-shadow: 0 15px 40px rgba(255, 0, 0, 0.4);
+        }
+        
+        .loading-channel-logo {
+            width: 120px;
+            height: 120px;
             object-fit: contain;
-            border-radius: 50%;
             background: white;
-            padding: 2px;
+            border-radius: 20px;
+            padding: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
         }
-        .ch-label-next {
-            position: absolute;
-            bottom: -20px;
-            font-size: 10px;
+        
+        .loading-channel-name {
+            font-size: 32px;
             font-weight: bold;
-            background: rgba(255, 0, 0, 0.8);
-            padding: 2px 6px;
-            border-radius: 10px;
-            text-transform: uppercase;
+            color: white;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
-		.ch-label-prev {
-            position: absolute;
-            top: -20px;
-            font-size: 10px;
+        
+        .loading-channel-status {
+            font-size: 24px;
+            color: #ccc;
+            margin-bottom: 40px;
+        }
+        
+        .loading-dots {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 40px 0;
+        }
+        
+        .loading-dot {
+            width: 20px;
+            height: 20px;
+            background: var(--red);
+            border-radius: 50%;
+            animation: pulse 1.5s infinite ease-in-out;
+        }
+        
+        .loading-dot:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        
+        .loading-dot:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                opacity: 0.5;
+            }
+            50% {
+                transform: scale(1.5);
+                opacity: 1;
+            }
+        }
+        
+        .loading-progress {
+            width: 400px;
+            height: 10px;
+            background: #333;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 30px 0;
+        }
+        
+        .loading-progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--red), #ff3333);
+            width: 0%;
+            transition: width 0.3s;
+            border-radius: 5px;
+        }
+        
+        .loading-player-info {
+            font-size: 18px;
+            color: #aaa;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 400px;
+        }
+        
+        /* TV-FRIENDLY PLAY BUTTON */
+        .iframe-play-button {
+            margin-top: 40px;
+            padding: 25px 60px;
+            background: linear-gradient(135deg, var(--red), #ff3333);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 28px;
             font-weight: bold;
-            background: rgba(255, 0, 0, 0.8);
-            padding: 2px 6px;
-            border-radius: 10px;
-            text-transform: uppercase;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            transition: all 0.3s;
+            box-shadow: 0 10px 30px rgba(255, 0, 0, 0.4);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .iframe-play-button:hover, .iframe-play-button:focus {
+            background: linear-gradient(135deg, #ff3333, var(--red));
+            transform: scale(1.1);
+            box-shadow: 0 15px 40px rgba(255, 0, 0, 0.6);
+            outline: 3px solid white;
+        }
+        
+        .iframe-play-button:active {
+            transform: scale(0.98);
+        }
+        
+        .iframe-play-button img {
+            width: 35px;
+            height: 35px;
+            filter: brightness(0) invert(1);
+        }
+        
+        /* Hide native video controls */
+        #main-video::-webkit-media-controls {
+            display: none !important;
+        }
+        
+        #main-video::-webkit-media-controls-play-button {
+            display: none !important;
+        }
+        
+        #main-video::-webkit-media-controls-start-playback-button {
+            display: none !important;
+        }
+        
+        /* Video ready state */
+        #main-video.video-ready {
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        /* TV FOCUS STATES */
+        button:focus, .list-btn:focus, .quality-btn:focus, .channel-item:focus {
+            outline: 3px solid var(--red);
+            outline-offset: 3px;
+        }
+        
+        /* TV REMOTE NAVIGATION HINTS */
+        .remote-hint {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.8);
+            padding: 15px;
+            border-radius: 15px;
+            font-size: 14px;
+            color: #aaa;
+            border-left: 4px solid var(--red);
+            display: none;
+        }
+        
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            #sidebar { width: 90%; }
+            .sidebar-header { font-size: 20px; padding: 20px; }
+            .channel-item { padding: 12px; min-height: 60px; }
+            .channel-name { font-size: 16px; }
+            .ch-button { width: 70px; height: 70px; }
+            .loading-channel-name { font-size: 26px; }
+            .iframe-play-button { padding: 20px 40px; font-size: 22px; }
+        }
+        
+        @media (max-width: 480px) {
+            .sidebar-header { font-size: 18px; }
+            .channel-item img { width: 40px; height: 40px; }
+            .channel-name { font-size: 14px; }
+            .loading-channel-name { font-size: 22px; }
+            .loading-overlay-content { padding: 25px; }
+            .iframe-play-button { padding: 15px 30px; font-size: 18px; }
         }
     </style>
+    
+    <!-- Preload for TV performance -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 </head>
 <body>
-
+    <!-- Initial loading screen -->
+    <div id="init-loading">
+        <div style="font-size: 36px; color: var(--red); font-weight: bold; margin-bottom: 20px; text-shadow: 3px 3px 6px rgba(0,0,0,0.5);">LIVE TV PRO</div>
+        <div style="font-size: 20px; color: #aaa; margin-bottom: 40px;">Optimized for TV & Smart Devices</div>
+        <div class="spinner"></div>
+        <div class="init-progress">
+            <div class="init-progress-bar" id="init-progress-bar"></div>
+        </div>
+        <div id="init-status" style="margin-top: 25px; font-size: 16px; color: #aaa;">Initializing TV Player...</div>
+    </div>
+    
+    <!-- Loading Overlay -->
+    <div id="loading-overlay">
+        <div class="loading-overlay-content">
+            <img id="loading-channel-logo" class="loading-channel-logo" src="" alt="Channel Logo" loading="lazy">
+            <div id="loading-channel-name" class="loading-channel-name"></div>
+            <div id="loading-channel-status" class="loading-channel-status">Buffering...</div>
+            
+            <div class="loading-dots">
+                <div class="loading-dot"></div>
+                <div class="loading-dot"></div>
+                <div class="loading-dot"></div>
+            </div>
+            
+            <div class="loading-progress">
+                <div id="loading-overlay-progress" class="loading-progress-bar"></div>
+            </div>
+            
+            <div id="loading-tip" style="font-size: 18px; color: #aaa; margin-top: 20px; max-width: 400px;">
+                Preparing your TV stream...
+            </div>
+            
+            <button id="iframe-play-button" class="iframe-play-button" style="display: none;">
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzUiIGhlaWdodD0iMzUiIHZpZXdCb3g9IjAgMCAzNSAzNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOS4wNDU4IDI5LjU4NzhDOC40NjI2NiAyOS45ODA2IDcuNzUgMjkuNTEyNiA3Ljc1IDI4LjgxNTVWNi4xODQ1M0M3Ljc1IDUuNDg2NzUgOC40NjI2NiA1LjAxODkgOS4wNDU4IDUuNDExNzVMMjcuNzI5IDE4LjA1MzVDMjguMzA5OSAxOC40NDYgMjguMzA5OSAxOS4yNTQgMjcuNzI5IDE5LjY0NjVMOS4wNDU4IDI5LjU4NzhaIiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg==" alt="Play">
+                START WATCHING
+            </button>
+            
+            <div class="loading-player-info">
+                <span id="loading-player-type">Player: Detecting</span>
+                <span id="loading-quality-info">Quality: Auto</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Simplified UI Structure -->
     <div id="notice-bar">
-        <div id="marquee-text" class="marquee">WELCOME TO LIVE TV! PLEASE ENSURE YOU ARE CONNECTED TO THE ISP NETWORK FOR BEST PERFORMANCE. ENJOY HIGH-QUALITY STREAMING OF YOUR FAVORITE CHANNELS.  •  WELCOME TO LIVE TV! • </div>
+        <div id="marquee-text" class="marquee">📺 TV OPTIMIZED • REMOTE FRIENDLY • FAST LOADING • LOW BUFFERING • 📺</div>
     </div>
-	
-	    <div class="mobile-ch-controls">
-        <div class="ch-button" onclick="event.stopPropagation(); mobileChangeChannel(-1)">
-            <span class="ch-label-prev">Prev</span>
-            <img id="btn-prev-img" src="" alt="Prev">
+    
+    <div id="network-status">
+        <span id="network-icon">📶</span>
+        <span id="network-text">...</span>
+    </div>
+    
+    <div class="mobile-ch-controls">
+        <div class="ch-button" id="btn-prev" aria-label="Previous channel" tabindex="0">
+            <span class="ch-label-prev">PREV</span>
+            <img id="btn-prev-img" src="" alt="Previous channel" loading="lazy">
         </div>
-        <div class="ch-button" onclick="event.stopPropagation(); mobileChangeChannel(1)">
-            <span class="ch-label-next">Next</span>
-            <img id="btn-next-img" src="" alt="Next">
+        <div class="ch-button" id="btn-next" aria-label="Next channel" tabindex="0">
+            <span class="ch-label-next">NEXT</span>
+            <img id="btn-next-img" src="" alt="Next channel" loading="lazy">
         </div>
     </div>
-
-    <div id="touch-overlay" onclick="toggleSidebar()"></div>
-
+    
+    <div id="quality-selector">
+        <div class="quality-btn" data-quality="auto">Auto (Recommended)</div>
+        <div class="quality-btn" data-quality="720">HD 720p</div>
+        <div class="quality-btn" data-quality="480">SD 480p</div>
+        <div class="quality-btn" data-quality="360">360p</div>
+        <div class="quality-btn" data-quality="240">240p</div>
+    </div>
+    
+    <div id="touch-overlay" aria-label="Open channel menu"></div>
+    
     <div id="loading-screen">
-        <img id="loading-img" src="" alt="">
-        <div id="loading-msg">Channel loading...</div>
-        <div id="loading-spinner" class="spinner"></div>
+        <img id="loading-img" src="" alt="Channel logo" loading="lazy">
+        <div id="loading-msg">Optimizing for your TV...</div>
+        <div class="spinner"></div>
+        <div id="loading-details" style="margin-top: 25px; font-size: 16px; color: #aaa; text-align: center; max-width: 80%;">
+            <div>Network: <span id="detected-speed">Checking...</span></div>
+            <div>Quality: <span id="loading-quality">Auto</span></div>
+            <div>Player: <span id="loading-player">Detecting...</span></div>
+        </div>
     </div>
-
-    <div id="splash">
-        <h1 style="color:red; font-size: 50px; margin-bottom: 0;">MASTER LINK LIVE TV</h1>
-        <p style="color: #666; margin-bottom: 30px;">Premium ISP Streaming</p>
-        <button id="start-btn-id" class="start-btn" onclick="startApp()" autofocus tabindex="1">START WATCHING</button>
-        <p style="margin-top:20px; color: #888;">Use TV remote Ok / Touch to start</p>
-    </div>
-
+    
     <div id="player-container">
-        <iframe id="main-frame" src="" allow="autoplay; fullscreen" onload="hideLoading()"></iframe>
+        <div id="error-background"></div>
+        <iframe id="main-frame" src="" allow="autoplay; encrypted-media; picture-in-picture" loading="lazy" title="Live TV Stream"></iframe>
+        <video id="main-video" playsinline></video>
     </div>
-
+    
     <div id="sidebar">
-        <div class="sidebar-header">MASTER LINK TV</div>
-        <ul id="channel-list"></ul>
+        <div class="sidebar-header">📺 LIVE TV CHANNELS</div>
+        <div class="list-switcher">
+            <button class="list-btn" id="list-btn-1" data-list="channels.js" tabindex="0">LIST 1</button>
+            <button class="list-btn active" id="list-btn-2" data-list="ch2.js" tabindex="0">LIST 2</button>
+        </div>
+        <button id="sidebar-quality-btn" style="margin: 15px; padding: 15px; background: rgba(255,0,0,0.2); border: 3px solid var(--red); color: white; border-radius: 10px; cursor: pointer; font-size: 18px; font-weight: bold; display: flex; align-items: center; justify-content: center; gap: 10px;" tabindex="0">
+            ⚙️ QUALITY: <span id="current-quality-display">Auto</span>
+        </button>
+        <ul id="channel-list">
+            <!-- Channels will be populated here -->
+        </ul>
     </div>
-
+    
     <div id="osd"></div>
 
-    <script>
-        // FULL DATASET (Simplified for code length, includes all 90 IDs internally)
-        const rawChannels = [
-	{ group: "Bangla", name: "ATN BANGLA", stream: "http://10.99.99.99/player.php?stream=80&autoplay=1", logo: "http://10.99.99.99/assets/images/ATN BANGLA1745044183.png" },
-    { group: "Bangla", name: "ATN NEWS", stream: "http://10.99.99.99/player.php?stream=95&autoplay=1", logo: "http://10.99.99.99/assets/images/ATN NEWS1745045113.png" },
-    { group: "Bangla", name: "CHANNEL 24", stream: "http://10.99.99.99/player.php?stream=82&autoplay=1", logo: "http://10.99.99.99/assets/images/CHANNEL 241745044263.png" },
-    { group: "Bangla", name: "CHANNEL I", stream: "http://10.99.99.99/player.php?stream=81&autoplay=1", logo: "http://10.99.99.99/assets/images/CHANNEL I1745044237.png" },
-    { group: "Bangla", name: "COLORS BANGLA CINEMA", stream: "http://10.99.99.99/player.php?stream=47&autoplay=1", logo: "http://10.99.99.99/assets/images/COLORS BANGLA CINEMA1745041486.png" },
-    { group: "Bangla", name: "COLORS BANGLA HD", stream: "http://10.99.99.99/player.php?stream=12&autoplay=1", logo: "http://10.99.99.99/assets/images/COLORS BANGLA HD1745033576.png" },
-    { group: "Bangla", name: "GTV", stream: "http://10.99.99.99/player.php?stream=56&autoplay=1", logo: "http://10.99.99.99/assets/images/GTV1745042853.png" },
-    { group: "Bangla", name: "INDEPENDENT TV", stream: "http://10.99.99.99/player.php?stream=77&autoplay=1", logo: "http://10.99.99.99/assets/images/INDEPENDENT TV1745044077.png" },
-    { group: "Bangla", name: "JAMUNA TV", stream: "http://10.99.99.99/player.php?stream=76&autoplay=1", logo: "http://10.99.99.99/assets/images/JAMUNA TV1745044052.png" },
-    { group: "Bangla", name: "JALSHA MOVIES HD", stream: "http://10.99.99.99/player.php?stream=19&autoplay=1", logo: "http://10.99.99.99/assets/images/JALSHA MOVIES HD1745034005.png" },
-    { group: "Bangla", name: "MAASRANGA HD", stream: "http://10.99.99.99/player.php?stream=78&autoplay=1", logo: "http://10.99.99.99/assets/images/MAASRANGA HD1745044117.png" },
-    { group: "Bangla", name: "NAGORIK", stream: "http://10.99.99.99/player.php?stream=54&autoplay=1", logo: "http://10.99.99.99/assets/images/NAGORIK1745042776.png" },
-    { group: "Bangla", name: "SOMOY TV", stream: "http://10.99.99.99/player.php?stream=79&autoplay=1", logo: "http://10.99.99.99/assets/images/SOMOY TV1745044149.png" },
-    { group: "Bangla", name: "SONY AAT", stream: "http://10.99.99.99/player.php?stream=44&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY AAT1745041124.png" },
-    { group: "Bangla", name: "STAR JALSHA HD", stream: "http://10.99.99.99/player.php?stream=18&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR JALSHA HD1745033819.png" },
-    { group: "Bangla", name: "SUN BANGLA HD", stream: "http://10.99.99.99/player.php?stream=17&autoplay=1", logo: "http://10.99.99.99/assets/images/SUN BANGLA HD1745033791.png" },
-    { group: "Bangla", name: "ZEE BANGLA CINEMA", stream: "http://10.99.99.99/player.php?stream=43&autoplay=1", logo: "http://10.99.99.99/assets/images/ZEE BANGLA CINEMA1745040996.png" },
-    { group: "Bangla", name: "ZEE BANGLA HD", stream: "http://10.99.99.99/player.php?stream=14&autoplay=1", logo: "http://10.99.99.99/assets/images/ZEE BANGLA HD1745033633.png" },
+<script>
+// ============================================
+// CONFIGURATION - TV OPTIMIZED
+// ============================================
+const CONFIG = {
+    AVAILABLE_LISTS: ['channels.js', 'ch2.js'],
+    INITIAL_LIST_FILE: 'channels.js',
+    SIDEBAR_TIMEOUT_MS: 6000, // Longer for TV
+    OSD_TIMEOUT_MS: 5000, // Longer for TV
+    
+    // PLAYER OPTIMIZATIONS
+    USE_SHAKA_AS_PRIMARY: true,
+    USE_HLSJS_AS_FALLBACK: true,
+    USE_IFRAME_AS_LAST_RESORT: true,
+    
+    // TV PERFORMANCE OPTIMIZATIONS
+    LAZY_LOAD_IMAGES: true,
+    VIRTUAL_SCROLLING: false,
+    DEBOUNCE_DELAY: 150, // Slower for TV remote
+    MAX_VISIBLE_CHANNELS: 30,
+    
+    // NETWORK OPTIMIZATIONS FOR TV
+    NETWORK_MONITORING: true,
+    ENABLE_LOW_NETWORK_MODE: true,
+    
+    // BUFFER SETTINGS FOR TV
+    BUFFER_GOAL: 20, // More buffer for TV
+    MIN_BUFFER: 8,
+    MAX_BUFFER: 40,
+    
+    // QUALITY SETTINGS
+    DEFAULT_QUALITY: 'auto',
+    QUALITY_LEVELS: ['auto', '720', '480', '360', '240']
+};
 
-    { group: "Sports", name: "A SPORTS HD", stream: "http://10.99.99.99/player.php?stream=88&autoplay=1", logo: "http://10.99.99.99/assets/images/A SPORTS HD1745044782.png" },
-    { group: "Sports", name: "EUROSPORTS HD", stream: "http://10.99.99.99/player.php?stream=40&autoplay=1", logo: "http://10.99.99.99/assets/images/EUROSPORTS HD1745040406.png" },
-    { group: "Sports", name: "FAST SPORTS HD", stream: "http://10.99.99.99/player.php?stream=87&autoplay=1", logo: "http://10.99.99.99/assets/images/FAST SPORTS HD1745044750.png" },
-    { group: "Sports", name: "GOLF SPORTS", stream: "http://10.99.99.99/player.php?stream=66&autoplay=1", logo: "http://10.99.99.99/assets/images/GOLF SPORTS1745043338.png" },
-    { group: "Sports", name: "PTV SPORTS HD", stream: "http://10.99.99.99/player.php?stream=92&autoplay=1", logo: "http://10.99.99.99/assets/images/PTV SPORTS HD1745044993.png" },
-    { group: "Sports", name: "SONY SPORTS 1 HD", stream: "http://10.99.99.99/player.php?stream=74&autoplay=1", logo: "http://10.99.99.99/assets/images/sony sports 1 hd.png" },
-    { group: "Sports", name: "SONY SPORTS 2 HD", stream: "http://10.99.99.99/player.php?stream=29&autoplay=1", logo: "http://10.99.99.99/assets/images/sony sports 2 hd.png" },
-    { group: "Sports", name: "SONY SPORTS 3", stream: "http://10.99.99.99/player.php?stream=30&autoplay=1", logo: "http://10.99.99.99/assets/images/Sony sports 3.png" },
-    { group: "Sports", name: "SONY SPORTS 4", stream: "http://10.99.99.99/player.php?stream=72&autoplay=1", logo: "http://10.99.99.99/assets/images/sony sports 4.png" },
-    { group: "Sports", name: "SONY SPORTS 5 HD", stream: "http://10.99.99.99/player.php?stream=101&autoplay=1", logo: "http://10.99.99.99/assets/images/sony sports 5 hd.png" },
-    { group: "Sports", name: "SSC SPORTS", stream: "http://10.99.99.99/player.php?stream=96&autoplay=1", logo: "http://10.99.99.99/assets/images/ssc 1 hd.png" },
-    { group: "Sports", name: "SSC SPORTS 5 HD", stream: "http://10.99.99.99/player.php?stream=103&autoplay=1", logo: "http://10.99.99.99/assets/images/ssc 5 hd.png" },
-    { group: "Sports", name: "STAR SELECT 1 HD", stream: "http://10.99.99.99/player.php?stream=28&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR SELECT 1 HD1745038777.png" },
-    { group: "Sports", name: "STAR SPORTS 1 HD", stream: "http://10.99.99.99/player.php?stream=2&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR SPORTS 1 HD1744991778.png" },
-    { group: "Sports", name: "STAR SPORTS 2 HD", stream: "http://10.99.99.99/player.php?stream=3&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR SPORTS 2 HD1744991842.png" },
-    { group: "Sports", name: "STAR SPORTS 3", stream: "http://10.99.99.99/player.php?stream=31&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR SPORTS 31745039893.png" },
-    { group: "Sports", name: "STAR SPORTS SELECT 2 HD", stream: "http://10.99.99.99/player.php?stream=16&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR SPORTS SELECT 2 HD1745033722.png" },
-    { group: "Sports", name: "T SPORTS", stream: "http://10.99.99.99/player.php?stream=1&autoplay=1", logo: "http://10.99.99.99/assets/images/T SPORTS1744972630.png" },
-	
-    { group: "Kids", name: "BAL BHARAT", stream: "http://10.99.99.99/player.php?stream=50&autoplay=1", logo: "http://10.99.99.99/assets/images/BAL BHARAT1745041576.png" },
-	{ group: "Kids", name: "CARTOON NETWORK", stream: "http://10.99.99.99/player.php?stream=8&autoplay=1", logo: "http://10.99.99.99/assets/images/CARTOON NETWORK1745033414.png" },
-    { group: "Kids", name: "DURANTA TV", stream: "http://10.99.99.99/player.php?stream=68&autoplay=1", logo: "http://10.99.99.99/assets/images/DURANTA TV1745043400.png" },
-    { group: "Kids", name: "HUNGAMA", stream: "http://10.99.99.99/player.php?stream=49&autoplay=1", logo: "http://10.99.99.99/assets/images/HUNGAMA1745041551.png" },
-    { group: "Kids", name: "NICK", stream: "http://10.99.99.99/player.php?stream=46&autoplay=1", logo: "http://10.99.99.99/assets/images/NICK1745041451.png" },
-    { group: "Kids", name: "NICK JR", stream: "http://10.99.99.99/player.php?stream=51&autoplay=1", logo: "http://10.99.99.99/assets/images/NICK JR1745042397.png" },
-    { group: "Kids", name: "POGO", stream: "http://10.99.99.99/player.php?stream=48&autoplay=1", logo: "http://10.99.99.99/assets/images/POGO1745041515.png" },
-    { group: "Kids", name: "SONIC", stream: "http://10.99.99.99/player.php?stream=45&autoplay=1", logo: "http://10.99.99.99/assets/images/SONIC1745041154.png" },
-	{ group: "Kids", name: "SONY YAY BANGLA", stream: "https://tv.roarzone.info/player.php?stream=toffee/sonyyay", logo: "http://10.99.99.99/assets/images/SONY YAY1745045046.png" },
-	{ group: "Kids", name: "SONY YAY HINDI", stream: "http://10.99.99.99/player.php?stream=93&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY YAY1745045046.png" },
-    { group: "Kids", name: "SUPER HUNGAMA", stream: "http://10.99.99.99/player.php?stream=75&autoplay=1", logo: "http://10.99.99.99/assets/images/SUPER HUNGAMA1745044022.png" },
-	
-    { group: "Hindi", name: "AND PICTURS HD", stream: "http://10.99.99.99/player.php?stream=5&autoplay=1", logo: "http://10.99.99.99/assets/images/AND PICTURS HD1745031440.png" },
-    { group: "Hindi", name: "COLORS CINEPLEX HD", stream: "http://10.99.99.99/player.php?stream=10&autoplay=1", logo: "http://10.99.99.99/assets/images/COLORS CINEPLEX HD1745033519.png" },
-    { group: "Hindi", name: "COLORS HD", stream: "http://10.99.99.99/player.php?stream=4&autoplay=1", logo: "http://10.99.99.99/assets/images/COLORS HD1745031404.png" },
-    { group: "Hindi", name: "GEO NEWS HD", stream: "http://10.99.99.99/player.php?stream=90&autoplay=1", logo: "http://10.99.99.99/assets/images/GEO NEWS HD1745044892.png" },
-    { group: "Hindi", name: "HUM TV", stream: "http://10.99.99.99/player.php?stream=89&autoplay=1", logo: "http://10.99.99.99/assets/images/HUM TV1745044837.png" },
-    { group: "Hindi", name: "SONY ENT HD", stream: "http://10.99.99.99/player.php?stream=11&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY ENT HD1745033553.png" },
-    { group: "Hindi", name: "SONY MAX HD", stream: "http://10.99.99.99/player.php?stream=21&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY MAX HD1745034069.png" },
-    { group: "Hindi", name: "STAR BHARAT HD", stream: "http://10.99.99.99/player.php?stream=100&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR BHARAT HD1745045255.png" },
-    { group: "Hindi", name: "STAR GOLD 2 HD", stream: "http://10.99.99.99/player.php?stream=69&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR GOLD 2 HD1745043441.png" },
-    { group: "Hindi", name: "STAR GOLD HD", stream: "http://10.99.99.99/player.php?stream=20&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR GOLD HD1745034037.png" },
-    { group: "Hindi", name: "STAR GOLD SELECT HD", stream: "http://10.99.99.99/player.php?stream=71&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR GOLD SELECT HD1745043508.png" },
-    { group: "Hindi", name: "STAR PLUS HD", stream: "http://10.99.99.99/player.php?stream=24&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR PLUS HD1745038577.png" },
-    { group: "Hindi", name: "ZEE CINEMA HD", stream: "http://10.99.99.99/player.php?stream=13&autoplay=1", logo: "http://10.99.99.99/assets/images/ZEE CINEMA HD1745033602.png" },
-    { group: "Hindi", name: "ZEE TV HD", stream: "http://10.99.99.99/player.php?stream=7&autoplay=1", logo: "http://10.99.99.99/assets/images/ZEE TV HD1745033383.png" },
-    { group: "Hindi", name: "ZING", stream: "http://10.99.99.99/player.php?stream=53&autoplay=1", logo: "http://10.99.99.99/assets/images/ZING1745042718.png" },
-    { group: "Hindi", name: "ZOOM", stream: "http://10.99.99.99/player.php?stream=42&autoplay=1", logo: "http://10.99.99.99/assets/images/ZOOM1745040961.png" },
+// ============================================
+// GLOBAL STATE & UTILITIES
+// ============================================
 
-    { group: "English", name: "ALJAZEETA HD", stream: "http://10.99.99.99/player.php?stream=85&autoplay=1", logo: "http://10.99.99.99/assets/images/ALJAZEETA HD1745044358.png" },
-    { group: "English", name: "AND FLIX HD", stream: "http://10.99.99.99/player.php?stream=35&autoplay=1", logo: "http://10.99.99.99/assets/images/AND FLIX HD1745040018.png" },
-    { group: "English", name: "AND PRIVE HD", stream: "http://10.99.99.99/player.php?stream=41&autoplay=1", logo: "http://10.99.99.99/assets/images/AND PRIVE HD1745040451.png" },
-    { group: "English", name: "AND XPLORE", stream: "http://10.99.99.99/player.php?stream=61&autoplay=1", logo: "http://10.99.99.99/assets/images/AND XPLORE1745043080.png" },
-    { group: "English", name: "ANIMAL PLANET HD", stream: "http://10.99.99.99/player.php?stream=26&autoplay=1", logo: "http://10.99.99.99/assets/images/ANIMAL PLANET HD1745038671.png" },
-    { group: "English", name: "AXN HD", stream: "http://10.99.99.99/player.php?stream=97&autoplay=1", logo: "http://10.99.99.99/assets/images/AXN HD1745045171.png" },
-    { group: "English", name: "BBC EARTH HD", stream: "http://10.99.99.99/player.php?stream=102&autoplay=1", logo: "http://10.99.99.99/assets/images/BBC EARTH HD1745150455.png" },
-    { group: "English", name: "DISCOVERY HD", stream: "http://10.99.99.99/player.php?stream=22&autoplay=1", logo: "http://10.99.99.99/assets/images/discovery hd.png" },
-    { group: "English", name: "HISTORY TV HD", stream: "http://10.99.99.99/player.php?stream=15&autoplay=1", logo: "http://10.99.99.99/assets/images/HISTORY TV HD1745033679.png" },
-    { group: "English", name: "HITZ MUSIC", stream: "http://10.99.99.99/player.php?stream=70&autoplay=1", logo: "http://10.99.99.99/assets/images/HITZ MUSIC1745043478.png" },
-    { group: "English", name: "LOTUS TV", stream: "http://10.99.99.99/player.php?stream=91&autoplay=1", logo: "http://10.99.99.99/assets/images/LOTUS TV1745044960.png" },
-    { group: "English", name: "LOVE NATURE", stream: "http://10.99.99.99/player.php?stream=67&autoplay=1", logo: "http://10.99.99.99/assets/images/LOVE NATURE1745043370.png" },
-    { group: "English", name: "MN PLUS", stream: "http://10.99.99.99/player.php?stream=36&autoplay=1", logo: "http://10.99.99.99/assets/images/MN PLUS1745040057.png" },
-    { group: "English", name: "MNX HD", stream: "http://10.99.99.99/player.php?stream=33&autoplay=1", logo: "http://10.99.99.99/assets/images/MNX HD1745039955.png" },
-    { group: "English", name: "MOVIES NOW HD", stream: "http://10.99.99.99/player.php?stream=39&autoplay=1", logo: "http://10.99.99.99/assets/images/MOVIES NOW HD1745040368.png" },
-    { group: "English", name: "NATGEO HD", stream: "http://10.99.99.99/player.php?stream=25&autoplay=1", logo: "http://10.99.99.99/assets/images/NATGEO HD1745038634.png" },
-    { group: "English", name: "NATGEO WILD HD", stream: "http://10.99.99.99/player.php?stream=23&autoplay=1", logo: "http://10.99.99.99/assets/images/NATGEO WILD HD1745038542.png" },
-    { group: "English", name: "ROMEDY NOW", stream: "http://10.99.99.99/player.php?stream=34&autoplay=1", logo: "http://10.99.99.99/assets/images/ROMEDY NOW1745039988.png" },
-    { group: "English", name: "SONY BBC EARTH HD", stream: "http://10.99.99.99/player.php?stream=6&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY BBC EARTH HD1745031522.png" },
-    { group: "English", name: "SONY PIX HD", stream: "http://10.99.99.99/player.php?stream=32&autoplay=1", logo: "http://10.99.99.99/assets/images/SONY PIX HD1745039925.png" },
-    { group: "English", name: "STAR MOVIES HD", stream: "http://10.99.99.99/player.php?stream=38&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR MOVIES HD1745040174.png" },
-    { group: "English", name: "STAR MOVIES SELECT HD", stream: "http://10.99.99.99/player.php?stream=27&autoplay=1", logo: "http://10.99.99.99/assets/images/STAR MOVIES SELECT HD1745038723.png" },
-    { group: "English", name: "TLC HD", stream: "http://10.99.99.99/player.php?stream=9&autoplay=1", logo: "http://10.99.99.99/assets/images/TLC HD1745033484.png" },
-    { group: "English", name: "TRAVEL XP", stream: "http://10.99.99.99/player.php?stream=62&autoplay=1", logo: "http://10.99.99.99/assets/images/TRAVEL XP1745043118.png" },
-    { group: "English", name: "ZEE CAFE HD", stream: "http://10.99.99.99/player.php?stream=37&autoplay=1", logo: "http://10.99.99.99/assets/images/ZEE CAFE HD1745040102.png" },
+// Global UI references
+const UI = {
+    touchOverlay: null,
+    sidebar: null,
+    channelList: null,
+    frame: null,
+    video: null,
+    loader: null,
+    loadingMsg: null,
+    loadingImg: null,
+    loadingDetails: null,
+    noticeBar: null,
+    errorBg: null,
+    osd: null,
+    qualitySelector: null,
+    btnPrev: null,
+    btnNext: null,
+    btnPrevImg: null,
+    btnNextImg: null,
+    sidebarQualityBtn: null,
+    currentQualityDisplay: null,
+    listBtn1: null,
+    listBtn2: null,
+    initLoading: null,
+    initProgressBar: null,
+    initStatus: null,
+    loadingOverlay: null,
+    loadingChannelLogo: null,
+    loadingChannelName: null,
+    loadingChannelStatus: null,
+    loadingOverlayProgress: null,
+    loadingPlayerType: null,
+    loadingQualityInfo: null,
+    iframePlayButton: null,
+    loadingTip: null,
+    playerContainer: null
+};
 
-    { group: "Islamic", name: "MADANI TV HD", stream: "http://10.99.99.99/player.php?stream=83&autoplay=1", logo: "http://10.99.99.99/assets/images/MADANI TV HD1745044303.png" },
-    { group: "Islamic", name: "PEACE TV BANGLA", stream: "http://10.99.99.99/player.php?stream=86&autoplay=1", logo: "http://10.99.99.99/assets/images/PEACE TV BANGLA1745044480.png" }
-];
+// Application state
+// Application state
+const State = {
+    appStarted: false,
+    sidebarVisible: false,
+    currentIndex: 0,
+    currentListFile: CONFIG.INITIAL_LIST_FILE,
+    rawChannels: [],
+    currentQuality: CONFIG.DEFAULT_QUALITY,
+    connectionSpeed: 0,
+    networkQuality: 'unknown',
+    isFirstChannelLoad: true, // Track first load for play button
+    hasUserInteracted: false, // Track if user has clicked play - CRITICAL FOR AUTOPLAY
+    
+    timers: {
+        sidebar: null,
+        osd: null,
+        loader: null,
+        error: null,
+        retry: null
+    },
+    
+    save: function(key, value) {
+        try {
+            localStorage.setItem(key, value);
+        } catch (e) {
+            console.warn('LocalStorage error:', e);
+        }
+    },
+    
+    load: function(key) {
+        try {
+            return localStorage.getItem(key);
+        } catch (e) {
+            console.warn('LocalStorage error:', e);
+            return null;
+        }
+    },
+    
+    clearTimers: function() {
+        for (const timer in this.timers) {
+            if (this.timers[timer]) {
+                clearTimeout(this.timers[timer]);
+            }
+        }
+    }
+};
 
-        let currentIndex = 0;
-        let sidebarTimer;
-        let isStarted = false;
-        let marqueeCycles = 0;
+// Performance monitoring
+const Performance = {
+    timers: {},
+    
+    start: function(name) {
+        this.timers[name] = performance.now();
+    },
+    
+    end: function(name) {
+        if (this.timers[name]) {
+            const duration = performance.now() - this.timers[name];
+            console.log(`⏱️ ${name}: ${duration.toFixed(2)}ms`);
+            delete this.timers[name];
+            return duration;
+        }
+        return 0;
+    }
+};
+
+// Image helper
+const ImageHelper = {
+    defaultLogo: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNGRjAwMDAiIHJ4PSI4Ii8+PHRleHQgeD0iMjUiIHk9IjI1IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5UVjwvdGV4dD48L3N2Zz4=',
+    
+    getLogo: function(channel) {
+        if (channel.logo && channel.logo.trim() !== '') {
+            if (channel.logo.startsWith('data:') || 
+                channel.logo.startsWith('http://') || 
+                channel.logo.startsWith('https://')) {
+                return channel.logo;
+            }
+        }
+        return this.defaultLogo;
+    }
+};
+
+// ============================================
+// LOADING OVERLAY MANAGER - TV OPTIMIZED
+// ============================================
+const LoadingOverlay = {
+    progressInterval: null,
+    
+    show(channel, playerType = 'detecting', quality = 'auto') {
+        if (!UI.loadingOverlay) return;
         
-        const frame = document.getElementById('main-frame');
-        const sidebar = document.getElementById('sidebar');
-        const list = document.getElementById('channel-list');
-        const loader = document.getElementById('loading-screen');
-        const osd = document.getElementById('osd');
-        const marqueeEl = document.getElementById('marquee-text');
-        const noticeBar = document.getElementById('notice-bar');
-
-        function init() {
-            // Notice Bar hide after 2 iterations
-            marqueeEl.addEventListener('animationiteration', () => {
-                marqueeCycles++;
-                if (marqueeCycles >= 2) noticeBar.style.display = 'none';
-            });
-
-            // TV Detection to hide mobile buttons
-            const userAgent = navigator.userAgent.toLowerCase();
-            const isTV = userAgent.includes("tv") || userAgent.includes("smarttv") || userAgent.includes("googletv");
-            if (isTV) {
-                const mobControls = document.querySelector('.mobile-ch-controls');
-                if(mobControls) mobControls.style.display = 'none';
+        // Update overlay content
+        if (channel && UI.loadingChannelLogo) {
+            UI.loadingChannelLogo.src = ImageHelper.getLogo(channel);
+            UI.loadingChannelLogo.alt = channel.name;
+        }
+        
+        if (channel && UI.loadingChannelName) {
+            UI.loadingChannelName.textContent = channel.name;
+        }
+        
+        if (UI.loadingChannelStatus) {
+            UI.loadingChannelStatus.textContent = 'Buffering...';
+        }
+        
+        if (UI.loadingPlayerType) {
+            UI.loadingPlayerType.textContent = `Player: ${playerType.toUpperCase()}`;
+        }
+        
+        if (UI.loadingQualityInfo) {
+            UI.loadingQualityInfo.textContent = `Quality: ${quality === 'auto' ? 'Auto' : quality + 'p'}`;
+        }
+        
+        // Reset progress
+        if (UI.loadingOverlayProgress) {
+            UI.loadingOverlayProgress.style.width = '0%';
+        }
+        
+        // Hide iframe play button initially
+        if (UI.iframePlayButton) {
+            UI.iframePlayButton.style.display = 'none';
+        }
+        
+        if (UI.loadingTip) {
+            UI.loadingTip.textContent = 'Preparing your TV stream...';
+        }
+        
+        // Show overlay
+        UI.loadingOverlay.style.display = 'flex';
+        
+        // Start progress animation
+        this.startProgress();
+    },
+    
+    startProgress() {
+        // Clear any existing interval
+        if (this.progressInterval) {
+            clearInterval(this.progressInterval);
+        }
+        
+        let progress = 0;
+        this.progressInterval = setInterval(() => {
+            progress += 0.3;
+            if (UI.loadingOverlayProgress) {
+                UI.loadingOverlayProgress.style.width = `${Math.min(progress, 90)}%`;
             }
-
-            // Build Grouped List
-            let currentGroup = "";
-            rawChannels.forEach((ch, i) => {
-                if (ch.group !== currentGroup) {
-                    currentGroup = ch.group;
-                    const head = document.createElement('li');
-                    head.className = 'category-title';
-                    head.innerText = currentGroup;
-                    list.appendChild(head);
+            
+            if (progress >= 100) {
+                clearInterval(this.progressInterval);
+                this.progressInterval = null;
+                // If still loading after 100%, update tip
+                if (UI.loadingTip) {
+                    UI.loadingTip.textContent = 'Almost ready...';
                 }
-                const li = document.createElement('li');
-                li.className = 'channel-item';
-                li.id = "ch-" + i;
-                li.innerHTML = `<img src="${ch.logo}"> <span class="channel-name">${ch.name}</span>`;
-                li.onclick = (e) => { e.stopPropagation(); playChannel(i, true); };
-                list.appendChild(li);
-            });
-            document.getElementById('start-btn-id').focus();
+            }
+        }, 100);
+    },
+    
+    updateStatus(status) {
+        if (UI.loadingChannelStatus) {
+            UI.loadingChannelStatus.textContent = status;
         }
-
-        function startApp() {
-            isStarted = true;
-            document.getElementById('splash').remove();
+    },
+    
+    showIframePlayButton() {
+        if (UI.iframePlayButton && UI.loadingOverlay.style.display !== 'none') {
+            UI.iframePlayButton.style.display = 'flex';
+            UI.iframePlayButton.textContent = 'START WATCHING';
+            UI.iframePlayButton.focus();
             
-            // History: Load last watched or start at 0
-            const lastChannel = localStorage.getItem('last_tv_channel');
-            playChannel(lastChannel ? parseInt(lastChannel) : 0, false);
-        }
-
-        function mobileChangeChannel(direction) {
-            // direction -1 is prev, 1 is next
-            let nextIndex = currentIndex + direction;
-            if (nextIndex < 0) nextIndex = rawChannels.length - 1;
-            if (nextIndex >= rawChannels.length) nextIndex = 0;
-            playChannel(nextIndex, false);
-        }
-
-        function updateMobileLogos() {
-            const prevIdx = (currentIndex > 0) ? currentIndex - 1 : rawChannels.length - 1;
-            const nextIdx = (currentIndex < rawChannels.length - 1) ? currentIndex + 1 : 0;
+            // Update status
+            this.updateStatus('Ready to play');
             
-            const prevBtn = document.getElementById('btn-prev-img');
-            const nextBtn = document.getElementById('btn-next-img');
-            if (prevBtn) prevBtn.src = rawChannels[prevIdx].logo;
-            if (nextBtn) nextBtn.src = rawChannels[nextIdx].logo;
-        }
-
-        function playChannel(index, showSidebarAfter) {
-            if (!isStarted) return;
-            currentIndex = index;
-            const ch = rawChannels[currentIndex];
-            localStorage.setItem('last_tv_channel', currentIndex);
-
-            // Update mobile button previews
-            updateMobileLogos();
-
-            // Show Loading Screen
-            loader.style.display = 'flex';
-            document.getElementById('loading-img').src = ch.logo;
-            document.getElementById('loading-msg').innerHTML = `${ch.name}<br><span style="color:#888; font-size:14px">Buffering...</span>`;
-
-            // Change Stream
-            frame.src = ch.stream;
-
-            // List UI update
-            document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
-            const active = document.getElementById("ch-" + index);
-            if (active) {
-                active.classList.add('selected');
-                active.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }
-
-            // OSD Popup
-            osd.innerHTML = `[${ch.group}]<br><b>${ch.name}</b>`;
-            osd.style.display = 'block';
-            setTimeout(() => { osd.style.display = 'none'; }, 8000);
+            // Clear any existing click handler
+            UI.iframePlayButton.onclick = null;
             
-            if (showSidebarAfter) showSidebar();
-        }
-
-        function hideLoading() {
-            // Wait 2 seconds after iframe loads to hide loader
-            setTimeout(() => {
-                loader.style.display = 'none';
-            }, 3000);
-        }
-
-        function toggleSidebar() {
-            if (!isStarted) return;
-            if (sidebar.classList.contains('active')) sidebar.classList.remove('active');
-            else showSidebar();
-        }
-
-        function showSidebar() {
-            sidebar.classList.add('active');
-            clearTimeout(sidebarTimer);
-            sidebarTimer = setTimeout(() => { sidebar.classList.remove('active'); }, 5000);
-        }
-
-        window.addEventListener('keydown', (e) => {
-            if (!isStarted) {
-                if (e.key === "Enter" || e.key === "Ok") startApp();
-                return;
+            // Add new click handler
+            UI.iframePlayButton.onclick = () => {
+                this.hide();
+                State.hasUserInteracted = true;
+                
+                // Try to play based on current player
+                if (UI.frame && UI.frame.style.display === 'block') {
+                    try {
+                        if (UI.frame.contentWindow) {
+                            UI.frame.contentWindow.postMessage('play', '*');
+                        }
+                    } catch (e) {
+                        console.log('Iframe play command failed');
+                    }
+                } else if (UI.video && UI.video.src) {
+                    UI.video.play().catch(e => console.log('Play failed:', e));
+                }
+                
+                const channelName = State.rawChannels[State.currentIndex]?.name || 'channel';
+                showOSD(`Now Playing: ${channelName}`);
+            };
+            
+            if (UI.loadingTip) {
+                UI.loadingTip.textContent = 'Press ENTER or click to start';
             }
+        }
+    },
+    
+    hide() {
+        if (UI.loadingOverlay) {
+            UI.loadingOverlay.style.display = 'none';
+        }
+        
+        // Clear progress interval
+        if (this.progressInterval) {
+            clearInterval(this.progressInterval);
+            this.progressInterval = null;
+        }
+        
+        // Complete progress bar
+        if (UI.loadingOverlayProgress) {
+            UI.loadingOverlayProgress.style.width = '100%';
+        }
+    },
+    
+    // Handle iframe specific loading
+    showForIframe(channel) {
+        this.show(channel, 'iframe', State.currentQuality);
+        this.updateStatus('Loading external player...');
+        
+        setTimeout(() => {
+            if (UI.loadingOverlay && UI.loadingOverlay.style.display !== 'none') {
+                if (State.isFirstChannelLoad && !State.hasUserInteracted) {
+                    this.showIframePlayButton();
+                } else {
+                    this.hide();
+                }
+                console.log('⚠️ Iframe loading timeout');
+            }
+        }, 10000);
+    },
+    
+    // Handle Shaka/HLS.js loading
+    showForNativePlayer(channel, playerType) {
+        this.show(channel, playerType, State.currentQuality);
+        
+        if (UI.video) {
+            const onCanPlay = () => {
+                this.updateStatus('Ready to play...');
+                
+                if (State.isFirstChannelLoad && !State.hasUserInteracted) {
+                    setTimeout(() => {
+                        this.showIframePlayButton();
+                    }, 500);
+                } else if (State.hasUserInteracted) {
+                    setTimeout(() => {
+                        UI.video.play().then(() => {
+                            this.hide();
+                        }).catch((error) => {
+                            console.log('Autoplay blocked:', error.message);
+                            this.updateStatus('Click to play...');
+                            this.showIframePlayButton();
+                        });
+                    }, 500);
+                } else {
+                    this.showIframePlayButton();
+                }
+            };
+            
+            const onPlaying = () => {
+                this.hide();
+            };
+            
+            const onError = () => {
+                this.updateStatus('Error loading stream');
+                this.showIframePlayButton();
+            };
+            
+            UI.video.addEventListener('canplay', onCanPlay, { once: true });
+            UI.video.addEventListener('playing', onPlaying, { once: true });
+            UI.video.addEventListener('error', onError, { once: true });
+        }
+    }
+};
 
-            // LOGIC: Arrow UP/DOWN opens sidebar. CH+/CH- (PageUp/Down) does NOT open sidebar.
-            if (e.key === "ArrowUp") {
-                e.preventDefault();
-                currentIndex = (currentIndex > 0) ? currentIndex - 1 : rawChannels.length - 1;
-                playChannel(currentIndex, true); 
-            } 
-            else if (e.key === "ArrowDown") {
-                e.preventDefault();
-                currentIndex = (currentIndex < rawChannels.length - 1) ? currentIndex + 1 : 0;
-                playChannel(currentIndex, true);
+// ============================================
+// INITIAL LOADING MANAGER
+// ============================================
+const InitialLoader = {
+    progress: 0,
+    totalSteps: 3,
+    
+    updateProgress(step, message) {
+        this.progress = Math.min(100, (step / this.totalSteps) * 100);
+        
+        if (UI.initProgressBar) {
+            UI.initProgressBar.style.width = `${this.progress}%`;
+        }
+        
+        if (UI.initStatus) {
+            UI.initStatus.textContent = message;
+        }
+        
+        console.log(`📊 Initial load: ${this.progress.toFixed(0)}% - ${message}`);
+    },
+    
+    complete() {
+        this.updateProgress(this.totalSteps, 'TV Ready!');
+        
+        setTimeout(() => {
+            if (UI.initLoading) {
+                UI.initLoading.style.display = 'none';
             }
-            else if (e.key === "PageUp" || e.key === "ChannelUp") {
-                e.preventDefault();
-                currentIndex = (currentIndex > 0) ? currentIndex - 1 : rawChannels.length - 1;
-                playChannel(currentIndex, false); 
-            }
-            else if (e.key === "PageDown" || e.key === "ChannelDown") {
-                e.preventDefault();
-                currentIndex = (currentIndex < rawChannels.length - 1) ? currentIndex + 1 : 0;
-                playChannel(currentIndex, false); 
-            }
-            else if (e.key === "Enter" || e.key === "Ok") {
-                toggleSidebar();
+            startApp();
+        }, 800); // Slightly longer for TV
+    }
+};
+
+// ============================================
+// SHAKA PLAYER LOADER
+// ============================================
+const ShakaLoader = {
+    loaded: false,
+    loading: false,
+    queue: [],
+    version: '4.7.3',
+    
+    async load() {
+        if (this.loaded) return true;
+        if (this.loading) return new Promise(resolve => this.queue.push(resolve));
+        
+        this.loading = true;
+        InitialLoader.updateProgress(0.5, 'Loading Shaka Player...');
+        
+        return new Promise((resolve) => {
+            const script = document.createElement('script');
+            script.src = `https://cdn.jsdelivr.net/npm/shaka-player@${this.version}/dist/shaka-player.compiled.js`;
+            script.crossOrigin = 'anonymous';
+            
+            script.onload = () => {
+                this.loaded = true;
+                this.loading = false;
+                console.log('✅ Shaka Player loaded');
+                InitialLoader.updateProgress(1, 'Shaka loaded, loading HLS.js...');
+                resolve(true);
+                
+                while (this.queue.length) {
+                    this.queue.shift()(true);
+                }
+            };
+            
+            script.onerror = () => {
+                console.warn('❌ Shaka Player load failed');
+                this.loading = false;
+                InitialLoader.updateProgress(1, 'Shaka failed, continuing...');
+                resolve(false);
+            };
+            
+            document.head.appendChild(script);
+        });
+    },
+    
+    async ensureLoaded() {
+        return this.load();
+    },
+    
+    isSupported() {
+        if (!this.loaded) return false;
+        return shaka.Player.isBrowserSupported();
+    }
+};
+
+let shakaPlayerInstance = null;
+
+async function initShakaPlayer(videoElement) {
+    if (!CONFIG.USE_SHAKA_AS_PRIMARY) return null;
+    
+    await ShakaLoader.ensureLoaded();
+    if (!ShakaLoader.isSupported()) {
+        console.warn('Shaka not supported in this browser');
+        return null;
+    }
+    
+    if (shakaPlayerInstance) {
+        try {
+            await shakaPlayerInstance.destroy();
+        } catch (e) {}
+        shakaPlayerInstance = null;
+    }
+    
+    try {
+        Performance.start('ShakaInit');
+        
+        shakaPlayerInstance = new shaka.Player(videoElement);
+        
+        // TV-optimized configuration
+        shakaPlayerInstance.configure({
+            streaming: {
+                bufferingGoal: CONFIG.BUFFER_GOAL,
+                rebufferingGoal: CONFIG.MIN_BUFFER,
+                bufferBehind: CONFIG.MAX_BUFFER,
+                retryParameters: {
+                    maxAttempts: 3,
+                    baseDelay: 1500,
+                    backoffFactor: 2,
+                    timeout: 15000
+                },
+                lowLatencyMode: true
+            },
+            abr: {
+                enabled: true,
+                defaultBandwidthEstimate: 1000000, // Higher for TV
+                restrictions: {
+                    minWidth: 320,
+                    minHeight: 180,
+                    maxWidth: 1920,
+                    maxHeight: 1080
+                }
             }
         });
+        
+        shakaPlayerInstance.addEventListener('error', (event) => {
+            console.error('Shaka error:', event.detail);
+        });
+        
+        console.log('✅ Shaka initialized for TV');
+        Performance.end('ShakaInit');
+        return shakaPlayerInstance;
+        
+    } catch (error) {
+        console.error('Shaka initialization failed:', error);
+        return null;
+    }
+}
 
-        init();
-    </script>
+// ============================================
+// HLS.js LOADER
+// ============================================
+const HlsJsLoader = {
+    loaded: false,
+    loading: false,
+    queue: [],
+    version: '1.4.12',
+    
+    async load() {
+        if (this.loaded) return true;
+        if (this.loading) return new Promise(resolve => this.queue.push(resolve));
+        
+        this.loading = true;
+        InitialLoader.updateProgress(1.5, 'Loading HLS.js...');
+        
+        return new Promise((resolve) => {
+            const script = document.createElement('script');
+            script.src = `https://cdn.jsdelivr.net/npm/hls.js@${this.version}/dist/hls.min.js`;
+            script.crossOrigin = 'anonymous';
+            
+            script.onload = () => {
+                this.loaded = true;
+                this.loading = false;
+                console.log('✅ HLS.js loaded');
+                InitialLoader.updateProgress(2, 'HLS.js loaded, setting up TV app...');
+                resolve(true);
+                
+                while (this.queue.length) {
+                    this.queue.shift()(true);
+                }
+            };
+            
+            script.onerror = () => {
+                console.warn('❌ HLS.js load failed');
+                this.loading = false;
+                InitialLoader.updateProgress(2, 'HLS.js failed, continuing...');
+                resolve(false);
+            };
+            
+            document.head.appendChild(script);
+        });
+    },
+    
+    async ensureLoaded() {
+        return this.load();
+    },
+    
+    isSupported() {
+        if (!this.loaded) return false;
+        return Hls.isSupported();
+    }
+};
+
+let hlsPlayerInstance = null;
+
+// ============================================
+// UPDATED PLAYER DETECTION
+// ============================================
+function detectBestPlayerForStream(url) {
+    if (!url) return 'iframe';
+    
+    const lowerUrl = url.toLowerCase();
+    
+    if (lowerUrl.includes('.m3u8')) {
+        if (CONFIG.USE_SHAKA_AS_PRIMARY && ShakaLoader.loaded) {
+            return 'shaka';
+        } else if (CONFIG.USE_HLSJS_AS_FALLBACK && HlsJsLoader.loaded) {
+            return 'hlsjs';
+        }
+        return 'iframe';
+    }
+    
+    if (lowerUrl.includes('.mpd')) {
+        if (CONFIG.USE_SHAKA_AS_PRIMARY && ShakaLoader.loaded) {
+            return 'shaka';
+        }
+        return 'iframe';
+    }
+    
+    return 'iframe';
+}
+
+// ============================================
+// HLS.js PLAYER IMPLEMENTATION
+// ============================================
+async function initHlsJsPlayer(videoElement, streamUrl, channel) {
+    if (!CONFIG.USE_HLSJS_AS_FALLBACK) return null;
+    
+    await HlsJsLoader.ensureLoaded();
+    if (!HlsJsLoader.isSupported()) {
+        console.warn('HLS.js not supported in this browser');
+        return null;
+    }
+    
+    if (hlsPlayerInstance) {
+        try {
+            hlsPlayerInstance.destroy();
+        } catch (e) {}
+        hlsPlayerInstance = null;
+    }
+    
+    try {
+        Performance.start('HlsJsInit');
+        
+        // TV-optimized HLS.js configuration
+        hlsPlayerInstance = new Hls({
+            enableWorker: true,
+            lowLatencyMode: true,
+            backBufferLength: 90,
+            maxBufferLength: 30,
+            maxBufferSize: 80 * 1000 * 1000, // Larger for TV
+            maxBufferHole: 0.5,
+            maxSeekHole: 2,
+            liveSyncDurationCount: 3,
+            liveMaxLatencyDurationCount: 10,
+            manifestLoadingTimeOut: 15000, // Longer for TV
+            manifestLoadingMaxRetry: 3,
+            levelLoadingTimeOut: 15000,
+            levelLoadingMaxRetry: 3,
+            fragLoadingTimeOut: 25000,
+            fragLoadingMaxRetry: 4,
+            capLevelToPlayerSize: true,
+            startLevel: -1,
+            testBandwidth: true
+        });
+        
+        hlsPlayerInstance.on(Hls.Events.ERROR, (event, data) => {
+            console.error('HLS.js Error:', data);
+            
+            if (data.fatal) {
+                switch(data.type) {
+                    case Hls.ErrorTypes.NETWORK_ERROR:
+                        console.error('HLS.js Network Error');
+                        break;
+                    case Hls.ErrorTypes.MEDIA_ERROR:
+                        console.error('HLS.js Media Error');
+                        hlsPlayerInstance.recoverMediaError();
+                        break;
+                    default:
+                        console.error('HLS.js Fatal Error');
+                        hlsPlayerInstance.destroy();
+                        hlsPlayerInstance = null;
+                        break;
+                }
+            }
+        });
+        
+        hlsPlayerInstance.loadSource(streamUrl);
+        hlsPlayerInstance.attachMedia(videoElement);
+        
+        console.log('✅ HLS.js initialized for TV');
+        Performance.end('HlsJsInit');
+        return hlsPlayerInstance;
+        
+    } catch (error) {
+        console.error('HLS.js initialization failed:', error);
+        return null;
+    }
+}
+
+// ============================================
+// PLAYER MANAGEMENT - TV OPTIMIZED
+// ============================================
+const PlayerManager = {
+    async loadStream(videoElement, streamUrl, channel, listType) {
+        console.log(`🎬 Loading ${channel.name} from ${listType}`);
+        
+        const playerType = detectBestPlayerForStream(streamUrl);
+        console.log(`🔍 Detected player type: ${playerType.toUpperCase()} for URL: ${streamUrl.substring(0, 50)}...`);
+        
+        switch(playerType) {
+            case 'shaka':
+                return await this.tryShakaPlayer(videoElement, streamUrl, channel);
+            case 'hlsjs':
+                return await this.tryHlsJsPlayer(videoElement, streamUrl, channel);
+            case 'iframe':
+                return await this.useIframe(streamUrl, channel);
+            default:
+                return await this.useIframe(streamUrl, channel);
+        }
+    },
+    
+    async tryShakaPlayer(videoElement, streamUrl, channel) {
+        Performance.start('ShakaTry');
+        
+        try {
+            LoadingOverlay.updateStatus('Initializing TV Player...');
+            const player = await initShakaPlayer(videoElement);
+            if (!player) {
+                throw new Error('Shaka init failed');
+            }
+            
+            if (UI.frame) {
+                UI.frame.style.display = 'none';
+                UI.frame.src = 'about:blank';
+            }
+            
+            if (UI.video) {
+                UI.video.style.display = 'block';
+                UI.video.style.opacity = '1';
+                UI.video.style.visibility = 'visible';
+            }
+            
+            LoadingOverlay.updateStatus('Loading TV stream...');
+            await player.load(streamUrl);
+            
+            // Only try autoplay if user has already interacted
+            if (State.hasUserInteracted) {
+                try {
+                    await UI.video.play();
+                } catch (playError) {
+                    console.log('Autoplay blocked:', playError.message);
+                }
+            }
+            
+            console.log('✅ Shaka playback successful');
+            Performance.end('ShakaTry');
+            return { success: true, player: 'shaka' };
+            
+        } catch (error) {
+            console.error('❌ Shaka failed:', error);
+            Performance.end('ShakaTry');
+            
+            if (shakaPlayerInstance) {
+                try {
+                    await shakaPlayerInstance.destroy();
+                } catch (e) {}
+                shakaPlayerInstance = null;
+            }
+            
+            return { success: false, error: error.message };
+        }
+    },
+    
+    async tryHlsJsPlayer(videoElement, streamUrl, channel) {
+        Performance.start('HlsJsTry');
+        
+        try {
+            LoadingOverlay.updateStatus('Initializing HLS Player...');
+            const player = await initHlsJsPlayer(videoElement, streamUrl, channel);
+            if (!player) {
+                throw new Error('HLS.js init failed');
+            }
+            
+            if (UI.frame) {
+                UI.frame.style.display = 'none';
+                UI.frame.src = 'about:blank';
+            }
+            
+            if (UI.video) {
+                UI.video.style.display = 'block';
+                UI.video.style.opacity = '1';
+                UI.video.style.visibility = 'visible';
+            }
+            
+            LoadingOverlay.updateStatus('Parsing stream...');
+            await new Promise((resolve, reject) => {
+                const timeout = setTimeout(() => {
+                    reject(new Error('HLS.js load timeout'));
+                }, 15000);
+                
+                hlsPlayerInstance.on(Hls.Events.MANIFEST_PARSED, () => {
+                    clearTimeout(timeout);
+                    resolve();
+                });
+            });
+            
+            // Only try autoplay if user has already interacted
+            if (State.hasUserInteracted) {
+                try {
+                    await UI.video.play();
+                } catch (playError) {
+                    console.log('Autoplay blocked:', playError.message);
+                }
+            }
+            
+            console.log('✅ HLS.js playback successful');
+            Performance.end('HlsJsTry');
+            return { success: true, player: 'hlsjs' };
+            
+        } catch (error) {
+            console.error('❌ HLS.js failed:', error);
+            Performance.end('HlsJsTry');
+            
+            if (hlsPlayerInstance) {
+                try {
+                    hlsPlayerInstance.destroy();
+                } catch (e) {}
+                hlsPlayerInstance = null;
+            }
+            
+            return { success: false, error: error.message };
+        }
+    },
+    
+    async useIframe(streamUrl, channel) {
+        Performance.start('IframeTry');
+        
+        LoadingOverlay.updateStatus('Preparing TV Player...');
+        
+        this.cleanupAllPlayers();
+        
+        // Ensure iframe exists
+        if (!UI.frame) {
+            console.error('❌ Iframe element not available');
+            LoadingOverlay.updateStatus('Player error');
+            LoadingOverlay.showIframePlayButton();
+            Performance.end('IframeTry');
+            return { success: false, error: 'Iframe not available' };
+        }
+        
+        if (UI.video) {
+            UI.video.style.display = 'none';
+            UI.video.style.opacity = '0';
+            UI.video.style.visibility = 'hidden';
+        }
+        
+        UI.frame.style.display = 'block';
+        
+        // Add load event to iframe
+        UI.frame.onload = () => {
+            console.log('✅ Iframe loaded successfully');
+            LoadingOverlay.updateStatus('Ready to play...');
+            
+            // 500ms delay before deciding what to do
+            setTimeout(() => {
+                // On first load AND user hasn't interacted yet, show play button
+                if (State.isFirstChannelLoad && !State.hasUserInteracted) {
+                    LoadingOverlay.showIframePlayButton();
+                } else {
+                    // On subsequent loads or after user interaction, hide overlay
+                    LoadingOverlay.hide();
+                    showOSD(`${channel.name} - TV (${State.currentQuality === 'auto' ? 'Auto' : State.currentQuality + 'p'})`);
+                    
+                    // Only try autoplay if user has already interacted
+                    if (State.hasUserInteracted) {
+                        try {
+                            if (UI.frame.contentWindow) {
+                                UI.frame.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+                                UI.frame.contentWindow.postMessage('play', '*');
+                            }
+                        } catch (e) {
+                            console.log('Iframe autoplay not available');
+                        }
+                    }
+                }
+            }, 500);
+        };
+        
+        // Add error handler for iframe
+        UI.frame.onerror = () => {
+            console.error('❌ Iframe failed to load');
+            LoadingOverlay.updateStatus('Iframe failed to load');
+            LoadingOverlay.showIframePlayButton();
+        };
+        
+        try {
+            UI.frame.src = streamUrl;
+            console.log('✅ Iframe playback started');
+            Performance.end('IframeTry');
+            return { success: true, player: 'iframe' };
+        } catch (error) {
+            console.error('❌ Iframe src assignment failed:', error);
+            LoadingOverlay.updateStatus('Stream error');
+            LoadingOverlay.showIframePlayButton();
+            Performance.end('IframeTry');
+            return { success: false, error: 'Iframe src assignment failed' };
+        }
+    },
+    
+    cleanupAllPlayers() {
+        // Hide loading overlay
+        LoadingOverlay.hide();
+        
+        if (shakaPlayerInstance) {
+            try {
+                shakaPlayerInstance.destroy();
+            } catch (e) {}
+            shakaPlayerInstance = null;
+        }
+        
+        if (hlsPlayerInstance) {
+            try {
+                hlsPlayerInstance.destroy();
+            } catch (e) {}
+            hlsPlayerInstance = null;
+        }
+        
+        if (UI.video) {
+            UI.video.style.display = 'none';
+            UI.video.pause();
+            UI.video.src = '';
+            UI.video.style.opacity = '0';
+            UI.video.style.visibility = 'hidden';
+        }
+        
+        if (UI.frame) {
+            UI.frame.src = 'about:blank';
+        }
+    }
+}; // <-- This closing brace and semicolon are CRITICAL
+
+// ============================================
+// TV REMOTE CONTROL FUNCTIONS
+// ============================================
+
+function setupControls() {
+    console.log('🔧 Setting up TV controls...');
+    
+    // Get all UI elements directly
+    UI.touchOverlay = document.getElementById('touch-overlay');
+    UI.sidebar = document.getElementById('sidebar');
+    UI.channelList = document.getElementById('channel-list');
+    UI.frame = document.getElementById('main-frame');
+    UI.video = document.getElementById('main-video');
+    UI.loader = document.getElementById('loading-screen');
+    UI.loadingMsg = document.getElementById('loading-msg');
+    UI.loadingImg = document.getElementById('loading-img');
+    UI.loadingDetails = document.getElementById('loading-details');
+    UI.noticeBar = document.getElementById('notice-bar');
+    UI.errorBg = document.getElementById('error-background');
+    UI.osd = document.getElementById('osd');
+    UI.qualitySelector = document.getElementById('quality-selector');
+    UI.btnPrev = document.getElementById('btn-prev');
+    UI.btnNext = document.getElementById('btn-next');
+    UI.btnPrevImg = document.getElementById('btn-prev-img');
+    UI.btnNextImg = document.getElementById('btn-next-img');
+    UI.sidebarQualityBtn = document.getElementById('sidebar-quality-btn');
+    UI.currentQualityDisplay = document.getElementById('current-quality-display');
+    UI.listBtn1 = document.getElementById('list-btn-1');
+    UI.listBtn2 = document.getElementById('list-btn-2');
+    UI.initLoading = document.getElementById('init-loading');
+    UI.initProgressBar = document.getElementById('init-progress-bar');
+    UI.initStatus = document.getElementById('init-status');
+    UI.loadingOverlay = document.getElementById('loading-overlay');
+    UI.loadingChannelLogo = document.getElementById('loading-channel-logo');
+    UI.loadingChannelName = document.getElementById('loading-channel-name');
+    UI.loadingChannelStatus = document.getElementById('loading-channel-status');
+    UI.loadingOverlayProgress = document.getElementById('loading-overlay-progress');
+    UI.loadingPlayerType = document.getElementById('loading-player-type');
+    UI.loadingQualityInfo = document.getElementById('loading-quality-info');
+    UI.iframePlayButton = document.getElementById('iframe-play-button');
+    UI.loadingTip = document.getElementById('loading-tip');
+    UI.playerContainer = document.getElementById('player-container');
+    
+    // Debug: Check if iframe was found
+    if (!UI.frame) {
+        console.error('❌ Iframe element (#main-frame) not found in DOM');
+        // Create iframe dynamically if it doesn't exist
+        const playerContainer = document.getElementById('player-container');
+        if (playerContainer) {
+            UI.frame = document.createElement('iframe');
+            UI.frame.id = 'main-frame';
+            UI.frame.style.width = '100%';
+            UI.frame.style.height = '100%';
+            UI.frame.style.border = 'none';
+            UI.frame.style.background = '#000';
+            UI.frame.style.display = 'none';
+            UI.frame.allow = 'autoplay; encrypted-media; picture-in-picture';
+            UI.frame.loading = 'lazy';
+            UI.frame.title = 'Live TV Stream';
+            playerContainer.appendChild(UI.frame);
+            console.log('✅ Created iframe element dynamically');
+        }
+    }
+    
+    if (!UI.video) {
+        console.error('❌ Video element (#main-video) not found in DOM');
+        // Create video dynamically
+        const playerContainer = document.getElementById('player-container');
+        if (playerContainer) {
+            UI.video = document.createElement('video');
+            UI.video.id = 'main-video';
+            UI.video.style.width = '100%';
+            UI.video.style.height = '100%';
+            UI.video.style.display = 'none';
+            UI.video.playsInline = true;
+            playerContainer.appendChild(UI.video);
+            console.log('✅ Created video element dynamically');
+        }
+    }
+    
+    console.log('✅ UI controls initialized');
+    console.log(`✅ Frame found: ${!!UI.frame}, Video found: ${!!UI.video}`);
+    
+    setupEventListeners();
+}
+
+// TV-optimized key handling with focus management
+function handleKeyDown(e) {
+    if (!State.appStarted) return;
+    
+    const key = e.key;
+    
+    // Prevent default for all media/control keys
+    if ([
+        'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight',
+        'PageUp', 'PageDown', ' ', 'Enter', 'Escape',
+        'q', 'Q', '+', '-', '=', '_', 'Backspace'
+    ].includes(key)) {
+        e.preventDefault();
+    }
+    
+    console.log(`🎮 TV Remote: ${key}, Sidebar: ${State.sidebarVisible}`);
+    
+    // Check if play button is focused
+    if (document.activeElement === UI.iframePlayButton) {
+        if (key === 'Enter' || key === ' ') {
+            e.preventDefault();
+            UI.iframePlayButton.click();
+            return;
+        }
+        if (key === 'Escape') {
+            e.preventDefault();
+            LoadingOverlay.hide();
+            return;
+        }
+    }
+    
+    // ALWAYS: Switch channel lists with Left/Right
+    if (key === 'ArrowLeft' || key === 'ArrowRight') {
+        e.preventDefault();
+        const direction = key === 'ArrowLeft' ? 'prev' : 'next';
+        switchChannelList(direction);
+        return;
+    }
+    
+    // Handle Up/Down keys
+    if (key === 'ArrowUp' || key === 'ArrowDown') {
+        e.preventDefault();
+        const direction = key === 'ArrowUp' ? -1 : 1;
+        
+        // First, show sidebar if not already visible
+        if (!State.sidebarVisible) {
+            showSidebar();
+        }
+        
+        // Change channel based on direction
+        changeChannelWithUpDown(direction);
+        return;
+    }
+    
+    // WITH SIDEBAR VISIBLE
+    if (State.sidebarVisible) {
+        switch(key) {
+            case 'Enter':
+            case ' ':
+                e.preventDefault();
+                // Play the selected channel and hide sidebar
+                const selectedItem = document.querySelector('.channel-item.selected');
+                if (selectedItem) {
+                    const index = parseInt(selectedItem.id.replace('ch-', ''));
+                    playChannel(index, false);
+                    hideSidebar();
+                }
+                break;
+            case 'Escape':
+                e.preventDefault();
+                hideSidebar();
+                hideQualitySelector();
+                break;
+            case 'Backspace':
+                e.preventDefault();
+                hideSidebar();
+                break;
+        }
+    } 
+    // WITHOUT SIDEBAR (Fullscreen mode)
+    else {
+        switch(key) {
+            case 'PageUp':
+            case '-':
+            case '_':
+            case 'MediaPreviousTrack':
+                e.preventDefault();
+                // Previous channel, sidebar stays hidden
+                if (State.currentIndex > 0) {
+                    playChannel(State.currentIndex - 1, false);
+                }
+                break;
+                
+            case 'PageDown':
+            case '+':
+            case '=':
+            case 'MediaNextTrack':
+                e.preventDefault();
+                // Next channel, sidebar stays hidden
+                if (State.currentIndex < State.rawChannels.length - 1) {
+                    playChannel(State.currentIndex + 1, false);
+                }
+                break;
+                
+            case 'Enter':
+            case ' ':
+            case 'MediaPlayPause':
+                e.preventDefault();
+                // Toggle sidebar
+                toggleSidebar();
+                if (State.sidebarVisible) {
+                    highlightCurrentInSidebar();
+                }
+                break;
+                
+            case 'Escape':
+            case 'Backspace':
+                e.preventDefault();
+                hideSidebar();
+                hideQualitySelector();
+                break;
+                
+            case 'q':
+            case 'Q':
+            case 'm':
+            case 'M':
+                e.preventDefault();
+                toggleQualitySelector();
+                break;
+                
+            case 'i':
+            case 'I':
+            case 'Info':
+                e.preventDefault();
+                showOSD(`${State.rawChannels[State.currentIndex]?.name || 'Unknown'} | Quality: ${State.currentQuality === 'auto' ? 'Auto' : State.currentQuality + 'p'}`);
+                break;
+        }
+    }
+}
+
+function changeChannelWithUpDown(direction) {
+    if (!State.rawChannels.length) return;
+    
+    let newIndex;
+    if (direction === -1) {
+        // Up - previous channel
+        newIndex = State.currentIndex > 0 ? State.currentIndex - 1 : State.rawChannels.length - 1;
+    } else {
+        // Down - next channel
+        newIndex = State.currentIndex < State.rawChannels.length - 1 ? State.currentIndex + 1 : 0;
+    }
+    
+    // Play the new channel
+    playChannel(newIndex, true); // true = keep sidebar visible after changing
+    
+    // Update selection in sidebar
+    highlightCurrentInSidebar();
+}
+
+function navigateInSidebar(direction) {
+    const items = document.querySelectorAll('.channel-item');
+    if (items.length === 0) return;
+    
+    let currentIndex = -1;
+    items.forEach((item, index) => {
+        if (item.classList.contains('selected')) {
+            currentIndex = index;
+        }
+    });
+    
+    if (currentIndex === -1) {
+        items[0].classList.add('selected');
+        scrollToItem(items[0]);
+        return;
+    }
+    
+    const newIndex = (currentIndex + direction + items.length) % items.length;
+    
+    items[currentIndex].classList.remove('selected');
+    items[newIndex].classList.add('selected');
+    
+    scrollToItem(items[newIndex]);
+}
+
+function scrollToItem(item) {
+    if (item && UI.channelList) {
+        item.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+}
+
+function highlightCurrentInSidebar() {
+    const items = document.querySelectorAll('.channel-item');
+    items.forEach(item => item.classList.remove('selected'));
+    
+    const currentItem = document.getElementById(`ch-${State.currentIndex}`);
+    if (currentItem) {
+        currentItem.classList.add('selected');
+        currentItem.focus(); // Focus for TV navigation
+        scrollToItem(currentItem);
+    }
+}
+
+function switchChannelList(direction) {
+    const currentIndex = CONFIG.AVAILABLE_LISTS.indexOf(State.currentListFile);
+    let newIndex;
+    
+    if (direction === 'next') {
+        newIndex = (currentIndex + 1) % CONFIG.AVAILABLE_LISTS.length;
+    } else {
+        newIndex = (currentIndex - 1 + CONFIG.AVAILABLE_LISTS.length) % CONFIG.AVAILABLE_LISTS.length;
+    }
+    
+    const newList = CONFIG.AVAILABLE_LISTS[newIndex];
+    console.log(`🔄 Switching to list: ${newList}`);
+    loadChannelList(newList);
+    showOSD(`Switched to ${newList === 'channels.js' ? 'List 1' : 'List 2'}`);
+}
+
+function setupEventListeners() {
+    // Touch overlay for opening sidebar
+    if (UI.touchOverlay) {
+        UI.touchOverlay.addEventListener('click', () => {
+            showSidebar();
+            hideOSD();
+        });
+    }
+    
+    // Previous channel button
+    if (UI.btnPrev) {
+        UI.btnPrev.addEventListener('click', () => {
+            if (State.currentIndex > 0) {
+                playChannel(State.currentIndex - 1, false);
+                hideSidebar();
+            }
+        });
+        UI.btnPrev.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                UI.btnPrev.click();
+            }
+        });
+    }
+    
+    // Next channel button
+    if (UI.btnNext) {
+        UI.btnNext.addEventListener('click', () => {
+            if (State.currentIndex < State.rawChannels.length - 1) {
+                playChannel(State.currentIndex + 1, false);
+                hideSidebar();
+            }
+        });
+        UI.btnNext.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                UI.btnNext.click();
+            }
+        });
+    }
+    
+    // Quality button in sidebar
+    if (UI.sidebarQualityBtn) {
+        UI.sidebarQualityBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleQualitySelector();
+        });
+        UI.sidebarQualityBtn.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                toggleQualitySelector();
+            }
+        });
+    }
+    
+    // Quality selector buttons
+    if (UI.qualitySelector) {
+        const qualityBtns = UI.qualitySelector.querySelectorAll('.quality-btn');
+        qualityBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const quality = e.target.getAttribute('data-quality');
+                if (quality && QualityManager) {
+                    QualityManager.setQuality(quality);
+                }
+            });
+            btn.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    const quality = e.target.getAttribute('data-quality');
+                    if (quality && QualityManager) {
+                        QualityManager.setQuality(quality);
+                    }
+                }
+            });
+        });
+    }
+    
+    // List switcher buttons
+    if (UI.listBtn1) {
+        UI.listBtn1.addEventListener('click', () => {
+            loadChannelList('channels.js');
+        });
+        UI.listBtn1.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                loadChannelList('channels.js');
+            }
+        });
+    }
+    
+    if (UI.listBtn2) {
+        UI.listBtn2.addEventListener('click', () => {
+            loadChannelList('ch2.js');
+        });
+        UI.listBtn2.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                loadChannelList('ch2.js');
+            }
+        });
+    }
+    
+    // Single keydown event listener for TV remote
+    document.addEventListener('keydown', handleKeyDown);
+    
+    // Also handle gamepad/remote events
+    document.addEventListener('gamepadconnected', (e) => {
+        console.log('🎮 Gamepad/Remote connected:', e.gamepad.id);
+    });
+}
+
+function showSidebar() {
+    if (UI.sidebar) {
+        UI.sidebar.classList.add('active');
+        State.sidebarVisible = true;
+        
+        // Highlight current channel
+        highlightCurrentInSidebar();
+        
+        clearTimeout(State.timers.sidebar);
+        State.timers.sidebar = setTimeout(() => {
+            hideSidebar();
+        }, CONFIG.SIDEBAR_TIMEOUT_MS);
+    }
+}
+
+function hideSidebar() {
+    if (UI.sidebar) {
+        UI.sidebar.classList.remove('active');
+        State.sidebarVisible = false;
+    }
+}
+
+function toggleSidebar() {
+    if (State.sidebarVisible) {
+        hideSidebar();
+    } else {
+        showSidebar();
+    }
+}
+
+function showOSD(text) {
+    if (UI.osd) {
+        UI.osd.innerHTML = text;
+        UI.osd.style.display = 'block';
+        
+        clearTimeout(State.timers.osd);
+        State.timers.osd = setTimeout(() => {
+            hideOSD();
+        }, CONFIG.OSD_TIMEOUT_MS);
+    }
+}
+
+function hideOSD() {
+    if (UI.osd) {
+        UI.osd.style.display = 'none';
+    }
+}
+
+function toggleQualitySelector() {
+    if (UI.qualitySelector) {
+        if (UI.qualitySelector.style.display === 'flex') {
+            hideQualitySelector();
+        } else {
+            showQualitySelector();
+        }
+    }
+}
+
+function showQualitySelector() {
+    if (UI.qualitySelector) {
+        UI.qualitySelector.style.display = 'flex';
+        
+        const qualityBtns = UI.qualitySelector.querySelectorAll('.quality-btn');
+        qualityBtns.forEach(btn => {
+            const quality = btn.getAttribute('data-quality');
+            if (quality === State.currentQuality) {
+                btn.classList.add('active');
+                btn.focus(); // Auto-focus current quality
+            } else {
+                btn.classList.remove('active');
+            }
+        });
+    }
+}
+
+function hideQualitySelector() {
+    if (UI.qualitySelector) {
+        UI.qualitySelector.style.display = 'none';
+    }
+}
+
+function hideLoading() {
+    if (UI.loader) {
+        UI.loader.style.display = 'none';
+    }
+    clearTimeout(State.timers.loader);
+}
+
+function onStreamSuccess() {
+    hideLoading();
+    if (UI.errorBg) {
+        UI.errorBg.style.display = 'none';
+    }
+    hideSidebar();
+}
+
+function onStreamError(message) {
+    showError(message || 'Stream error');
+    hideLoading();
+}
+
+function showError(channelName) {
+    console.error('❌ Error loading channel:', channelName);
+    
+    LoadingOverlay.updateStatus('Error loading channel');
+    LoadingOverlay.showIframePlayButton();
+    
+    if (State.timers.loader) {
+        clearTimeout(State.timers.loader);
+        State.timers.loader = null;
+    }
+    if (State.timers.error) {
+        clearTimeout(State.timers.error);
+        State.timers.error = null;
+    }
+    
+    if (UI.loader) {
+        UI.loader.style.display = 'none';
+    }
+    
+    if (UI.frame) {
+        UI.frame.src = 'about:blank';
+        UI.frame.style.display = 'none'; 
+    }
+    
+    if (UI.video) { 
+        UI.video.pause();
+        UI.video.src = '';
+        UI.video.style.display = 'none';
+        UI.video.style.opacity = '0'; 
+        UI.video.style.visibility = 'hidden'; 
+    }
+    
+    PlayerManager.cleanupAllPlayers();
+
+    if (UI.errorBg) {
+        UI.errorBg.style.display = 'block';
+        UI.errorBg.style.zIndex = '900'; 
+    }
+
+    const errorMessage = `
+        <div style="text-align: center;">
+            <span style="color: #FF0000; font-weight: bold; font-size: 24px;">⚠️ ERROR</span><br>
+            <span style="font-size: 20px;">Could not load: <b>${channelName}</b></span><br>
+            <span style="font-size: 18px; color: #ccc;">Please try another channel</span><br>
+            <div style="margin-top: 15px; font-size: 16px; color: gold;">
+                <div>📺 TIPS:</div>
+                <div>• Press ← → to switch lists</div>
+                <div>• Press ↑ ↓ to change channels</div>
+                <div>• Press ENTER for channel menu</div>
+            </div>
+        </div>
+    `;
+    
+    if (UI.osd) {
+        UI.osd.innerHTML = errorMessage;
+        UI.osd.style.display = 'block';
+        
+        State.timers.error = setTimeout(() => {
+            if (UI.osd) UI.osd.style.display = 'none';
+        }, 10000);
+    }
+    
+    // Clear any existing retry timer
+    if (State.timers.retry) {
+        clearTimeout(State.timers.retry);
+        State.timers.retry = null;
+    }
+    
+    // Only retry if we have valid UI elements
+    if (State.rawChannels.length > 0 && UI.frame) {
+        State.timers.retry = setTimeout(() => {
+            console.log('🔄 Auto-retrying channel...');
+            // Check if UI elements are still valid before retrying
+            if (UI.frame && UI.video) {
+                playChannel(State.currentIndex, false);
+            }
+        }, 8000);
+    }
+}
+
+function startApp() {
+    if (State.appStarted) return;
+    
+    State.appStarted = true;
+    console.log('📺 Starting TV app...');
+    
+    const savedQuality = State.load('preferred_quality');
+    if (savedQuality && CONFIG.QUALITY_LEVELS.includes(savedQuality)) {
+        QualityManager.setQuality(savedQuality);
+    } else {
+        QualityManager.setQuality(CONFIG.DEFAULT_QUALITY);
+    }
+    
+    if (CONFIG.NETWORK_MONITORING) {
+        NetworkMonitor.init();
+    }
+    
+    loadChannelList(CONFIG.INITIAL_LIST_FILE);
+}
+
+// ============================================
+// CHANNEL LOADER
+// ============================================
+async function loadChannelList(listFile) {
+    console.log(`📋 Loading TV channel list: ${listFile}`);
+    
+    if (!listFile || !CONFIG.AVAILABLE_LISTS.includes(listFile)) {
+        console.error('Invalid list file:', listFile);
+        return;
+    }
+    
+    showLoading('Loading TV channels...');
+    
+    try {
+        let channels = [];
+        
+        if (window.location.protocol === 'file:') {
+            channels = await loadChannelsViaScript(listFile);
+        } else {
+            const response = await fetch(listFile);
+            if (!response.ok) {
+                throw new Error(`Failed to load ${listFile}: ${response.status}`);
+            }
+            
+            const scriptContent = await response.text();
+            channels = parseChannelData(scriptContent, listFile);
+        }
+        
+        if (!Array.isArray(channels)) {
+            throw new Error(`Invalid data format in ${listFile}`);
+        }
+        
+        State.rawChannels = channels;
+        State.currentListFile = listFile;
+        
+        renderChannelList();
+        
+        if (UI.listBtn1) UI.listBtn1.classList.remove('active');
+        if (UI.listBtn2) UI.listBtn2.classList.remove('active');
+        
+        if (listFile === 'channels.js') {
+            if (UI.listBtn1) UI.listBtn1.classList.add('active');
+        } else if (listFile === 'ch2.js') {
+            if (UI.listBtn2) UI.listBtn2.classList.add('active');
+        }
+        
+        const lastIndex = parseInt(State.load(`last_channel_${listFile}`)) || 0;
+        if (State.rawChannels.length > 0) {
+            playChannel(lastIndex, false);
+        } else {
+            hideLoading();
+            showError('No channels in list');
+        }
+        
+    } catch (error) {
+        console.error('Failed to load channel list:', error);
+        showError(`Failed to load channels: ${error.message}`);
+    }
+}
+
+function loadChannelsViaScript(listFile) {
+    return new Promise((resolve, reject) => {
+        if (listFile === 'ch2.js' && window.rawChannels2) {
+            const channels = window.rawChannels2.map(ch => ({
+                category: ch.group,
+                name: ch.name,
+                logo: ch.logo,
+                url: ch.stream
+            }));
+            return resolve(channels);
+        }
+        
+        if (listFile === 'channels.js' && window.rawChannels) {
+            const channels = window.rawChannels.map(ch => ({
+                category: ch.group,
+                name: ch.name,
+                logo: ch.logo,
+                url: ch.stream
+            }));
+            return resolve(channels);
+        }
+        
+        const script = document.createElement('script');
+        script.src = listFile;
+        
+        script.onload = () => {
+            setTimeout(() => {
+                let channels = [];
+                
+                if (listFile === 'ch2.js' && window.rawChannels2) {
+                    channels = window.rawChannels2.map(ch => ({
+                        category: ch.group,
+                        name: ch.name,
+                        logo: ch.logo,
+                        url: ch.stream
+                    }));
+                } else if (listFile === 'channels.js' && window.rawChannels) {
+                    channels = window.rawChannels.map(ch => ({
+                        category: ch.group,
+                        name: ch.name,
+                        logo: ch.logo,
+                        url: ch.stream
+                    }));
+                }
+                
+                if (channels.length > 0) {
+                    resolve(channels);
+                } else {
+                    reject(new Error('No channels found'));
+                }
+            }, 100);
+        };
+        
+        script.onerror = () => reject(new Error(`Failed to load ${listFile}`));
+        document.head.appendChild(script);
+    });
+}
+
+function parseChannelData(scriptContent, listFile) {
+    let channels = [];
+    
+    try {
+        let arrayStr = '';
+        
+        if (listFile === 'ch2.js') {
+            const match = scriptContent.match(/window\.rawChannels2\s*=\s*(\[[\s\S]*?\])\s*;/);
+            if (match) arrayStr = match[1];
+        } else if (listFile === 'channels.js') {
+            const match = scriptContent.match(/window\.rawChannels\s*=\s*(\[[\s\S]*?\])\s*;/);
+            if (match) arrayStr = match[1];
+        }
+        
+        if (arrayStr) {
+            const cleanStr = arrayStr
+                .replace(/\s*\/\/.*$/gm, '')
+                .replace(/,\s*]/g, ']')
+                .trim();
+            
+            try {
+                const parsed = JSON.parse(cleanStr);
+                channels = parsed.map(ch => ({
+                    category: ch.group,
+                    name: ch.name,
+                    logo: ch.logo,
+                    url: ch.stream
+                }));
+            } catch (jsonError) {
+                const parsed = eval(`(${cleanStr})`);
+                channels = parsed.map(ch => ({
+                    category: ch.group,
+                    name: ch.name,
+                    logo: ch.logo,
+                    url: ch.stream
+                }));
+            }
+        }
+    } catch (error) {
+        console.error('Parse error:', error);
+        throw new Error(`Failed to parse ${listFile}`);
+    }
+    
+    return channels;
+}
+
+function renderChannelList() {
+    if (!UI.channelList || !State.rawChannels.length) return;
+    
+    UI.channelList.innerHTML = '';
+    
+    const channelsByCategory = {};
+    State.rawChannels.forEach((channel, index) => {
+        const category = channel.category || 'General';
+        if (!channelsByCategory[category]) {
+            channelsByCategory[category] = [];
+        }
+        channelsByCategory[category].push({ ...channel, index });
+    });
+    
+    for (const category in channelsByCategory) {
+        const categoryTitle = document.createElement('li');
+        categoryTitle.className = 'category-title';
+        categoryTitle.textContent = category.toUpperCase();
+        UI.channelList.appendChild(categoryTitle);
+        
+        channelsByCategory[category].forEach(channelData => {
+            const channelItem = createChannelElement(channelData, channelData.index);
+            UI.channelList.appendChild(channelItem);
+        });
+    }
+    
+    updateMobileLogos();
+}
+
+function createChannelElement(channel, index) {
+    const li = document.createElement('li');
+    li.id = `ch-${index}`;
+    li.className = 'channel-item';
+    li.tabIndex = 0; // Make focusable for TV
+    if (index === State.currentIndex) {
+        li.classList.add('selected');
+    }
+    
+    const img = document.createElement('img');
+    img.src = ImageHelper.getLogo(channel);
+    img.alt = channel.name;
+    img.loading = 'lazy';
+    
+    const nameSpan = document.createElement('span');
+    nameSpan.className = 'channel-name';
+    nameSpan.textContent = channel.name;
+    
+    li.appendChild(img);
+    li.appendChild(nameSpan);
+    
+    li.addEventListener('click', () => {
+        playChannel(index, false);
+        hideSidebar();
+    });
+    
+    li.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            playChannel(index, false);
+            hideSidebar();
+        }
+    });
+    
+    return li;
+}
+
+function updateMobileLogos() {
+    if (!State.rawChannels.length) return;
+    
+    if (State.currentIndex > 0 && UI.btnPrevImg) {
+        const prevChannel = State.rawChannels[State.currentIndex - 1];
+        UI.btnPrevImg.src = ImageHelper.getLogo(prevChannel);
+        UI.btnPrevImg.alt = `Previous: ${prevChannel.name}`;
+    }
+    
+    if (State.currentIndex < State.rawChannels.length - 1 && UI.btnNextImg) {
+        const nextChannel = State.rawChannels[State.currentIndex + 1];
+        UI.btnNextImg.src = ImageHelper.getLogo(nextChannel);
+        UI.btnNextImg.alt = `Next: ${nextChannel.name}`;
+    }
+}
+
+function getChannelUrl(channel) {
+    if (!channel) return '';
+    return channel.url || channel.stream || '';
+}
+
+// ============================================
+// MAIN PLAY CHANNEL FUNCTION - TV OPTIMIZED
+// ============================================
+async function playChannel(index, showSidebarAfter = false) {
+    if (!State.rawChannels.length) {
+        showError('No channels available');
+        return;
+    }
+    
+    index = Math.max(0, Math.min(index, State.rawChannels.length - 1));
+    State.currentIndex = index;
+    
+    State.save(`last_channel_${State.currentListFile}`, index.toString());
+    
+    const channel = State.rawChannels[index];
+    if (!channel) {
+        showError('Channel not found');
+        return;
+    }
+    
+    const streamUrl = getChannelUrl(channel);
+    if (!streamUrl) {
+        showError(`No stream URL for ${channel.name}`);
+        return;
+    }
+    
+    // Ensure UI elements are available
+    if (!UI.frame || !UI.video) {
+        console.error('❌ Player elements not initialized');
+        showError('Player initialization failed');
+        return;
+    }
+    
+    // Show loading overlay
+    const playerType = detectBestPlayerForStream(streamUrl);
+    LoadingOverlay.show(channel, playerType, State.currentQuality);
+    
+    // Update UI selection
+    document.querySelectorAll('.channel-item').forEach(el => el.classList.remove('selected'));
+    const selectedEl = document.getElementById(`ch-${index}`);
+    if (selectedEl) selectedEl.classList.add('selected');
+    
+    if (UI.errorBg) {
+        UI.errorBg.style.display = 'none';
+    }
+    
+    try {
+        const result = await PlayerManager.loadStream(UI.video, streamUrl, channel, State.currentListFile);
+        
+        if (result.success) {
+            const playerName = result.player.toUpperCase();
+            
+            console.log(`✅ Using ${playerName} player for ${channel.name}`);
+            updateMobileLogos();
+            QualityManager.autoAdjust();
+            
+            // Player-specific loading handling
+            if (result.player === 'iframe') {
+                LoadingOverlay.showForIframe(channel);
+            } else {
+                LoadingOverlay.showForNativePlayer(channel, result.player);
+            }
+            
+            // Show OSD with channel info
+            showOSD(`${channel.name} - ${playerName} (${State.currentQuality === 'auto' ? 'Auto' : State.currentQuality + 'p'})`);
+            
+            // Keep sidebar visible if requested
+            if (showSidebarAfter) {
+                showSidebar();
+            } else {
+                hideSidebar();
+            }
+            
+            // After first successful play, mark that first load is done
+            if (State.isFirstChannelLoad) {
+                State.isFirstChannelLoad = false;
+            }
+        } else {
+            console.error('Playback failed:', result.error);
+            LoadingOverlay.updateStatus('Failed to load stream');
+            LoadingOverlay.showIframePlayButton();
+            showError(channel.name);
+        }
+        
+    } catch (error) {
+        console.error('Playback failed:', error);
+        LoadingOverlay.updateStatus('Unexpected error');
+        LoadingOverlay.showIframePlayButton();
+        showError(channel.name);
+    }
+}
+
+// ============================================
+// LOADING FUNCTION
+// ============================================
+function showLoading(message = 'Loading...', channel = null) {
+    if (UI.loader) {
+        UI.loader.style.display = 'flex';
+        
+        if (UI.loadingMsg) {
+            UI.loadingMsg.textContent = message;
+        }
+        
+        if (channel && UI.loadingImg) {
+            const logo = ImageHelper.getLogo(channel);
+            UI.loadingImg.src = logo;
+            UI.loadingImg.alt = channel.name;
+        }
+        
+        if (UI.loadingDetails) {
+            const speedElement = document.getElementById('detected-speed');
+            const qualityElement = document.getElementById('loading-quality');
+            const playerElement = document.getElementById('loading-player');
+            
+            if (speedElement) {
+                speedElement.textContent = State.connectionSpeed > 0 ? 
+                    `${State.connectionSpeed.toFixed(1)}Mbps (${State.networkQuality})` : 'Checking...';
+            }
+            
+            if (qualityElement) {
+                qualityElement.textContent = State.currentQuality === 'auto' ? 'Auto' : State.currentQuality + 'p';
+            }
+            
+            if (playerElement && channel) {
+                const streamUrl = getChannelUrl(channel);
+                const playerType = detectBestPlayerForStream(streamUrl);
+                playerElement.textContent = playerType.toUpperCase();
+                playerElement.style.color = 
+                    playerType === 'shaka' ? '#4CAF50' : 
+                    playerType === 'hlsjs' ? '#2196F3' : '#FF9800';
+            }
+        }
+    }
+    
+    if (State.timers.loader) clearTimeout(State.timers.loader);
+    State.timers.loader = setTimeout(() => {
+        console.log('⏱️ Loading timeout (20s)');
+        hideLoading();
+    }, 20000); // Longer for TV
+}
+
+// ============================================
+// NETWORK MONITOR
+// ============================================
+const NetworkMonitor = {
+    init: function() {
+        if (!CONFIG.NETWORK_MONITORING) return;
+        
+        console.log('🌐 Initializing network monitor for TV...');
+        
+        if ('connection' in navigator) {
+            const conn = navigator.connection;
+            if (conn) {
+                conn.addEventListener('change', () => {
+                    this.checkNetwork();
+                });
+                console.log('✅ Network Information API available');
+            }
+        } else {
+            console.log('⚠️ Network Information API not available');
+        }
+        
+        this.checkNetwork();
+        setInterval(() => this.checkNetwork(), 20000); // Less frequent for TV
+    },
+    
+    checkNetwork: function() {
+        if ('connection' in navigator) {
+            const conn = navigator.connection;
+            if (conn) {
+                State.connectionSpeed = conn.downlink || 0;
+                State.networkQuality = this.getNetworkQuality(conn.effectiveType);
+                this.updateNetworkUI();
+                console.log(`📶 TV Network: ${State.connectionSpeed.toFixed(1)}Mbps (${State.networkQuality})`);
+                
+                if (CONFIG.ENABLE_LOW_NETWORK_MODE) {
+                    this.autoAdjustQuality();
+                }
+            }
+        } else {
+            State.connectionSpeed = this.simulateNetworkSpeed();
+            State.networkQuality = State.connectionSpeed > 8 ? 'good' : State.connectionSpeed > 3 ? 'fair' : 'poor';
+            this.updateNetworkUI();
+        }
+    },
+    
+    simulateNetworkSpeed: function() {
+        const speeds = [1, 2, 3, 5, 8, 12, 20, 30, 50, 100];
+        return speeds[Math.floor(Math.random() * speeds.length)];
+    },
+    
+    getNetworkQuality: function(effectiveType) {
+        if (!effectiveType) return 'unknown';
+        switch(effectiveType) {
+            case '4g':
+            case 'wifi': return 'good';
+            case '3g': return 'fair';
+            case '2g':
+            case 'slow-2g': return 'poor';
+            default: return 'unknown';
+        }
+    },
+    
+    updateNetworkUI: function() {
+        const statusEl = document.getElementById('network-status');
+        if (statusEl) {
+            statusEl.style.display = 'block';
+            statusEl.className = `network-${State.networkQuality}`;
+            
+            const icon = document.getElementById('network-icon');
+            const text = document.getElementById('network-text');
+            
+            if (icon && text) {
+                icon.textContent = '📶';
+                text.textContent = `${State.connectionSpeed.toFixed(1)}Mbps`;
+            }
+        }
+    },
+    
+    autoAdjustQuality: function() {
+        if (State.currentQuality !== 'auto') return;
+        if (State.networkQuality === 'poor') {
+            QualityManager.setQuality('360');
+        } else if (State.networkQuality === 'fair') {
+            QualityManager.setQuality('480');
+        }
+    }
+};
+
+// ============================================
+// QUALITY MANAGER
+// ============================================
+const QualityManager = {
+    setQuality: function(quality) {
+        if (!CONFIG.QUALITY_LEVELS.includes(quality)) {
+            console.error('Invalid quality:', quality);
+            return;
+        }
+        
+        State.currentQuality = quality;
+        State.save('preferred_quality', quality);
+        
+        if (UI.currentQualityDisplay) {
+            UI.currentQualityDisplay.textContent = quality === 'auto' ? 'Auto' : `${quality}p`;
+        }
+        
+        if (UI.qualitySelector) {
+            const qualityBtns = UI.qualitySelector.querySelectorAll('.quality-btn');
+            qualityBtns.forEach(btn => {
+                const btnQuality = btn.getAttribute('data-quality');
+                if (btnQuality === quality) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+        }
+        
+        if (State.appStarted && State.rawChannels[State.currentIndex]) {
+            showOSD(`TV Quality: ${quality === 'auto' ? 'Auto (Recommended)' : quality + 'p'}`);
+            setTimeout(() => {
+                playChannel(State.currentIndex, false);
+            }, 1000);
+        }
+        
+        hideQualitySelector();
+    },
+    
+    autoAdjust: function() {
+        if (State.currentQuality !== 'auto') return;
+        if (State.networkQuality === 'poor') {
+            this.setQuality('360');
+        } else if (State.networkQuality === 'fair') {
+            this.setQuality('480');
+        }
+    }
+};
+
+// ============================================
+// INITIALIZATION
+// ============================================
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('📺 Initializing Live TV Pro for TV...');
+    
+    setupControls();
+    
+    InitialLoader.updateProgress(0, 'Starting TV Player...');
+    
+    console.log('📥 Loading TV players first...');
+    
+    Promise.all([
+        ShakaLoader.load(),
+        HlsJsLoader.load()
+    ]).then(([shakaLoaded, hlsLoaded]) => {
+        console.log(`TV Players loaded: Shaka=${shakaLoaded}, HLS.js=${hlsLoaded}`);
+        
+        setTimeout(() => {
+            InitialLoader.complete();
+        }, 800);
+        
+    }).catch(error => {
+        console.error('Player loading error:', error);
+        setTimeout(() => {
+            InitialLoader.complete();
+        }, 800);
+    });
+    
+    // Hide marquee after showing a few times
+    const marquee = document.getElementById('marquee-text');
+    if (marquee) {
+        let cycles = 0;
+        marquee.addEventListener('animationiteration', () => {
+            cycles++;
+            if (cycles >= 3 && UI.noticeBar) {
+                UI.noticeBar.style.display = 'none';
+            }
+        });
+    }
+    
+    console.log('✅ TV Setup started - Loading players first...');
+});
+
+// ============================================
+// CLEANUP
+// ============================================
+window.addEventListener('beforeunload', () => {
+    State.clearTimers();
+    PlayerManager.cleanupAllPlayers();
+});
+</script>
 </body>
 </html>
