@@ -1,0 +1,35 @@
+name: IPTV Update Service
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Automatically runs every 6 hours
+  workflow_dispatch:      # Allows you to click "Run" manually
+
+jobs:
+  update-list:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Dependencies
+        run: pip install requests
+
+      - name: Run Script
+        run: python update_channels.py
+
+      - name: Push Changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add ch2.js
+          git commit -m "Update channels list: $(date)" || exit 0
+          git push
+          
