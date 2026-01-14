@@ -1,251 +1,8 @@
-// Generated: 2026-01-14 14:29 UTC
-// Sources checked with multi-method validation
-// Success rate: 154/195 (79.0%)
+// Generated: 2026-01-14 14:46 UTC
+// CDN-PRIORITY version - gpcdn.net streams placed FIRST
+// Faster loading and better quality support
 
 window.rawChannels2 = [
-
-    // ==================================================
-    // NEWS (17 channels)
-    // ==================================================
-
-    {
-        "name": "ABP Ananda",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/HjGW7XCJ/abp-ananda.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Al Jazeera",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live-hls-web-aje-fa.thehlive.com/AJE/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/50TpLNKY/aljazeera.jpg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "ATN News",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://tplay.live/out/news/atn-news/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/ZRFCxYdp/atn-news.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "BBC News",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://tplay.live/out/news/bbc-news/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/s2679ZP4/bbc.jpg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "BTV Chattogram",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://tplay.live/out/news/btv-chattagram.index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/mgvdN3ZW/btv-cht.jpg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Channel 24",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://tplay.live/out/news/channel-24/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/QdqkCSFX/channel-24.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Ekattor Television",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://tplay.live/out/news/ekattor-tv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/jjtWwrG9/ekattor-tv.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Ekhon",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://tplay.live/out/bangladesh/ekhontv.index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/KcHxyPzx/ekhon.jpg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Independent TV",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://tplay.live/out/news/independent-tv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/3rL7TH81/Independent-TV.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Jamuna Television",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://tplay.live/out/news/jamuna-tv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/dtR7Gh4t/jamuna-tv.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Kolkata TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt01.tangotv.in/KOLKATATV/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/mkVfbs7P/kolkatatv.jpg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "News 24",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://tplay.live/out/news/news-24/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/bNJny8Qw/news-24.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "News18 Bangla",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/Dydmbp8n/news18-bangla.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Sangsad TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://tplay.live/out/news/bd-sangsad.index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/RVR9YF6Y/sangsad.jpg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Somoy TV",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://tplay.live/out/news/somoy-tv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/HsVVr6FH/somoy-tv.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "WION",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://d7x8z4yuq42qn.cloudfront.net/index_1.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/ZKqXrCqn/wion.jpg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Zee 24 Ghanta",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zee24ghantaa-xiaomi/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/pdgPSKps/zee-24ghanta.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
 
     // ==================================================
     // SPORTS (9 channels)
@@ -321,7 +78,7 @@ window.rawChannels2 = [
         "name": "TNT Sports 1",
         "sources": [
             {
-                "name": "Auto",
+                "name": "Server 1",
                 "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
                 "type": "dash"
             }
@@ -335,7 +92,7 @@ window.rawChannels2 = [
         "name": "TNT Sports 2",
         "sources": [
             {
-                "name": "Auto",
+                "name": "Server 1",
                 "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
                 "type": "dash"
             }
@@ -349,7 +106,7 @@ window.rawChannels2 = [
         "name": "TNT Sports 3",
         "sources": [
             {
-                "name": "Auto",
+                "name": "Server 1",
                 "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd",
                 "type": "dash"
             }
@@ -363,7 +120,7 @@ window.rawChannels2 = [
         "name": "TNT Sports 4",
         "sources": [
             {
-                "name": "Auto",
+                "name": "Server 1",
                 "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/i2pcjr4pe5/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
                 "type": "dash"
             }
@@ -377,7 +134,7 @@ window.rawChannels2 = [
         "name": "Willow",
         "sources": [
             {
-                "name": "Server 2",
+                "name": "⚡ Fast (amagi)",
                 "url": "https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8",
                 "type": "hls"
             }
@@ -389,14 +146,14 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (16 channels)
+    // KIDS (16 channels, 1 with 🏆 gpcdn.net)
     // ==================================================
 
     {
         "name": "24/7 Bantul The Great",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/kids/bantul-the-great/index.m3u8",
                 "type": "hls"
             }
@@ -410,7 +167,7 @@ window.rawChannels2 = [
         "name": "24/7 Doraemon",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/kids/doraemon/index.m3u8",
                 "type": "hls"
             }
@@ -424,7 +181,7 @@ window.rawChannels2 = [
         "name": "24/7 Gopal Bhar",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/kids/gopal-bhar/index.m3u8",
                 "type": "hls"
             }
@@ -438,7 +195,7 @@ window.rawChannels2 = [
         "name": "24/7 Motu Patlu",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/kids/motu-patlu/index.m3u8",
                 "type": "hls"
             }
@@ -452,7 +209,7 @@ window.rawChannels2 = [
         "name": "24/7 Ninja Hattori",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/kids/ninja-hattori/index.m3u8",
                 "type": "hls"
             }
@@ -466,7 +223,7 @@ window.rawChannels2 = [
         "name": "24/7 Oggy and the Cockroaches",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/kids/oggy-and-the-cockroaches/index.m3u8",
                 "type": "hls"
             }
@@ -480,7 +237,7 @@ window.rawChannels2 = [
         "name": "Animax",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "⚡ Fast (amagi)",
                 "url": "https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8",
                 "type": "hls"
             }
@@ -527,7 +284,7 @@ window.rawChannels2 = [
         "name": "Discovery Kids",
         "sources": [
             {
-                "name": "Auto",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverykids2/default/manifest.mpd",
                 "type": "dash"
             }
@@ -623,14 +380,14 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (46 channels)
+    // ENTERTAINMENT (46 channels, 12 with 🏆 gpcdn.net)
     // ==================================================
 
     {
         "name": "24/7 CID Bengali",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/mix/cid-bengali.index.m3u8",
                 "type": "hls"
             }
@@ -644,7 +401,7 @@ window.rawChannels2 = [
         "name": "24/7 Crime Patrol Bengali",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/mix/crime-patrol-bengali.index.m3u8",
                 "type": "hls"
             }
@@ -658,7 +415,7 @@ window.rawChannels2 = [
         "name": "24/7 Humayun Ahmed",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/mix/humayun-ahmed/index.m3u8",
                 "type": "hls"
             }
@@ -672,7 +429,7 @@ window.rawChannels2 = [
         "name": "Abzy Dhakad",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/4fe6ab07a13543d6bdb2ec63b3e2df44/index.m3u8",
                 "type": "hls"
             }
@@ -700,7 +457,7 @@ window.rawChannels2 = [
         "name": "Ananda TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/anandatv.index.m3u8",
                 "type": "hls"
             }
@@ -714,7 +471,7 @@ window.rawChannels2 = [
         "name": "And TV",
         "sources": [
             {
-                "name": "DRM Source",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd",
                 "type": "dash"
             }
@@ -728,7 +485,7 @@ window.rawChannels2 = [
         "name": "Anmol TV",
         "sources": [
             {
-                "name": "SD",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmol/default/manifest.mpd",
                 "type": "dash"
             }
@@ -742,7 +499,7 @@ window.rawChannels2 = [
         "name": "Asian TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/asiantv.index.m3u8",
                 "type": "hls"
             }
@@ -756,7 +513,7 @@ window.rawChannels2 = [
         "name": "Bangla TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/banglatv.index.m3u8",
                 "type": "hls"
             }
@@ -770,7 +527,7 @@ window.rawChannels2 = [
         "name": "Bijoy TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/bijoytv.index.m3u8",
                 "type": "hls"
             }
@@ -784,7 +541,7 @@ window.rawChannels2 = [
         "name": "Boishakhi TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/boishakhitv.index.m3u8",
                 "type": "hls"
             }
@@ -798,7 +555,7 @@ window.rawChannels2 = [
         "name": "Bollywood Masala",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-masala/index.m3u8",
                 "type": "hls"
             }
@@ -812,7 +569,7 @@ window.rawChannels2 = [
         "name": "Channel 9",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/channel9.index.m3u8",
                 "type": "hls"
             }
@@ -826,7 +583,7 @@ window.rawChannels2 = [
         "name": "Channel i",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/channeli.index.m3u8",
                 "type": "hls"
             }
@@ -840,7 +597,7 @@ window.rawChannels2 = [
         "name": "Channel S",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/channels.index.m3u8",
                 "type": "hls"
             }
@@ -882,7 +639,7 @@ window.rawChannels2 = [
         "name": "Dangal",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://live-dangal.akamaized.net/liveabr/playlist.m3u8",
                 "type": "hls"
             }
@@ -896,7 +653,7 @@ window.rawChannels2 = [
         "name": "Dangal 2",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://live-dangal2.akamaized.net/liveabr/playlist.m3u8",
                 "type": "hls"
             }
@@ -910,7 +667,7 @@ window.rawChannels2 = [
         "name": "DD Bangla",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index.m3u8",
                 "type": "hls"
             }
@@ -924,7 +681,7 @@ window.rawChannels2 = [
         "name": "DD National",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8",
                 "type": "hls"
             }
@@ -938,7 +695,7 @@ window.rawChannels2 = [
         "name": "Deepto TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/deeptotv.index.m3u8",
                 "type": "hls"
             }
@@ -952,7 +709,7 @@ window.rawChannels2 = [
         "name": "Desh TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/deshtv.index.m3u8",
                 "type": "hls"
             }
@@ -966,7 +723,7 @@ window.rawChannels2 = [
         "name": "Ekushey ETV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/ekusheytv.index.m3u8",
                 "type": "hls"
             }
@@ -980,7 +737,7 @@ window.rawChannels2 = [
         "name": "Enterr10 Bangla",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://live-bangla.akamaized.net/liveabr/playlist.m3u8",
                 "type": "hls"
             }
@@ -994,7 +751,7 @@ window.rawChannels2 = [
         "name": "Global TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/globaltv.index.m3u8",
                 "type": "hls"
             }
@@ -1008,7 +765,7 @@ window.rawChannels2 = [
         "name": "Green TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/chunks.m3u8",
                 "type": "hls"
             }
@@ -1036,7 +793,7 @@ window.rawChannels2 = [
         "name": "Maasranga",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/maasranga.index.m3u8",
                 "type": "hls"
             }
@@ -1050,7 +807,7 @@ window.rawChannels2 = [
         "name": "Mohona Television",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/mohona.index.m3u8",
                 "type": "hls"
             }
@@ -1064,7 +821,7 @@ window.rawChannels2 = [
         "name": "My TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/mytv.index.m3u8",
                 "type": "hls"
             }
@@ -1078,7 +835,7 @@ window.rawChannels2 = [
         "name": "Nexus TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/nexustv.index.m3u8",
                 "type": "hls"
             }
@@ -1092,7 +849,7 @@ window.rawChannels2 = [
         "name": "NTV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/ntv.index.m3u8",
                 "type": "hls"
             }
@@ -1120,7 +877,7 @@ window.rawChannels2 = [
         "name": "RTV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/rtv.index.m3u8",
                 "type": "hls"
             }
@@ -1148,7 +905,7 @@ window.rawChannels2 = [
         "name": "SATV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/satv.index.m3u8",
                 "type": "hls"
             }
@@ -1204,7 +961,7 @@ window.rawChannels2 = [
         "name": "SRK TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
@@ -1232,7 +989,7 @@ window.rawChannels2 = [
         "name": "Zee Bangla",
         "sources": [
             {
-                "name": "SD",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebangla/default/manifest.mpd",
                 "type": "dash"
             }
@@ -1246,7 +1003,7 @@ window.rawChannels2 = [
         "name": "Zee TV",
         "sources": [
             {
-                "name": "HD",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv/default/manifest.mpd",
                 "type": "dash"
             }
@@ -1260,7 +1017,7 @@ window.rawChannels2 = [
         "name": "Zing",
         "sources": [
             {
-                "name": "SD",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zing/default/manifest.mpd",
                 "type": "dash"
             }
@@ -1272,14 +1029,257 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (27 channels)
+    // NEWS (17 channels, 3 with 🏆 gpcdn.net)
+    // ==================================================
+
+    {
+        "name": "ABP Ananda",
+        "sources": [
+            {
+                "name": "🏆 Fastest (gpcdn.net)",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/HjGW7XCJ/abp-ananda.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Al Jazeera",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live-hls-web-aje-fa.thehlive.com/AJE/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/50TpLNKY/aljazeera.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "ATN News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/atn-news/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/ZRFCxYdp/atn-news.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "BBC News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/bbc-news/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/s2679ZP4/bbc.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "BTV Chattogram",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/btv-chattagram.index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/mgvdN3ZW/btv-cht.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Channel 24",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/channel-24/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/QdqkCSFX/channel-24.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Ekattor Television",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/ekattor-tv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/jjtWwrG9/ekattor-tv.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Ekhon",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/bangladesh/ekhontv.index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/KcHxyPzx/ekhon.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Independent TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/independent-tv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/3rL7TH81/Independent-TV.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Jamuna Television",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/jamuna-tv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/dtR7Gh4t/jamuna-tv.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Kolkata TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt01.tangotv.in/KOLKATATV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/mkVfbs7P/kolkatatv.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "News 24",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/news-24/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/bNJny8Qw/news-24.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "News18 Bangla",
+        "sources": [
+            {
+                "name": "🏆 Fastest (gpcdn.net)",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/Dydmbp8n/news18-bangla.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Sangsad TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/bd-sangsad.index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/RVR9YF6Y/sangsad.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Somoy TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/somoy-tv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/HsVVr6FH/somoy-tv.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "WION",
+        "sources": [
+            {
+                "name": "🏆 Fastest (gpcdn.net)",
+                "url": "https://d7x8z4yuq42qn.cloudfront.net/index_1.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/ZKqXrCqn/wion.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Zee 24 Ghanta",
+        "sources": [
+            {
+                "name": "⚡ Fast (amagi)",
+                "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zee24ghantaa-xiaomi/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/pdgPSKps/zee-24ghanta.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+
+    // ==================================================
+    // MOVIE (27 channels, 12 with 🏆 gpcdn.net)
     // ==================================================
 
     {
         "name": "& Pictures HD",
         "sources": [
             {
-                "name": "Auto",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictures/default/manifest.mpd",
                 "type": "dash"
             }
@@ -1293,7 +1293,7 @@ window.rawChannels2 = [
         "name": "24/7 Bangla Movies",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/movies/bangla-movies/index.m3u8",
                 "type": "hls"
             }
@@ -1307,7 +1307,7 @@ window.rawChannels2 = [
         "name": "24/7 Bollywood Movies",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/movies/bollywood-movies/index.m3u8",
                 "type": "hls"
             }
@@ -1321,7 +1321,7 @@ window.rawChannels2 = [
         "name": "24/7 Dubbed Movies",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/movies/dubbed-movies/index.m3u8",
                 "type": "hls"
             }
@@ -1349,7 +1349,7 @@ window.rawChannels2 = [
         "name": "B4U Bhojpuri",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "⚡ Fast (wiseplayout)",
                 "url": "https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8",
                 "type": "hls"
             }
@@ -1363,12 +1363,12 @@ window.rawChannels2 = [
         "name": "B4U Kadak",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "⚡ Fast (wiseplayout)",
                 "url": "https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8",
                 "type": "hls"
             },
             {
-                "name": "Server 2",
+                "name": "⚡ Fast (amagi)",
                 "url": "https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/playlist.m3u8",
                 "type": "hls"
             }
@@ -1382,12 +1382,12 @@ window.rawChannels2 = [
         "name": "B4U Movies",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "⚡ Fast (wiseplayout)",
                 "url": "https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8",
                 "type": "hls"
             },
             {
-                "name": "Server 2",
+                "name": "⚡ Fast (amagi)",
                 "url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8",
                 "type": "hls"
             }
@@ -1401,7 +1401,7 @@ window.rawChannels2 = [
         "name": "Best Action",
         "sources": [
             {
-                "name": "Best-Action",
+                "name": "Server 1",
                 "url": "https://streams2.sofast.tv/ptnr-yupptv/title-BEST_ACTION_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9a4a5412-ca99-48d3-9013-d1811b95b9d2/manifest.m3u8",
                 "type": "hls"
             }
@@ -1415,7 +1415,7 @@ window.rawChannels2 = [
         "name": "Bhojpuri Cinema",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8",
                 "type": "hls"
             }
@@ -1429,7 +1429,7 @@ window.rawChannels2 = [
         "name": "Bollywood Classic",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/manifest.m3u8",
                 "type": "hls"
             }
@@ -1443,7 +1443,7 @@ window.rawChannels2 = [
         "name": "Bollywood HD",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/manifest.m3u8",
                 "type": "hls"
             }
@@ -1457,7 +1457,7 @@ window.rawChannels2 = [
         "name": "Cine Jomjomat",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "⚡ Fast (amagi)",
                 "url": "https://amg13779-amg13779c1-amgplt0173.playout.now3.amagi.tv/playlist/amg13779-amg13779c1-amgplt0173/playlist.m3u8",
                 "type": "hls"
             }
@@ -1541,7 +1541,7 @@ window.rawChannels2 = [
         "name": "MNX HD",
         "sources": [
             {
-                "name": "Auto",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd",
                 "type": "dash"
             }
@@ -1555,7 +1555,7 @@ window.rawChannels2 = [
         "name": "Movies Now HD",
         "sources": [
             {
-                "name": "Auto",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd",
                 "type": "dash"
             }
@@ -1569,7 +1569,7 @@ window.rawChannels2 = [
         "name": "NH BollyFlix",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://cc-r5hupcym5oehh.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-r5hupcym5oehh/SBUM/RunnTV/BollyFlix_IN/BollyFlix_IN.m3u8",
                 "type": "hls"
             }
@@ -1583,7 +1583,7 @@ window.rawChannels2 = [
         "name": "Shemaroo Bollywood",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-bollywood/playlist.m3u8",
                 "type": "hls"
             }
@@ -1597,7 +1597,7 @@ window.rawChannels2 = [
         "name": "South Station",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://cc-yw7ztecy8do3q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yw7ztecy8do3q/SS_IN.m3u8",
                 "type": "hls"
             }
@@ -1625,7 +1625,7 @@ window.rawChannels2 = [
         "name": "Zee Bangla Sonar",
         "sources": [
             {
-                "name": "Auto",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebanglacinema/default/manifest.mpd",
                 "type": "dash"
             }
@@ -1639,7 +1639,7 @@ window.rawChannels2 = [
         "name": "Zee Bollywood",
         "sources": [
             {
-                "name": "Auto",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood/default/manifest.mpd",
                 "type": "dash"
             }
@@ -1653,7 +1653,7 @@ window.rawChannels2 = [
         "name": "Zee Cinema",
         "sources": [
             {
-                "name": "Auto",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinema/default/manifest.mpd",
                 "type": "dash"
             }
@@ -1665,14 +1665,14 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (22 channels)
+    // MUSIC (22 channels, 4 with 🏆 gpcdn.net)
     // ==================================================
 
     {
         "name": "24/7 Adnan Sami",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/music/adnan-sami/index.m3u8",
                 "type": "hls"
             }
@@ -1686,7 +1686,7 @@ window.rawChannels2 = [
         "name": "24/7 Bhojpuri Songs",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/music/bhojpuri/index.m3u8",
                 "type": "hls"
             }
@@ -1700,7 +1700,7 @@ window.rawChannels2 = [
         "name": "24/7 Coke Studio Bangla",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/music/coke-studio-bangla/index.m3u8",
                 "type": "hls"
             }
@@ -1714,7 +1714,7 @@ window.rawChannels2 = [
         "name": "24/7 Dance Performance",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/music/dance-performance/index.m3u8",
                 "type": "hls"
             }
@@ -1728,7 +1728,7 @@ window.rawChannels2 = [
         "name": "24/7 Wind of Change",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/music/wind-of-change/index.m3u8",
                 "type": "hls"
             }
@@ -1742,7 +1742,7 @@ window.rawChannels2 = [
         "name": "9X Jalwa",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "⚡ Fast (wiseplayout)",
                 "url": "https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8",
                 "type": "hls"
             }
@@ -1756,7 +1756,7 @@ window.rawChannels2 = [
         "name": "9XM",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "⚡ Fast (wiseplayout)",
                 "url": "https://wiselp.wiseplayout.com/9XM/master.m3u8",
                 "type": "hls"
             }
@@ -1770,7 +1770,7 @@ window.rawChannels2 = [
         "name": "B4U Music",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "⚡ Fast (wiseplayout)",
                 "url": "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8",
                 "type": "hls"
             }
@@ -1787,6 +1787,11 @@ window.rawChannels2 = [
                 "name": "Server 1",
                 "url": "https://tplay.live/tplay/playout/209587/master.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209587/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/jSLNzXgM/Bengali-Beats.png",
@@ -1798,7 +1803,7 @@ window.rawChannels2 = [
         "name": "Deewana",
         "sources": [
             {
-                "name": "Originals",
+                "name": "Server 1",
                 "url": "https://tplay.live/originals/deewana/index.m3u8",
                 "type": "hls"
             }
@@ -1840,7 +1845,7 @@ window.rawChannels2 = [
         "name": "Mastiii",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d1taaads3ztvmu.cloudfront.net/120723/mastii/chunklist.m3u8",
                 "type": "hls"
             }
@@ -1868,7 +1873,7 @@ window.rawChannels2 = [
         "name": "NH BollyRaga",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://cc-up9j649x4thrj.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-up9j649x4thrj/SBUM/RunnTV/BollyRaga_IN/BollyRaga_IN.m3u8",
                 "type": "hls"
             }
@@ -1901,7 +1906,7 @@ window.rawChannels2 = [
         "name": "Saga Music Haryanvi",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music-haryanvi/master.m3u8",
                 "type": "hls"
             }
@@ -1943,7 +1948,7 @@ window.rawChannels2 = [
         "name": "Show Box",
         "sources": [
             {
-                "name": "Originals",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://epiconvh.akamaized.net/live/showbox/master.m3u8",
                 "type": "hls"
             }
@@ -1957,7 +1962,7 @@ window.rawChannels2 = [
         "name": "VEVO",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "⚡ Fast (amagi)",
                 "url": "https://amg00056-amg00056c9-rakuten-fr-3243.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevopopfr-rakutenfr/playlist.m3u8",
                 "type": "hls"
             }
@@ -1971,7 +1976,7 @@ window.rawChannels2 = [
         "name": "yrf MUSIC",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "⚡ Fast (amagi)",
                 "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
                 "type": "hls"
             }
@@ -1990,7 +1995,7 @@ window.rawChannels2 = [
         "name": "24/7 Bangla Kirtan",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/playlist/mix/bangla-kirtan/index.m3u8",
                 "type": "hls"
             }
@@ -2004,7 +2009,7 @@ window.rawChannels2 = [
         "name": "Ilm TV",
         "sources": [
             {
-                "name": "Originals",
+                "name": "Server 1",
                 "url": "https://tplay.live/originals/ilm-tv/index.m3u8",
                 "type": "hls"
             }
@@ -2032,7 +2037,7 @@ window.rawChannels2 = [
         "name": "Om Bangla",
         "sources": [
             {
-                "name": "Originals",
+                "name": "Server 1",
                 "url": "https://tplay.live/originals/om-bangla/index.m3u8",
                 "type": "hls"
             }
@@ -2072,7 +2077,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (5 channels)
+    // OTHERS (5 channels, 3 with 🏆 gpcdn.net)
     // ==================================================
 
     {
@@ -2093,7 +2098,7 @@ window.rawChannels2 = [
         "name": "Discovery",
         "sources": [
             {
-                "name": "Auto",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverychannel2/default/manifest.mpd",
                 "type": "dash"
             }
@@ -2107,7 +2112,7 @@ window.rawChannels2 = [
         "name": "History",
         "sources": [
             {
-                "name": "Auto",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_historyhd.mpd",
                 "type": "dash"
             }
@@ -2121,7 +2126,7 @@ window.rawChannels2 = [
         "name": "TLC",
         "sources": [
             {
-                "name": "Auto",
+                "name": "🏆 Fastest (gpcdn.net)",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverykids2/default/manifest.mpd",
                 "type": "dash"
             }
@@ -2146,3 +2151,10 @@ window.rawChannels2 = [
     },
 
 ];
+
+// SUMMARY - CDN PRIORITY VERSION
+// Total channels: 148
+// Channels with gpcdn.net: 35
+// Total sources: 155
+// Priority (gpcdn.net) sources: 35
+// Generated with CDN priority optimization
