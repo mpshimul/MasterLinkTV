@@ -1,19 +1,262 @@
-// Generated: 2026-01-14 14:07 UTC
-// Auto-generated channel list with multiple sources
-// Format compatible with TVPlay-style player
+// Generated: 2026-01-14 14:29 UTC
+// Sources checked with multi-method validation
+// Success rate: 154/195 (79.0%)
 
 window.rawChannels2 = [
 
     // ==================================================
-    // SPORTS - 9 channels (11 sources)
+    // NEWS (17 channels)
+    // ==================================================
+
+    {
+        "name": "ABP Ananda",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/HjGW7XCJ/abp-ananda.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Al Jazeera",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live-hls-web-aje-fa.thehlive.com/AJE/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/50TpLNKY/aljazeera.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "ATN News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/atn-news/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/ZRFCxYdp/atn-news.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "BBC News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/bbc-news/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/s2679ZP4/bbc.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "BTV Chattogram",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/btv-chattagram.index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/mgvdN3ZW/btv-cht.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Channel 24",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://tplay.live/out/news/channel-24/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/QdqkCSFX/channel-24.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Ekattor Television",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://tplay.live/out/news/ekattor-tv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/jjtWwrG9/ekattor-tv.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Ekhon",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/bangladesh/ekhontv.index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/KcHxyPzx/ekhon.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Independent TV",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://tplay.live/out/news/independent-tv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/3rL7TH81/Independent-TV.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Jamuna Television",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://tplay.live/out/news/jamuna-tv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/dtR7Gh4t/jamuna-tv.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Kolkata TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt01.tangotv.in/KOLKATATV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/mkVfbs7P/kolkatatv.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "News 24",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/news-24/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/bNJny8Qw/news-24.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "News18 Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/Dydmbp8n/news18-bangla.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Sangsad TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/bd-sangsad.index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/RVR9YF6Y/sangsad.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Somoy TV",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://tplay.live/out/news/somoy-tv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/HsVVr6FH/somoy-tv.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "WION",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://d7x8z4yuq42qn.cloudfront.net/index_1.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/ZKqXrCqn/wion.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Zee 24 Ghanta",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zee24ghantaa-xiaomi/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/pdgPSKps/zee-24ghanta.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+
+    // ==================================================
+    // SPORTS (9 channels)
     // ==================================================
 
     {
         "name": "Live 3",
         "sources": [
             {
-                "name": "Server 3",
-                "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
+                "name": "Server 1",
+                "url": "https://live-en.aisports.cc/moviebox/device01/playlist.m3u8",
                 "type": "hls"
             },
             {
@@ -22,8 +265,8 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
-                "name": "Server 1",
-                "url": "https://live-en.aisports.cc/moviebox/device01/playlist.m3u8",
+                "name": "Server 3",
+                "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -80,11 +323,7 @@ window.rawChannels2 = [
             {
                 "name": "Auto",
                 "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "d0f2e5c39e70c18f29bf77768a1ad89a",
-                    "key": "d6853c51fcf37a18905f0609972395d7"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://i.postimg.cc/m2zr04T2/tnt1.jpg",
@@ -98,11 +337,7 @@ window.rawChannels2 = [
             {
                 "name": "Auto",
                 "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "9f51f3dc6313ac8bc668e2d9d1c04dfa",
-                    "key": "74bc63e5a193454a91ca494975db33f9"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://i.postimg.cc/cCVdsK0P/tnt2.jpg",
@@ -116,11 +351,7 @@ window.rawChannels2 = [
             {
                 "name": "Auto",
                 "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "a93c1cbfdccd23233bac13540c693e7f",
-                    "key": "2f6ab2e6693eb847eff3c9da8f9d01fc"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://i.postimg.cc/Bvq4Qffp/tnt3.jpg",
@@ -134,11 +365,7 @@ window.rawChannels2 = [
             {
                 "name": "Auto",
                 "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/i2pcjr4pe5/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "192b1115da041585c77200128549efa1",
-                    "key": "634e10efe4abbb14be400a3ccbac0258"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://i.postimg.cc/SQwXQRTK/tnt4.jpg",
@@ -162,7 +389,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS - 15 channels (16 sources)
+    // KIDS (16 channels)
     // ==================================================
 
     {
@@ -267,13 +494,13 @@ window.rawChannels2 = [
         "name": "Cartoon Network",
         "sources": [
             {
-                "name": "Server 2",
-                "url": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/playlist.m3u8",
+                "name": "Server 1",
+                "url": "https://livecdn-bostaflix.global.ssl.fastly.net/live.php?id=8be5ec5d5d7c&e=.m3u8",
                 "type": "hls"
             },
             {
-                "name": "Server 1",
-                "url": "https://livecdn-bostaflix.global.ssl.fastly.net/live.php?id=8be5ec5d5d7c&e=.m3u8",
+                "name": "Server 2",
+                "url": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/playlist.m3u8",
                 "type": "hls"
             }
         ],
@@ -302,11 +529,7 @@ window.rawChannels2 = [
             {
                 "name": "Auto",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverykids2/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "601f58d4b7094d2baf78c85d1d9cb6c9",
-                    "key": "609e0cc03198455fa36fd2cc3e7f940d"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://i.postimg.cc/Gt38t22F/d-kids.jpg",
@@ -384,9 +607,23 @@ window.rawChannels2 = [
         "description": "Kids Channel"
     },
 
+    {
+        "name": "Zoo Moo",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn.skygo.mn/live/disk1/Zoomoo/HLSv3-FTA/Zoomoo.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/3J0Thmrb/zoo-moo.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
 
     // ==================================================
-    // ENTERTAINMENT - 46 channels (46 sources)
+    // ENTERTAINMENT (46 channels)
     // ==================================================
 
     {
@@ -479,11 +716,7 @@ window.rawChannels2 = [
             {
                 "name": "DRM Source",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "26df86eeebb04d7fbc45c948f76e81fd",
-                    "key": "5f3a23f1a73c4c96ababce5fffe7b06b"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://yt3.googleusercontent.com/6Hg2El_eMujZPFE550K1xXmX1h7s8QR-ZtylPKLHulf-UBUWmPFWG7SMSl-XNYFtlWlWpeuu=s900-c-k-c0x00ffffff-no-rj",
@@ -497,11 +730,7 @@ window.rawChannels2 = [
             {
                 "name": "SD",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmol/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "4023613457774cbeb71a62c339970e63",
-                    "key": "1c3e9fce5f014542be9cd1f749181204"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://i.postimg.cc/Jnd9k7Cy/anmol-tv.jpg",
@@ -1005,11 +1234,7 @@ window.rawChannels2 = [
             {
                 "name": "SD",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebangla/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "1df83e058b864da896c9288eef63b113",
-                    "key": "fc32f26239054b56aab48225305598fe"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://i.postimg.cc/wj9Q6Mj6/zee-bangla.jpg",
@@ -1023,11 +1248,7 @@ window.rawChannels2 = [
             {
                 "name": "HD",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ed068cf84f0640ccbc7c0e395c0a272e",
-                    "key": "bb722190f2bb446391020411a7d0828b"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://preview.redd.it/zee-tv-new-logo-v0-rdavl0od4j5f1.jpeg?auto=webp&s=23fc180397ed9368e1b7e637e5c6a6d350647b1f",
@@ -1041,11 +1262,7 @@ window.rawChannels2 = [
             {
                 "name": "SD",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zing/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "f0fb14eebe474a6ab74c8301d55a7224",
-                    "key": "f9f8b2e30704458b8db844a285ce32be"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://i.postimg.cc/cCn5tQc5/zing.jpg",
@@ -1055,264 +1272,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS - 18 channels (18 sources)
-    // ==================================================
-
-    {
-        "name": "ABP Ananda",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/HjGW7XCJ/abp-ananda.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Al Jazeera",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live-hls-web-aje-fa.thehlive.com/AJE/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/50TpLNKY/aljazeera.jpg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "ATN News",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://tplay.live/out/news/atn-news/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/ZRFCxYdp/atn-news.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "BBC News",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://tplay.live/out/news/bbc-news/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/s2679ZP4/bbc.jpg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "BTV Chattogram",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://tplay.live/out/news/btv-chattagram.index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/mgvdN3ZW/btv-cht.jpg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Channel 24",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://tplay.live/out/news/channel-24/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/QdqkCSFX/channel-24.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "DBC News",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/cJGD5HdQ/dbc.jpg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Ekattor Television",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://tplay.live/out/news/ekattor-tv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/jjtWwrG9/ekattor-tv.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Ekhon",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://tplay.live/out/bangladesh/ekhontv.index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/KcHxyPzx/ekhon.jpg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Independent TV",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://tplay.live/out/news/independent-tv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/3rL7TH81/Independent-TV.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Jamuna Television",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://tplay.live/out/news/jamuna-tv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/dtR7Gh4t/jamuna-tv.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Kolkata TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt01.tangotv.in/KOLKATATV/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/mkVfbs7P/kolkatatv.jpg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "News 24",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://tplay.live/out/news/news-24/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/bNJny8Qw/news-24.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "News18 Bangla",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/Dydmbp8n/news18-bangla.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Sangsad TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://tplay.live/out/news/bd-sangsad.index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/RVR9YF6Y/sangsad.jpg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Somoy TV",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://tplay.live/out/news/somoy-tv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/HsVVr6FH/somoy-tv.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "WION",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://d7x8z4yuq42qn.cloudfront.net/index_1.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/ZKqXrCqn/wion.jpg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Zee 24 Ghanta",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zee24ghantaa-xiaomi/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/pdgPSKps/zee-24ghanta.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-
-    // ==================================================
-    // MOVIE - 27 channels (29 sources)
+    // MOVIE (27 channels)
     // ==================================================
 
     {
@@ -1321,11 +1281,7 @@ window.rawChannels2 = [
             {
                 "name": "Auto",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictures/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "8dea532cabfe4f71ba20f62310e7949f",
-                    "key": "7a214a974e4f4d1d9bb66364d5f0cb92"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://i.postimg.cc/g22ZV7bZ/pictures.jpg",
@@ -1407,13 +1363,13 @@ window.rawChannels2 = [
         "name": "B4U Kadak",
         "sources": [
             {
-                "name": "Server 2",
-                "url": "https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/playlist.m3u8",
+                "name": "Server 1",
+                "url": "https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8",
                 "type": "hls"
             },
             {
-                "name": "Server 1",
-                "url": "https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8",
+                "name": "Server 2",
+                "url": "https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/playlist.m3u8",
                 "type": "hls"
             }
         ],
@@ -1426,13 +1382,13 @@ window.rawChannels2 = [
         "name": "B4U Movies",
         "sources": [
             {
-                "name": "Server 2",
-                "url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8",
+                "name": "Server 1",
+                "url": "https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8",
                 "type": "hls"
             },
             {
-                "name": "Server 1",
-                "url": "https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8",
+                "name": "Server 2",
+                "url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8",
                 "type": "hls"
             }
         ],
@@ -1554,6 +1510,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Lotus Macau",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/6q0JD7ZB/lotus-macau.png",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "MIX Hollywood",
         "sources": [
             {
@@ -1573,11 +1543,7 @@ window.rawChannels2 = [
             {
                 "name": "Auto",
                 "url": "https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "40f019b86241d23ef075633fd7f1e927",
-                    "key": "058dec845bd340178a388edd104a015e"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/vunjev.jpeg",
@@ -1591,11 +1557,7 @@ window.rawChannels2 = [
             {
                 "name": "Auto",
                 "url": "https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "40f019b86241d23ef075633fd7f1e927",
-                    "key": "058dec845bd340178a388edd104a015e"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/wthfwe.jpeg",
@@ -1613,20 +1575,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/DfH3xWQ4/nh-bolly-flix.jpg",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Sanonda",
-        "sources": [
-            {
-                "name": "Playlist",
-                "url": "https://live.sanonda.tv/sanonda/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/TwTnMYrW/sananda.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -1679,11 +1627,7 @@ window.rawChannels2 = [
             {
                 "name": "Auto",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebanglacinema/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "fbbfd9ce4bbe4d818b16df7dfe89f05b",
-                    "key": "1e96d0f88ef740e982d6f6105721c8bc"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://i.postimg.cc/GmzS2s5Y/zbs.jpg",
@@ -1697,11 +1641,7 @@ window.rawChannels2 = [
             {
                 "name": "Auto",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "e61523260c614746b25b9a5523fe9a39",
-                    "key": "72ddbf37f76f49acbb8e140e7279e7a1"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://i.postimg.cc/DzCBJpYs/z-bollywood.jpg",
@@ -1715,11 +1655,7 @@ window.rawChannels2 = [
             {
                 "name": "Auto",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinema/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "43513b13f4b542e39c9265921dfc1726",
-                    "key": "b0b2678bcd274c37b888a6c987d502ed"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://i.postimg.cc/k47QtjRg/zc.jpg",
@@ -1729,7 +1665,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC - 23 channels (25 sources)
+    // MUSIC (22 channels)
     // ==================================================
 
     {
@@ -1851,11 +1787,6 @@ window.rawChannels2 = [
                 "name": "Server 1",
                 "url": "https://tplay.live/tplay/playout/209587/master.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209587/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/jSLNzXgM/Bengali-Beats.png",
@@ -1915,20 +1846,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/L4f6PQnh/mastiii.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "Music Bangla",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla2025.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/8kRX8jMd/music-bangla.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -2066,7 +1983,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS - 6 channels (6 sources)
+    // RELIGIOUS (6 channels)
     // ==================================================
 
     {
@@ -2155,7 +2072,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS - 5 channels (5 sources)
+    // OTHERS (5 channels)
     // ==================================================
 
     {
@@ -2178,11 +2095,7 @@ window.rawChannels2 = [
             {
                 "name": "Auto",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverychannel2/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "b70a8cf9450c4d6484b4ac4d3c6761c0",
-                    "key": "0908be844260409cbac180bf0181da40"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://i.postimg.cc/SjFpx6XX/discovery.jpg",
@@ -2196,11 +2109,7 @@ window.rawChannels2 = [
             {
                 "name": "Auto",
                 "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_historyhd.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "a7724b7ca2604c33bb2e963a0319968a",
-                    "key": "6f97e3e2eb2bade626e0281ec01d3675"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://i.postimg.cc/LsC3pgKH/history.jpg",
@@ -2214,11 +2123,7 @@ window.rawChannels2 = [
             {
                 "name": "Auto",
                 "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverykids2/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "601f58d4b7094d2baf78c85d1d9cb6c9",
-                    "key": "609e0cc03198455fa36fd2cc3e7f940d"
-                }
+                "type": "dash"
             }
         ],
         "img": "https://i.postimg.cc/63p7Yght/tlc-1.jpg",
@@ -2241,9 +2146,3 @@ window.rawChannels2 = [
     },
 
 ];
-
-// SUMMARY
-// Total channels: 149
-// Total sources: 156
-// Avg sources per channel: 1.0
-// Generated by channel-scraper.py
