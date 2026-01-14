@@ -1,4 +1,4 @@
-// Generated: 2026-01-13 21:37 UTC
+// Generated: 2026-01-14 01:20 UTC
 window.rawChannels2 = [
   // --- SPORTS ---
   { group: "Sports", name: "Live 3", stream: "https://live-en.aisports.cc/moviebox/device01/playlist.m3u8", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s" },
@@ -58,7 +58,6 @@ window.rawChannels2 = [
   { group: "Entertainment", name: "Green TV", stream: "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/chunks.m3u8", logo: "https://media.licdn.com/dms/image/v2/D560BAQHElejP-dKJhg/company-logo_200_200/company-logo_200_200/0/1667384842286/green_tv_digital_logo?e=2147483647&v=beta&t=W0t2EpmzgDhkORaqs2SaZt0-LaRukY7CzF82EmhnAK8" },
   { group: "Entertainment", name: "Khushboo Bangla", stream: "https://cdn-4.pishow.tv/live/1473/master.m3u8", logo: "https://i.postimg.cc/brJdCXyf/khushboo-bangla.jpg" },
   { group: "Entertainment", name: "Maasranga", stream: "https://tplay.live/out/bangladesh/maasranga.index.m3u8", logo: "https://i.postimg.cc/h41QbPKw/maasranga.jpg" },
-  { group: "Entertainment", name: "Mohona Television", stream: "https://tplay.live/out/bangladesh/mohona.index.m3u8", logo: "https://i.postimg.cc/vBTXWxQF/mohona.jpg" },
   { group: "Entertainment", name: "My TV", stream: "https://tplay.live/out/bangladesh/mytv.index.m3u8", logo: "https://i.postimg.cc/k4cM8GWx/mytv.jpg" },
   { group: "Entertainment", name: "Nexus TV", stream: "https://tplay.live/out/bangladesh/nexustv.index.m3u8", logo: "https://i.postimg.cc/nLFqtbRY/nexustv.jpg" },
   { group: "Entertainment", name: "NTV", stream: "https://tplay.live/out/bangladesh/ntv.index.m3u8", logo: "https://i.postimg.cc/xjZDZLjt/ntvbd.jpg" },
@@ -81,6 +80,7 @@ window.rawChannels2 = [
   { group: "News", name: "BBC News", stream: "https://tplay.live/out/news/bbc-news/index.m3u8", logo: "https://i.postimg.cc/s2679ZP4/bbc.jpg" },
   { group: "News", name: "BTV Chattogram", stream: "https://tplay.live/out/news/btv-chattagram.index.m3u8", logo: "https://i.postimg.cc/mgvdN3ZW/btv-cht.jpg" },
   { group: "News", name: "Channel 24", stream: "https://tplay.live/out/news/channel-24/index.m3u8", logo: "https://i.postimg.cc/QdqkCSFX/channel-24.png" },
+  { group: "News", name: "DBC News", stream: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8", logo: "https://i.postimg.cc/cJGD5HdQ/dbc.jpg" },
   { group: "News", name: "Ekattor Television", stream: "https://tplay.live/out/news/ekattor-tv/index.m3u8", logo: "https://i.postimg.cc/jjtWwrG9/ekattor-tv.png" },
   { group: "News", name: "Ekhon", stream: "https://tplay.live/out/bangladesh/ekhontv.index.m3u8", logo: "https://i.postimg.cc/KcHxyPzx/ekhon.jpg" },
   { group: "News", name: "Independent TV", stream: "https://tplay.live/out/news/independent-tv/index.m3u8", logo: "https://i.postimg.cc/3rL7TH81/Independent-TV.png" },
@@ -135,6 +135,7 @@ window.rawChannels2 = [
   { group: "Music", name: "Deluxe Music", stream: "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8", logo: "https://i.postimg.cc/9F9d3TyJ/d-music.jpg" },
   { group: "Music", name: "Dhoom Music Bangla", stream: "https://cdn-1.pishow.tv/live/1456/master.m3u8", logo: "https://i.postimg.cc/26RpwgN5/dmb-music.jpg" },
   { group: "Music", name: "Mastiii", stream: "https://d1taaads3ztvmu.cloudfront.net/120723/mastii/chunklist.m3u8", logo: "https://i.postimg.cc/L4f6PQnh/mastiii.jpg" },
+  { group: "Music", name: "Music Bangla", stream: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla2025.stream/tracks-v1a1/mono.m3u8", logo: "https://i.postimg.cc/8kRX8jMd/music-bangla.jpg" },
   { group: "Music", name: "Music India", stream: "https://cdn-2.pishow.tv/live/226/master.m3u8", logo: "https://i.postimg.cc/QNYG5Kz9/music-india.jpg" },
   { group: "Music", name: "NH BollyRaga", stream: "https://cc-up9j649x4thrj.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-up9j649x4thrj/SBUM/RunnTV/BollyRaga_IN/BollyRaga_IN.m3u8", logo: "https://i.postimg.cc/7PmcCFcy/nh-bollyraga.jpg" },
   { group: "Music", name: "Oxygen Music", stream: "https://tplay.live/tplay/playout/209901/master.m3u8", logo: "https://i.postimg.cc/8z1kS0G5/Oxygen-Music.jpg" },
@@ -147,6 +148,7 @@ window.rawChannels2 = [
   // --- RELIGIOUS ---
   { group: "Religious", name: "24/7 Bangla Kirtan", stream: "https://tplay.live/playlist/mix/bangla-kirtan/index.m3u8", logo: "https://i.postimg.cc/QMtrZNRk/bangla-kirtan.jpg" },
   { group: "Religious", name: "Ilm TV", stream: "https://tplay.live/originals/ilm-tv/index.m3u8", logo: "https://i.postimg.cc/tTkx4MWv/ilm.jpg" },
+  { group: "Religious", name: "Islam Bangla", stream: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/islamchbangla.stream/tracks-v1a1/mono.m3u8", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhxUqZi3tzsjdt5rn7AWyC2CQgH8z14fd2g&s" },
   { group: "Religious", name: "Madani Bangla", stream: "https://tplay.live/out/bangladesh/madanibangla.index.m3u8", logo: "https://i.postimg.cc/BvfMPnSP/madani-bangla.jpg" },
   { group: "Religious", name: "Om Bangla", stream: "https://tplay.live/originals/om-bangla/index.m3u8", logo: "https://i.postimg.cc/jjmyWm0m/om-bangla-2.jpg" },
   { group: "Religious", name: "Peace TV", stream: "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8", logo: "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf" },
