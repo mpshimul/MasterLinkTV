@@ -1,4 +1,4 @@
-// Generated: 2026-01-14 06:28 UTC
+// Generated: 2026-01-14 12:36 UTC
 window.rawChannels2 = [
   // --- SPORTS ---
   { group: "Sports", name: "Live 3", stream: "https://live-en.aisports.cc/moviebox/device01/playlist.m3u8", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s" },
@@ -26,7 +26,6 @@ window.rawChannels2 = [
   { group: "Kids", name: "Pogo", stream: "https://livecdn-bostaflix.global.ssl.fastly.net/live.php?id=667189f69164&e=.m3u8", logo: "https://i.postimg.cc/L5tFKBL4/pogo.jpg" },
   { group: "Kids", name: "Rongeen TV", stream: "https://cdn-4.pishow.tv/live/1029/master.m3u8", logo: "https://i.postimg.cc/Z5bg3drK/rongeen.jpg" },
   { group: "Kids", name: "Sony Yay", stream: "https://falconftp.noobmaster.xyz/SONYYAY/index.m3u8", logo: "https://i.postimg.cc/1413YzhR/yay.jpg" },
-  { group: "Kids", name: "Zoo Moo", stream: "https://cdn.skygo.mn/live/disk1/Zoomoo/HLSv3-FTA/Zoomoo.m3u8", logo: "https://i.postimg.cc/3J0Thmrb/zoo-moo.jpg" },
   // --- ENTERTAINMENT ---
   { group: "Entertainment", name: "24/7 CID Bengali", stream: "https://tplay.live/playlist/mix/cid-bengali.index.m3u8", logo: "https://i.postimg.cc/nz4WS5nT/cid-bengali.jpg" },
   { group: "Entertainment", name: "24/7 Crime Patrol Bengali", stream: "https://tplay.live/playlist/mix/crime-patrol-bengali.index.m3u8", logo: "https://i.postimg.cc/FFSwCT9W/crime-patrol.jpg" },
@@ -65,6 +64,7 @@ window.rawChannels2 = [
   { group: "Entertainment", name: "R Plus Gold", stream: "https://mumt03.tangotv.in/RPLUSGOLD/index.m3u8", logo: "https://i.postimg.cc/fbWdLj4y/rplusgold.jpg" },
   { group: "Entertainment", name: "RTV", stream: "https://tplay.live/out/bangladesh/rtv.index.m3u8", logo: "https://i.postimg.cc/Qxh9wGTV/rtv.jpg" },
   { group: "Entertainment", name: "Ruposhi Bangla", stream: "https://cdn-4.pishow.tv/live/1039/master.m3u8", logo: "https://i.postimg.cc/8c1LTnTZ/ruposhi-bangla.jpg" },
+  { group: "Entertainment", name: "SATV", stream: "https://tplay.live/out/bangladesh/satv.index.m3u8", logo: "https://i.postimg.cc/02nTdDvr/satv.jpg" },
   { group: "Entertainment", name: "Sony Aath", stream: "https://livecdn-bostaflix.global.ssl.fastly.net/live.php?id=707e4efbda57&e=.m3u8", logo: "https://i.postimg.cc/y8WtVLd6/sony-aath.jpg" },
   { group: "Entertainment", name: "Sony Entertainment", stream: "https://livecdn-bostaflix.global.ssl.fastly.net/live.php?id=2604a4cd22ee&e=.m3u8", logo: "https://i.postimg.cc/ydq1SThV/set.jpg" },
   { group: "Entertainment", name: "Sony Sab", stream: "https://livecdn-bostaflix.global.ssl.fastly.net/live.php?id=978d421e4729&e=.m3u8", logo: "https://i.postimg.cc/kMQ4KLhT/sab.jpg" },
@@ -80,7 +80,6 @@ window.rawChannels2 = [
   { group: "News", name: "BBC News", stream: "https://tplay.live/out/news/bbc-news/index.m3u8", logo: "https://i.postimg.cc/s2679ZP4/bbc.jpg" },
   { group: "News", name: "BTV Chattogram", stream: "https://tplay.live/out/news/btv-chattagram.index.m3u8", logo: "https://i.postimg.cc/mgvdN3ZW/btv-cht.jpg" },
   { group: "News", name: "Channel 24", stream: "https://tplay.live/out/news/channel-24/index.m3u8", logo: "https://i.postimg.cc/QdqkCSFX/channel-24.png" },
-  { group: "News", name: "DBC News", stream: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8", logo: "https://i.postimg.cc/cJGD5HdQ/dbc.jpg" },
   { group: "News", name: "Ekattor Television", stream: "https://tplay.live/out/news/ekattor-tv/index.m3u8", logo: "https://i.postimg.cc/jjtWwrG9/ekattor-tv.png" },
   { group: "News", name: "Ekhon", stream: "https://tplay.live/out/bangladesh/ekhontv.index.m3u8", logo: "https://i.postimg.cc/KcHxyPzx/ekhon.jpg" },
   { group: "News", name: "Independent TV", stream: "https://tplay.live/out/news/independent-tv/index.m3u8", logo: "https://i.postimg.cc/3rL7TH81/Independent-TV.png" },
@@ -109,7 +108,6 @@ window.rawChannels2 = [
   { group: "Movie", name: "Goldmines", stream: "https://cdn-2.pishow.tv/live/1459/master.m3u8", logo: "https://i.postimg.cc/VLCpyP4j/pishow-1459.jpg" },
   { group: "Movie", name: "Goldmines Bollywood", stream: "https://mumt03.tangotv.in/GOLDMINESBOLLYWOOD/index.m3u8", logo: "https://yt3.googleusercontent.com/BMAiZnOGPMbMXWFW-lYwgp1-qJD6iPbBtB6YS3Kyr9lPM1jlegCl83vHjyasFEjPJrBYAsaeLQ=s900-c-k-c0x00ffffff-no-rj" },
   { group: "Movie", name: "Goldmines Movies", stream: "https://cdn-2.pishow.tv/live/1461/master.m3u8", logo: "https://yt3.googleusercontent.com/d66J-MMZ06-55gkF5maclPGB5f5j1L0SAs3iWnl3lhoswlWrJ67wD2a3mZGkgHgt-W3kMrIT=s900-c-k-c0x00ffffff-no-rj" },
-  { group: "Movie", name: "Lotus Macau", stream: "https://cdn.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8", logo: "https://i.postimg.cc/6q0JD7ZB/lotus-macau.png" },
   { group: "Movie", name: "MIX Hollywood", stream: "https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8", logo: "https://i.postimg.cc/KvFqjytv/mix-h.jpg" },
   { group: "Movie", name: "MNX HD", stream: "https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd", logo: "https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/vunjev.jpeg" },
   { group: "Movie", name: "Movies Now HD", stream: "https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd", logo: "https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/wthfwe.jpeg" },
@@ -135,7 +133,6 @@ window.rawChannels2 = [
   { group: "Music", name: "Deluxe Music", stream: "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8", logo: "https://i.postimg.cc/9F9d3TyJ/d-music.jpg" },
   { group: "Music", name: "Dhoom Music Bangla", stream: "https://cdn-1.pishow.tv/live/1456/master.m3u8", logo: "https://i.postimg.cc/26RpwgN5/dmb-music.jpg" },
   { group: "Music", name: "Mastiii", stream: "https://d1taaads3ztvmu.cloudfront.net/120723/mastii/chunklist.m3u8", logo: "https://i.postimg.cc/L4f6PQnh/mastiii.jpg" },
-  { group: "Music", name: "Music Bangla", stream: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla2025.stream/tracks-v1a1/mono.m3u8", logo: "https://i.postimg.cc/8kRX8jMd/music-bangla.jpg" },
   { group: "Music", name: "Music India", stream: "https://cdn-2.pishow.tv/live/226/master.m3u8", logo: "https://i.postimg.cc/QNYG5Kz9/music-india.jpg" },
   { group: "Music", name: "NH BollyRaga", stream: "https://cc-up9j649x4thrj.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-up9j649x4thrj/SBUM/RunnTV/BollyRaga_IN/BollyRaga_IN.m3u8", logo: "https://i.postimg.cc/7PmcCFcy/nh-bollyraga.jpg" },
   { group: "Music", name: "Oxygen Music", stream: "https://tplay.live/tplay/playout/209901/master.m3u8", logo: "https://i.postimg.cc/8z1kS0G5/Oxygen-Music.jpg" },
@@ -148,7 +145,6 @@ window.rawChannels2 = [
   // --- RELIGIOUS ---
   { group: "Religious", name: "24/7 Bangla Kirtan", stream: "https://tplay.live/playlist/mix/bangla-kirtan/index.m3u8", logo: "https://i.postimg.cc/QMtrZNRk/bangla-kirtan.jpg" },
   { group: "Religious", name: "Ilm TV", stream: "https://tplay.live/originals/ilm-tv/index.m3u8", logo: "https://i.postimg.cc/tTkx4MWv/ilm.jpg" },
-  { group: "Religious", name: "Islam Bangla", stream: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/islamchbangla.stream/tracks-v1a1/mono.m3u8", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhxUqZi3tzsjdt5rn7AWyC2CQgH8z14fd2g&s" },
   { group: "Religious", name: "Madani Bangla", stream: "https://tplay.live/out/bangladesh/madanibangla.index.m3u8", logo: "https://i.postimg.cc/BvfMPnSP/madani-bangla.jpg" },
   { group: "Religious", name: "Om Bangla", stream: "https://tplay.live/originals/om-bangla/index.m3u8", logo: "https://i.postimg.cc/jjmyWm0m/om-bangla-2.jpg" },
   { group: "Religious", name: "Peace TV", stream: "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8", logo: "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf" },
