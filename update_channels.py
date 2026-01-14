@@ -14,7 +14,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 INPUT_URL = "https://tplay.live/main.js" 
 OUTPUT_FILE = "ch2.js"
 DEBUG_FILE = "debug_log.txt"
-GROUP_ORDER = ["Bangla", "Sports", "Kids", "Entertainment", "News", "Movie", "Music", "Religious", "Hindi", "Movies", "Documentary", "Others"]
+GROUP_ORDER = ["Bangla", "News", "Sports", "Kids", "Entertainment", "Movie", "Music", "Religious", "Hindi", "Movies", "Documentary", "Others"]
 MAX_WORKERS = 8
 
 # Priority domains - streams from these domains will be placed FIRST
