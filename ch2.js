@@ -1,4 +1,4 @@
-// Generated: 2026-01-14 01:20 UTC
+// Generated: 2026-01-14 06:28 UTC
 window.rawChannels2 = [
   // --- SPORTS ---
   { group: "Sports", name: "Live 3", stream: "https://live-en.aisports.cc/moviebox/device01/playlist.m3u8", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s" },
@@ -58,13 +58,13 @@ window.rawChannels2 = [
   { group: "Entertainment", name: "Green TV", stream: "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/chunks.m3u8", logo: "https://media.licdn.com/dms/image/v2/D560BAQHElejP-dKJhg/company-logo_200_200/company-logo_200_200/0/1667384842286/green_tv_digital_logo?e=2147483647&v=beta&t=W0t2EpmzgDhkORaqs2SaZt0-LaRukY7CzF82EmhnAK8" },
   { group: "Entertainment", name: "Khushboo Bangla", stream: "https://cdn-4.pishow.tv/live/1473/master.m3u8", logo: "https://i.postimg.cc/brJdCXyf/khushboo-bangla.jpg" },
   { group: "Entertainment", name: "Maasranga", stream: "https://tplay.live/out/bangladesh/maasranga.index.m3u8", logo: "https://i.postimg.cc/h41QbPKw/maasranga.jpg" },
+  { group: "Entertainment", name: "Mohona Television", stream: "https://tplay.live/out/bangladesh/mohona.index.m3u8", logo: "https://i.postimg.cc/vBTXWxQF/mohona.jpg" },
   { group: "Entertainment", name: "My TV", stream: "https://tplay.live/out/bangladesh/mytv.index.m3u8", logo: "https://i.postimg.cc/k4cM8GWx/mytv.jpg" },
   { group: "Entertainment", name: "Nexus TV", stream: "https://tplay.live/out/bangladesh/nexustv.index.m3u8", logo: "https://i.postimg.cc/nLFqtbRY/nexustv.jpg" },
   { group: "Entertainment", name: "NTV", stream: "https://tplay.live/out/bangladesh/ntv.index.m3u8", logo: "https://i.postimg.cc/xjZDZLjt/ntvbd.jpg" },
   { group: "Entertainment", name: "R Plus Gold", stream: "https://mumt03.tangotv.in/RPLUSGOLD/index.m3u8", logo: "https://i.postimg.cc/fbWdLj4y/rplusgold.jpg" },
   { group: "Entertainment", name: "RTV", stream: "https://tplay.live/out/bangladesh/rtv.index.m3u8", logo: "https://i.postimg.cc/Qxh9wGTV/rtv.jpg" },
   { group: "Entertainment", name: "Ruposhi Bangla", stream: "https://cdn-4.pishow.tv/live/1039/master.m3u8", logo: "https://i.postimg.cc/8c1LTnTZ/ruposhi-bangla.jpg" },
-  { group: "Entertainment", name: "SATV", stream: "https://tplay.live/out/bangladesh/satv.index.m3u8", logo: "https://i.postimg.cc/02nTdDvr/satv.jpg" },
   { group: "Entertainment", name: "Sony Aath", stream: "https://livecdn-bostaflix.global.ssl.fastly.net/live.php?id=707e4efbda57&e=.m3u8", logo: "https://i.postimg.cc/y8WtVLd6/sony-aath.jpg" },
   { group: "Entertainment", name: "Sony Entertainment", stream: "https://livecdn-bostaflix.global.ssl.fastly.net/live.php?id=2604a4cd22ee&e=.m3u8", logo: "https://i.postimg.cc/ydq1SThV/set.jpg" },
   { group: "Entertainment", name: "Sony Sab", stream: "https://livecdn-bostaflix.global.ssl.fastly.net/live.php?id=978d421e4729&e=.m3u8", logo: "https://i.postimg.cc/kMQ4KLhT/sab.jpg" },
