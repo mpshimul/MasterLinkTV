@@ -1,8 +1,265 @@
-// Generated: 2026-01-14 14:54 UTC
+// Generated: 2026-01-14 17:20 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
+
+    // ==================================================
+    // NEWS (18 channels)
+    // ==================================================
+
+    {
+        "name": "ABP Ananda",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/HjGW7XCJ/abp-ananda.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Al Jazeera",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live-hls-web-aje-fa.thehlive.com/AJE/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/50TpLNKY/aljazeera.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "ATN News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/atn-news/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/ZRFCxYdp/atn-news.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "BBC News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/bbc-news/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/s2679ZP4/bbc.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "BTV Chattogram",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/btv-chattagram.index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/mgvdN3ZW/btv-cht.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Channel 24",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://tplay.live/out/news/channel-24/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/QdqkCSFX/channel-24.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "DBC News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/cJGD5HdQ/dbc.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Ekattor Television",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://tplay.live/out/news/ekattor-tv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/jjtWwrG9/ekattor-tv.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Ekhon",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/bangladesh/ekhontv.index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/KcHxyPzx/ekhon.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Independent TV",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://tplay.live/out/news/independent-tv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/3rL7TH81/Independent-TV.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Jamuna Television",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://tplay.live/out/news/jamuna-tv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/dtR7Gh4t/jamuna-tv.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Kolkata TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt01.tangotv.in/KOLKATATV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/mkVfbs7P/kolkatatv.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "News 24",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/news-24/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/bNJny8Qw/news-24.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "News18 Bangla",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/Dydmbp8n/news18-bangla.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Sangsad TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/out/news/bd-sangsad.index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/RVR9YF6Y/sangsad.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Somoy TV",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://tplay.live/out/news/somoy-tv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/HsVVr6FH/somoy-tv.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "WION",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://d7x8z4yuq42qn.cloudfront.net/index_1.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/ZKqXrCqn/wion.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Zee 24 Ghanta",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zee24ghantaa-xiaomi/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/pdgPSKps/zee-24ghanta.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
 
     // ==================================================
     // SPORTS (9 channels, 4 with 🔐 DRM)
@@ -2080,7 +2337,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (6 channels)
+    // RELIGIOUS (7 channels)
     // ==================================================
 
     {
@@ -2107,6 +2364,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/tTkx4MWv/ilm.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Islam Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/islamchbangla.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhxUqZi3tzsjdt5rn7AWyC2CQgH8z14fd2g&s",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -2257,7 +2528,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 150
+// Total channels: 169
 // Channels with DRM: 19
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
