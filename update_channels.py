@@ -5,6 +5,7 @@ import urllib3
 import json
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import time
 
 # Suppress SSL warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -12,116 +13,206 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # --- SETTINGS ---
 INPUT_URL = "https://tplay.live/main.js" 
 OUTPUT_FILE = "ch2.js"
-GROUP_ORDER = ["Bangla", "Sports", "Kids", "Entertainment", "News", "Movie", "Music", "Religious", "Hindi", "Movies", "Documentary", "Others"]
-MAX_WORKERS = 15  # Reduce workers for better resource management
-TIMEOUT = 5  # Reduce timeout for faster checking
+DEBUG_FILE = "debug_log.txt"
+GROUP_ORDER = ["Bangla", "News", "Sports", "Kids", "Entertainment", "Movie", "Music", "Religious", "Hindi", "Movies", "Documentary", "Others"]
+MAX_WORKERS = 10  # Reduce for more reliable checking
+TIMEOUT = 10
+DEBUG_MODE = True  # Set to True to see what's being skipped
 
-def is_stream_alive(url):
-    """Check if a specific stream URL is active (optimized version)."""
+def log_debug(message):
+    """Log debug information if DEBUG_MODE is enabled."""
+    if DEBUG_MODE:
+        timestamp = datetime.now().strftime("%H:%M:%S")
+        with open(DEBUG_FILE, "a", encoding="utf-8") as f:
+            f.write(f"[{timestamp}] {message}\n")
+        print(message)
+
+def is_stream_alive_verbose(url, source_name=""):
+    """Check if a stream is alive with verbose debugging."""
     headers = {
-        "User-Agent": "VLC/3.0.20 LibVLC/3.0.20",
-        "Range": "bytes=0-4096",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
         "Accept": "*/*",
-        "Accept-Encoding": "identity",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Origin": "https://tplay.live",
+        "Referer": "https://tplay.live/",
         "Connection": "close"
     }
     
+    methods_tried = []
+    
     try:
-        with requests.Session() as session:
-            r = session.get(
+        # METHOD 1: Try HEAD first (fastest)
+        try:
+            start = time.time()
+            r = requests.head(
                 url, 
                 headers=headers, 
-                timeout=TIMEOUT, 
+                timeout=5, 
+                verify=False,
+                allow_redirects=True
+            )
+            elapsed = time.time() - start
+            
+            methods_tried.append(f"HEAD: {r.status_code} ({elapsed:.2f}s)")
+            
+            if r.status_code in (200, 206, 302, 301, 307, 308):
+                content_type = r.headers.get('Content-Type', '')
+                location = r.headers.get('Location', '')
+                
+                # Check if it looks like a stream
+                if 'mpegurl' in content_type or 'video/' in content_type or 'dash' in content_type:
+                    log_debug(f"✅ {source_name}: HEAD success - {content_type}")
+                    return True
+                    
+                if location:
+                    log_debug(f"✅ {source_name}: HEAD redirect to {location[:50]}...")
+                    return True
+                    
+                if r.status_code == 200:
+                    log_debug(f"✅ {source_name}: HEAD 200 OK")
+                    return True
+        except Exception as e:
+            methods_tried.append(f"HEAD failed: {type(e).__name__}")
+        
+        # METHOD 2: Try GET with small range
+        try:
+            range_headers = headers.copy()
+            range_headers["Range"] = "bytes=0-1024"  # Just 1KB
+            
+            start = time.time()
+            r = requests.get(
+                url, 
+                headers=range_headers, 
+                timeout=6, 
                 stream=True, 
                 verify=False,
                 allow_redirects=True
             )
+            elapsed = time.time() - start
+            
+            methods_tried.append(f"GET(range): {r.status_code} ({elapsed:.2f}s)")
             
             if r.status_code in (200, 206):
-                for chunk in r.iter_content(chunk_size=1024):
-                    if chunk: 
-                        # Quick check for HLS
-                        if b'#EXTM3U' in chunk[:100]:
-                            return True
-                        # For DASH/MPD
-                        if b'MPD' in chunk[:100] or b'<?xml' in chunk[:100]:
-                            return True
-                        # Any valid data counts
+                chunk = next(r.iter_content(chunk_size=512), None)
+                if chunk:
+                    chunk_str = chunk[:100].decode('ascii', errors='ignore')
+                    if '#EXTM3U' in chunk_str or 'MPD' in chunk_str:
+                        log_debug(f"✅ {source_name}: GET(range) - stream detected")
                         return True
-                return False
-            else:
-                return False
-                
-    except Exception:
+                    else:
+                        log_debug(f"⚠️ {source_name}: GET(range) got data but not stream signature: {chunk_str[:50]}")
+                        return True  # Still return True if we got data
+        except Exception as e:
+            methods_tried.append(f"GET(range) failed: {type(e).__name__}")
+        
+        # METHOD 3: Last resort - try full GET but close quickly
+        try:
+            start = time.time()
+            r = requests.get(
+                url, 
+                headers=headers, 
+                timeout=4, 
+                verify=False,
+                allow_redirects=True
+            )
+            elapsed = time.time() - start
+            
+            methods_tried.append(f"GET: {r.status_code} ({elapsed:.2f}s)")
+            
+            if r.status_code in (200, 302, 301, 307, 308):
+                log_debug(f"✅ {source_name}: GET {r.status_code}")
+                return True
+        except Exception as e:
+            methods_tried.append(f"GET failed: {type(e).__name__}")
+        
+        # All methods failed
+        log_debug(f"❌ {source_name}: All methods failed - {', '.join(methods_tried)}")
+        return False
+        
+    except Exception as e:
+        log_debug(f"❌ {source_name}: Exception - {type(e).__name__}")
         return False
 
 def parse_complex_js(url):
-    """Parses the nested 'sources' JS structure using Regex."""
+    """Parse the JS file with better error handling."""
     print(f"🌐 Fetching: {url}")
     try:
-        response = requests.get(url, timeout=15)
+        response = requests.get(url, timeout=20)
         content = response.text
     except Exception as e:
         print(f"❌ Failed to download: {e}")
         return []
-
-    # Improved regex to capture the entire channel block
-    channel_blocks = re.findall(r'\{[\s\n]+name:\s*"(.*?)".*?sources:\s*\[(.*?)\].*?img:\s*"(.*?)".*?category:\s*"(.*?)"', content, re.DOTALL)
     
-    if not channel_blocks:
-        print("⚠️ No channels found with new format, trying alternative pattern...")
-        # Alternative pattern for different formatting
-        channel_blocks = re.findall(r'\{[^}]+name:\s*"(.*?)"[^}]+sources:\s*\[(.*?)\][^}]+img:\s*"(.*?)"[^}]+category:\s*"(.*?)"', content, re.DOTALL)
+    # Try multiple patterns to catch all variations
+    patterns = [
+        # Standard pattern
+        r'\{[\s\n]+name:\s*"(.*?)".*?sources:\s*\[(.*?)\].*?img:\s*"(.*?)".*?category:\s*"(.*?)"',
+        # Pattern with optional fields
+        r'\{[\s\n]+name:\s*"(.*?)".*?sources:\s*\[(.*?)\](?:.*?img:\s*"(.*?)")?(?:.*?category:\s*"(.*?)")?',
+        # More flexible pattern
+        r'\{[^}]*?name:\s*["\'](.*?)["\'][^}]*?sources:\s*\[(.*?)\][^}]*?img:\s*["\'](.*?)["\'][^}]*?category:\s*["\'](.*?)["\'][^}]*?\}'
+    ]
     
     parsed_channels = []
+    
+    for pattern in patterns:
+        channel_blocks = re.findall(pattern, content, re.DOTALL)
+        if channel_blocks:
+            print(f"📊 Found {len(channel_blocks)} channels with pattern {patterns.index(pattern)+1}")
+            break
+    
+    if not channel_blocks:
+        print("⚠️ No channels found with any pattern")
+        return []
+    
     for name, sources_text, img, category in channel_blocks:
-        # Clean up whitespace
+        if not name or not sources_text:
+            continue
+            
+        # Clean up
         name = name.strip()
-        img = img.strip()
-        category = category.strip()
+        img = img.strip() if img else ""
+        category = category.strip() if category else ""
         
-        # Extract sources with improved regex
+        # Extract sources
         sources = []
-        source_pattern = r'\{[^}]*?name:\s*"(.*?)"[^}]*?url:\s*"(.*?)"(?:[^}]*?type:\s*"(.*?)")?(?:[^}]*?drm:\s*(\{.*?\}))?[^}]*?\}'
-        source_matches = re.findall(source_pattern, sources_text, re.DOTALL)
         
-        for source_name, source_url, source_type, drm_text in source_matches:
-            if not source_url.strip():
-                continue  # Skip empty URLs
+        # Try multiple source patterns
+        source_patterns = [
+            r'\{[^}]*?name:\s*["\'](.*?)["\'][^}]*?url:\s*["\'](.*?)["\'][^}]*?\}',
+            r'\{[^}]*?url:\s*["\'](.*?)["\'][^}]*?name:\s*["\'](.*?)["\'][^}]*?\}',
+            r'\{.*?name:\s*"(.*?)".*?url:\s*"(.*?)".*?\}'
+        ]
+        
+        for source_pattern in source_patterns:
+            source_matches = re.findall(source_pattern, sources_text, re.DOTALL)
+            if source_matches:
+                break
+        
+        for match in source_matches:
+            if len(match) >= 2:
+                source_name = match[0].strip() if match[0].strip() else "Source"
+                source_url = match[1].strip() if len(match) > 1 else match[0].strip()
                 
-            source = {
-                "name": source_name.strip() if source_name.strip() else "Source",
-                "url": source_url.strip()
-            }
-            
-            # Auto-detect type
-            if '.mpd' in source_url.lower():
-                source["type"] = "dash"
-            elif '.m3u8' in source_url.lower():
-                source["type"] = "hls"
-            elif source_type and source_type.strip():
-                source["type"] = source_type.strip().lower()
-            else:
-                source["type"] = "hls"
-            
-            # Parse DRM if present
-            if drm_text and drm_text.strip():
-                try:
-                    # Simple DRM extraction
-                    kid_match = re.search(r'kid:\s*["\'](.*?)["\']', drm_text)
-                    key_match = re.search(r'key:\s*["\'](.*?)["\']', drm_text)
+                if not source_url:
+                    continue
                     
-                    if kid_match and key_match:
-                        source["drm"] = {
-                            "kid": kid_match.group(1),
-                            "key": key_match.group(1)
-                        }
-                except:
-                    pass
-            
-            sources.append(source)
+                source = {
+                    "name": source_name,
+                    "url": source_url
+                }
+                
+                # Auto-detect type
+                if '.mpd' in source_url.lower():
+                    source["type"] = "dash"
+                elif '.m3u8' in source_url.lower():
+                    source["type"] = "hls"
+                else:
+                    source["type"] = "hls"
+                
+                sources.append(source)
         
-        if sources:  # Only add if we have sources
+        if sources:
             parsed_channels.append({
                 "name": name,
                 "sources": sources,
@@ -129,40 +220,45 @@ def parse_complex_js(url):
                 "category": category
             })
     
+    print(f"📊 Successfully parsed {len(parsed_channels)} channels")
     return parsed_channels
 
-def check_source_parallel(source):
-    """Check a single source in parallel."""
-    is_alive = is_stream_alive(source["url"])
-    return source, is_alive
-
 def main():
+    # Clear debug file
+    if DEBUG_MODE:
+        open(DEBUG_FILE, "w").close()
+    
+    # Parse channels
     channels = parse_complex_js(INPUT_URL)
     if not channels:
-        print("⚠️ No channels found.")
+        print("❌ No channels found. Exiting.")
         sys.exit(1)
     
-    print(f"📊 Found {len(channels)} channels")
+    print(f"\n📊 Starting stream checking for {len(channels)} channels...")
     
     # Organize by group
     groups = {g: [] for g in GROUP_ORDER}
     
-    # Process channels with progress
+    # Statistics
+    total_checked = 0
+    total_working = 0
+    
     for idx, ch in enumerate(channels, 1):
-        print(f"\n[{idx}/{len(channels)}] Checking: {ch['name']}")
+        print(f"\n[{idx:3d}/{len(channels)}] {ch['name'][:40]:40s}", end=" ")
         
         working_sources = []
         
-        # Check all sources in parallel
-        with ThreadPoolExecutor(max_workers=min(MAX_WORKERS, len(ch['sources']))) as executor:
-            futures = [executor.submit(check_source_parallel, src) for src in ch['sources']]
+        # Check each source
+        for src_idx, source in enumerate(ch['sources'], 1):
+            total_checked += 1
+            is_alive = is_stream_alive_verbose(source['url'], f"{ch['name']} - {source['name']}")
             
-            for future in as_completed(futures):
-                source, is_alive = future.result()
-                status = "✅" if is_alive else "❌"
-                print(f"   {status} {source['name']}")
-                if is_alive:
-                    working_sources.append(source)
+            if is_alive:
+                working_sources.append(source)
+                total_working += 1
+                print(f"✅", end="")
+            else:
+                print(f"❌", end="")
         
         if working_sources:
             # Determine group
@@ -181,66 +277,57 @@ def main():
             }
             
             groups[final_group].append(channel_data)
-            print(f"   ➕ Added to {final_group} category")
+            print(f" ➕ {final_group}")
         else:
-            print(f"   ⚠️ No working sources - skipped")
+            print(f" ⚠️ skipped")
     
-    # Write output file
+    # Write output
     timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(f"// Generated: {timestamp}\n")
-        f.write("// Auto-generated channel list with multiple sources\n")
-        f.write("// Format compatible with TVPlay-style player\n")
+        f.write("// Sources checked with multi-method validation\n")
+        f.write(f"// Success rate: {total_working}/{total_checked} ({total_working/total_checked*100:.1f}%)\n")
         f.write("\n")
         f.write("window.rawChannels2 = [\n")
         
         total_channels = 0
-        total_sources = 0
         
         for g in GROUP_ORDER:
             if groups[g]:
-                channel_count = len(groups[g])
-                source_count = sum(len(ch['sources']) for ch in groups[g])
+                total_channels += len(groups[g])
                 f.write(f"\n    // {'='*50}\n")
-                f.write(f"    // {g.upper()} - {channel_count} channels ({source_count} sources)\n")
+                f.write(f"    // {g.upper()} ({len(groups[g])} channels)\n")
                 f.write(f"    // {'='*50}\n\n")
                 
                 groups[g].sort(key=lambda x: x["name"].lower())
                 
                 for ch in groups[g]:
-                    total_channels += 1
-                    total_sources += len(ch['sources'])
-                    
-                    # Format the channel as JSON
                     channel_json = json.dumps(ch, indent=4, ensure_ascii=False)
                     f.write("    " + channel_json.replace("\n", "\n    "))
                     f.write(",\n\n")
         
         f.write("];\n")
-        
-        # Add summary
-        f.write(f"\n// SUMMARY\n")
-        f.write(f"// Total channels: {total_channels}\n")
-        f.write(f"// Total sources: {total_sources}\n")
-        f.write(f"// Avg sources per channel: {total_sources/total_channels:.1f}\n")
-        f.write("// Generated by channel-scraper.py\n")
     
+    # Summary
     print(f"\n{'='*60}")
-    print(f"✨ SUCCESS: Created {OUTPUT_FILE}")
-    print(f"📊 Statistics:")
-    print(f"   Total channels: {total_channels}")
-    print(f"   Total sources: {total_sources}")
-    print(f"   Average sources per channel: {total_sources/total_channels:.1f}")
+    print(f"📊 FINAL STATISTICS:")
+    print(f"   Sources checked: {total_checked}")
+    print(f"   Working sources: {total_working}")
+    print(f"   Success rate:    {total_working/total_checked*100:.1f}%")
+    print(f"   Channels saved:  {total_channels}")
+    print(f"   Output file:     {OUTPUT_FILE}")
+    
+    if DEBUG_MODE:
+        print(f"   Debug log:       {DEBUG_FILE}")
+    
     print(f"{'='*60}")
     
-    # Print group summary
-    print("\n📁 Channels by category:")
+    # Group summary
+    print("\n📁 CHANNELS BY CATEGORY:")
     for g in GROUP_ORDER:
         if groups[g]:
-            count = len(groups[g])
-            sources = sum(len(ch['sources']) for ch in groups[g])
-            print(f"   {g:15} : {count:3d} channels ({sources:3d} sources)")
+            print(f"   {g:15} : {len(groups[g]):3d} channels")
 
 if __name__ == "__main__":
     main()
