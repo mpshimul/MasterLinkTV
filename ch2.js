@@ -1,4 +1,4 @@
-// Generated: 2026-01-14 17:20 UTC
+// Generated: 2026-01-14 18:28 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -271,11 +271,6 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://live-en.aisports.cc/moviebox/device01/playlist.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://satoshi-cors.herokuapp.com/http://178.33.239.54:8080/507/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             },
             {
@@ -2077,7 +2072,12 @@ window.rawChannels2 = [
         "name": "9X Jalwa",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "⚡ Stream 2",
+                "url": "https://d14c63magvk61v.cloudfront.net/strm/channels/9xjalwa/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 1",
                 "url": "https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8",
                 "type": "hls"
             }
@@ -2091,7 +2091,12 @@ window.rawChannels2 = [
         "name": "9XM",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "⚡ Stream 2",
+                "url": "https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 1",
                 "url": "https://wiselp.wiseplayout.com/9XM/master.m3u8",
                 "type": "hls"
             }
@@ -2105,8 +2110,18 @@ window.rawChannels2 = [
         "name": "B4U Music",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "⚡ Stream 3",
+                "url": "https://d3kdywbtdfbp9z.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/dff423e0-3c82-46d6-9ecb-3baa96b5694a/4598c408-0e38-488c-9b64-fc845d1ea2b6/0.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 1",
                 "url": "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 2",
+                "url": "https://livecdn-bostaflix.global.ssl.fastly.net/live.php?id=6f73e4079aa2&e=.m3u8",
                 "type": "hls"
             }
         ],
@@ -2180,7 +2195,7 @@ window.rawChannels2 = [
         "name": "Mastiii",
         "sources": [
             {
-                "name": "⚡ Server 1",
+                "name": "⚡ Stream 1",
                 "url": "https://d1taaads3ztvmu.cloudfront.net/120723/mastii/chunklist.m3u8",
                 "type": "hls"
             }
