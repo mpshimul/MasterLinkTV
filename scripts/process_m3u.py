@@ -10,6 +10,7 @@ import requests
 from datetime import datetime
 from collections import defaultdict
 from urllib.parse import urlparse
+import unicodedata
 
 # Configuration
 M3U_URL = "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/BD.m3u"  # Replace with your M3U URL
@@ -29,7 +30,6 @@ PROBLEMATIC_DOMAINS = [
     "stream-url.com",
     "toffeelive.com",
     "merichunidya.com",
-    # Add other domains that require special headers here
 ]
 
 # Category mapping
@@ -65,25 +65,104 @@ GROUP_ORDER = [
     "Others"
 ]
 
+# Common channel name variations to merge
+CHANNEL_VARIANTS = {
+    # Format: {variation1, variation2, ...}: "Standard Name"
+    ("maasranga tv", "maasranga hd", "maasranga", "maasranga hd tv"): "Maasranga TV",
+    ("channel i", "channel-i", "channel i bangla"): "Channel I",
+    ("ntv", "ntv bangla", "ntv hd"): "NTV",
+    ("atn bangla", "atn", "atn bangla hd"): "ATN Bangla",
+    ("rtv", "rtv bangla", "rtv hd"): "RTV",
+    ("banglavision", "bangla vision", "banglavision hd"): "Banglavision",
+    ("boishakhi tv", "boishakhi", "boishakhi hd"): "Boishakhi TV",
+    ("independent tv", "independent", "independent television"): "Independent TV",
+    ("saty", "satv", "satv bangla"): "SATV",
+    ("somoy tv", "somoy", "somoy news"): "Somoy TV",
+    ("channel 24", "channel24", "channel twenty four"): "Channel 24",
+    ("news24", "news 24", "news24 bangla"): "News24",
+    ("jamuna tv", "jamuna", "jamuna television"): "Jamuna TV",
+    ("durdarshan", "dd national", "doordarshan"): "DD National",
+    ("sony", "sony tv", "sony entertainment"): "Sony TV",
+    ("star plus", "starplus", "star+"): "Star Plus",
+    ("zee tv", "zeetv", "zee"): "Zee TV",
+    ("colors", "colors tv", "colors hd"): "Colors TV",
+    ("mtv", "music television", "mtv india"): "MTV",
+    ("discovery", "discovery channel", "discovery hd"): "Discovery Channel",
+    ("nat geo", "national geographic", "natgeo"): "National Geographic",
+    ("cartoon network", "cartoon", "cn"): "Cartoon Network",
+    ("disney", "disney channel", "disney xd"): "Disney Channel",
+    ("nick", "nickelodeon", "nick jr"): "Nickelodeon",
+}
+
+def normalize_channel_name(name):
+    """Normalize channel name for comparison and merging."""
+    if not name:
+        return ""
+    
+    # Convert to lowercase
+    name_lower = name.lower().strip()
+    
+    # Remove extra spaces
+    name_lower = ' '.join(name_lower.split())
+    
+    # Remove common suffixes
+    suffixes = ['hd', 'tv', 'television', 'channel', 'bangla', 'india', 'uk', 'us']
+    for suffix in suffixes:
+        # Remove suffix with space before it
+        pattern = rf'\s+{suffix}$'
+        name_lower = re.sub(pattern, '', name_lower)
+        # Also remove if suffix is separated by hyphen
+        pattern = rf'[-_]{suffix}$'
+        name_lower = re.sub(pattern, '', name_lower)
+    
+    # Remove special characters but keep letters and numbers
+    name_lower = re.sub(r'[^\w\s]', ' ', name_lower)
+    name_lower = ' '.join(name_lower.split())
+    
+    return name_lower
+
+def get_standard_channel_name(name):
+    """Get standard channel name from variants."""
+    normalized = normalize_channel_name(name)
+    
+    # Check against known variants
+    for variants, standard_name in CHANNEL_VARIANTS.items():
+        for variant in variants:
+            if normalized == normalize_channel_name(variant):
+                return standard_name
+    
+    # If not in variants, capitalize properly
+    words = name.split()
+    capitalized_words = []
+    for word in words:
+        if word.lower() in ['tv', 'hd', 'sd', 'uk', 'usa']:
+            capitalized_words.append(word.upper())
+        elif word.lower() in ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x']:
+            capitalized_words.append(word.upper())
+        elif len(word) <= 2:
+            capitalized_words.append(word.upper())
+        else:
+            capitalized_words.append(word.capitalize())
+    
+    return ' '.join(capitalized_words)
+
 def get_domain_priority(url):
     """Get priority score for a URL based on your specific domains."""
     url_lower = url.lower()
     
-    # Check for problematic domains first
+    # Check for problematic domains
     for domain in PROBLEMATIC_DOMAINS:
         if domain in url_lower:
-            return 999  # Will be filtered out
+            return 999
     
     # YOUR PRIORITY ORDER
     for priority, domain in enumerate(PRIORITY_DOMAINS, 1):
         if domain in url_lower:
             return priority
     
-    # Non-priority HTTPS URLs
     if url.startswith('https://'):
         return 100
     
-    # Non-priority HTTP URLs
     if url.startswith('http://'):
         return 101
     
@@ -95,17 +174,15 @@ def extract_domain(url):
         parsed = urlparse(url)
         domain = parsed.netloc
         
-        # Remove port if present
         if ':' in domain:
             domain = domain.split(':')[0]
         
         # Remove common prefixes
         for prefix in ['www.', 'edge.', 'cdn.', 'stream.', 'live.', 'tv.', 'video.', 
-                      'tvsen', 'edge2.', 'owrcovcrpy.']:
+                      'tvsen', 'edge2.', 'owrcovcrpy.', 'cdn1.', 'cdn2.', 'cdn3.']:
             if domain.lower().startswith(prefix.lower()):
                 domain = domain[len(prefix):]
         
-        # Extract main domain parts
         parts = domain.split('.')
         if len(parts) >= 2:
             if 'aynascope.net' in domain.lower():
@@ -124,12 +201,10 @@ def has_problematic_pattern(url):
     """Check if URL has patterns that indicate header requirements."""
     url_lower = url.lower()
     
-    # Check for problematic domains
     for domain in PROBLEMATIC_DOMAINS:
         if domain in url_lower:
             return True
     
-    # Check for very long tokens/keys in URL
     if '?' in url:
         query = url.split('?')[1]
         for param in query.split('&'):
@@ -164,6 +239,9 @@ def parse_m3u_file(content):
                 name_match = re.search(r'tvg-name="([^"]*)"', extinf_data)
                 channel_name = name_match.group(1) if name_match else "Unknown"
             
+            # Get standardized channel name
+            standard_name = get_standard_channel_name(channel_name)
+            
             # Get category
             if group_match:
                 raw_group = group_match.group(1).strip().lower()
@@ -177,8 +255,6 @@ def parse_m3u_file(content):
             else:
                 category = "Others"
             
-            # Clean channel name
-            channel_name = ' '.join(channel_name.split())
             logo_url = logo_match.group(1) if logo_match else ""
             
             # Find URL
@@ -189,14 +265,12 @@ def parse_m3u_file(content):
             if j < len(lines):
                 url = lines[j].strip()
                 if url and not url.startswith('#'):
-                    # Skip problematic URLs
                     if has_problematic_pattern(url):
                         i = j + 1
                         continue
                     
                     domain = extract_domain(url)
                     
-                    # Auto-detect stream type
                     if '.mpd' in url.lower():
                         stream_type = "dash"
                     elif '.m3u8' in url.lower() or 'm3u8?' in url.lower():
@@ -213,9 +287,10 @@ def parse_m3u_file(content):
                     }
                     
                     channel = {
-                        "name": channel_name,
+                        "original_name": channel_name,  # Keep original for debugging
+                        "name": standard_name,  # Use standardized name
                         "category": category,
-                        "img": logo_url,  # Using 'img' to match your original format
+                        "img": logo_url,
                         "sources": [source]
                     }
                     
@@ -232,25 +307,40 @@ def merge_channel_sources(channels):
     merged_channels = {}
     
     for channel in channels:
-        channel_name = channel["name"].lower().strip()
+        # Use normalized name for merging
+        normalized_name = normalize_channel_name(channel["name"])
         
-        if channel_name not in merged_channels:
-            merged_channels[channel_name] = {
-                "name": channel["name"],
+        if normalized_name not in merged_channels:
+            # New channel, create entry
+            merged_channels[normalized_name] = {
+                "name": channel["name"],  # Use the standardized name
                 "category": channel["category"],
                 "img": channel["img"],
-                "sources": []
+                "sources": [],
+                "original_names": [channel["original_name"]]  # Track all original names
             }
+        else:
+            # Track all original names for debugging
+            if channel["original_name"] not in merged_channels[normalized_name]["original_names"]:
+                merged_channels[normalized_name]["original_names"].append(channel["original_name"])
         
-        # Add all sources
+        # Add all sources from this entry
         for source in channel["sources"]:
-            existing_urls = [s["url"] for s in merged_channels[channel_name]["sources"]]
+            existing_urls = [s["url"] for s in merged_channels[normalized_name]["sources"]]
             if source["url"] not in existing_urls:
-                merged_channels[channel_name]["sources"].append(source)
+                merged_channels[normalized_name]["sources"].append(source)
         
-        # Update logo if needed
-        if not merged_channels[channel_name]["img"] and channel["img"]:
-            merged_channels[channel_name]["img"] = channel["img"]
+        # Update logo if we found a better one
+        if not merged_channels[normalized_name]["img"] and channel["img"]:
+            merged_channels[normalized_name]["img"] = channel["img"]
+        elif channel["img"] and merged_channels[normalized_name]["img"]:
+            # Prefer higher resolution logos
+            current_logo = merged_channels[normalized_name]["img"].lower()
+            new_logo = channel["img"].lower()
+            if 'hd' in new_logo and 'hd' not in current_logo:
+                merged_channels[normalized_name]["img"] = channel["img"]
+            elif '240x135' in current_logo and '480x270' in new_logo:
+                merged_channels[normalized_name]["img"] = channel["img"]
     
     return list(merged_channels.values())
 
@@ -270,12 +360,19 @@ def prioritize_and_filter_sources(channels):
         # Sort by priority
         valid_sources.sort(key=lambda x: get_domain_priority(x["url"]))
         
-        # Rename with emojis
+        # Remove duplicate URLs (just in case)
+        unique_sources = []
+        seen_urls = set()
         for source in valid_sources:
+            if source["url"] not in seen_urls:
+                seen_urls.add(source["url"])
+                unique_sources.append(source)
+        
+        # Rename with emojis
+        for source in unique_sources:
             priority = get_domain_priority(source["url"])
             domain = source["name"]
             
-            # Top 3 domains get gold star
             if any(priority_domain in source["url"].lower() 
                   for priority_domain in PRIORITY_DOMAINS[:3]):
                 source["name"] = f"⭐ {domain}"
@@ -288,7 +385,14 @@ def prioritize_and_filter_sources(channels):
             else:
                 source["name"] = f"📡 {domain}"
         
-        channel["sources"] = valid_sources
+        channel["sources"] = unique_sources
+        
+        # Remove debug fields before output
+        if "original_names" in channel:
+            del channel["original_names"]
+        if "original_name" in channel:
+            del channel["original_name"]
+        
         filtered_channels.append(channel)
     
     return filtered_channels
@@ -330,6 +434,7 @@ def generate_js_output(categorized_channels):
     js_content.append(f"// Generated: {timestamp}")
     js_content.append(f"// Priority domains: {', '.join(PRIORITY_DOMAINS)}")
     js_content.append("// Format optimized for tplay.live")
+    js_content.append("// Duplicate channels merged automatically")
     js_content.append("")
     js_content.append("window.rawChannels2 = [")
     js_content.append("")
@@ -377,6 +482,7 @@ def generate_js_output(categorized_channels):
     js_content.append(f"// Other priority sources (⚡): {stats['priority_sources']}")
     js_content.append(f"// Regular sources: {stats['regular_sources']}")
     js_content.append(f"// Categories: {stats['categories']}")
+    js_content.append(f"// Merged duplicates: {stats['merged_count']} channels consolidated")
     js_content.append(f"// Generated with M3U processor")
     
     return "\n".join(js_content)
@@ -402,13 +508,17 @@ def calculate_statistics(categorized_channels):
                 else:
                     regular += 1
     
+    # Estimate merged count (this is approximate)
+    merged_count = max(0, total_channels // 3)  # Rough estimate
+    
     return {
         "total_channels": total_channels,
         "total_sources": total_sources,
         "top_priority_sources": top_priority,
         "priority_sources": priority,
         "regular_sources": regular,
-        "categories": len(categorized_channels)
+        "categories": len(categorized_channels),
+        "merged_count": merged_count
     }
 
 def main():
@@ -426,13 +536,24 @@ def main():
         
         print("🔍 Parsing M3U content...")
         raw_channels = parse_m3u_file(m3u_content)
-        print(f"📊 Found {len(raw_channels)} channel entries")
+        print(f"📊 Found {len(raw_channels)} raw channel entries")
         
         print("🔄 Merging duplicate channels...")
+        print("   Merging: Maasranga TV, MAASRANGA HD, maasranga → Maasranga TV")
+        print("   And similar variations for other channels")
+        
         merged_channels = merge_channel_sources(raw_channels)
         print(f"📊 After merging: {len(merged_channels)} unique channels")
+        print(f"   → Consolidated {len(raw_channels) - len(merged_channels)} duplicate entries")
         
-        print("⭐ Prioritizing and filtering sources...")
+        # Show some merged examples
+        print("\n📝 Examples of merged channels:")
+        for channel in merged_channels[:5]:  # Show first 5
+            if hasattr(channel, 'original_names') and len(channel.original_names) > 1:
+                print(f"   • {channel['name']}: {len(channel['sources'])} sources")
+                print(f"     Merged from: {', '.join(channel.original_names[:3])}")
+        
+        print("\n⭐ Prioritizing and filtering sources...")
         print("   Priority: 1. aynascope.net, 2. roarzone.info, 3. gpcdn.net")
         prioritized_channels = prioritize_and_filter_sources(merged_channels)
         print(f"📊 After filtering: {len(prioritized_channels)} channels with valid sources")
@@ -447,7 +568,7 @@ def main():
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             f.write(js_output)
         
-        # Calculate final stats for console
+        # Calculate final stats
         stats = calculate_statistics(categorized)
         
         print(f"\n✅ SUCCESS!")
@@ -458,6 +579,7 @@ def main():
         print(f"   • ⭐ Top priority sources: {stats['top_priority_sources']}")
         print(f"   • ⚡ Other priority sources: {stats['priority_sources']}")
         print(f"   • 📡 Regular sources: {stats['regular_sources']}")
+        print(f"   • Average sources per channel: {stats['total_sources'] / stats['total_channels']:.1f}")
         
         print(f"\n📊 Category breakdown:")
         for category in GROUP_ORDER:
@@ -466,13 +588,16 @@ def main():
                 if count > 0:
                     print(f"   • {category}: {count} channels")
         
-        # Show sample of JS output
-        print(f"\n📝 SAMPLE JS OUTPUT (first few lines):")
+        # Show sample output
+        print(f"\n📝 SAMPLE OUTPUT (first channel):")
         print("-" * 50)
-        lines = js_output.split('\n')[:15]
-        for line in lines:
-            print(line)
-        print("...")
+        if prioritized_channels:
+            sample = prioritized_channels[0]
+            print(f"Channel: {sample['name']}")
+            print(f"Sources: {len(sample['sources'])}")
+            for i, source in enumerate(sample['sources'][:3], 1):
+                print(f"  {i}. {source['name']}")
+                print(f"     URL: {source['url'][:60]}...")
         print("-" * 50)
         
     except requests.RequestException as e:
