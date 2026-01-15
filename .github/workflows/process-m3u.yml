@@ -3,33 +3,48 @@ name: Process M3U to JSON
 on:
   push:
     paths:
-      - 'BD.m3u'
+      - 'raw_m3u/*.m3u'
+      - '.github/workflows/process-m3u.yml'
+      - '.github/scripts/**'
   schedule:
-    # Run every 6 hours (optional)
-    - cron: '*/30 * * * *'
-  workflow_dispatch: # Manual trigger
+    - cron: '0 */6 * * *'  # Run every 6 hours
+  workflow_dispatch:  # Manual trigger
 
 jobs:
-  process-m3u:
+  process:
     runs-on: ubuntu-latest
     
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-      
+      with:
+        fetch-depth: 0  # Fetch all history
+        
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
       with:
         php-version: '8.2'
         
-    - name: Process M3U file
+    - name: Check directory structure
+      run: |
+        echo "Current directory: $(pwd)"
+        echo "Listing files:"
+        ls -la
+        echo "Listing raw_m3u directory:"
+        ls -la raw_m3u/ || echo "raw_m3u directory doesn't exist"
+        
+    - name: Process M3U files
       run: |
         php .github/scripts/process-m3u.php
         
     - name: Commit processed files
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "github-actions@github.com"
+        git config --local user.name "GitHub Actions"
         git add processed/
-        git commit -m "Auto-process M3U file" || echo "No changes to commit"
-        git push
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🔄 Auto-process M3U files [$(date +'%Y-%m-%d %H:%M')]"
+          git push
+        fi
