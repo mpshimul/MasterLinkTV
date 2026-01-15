@@ -1,118 +1,53 @@
 <?php
-// process-m3u.php - Process external M3U sources
+echo "=== Processing ONLY BD.m3u ===\n";
 
 require_once 'M3UParser.php';
 
-echo "=== M3U Processor ===\n";
-
 $parser = new M3UParser();
-$raw_dir = __DIR__ . '/../../raw_m3u';
+$bd_file = __DIR__ . '/../../raw_m3u/BD.m3u';
 $processed_dir = __DIR__ . '/../../processed';
 
-// Create directories
-if (!is_dir($processed_dir)) {
-    mkdir($processed_dir, 0755, true);
+if (!file_exists($bd_file)) {
+    echo "❌ BD.m3u not found!\n";
+    exit(1);
 }
 
-// Get all M3U files (including external_source.m3u)
-$files = glob($raw_dir . '/*.m3u');
-echo "Found " . count($files) . " M3U file(s)\n";
-
-if (empty($files)) {
-    echo "No M3U files found. The fetch step may have failed.\n";
+// Process ONLY BD.m3u
+try {
+    $result = $parser->processFile($bd_file);
+    $channel_count = count($result['channels']);
     
-    // Create empty data
-    $empty_data = [
-        'channels' => [],
-        'total' => 0,
-        'updated' => date('c'),
-        'note' => 'No data available. Check fetch workflow.'
-    ];
+    echo "Found: $channel_count channels in BD.m3u\n";
     
-    file_put_contents($processed_dir . '/channels_light.json', 
-        json_encode($empty_data, JSON_UNESCAPED_SLASHES));
-    exit(0);
-}
-
-// Process each file
-$all_channels = [];
-$sources = [];
-
-foreach ($files as $file) {
-    $filename = basename($file);
-    echo "\n📁 Processing: $filename\n";
+    // Process for duplicates within BD.m3u only
+    $combined = $parser->processAllChannels($result['channels']);
     
-    try {
-        $result = $parser->processFile($file);
-        
-        // Add source info
-        foreach ($result['channels'] as &$channel) {
-            $channel['source_file'] = $filename;
-            $channel['source_type'] = ($filename === 'external_source.m3u') ? 'external' : 'local';
-        }
-        
-        $all_channels = array_merge($all_channels, $result['channels']);
-        $sources[] = $filename;
-        
-        echo "  ✅ " . count($result['channels']) . " channels\n";
-        
-    } catch (Exception $e) {
-        echo "  ❌ Error: " . $e->getMessage() . "\n";
+    // Save data
+    if (!is_dir($processed_dir)) {
+        mkdir($processed_dir, 0755, true);
     }
-}
-
-// Process all channels
-if (!empty($all_channels)) {
-    echo "\n=== Final Processing ===\n";
     
-    $combined = $parser->processAllChannels($all_channels);
-    $combined['processed_at'] = date('c');
-    $combined['sources'] = $sources;
-    $combined['external_source'] = 'https://github.com/abusaeeidx/IPTV-Scraper-Zilla';
-    
-    // Save full data
-    file_put_contents(
-        $processed_dir . '/channels.json',
-        json_encode($combined, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
-    );
-    
-    // Save light version
-    $light = [
+    // Save only BD channels
+    $data = [
         'channels' => $combined['channels'],
-        'total' => $combined['total_channels'],
-        'updated' => $combined['processed_at'],
-        'sources' => $sources,
-        'external' => true
-    ];
-    
-    file_put_contents(
-        $processed_dir . '/channels_light.json',
-        json_encode($light, JSON_UNESCAPED_SLASHES)
-    );
-    
-    // Save stats
-    $stats = [
-        'total_channels' => $combined['total_channels'],
+        'total_channels' => $channel_count,
         'unique_channels' => $combined['unique_channels'],
-        'groups' => count($combined['groups']),
-        'duplicates' => $combined['duplicate_count'],
-        'last_updated' => $combined['processed_at']
+        'duplicates_in_file' => $combined['duplicate_count'],
+        'source' => 'BD.m3u only',
+        'url' => 'https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u',
+        'last_updated' => date('c')
     ];
     
     file_put_contents(
-        $processed_dir . '/stats.json',
-        json_encode($stats, JSON_PRETTY_PRINT)
+        $processed_dir . '/bd_channels.json',
+        json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
     );
     
-    echo "🎉 Processing Complete!\n";
-    echo "📊 Statistics:\n";
-    echo "  • Total channels: " . $combined['total_channels'] . "\n";
-    echo "  • Unique channels: " . $combined['unique_channels'] . "\n";
-    echo "  • Groups: " . count($combined['groups']) . "\n";
-    echo "  • Duplicates: " . $combined['duplicate_count'] . "\n";
-    echo "  • Sources: " . implode(', ', $sources) . "\n";
+    echo "✅ Saved $channel_count channels from BD.m3u\n";
+    echo "   • Unique: " . $combined['unique_channels'] . "\n";
+    echo "   • Duplicates within file: " . $combined['duplicate_count'] . "\n";
     
-} else {
-    echo "\n❌ No channels processed!\n";
+} catch (Exception $e) {
+    echo "❌ Error: " . $e->getMessage() . "\n";
 }
 ?>
