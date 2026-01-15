@@ -1,0 +1,35 @@
+name: Process M3U to JSON
+
+on:
+  push:
+    paths:
+      - 'BD.m3u'
+  schedule:
+    # Run every 6 hours (optional)
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  process-m3u:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.2'
+        
+    - name: Process M3U file
+      run: |
+        php .github/scripts/process-m3u.php
+        
+    - name: Commit processed files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add processed/
+        git commit -m "Auto-process M3U file" || echo "No changes to commit"
+        git push
