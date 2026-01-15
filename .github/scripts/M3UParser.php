@@ -14,43 +14,51 @@ class M3UParser {
         $lines = explode("\n", $m3uContent);
         $channels = [];
         $current_channel = null;
+        $current_headers = [];
+        $got_url = false;
         
         foreach ($lines as $line) {
             $line = trim($line);
             if (empty($line)) continue;
             
+            // DEBUG: Uncomment to see parsing
+            // echo "Line: " . substr($line, 0, 100) . "...\n";
+            
             // EXTINF line - start new channel
             if (strpos($line, '#EXTINF:') === 0) {
                 // Save previous channel if exists
                 if ($current_channel) {
+                    $current_channel['headers'] = $current_headers;
                     $channels[] = $current_channel;
                 }
                 
-                // Parse new channel
+                // Start new channel
                 $current_channel = $this->parseExtinf($line);
                 $current_channel['source_file'] = $source_filename;
-                $current_channel['headers'] = [];
-            }
-            // EXTVLCOPT headers
-            elseif (strpos($line, '#EXTVLCOPT:') === 0 && $current_channel) {
-                $headers = $this->parseVlcOpt($line);
-                $current_channel['headers'] = array_merge($current_channel['headers'], $headers);
-            }
-            // EXTHTTP headers
-            elseif (strpos($line, '#EXTHTTP:') === 0 && $current_channel) {
-                $headers = $this->parseHttp($line);
-                $current_channel['headers'] = array_merge($current_channel['headers'], $headers);
+                $current_headers = [];
+                $got_url = false;
             }
             // URL line
             elseif ($current_channel && !str_starts_with($line, '#')) {
                 $current_channel['url'] = trim($line);
-                $channels[] = $current_channel;
-                $current_channel = null;
+                $current_channel['quality'] = $this->extractQuality($current_channel['name']);
+                $got_url = true; // Mark that we got the URL, headers come next
+            }
+            // EXTVLCOPT headers - only capture if we already have URL
+            elseif ($got_url && strpos($line, '#EXTVLCOPT:') === 0) {
+                $headers = $this->parseVlcOpt($line);
+                $current_headers = array_merge($current_headers, $headers);
+            }
+            // EXTHTTP headers - only capture if we already have URL
+            elseif ($got_url && strpos($line, '#EXTHTTP:') === 0) {
+                $headers = $this->parseHttp($line);
+                $current_headers = array_merge($current_headers, $headers);
             }
         }
         
-        // Add last channel if exists
+        // Don't forget the last channel
         if ($current_channel) {
+            $current_channel['headers'] = $current_headers;
             $channels[] = $current_channel;
         }
         
@@ -58,58 +66,72 @@ class M3UParser {
     }
     
     private function parseExtinf($line) {
-        // Find the last comma (channel name is after it)
+        $channel = [
+            'name' => '',
+            'logo' => '',
+            'group' => 'Uncategorized',
+            'tvg_id' => '',
+            'tvg_name' => '',
+            'headers' => []
+        ];
+        
+        // Find the last comma
         $last_comma = strrpos($line, ',');
         if ($last_comma === false) {
-            return [
-                'name' => 'Unknown',
-                'original_name' => 'Unknown',
-                'logo' => '',
-                'group' => 'Uncategorized',
-                'tvg_id' => '',
-                'tvg_name' => '',
-                'headers' => []
-            ];
+            $channel['name'] = 'Unknown';
+            return $channel;
         }
         
+        // Extract raw name and attributes
         $raw_name = trim(substr($line, $last_comma + 1));
         $attrs = substr($line, 8, $last_comma - 8);
         
-        return [
-            'name' => $this->cleanChannelName($raw_name),
-            'original_name' => $raw_name,
-            'logo' => $this->extractAttribute($attrs, 'tvg-logo'),
-            'group' => $this->cleanGroupName($this->extractAttribute($attrs, 'group-title')),
-            'tvg_id' => $this->extractAttribute($attrs, 'tvg-id'),
-            'tvg_name' => $this->extractAttribute($attrs, 'tvg-name'),
-            'headers' => []
-        ];
-    }
-    
-    private function extractAttribute($attrs, $attribute_name) {
-        $patterns = [
-            '/\b' . $attribute_name . '\s*=\s*"([^"]*)"/i',
-            "/\b" . $attribute_name . "\s*=\s*'([^']*)'/i",
-            '/\b' . $attribute_name . '\s*=\s*([^ ,]+)/i',
-        ];
+        // Store original name
+        $channel['original_name'] = $raw_name;
         
-        foreach ($patterns as $pattern) {
-            if (preg_match($pattern, $attrs, $match)) {
-                return trim($match[1]);
-            }
+        // Clean the channel name
+        $channel['name'] = $this->cleanChannelName($raw_name);
+        
+        // If name is still empty after cleaning, use original
+        if (empty($channel['name'])) {
+            $channel['name'] = $raw_name;
         }
         
-        return '';
+        // Extract group-title (handle quotes)
+        if (preg_match('/group-title\s*=\s*"([^"]*)"/i', $attrs, $match)) {
+            $channel['group'] = trim($match[1]);
+        } elseif (preg_match("/group-title\s*=\s*'([^']*)'/i", $attrs, $match)) {
+            $channel['group'] = trim($match[1]);
+        } elseif (preg_match('/group-title\s*=\s*([^ ,]+)/i', $attrs, $match)) {
+            $channel['group'] = trim($match[1]);
+        }
+        
+        // Extract logo
+        if (preg_match('/tvg-logo\s*=\s*"([^"]*)"/i', $attrs, $match)) {
+            $channel['logo'] = trim($match[1]);
+        } elseif (preg_match("/tvg-logo\s*=\s*'([^']*)'/i", $attrs, $match)) {
+            $channel['logo'] = trim($match[1]);
+        } elseif (preg_match('/tvg-logo\s*=\s*([^ ,\s]+)/i', $attrs, $match)) {
+            $channel['logo'] = trim($match[1]);
+        }
+        
+        // Clean group name
+        $channel['group'] = $this->cleanGroupName($channel['group']);
+        
+        return $channel;
     }
     
     private function cleanChannelName($name) {
-        // Remove [BD], (BD), [LIVE], etc.
+        if (empty($name)) return '';
+        
+        // Remove [BD], (BD), etc.
         $name = preg_replace('/^\[BD\]\s*/i', '', $name);
         $name = preg_replace('/^\(BD\)\s*/i', '', $name);
         $name = preg_replace('/^\[LIVE\]\s*/i', '', $name);
+        $name = preg_replace('/^\[.*?\]\s*/', '', $name);
         
         // Remove quality suffixes
-        $name = preg_replace('/\s*(HD|FHD|4K|UHD|SD|LOW)\s*$/i', '', $name);
+        $name = preg_replace('/\s*(HD|FHD|4K|UHD|SD|LOW|HQ)\s*$/i', '', $name);
         
         // Trim and clean
         $name = trim($name);
@@ -118,41 +140,49 @@ class M3UParser {
         return $name;
     }
     
-    private function cleanGroupName($group) {
-        if (empty($group)) return 'Uncategorized';
+    private function extractQuality($name) {
+        $name_upper = strtoupper($name);
         
-        $group = trim($group);
-        $group = trim($group, '"\'');
-        $group = preg_replace('/^\[|\]$/', '', $group);
-        $group = ucwords(strtolower($group));
+        if (strpos($name_upper, '4K') !== false || strpos($name_upper, 'UHD') !== false) {
+            return '4K';
+        } elseif (strpos($name_upper, 'FULL HD') !== false || strpos($name_upper, 'FHD') !== false) {
+            return 'Full HD';
+        } elseif (strpos($name_upper, 'HD') !== false) {
+            return 'HD';
+        } elseif (strpos($name_upper, 'SD') !== false) {
+            return 'SD';
+        }
         
-        return $group;
+        return 'Unknown';
     }
     
     private function parseVlcOpt($line) {
         $opt = substr($line, 11); // Remove '#EXTVLCOPT:'
+        $opt = trim($opt);
         $headers = [];
         
-        // Extract User-Agent
+        // http-user-agent
         if (preg_match('/http-user-agent\s*=\s*(.+)/i', $opt, $match)) {
             $value = trim($match[1], " '\"");
             $headers['User-Agent'] = $value;
         }
-        
-        // Extract Referer
-        if (preg_match('/http-referer(r)?\s*=\s*(.+)/i', $opt, $match)) {
-            $value = trim($match[2], " '\"");
+        // http-referrer (note: some use Referer, some use Referrer)
+        elseif (preg_match('/http-referrer\s*=\s*(.+)/i', $opt, $match)) {
+            $value = trim($match[1], " '\"");
             $headers['Referer'] = $value;
         }
-        
-        // Extract Origin
-        if (preg_match('/http-origin\s*=\s*(.+)/i', $opt, $match)) {
+        // http-referer
+        elseif (preg_match('/http-referer\s*=\s*(.+)/i', $opt, $match)) {
+            $value = trim($match[1], " '\"");
+            $headers['Referer'] = $value;
+        }
+        // http-origin
+        elseif (preg_match('/http-origin\s*=\s*(.+)/i', $opt, $match)) {
             $value = trim($match[1], " '\"");
             $headers['Origin'] = $value;
         }
-        
-        // Extract Cookie
-        if (preg_match('/http-cookie\s*=\s*(.+)/i', $opt, $match)) {
+        // http-cookie
+        elseif (preg_match('/http-cookie\s*=\s*(.+)/i', $opt, $match)) {
             $value = trim($match[1], " '\"");
             $headers['Cookie'] = $value;
         }
@@ -162,6 +192,7 @@ class M3UParser {
     
     private function parseHttp($line) {
         $json_str = substr($line, 9); // Remove '#EXTHTTP:'
+        $json_str = trim($json_str);
         $headers = [];
         
         try {
@@ -174,7 +205,7 @@ class M3UParser {
                 }
             }
         } catch (Exception $e) {
-            // Ignore errors
+            // Ignore JSON errors
         }
         
         return $headers;
@@ -184,123 +215,134 @@ class M3UParser {
         $grouped = [];
         
         foreach ($channels as $channel) {
-            // Generate a unique key based on cleaned channel name
-            $key = $this->generateChannelKey($channel['name']);
+            // Skip channels with empty names
+            if (empty(trim($channel['name'] ?? ''))) {
+                continue;
+            }
             
-            // If this is the first time seeing this channel
+            // Create key based on normalized name and group
+            $key = $this->createChannelKey($channel);
+            
             if (!isset($grouped[$key])) {
                 $grouped[$key] = [
+                    'id' => $this->generateChannelId($channel['name']),
                     'name' => $channel['name'],
-                    'logo' => $channel['logo'] ?: $this->getBestLogo($channels, $key),
-                    'group' => $channel['group'],
-                    'tvg_id' => $channel['tvg_id'],
-                    'tvg_name' => $channel['tvg_name'] ?: $channel['name'],
+                    'logo' => $channel['logo'] ?? '',
+                    'group' => $channel['group'] ?? 'Uncategorized',
+                    'quality' => $channel['quality'] ?? 'Unknown',
                     'servers' => []
                 ];
             }
             
-            // Add this as a server
-            $server_number = count($grouped[$key]['servers']) + 1;
-            
-            // Determine quality from original name
-            $quality = $this->extractQuality($channel['original_name']);
+            // Add server
+            $server_count = count($grouped[$key]['servers']) + 1;
+            $priority = $this->calculatePriority($channel, $server_count);
             
             $grouped[$key]['servers'][] = [
-                'url' => $channel['url'],
-                'quality' => $quality,
-                'priority' => $this->calculatePriority($channel, $quality),
-                'headers' => $channel['headers'],
-                'server_number' => $server_number
+                'url' => $channel['url'] ?? '',
+                'quality' => $channel['quality'] ?? 'Unknown',
+                'priority' => $priority,
+                'headers' => $channel['headers'] ?? [],
+                'source_file' => $channel['source_file'] ?? 'unknown',
+                'server_number' => $server_count
             ];
         }
         
         // Sort servers by priority (highest first)
         foreach ($grouped as &$channel) {
             usort($channel['servers'], function($a, $b) {
-                return $b['priority'] - $a['priority'];
+                return ($b['priority'] ?? 1) - ($a['priority'] ?? 1);
             });
             
-            // Re-number servers after sorting
+            // Update server numbers
             foreach ($channel['servers'] as $index => &$server) {
                 $server['priority'] = $index + 1;
                 $server['server_number'] = $index + 1;
             }
         }
         
-        // Sort channels alphabetically
-        ksort($grouped);
-        
         return $grouped;
     }
     
-    private function generateChannelKey($channel_name) {
-        // Convert to lowercase, remove special chars, replace spaces with underscores
-        $key = strtolower($channel_name);
-        $key = preg_replace('/[^a-z0-9]/', '_', $key);
-        $key = preg_replace('/_+/', '_', $key);
-        $key = trim($key, '_');
+    private function createChannelKey($channel) {
+        $name = strtolower($channel['name']);
+        $group = strtolower($channel['group'] ?? '');
         
-        return $key;
+        // Normalize name
+        $name = preg_replace('/[^a-z0-9]/', '_', $name);
+        $name = preg_replace('/_+/', '_', $name);
+        $name = trim($name, '_');
+        
+        // Normalize group
+        $group = preg_replace('/[^a-z0-9]/', '_', $group);
+        $group = preg_replace('/_+/', '_', $group);
+        $group = trim($group, '_');
+        
+        return $name . '_' . $group;
     }
     
-    private function getBestLogo($channels, $channel_key) {
-        // Find the first non-empty logo for this channel
-        foreach ($channels as $channel) {
-            $key = $this->generateChannelKey($channel['name']);
-            if ($key === $channel_key && !empty($channel['logo'])) {
-                return $channel['logo'];
-            }
+    private function generateChannelId($name) {
+        $id = strtolower($name);
+        $id = preg_replace('/[^a-z0-9]/', '_', $id);
+        $id = preg_replace('/_+/', '_', $id);
+        $id = trim($id, '_');
+        $id = substr($id, 0, 50);
+        
+        if (empty($id)) {
+            $id = 'channel_' . substr(md5($name), 0, 8);
         }
         
-        return '';
+        return $id;
     }
     
-    private function extractQuality($original_name) {
-        $original_name = strtoupper($original_name);
-        
-        if (strpos($original_name, '4K') !== false || strpos($original_name, 'UHD') !== false) {
-            return '4K';
-        }
-        if (strpos($original_name, 'FHD') !== false) {
-            return 'Full HD';
-        }
-        if (strpos($original_name, 'HD') !== false) {
-            return 'HD';
-        }
-        if (strpos($original_name, 'SD') !== false) {
-            return 'SD';
-        }
-        
-        return 'Unknown';
-    }
-    
-    private function calculatePriority($channel, $quality) {
-        $priority = 0;
+    private function calculatePriority($channel, $default_priority) {
+        $priority = $default_priority;
         
         // Higher priority for better quality
+        $quality = strtolower($channel['quality'] ?? 'unknown');
         switch ($quality) {
-            case '4K': $priority += 100; break;
-            case 'Full HD': $priority += 80; break;
-            case 'HD': $priority += 60; break;
-            case 'SD': $priority += 40; break;
+            case '4k': $priority += 100; break;
+            case 'full hd': $priority += 80; break;
+            case 'hd': $priority += 60; break;
+            case 'sd': $priority += 40; break;
         }
         
-        // Higher priority for HTTPS URLs
-        if (strpos($channel['url'], 'https://') === 0) {
+        // Higher priority for HTTPS
+        if (strpos($channel['url'] ?? '', 'https://') === 0) {
             $priority += 20;
         }
         
-        // Higher priority for .m3u8 URLs
-        if (strpos($channel['url'], '.m3u8') !== false) {
+        // Higher priority for .m3u8
+        if (strpos($channel['url'] ?? '', '.m3u8') !== false) {
             $priority += 10;
         }
         
-        // Higher priority if headers exist (more likely to work)
+        // Higher priority if headers exist
         if (!empty($channel['headers'])) {
             $priority += 30;
         }
         
         return $priority;
+    }
+    
+    private function cleanGroupName($group) {
+        if (empty($group)) return 'Uncategorized';
+        
+        $group = trim($group);
+        $group = trim($group, '"\'');
+        
+        // Remove brackets
+        $group = preg_replace('/^\[|\]$/', '', $group);
+        
+        // Remove special characters
+        $group = preg_replace('/[^\p{L}\p{N}\s\-]/u', ' ', $group);
+        $group = preg_replace('/\s+/', ' ', $group);
+        $group = trim($group);
+        
+        // Capitalize properly
+        $group = ucwords(strtolower($group));
+        
+        return $group;
     }
 }
 ?>
