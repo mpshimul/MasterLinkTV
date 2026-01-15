@@ -1,4 +1,4 @@
-// Generated: 2026-01-14 18:28 UTC
+// Generated: 2026-01-15 01:16 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1995,7 +1995,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (23 channels)
+    // MUSIC (31 channels)
     // ==================================================
 
     {
@@ -2150,10 +2150,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Brit Asia TV",
+        "sources": [
+            {
+                "name": "⚡ Stream 1",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/britasiatv/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/BbM871q3/brit-asia.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Deewana",
         "sources": [
             {
-                "name": "Originals",
+                "name": "Stream 1",
                 "url": "https://tplay.live/originals/deewana/index.m3u8",
                 "type": "hls"
             }
@@ -2187,6 +2201,25 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/26RpwgN5/dmb-music.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "E 24",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://amg13643-amg13643c2-amgplt0173.playout.now3.amagi.tv/playlist/amg13643-amg13643c2-amgplt0173/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 2",
+                "url": "https://bagnetwork.digivive.com/hlslive/Admin/px09241091/live/E24LiveB/master_1.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wBKM5G7V/e-24.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -2237,7 +2270,7 @@ window.rawChannels2 = [
         "name": "NH BollyRaga",
         "sources": [
             {
-                "name": "⚡ Server 1",
+                "name": "⚡ Stream 1",
                 "url": "https://cc-up9j649x4thrj.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-up9j649x4thrj/SBUM/RunnTV/BollyRaga_IN/BollyRaga_IN.m3u8",
                 "type": "hls"
             }
@@ -2262,6 +2295,58 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/8z1kS0G5/Oxygen-Music.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "PTC Chak De",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://cdn-1.pishow.tv/live/449/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/G2BRLcM2/ptc-chakde.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "PTC Music",
+        "sources": [
+            {
+                "name": "⚡ Stream 1",
+                "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/zvj04hnW/ptc-music.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Punjabi Hits",
+        "sources": [
+            {
+                "name": "⚡ Stream 1",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-hits/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 2",
+                "url": "https://cdn-4.pishow.tv/live/1504/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 3",
+                "url": "https://server.livelegitpro.in/punjabihits/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/h472GJVw/punjabi-hits.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -2309,15 +2394,53 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Shemaroo Filmigaane",
+        "sources": [
+            {
+                "name": "⚡ Stream 1",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-filmigaane/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/nhhtDKYk/sfg.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Show Box",
         "sources": [
             {
-                "name": "⚡ Originals",
+                "name": "⚡ Stream 1",
                 "url": "https://epiconvh.akamaized.net/live/showbox/master.m3u8",
                 "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/Vsppw3V5/sb-music.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Tabbar Hits",
+        "sources": [
+            {
+                "name": "⚡ Stream 1",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tabbar-hits/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 2",
+                "url": "https://live1.ottlive.co.in/tabbarhitsswift/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 3",
+                "url": "https://server.livelegitpro.in/punjabihits/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/DfWzDhL6/tabbar-hits.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -2340,8 +2463,32 @@ window.rawChannels2 = [
         "name": "yrf MUSIC",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "⚡ Stream 2",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/yrf-music/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 1",
                 "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/pdHkcC7q/yrf-music.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Zoom Music",
+        "sources": [
+            {
+                "name": "⚡ Stream 3",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/zoom-tv/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 1",
+                "url": "https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8",
                 "type": "hls"
             }
         ],
@@ -2543,7 +2690,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 169
+// Total channels: 177
 // Channels with DRM: 19
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
