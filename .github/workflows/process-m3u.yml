@@ -34,11 +34,17 @@ jobs:
           SIZE=$(wc -c < "raw_m3u/BD.m3u")
           COUNT=$(grep -c "#EXTINF:" "raw_m3u/BD.m3u" || echo "0")
           echo "✅ Fetched BD.m3u: $COUNT channels ($SIZE bytes)"
-          echo "::set-output name=channel_count::$COUNT"
+          echo "channel_count=$COUNT" >> $GITHUB_OUTPUT
         else
           echo "❌ Failed to fetch BD.m3u"
           exit 1
         fi
+    
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'
+        tools: composer
     
     - name: Process BD.m3u
       run: |

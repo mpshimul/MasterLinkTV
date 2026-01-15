@@ -21,7 +21,7 @@ try {
     $grouped_channels = $parser->groupChannelsByDuplicate($channels);
     
     // Add proxy URLs
-    $grouped_channels = $this->addProxyToChannels($grouped_channels, 'https://your-domain.com/path-to-proxy/');
+    $grouped_channels = addProxyToChannels($grouped_channels, 'https://your-domain.com/path-to-proxy/');
     
     // Save data
     if (!is_dir($processed_dir)) {
@@ -71,7 +71,7 @@ try {
     );
     
     // Also save a simplified version for players
-    $simple_data = $this->createSimpleFormat($grouped_channels);
+    $simple_data = createSimpleFormat($grouped_channels);
     file_put_contents(
         $processed_dir . '/bd_channels_simple.json',
         json_encode($simple_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
