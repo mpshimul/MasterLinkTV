@@ -1,1 +1,18 @@
 
+#EXTM3U
+# Test playlist for GitHub Action
+
+#EXTINF:-1 tvg-logo="https://example.com/bbc.png" group-title="News",BBC News
+http://example.com/bbc.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/cnn.png" group-title="News",CNN International
+http://example.com/cnn.m3u8
+
+#EXTINF:-1 tvg-logo="https://assets.toffeelive.com/logo.png" group-title="Bangladesh",[BD] TLC
+https://bldcmprod-cdn.toffeelive.com/cdn/live/tlc_sd/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Toffee (Linux;Android 14)
+#EXTHTTP:{"cookie":"Edge-Cache-Cookie=test"}
+
+#EXTINF:-1 tvg-logo="https://example.com/sports.png" group-title="Sports",TNT Sports
+https://d5.merichunidya.com:1686/hls/sports.m3u8
+#EXTVLCOPT:http-referrer=https://example.com/
