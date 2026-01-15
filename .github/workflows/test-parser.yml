@@ -1,0 +1,52 @@
+name: Test Parser
+on: workflow_dispatch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.2'
+    
+    - name: Test with sample data
+      run: |
+        echo "=== Creating test M3U file ==="
+        cat > test.m3u << 'EOF'
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://example.com/logo1.png" group-title="News",BBC News HD
+http://example.com/bbc.m3u8
+#EXTINF:-1 tvg-logo="https://example.com/logo2.png" group-title="News",CNN International
+http://example.com/cnn.m3u8
+#EXTINF:-1 tvg-logo="https://example.com/logo3.png" group-title="Sports",ESPN
+http://example.com/espn.m3u8
+#EXTINF:-1 tvg-logo="https://example.com/logo4.png" group-title="Sports",Fox Sports
+http://example.com/fox.m3u8
+#EXTINF:-1 tvg-logo="https://assets.toffeelive.com/logo.png" group-title="Bangladesh",[BD] TLC
+https://bldcmprod-cdn.toffeelive.com/cdn/live/tlc_sd/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Toffee (Linux;Android 14)
+#EXTHTTP:{"cookie":"test-cookie"}
+EOF
+        
+        echo "=== Testing parser ==="
+        php -r "
+        require_once '.github/scripts/M3UParser.php';
+        \$parser = new M3UParser();
+        \$result = \$parser->parse(file_get_contents('test.m3u'), 'test.m3u');
+        echo 'Channels: ' . count(\$result['channels']) . '\n';
+        echo 'First channel group: ' . (\$result['channels'][0]['group'] ?? 'none') . '\n';
+        
+        // Check all groups
+        \$groups = [];
+        foreach (\$result['channels'] as \$ch) {
+            \$groups[\$ch['group']] = (\$groups[\$ch['group']] ?? 0) + 1;
+        }
+        echo 'Groups found: ' . count(\$groups) . '\n';
+        foreach (\$groups as \$g => \$c) {
+            echo '  - ' . \$g . ': ' . \$c . ' channels\n';
+        }
+        "
