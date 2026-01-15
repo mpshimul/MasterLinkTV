@@ -1,5 +1,5 @@
 <?php
-echo "=== Processing ONLY BD.m3u ===\n";
+echo "=== Processing BD.m3u ===\n";
 
 require_once 'M3UParser.php';
 
@@ -12,64 +12,16 @@ if (!file_exists($bd_file)) {
     exit(1);
 }
 
-// Debug mode - set to true to see detailed parsing info
-$debug = true; // Set to true to see name cleaning
-
 // Process BD.m3u
 try {
     $channels = $parser->processFile($bd_file);
     echo "Found: " . count($channels) . " channel entries\n";
     
-    // Debug: Show name cleaning examples
-    if ($debug) {
-        echo "\n=== DEBUG: Name Cleaning Examples ===\n";
-        $examples_shown = 0;
-        foreach ($channels as $channel) {
-            if (isset($channel['original_name']) && $channel['original_name'] !== $channel['name']) {
-                echo "Original: '" . $channel['original_name'] . "'\n";
-                echo "Cleaned:  '" . $channel['name'] . "'\n";
-                echo "Group:    '" . $channel['group'] . "'\n";
-                echo "---\n";
-                $examples_shown++;
-                
-                if ($examples_shown >= 10) {
-                    echo "... and more\n";
-                    break;
-                }
-            }
-        }
-    }
-    
     // Group by duplicate channels
     $grouped_channels = $parser->groupChannelsByDuplicate($channels);
     
-    // Debug: Show grouping examples
-    if ($debug) {
-        echo "\n=== DEBUG: Grouping Examples ===\n";
-        $grouped_examples = 0;
-        foreach ($grouped_channels as $channel_key => $channel) {
-            if (count($channel['servers']) > 1) {
-                echo "Channel: " . $channel['name'] . " (" . count($channel['servers']) . " servers)\n";
-                echo "Group: " . $channel['group'] . "\n";
-                echo "Servers:\n";
-                foreach ($channel['servers'] as $server) {
-                    echo "  • Server " . $server['server_number'] . ": " . $server['quality'] . 
-                         " (headers: " . count($server['headers']) . ")\n";
-                }
-                echo "---\n";
-                $grouped_examples++;
-                
-                if ($grouped_examples >= 5) {
-                    echo "... and more\n";
-                    break;
-                }
-            }
-        }
-    }
-    
-    // Add proxy URLs (update with your actual proxy URL)
-    $proxy_base_url = 'https://your-domain.com/path-to-proxy/';
-    $grouped_channels = addProxyToChannels($grouped_channels, $proxy_base_url);
+    // Add proxy URLs to each server
+    $grouped_channels = addProxyToChannels($grouped_channels, 'https://your-domain.com/path-to-proxy/');
     
     // Save data
     if (!is_dir($processed_dir)) {
@@ -83,29 +35,27 @@ try {
         'channels_with_multiple_servers' => 0,
         'total_servers' => 0,
         'channels_with_headers' => 0,
-        'total_headers' => 0,
         'groups' => [],
         'last_updated' => date('c'),
-        'source' => 'BD.m3u',
-        'url' => 'https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u'
+        'source' => 'BD.m3u'
     ];
     
-    foreach ($grouped_channels as $channel) {
+    foreach ($grouped_channels as $channel_id => $channel) {
         $stats['total_servers'] += count($channel['servers']);
         
         if (count($channel['servers']) > 1) {
             $stats['channels_with_multiple_servers']++;
         }
         
-        // Count channels with headers
+        // Check if any server has headers
         foreach ($channel['servers'] as $server) {
             if (!empty($server['headers'])) {
                 $stats['channels_with_headers']++;
-                $stats['total_headers'] += count($server['headers']);
-                break; // Count channel only once even if multiple servers have headers
+                break;
             }
         }
         
+        // Count by group
         $group = $channel['group'];
         if (!isset($stats['groups'][$group])) {
             $stats['groups'][$group] = 0;
@@ -113,54 +63,46 @@ try {
         $stats['groups'][$group]++;
     }
     
-    // Save grouped channels
+    // Save grouped channels in your desired format
     $data = [
         'statistics' => $stats,
         'channels' => $grouped_channels,
         'metadata' => [
-            'version' => '1.0',
-            'format' => 'grouped',
+            'version' => '2.0',
+            'format' => 'channel-grouped',
             'last_updated' => date('c')
         ]
     ];
     
     file_put_contents(
-        $processed_dir . '/bd_channels_grouped.json',
+        $processed_dir . '/bd_channels.json',
         json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
     );
     
-    // Also save a simplified version for players
+    // Also save a simplified version for easy access
     $simple_data = createSimpleFormat($grouped_channels);
     file_put_contents(
-        $processed_dir . '/bd_channels_simple.json',
+        $processed_dir . '/channels.json',
         json_encode($simple_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
     );
     
     echo "\n✅ Processing complete!\n";
+    echo "📊 Statistics:\n";
+    echo "   • Total entries: " . $stats['total_entries'] . "\n";
     echo "   • Unique channels: " . $stats['unique_channels'] . "\n";
     echo "   • Total servers: " . $stats['total_servers'] . "\n";
     echo "   • Channels with multiple servers: " . $stats['channels_with_multiple_servers'] . "\n";
-    echo "   • Channels with headers: " . $stats['channels_with_headers'] . " (total headers: " . $stats['total_headers'] . ")\n";
+    echo "   • Channels with headers: " . $stats['channels_with_headers'] . "\n";
     echo "   • Groups: " . count($stats['groups']) . "\n";
     
-    // Print summary by group
-    echo "\n📊 Group Summary (Top 10):\n";
-    arsort($stats['groups']);
-    $count = 0;
-    foreach ($stats['groups'] as $group => $group_count) {
-        echo "   • $group: $group_count channels\n";
-        $count++;
-        if ($count >= 10) break;
-    }
-    
-    // Show examples of cleaned names
-    echo "\n🧹 Name Cleaning Examples:\n";
-    $example_count = 0;
-    foreach ($grouped_channels as $channel) {
-        if (isset($channel['original_name']) && $channel['original_name'] !== $channel['name']) {
-            echo "   • '" . substr($channel['original_name'], 0, 40) . "' → '" . $channel['name'] . "'\n";
-            $example_count++;
-            if ($example_count >= 5) break;
+    // Show examples
+    echo "\n🎯 Example channels with multiple servers:\n";
+    $examples = 0;
+    foreach ($grouped_channels as $channel_id => $channel) {
+        if (count($channel['servers']) > 1) {
+            echo "   • " . $channel['name'] . " - " . count($channel['servers']) . " servers\n";
+            $examples++;
+            if ($examples >= 5) break;
         }
     }
     
@@ -173,13 +115,14 @@ try {
 function addProxyToChannels($grouped_channels, $proxy_base_url) {
     foreach ($grouped_channels as &$channel) {
         foreach ($channel['servers'] as &$server) {
+            // Build proxy URL
             $proxy_url = $proxy_base_url . 'proxy.php?url=' . urlencode($server['url']);
             
             // Add headers as parameters
             if (!empty($server['headers'])) {
                 foreach ($server['headers'] as $key => $value) {
                     $param_name = strtolower(str_replace('-', '_', $key));
-                    if (in_array($param_name, ['user_agent', 'referer', 'origin'])) {
+                    if (in_array($param_name, ['user_agent', 'referer', 'origin', 'cookie'])) {
                         $proxy_url .= '&' . $param_name . '=' . urlencode($value);
                     } else {
                         $proxy_url .= '&header_' . $param_name . '=' . urlencode($value);
@@ -196,40 +139,23 @@ function addProxyToChannels($grouped_channels, $proxy_base_url) {
 
 // Function to create simplified format
 function createSimpleFormat($grouped_channels) {
-    $simple = [
-        'channels' => [],
-        'groups' => []
-    ];
+    $simple = [];
     
-    foreach ($grouped_channels as $channel_key => $channel) {
-        $simple_channel = [
-            'id' => $channel['id'],
+    foreach ($grouped_channels as $channel_id => $channel) {
+        $simple[$channel_id] = [
             'name' => $channel['name'],
             'logo' => $channel['logo'],
             'group' => $channel['group'],
-            'quality' => $channel['quality'],
-            'server_count' => count($channel['servers']),
-            'servers' => []
+            'servers' => array_map(function($server) {
+                return [
+                    'url' => $server['proxy_url'] ?? $server['url'],
+                    'quality' => $server['quality'],
+                    'priority' => $server['priority'],
+                    'has_headers' => !empty($server['headers']),
+                    'server_number' => $server['server_number']
+                ];
+            }, $channel['servers'])
         ];
-        
-        foreach ($channel['servers'] as $server) {
-            $simple_channel['servers'][] = [
-                'id' => $server['id'],
-                'priority' => $server['priority'],
-                'quality' => $server['quality'],
-                'has_headers' => !empty($server['headers']),
-                'url' => $server['proxy_url'] ?? $server['url'],
-                'server_number' => $server['server_number']
-            ];
-        }
-        
-        $simple['channels'][$channel['id']] = $simple_channel;
-        
-        // Add to groups
-        if (!isset($simple['groups'][$channel['group']])) {
-            $simple['groups'][$channel['group']] = [];
-        }
-        $simple['groups'][$channel['group']][] = $channel['id'];
     }
     
     return $simple;
