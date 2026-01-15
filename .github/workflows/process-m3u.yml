@@ -4,75 +4,32 @@ on:
   push:
     paths:
       - 'raw_m3u/*.m3u'
-      - '.github/workflows/process-m3u.yml'
-      - '.github/scripts/**'
-  schedule:
-    - cron: '0 */6 * * *'  # Run every 6 hours
-  workflow_dispatch:  # Manual trigger
+  workflow_dispatch:
 
 jobs:
   process:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # ← THIS IS CRITICAL
+      contents: write
     
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}  # ← Use GITHUB_TOKEN
-        fetch-depth: 0
-        
-    - name: Setup PHP
-      uses: shivammathur/setup-php@v2
+    - uses: actions/checkout@v3
+    
+    - uses: shivammathur/setup-php@v2
       with:
         php-version: '8.2'
-        
-    - name: Check directory structure
+    
+    - name: Run processor
+      run: php .github/scripts/process-m3u.php
+    
+    - name: Commit changes
       run: |
-        echo "=== Directory Structure ==="
-        pwd
-        ls -la
-        echo "=== raw_m3u directory ==="
-        ls -la raw_m3u/ || echo "No raw_m3u directory"
-        
-    - name: Process M3U files
-      run: |
-        php .github/scripts/process-m3u.php
-        
-    - name: Commit and push processed files
-      env:
-        # Use the default GITHUB_TOKEN
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        echo "=== Checking for changes ==="
-        
-        # Check if processed directory exists and has files
-        if [ -d "processed" ] && [ "$(ls -A processed 2>/dev/null)" ]; then
-          echo "Found processed files, checking for changes..."
-          
-          # Configure git
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          
-          # Add only processed directory
-          git add processed/
-          
-          # Check if there are changes to commit
-          if ! git diff --cached --quiet; then
-            echo "Changes detected, committing..."
-            git commit -m "🔄 Auto-process M3U files [$(date +'%Y-%m-%d %H:%M:%S')]"
-            
-            # Try to push (will use GITHUB_TOKEN automatically)
-            echo "Pushing changes..."
-            git push
-            echo "✓ Successfully pushed changes"
-          else
-            echo "No changes to commit"
-          fi
+        git config user.email "github-actions@github.com"
+        git config user.name "GitHub Actions"
+        git add processed/
+        if git diff --cached --quiet; then
+          echo "No changes"
         else
-          echo "No processed files found or directory empty"
-          # Create a placeholder if no files
-          mkdir -p processed
-          echo '{"note": "No M3U files processed yet", "last_checked": "'$(date -Iseconds)'"}' > processed/status.json
+          git commit -m "Update processed files"
+          git push
         fi
