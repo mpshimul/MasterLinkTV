@@ -1,84 +1,65 @@
-name: Fetch and Process M3U
+name: Fetch Only BD.m3u
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Run every 2 hours
-  workflow_dispatch:  # Manual trigger
-  push:
-    paths:
-      - '.github/workflows/fetch-and-process.yml'
+    - cron: '0 */2 * * *'  # Every 2 hours
+  workflow_dispatch:
 
 jobs:
-  fetch-and-process:
+  fetch-bd:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+    - uses: actions/checkout@v3
     
-    - name: Setup PHP
-      uses: shivammathur/setup-php@v2
-      with:
-        php-version: '8.2'
-    
-    - name: Fetch from external source
-      id: fetch
+    - name: Fetch ONLY BD.m3u
       run: |
-        echo "=== Fetching from abusaeeidx/IPTV-Scraper-Zilla ==="
+        echo "=== Fetching ONLY BD.m3u ==="
         
         SOURCE_URL="https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/BD.m3u"
         
-        # Fetch the M3U file
-        curl -s -o "source.m3u" "$SOURCE_URL"
+        # Create directory
+        mkdir -p raw_m3u
         
-        # Check if fetch was successful
-        if [ -s "source.m3u" ]; then
-          LINE_COUNT=$(wc -l < source.m3u)
-          SIZE=$(wc -c < source.m3u)
-          echo "Fetched $LINE_COUNT lines ($SIZE bytes)"
-          echo "::set-output name=success::true"
-          echo "::set-output name=lines::$LINE_COUNT"
-          echo "::set-output name=bytes::$SIZE"
+        # Delete any existing files
+        rm -f raw_m3u/*.m3u
+        
+        # Fetch ONLY BD.m3u
+        curl -s -o "raw_m3u/BD.m3u" "$SOURCE_URL"
+        
+        # Verify
+        if [ -s "raw_m3u/BD.m3u" ]; then
+          SIZE=$(wc -c < "raw_m3u/BD.m3u")
+          COUNT=$(grep -c "#EXTINF:" "raw_m3u/BD.m3u" || echo "0")
+          echo "✅ Fetched BD.m3u: $COUNT channels ($SIZE bytes)"
+          echo "::set-output name=channel_count::$COUNT"
         else
-          echo "Failed to fetch from source"
-          echo "::set-output name=success::false"
+          echo "❌ Failed to fetch BD.m3u"
+          exit 1
         fi
     
-    - name: Process the M3U file
-      if: steps.fetch.outputs.success == 'true'
+    - name: Process BD.m3u
       run: |
-        echo "=== Processing M3U file ==="
-        
-        # Move to raw_m3u directory
-        mkdir -p raw_m3u
-        mv source.m3u raw_m3u/external_source.m3u
-        
-        # Process using existing parser
+        echo "=== Processing BD.m3u ==="
         php .github/scripts/process-m3u.php
         
         # Show summary
-        if [ -f "processed/channels_light.json" ]; then
-          CHANNEL_COUNT=$(grep -o '"name"' processed/channels_light.json | wc -l)
-          echo "✅ Processed $CHANNEL_COUNT channels"
+        if [ -f "processed/summary.json" ]; then
+          echo "Summary:"
+          cat processed/summary.json
         fi
     
-    - name: Commit processed files
-      if: steps.fetch.outputs.success == 'true'
+    - name: Commit
       run: |
-        echo "=== Committing processed files ==="
-        
-        git config --local user.email "github-actions@github.com"
-        git config --local user.name "GitHub Actions"
-        
-        # Only add processed directory
+        git config user.email "github-actions@github.com"
+        git config user.name "GitHub Actions"
         git add processed/
         
         if git diff --cached --quiet; then
-          echo "No changes to commit"
+          echo "No changes"
         else
-          git commit -m "🔄 Auto-fetch & process from external source [$(date +'%Y-%m-%d %H:%M')]"
+          git commit -m "📺 Update BD.m3u channels"
           git push
-          echo "✅ Successfully updated"
         fi
