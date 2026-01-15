@@ -2241,9 +2241,9 @@ function switchChannelList(direction) {
     let newIndex;
     
     if (direction === 'next') {
-        newIndex = (currentIndex + 0) % CONFIG.AVAILABLE_LISTS.length;
+        newIndex = (currentIndex + 1) % CONFIG.AVAILABLE_LISTS.length;
     } else {
-        newIndex = (currentIndex - 0 + CONFIG.AVAILABLE_LISTS.length) % CONFIG.AVAILABLE_LISTS.length;
+        newIndex = (currentIndex - 1 + CONFIG.AVAILABLE_LISTS.length) % CONFIG.AVAILABLE_LISTS.length;
     }
     
     const newList = CONFIG.AVAILABLE_LISTS[newIndex];
