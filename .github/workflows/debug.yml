@@ -1,0 +1,12 @@
+# .github/workflows/debug.yml
+name: Debug M3U
+on: workflow_dispatch
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.2'
+    - run: php .github/scripts/debug_m3u.php
