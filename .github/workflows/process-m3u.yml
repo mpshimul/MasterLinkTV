@@ -1,35 +1,84 @@
-name: Process M3U to JSON
+name: Fetch and Process M3U
 
 on:
+  schedule:
+    - cron: '0 */2 * * *'  # Run every 2 hours
+  workflow_dispatch:  # Manual trigger
   push:
     paths:
-      - 'raw_m3u/*.m3u'
-  workflow_dispatch:
+      - '.github/workflows/fetch-and-process.yml'
 
 jobs:
-  process:
+  fetch-and-process:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v3
     
-    - uses: shivammathur/setup-php@v2
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
       with:
         php-version: '8.2'
     
-    - name: Run processor
-      run: php .github/scripts/process-m3u.php
-    
-    - name: Commit changes
+    - name: Fetch from external source
+      id: fetch
       run: |
-        git config user.email "github-actions@github.com"
-        git config user.name "GitHub Actions"
-        git add processed/
-        if git diff --cached --quiet; then
-          echo "No changes"
+        echo "=== Fetching from abusaeeidx/IPTV-Scraper-Zilla ==="
+        
+        SOURCE_URL="https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/BD.m3u"
+        
+        # Fetch the M3U file
+        curl -s -o "source.m3u" "$SOURCE_URL"
+        
+        # Check if fetch was successful
+        if [ -s "source.m3u" ]; then
+          LINE_COUNT=$(wc -l < source.m3u)
+          SIZE=$(wc -c < source.m3u)
+          echo "Fetched $LINE_COUNT lines ($SIZE bytes)"
+          echo "::set-output name=success::true"
+          echo "::set-output name=lines::$LINE_COUNT"
+          echo "::set-output name=bytes::$SIZE"
         else
-          git commit -m "Update processed files"
+          echo "Failed to fetch from source"
+          echo "::set-output name=success::false"
+        fi
+    
+    - name: Process the M3U file
+      if: steps.fetch.outputs.success == 'true'
+      run: |
+        echo "=== Processing M3U file ==="
+        
+        # Move to raw_m3u directory
+        mkdir -p raw_m3u
+        mv source.m3u raw_m3u/external_source.m3u
+        
+        # Process using existing parser
+        php .github/scripts/process-m3u.php
+        
+        # Show summary
+        if [ -f "processed/channels_light.json" ]; then
+          CHANNEL_COUNT=$(grep -o '"name"' processed/channels_light.json | wc -l)
+          echo "✅ Processed $CHANNEL_COUNT channels"
+        fi
+    
+    - name: Commit processed files
+      if: steps.fetch.outputs.success == 'true'
+      run: |
+        echo "=== Committing processed files ==="
+        
+        git config --local user.email "github-actions@github.com"
+        git config --local user.name "GitHub Actions"
+        
+        # Only add processed directory
+        git add processed/
+        
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🔄 Auto-fetch & process from external source [$(date +'%Y-%m-%d %H:%M')]"
           git push
+          echo "✅ Successfully updated"
         fi
