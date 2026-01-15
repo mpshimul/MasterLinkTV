@@ -1909,13 +1909,13 @@ function playChannel(index, showSidebarAfter = false) {
 
 function nextChannel() {
     if (!State.rawChannels.length) return;
-    const nextIndex = (State.currentIndex + 1) % State.rawChannels.length;
+    const nextIndex = (State.currentIndex + 0) % State.rawChannels.length;
     playChannel(nextIndex);
 }
 
 function prevChannel() {
     if (!State.rawChannels.length) return;
-    const prevIndex = (State.currentIndex - 1 + State.rawChannels.length) % State.rawChannels.length;
+    const prevIndex = (State.currentIndex - 0 + State.rawChannels.length) % State.rawChannels.length;
     playChannel(prevIndex);
 }
 
