@@ -1,4 +1,4 @@
-// Generated: 2026-01-15 06:29 UTC
+// Generated: 2026-01-15 12:37 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -248,7 +248,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (9 channels, 4 with 🔐 DRM)
+    // SPORTS (10 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -303,6 +303,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/qqgZ1jVH/ten5.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports 2",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1545,7 +1559,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (27 channels, 6 with 🔐 DRM)
+    // MOVIE (28 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1893,6 +1907,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Star Gold",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/stargold/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/7YJXRsp7/gold.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "The Movie Club",
         "sources": [
             {
@@ -1962,75 +1990,69 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (30 channels)
+    // MUSIC (26 channels)
     // ==================================================
 
     {
-        "name": "24/7 Adnan Sami",
+        "name": "24/7 Music",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Hindi Music",
+                "url": "https://tplay.live/out/music/indian-music.index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Hindi Music 2",
+                "url": "https://tplay.live/out/music/indian-music2.index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "World Music",
+                "url": "https://tplay.live/out/music/world-music.index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "World Music 2",
+                "url": "https://tplay.live/out/music/world-music2.index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "World Music 3",
+                "url": "https://tplay.live/out/music/world-music3.index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Arabic",
+                "url": "https://tplay.live/out/music/arabic-music.index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Adnan Sami Playlist",
                 "url": "https://tplay.live/playlist/music/adnan-sami/index.m3u8",
                 "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/SxVJGs6X/adnan-sami.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "24/7 Bhojpuri Songs",
-        "sources": [
+            },
             {
-                "name": "Playlist",
+                "name": "Wind of Change Playlist",
+                "url": "https://tplay.live/playlist/music/wind-of-change/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Coke Studio Bangla Playlist",
+                "url": "https://tplay.live/playlist/music/coke-studio-bangla/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Dance Playlist",
+                "url": "https://tplay.live/playlist/music/dance-performance/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Bhojpuri Playlist",
                 "url": "https://tplay.live/playlist/music/bhojpuri/index.m3u8",
                 "type": "hls"
             }
         ],
-        "img": "https://i.postimg.cc/mk6mMRdL/bhojpuri.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "24/7 Coke Studio Bangla",
-        "sources": [
-            {
-                "name": "Playlist",
-                "url": "https://tplay.live/playlist/music/coke-studio-bangla/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/jj5QHB7R/csb.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "24/7 Dance Performance",
-        "sources": [
-            {
-                "name": "Playlist",
-                "url": "https://tplay.live/playlist/music/dance-performance/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/QMQsqnGY/dance.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "24/7 Wind of Change",
-        "sources": [
-            {
-                "name": "Playlist",
-                "url": "https://tplay.live/playlist/music/wind-of-change/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/HnyQPzkF/wind-of-change.jpg",
+        "img": "https://i.postimg.cc/Jzqh6SSX/tplay.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -2629,7 +2651,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 173
+// Total channels: 171
 // Channels with DRM: 19
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
