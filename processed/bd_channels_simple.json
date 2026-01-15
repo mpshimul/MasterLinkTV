@@ -20,18 +20,36 @@
         },
         "pictures": {
             "id": "pictures",
-            "name": "[BD] & Pictures HD",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/QMwWnZUBtpl-Sbt7S2sx/posters/8cad9a82-842a-47bf-a060-f17011f11c07.png",
-            "group": " Live Bdix ",
-            "quality": "HD",
+            "name": "& Pictures",
+            "logo": "https://s3.aynaott.com/storage/c79b782d70458866537715e5ac842123",
+            "group": "Hindi",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "pictures_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fandpicture_hd%2Fplaylist.m3u8",
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen6.aynascope.net%2Fandpictureshd%2Findex.m3u8%3Fe%3D1768479377%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3Ddaf1ce23548386297b404670beee7a58",
+                    "server_number": 1
+                }
+            ]
+        },
+        "tv": {
+            "id": "tv",
+            "name": "&TV",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/5cwRnZUBtpl-Sbt7wWrN/posters/5779ade3-e9ba-4107-b3da-bae6f891500a.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "tv_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fand_tv_hd%2Fplaylist.m3u8",
                     "server_number": 1
                 }
             ]
@@ -200,16 +218,16 @@
         },
         "5_news": {
             "id": "5_news",
-            "name": "5 NEWS HD",
+            "name": "5 NEWS",
             "logo": "",
             "group": "Unknown",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "5_news_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=http%3A%2F%2F163.61.227.29%3A8000%2Fplay%2Fa03m%2Findex.m3u8",
                     "server_number": 1
@@ -326,26 +344,26 @@
         },
         "a_sports": {
             "id": "a_sports",
-            "name": "A Sports HD",
+            "name": "A Sports",
             "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/12-by-xfireflix.png",
             "group": "Sports",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 2,
             "servers": [
                 {
-                    "id": "a_sports_server_1",
-                    "priority": 1,
-                    "quality": "HD",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fd6.merichunidya.com%3A1686%2Fhls%2Fasportshd.m3u8%3Fmd5%3DpiKo8iKU6cDt7kxEWWQjnQ%26expires%3D1768479902",
-                    "server_number": 1
-                },
-                {
                     "id": "a_sports_server_2",
-                    "priority": 2,
+                    "priority": 1,
                     "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen6.aynascope.net%2Fasports%2Findex.m3u8%3Fe%3D1768479208%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3D2a6455ff1e8402f683e67a9839873f64",
+                    "server_number": 1
+                },
+                {
+                    "id": "a_sports_server_1",
+                    "priority": 2,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fd6.merichunidya.com%3A1686%2Fhls%2Fasportshd.m3u8%3Fmd5%3DpiKo8iKU6cDt7kxEWWQjnQ%26expires%3D1768479902",
                     "server_number": 2
                 }
             ]
@@ -672,16 +690,16 @@
         },
         "atv": {
             "id": "atv",
-            "name": "ATV HD",
+            "name": "ATV",
             "logo": "",
             "group": "Unknown",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "atv_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=http%3A%2F%2F89.187.191.41%2FATV-HD-TR%2Fvideo.m3u8",
                     "server_number": 1
@@ -906,9 +924,9 @@
         },
         "ananda_tv": {
             "id": "ananda_tv",
-            "name": "[BD] Ananda TV",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/wCM3l5sBEef-9-uVXFvD/posters/d80f7aee-5bd7-4edc-97eb-ead0e3ebbe09.png",
-            "group": " Live Bdix ",
+            "name": "Ananda TV",
+            "logo": "https://s3.aynaott.com/storage/897698f593fc07974fc46881a440733d",
+            "group": "Bangla",
             "quality": "Unknown",
             "server_count": 1,
             "servers": [
@@ -917,7 +935,7 @@
                     "priority": 1,
                     "quality": "Unknown",
                     "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fanandatv%2Fplaylist.m3u8",
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen6.aynascope.net%2Fanandatv%2Findex.m3u8%3Fe%3D1768479171%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3D78565665c7f8098003b41ba69c2b439a",
                     "server_number": 1
                 }
             ]
@@ -996,19 +1014,27 @@
         },
         "asian_tv": {
             "id": "asian_tv",
-            "name": "[BD] Asian TV",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/MyK__poBEef-9-uVmf5l/posters/1eadef5b-28e7-4dc2-b42f-c67a3357c9a0.png",
-            "group": " Live Bdix ",
+            "name": "Asian TV",
+            "logo": "https://s3.aynaott.com/storage/5282cec3a2e9349b750540d658cf1b6c",
+            "group": "Bangla",
             "quality": "Unknown",
-            "server_count": 1,
+            "server_count": 2,
             "servers": [
                 {
-                    "id": "asian_tv_server_1",
+                    "id": "asian_tv_server_2",
                     "priority": 1,
                     "quality": "Unknown",
                     "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fasian_tv%2Fplaylist.m3u8",
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fedge%2Fasian-tv%2Findex.m3u8%3Ftoken%3D8b29754d641f9a1df1de63ee1b03e41bb4c7345d-68003ad2b13bdcc1039ee3c8e54fafb9-1768474552-1768470952",
                     "server_number": 1
+                },
+                {
+                    "id": "asian_tv_server_1",
+                    "priority": 2,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen6.aynascope.net%2Fasiantv%2Findex.m3u8%3Fe%3D1768479167%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3Dbb0008eabbfdaa4d1e5f4cb1bf040a5c",
+                    "server_number": 2
                 }
             ]
         },
@@ -1146,6 +1172,24 @@
                 }
             ]
         },
+        "b4u_movies_apac": {
+            "id": "b4u_movies_apac",
+            "name": "B4U Movies APAC",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/PC6F-JQBv9knK3AHlTUO/posters/fb0243ba-39a0-4101-a78c-c197be550c6c.webp",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "b4u_movies_apac_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fb4u_movies%2Fplaylist.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
         "b4u_movies_india": {
             "id": "b4u_movies_india",
             "name": "B4U Movies India",
@@ -1244,6 +1288,78 @@
                 }
             ]
         },
+        "bfl_live_1": {
+            "id": "bfl_live_1",
+            "name": "BFL | Live 1",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/HHnAgJkBcqxnFHJBabwO/posters/c5bce54b-66b1-4e4f-9a7f-45a551e16f49.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "bfl_live_1_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-11%2Findex.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
+        "bfl_live_2": {
+            "id": "bfl_live_2",
+            "name": "BFL | Live 2",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/MXnGgJkBcqxnFHJBILyR/posters/fc0d65fb-78c4-481a-a2ce-775796e3b39e.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "bfl_live_2_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-12%2Findex.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
+        "bfl_live_3": {
+            "id": "bfl_live_3",
+            "name": "BFL | Live 3",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/LnlKhJkBcqxnFHJBU8GM/posters/74e6a7bb-f850-4ec5-991f-7a882b04db37.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "bfl_live_3_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-13%2Findex.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
+        "bfl_live_4": {
+            "id": "bfl_live_4",
+            "name": "BFL | Live 4",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Ey9jtJoBNnOkwJLWw06R/posters/4e83252b-223d-42a6-a56b-8598aa17e2e8.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "bfl_live_4_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-18%2Findex.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
         "bravo": {
             "id": "bravo",
             "name": "BRAVO",
@@ -1336,16 +1452,16 @@
         },
         "btv_national": {
             "id": "btv_national",
-            "name": "BTV NATIONAL HD",
+            "name": "BTV NATIONAL",
             "logo": "https://s3.aynaott.com/storage/9b6f35f73a099b7a5885a970523c5f78",
             "group": "Bangla",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "btv_national_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen6.aynascope.net%2Fbtvhd%2Findex.m3u8%3Fe%3D1768479170%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3De0ceb0ff723d3211c271bc8a5f8abbcd",
                     "server_number": 1
@@ -1424,19 +1540,27 @@
         },
         "bangla_tv": {
             "id": "bangla_tv",
-            "name": "[BD] Bangla TV",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JiK-_poBEef-9-uVZv6L/posters/757a328e-70d6-45de-b093-0a843c69ade7.png",
-            "group": " Live Bdix ",
+            "name": "Bangla TV",
+            "logo": "https://s3.aynaott.com/storage/e42ecfa90e3d6b15bdb7fea5ef673864",
+            "group": "Bangla",
             "quality": "Unknown",
-            "server_count": 1,
+            "server_count": 2,
             "servers": [
                 {
-                    "id": "bangla_tv_server_1",
+                    "id": "bangla_tv_server_2",
                     "priority": 1,
                     "quality": "Unknown",
                     "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fbangla_tv%2Fplaylist.m3u8",
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F19%2Findex.m3u8%3Ftoken%3Df1a8ece186ea7065d40b591a657ac0b14e6bf072-e34d03e46f06dd2d49788f2c492bcefa-1768474552-1768470952",
                     "server_number": 1
+                },
+                {
+                    "id": "bangla_tv_server_1",
+                    "priority": 2,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen6.aynascope.net%2Fbanglatv%2Findex.m3u8%3Fe%3D1768479170%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3D903d6b6214640fb181a41f821740008e",
+                    "server_number": 2
                 }
             ]
         },
@@ -1586,19 +1710,27 @@
         },
         "bijoy_tv": {
             "id": "bijoy_tv",
-            "name": "[BD] Bijoy TV",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/bns4l5sBcqxnFHJBVZ32/posters/feaf9f3d-cc3b-4a3d-81a3-2cb703e561eb.png",
-            "group": " Live Bdix ",
+            "name": "Bijoy TV",
+            "logo": "https://s3.aynaott.com/storage/f23d6f82c1a16458fe0e4c6f11b8fd87",
+            "group": "Bangla",
             "quality": "Unknown",
-            "server_count": 1,
+            "server_count": 2,
             "servers": [
                 {
-                    "id": "bijoy_tv_server_1",
+                    "id": "bijoy_tv_server_2",
                     "priority": 1,
                     "quality": "Unknown",
                     "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fbijoytv%2Fplaylist.m3u8",
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fext%2Fbijoy-tv%2Findex.m3u8%3Ftoken%3D58b25a5cdbf58ef0e60c61d4ef225421b711e3c9-cdee20929edcbea54d7d74f407ca7ac9-1768474552-1768470952",
                     "server_number": 1
+                },
+                {
+                    "id": "bijoy_tv_server_1",
+                    "priority": 2,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen6.aynascope.net%2Fbijoytv%2Findex.m3u8%3Fe%3D1768479173%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3D29940b4e65bfa1ee153dc1b398000134",
+                    "server_number": 2
                 }
             ]
         },
@@ -1782,7 +1914,7 @@
         },
         "cnbc_indonesia": {
             "id": "cnbc_indonesia",
-            "name": "CNBC Indonesia (EN)",
+            "name": "CNBC Indonesia",
             "logo": "",
             "group": "News Internasional",
             "quality": "Unknown",
@@ -1890,18 +2022,18 @@
         },
         "cartoon_network": {
             "id": "cartoon_network",
-            "name": "[BD] Cartoon Network",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/mC6W-JQBv9knK3AHfDWA/posters/d2a02d82-fde4-4769-a6d9-95c0560e2120.webp",
-            "group": " Live Bdix ",
-            "quality": "HD",
+            "name": "Cartoon Network",
+            "logo": "https://s3.aynaott.com/storage/a89142109d049ae325fd1681b50bfffb",
+            "group": "Kids",
+            "quality": "Unknown",
             "server_count": 2,
             "servers": [
                 {
                     "id": "cartoon_network_server_2",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fcartoon_network_hd%2Fplaylist.m3u8",
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F79%2Findex.m3u8%3Ftoken%3D083e7c6db5210ec2cfce0edd96bdce8c2c0e865f-0c91b37aefc0e95283db2438a3185e63-1768474552-1768470952",
                     "server_number": 1
                 },
                 {
@@ -1909,7 +2041,7 @@
                     "priority": 2,
                     "quality": "Unknown",
                     "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fcartoon_network_sd%2Fplaylist.m3u8",
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen5.aynascope.net%2Fcartoonnetwork%2Findex.m3u8%3Fe%3D1768479386%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3Df7448abaeadbeea2530d29d80be1c62a",
                     "server_number": 2
                 }
             ]
@@ -1934,7 +2066,7 @@
         },
         "centre_court_day_4_vs_adelaide": {
             "id": "centre_court_day_4_vs_adelaide",
-            "name": "Centre Court - Day 4 vs Adelaide (ATP 250 - Adelaide International)",
+            "name": "Centre Court - Day 4 vs Adelaide",
             "logo": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
             "group": "Live Event",
             "quality": "Unknown",
@@ -1996,7 +2128,7 @@
         },
         "channel_i": {
             "id": "channel_i",
-            "name": "[BD] Channel i",
+            "name": "Channel i",
             "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/qnv835oBcqxnFHJBuQcB/posters/348dfac3-c1e0-485d-a72b-3d282c9e2c73.png",
             "group": " Live Bdix ",
             "quality": "Unknown",
@@ -2012,18 +2144,36 @@
                 }
             ]
         },
+        "channel_s": {
+            "id": "channel_s",
+            "name": "Channel S",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/WyPuDJsBEef-9-uVUA_z/posters/ea20055c-a824-443c-8083-ce8e2da8b922.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "channel_s_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fchannel_s_tv%2Fplaylist.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
         "channel_s_uk": {
             "id": "channel_s_uk",
-            "name": "Channel S UK HD",
+            "name": "Channel S UK",
             "logo": "",
             "group": "Bangla",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "channel_s_uk_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fapp.ncare.live%2Fc3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI%2Fchsukoff.stream%2Fplaylist.m3u8",
                     "server_number": 1
@@ -2050,7 +2200,7 @@
         },
         "chattogram_royals_vs_noakhali_express": {
             "id": "chattogram_royals_vs_noakhali_express",
-            "name": "Chattogram Royals vs Noakhali Express (Bangladesh Premier League- 2025-26)",
+            "name": "Chattogram Royals vs Noakhali Express",
             "logo": "https://www.fancode.com/skillup-uploads/cms-media/138934_5808_CCH_NOE_fc-web_1766733054213.jpg",
             "group": "Live Event",
             "quality": "Unknown",
@@ -2068,16 +2218,16 @@
         },
         "colors_cineplex": {
             "id": "colors_cineplex",
-            "name": "Colors Cineplex HD",
+            "name": "Colors Cineplex",
             "logo": "",
             "group": "Hindi",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "colors_cineplex_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fcdn-2.pishow.tv%2Flive%2F228%2F228_1.m3u8",
                     "server_number": 1
@@ -2086,16 +2236,16 @@
         },
         "colors_infinity": {
             "id": "colors_infinity",
-            "name": "Colors Infinity SD",
+            "name": "Colors Infinity",
             "logo": "",
             "group": "Entertainment",
-            "quality": "SD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "colors_infinity_server_1",
                     "priority": 1,
-                    "quality": "SD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Flivecdn.live247stream.com%2Fjoomusic%2Ftv%2Fplaylist.m3u8",
                     "server_number": 1
@@ -2612,6 +2762,24 @@
                 }
             ]
         },
+        "discovery": {
+            "id": "discovery",
+            "name": "discovery",
+            "logo": "http://tvassets.roarzone.info/images/43.png",
+            "group": "Documentary",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "discovery_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F83%2Findex.m3u8%3Ftoken%3D91cae09a8070ebf5b5f6da04ed489c990d4e8e8a-e0c2b5c2aff184606981b2cc468ae130-1768474552-1768470952",
+                    "server_number": 1
+                }
+            ]
+        },
         "discovery_family": {
             "id": "discovery_family",
             "name": "Discovery Family",
@@ -2630,20 +2798,20 @@
                 }
             ]
         },
-        "discovery": {
-            "id": "discovery",
-            "name": "discovery hd",
-            "logo": "http://tvassets.roarzone.info/images/43.png",
-            "group": "Documentary",
-            "quality": "HD",
+        "discovery_kids": {
+            "id": "discovery_kids",
+            "name": "discovery kids",
+            "logo": "http://tvassets.roarzone.info/images/discoverykids.png",
+            "group": "Kids",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
-                    "id": "discovery_server_1",
+                    "id": "discovery_kids_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F83%2Findex.m3u8%3Ftoken%3D91cae09a8070ebf5b5f6da04ed489c990d4e8e8a-e0c2b5c2aff184606981b2cc468ae130-1768474552-1768470952",
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Ftoffee%2Fdiscovery_kids%2Findex.m3u8%3Ftoken%3D98cf6378d7c0a03a7dc26b1982071021f3fc7b79-fe008d1142f46fce5e35b91a7209c924-1768474552-1768470952",
                     "server_number": 1
                 }
             ]
@@ -2910,7 +3078,7 @@
         },
         "duronto_tv": {
             "id": "duronto_tv",
-            "name": "Duronto TV (720p)",
+            "name": "Duronto TV",
             "logo": "",
             "group": "Unknown",
             "quality": "Unknown",
@@ -2940,6 +3108,96 @@
                     "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen7.aynascope.net%2Fepix%2Findex.m3u8%3Fe%3D1768479320%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3D92e3bb2118b5226105ed9f9a199f562a",
+                    "server_number": 1
+                }
+            ]
+        },
+        "epl_channel_4": {
+            "id": "epl_channel_4",
+            "name": "EPL Channel 4",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/OyEz-ZgBEef-9-uVnhcx/posters/f2143475-cf44-441a-b55d-58b2b5569aa5.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "epl_channel_4_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-4%2Findex.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
+        "epl_channel_5": {
+            "id": "epl_channel_5",
+            "name": "EPL Channel 5",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/6CHi_5gBEef-9-uV-Bx_/posters/95066512-a117-4532-8569-0d13ffc046ef.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "epl_channel_5_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-5%2Findex.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
+        "epl_channel_1": {
+            "id": "epl_channel_1",
+            "name": "EPL channel 1",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JS1AqZgBNnOkwJLWlwg-/posters/08617b27-2af1-4035-bcc3-d054ce42ca4b.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "epl_channel_1_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-1%2Findex.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
+        "epl_channel_2": {
+            "id": "epl_channel_2",
+            "name": "EPL channel 2",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Mi1QqZgBNnOkwJLWxggo/posters/3e9d4d0a-a346-4b39-92b5-13e9238ad240.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "epl_channel_2_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-2%2Findex.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
+        "epl_channel_3": {
+            "id": "epl_channel_3",
+            "name": "EPL channel 3",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Pi1TqZgBNnOkwJLWVggf/posters/d0bb78b5-4690-4c12-9c7b-e785eb8d7336.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "epl_channel_3_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-3%2Findex.m3u8",
                     "server_number": 1
                 }
             ]
@@ -3018,9 +3276,9 @@
         },
         "ekhon_tv": {
             "id": "ekhon_tv",
-            "name": "[BD] Ekhon TV",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/o3v235oBcqxnFHJBkAdC/posters/159af631-796d-4342-a2a7-c272f32bcd32.png",
-            "group": " Live Bdix ",
+            "name": "Ekhon TV",
+            "logo": "https://s3.aynaott.com/storage/274c30c492e8795c8011d0129113f4bc",
+            "group": "News",
             "quality": "Unknown",
             "server_count": 1,
             "servers": [
@@ -3029,7 +3287,7 @@
                     "priority": 1,
                     "quality": "Unknown",
                     "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fekhon_tv%2Fplaylist.m3u8",
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen6.aynascope.net%2Fekhontv%2Findex.m3u8%3Fe%3D1768479186%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3D83ece7f787350953e37dbf97172ce833",
                     "server_number": 1
                 }
             ]
@@ -3054,7 +3312,7 @@
         },
         "ekushey_tv": {
             "id": "ekushey_tv",
-            "name": "Ekushey TV (480p)",
+            "name": "Ekushey TV",
             "logo": "",
             "group": "Unknown",
             "quality": "Unknown",
@@ -3120,6 +3378,24 @@
                     "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen5.aynascope.net%2Fespn%2Findex.m3u8%3Fe%3D1768479217%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3Db547dfd728ae92fee94d7f27b23bcbbb",
+                    "server_number": 1
+                }
+            ]
+        },
+        "eurosport": {
+            "id": "eurosport",
+            "name": "Eurosport",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Uy6Q-JQBv9knK3AHcDUQ/posters/01709bcd-6d53-4710-a64f-bc49cecf1d61.webp",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "eurosport_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Feuro_sports_hd%2Fplaylist.m3u8",
                     "server_number": 1
                 }
             ]
@@ -3296,16 +3572,16 @@
         },
         "fox_cricket_501": {
             "id": "fox_cricket_501",
-            "name": "Fox Cricket 501 HD",
+            "name": "Fox Cricket 501",
             "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/6-by-xfireflix.png",
             "group": "Sports",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "fox_cricket_501_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fd7.merichunidya.com%3A1686%2Fhls%2Ffox501.m3u8%3Fmd5%3DHzIkfkBbdckEpvUSMZtoZw%26expires%3D1768479909",
                     "server_number": 1
@@ -3404,7 +3680,7 @@
         },
         "france_24_english": {
             "id": "france_24_english",
-            "name": "France 24 English (720p)",
+            "name": "France 24 English",
             "logo": "",
             "group": "News Internasional",
             "quality": "Unknown",
@@ -3494,7 +3770,7 @@
         },
         "global_news": {
             "id": "global_news",
-            "name": "Global News (US)",
+            "name": "Global News",
             "logo": "",
             "group": "News Internasional",
             "quality": "Unknown",
@@ -3512,9 +3788,9 @@
         },
         "global_tv": {
             "id": "global_tv",
-            "name": "[BD] Global TV",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/0y_tDJsBNnOkwJLWNrdE/posters/2ff058e1-630f-4657-8dc6-b677e65642c5.png",
-            "group": " Live Bdix ",
+            "name": "Global TV",
+            "logo": "https://s3.aynaott.com/storage/ffd7ba9b76ad555933f94bcb7ff26b44",
+            "group": "Bangla",
             "quality": "Unknown",
             "server_count": 1,
             "servers": [
@@ -3523,7 +3799,7 @@
                     "priority": 1,
                     "quality": "Unknown",
                     "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fglobal_tv%2Fplaylist.m3u8",
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen6.aynascope.net%2Fglobaltvhd%2Findex.m3u8%3Fe%3D1768479173%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3D0c1cbfc3f1e980f98d3d76492307220f",
                     "server_number": 1
                 }
             ]
@@ -3762,6 +4038,60 @@
                 }
             ]
         },
+        "hum": {
+            "id": "hum",
+            "name": "HUM",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/0C63X5UBv9knK3AHxaOs/posters/6dce1143-1045-4fec-ac4f-86d2bfb32447.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "hum_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fhum_tv%2Fplaylist.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
+        "hum_masala": {
+            "id": "hum_masala",
+            "name": "hum masala",
+            "logo": "http://tvassets.roarzone.info/images/hummasala.png",
+            "group": "Hindi",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "hum_masala_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Ftoffee%2Fhum_masala%2Findex.m3u8%3Ftoken%3D05b4e8745841ba403a7998819e39f2be2158fdc8-e69fd2507fe0b42f1af4127425144f8a-1768474552-1768470952",
+                    "server_number": 1
+                }
+            ]
+        },
+        "hum_sitaray": {
+            "id": "hum_sitaray",
+            "name": "HUM Sitaray",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/WtPBX5UBm1RY_In7mXEU/posters/188d51f6-aeef-41ed-835b-e25ff911e209.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "hum_sitaray_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fhum_sitaray%2Fplaylist.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
         "hadi_tv": {
             "id": "hadi_tv",
             "name": "Hadi TV",
@@ -3818,16 +4148,16 @@
         },
         "hindi_hits": {
             "id": "hindi_hits",
-            "name": "Hindi Hits HD",
+            "name": "Hindi Hits",
             "logo": "",
             "group": "Hindi Music",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "hindi_hits_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=http%3A%2F%2F146.59.253.52%3A8080%2Fhindihitshd%2Findex.m3u8",
                     "server_number": 1
@@ -3890,16 +4220,16 @@
         },
         "histoire": {
             "id": "histoire",
-            "name": "Histoire HD",
+            "name": "Histoire",
             "logo": "",
             "group": "Infotainment",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "histoire_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=http%3A%2F%2F151.80.18.177%3A86%2FHistoire%2Findex.m3u8",
                     "server_number": 1
@@ -3960,6 +4290,24 @@
                 }
             ]
         },
+        "icc_test_championship_highlights": {
+            "id": "icc_test_championship_highlights",
+            "name": "ICC Test Championship Highlights",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/PnZefJcBcqxnFHJBoxca/posters/955ae898-8336-4936-8d78-c6b8866e35f7.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "icc_test_championship_highlights_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ficc_wtc_final%2Fplaylist.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
         "independent_tv": {
             "id": "independent_tv",
             "name": "independent tv",
@@ -4014,6 +4362,24 @@
                 }
             ]
         },
+        "investigation_discovery": {
+            "id": "investigation_discovery",
+            "name": "Investigation Discovery",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ay7uX5UBv9knK3AHs6TI/posters/deb3c186-b2e1-4a91-aafb-d86f9128b851.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "investigation_discovery_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fdiscovary_investigation_hd%2Fplaylist.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
         "iqra_bangla": {
             "id": "iqra_bangla",
             "name": "Iqra Bangla",
@@ -4034,7 +4400,7 @@
         },
         "iran_international": {
             "id": "iran_international",
-            "name": "Iran International(EN)",
+            "name": "Iran International",
             "logo": "",
             "group": "News Internasional",
             "quality": "Unknown",
@@ -4384,26 +4750,26 @@
         },
         "maasranga": {
             "id": "maasranga",
-            "name": "MAASRANGA HD",
+            "name": "MAASRANGA",
             "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/a/a3/Maasranga_TV_HD_logo.png",
             "group": "Bangla",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 2,
             "servers": [
                 {
-                    "id": "maasranga_server_1",
-                    "priority": 1,
-                    "quality": "HD",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=http%3A%2F%2Fmtv.sunplex.live%2FMAASRANGA-TV%2Findex.m3u8",
-                    "server_number": 1
-                },
-                {
                     "id": "maasranga_server_2",
-                    "priority": 2,
+                    "priority": 1,
                     "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F51%2Findex.m3u8%3Ftoken%3Dfa5f6fb407967f456182a2ea767810f070cb8fd0-1bfd36056e4e9d5f3750f8cbb5ab4ed2-1768474552-1768470952",
+                    "server_number": 1
+                },
+                {
+                    "id": "maasranga_server_1",
+                    "priority": 2,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=http%3A%2F%2Fmtv.sunplex.live%2FMAASRANGA-TV%2Findex.m3u8",
                     "server_number": 2
                 }
             ]
@@ -5082,16 +5448,16 @@
         },
         "nat_geo": {
             "id": "nat_geo",
-            "name": "Nat Geo HD",
+            "name": "Nat Geo",
             "logo": "",
             "group": "Information",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "nat_geo_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=http%3A%2F%2F151.80.18.177%3A86%2FNational_Geo_HD%2Findex.m3u8",
                     "server_number": 1
@@ -5368,6 +5734,24 @@
                 }
             ]
         },
+        "pogo": {
+            "id": "pogo",
+            "name": "pogo",
+            "logo": "http://tvassets.roarzone.info/images/pogo.png",
+            "group": "Kids",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "pogo_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Ftoffee%2Fpogo_sd%2Findex.m3u8%3Ftoken%3D5b5fdb5e593437d5b21d9ef010b1bf2cd2a27f7c-db2f23723a1cab20526348be893822a1-1768474552-1768470952",
+                    "server_number": 1
+                }
+            ]
+        },
         "pro_sport_international": {
             "id": "pro_sport_international",
             "name": "PRO Sport International",
@@ -5540,16 +5924,16 @@
         },
         "peace_tv_bangla": {
             "id": "peace_tv_bangla",
-            "name": "Peace TV Bangla HD",
+            "name": "Peace TV Bangla",
             "logo": "https://s3.aynaott.com/storage/e33b23f7dc3d39008d672952c33069d4",
             "group": "Bangla",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "peace_tv_bangla_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen7.aynascope.net%2FPeaceTvBanglaHD%2Findex.m3u8%3Fe%3D1768479156%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3Dd53bc3b5620d91d8e2e64a7225de1fc0",
                     "server_number": 1
@@ -5558,18 +5942,18 @@
         },
         "peace_tv_urdu": {
             "id": "peace_tv_urdu",
-            "name": "Peace TV Urdu HD",
-            "logo": "https://s3.aynaott.com/storage/5442b2655aca6398b26ba539f396565a",
-            "group": "Religious",
-            "quality": "HD",
+            "name": "Peace TV Urdu",
+            "logo": "",
+            "group": "Relagion Channel",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "peace_tv_urdu_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen6.aynascope.net%2FPeaceTVUrduHD%2Findex.m3u8%3Fe%3D1768479409%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3Df3099a5eb370674b1e2e70ec12db90a4",
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fdzkyvlfyge.erbvr.com%2FPeaceTvUrdu%2Findex.m3u8",
                     "server_number": 1
                 }
             ]
@@ -5882,7 +6266,7 @@
         },
         "rt_news": {
             "id": "rt_news",
-            "name": "RT News (EN)",
+            "name": "RT News",
             "logo": "",
             "group": "News Internasional",
             "quality": "Unknown",
@@ -5926,16 +6310,16 @@
         },
         "rtl9": {
             "id": "rtl9",
-            "name": "RTL9 HD",
+            "name": "RTL9",
             "logo": "",
             "group": "Infotainment",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "rtl9_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=http%3A%2F%2F151.80.18.177%3A86%2FRTL9%2Findex.m3u8",
                     "server_number": 1
@@ -6194,16 +6578,16 @@
         },
         "sony_sab": {
             "id": "sony_sab",
-            "name": "[BD] Sony SAB HD",
+            "name": "Sony SAB",
             "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ES55-JQBv9knK3AHNDWC/posters/13411be9-62b9-4a99-a062-b6e91dfb1099.webp",
             "group": " Live Bdix ",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "sony_sab_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsonysab_hd%2Fplaylist.m3u8",
                     "server_number": 1
@@ -6230,26 +6614,26 @@
         },
         "star_sports_2": {
             "id": "star_sports_2",
-            "name": "STAR SPORTS 2 HD",
+            "name": "STAR SPORTS 2",
             "logo": "https://s3.aynaott.com/storage/daeac3b0e17bfabd911bd5dc63c69aa8",
             "group": "Sports",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 2,
             "servers": [
                 {
-                    "id": "star_sports_2_server_1",
-                    "priority": 1,
-                    "quality": "HD",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen5.aynascope.net%2FcXPB2LKkErN9%2Findex.m3u8%3Fe%3D1768479244%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3D645fda58f68384e7b6eb9d6fffcd9080",
-                    "server_number": 1
-                },
-                {
                     "id": "star_sports_2_server_2",
-                    "priority": 2,
+                    "priority": 1,
                     "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fedge2%2Fstar-sports-2%2Findex.m3u8%3Ftoken%3Ddfd9e75072ff5c9c23ad19aa03ed24b4ca50fd8d-308f96e7b57c9b7ef61b9f826fa64266-1768474552-1768470952",
+                    "server_number": 1
+                },
+                {
+                    "id": "star_sports_2_server_1",
+                    "priority": 2,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen5.aynascope.net%2FcXPB2LKkErN9%2Findex.m3u8%3Fe%3D1768479244%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3D645fda58f68384e7b6eb9d6fffcd9080",
                     "server_number": 2
                 }
             ]
@@ -6830,9 +7214,133 @@
                 }
             ]
         },
+        "sony_aath": {
+            "id": "sony_aath",
+            "name": "sony aath",
+            "logo": "http://tvassets.roarzone.info/images/33.png",
+            "group": "Inbangla",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "sony_aath_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F33%2Findex.m3u8%3Ftoken%3Dac18392557366e8e3acec455446fda8b6c5d791a-cb6a855385709729af9d5b04e76ee702-1768474552-1768470952",
+                    "server_number": 1
+                }
+            ]
+        },
+        "sony_bbc_earth": {
+            "id": "sony_bbc_earth",
+            "name": "sony bbc earth",
+            "logo": "http://tvassets.roarzone.info/images/44.png",
+            "group": "Documentary",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "sony_bbc_earth_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F44%2Findex.m3u8%3Ftoken%3D5ac43d3e63c1428dfa17aa9a29be8169286a6045-0f44f3354a72aaad9c5b5d063e2bf783-1768474552-1768470952",
+                    "server_number": 1
+                }
+            ]
+        },
+        "sony_entertainment_television": {
+            "id": "sony_entertainment_television",
+            "name": "Sony Entertainment Television",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/-y50-JQBv9knK3AHLzSn/posters/0ab48ac0-ec84-4ca2-9601-746ff3cb809e.webp",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 2,
+            "servers": [
+                {
+                    "id": "sony_entertainment_television_server_2",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_entertainment%2Fplaylist.m3u8",
+                    "server_number": 1
+                },
+                {
+                    "id": "sony_entertainment_television_server_1",
+                    "priority": 2,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsonyentertainmnt_hd%2Fplaylist.m3u8",
+                    "server_number": 2
+                }
+            ]
+        },
+        "sony_max": {
+            "id": "sony_max",
+            "name": "sony max",
+            "logo": "http://tvassets.roarzone.info/images/sonymax.png",
+            "group": "Hindi",
+            "quality": "Unknown",
+            "server_count": 2,
+            "servers": [
+                {
+                    "id": "sony_max_server_2",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Ftoffee%2Fsony_max_hd%2Findex.m3u8%3Ftoken%3Dd11b5583178bd54731c19f147d574c58a3e9d59e-2827e60ebe3f33a984c3b1ed54dd2770-1768474552-1768470952",
+                    "server_number": 1
+                },
+                {
+                    "id": "sony_max_server_1",
+                    "priority": 2,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F77%2Findex.m3u8%3Ftoken%3Df7d63c31706c2ae3cc24bdca4b0f1499aeca27bf-1a7dd59382974f102e7e2bbc1e602009-1768474552-1768470952",
+                    "server_number": 2
+                }
+            ]
+        },
+        "sony_max_2": {
+            "id": "sony_max_2",
+            "name": "sony max 2",
+            "logo": "http://tvassets.roarzone.info/images/sonymax2.png",
+            "group": "Hindi",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "sony_max_2_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Ftoffee%2Fsonymax_2%2Findex.m3u8%3Ftoken%3D3d45b1bb0ee23db1b0f5aefc82dd8a68e1375f74-9af441563482c3f87b214610bce71d61-1768474552-1768470952",
+                    "server_number": 1
+                }
+            ]
+        },
+        "sony_pix": {
+            "id": "sony_pix",
+            "name": "sony pix",
+            "logo": "http://tvassets.roarzone.info/images/41.png",
+            "group": "English",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "sony_pix_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F41%2Findex.m3u8%3Ftoken%3Db6e22631095696871d99476a1f3dd713e8044cd6-bc412d1e237d6a550e7620eedda6ecc2-1768474552-1768470952",
+                    "server_number": 1
+                }
+            ]
+        },
         "sony_sports_ten_3_hindi": {
             "id": "sony_sports_ten_3_hindi",
-            "name": "Sony Sports Ten 3 Hindi (576p)",
+            "name": "Sony Sports Ten 3 Hindi",
             "logo": "",
             "group": "Sports",
             "quality": "Unknown",
@@ -6886,27 +7394,117 @@
         },
         "sony_tv": {
             "id": "sony_tv",
-            "name": "Sony TV HD",
+            "name": "Sony TV",
             "logo": "https://s3.aynaott.com/storage/2d12bf4f5dad8918427df0162d0e1184",
             "group": "Hindi",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 2,
             "servers": [
                 {
-                    "id": "sony_tv_server_1",
-                    "priority": 1,
-                    "quality": "HD",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen5.aynascope.net%2FWfn4bVp3dLgA%2Findex.m3u8%3Fe%3D1768479366%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3D9fac0c1055363383c3c87d635fc7ed35",
-                    "server_number": 1
-                },
-                {
                     "id": "sony_tv_server_2",
-                    "priority": 2,
+                    "priority": 1,
                     "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F38%2Findex.m3u8%3Ftoken%3Da6eb3bca2902823e65bb50c79866838a1c81acdf-38434d1174680c7e67d2dac136719a4f-1768474552-1768470952",
+                    "server_number": 1
+                },
+                {
+                    "id": "sony_tv_server_1",
+                    "priority": 2,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen5.aynascope.net%2FWfn4bVp3dLgA%2Findex.m3u8%3Fe%3D1768479366%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3D9fac0c1055363383c3c87d635fc7ed35",
                     "server_number": 2
+                }
+            ]
+        },
+        "sony_ten_cricket": {
+            "id": "sony_ten_cricket",
+            "name": "Sony Ten Cricket",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ra2x_pQBrjBfS2_RWG9l/posters/795170c2-ec78-457e-9fa0-54a23d23361c.webp",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "sony_ten_cricket_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ften_cricket%2Fplaylist.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
+        "sony_ten_sports_1": {
+            "id": "sony_ten_sports_1",
+            "name": "Sony Ten Sports 1",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/py5j-JQBv9knK3AHxDTY/posters/ea3358b9-2bec-4615-a889-daa2e396c74c.webp",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "sony_ten_sports_1_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_sports_1_hd%2Fplaylist.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
+        "sony_ten_sports_2": {
+            "id": "sony_ten_sports_2",
+            "name": "Sony Ten Sports 2",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/sy5m-JQBv9knK3AHYTTk/posters/5e40bf0e-633f-4d37-a3b2-3d606f0ac19a.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "sony_ten_sports_2_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_sports_2_hd%2Fplaylist.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
+        "sony_ten_sports_5": {
+            "id": "sony_ten_sports_5",
+            "name": "Sony Ten Sports 5",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/vi5n-JQBv9knK3AHqzTC/posters/241705c1-06a9-4694-92c6-0013d1879e42.webp",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "sony_ten_sports_5_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_sports_5_hd%2Fplaylist.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
+        "sony_yay": {
+            "id": "sony_yay",
+            "name": "sony yay",
+            "logo": "http://tvassets.roarzone.info/images/sonyyay.png",
+            "group": "Kids",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "sony_yay_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Ftoffee%2Fsonyyay%2Findex.m3u8%3Ftoken%3Db5f1c5dfec4816af3020d46158a0dc2707e0c966-08b16347741f1b8aa1c4d1d8c1722714-1768474552-1768470952",
+                    "server_number": 1
                 }
             ]
         },
@@ -6984,16 +7582,16 @@
         },
         "sport_1": {
             "id": "sport_1",
-            "name": "Sport 1 HD",
+            "name": "Sport 1",
             "logo": "",
             "group": "Football",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "sport_1_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=http%3A%2F%2F178.23.88.55%2FSport1%2Findex.m3u8",
                     "server_number": 1
@@ -7113,23 +7711,23 @@
             "name": "Star Sports 1",
             "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/16-by-xfireflix.png",
             "group": "Sports",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 3,
             "servers": [
                 {
-                    "id": "star_sports_1_server_2",
-                    "priority": 1,
-                    "quality": "HD",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen5.aynascope.net%2Fc9EpzZ6fQBJ3%2Findex.m3u8%3Fe%3D1768479214%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3D48dc5656298e788b33679cfa7d2ad29d",
-                    "server_number": 1
-                },
-                {
                     "id": "star_sports_1_server_3",
-                    "priority": 2,
+                    "priority": 1,
                     "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fedge2%2Fstar-sports-1%2Findex.m3u8%3Ftoken%3D212e9dcb288a682455d18a6ac7704c89fc0b4f3e-347d74b43b53b4a41a0ec8257d9e7c30-1768474552-1768470952",
+                    "server_number": 1
+                },
+                {
+                    "id": "star_sports_1_server_2",
+                    "priority": 2,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen5.aynascope.net%2Fc9EpzZ6fQBJ3%2Findex.m3u8%3Fe%3D1768479214%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3D48dc5656298e788b33679cfa7d2ad29d",
                     "server_number": 2
                 },
                 {
@@ -7162,16 +7760,16 @@
         },
         "starjalsha": {
             "id": "starjalsha",
-            "name": "StarJalsha HD",
+            "name": "StarJalsha",
             "logo": "",
             "group": "Indian Bangla",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 2,
             "servers": [
                 {
                     "id": "starjalsha_server_2",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen1.aynaott.com%2FgUX8BJmNc2yF%2Ftracks-v1a1%2Fmono.ts.m3u8",
                     "server_number": 1
@@ -7179,7 +7777,7 @@
                 {
                     "id": "starjalsha_server_1",
                     "priority": 2,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fdhoomtv.xyz%2Flive%2FP4B9TB9xR8%2Fhumongous2tonight%2F23218.ts",
                     "server_number": 2
@@ -7242,7 +7840,7 @@
         },
         "t_global_news": {
             "id": "t_global_news",
-            "name": "T Global News (Canada)",
+            "name": "T Global News",
             "logo": "",
             "group": "News Internasional",
             "quality": "Unknown",
@@ -7260,16 +7858,16 @@
         },
         "t_sport": {
             "id": "t_sport",
-            "name": "T SPORT HD",
+            "name": "T SPORT",
             "logo": "",
             "group": "Cricket",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "t_sport_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=http%3A%2F%2Fcors.tundracast.com%3A2000%2Fhttps%3A%2F%2Ftgn.bozztv.com%2Feshgtv-dvrfl05%2Fgin-ariana%2Findex.m3u8",
                     "server_number": 1
@@ -7278,26 +7876,26 @@
         },
         "t_sports": {
             "id": "t_sports",
-            "name": "T Sports HD",
+            "name": "T Sports",
             "logo": "https://s3.aynaott.com/storage/dbc585f70a60b9855b6e13a8ce4cb6f4",
             "group": "Sports",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 2,
             "servers": [
                 {
-                    "id": "t_sports_server_1",
-                    "priority": 1,
-                    "quality": "HD",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen7.aynascope.net%2Ftsports-hd%2Findex.m3u8%3Fe%3D1768479205%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3D65b7578b2c3da16dd8e9061f3c7ffca3",
-                    "server_number": 1
-                },
-                {
                     "id": "t_sports_server_2",
-                    "priority": 2,
+                    "priority": 1,
                     "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fedge2%2Ftsports%2Findex.m3u8%3Ftoken%3D5a855d4fb2f294758babf39b521e4c1538a4ae76-faadca55b5dacb170af21910b576062f-1768474552-1768470952",
+                    "server_number": 1
+                },
+                {
+                    "id": "t_sports_server_1",
+                    "priority": 2,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen7.aynascope.net%2Ftsports-hd%2Findex.m3u8%3Fe%3D1768479205%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3D65b7578b2c3da16dd8e9061f3c7ffca3",
                     "server_number": 2
                 }
             ]
@@ -7340,16 +7938,16 @@
         },
         "tf1": {
             "id": "tf1",
-            "name": "TF1 HD",
+            "name": "TF1",
             "logo": "",
             "group": "Infotainment",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "tf1_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=http%3A%2F%2F151.80.18.177%3A86%2FTF1_HD%2Findex.m3u8",
                     "server_number": 1
@@ -7376,27 +7974,19 @@
         },
         "tlc": {
             "id": "tlc",
-            "name": "[BD] TLC",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/7C6j-JQBv9knK3AHVzUA/posters/e8f84105-5efe-4e91-a0d4-18a0849cf2f2.webp",
-            "group": " Live Bdix ",
-            "quality": "HD",
-            "server_count": 2,
+            "name": "TLC",
+            "logo": "https://s3.aynaott.com/storage/ba3c9fa1144bc65322f8ae3a1bb69cc9",
+            "group": "English",
+            "quality": "Unknown",
+            "server_count": 1,
             "servers": [
                 {
-                    "id": "tlc_server_2",
-                    "priority": 1,
-                    "quality": "HD",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ftlc_hd%2Fplaylist.m3u8",
-                    "server_number": 1
-                },
-                {
                     "id": "tlc_server_1",
-                    "priority": 2,
+                    "priority": 1,
                     "quality": "Unknown",
                     "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ftlc_sd%2Fplaylist.m3u8",
-                    "server_number": 2
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen6.aynascope.net%2Ftlc_hd%2Findex.m3u8%3Fe%3D1768479327%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3Dba0d902f91b0ec255900a44cfcb9f3ae",
+                    "server_number": 1
                 }
             ]
         },
@@ -7510,16 +8100,16 @@
         },
         "trt_2": {
             "id": "trt_2",
-            "name": "TRT 2 HD",
+            "name": "TRT 2",
             "logo": "",
             "group": "Unknown",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "trt_2_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftv-trt2.medya.trt.com.tr%2Fmaster.m3u8",
                     "server_number": 1
@@ -7832,6 +8422,42 @@
                 }
             ]
         },
+        "toffee_dramas": {
+            "id": "toffee_dramas",
+            "name": "Toffee Dramas",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/DNMXs5UBm1RY_In7IJ72/posters/5638c4e8-36ba-4e8e-848e-233183b3ec17.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "toffee_dramas_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ftoffee_drama%2Fplaylist.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
+        "toffee_movies": {
+            "id": "toffee_movies",
+            "name": "Toffee Movies",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/b60Ss5UBrjBfS2_RJPb8/posters/2e5b8ff3-9deb-4040-947e-4ce6a4674ef0.png",
+            "group": " Live Bdix ",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "toffee_movies_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ftoffee_movie%2Fplaylist.m3u8",
+                    "server_number": 1
+                }
+            ]
+        },
         "tracesport": {
             "id": "tracesport",
             "name": "TraceSport",
@@ -8068,16 +8694,16 @@
         },
         "wil": {
             "id": "wil",
-            "name": "Willow HD",
+            "name": "Willow",
             "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/38-by-xfireflix.png",
             "group": "Sports",
-            "quality": "HD",
+            "quality": "Low",
             "server_count": 1,
             "servers": [
                 {
                     "id": "wil_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Low",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fd6.merichunidya.com%3A1686%2Fhls%2Fwillowusa.m3u8%3Fmd5%3DaxbdEufsxvnsvMaZoFkYHA%26expires%3D1768479902",
                     "server_number": 1
@@ -8212,16 +8838,16 @@
         },
         "yrf_music": {
             "id": "yrf_music",
-            "name": "YRF Music HD",
+            "name": "YRF Music",
             "logo": "",
             "group": "Unknown",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 2,
             "servers": [
                 {
                     "id": "yrf_music_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg01412-xiaomiasia-yrfmusic-xiaomi%2Fplaylist.m3u8",
                     "server_number": 1
@@ -8326,688 +8952,6 @@
                 }
             ]
         },
-        "zee_bangla_international": {
-            "id": "zee_bangla_international",
-            "name": "Zee Bangla International",
-            "logo": "https://s3.aynaott.com/storage/0cb865748deefd42e69fd9a221cf38ee",
-            "group": "Indian Bangla",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "zee_bangla_international_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen5.aynascope.net%2FPNEb3v2q6GBk%2Findex.m3u8%3Fe%3D1768479382%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3Dd2c2886d600368eb3ee569d416b2336c",
-                    "server_number": 1
-                }
-            ]
-        },
-        "zee_tv": {
-            "id": "zee_tv",
-            "name": "zee tv",
-            "logo": "http://tvassets.roarzone.info/images/40.png",
-            "group": "Hindi",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "zee_tv_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F40%2Findex.m3u8%3Ftoken%3D7b98f81c8deace256f61098504061a0b021a0bf3-8304adfe098ea5237d9c0e7dae60aaeb-1768474552-1768470952",
-                    "server_number": 1
-                }
-            ]
-        },
-        "zee_bangla_cinema": {
-            "id": "zee_bangla_cinema",
-            "name": "zee bangla cinema",
-            "logo": "http://tvassets.roarzone.info/images/29.png",
-            "group": "Inbangla",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "zee_bangla_cinema_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F29%2Findex.m3u8%3Ftoken%3D32a227581ee1a78437d5a55bdcdda07f958c0c06-657bd14fa2a3c4ab7c036ab1bb99a533-1768474552-1768470952",
-                    "server_number": 1
-                }
-            ]
-        },
-        "zoom_tv": {
-            "id": "zoom_tv",
-            "name": "Zoom TV",
-            "logo": "https://s3.aynaott.com/storage/bb1e93cd63ca86130fe6f66393b7497b",
-            "group": "Hindi",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "zoom_tv_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Flive.zoomnews.info%2Flive%2FZoom_playlist.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "tv": {
-            "id": "tv",
-            "name": "[BD] &TV HD",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/5cwRnZUBtpl-Sbt7wWrN/posters/5779ade3-e9ba-4107-b3da-bae6f891500a.png",
-            "group": " Live Bdix ",
-            "quality": "HD",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "tv_server_1",
-                    "priority": 1,
-                    "quality": "HD",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fand_tv_hd%2Fplaylist.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "b4u_movies_apac": {
-            "id": "b4u_movies_apac",
-            "name": "[BD] B4U Movies APAC",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/PC6F-JQBv9knK3AHlTUO/posters/fb0243ba-39a0-4101-a78c-c197be550c6c.webp",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "b4u_movies_apac_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fb4u_movies%2Fplaylist.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "bfl_live_1": {
-            "id": "bfl_live_1",
-            "name": "[BD] BFL | Live 1",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/HHnAgJkBcqxnFHJBabwO/posters/c5bce54b-66b1-4e4f-9a7f-45a551e16f49.png",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "bfl_live_1_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-11%2Findex.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "bfl_live_2": {
-            "id": "bfl_live_2",
-            "name": "[BD] BFL | Live 2",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/MXnGgJkBcqxnFHJBILyR/posters/fc0d65fb-78c4-481a-a2ce-775796e3b39e.png",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "bfl_live_2_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-12%2Findex.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "bfl_live_3": {
-            "id": "bfl_live_3",
-            "name": "[BD] BFL | Live 3",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/LnlKhJkBcqxnFHJBU8GM/posters/74e6a7bb-f850-4ec5-991f-7a882b04db37.png",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "bfl_live_3_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-13%2Findex.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "bfl_live_4": {
-            "id": "bfl_live_4",
-            "name": "[BD] BFL | Live 4",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Ey9jtJoBNnOkwJLWw06R/posters/4e83252b-223d-42a6-a56b-8598aa17e2e8.png",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "bfl_live_4_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-18%2Findex.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "channel_s": {
-            "id": "channel_s",
-            "name": "[BD] Channel S",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/WyPuDJsBEef-9-uVUA_z/posters/ea20055c-a824-443c-8083-ce8e2da8b922.png",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "channel_s_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fchannel_s_tv%2Fplaylist.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "discovery_kids": {
-            "id": "discovery_kids",
-            "name": "discovery kids",
-            "logo": "http://tvassets.roarzone.info/images/discoverykids.png",
-            "group": "Kids",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "discovery_kids_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Ftoffee%2Fdiscovery_kids%2Findex.m3u8%3Ftoken%3D98cf6378d7c0a03a7dc26b1982071021f3fc7b79-fe008d1142f46fce5e35b91a7209c924-1768474552-1768470952",
-                    "server_number": 1
-                }
-            ]
-        },
-        "epl_channel_4": {
-            "id": "epl_channel_4",
-            "name": "[BD] EPL Channel 4",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/OyEz-ZgBEef-9-uVnhcx/posters/f2143475-cf44-441a-b55d-58b2b5569aa5.png",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "epl_channel_4_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-4%2Findex.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "epl_channel_5": {
-            "id": "epl_channel_5",
-            "name": "[BD] EPL Channel 5",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/6CHi_5gBEef-9-uV-Bx_/posters/95066512-a117-4532-8569-0d13ffc046ef.png",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "epl_channel_5_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-5%2Findex.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "epl_channel_1": {
-            "id": "epl_channel_1",
-            "name": "[BD] EPL channel 1",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JS1AqZgBNnOkwJLWlwg-/posters/08617b27-2af1-4035-bcc3-d054ce42ca4b.png",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "epl_channel_1_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-1%2Findex.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "epl_channel_2": {
-            "id": "epl_channel_2",
-            "name": "[BD] EPL channel 2",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Mi1QqZgBNnOkwJLWxggo/posters/3e9d4d0a-a346-4b39-92b5-13e9238ad240.png",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "epl_channel_2_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-2%2Findex.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "epl_channel_3": {
-            "id": "epl_channel_3",
-            "name": "[BD] EPL channel 3",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Pi1TqZgBNnOkwJLWVggf/posters/d0bb78b5-4690-4c12-9c7b-e785eb8d7336.png",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "epl_channel_3_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fmprod-cdn.toffeelive.com%2Flive%2Fmatch-3%2Findex.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "eurosport": {
-            "id": "eurosport",
-            "name": "[BD] Eurosport HD",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Uy6Q-JQBv9knK3AHcDUQ/posters/01709bcd-6d53-4710-a64f-bc49cecf1d61.webp",
-            "group": " Live Bdix ",
-            "quality": "HD",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "eurosport_server_1",
-                    "priority": 1,
-                    "quality": "HD",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Feuro_sports_hd%2Fplaylist.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "hum": {
-            "id": "hum",
-            "name": "[BD] HUM",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/0C63X5UBv9knK3AHxaOs/posters/6dce1143-1045-4fec-ac4f-86d2bfb32447.png",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "hum_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fhum_tv%2Fplaylist.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "hum_masala": {
-            "id": "hum_masala",
-            "name": "hum masala",
-            "logo": "http://tvassets.roarzone.info/images/hummasala.png",
-            "group": "Hindi",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "hum_masala_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Ftoffee%2Fhum_masala%2Findex.m3u8%3Ftoken%3D05b4e8745841ba403a7998819e39f2be2158fdc8-e69fd2507fe0b42f1af4127425144f8a-1768474552-1768470952",
-                    "server_number": 1
-                }
-            ]
-        },
-        "hum_sitaray": {
-            "id": "hum_sitaray",
-            "name": "[BD] HUM Sitaray",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/WtPBX5UBm1RY_In7mXEU/posters/188d51f6-aeef-41ed-835b-e25ff911e209.png",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "hum_sitaray_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fhum_sitaray%2Fplaylist.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "icc_test_championship_highlights": {
-            "id": "icc_test_championship_highlights",
-            "name": "[BD] ICC Test Championship Highlights",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/PnZefJcBcqxnFHJBoxca/posters/955ae898-8336-4936-8d78-c6b8866e35f7.png",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "icc_test_championship_highlights_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ficc_wtc_final%2Fplaylist.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "investigation_discovery": {
-            "id": "investigation_discovery",
-            "name": "[BD] Investigation Discovery HD",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ay7uX5UBv9knK3AHs6TI/posters/deb3c186-b2e1-4a91-aafb-d86f9128b851.png",
-            "group": " Live Bdix ",
-            "quality": "HD",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "investigation_discovery_server_1",
-                    "priority": 1,
-                    "quality": "HD",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fdiscovary_investigation_hd%2Fplaylist.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "pogo": {
-            "id": "pogo",
-            "name": "pogo",
-            "logo": "http://tvassets.roarzone.info/images/pogo.png",
-            "group": "Kids",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "pogo_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Ftoffee%2Fpogo_sd%2Findex.m3u8%3Ftoken%3D5b5fdb5e593437d5b21d9ef010b1bf2cd2a27f7c-db2f23723a1cab20526348be893822a1-1768474552-1768470952",
-                    "server_number": 1
-                }
-            ]
-        },
-        "sony_aath": {
-            "id": "sony_aath",
-            "name": "sony aath",
-            "logo": "http://tvassets.roarzone.info/images/33.png",
-            "group": "Inbangla",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "sony_aath_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F33%2Findex.m3u8%3Ftoken%3Dac18392557366e8e3acec455446fda8b6c5d791a-cb6a855385709729af9d5b04e76ee702-1768474552-1768470952",
-                    "server_number": 1
-                }
-            ]
-        },
-        "sony_bbc_earth": {
-            "id": "sony_bbc_earth",
-            "name": "sony bbc earth hd",
-            "logo": "http://tvassets.roarzone.info/images/44.png",
-            "group": "Documentary",
-            "quality": "HD",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "sony_bbc_earth_server_1",
-                    "priority": 1,
-                    "quality": "HD",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F44%2Findex.m3u8%3Ftoken%3D5ac43d3e63c1428dfa17aa9a29be8169286a6045-0f44f3354a72aaad9c5b5d063e2bf783-1768474552-1768470952",
-                    "server_number": 1
-                }
-            ]
-        },
-        "sony_entertainment_television": {
-            "id": "sony_entertainment_television",
-            "name": "[BD] Sony Entertainment Television HD",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/-y50-JQBv9knK3AHLzSn/posters/0ab48ac0-ec84-4ca2-9601-746ff3cb809e.webp",
-            "group": " Live Bdix ",
-            "quality": "HD",
-            "server_count": 2,
-            "servers": [
-                {
-                    "id": "sony_entertainment_television_server_1",
-                    "priority": 1,
-                    "quality": "HD",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsonyentertainmnt_hd%2Fplaylist.m3u8",
-                    "server_number": 1
-                },
-                {
-                    "id": "sony_entertainment_television_server_2",
-                    "priority": 2,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_entertainment%2Fplaylist.m3u8",
-                    "server_number": 2
-                }
-            ]
-        },
-        "sony_max": {
-            "id": "sony_max",
-            "name": "sony max",
-            "logo": "http://tvassets.roarzone.info/images/sonymax.png",
-            "group": "Hindi",
-            "quality": "HD",
-            "server_count": 2,
-            "servers": [
-                {
-                    "id": "sony_max_server_2",
-                    "priority": 1,
-                    "quality": "HD",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Ftoffee%2Fsony_max_hd%2Findex.m3u8%3Ftoken%3Dd11b5583178bd54731c19f147d574c58a3e9d59e-2827e60ebe3f33a984c3b1ed54dd2770-1768474552-1768470952",
-                    "server_number": 1
-                },
-                {
-                    "id": "sony_max_server_1",
-                    "priority": 2,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F77%2Findex.m3u8%3Ftoken%3Df7d63c31706c2ae3cc24bdca4b0f1499aeca27bf-1a7dd59382974f102e7e2bbc1e602009-1768474552-1768470952",
-                    "server_number": 2
-                }
-            ]
-        },
-        "sony_max_2": {
-            "id": "sony_max_2",
-            "name": "sony max 2",
-            "logo": "http://tvassets.roarzone.info/images/sonymax2.png",
-            "group": "Hindi",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "sony_max_2_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Ftoffee%2Fsonymax_2%2Findex.m3u8%3Ftoken%3D3d45b1bb0ee23db1b0f5aefc82dd8a68e1375f74-9af441563482c3f87b214610bce71d61-1768474552-1768470952",
-                    "server_number": 1
-                }
-            ]
-        },
-        "sony_pix": {
-            "id": "sony_pix",
-            "name": "sony pix",
-            "logo": "http://tvassets.roarzone.info/images/41.png",
-            "group": "English",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "sony_pix_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F41%2Findex.m3u8%3Ftoken%3Db6e22631095696871d99476a1f3dd713e8044cd6-bc412d1e237d6a550e7620eedda6ecc2-1768474552-1768470952",
-                    "server_number": 1
-                }
-            ]
-        },
-        "sony_ten_cricket": {
-            "id": "sony_ten_cricket",
-            "name": "[BD] Sony Ten Cricket",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ra2x_pQBrjBfS2_RWG9l/posters/795170c2-ec78-457e-9fa0-54a23d23361c.webp",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "sony_ten_cricket_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ften_cricket%2Fplaylist.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "sony_ten_sports_1": {
-            "id": "sony_ten_sports_1",
-            "name": "[BD] Sony Ten Sports 1 HD",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/py5j-JQBv9knK3AHxDTY/posters/ea3358b9-2bec-4615-a889-daa2e396c74c.webp",
-            "group": " Live Bdix ",
-            "quality": "HD",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "sony_ten_sports_1_server_1",
-                    "priority": 1,
-                    "quality": "HD",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_sports_1_hd%2Fplaylist.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "sony_ten_sports_2": {
-            "id": "sony_ten_sports_2",
-            "name": "[BD] Sony Ten Sports 2 HD",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/sy5m-JQBv9knK3AHYTTk/posters/5e40bf0e-633f-4d37-a3b2-3d606f0ac19a.png",
-            "group": " Live Bdix ",
-            "quality": "HD",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "sony_ten_sports_2_server_1",
-                    "priority": 1,
-                    "quality": "HD",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_sports_2_hd%2Fplaylist.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "sony_ten_sports_5": {
-            "id": "sony_ten_sports_5",
-            "name": "[BD] Sony Ten Sports 5 HD",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/vi5n-JQBv9knK3AHqzTC/posters/241705c1-06a9-4694-92c6-0013d1879e42.webp",
-            "group": " Live Bdix ",
-            "quality": "HD",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "sony_ten_sports_5_server_1",
-                    "priority": 1,
-                    "quality": "HD",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_sports_5_hd%2Fplaylist.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "sony_yay": {
-            "id": "sony_yay",
-            "name": "sony yay",
-            "logo": "http://tvassets.roarzone.info/images/sonyyay.png",
-            "group": "Kids",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "sony_yay_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Ftoffee%2Fsonyyay%2Findex.m3u8%3Ftoken%3Db5f1c5dfec4816af3020d46158a0dc2707e0c966-08b16347741f1b8aa1c4d1d8c1722714-1768474552-1768470952",
-                    "server_number": 1
-                }
-            ]
-        },
-        "toffee_dramas": {
-            "id": "toffee_dramas",
-            "name": "[BD] Toffee Dramas",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/DNMXs5UBm1RY_In7IJ72/posters/5638c4e8-36ba-4e8e-848e-233183b3ec17.png",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "toffee_dramas_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ftoffee_drama%2Fplaylist.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
-        "toffee_movies": {
-            "id": "toffee_movies",
-            "name": "[BD] Toffee Movies",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/b60Ss5UBrjBfS2_RJPb8/posters/2e5b8ff3-9deb-4040-947e-4ce6a4674ef0.png",
-            "group": " Live Bdix ",
-            "quality": "Unknown",
-            "server_count": 1,
-            "servers": [
-                {
-                    "id": "toffee_movies_server_1",
-                    "priority": 1,
-                    "quality": "Unknown",
-                    "has_headers": false,
-                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ftoffee_movie%2Fplaylist.m3u8",
-                    "server_number": 1
-                }
-            ]
-        },
         "zee_action": {
             "id": "zee_action",
             "name": "zee action",
@@ -9062,6 +9006,42 @@
                 }
             ]
         },
+        "zee_bangla_cinema": {
+            "id": "zee_bangla_cinema",
+            "name": "zee bangla cinema",
+            "logo": "http://tvassets.roarzone.info/images/29.png",
+            "group": "Inbangla",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "zee_bangla_cinema_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F29%2Findex.m3u8%3Ftoken%3D32a227581ee1a78437d5a55bdcdda07f958c0c06-657bd14fa2a3c4ab7c036ab1bb99a533-1768474552-1768470952",
+                    "server_number": 1
+                }
+            ]
+        },
+        "zee_bangla_international": {
+            "id": "zee_bangla_international",
+            "name": "Zee Bangla International",
+            "logo": "https://s3.aynaott.com/storage/0cb865748deefd42e69fd9a221cf38ee",
+            "group": "Indian Bangla",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "zee_bangla_international_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Ftvsen5.aynascope.net%2FPNEb3v2q6GBk%2Findex.m3u8%3Fe%3D1768479382%26u%3D78be6644-0a65-48ec-81a4-089ac65a2619%26token%3Dd2c2886d600368eb3ee569d416b2336c",
+                    "server_number": 1
+                }
+            ]
+        },
         "zee_bollywood": {
             "id": "zee_bollywood",
             "name": "zee bollywood",
@@ -9082,16 +9062,16 @@
         },
         "zee_cafe": {
             "id": "zee_cafe",
-            "name": "zee cafe hd",
+            "name": "zee cafe",
             "logo": "http://tvassets.roarzone.info/images/69.png",
             "group": "English",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "zee_cafe_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Ftoffee%2Fzee_cafe_hd%2Findex.m3u8%3Ftoken%3D052fbf9cf90be25d4dce1d106e5b8554af592c75-23fa16d6d22016f6cdab6487855f4091-1768474552-1768470952",
                     "server_number": 1
@@ -9116,6 +9096,24 @@
                 }
             ]
         },
+        "zee_tv": {
+            "id": "zee_tv",
+            "name": "zee tv",
+            "logo": "http://tvassets.roarzone.info/images/40.png",
+            "group": "Hindi",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "zee_tv_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F40%2Findex.m3u8%3Ftoken%3D7b98f81c8deace256f61098504061a0b021a0bf3-8304adfe098ea5237d9c0e7dae60aaeb-1768474552-1768470952",
+                    "server_number": 1
+                }
+            ]
+        },
         "zing": {
             "id": "zing",
             "name": "zing",
@@ -9130,6 +9128,24 @@
                     "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Ftoffee%2FZing%2Findex.m3u8%3Ftoken%3D348730d7fa66ac9aa8f20ad04efd0c34eca75322-0c159eecf2f6a8a81292c7bc01cc6c01-1768474552-1768470952",
+                    "server_number": 1
+                }
+            ]
+        },
+        "zoom_tv": {
+            "id": "zoom_tv",
+            "name": "Zoom TV",
+            "logo": "https://s3.aynaott.com/storage/bb1e93cd63ca86130fe6f66393b7497b",
+            "group": "Hindi",
+            "quality": "Unknown",
+            "server_count": 1,
+            "servers": [
+                {
+                    "id": "zoom_tv_server_1",
+                    "priority": 1,
+                    "quality": "Unknown",
+                    "has_headers": false,
+                    "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Flive.zoomnews.info%2Flive%2FZoom_playlist.m3u8",
                     "server_number": 1
                 }
             ]
@@ -9172,16 +9188,16 @@
         },
         "and_tv": {
             "id": "and_tv",
-            "name": "and tv hd",
+            "name": "and tv",
             "logo": "http://tvassets.roarzone.info/images/74.png",
             "group": "Hindi",
-            "quality": "HD",
+            "quality": "Unknown",
             "server_count": 1,
             "servers": [
                 {
                     "id": "and_tv_server_1",
                     "priority": 1,
-                    "quality": "HD",
+                    "quality": "Unknown",
                     "has_headers": false,
                     "url": "https://your-domain.com/path-to-proxy/proxy.php?url=https%3A%2F%2Fedge2.roarzone.info%3A8444%2Froarzone%2Fbk%2F74%2Findex.m3u8%3Ftoken%3D4021fdd365d349e1711f42e98bc46fc18270715c-d401c99e650471338e3c4d8f7f9f8ee5-1768474552-1768470952",
                     "server_number": 1
@@ -9697,6 +9713,71 @@
         ],
         "Islamic": [
             ""
+        ],
+        " Live Bdix ": [
+            "pictures",
+            "tv",
+            "ananda_tv",
+            "animal_planet",
+            "asian_tv",
+            "b4u_movies_apac",
+            "b4u_music",
+            "bfl_live_1",
+            "bfl_live_2",
+            "bfl_live_3",
+            "bfl_live_4",
+            "bangla_tv",
+            "bijoy_tv",
+            "cnn",
+            "cartoon_network",
+            "channel_s",
+            "channel_i",
+            "discovery",
+            "discovery_kids",
+            "discovery_science",
+            "discovery_turbo",
+            "epl_channel_4",
+            "epl_channel_5",
+            "epl_channel_1",
+            "epl_channel_2",
+            "epl_channel_3",
+            "ekattor_tv",
+            "ekhon_tv",
+            "eurosport",
+            "global_tv",
+            "hum",
+            "hum_masala",
+            "hum_sitaray",
+            "icc_test_championship_highlights",
+            "independent_tv",
+            "investigation_discovery",
+            "jamuna_tv",
+            "pogo",
+            "somoy_tv",
+            "sony_aath",
+            "sony_bbc_earth",
+            "sony_entertainment_television",
+            "sony_max",
+            "sony_max_2",
+            "sony_pix",
+            "sony_sab",
+            "sony_ten_cricket",
+            "sony_ten_sports_1",
+            "sony_ten_sports_2",
+            "sony_ten_sports_5",
+            "sony_yay",
+            "tlc",
+            "toffee_dramas",
+            "toffee_movies",
+            "zee_action",
+            "zee_anmol",
+            "zee_bangla",
+            "zee_bangla_cinema",
+            "zee_bollywood",
+            "zee_cafe",
+            "zee_cinema",
+            "zee_tv",
+            "zing"
         ],
         "Hindi": [
             "pictures",
@@ -10338,71 +10419,6 @@
         ],
         "Others": [
             "star_movies"
-        ],
-        " Live Bdix ": [
-            "pictures",
-            "tv",
-            "ananda_tv",
-            "animal_planet",
-            "asian_tv",
-            "b4u_movies_apac",
-            "b4u_music",
-            "bfl_live_1",
-            "bfl_live_2",
-            "bfl_live_3",
-            "bfl_live_4",
-            "bangla_tv",
-            "bijoy_tv",
-            "cnn",
-            "cartoon_network",
-            "channel_s",
-            "channel_i",
-            "discovery",
-            "discovery_kids",
-            "discovery_science",
-            "discovery_turbo",
-            "epl_channel_4",
-            "epl_channel_5",
-            "epl_channel_1",
-            "epl_channel_2",
-            "epl_channel_3",
-            "ekattor_tv",
-            "ekhon_tv",
-            "eurosport",
-            "global_tv",
-            "hum",
-            "hum_masala",
-            "hum_sitaray",
-            "icc_test_championship_highlights",
-            "independent_tv",
-            "investigation_discovery",
-            "jamuna_tv",
-            "pogo",
-            "somoy_tv",
-            "sony_aath",
-            "sony_bbc_earth",
-            "sony_entertainment_television",
-            "sony_max",
-            "sony_max_2",
-            "sony_pix",
-            "sony_sab",
-            "sony_ten_cricket",
-            "sony_ten_sports_1",
-            "sony_ten_sports_2",
-            "sony_ten_sports_5",
-            "sony_yay",
-            "tlc",
-            "toffee_dramas",
-            "toffee_movies",
-            "zee_action",
-            "zee_anmol",
-            "zee_bangla",
-            "zee_bangla_cinema",
-            "zee_bollywood",
-            "zee_cafe",
-            "zee_cinema",
-            "zee_tv",
-            "zing"
         ],
         "Inbangla": [
             "colors_bangla",
