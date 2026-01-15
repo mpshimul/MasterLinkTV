@@ -27,6 +27,8 @@ PRIORITY_DOMAINS = [
 PROBLEMATIC_DOMAINS = [
     "ott-provider.net",
     "stream-url.com",
+    "toffeelive.com",
+    "merichunidya.com",
     # Add other domains that require special headers here
 ]
 
