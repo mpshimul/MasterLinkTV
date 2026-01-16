@@ -1,4 +1,4 @@
-// Generated: 2026-01-16 12:35 UTC
+// Generated: 2026-01-16 18:27 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -292,7 +292,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (11 channels, 4 with 🔐 DRM)
+    // SPORTS (10 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -347,20 +347,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/qqgZ1jVH/ten5.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Star Sports 1",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1675,7 +1661,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (28 channels, 6 with 🔐 DRM)
+    // MOVIE (27 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1917,20 +1903,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Lotus Macau",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/6q0JD7ZB/lotus-macau.png",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
         "name": "MIX Hollywood",
         "sources": [
             {
@@ -2106,7 +2078,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (26 channels)
+    // MUSIC (27 channels)
     // ==================================================
 
     {
@@ -2433,6 +2405,25 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Punjabi Hits",
+        "sources": [
+            {
+                "name": "⚡ Stream 1",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-hits/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 3",
+                "url": "https://server.livelegitpro.in/punjabihits/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/h472GJVw/punjabi-hits.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Saga Music Haryanvi",
         "sources": [
             {
@@ -2513,6 +2504,11 @@ window.rawChannels2 = [
             {
                 "name": "Stream 2",
                 "url": "https://live1.ottlive.co.in/tabbarhitsswift/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 3",
+                "url": "https://server.livelegitpro.in/punjabihits/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -2766,7 +2762,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 176
+// Total channels: 175
 // Channels with DRM: 19
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
