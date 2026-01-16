@@ -1,4 +1,4 @@
-// Generated: 2026-01-15 12:37 UTC
+// Generated: 2026-01-16 01:19 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -248,7 +248,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (10 channels, 4 with 🔐 DRM)
+    // SPORTS (11 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -303,6 +303,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/qqgZ1jVH/ten5.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports 1",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -2651,7 +2665,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 171
+// Total channels: 172
 // Channels with DRM: 19
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
