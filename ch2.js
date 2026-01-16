@@ -1,11 +1,11 @@
-// Generated: 2026-01-16 09:00 UTC
+// Generated: 2026-01-16 12:35 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (16 channels)
+    // NEWS (18 channels)
     // ==================================================
 
     {
@@ -103,6 +103,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "DBC News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/cJGD5HdQ/dbc.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Ekattor Television",
         "sources": [
             {
@@ -169,6 +183,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/dtR7Gh4t/jamuna-tv.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Kolkata TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt01.tangotv.in/KOLKATATV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/mkVfbs7P/kolkatatv.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -328,7 +356,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Stream 1",
-                "url": "https://mrzplayin.fun/roarzon/stream.php?id=18283d4f5f13c0cac5cab4433a0ed8f0&e=.m3u8",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -340,11 +368,6 @@ window.rawChannels2 = [
     {
         "name": "Star Sports 2",
         "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://mrzplayin.fun/roarzon/stream.php?id=1e8e3ca973f7808849df688219554a90&e=.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Stream 1",
                 "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
@@ -444,7 +467,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (17 channels, 1 with 🔐 DRM)
+    // KIDS (16 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -625,20 +648,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Nick",
-        "sources": [
-            {
-                "name": "Hindi",
-                "url": "https://mrzplayin.fun/roarzon/stream.php?id=e2e42a07550863f8b67f5eb252581f6d&e=.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/W1gnHqtC/nick.jpg",
-        "category": "Kids",
-        "description": "Kids Channel"
-    },
-
-    {
         "name": "Pogo",
         "sources": [
             {
@@ -696,7 +705,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (46 channels, 5 with 🔐 DRM)
+    // ENTERTAINMENT (47 channels, 5 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1198,6 +1207,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "R Plus Gold",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt03.tangotv.in/RPLUSGOLD/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/fbWdLj4y/rplusgold.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "RTV",
         "sources": [
             {
@@ -1365,7 +1388,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (16 channels)
+    // NEWS (18 channels)
     // ==================================================
 
     {
@@ -1463,6 +1486,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "DBC News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/cJGD5HdQ/dbc.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Ekattor Television",
         "sources": [
             {
@@ -1529,6 +1566,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/dtR7Gh4t/jamuna-tv.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Kolkata TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt01.tangotv.in/KOLKATATV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/mkVfbs7P/kolkatatv.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -1624,7 +1675,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (26 channels, 6 with 🔐 DRM)
+    // MOVIE (28 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1683,6 +1734,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/DZmhKfbK/dubbed.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "All Time Movies",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt03.tangotv.in/ALLTIMEMOVIES/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/U4INXhwmEUOABHoemQBpI6C9t4jb9iBmDvZ3ZT3lAb9Au_jVl32NL8XDpy-9cBjRJ2LP69Ovzg=s160-c-k-c0x00ffffff-no-rj",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -1824,6 +1889,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Goldmines Bollywood",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt03.tangotv.in/GOLDMINESBOLLYWOOD/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/BMAiZnOGPMbMXWFW-lYwgp1-qJD6iPbBtB6YS3Kyr9lPM1jlegCl83vHjyasFEjPJrBYAsaeLQ=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Goldmines Movies",
         "sources": [
             {
@@ -1946,11 +2025,6 @@ window.rawChannels2 = [
     {
         "name": "Star Gold",
         "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://mrzplayin.fun/roarzon/stream.php?id=3eef0c9777e4ffc85045bb13ffbf12fb&e=.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Stream 1",
                 "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/stargold/index.m3u8",
@@ -2270,6 +2344,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Music Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla2025.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/8kRX8jMd/music-bangla.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Music India",
         "sources": [
             {
@@ -2340,25 +2428,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/zvj04hnW/ptc-music.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "Punjabi Hits",
-        "sources": [
-            {
-                "name": "⚡ Stream 1",
-                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-hits/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Stream 3",
-                "url": "https://server.livelegitpro.in/punjabihits/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/h472GJVw/punjabi-hits.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -2445,11 +2514,6 @@ window.rawChannels2 = [
                 "name": "Stream 2",
                 "url": "https://live1.ottlive.co.in/tabbarhitsswift/index.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "Stream 3",
-                "url": "https://server.livelegitpro.in/punjabihits/index.m3u8",
-                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/DfWzDhL6/tabbar-hits.jpg",
@@ -2511,7 +2575,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (6 channels)
+    // RELIGIOUS (7 channels)
     // ==================================================
 
     {
@@ -2538,6 +2602,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/tTkx4MWv/ilm.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Islam Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/islamchbangla.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhxUqZi3tzsjdt5rn7AWyC2CQgH8z14fd2g&s",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -2688,7 +2766,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 169
+// Total channels: 176
 // Channels with DRM: 19
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
