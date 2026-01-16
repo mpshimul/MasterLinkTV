@@ -179,7 +179,7 @@ def sort_sources_by_priority(sources):
     return sorted(sources, key=lambda x: get_domain_priority(x['url']))
 
 def is_stream_alive_advanced(url, source_name=""):
-    """Check if stream is alive."""
+    """Check if stream is alive, with auto-pass for specific domains."""
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
         "Accept": "*/*",
@@ -187,6 +187,13 @@ def is_stream_alive_advanced(url, source_name=""):
         "Origin": "https://tplay.live",
         "Referer": "https://tplay.live/",
     }
+    
+    # --- ADD THIS BLOCK ---
+    # Auto-pass gpcdn.net without checking
+    if "gpcdn.net" in url.lower():
+        log_debug(f"⚡ {source_name}: Auto-passed (gpcdn.net)")
+        return True
+    # ----------------------
     
     try:
         # For DASH streams (.mpd), we just need to check if manifest is accessible
