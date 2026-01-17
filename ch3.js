@@ -1,4 +1,4 @@
-// Generated: 2026-01-16 23:44 UTC
+// Generated: 2026-01-17 02:03 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -6,7 +6,7 @@
 window.rawChannels2 = [
 
     // ==================================================
-    // BANGLA (64 channels)
+    // BANGLA (72 channels)
     // ==================================================
 
     {
@@ -104,6 +104,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Anandatv",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 com.bd",
+                "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Arabica TV",
         "category": "Bangla",
         "img": "",
@@ -177,6 +191,20 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Ayna TV",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/ayna.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -273,6 +301,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Boishakhitv",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/boishakhitv-org.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Bollywood Movies",
         "category": "Bangla",
         "img": "",
@@ -357,6 +399,11 @@ window.rawChannels2 = [
                 "name": "⭐ roarzone.info",
                 "url": "https://edge2.roarzone.info:8444/roarzone/bk/4/index.m3u8?token=283e072c210560358020607444ca657ef25d7e62-9185532311fc3c212fa41861a784f61d-1768607152-1768603552",
                 "type": "hls"
+            },
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channel9hd.stream/playlist.m3u8",
+                "type": "hls"
             }
         ]
     }
@@ -382,6 +429,25 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Channel S UK",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/chsukoff.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Dbc News",
         "category": "Bangla",
         "img": "http://tvassets.roarzone.info/images/7.png",
@@ -389,6 +455,20 @@ window.rawChannels2 = [
             {
                 "name": "⭐ roarzone.info",
                 "url": "https://edge2.roarzone.info:8444/roarzone/bk/7/index.m3u8?token=833a835c9ad81baf85e99ce5de4ea7f72e7d1b18-98afd320444847ec51861fc293669281-1768607152-1768603552",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Dbcnews",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -531,6 +611,25 @@ window.rawChannels2 = [
                 "name": "⭐ roarzone.info",
                 "url": "https://edge2.roarzone.info:8444/roarzone/edge2/ekhontv/index.m3u8?token=7019909f617ff93a476d286cada1e4371d0f26ae-b7fb39ad03b90cb063fb9cf74bbe2bb4-1768607152-1768603552",
                 "type": "hls"
+            },
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/globaltv.stream/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Ekhone TV",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/globaltv.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
             }
         ]
     }
@@ -558,6 +657,20 @@ window.rawChannels2 = [
             {
                 "name": "⭐ roarzone.info",
                 "url": "https://edge2.roarzone.info:8444/roarzone/bk/65/index.m3u8?token=73dc02b3797eab1ee8e670a93816df9e5dca49fe-885591eda869f6b95529bbe77c829908-1768607152-1768603552",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Gazi TV",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -781,6 +894,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Nrbtv",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/nrb-eu.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "NTV",
         "category": "Bangla",
         "img": "https://www.ntvbd.com/sites/default/files/aggregator/2020/02/17/ntv-channel_0.jpg",
@@ -873,6 +1000,11 @@ window.rawChannels2 = [
             {
                 "name": "⭐ roarzone.info",
                 "url": "https://edge2.roarzone.info:8444/roarzone/bk/14/index.m3u8?token=91892292a06519a780f4b44ea37959a1fed12d9b-3e003c14bbdacafe5a043f8600e602bb-1768607152-1768603552",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/rtv-sg.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -1399,12 +1531,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 pages.dev",
-                "url": "https://starsportshindiii.pages.dev/720p.m3u8",
+                "url": "https://starsportshindiii.pages.dev/index.m3u8",
                 "type": "hls"
             },
             {
                 "name": "🔗 pages.dev",
-                "url": "https://starsportshindiii.pages.dev/index.m3u8",
+                "url": "https://starsportshindiii.pages.dev/720p.m3u8",
                 "type": "hls"
             },
             {
@@ -1971,7 +2103,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // MUSIC (9 channels)
+    // MUSIC (10 channels)
     // ==================================================
 
     {
@@ -2010,6 +2142,20 @@ window.rawChannels2 = [
             {
                 "name": "⭐ roarzone.info",
                 "url": "https://edge2.roarzone.info:8444/roarzone/bk/48/index.m3u8?token=3e4a9b3fdd09266df94487e38cdc73cf70f25859-c4c54b98c67af2052d444e065a4e404d-1768607152-1768603552",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Atnmusic",
+        "category": "Music",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnmusic.stream/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -2579,7 +2725,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (76 channels)
+    // OTHERS (77 channels)
     // ==================================================
 
     {
@@ -2598,23 +2744,8 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
-                "name": "🔗 herokuapp.com",
-                "url": "https://satoshi-cors.herokuapp.com/http://116.204.149.16/nagorik/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "🔗 noobmaster.xyz",
                 "url": "https://falconftp.noobmaster.xyz/SONYSPORTS2HD/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 bongoflixbd.top",
-                "url": "https://bongoflixbd.top/tsports.m3u8?user=bongoflix&pass=eaminvai",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 bongoflixbd.top",
-                "url": "https://bongoflixbd.top/bk/27.m3u8?user=bongoflix&pass=eaminvai",
                 "type": "hls"
             },
             {
@@ -2629,12 +2760,22 @@ window.rawChannels2 = [
             },
             {
                 "name": "🔗 bongoflixbd.top",
+                "url": "https://bongoflixbd.top/bk/27.m3u8?user=bongoflix&pass=eaminvai",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 bongoflixbd.top",
                 "url": "https://bongoflixbd.top/sony-sports-5-hd.m3u8?user=bongoflix&pass=eaminvai",
                 "type": "hls"
             },
             {
                 "name": "🔗 bongoflixbd.top",
                 "url": "https://bongoflixbd.top/sony-sports-2-hd.m3u8?user=bongoflix&pass=eaminvai",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 bongoflixbd.top",
+                "url": "https://bongoflixbd.top/tsports.m3u8?user=bongoflix&pass=eaminvai",
                 "type": "hls"
             },
             {
@@ -3199,6 +3340,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Jago News 24",
+        "category": "Jagobd",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/jagonews24.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Lemar TV Afg",
         "category": "Cricket",
         "img": "",
@@ -3412,20 +3567,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 co.uk",
                 "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_vlow_sbr_v1/cfs/bbc_world_service_news_internet.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Rcd Espanyol VS Girona FC (laliga 2025-26)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/131029_5427_ESL_GIR_fc-Web_1768307626387.png",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fdlive.fancode.com/mumbai/131029_english_hls_f292527a9822857_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -3704,6 +3845,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "World Feed - Day 2 VS Hawaii (sony Open IN Hawaii 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/Sony-Open-In-Hawaii-web_opt2.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fdlive.fancode.com/mumbai/139773_english_hls_7eeec4ad6178144_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Yrf Music HD",
         "category": "Unknown",
         "img": "",
@@ -3739,11 +3894,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 244
-// Total sources: 299
+// Total channels: 254
+// Total sources: 312
 // Top priority sources (⭐): 100
 // Other priority sources (⚡): 1
-// Regular sources: 198
+// Regular sources: 211
 // Categories: 10
-// Merged duplicates: 81 channels consolidated
+// Merged duplicates: 84 channels consolidated
 // Generated with M3U processor
