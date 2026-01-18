@@ -1,4 +1,4 @@
-// Generated: 2026-01-18 12:32 UTC
+// Generated: 2026-01-18 18:24 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -284,11 +284,6 @@ window.rawChannels2 = [
     {
         "name": "Live 3",
         "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live-en.aisports.cc/moviebox/device01/playlist.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 3",
                 "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
@@ -2562,7 +2557,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (6 channels)
+    // RELIGIOUS (5 channels)
     // ==================================================
 
     {
@@ -2617,20 +2612,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/jjmyWm0m/om-bangla-2.jpg",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Peace TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -2739,7 +2720,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 173
+// Total channels: 172
 // Channels with DRM: 19
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
