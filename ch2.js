@@ -1,4 +1,4 @@
-// Generated: 2026-01-18 18:24 UTC
+// Generated: 2026-01-19 01:23 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -278,7 +278,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (11 channels, 4 with 🔐 DRM)
+    // SPORTS (10 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -333,20 +333,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/qqgZ1jVH/ten5.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Star Sports 1",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -2557,7 +2543,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (5 channels)
+    // RELIGIOUS (6 channels)
     // ==================================================
 
     {
@@ -2612,6 +2598,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/jjmyWm0m/om-bangla-2.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Peace TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
         "category": "Religious",
         "description": "Religious Channel"
     },
