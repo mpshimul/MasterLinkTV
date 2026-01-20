@@ -1,11 +1,11 @@
-// Generated: 2026-01-19 18:27 UTC
+// Generated: 2026-01-20 01:18 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (17 channels)
+    // NEWS (18 channels)
     // ==================================================
 
     {
@@ -98,6 +98,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/QdqkCSFX/channel-24.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "DBC News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/cJGD5HdQ/dbc.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -1374,7 +1388,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (17 channels)
+    // NEWS (18 channels)
     // ==================================================
 
     {
@@ -1467,6 +1481,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/QdqkCSFX/channel-24.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "DBC News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/cJGD5HdQ/dbc.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -2078,7 +2106,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (27 channels)
+    // MUSIC (28 channels)
     // ==================================================
 
     {
@@ -2335,6 +2363,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Music Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla2025.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/8kRX8jMd/music-bangla.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Music India",
         "sources": [
             {
@@ -2576,7 +2618,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (6 channels)
+    // RELIGIOUS (7 channels)
     // ==================================================
 
     {
@@ -2603,6 +2645,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/tTkx4MWv/ilm.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Islam Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/islamchbangla.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhxUqZi3tzsjdt5rn7AWyC2CQgH8z14fd2g&s",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -2753,7 +2809,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 174
+// Total channels: 178
 // Channels with DRM: 19
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
