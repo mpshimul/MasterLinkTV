@@ -1,11 +1,11 @@
-// Generated: 2026-01-20 18:31 UTC
+// Generated: 2026-01-21 01:21 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (18 channels)
+    // NEWS (17 channels)
     // ==================================================
 
     {
@@ -98,20 +98,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/QdqkCSFX/channel-24.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "DBC News",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/cJGD5HdQ/dbc.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -292,7 +278,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (9 channels, 4 with 🔐 DRM)
+    // SPORTS (11 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -347,6 +333,34 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/qqgZ1jVH/ten5.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports 1",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports 2",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -677,7 +691,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (45 channels, 5 with 🔐 DRM)
+    // ENTERTAINMENT (46 channels, 5 with 🔐 DRM)
     // ==================================================
 
     {
@@ -950,6 +964,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/vTQZ4Jg6/colors-bangla.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Dangal",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://live-dangal.akamaized.net/liveabr/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/Hk2rQKsR/Dangal.png",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -1332,7 +1360,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (18 channels)
+    // NEWS (17 channels)
     // ==================================================
 
     {
@@ -1425,20 +1453,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/QdqkCSFX/channel-24.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "DBC News",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/cJGD5HdQ/dbc.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -1619,7 +1633,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (27 channels, 6 with 🔐 DRM)
+    // MOVIE (28 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1967,6 +1981,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Star Gold",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/stargold/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/7YJXRsp7/gold.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "The Movie Club",
         "sources": [
             {
@@ -2036,7 +2064,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (27 channels)
+    // MUSIC (26 channels)
     // ==================================================
 
     {
@@ -2269,20 +2297,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/L4f6PQnh/mastiii.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "Music Bangla",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla2025.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/8kRX8jMd/music-bangla.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -2529,7 +2543,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (7 channels)
+    // RELIGIOUS (6 channels)
     // ==================================================
 
     {
@@ -2556,20 +2570,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/tTkx4MWv/ilm.jpg",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Islam Bangla",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/islamchbangla.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhxUqZi3tzsjdt5rn7AWyC2CQgH8z14fd2g&s",
         "category": "Religious",
         "description": "Religious Channel"
     },
