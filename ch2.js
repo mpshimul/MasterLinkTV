@@ -1,4 +1,4 @@
-// Generated: 2026-01-21 18:39 UTC
+// Generated: 2026-01-22 01:21 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -332,7 +332,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (14 channels, 8 with 🔐 DRM)
+    // SPORTS (12 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -451,34 +451,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Star Sports 1",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://mrzplayin.fun/roarzon/stream.php?id=18283d4f5f13c0cac5cab4433a0ed8f0&e=.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Star Sports 2",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://mrzplayin.fun/roarzon/stream.php?id=1e8e3ca973f7808849df688219554a90&e=.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
         "name": "TNT Sports 1",
         "sources": [
             {
@@ -570,7 +542,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (14 channels, 1 with 🔐 DRM)
+    // KIDS (15 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -718,6 +690,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Gt38t22F/d-kids.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "Duronto",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tvsen4.aynaott.com/durontotv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/4xgPNDrf/duronto.jpg",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -1794,7 +1780,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (27 channels, 6 with 🔐 DRM)
+    // MOVIE (28 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2137,6 +2123,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/FF8V2XHs/ss.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Star Gold",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/stargold/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/7YJXRsp7/gold.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
