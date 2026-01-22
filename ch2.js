@@ -1,11 +1,11 @@
-// Generated: 2026-01-22 06:30 UTC
+// Generated: 2026-01-22 12:39 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (20 channels, 3 with 🔐 DRM)
+    // NEWS (27 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -103,6 +103,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "DD News",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/c4y3Vd73/dd.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Ekattor Television",
         "sources": [
             {
@@ -131,6 +145,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/KcHxyPzx/ekhon.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "ET Now Swadesh",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://d32gxr3r1ksq2p.cloudfront.net/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8s5ukJJCvsZwP7vO8PlUKJHwlnyHZqBiYlA&s",
         "category": "News",
         "description": "News Channel"
     },
@@ -216,6 +244,76 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "News18 India",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_India_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://erp.adgully.com/artical_image/a4f638aa199ee1ccb9ffdc24d9c2af25.jpeg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "News18 Kerala",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/0/05/News18_Kerala.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "News18 Kerala",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/0/05/News18_Kerala.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "News18 Odia",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Odia_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/ytc/AIdro_lKSOQ8zd8GU5-2gdBlhzeXM8JyUd-2_4UK7Y9bOzOrPa4=s900-c-k-c0x00ffffff-no-rj",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "News18 Urdu",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Urdu_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/f/f7/News18_Urdu_logo.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Sangsad TV",
         "sources": [
             {
@@ -277,6 +375,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Zee Bharat",
+        "sources": [
+            {
+                "name": "🔐 Server 1",
+                "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeehindustan/default/manifest.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "10616d7c4bee41f1825bd805c6295172",
+                    "key": "dc85f2112f63477fb39fc149493c49be"
+                }
+            }
+        ],
+        "img": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/TknReKLD.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Zee Bihar Jharkhand",
         "sources": [
             {
@@ -308,24 +424,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/vExrDK9r.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Zee Zindustan",
-        "sources": [
-            {
-                "name": "🔐 Server 1",
-                "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeehindustan/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "10616d7c4bee41f1825bd805c6295172",
-                    "key": "dc85f2112f63477fb39fc149493c49be"
-                }
-            }
-        ],
-        "img": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/TknReKLD.png",
         "category": "News",
         "description": "News Channel"
     },
@@ -1490,7 +1588,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (20 channels, 3 with 🔐 DRM)
+    // NEWS (27 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1588,6 +1686,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "DD News",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/c4y3Vd73/dd.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Ekattor Television",
         "sources": [
             {
@@ -1616,6 +1728,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/KcHxyPzx/ekhon.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "ET Now Swadesh",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://d32gxr3r1ksq2p.cloudfront.net/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8s5ukJJCvsZwP7vO8PlUKJHwlnyHZqBiYlA&s",
         "category": "News",
         "description": "News Channel"
     },
@@ -1701,6 +1827,76 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "News18 India",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_India_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://erp.adgully.com/artical_image/a4f638aa199ee1ccb9ffdc24d9c2af25.jpeg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "News18 Kerala",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/0/05/News18_Kerala.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "News18 Kerala",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/0/05/News18_Kerala.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "News18 Odia",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Odia_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/ytc/AIdro_lKSOQ8zd8GU5-2gdBlhzeXM8JyUd-2_4UK7Y9bOzOrPa4=s900-c-k-c0x00ffffff-no-rj",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "News18 Urdu",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Urdu_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/f/f7/News18_Urdu_logo.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Sangsad TV",
         "sources": [
             {
@@ -1762,6 +1958,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Zee Bharat",
+        "sources": [
+            {
+                "name": "🔐 Server 1",
+                "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeehindustan/default/manifest.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "10616d7c4bee41f1825bd805c6295172",
+                    "key": "dc85f2112f63477fb39fc149493c49be"
+                }
+            }
+        ],
+        "img": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/TknReKLD.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Zee Bihar Jharkhand",
         "sources": [
             {
@@ -1793,24 +2007,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/vExrDK9r.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Zee Zindustan",
-        "sources": [
-            {
-                "name": "🔐 Server 1",
-                "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeehindustan/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "10616d7c4bee41f1825bd805c6295172",
-                    "key": "dc85f2112f63477fb39fc149493c49be"
-                }
-            }
-        ],
-        "img": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/TknReKLD.png",
         "category": "News",
         "description": "News Channel"
     },
@@ -2248,7 +2444,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (26 channels)
+    // MUSIC (27 channels)
     // ==================================================
 
     {
@@ -2481,6 +2677,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/L4f6PQnh/mastiii.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Music Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla2025.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/8kRX8jMd/music-bangla.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -2727,7 +2937,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (6 channels)
+    // RELIGIOUS (7 channels)
     // ==================================================
 
     {
@@ -2754,6 +2964,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/tTkx4MWv/ilm.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Islam Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/islamchbangla.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhxUqZi3tzsjdt5rn7AWyC2CQgH8z14fd2g&s",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -3186,7 +3410,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 201
+// Total channels: 217
 // Channels with DRM: 34
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
