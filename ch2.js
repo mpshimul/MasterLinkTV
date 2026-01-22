@@ -1,4 +1,4 @@
-// Generated: 2026-01-22 12:39 UTC
+// Generated: 2026-01-22 18:28 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -663,7 +663,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (15 channels, 1 with 🔐 DRM)
+    // KIDS (14 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -779,20 +779,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/d1K0Drvh/Cn.png",
-        "category": "Kids",
-        "description": "Kids Channel"
-    },
-
-    {
-        "name": "Cartoon Network HD+",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://livecdn-bostaflix.global.ssl.fastly.net/live.php?id=eb6b38bdd902&e=.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/d06FD9xw/cnhd.jpg",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -2444,7 +2430,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (27 channels)
+    // MUSIC (26 channels)
     // ==================================================
 
     {
@@ -2677,20 +2663,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/L4f6PQnh/mastiii.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "Music Bangla",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla2025.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/8kRX8jMd/music-bangla.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -2930,14 +2902,14 @@ window.rawChannels2 = [
                 "type": "hls"
             }
         ],
-        "img": "https://i.postimg.cc/pdHkcC7q/yrf-music.jpg",
+        "img": "https://i.postimg.cc/D0GYG0Dr/zoom.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
 
 
     // ==================================================
-    // RELIGIOUS (7 channels)
+    // RELIGIOUS (6 channels)
     // ==================================================
 
     {
@@ -2964,20 +2936,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/tTkx4MWv/ilm.jpg",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Islam Bangla",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/islamchbangla.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhxUqZi3tzsjdt5rn7AWyC2CQgH8z14fd2g&s",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -3410,7 +3368,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 217
+// Total channels: 214
 // Channels with DRM: 34
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
