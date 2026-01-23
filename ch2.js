@@ -1,12 +1,45 @@
-// Generated: 2026-01-22 18:28 UTC
+// Generated: 2026-01-23 01:19 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (27 channels, 3 with 🔐 DRM)
+    // NEWS (34 channels, 3 with 🔐 DRM)
     // ==================================================
+
+    {
+        "name": "Aaj Tak",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/en/7/77/Aaj_Tak_logo.svg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Aaj Tak HD",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/0jjjL9vR/aaj-tak.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
 
     {
         "name": "ABP Ananda",
@@ -98,6 +131,76 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/QdqkCSFX/channel-24.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "CNBC Awaaz",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/f/f8/CNBC_Awwaz_2025.svg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "CNBC Bajar",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_Bazaar_NW18_MOB/output01/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/27307b18067a6f2784b1597da20426ff.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "CNBC TV18",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQGXbP9MEGQ2MA/company-logo_200_200/B4DZcIT5xiGgAI-/0/1748191125673/cnbc_tv18_logo?e=2147483647&v=beta&t=KFbzWG-tLyBsxJILxVo9cAiyFHaZP_BPhTVOCTH_AFc",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "CNN News18",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/CNN_News18_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://erp.adgully.com/artical_image/43d69552e24c92ea14e14bca3007eb78.jpeg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "DBC News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/cJGD5HdQ/dbc.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -663,7 +766,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (14 channels, 1 with 🔐 DRM)
+    // KIDS (15 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -784,6 +887,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Cartoon Network HD+",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://livecdn-bostaflix.global.ssl.fastly.net/live.php?id=eb6b38bdd902&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/d06FD9xw/cnhd.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
         "name": "Discovery Kids",
         "sources": [
             {
@@ -873,7 +990,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (48 channels, 6 with 🔐 DRM)
+    // ENTERTAINMENT (47 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1136,20 +1253,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/nL8s287H/channel-s.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Colors",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://streamer2.nexgen.bz/COLORS/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/vBL4YjR8/colors.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -1574,8 +1677,41 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (27 channels, 3 with 🔐 DRM)
+    // NEWS (34 channels, 3 with 🔐 DRM)
     // ==================================================
+
+    {
+        "name": "Aaj Tak",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/en/7/77/Aaj_Tak_logo.svg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Aaj Tak HD",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/0jjjL9vR/aaj-tak.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
 
     {
         "name": "ABP Ananda",
@@ -1667,6 +1803,76 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/QdqkCSFX/channel-24.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "CNBC Awaaz",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/f/f8/CNBC_Awwaz_2025.svg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "CNBC Bajar",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_Bazaar_NW18_MOB/output01/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/27307b18067a6f2784b1597da20426ff.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "CNBC TV18",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQGXbP9MEGQ2MA/company-logo_200_200/B4DZcIT5xiGgAI-/0/1748191125673/cnbc_tv18_logo?e=2147483647&v=beta&t=KFbzWG-tLyBsxJILxVo9cAiyFHaZP_BPhTVOCTH_AFc",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "CNN News18",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://n18syndication.akamaized.net/bpk-tv/CNN_News18_NW18_MOB/output01/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://erp.adgully.com/artical_image/43d69552e24c92ea14e14bca3007eb78.jpeg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "DBC News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/cJGD5HdQ/dbc.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -2430,7 +2636,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (26 channels)
+    // MUSIC (27 channels)
     // ==================================================
 
     {
@@ -2663,6 +2869,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/L4f6PQnh/mastiii.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Music Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla2025.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/8kRX8jMd/music-bangla.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -2909,7 +3129,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (6 channels)
+    // RELIGIOUS (7 channels)
     // ==================================================
 
     {
@@ -2936,6 +3156,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/tTkx4MWv/ilm.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Islam Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/islamchbangla.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhxUqZi3tzsjdt5rn7AWyC2CQgH8z14fd2g&s",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -3368,7 +3602,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 214
+// Total channels: 230
 // Channels with DRM: 34
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
