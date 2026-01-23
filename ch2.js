@@ -1,11 +1,11 @@
-// Generated: 2026-01-23 12:39 UTC
+// Generated: 2026-01-23 18:28 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (34 channels, 3 with 🔐 DRM)
+    // NEWS (37 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -267,6 +267,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "First India News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://play-lh.googleusercontent.com/iJZoVQx0zOCpmQ-z_ey2Y2NspoXA2vjQDm49KPioIzUka9sT8-HAEnmdQXuzxSwauQ=w600-h300-pc0xffffff-pd",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Independent TV",
         "sources": [
             {
@@ -281,6 +295,40 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/3rL7TH81/Independent-TV.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "India News",
+        "sources": [
+            {
+                "name": "National",
+                "url": "https://newsxott.in/hls/indianewsnational.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Gujarat",
+                "url": "https://newsxott.in/hls/indianewsgujarat.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Haryana",
+                "url": "https://newsxott.in/hls/indianewsharyana.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Punjab",
+                "url": "https://newsxott.in/hls/indianewspunjab.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Uttar Pradesh",
+                "url": "https://newsxott.in/hls/indianewsupuk.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://karthavya.com/wp-content/uploads/2019/07/India-News-Live.png",
         "category": "News",
         "description": "News Channel"
     },
@@ -328,6 +376,25 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/bNJny8Qw/news-24.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "News X",
+        "sources": [
+            {
+                "name": "News X",
+                "url": "https://newsxott.in/hls/newsx.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "News X World",
+                "url": "https://newsxott.in/hls/newsxworld.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/zwrmWphe47oXEHVndsokIHupuBpVWq2_a_LCxiV_JA0YmaosO7S3kMeFyTNhNLUO8ovmT3hDfX0=s900-c-k-c0x00ffffff-no-rj",
         "category": "News",
         "description": "News Channel"
     },
@@ -533,7 +600,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (13 channels, 8 with 🔐 DRM)
+    // SPORTS (14 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -595,7 +662,21 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Server 3",
-                "url": "https://php-cr7x.wasmer.app/play.php?id=LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HD&uid=le-beta&pass=maar-moj&e.m3u8",
+                "url": "https://stream.snexus.co/live/SN_WILDLIFE/main_stream.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Live 2",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1707/output/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -607,6 +688,11 @@ window.rawChannels2 = [
     {
         "name": "Live 3",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live-en.aisports.cc/moviebox/device01/playlist.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 3",
                 "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
@@ -752,7 +838,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (14 channels, 1 with 🔐 DRM)
+    // KIDS (17 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -873,6 +959,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Cartoon Network HD+",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://livecdn-bostaflix.global.ssl.fastly.net/live.php?id=eb6b38bdd902&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/d06FD9xw/cnhd.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
         "name": "Discovery Kids",
         "sources": [
             {
@@ -900,6 +1000,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/4xgPNDrf/duronto.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "Gubbare",
+        "sources": [
+            {
+                "name": "⚡ Hindi",
+                "url": "https://epiconvh.akamaized.net/live/gubbare/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/en/0/01/Gubbare-TV_channel.jpg",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -947,6 +1061,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Yay",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://bostaflix.vercel.app/api/roarzone.m3u8?stream=toffee/sonyyay",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/1413YzhR/yay.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
         "name": "Zoo Moo",
         "sources": [
             {
@@ -962,7 +1090,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (48 channels, 6 with 🔐 DRM)
+    // ENTERTAINMENT (51 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1118,6 +1246,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "ATN Bangla",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/BbLck5F4/atn-bangla.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Bangla TV",
         "sources": [
             {
@@ -1127,6 +1269,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/L4bfq0Ys/bangla-tv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Banglavision",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/PJxGv57P/banglavision.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -1191,7 +1347,7 @@ window.rawChannels2 = [
         "name": "Channel 9",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/channel9.index.m3u8",
                 "type": "hls"
             }
@@ -1205,7 +1361,12 @@ window.rawChannels2 = [
         "name": "Channel i",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "⚡ Server 1",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/channeli.index.m3u8",
                 "type": "hls"
             }
@@ -1317,7 +1478,12 @@ window.rawChannels2 = [
         "name": "Deepto TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "⚡ Server 1",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/deeptotv.index.m3u8",
                 "type": "hls"
             }
@@ -1365,6 +1531,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/50rsyVks/enter10-bangla.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Fakt Marathi",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-6.pishow.tv/live/10002/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/87bc6f3984109dd5ef35e2e4fb1b64cb.png",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -1471,7 +1651,12 @@ window.rawChannels2 = [
         "name": "NTV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "⚡ Server 1",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/ntv.index.m3u8",
                 "type": "hls"
             }
@@ -1663,7 +1848,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (34 channels, 3 with 🔐 DRM)
+    // NEWS (37 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1925,6 +2110,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "First India News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://play-lh.googleusercontent.com/iJZoVQx0zOCpmQ-z_ey2Y2NspoXA2vjQDm49KPioIzUka9sT8-HAEnmdQXuzxSwauQ=w600-h300-pc0xffffff-pd",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Independent TV",
         "sources": [
             {
@@ -1939,6 +2138,40 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/3rL7TH81/Independent-TV.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "India News",
+        "sources": [
+            {
+                "name": "National",
+                "url": "https://newsxott.in/hls/indianewsnational.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Gujarat",
+                "url": "https://newsxott.in/hls/indianewsgujarat.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Haryana",
+                "url": "https://newsxott.in/hls/indianewsharyana.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Punjab",
+                "url": "https://newsxott.in/hls/indianewspunjab.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Uttar Pradesh",
+                "url": "https://newsxott.in/hls/indianewsupuk.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://karthavya.com/wp-content/uploads/2019/07/India-News-Live.png",
         "category": "News",
         "description": "News Channel"
     },
@@ -1986,6 +2219,25 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/bNJny8Qw/news-24.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "News X",
+        "sources": [
+            {
+                "name": "News X",
+                "url": "https://newsxott.in/hls/newsx.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "News X World",
+                "url": "https://newsxott.in/hls/newsxworld.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/zwrmWphe47oXEHVndsokIHupuBpVWq2_a_LCxiV_JA0YmaosO7S3kMeFyTNhNLUO8ovmT3hDfX0=s900-c-k-c0x00ffffff-no-rj",
         "category": "News",
         "description": "News Channel"
     },
@@ -2191,7 +2443,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (27 channels, 6 with 🔐 DRM)
+    // MOVIE (28 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2386,6 +2638,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/sxWcXTg4/cj.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Filamchi Bhojpuri",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://epiconvh.akamaized.net/live/filamchi/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/shows/2025-10-31/2510313384016.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -2608,7 +2874,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (26 channels)
+    // MUSIC (27 channels)
     // ==================================================
 
     {
@@ -2841,6 +3107,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/L4f6PQnh/mastiii.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Music Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla2025.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/8kRX8jMd/music-bangla.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -3560,7 +3840,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 227
+// Total channels: 242
 // Channels with DRM: 34
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
