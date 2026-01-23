@@ -1,11 +1,11 @@
-// Generated: 2026-01-23 06:30 UTC
+// Generated: 2026-01-23 12:39 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (33 channels, 3 with 🔐 DRM)
+    // NEWS (34 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -187,6 +187,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://erp.adgully.com/artical_image/43d69552e24c92ea14e14bca3007eb78.jpeg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "DBC News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/cJGD5HdQ/dbc.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -519,7 +533,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (14 channels, 8 with 🔐 DRM)
+    // SPORTS (13 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -577,6 +591,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Live 1",
+        "sources": [
+            {
+                "name": "Server 3",
+                "url": "https://php-cr7x.wasmer.app/play.php?id=LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HD&uid=le-beta&pass=maar-moj&e.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
         "name": "Live 3",
         "sources": [
             {
@@ -628,34 +656,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/qqgZ1jVH/ten5.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Star Sports 1",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Star Sports 2",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -752,7 +752,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (15 channels, 1 with 🔐 DRM)
+    // KIDS (14 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -868,20 +868,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/d1K0Drvh/Cn.png",
-        "category": "Kids",
-        "description": "Kids Channel"
-    },
-
-    {
-        "name": "Cartoon Network HD+",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://livecdn-bostaflix.global.ssl.fastly.net/live.php?id=eb6b38bdd902&e=.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/d06FD9xw/cnhd.jpg",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -1677,7 +1663,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (33 channels, 3 with 🔐 DRM)
+    // NEWS (34 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1859,6 +1845,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://erp.adgully.com/artical_image/43d69552e24c92ea14e14bca3007eb78.jpeg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "DBC News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/cJGD5HdQ/dbc.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -2191,7 +2191,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (28 channels, 6 with 🔐 DRM)
+    // MOVIE (27 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2534,20 +2534,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/FF8V2XHs/ss.jpg",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Star Gold",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/stargold/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/7YJXRsp7/gold.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -3101,7 +3087,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (6 channels)
+    // RELIGIOUS (7 channels)
     // ==================================================
 
     {
@@ -3128,6 +3114,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/tTkx4MWv/ilm.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Islam Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/islamchbangla.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhxUqZi3tzsjdt5rn7AWyC2CQgH8z14fd2g&s",
         "category": "Religious",
         "description": "Religious Channel"
     },
