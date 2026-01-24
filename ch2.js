@@ -1,4 +1,4 @@
-// Generated: 2026-01-24 06:27 UTC
+// Generated: 2026-01-24 12:34 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1071,7 +1071,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (51 channels, 6 with 🔐 DRM)
+    // ENTERTAINMENT (50 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1671,20 +1671,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Qxh9wGTV/rtv.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Ruposhi Bangla",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn-4.pishow.tv/live/1039/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/8c1LTnTZ/ruposhi-bangla.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3779,7 +3765,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 238
+// Total channels: 237
 // Channels with DRM: 34
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
