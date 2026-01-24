@@ -1,4 +1,4 @@
-// Generated: 2026-01-24 01:17 UTC
+// Generated: 2026-01-24 06:27 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -674,11 +674,6 @@ window.rawChannels2 = [
     {
         "name": "Live 3",
         "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live-en.aisports.cc/moviebox/device01/playlist.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 3",
                 "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
