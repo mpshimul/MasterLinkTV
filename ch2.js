@@ -1,11 +1,11 @@
-// Generated: 2026-01-24 12:34 UTC
+// Generated: 2026-01-24 18:26 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (36 channels, 3 with 🔐 DRM)
+    // NEWS (41 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -339,6 +339,34 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Kairali News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-3.pishow.tv/live/1469/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/en/6/6e/Kairali_TV.svg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Kashish News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://server.thelegitpro.in/kashishnews/kashishnews/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/8d69aeee54fa6a6d9feae943d972eaa7.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Kolkata TV",
         "sources": [
             {
@@ -348,6 +376,67 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/mkVfbs7P/kolkatatv.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Malai Murasu TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-3.pishow.tv/live/1606/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://static.wikia.nocookie.net/logopedia/images/d/d1/Malai_Murasu.png/revision/latest?cb=20191229035538",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Manorama News",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://mmtvnews1.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/mmtvNewsCampaign1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/0a22e24d565a1f951c03e2008216de15.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Media One",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-3.pishow.tv/live/1481/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-MXv3hLTU1hj3ZUPC8g5RH4-0J7CbrakGzA&s",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Mirror Now",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://dai.google.com/linear/hls/event/ClPOullTQky5vGPf7fMZ8g/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://pubads.g.doubleclick.net/ssai/event/DXkHhH2QSnma-HnE3QJqlA/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQERZwk1iL4m_w/company-logo_200_200/company-logo_200_200/0/1631322422535?e=2147483647&v=beta&t=Dk2eJzcMflN0nQxbryoMPfaCZRSgCmlrPk4A6XbCebI",
         "category": "News",
         "description": "News Channel"
     },
@@ -409,20 +498,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://erp.adgully.com/artical_image/a4f638aa199ee1ccb9ffdc24d9c2af25.jpeg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "News18 Kerala",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://upload.wikimedia.org/wikipedia/commons/0/05/News18_Kerala.png",
         "category": "News",
         "description": "News Channel"
     },
@@ -586,7 +661,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (14 channels, 8 with 🔐 DRM)
+    // SPORTS (13 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -639,20 +714,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/bJRPtBpR/bein3.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Live 1",
-        "sources": [
-            {
-                "name": "Server 3",
-                "url": "https://stream.snexus.co/live/SN_WILDLIFE/main_stream.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1071,7 +1132,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (50 channels, 6 with 🔐 DRM)
+    // ENTERTAINMENT (59 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1559,6 +1620,62 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Kairali We",
+        "sources": [
+            {
+                "name": "Playlist",
+                "url": "https://cdn-3.pishow.tv/live/1530/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXFziJMtfaHaW2j77isHF0VepKF9qs78qCow&s",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Kalaignar TV",
+        "sources": [
+            {
+                "name": "Playlist",
+                "url": "https://segment.yuppcdn.net/240122/kalaignartv/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/en/3/3a/Kalaignar_logo.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Kannur Vision",
+        "sources": [
+            {
+                "name": "Playlist",
+                "url": "https://stream.logichost.in/kannurvision/live/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://play-lh.googleusercontent.com/667r12fkQRMAXtdves9sb6D9QRjxNn5gY9UjSNsQkYjAfh_YyIvVwtkt8t0LWujWT7U",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Kaumudy TV",
+        "sources": [
+            {
+                "name": "Playlist",
+                "url": "https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5d7wjWkHY_VaaFcpji37s3CZwssMsXSxLZlgvTlgWYzfZBEexD1_f-ocxH0kBZBYitPA&usqp=CAU",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Khushboo Bangla",
         "sources": [
             {
@@ -1582,6 +1699,67 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/h41QbPKw/maasranga.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Madhimugam TV",
+        "sources": [
+            {
+                "name": "Playlist",
+                "url": "https://cdn-3.pishow.tv/live/1476/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/2ba9fac03ad789ed0eac205fad948d12.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Malar TV",
+        "sources": [
+            {
+                "name": "Playlist",
+                "url": "https://cdn-3.pishow.tv/live/473/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ1Uz2UXWDNxARKK2evE0wVMbx-OnqP85IfA&s",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Manoranjan TV",
+        "sources": [
+            {
+                "name": "Playlist",
+                "url": "https://cdn-1.pishow.tv/live/1013/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Manoranjan_TV.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Mazhavil Manorama",
+        "sources": [
+            {
+                "name": "⚡ SD",
+                "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mazhavilmanorama_nim_https/050522/mazhavilmanorama/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "HD",
+                "url": "https://cdn-7.pishow.tv/live/1129/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/bcbf005fdbbe3c4c5224827def2387b8.png",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -1671,6 +1849,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Qxh9wGTV/rtv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Ruposhi Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-4.pishow.tv/live/1039/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/8c1LTnTZ/ruposhi-bangla.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -1815,7 +2007,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (36 channels, 3 with 🔐 DRM)
+    // NEWS (41 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2149,6 +2341,34 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Kairali News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-3.pishow.tv/live/1469/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/en/6/6e/Kairali_TV.svg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Kashish News",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://server.thelegitpro.in/kashishnews/kashishnews/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/8d69aeee54fa6a6d9feae943d972eaa7.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Kolkata TV",
         "sources": [
             {
@@ -2158,6 +2378,67 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/mkVfbs7P/kolkatatv.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Malai Murasu TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-3.pishow.tv/live/1606/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://static.wikia.nocookie.net/logopedia/images/d/d1/Malai_Murasu.png/revision/latest?cb=20191229035538",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Manorama News",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://mmtvnews1.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/mmtvNewsCampaign1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/0a22e24d565a1f951c03e2008216de15.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Media One",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-3.pishow.tv/live/1481/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-MXv3hLTU1hj3ZUPC8g5RH4-0J7CbrakGzA&s",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Mirror Now",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://dai.google.com/linear/hls/event/ClPOullTQky5vGPf7fMZ8g/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://pubads.g.doubleclick.net/ssai/event/DXkHhH2QSnma-HnE3QJqlA/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://media.licdn.com/dms/image/v2/C4D0BAQERZwk1iL4m_w/company-logo_200_200/company-logo_200_200/0/1631322422535?e=2147483647&v=beta&t=Dk2eJzcMflN0nQxbryoMPfaCZRSgCmlrPk4A6XbCebI",
         "category": "News",
         "description": "News Channel"
     },
@@ -2219,20 +2500,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://erp.adgully.com/artical_image/a4f638aa199ee1ccb9ffdc24d9c2af25.jpeg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "News18 Kerala",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://upload.wikimedia.org/wikipedia/commons/0/05/News18_Kerala.png",
         "category": "News",
         "description": "News Channel"
     },
@@ -2396,7 +2663,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (28 channels, 6 with 🔐 DRM)
+    // MOVIE (30 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2666,6 +2933,34 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Maha Movie",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-6.pishow.tv/live/10007/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Maha_Movies.png",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Manoranjan Movies",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-2.pishow.tv/live/228/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Manoranjan-Movies-Logo.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "MIX Hollywood",
         "sources": [
             {
@@ -2827,7 +3122,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (26 channels)
+    // MUSIC (28 channels)
     // ==================================================
 
     {
@@ -3046,6 +3341,39 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/wBKM5G7V/e-24.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Kalaignar Murasu",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/murasu_nim_https/050522/murasu/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://segment.yuppcdn.net/050522/murasu/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/QQBHnrVMU6Ex_Y1s64zndprXIJX4uhCh8OUwq1sfgrp3MENL1zR1KP1Adv0aXX3f-yK0uCP15A=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Kappa TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-3.pishow.tv/live/1123/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/575e7238007c7695a7c2bc5d7b6d0ff9.png",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -3306,7 +3634,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (6 channels)
+    // RELIGIOUS (7 channels)
     // ==================================================
 
     {
@@ -3347,6 +3675,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/BvfMPnSP/madani-bangla.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Mercy TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXMFfcf9s50fsWGifUc9Do21MCTfRN6Y9-yw&s",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -3395,7 +3737,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (24 channels, 7 with 🔐 DRM)
+    // OTHERS (26 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3675,6 +4017,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "KITE Victers",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRw5j21VYGJhzIzhCA-EZ51uIbdDNMBe96CA&s",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Love the Planet",
         "sources": [
             {
@@ -3684,6 +4040,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/VLJ8Bbbc/love-the-planet.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
+        "name": "Makkal TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://5k8q87azdy4v-hls-live.wmncdn.net/MAKKAL/271ddf829afeece44d8732757fba1a66.sdp/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://play-lh.googleusercontent.com/ipwuom_ArR-0tJ21BVOOWR85CTXFG57eEf24M_kN6AXVb9iXM61ijrk9PzUwLtkd1A=w600-h300-pc0xffffff-pd",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -3765,7 +4135,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 237
+// Total channels: 262
 // Channels with DRM: 34
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
