@@ -1,4 +1,4 @@
-// Generated: 2026-01-25 06:28 UTC
+// Generated: 2026-01-25 12:35 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -880,7 +880,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (17 channels, 1 with 🔐 DRM)
+    // KIDS (16 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1056,20 +1056,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://upload.wikimedia.org/wikipedia/en/0/01/Gubbare-TV_channel.jpg",
-        "category": "Kids",
-        "description": "Kids Channel"
-    },
-
-    {
-        "name": "Minimax",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/xC2TbNWn/minimax.jpg",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -2663,7 +2649,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (30 channels, 6 with 🔐 DRM)
+    // MOVIE (29 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2708,20 +2694,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/HsvPf09Y/bollywood.jpg",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "24/7 Dubbed Movies",
-        "sources": [
-            {
-                "name": "Playlist",
-                "url": "https://tplay.live/playlist/movies/dubbed-movies/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/DZmhKfbK/dubbed.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -3560,6 +3532,16 @@ window.rawChannels2 = [
         "name": "Tabbar Hits",
         "sources": [
             {
+                "name": "⚡ Stream 1",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tabbar-hits/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 2",
+                "url": "https://live1.ottlive.co.in/tabbarhitsswift/index.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Stream 3",
                 "url": "https://server.livelegitpro.in/punjabihits/index.m3u8",
                 "type": "hls"
@@ -4125,7 +4107,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 262
+// Total channels: 260
 // Channels with DRM: 34
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
