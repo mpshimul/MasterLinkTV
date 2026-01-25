@@ -1,4 +1,4 @@
-// Generated: 2026-01-25 12:35 UTC
+// Generated: 2026-01-25 18:26 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -880,7 +880,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (16 channels, 1 with 🔐 DRM)
+    // KIDS (17 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1056,6 +1056,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://upload.wikimedia.org/wikipedia/en/0/01/Gubbare-TV_channel.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "Minimax",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/xC2TbNWn/minimax.jpg",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -2649,7 +2663,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (29 channels, 6 with 🔐 DRM)
+    // MOVIE (30 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2694,6 +2708,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/HsvPf09Y/bollywood.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "24/7 Dubbed Movies",
+        "sources": [
+            {
+                "name": "Playlist",
+                "url": "https://tplay.live/playlist/movies/dubbed-movies/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/DZmhKfbK/dubbed.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4107,7 +4135,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 260
+// Total channels: 262
 // Channels with DRM: 34
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
