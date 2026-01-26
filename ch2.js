@@ -1,4 +1,4 @@
-// Generated: 2026-01-26 12:39 UTC
+// Generated: 2026-01-26 18:31 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -885,7 +885,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (17 channels, 1 with 🔐 DRM)
+    // KIDS (18 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -973,6 +973,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "24/7 Tom And Jerry",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/xd5gYkM8/tom-jerry.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
         "name": "Animax",
         "sources": [
             {
@@ -990,12 +1004,12 @@ window.rawChannels2 = [
         "name": "Cartoon Network",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "Hindi",
                 "url": "https://livecdn-bostaflix.global.ssl.fastly.net/live.php?id=8be5ec5d5d7c&e=.m3u8",
                 "type": "hls"
             },
             {
-                "name": "Server 2",
+                "name": "Urdu",
                 "url": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/playlist.m3u8",
                 "type": "hls"
             }
@@ -1041,7 +1055,7 @@ window.rawChannels2 = [
         "name": "Duronto",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "Bangla",
                 "url": "https://tvsen4.aynaott.com/durontotv/index.m3u8",
                 "type": "hls"
             }
@@ -3343,6 +3357,11 @@ window.rawChannels2 = [
                 "name": "Stream 1",
                 "url": "https://amg13643-amg13643c2-amgplt0173.playout.now3.amagi.tv/playlist/amg13643-amg13643c2-amgplt0173/playlist.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Stream 2",
+                "url": "https://bagnetwork.digivive.com/hlslive/Admin/px09241091/live/E24LiveB/master_1.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/wBKM5G7V/e-24.jpg",
@@ -3403,6 +3422,11 @@ window.rawChannels2 = [
             {
                 "name": "⚡ Stream 1",
                 "url": "https://d1taaads3ztvmu.cloudfront.net/120723/mastii/chunklist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 2",
+                "url": "https://colorsportscreen.com/freetv/stream.m3u8?id=3bc587f10be1",
                 "type": "hls"
             }
         ],
@@ -3653,7 +3677,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (7 channels)
+    // RELIGIOUS (6 channels)
     // ==================================================
 
     {
@@ -3722,20 +3746,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/jjmyWm0m/om-bangla-2.jpg",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Peace TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
         "category": "Religious",
         "description": "Religious Channel"
     },
