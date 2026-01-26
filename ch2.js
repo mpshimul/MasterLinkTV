@@ -1,4 +1,4 @@
-// Generated: 2026-01-26 06:33 UTC
+// Generated: 2026-01-26 12:39 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -666,7 +666,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (12 channels, 7 with 🔐 DRM)
+    // SPORTS (13 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -861,6 +861,24 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SQwXQRTK/tnt4.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Willow",
+        "sources": [
+            {
+                "name": "🔐 Server 1",
+                "url": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/clients/dash/enc/f60kqesunw/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "1779c27b9d077a3ba0c9cc1bb9a94b9f",
+                    "key": "cc5cf3b7928fb9e0a1ee6a8b566f0a8e"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/L4b8S5Df/willow.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -3325,11 +3343,6 @@ window.rawChannels2 = [
                 "name": "Stream 1",
                 "url": "https://amg13643-amg13643c2-amgplt0173.playout.now3.amagi.tv/playlist/amg13643-amg13643c2-amgplt0173/playlist.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "Stream 2",
-                "url": "https://bagnetwork.digivive.com/hlslive/Admin/px09241091/live/E24LiveB/master_1.m3u8",
-                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/wBKM5G7V/e-24.jpg",
@@ -4141,7 +4154,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 262
-// Channels with DRM: 33
+// Total channels: 263
+// Channels with DRM: 34
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
