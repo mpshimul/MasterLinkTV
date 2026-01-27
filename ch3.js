@@ -1,4 +1,4 @@
-// Generated: 2026-01-27 21:45 UTC
+// Generated: 2026-01-27 22:31 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -6,7 +6,7 @@
 window.rawChannels2 = [
 
     // ==================================================
-    // BANGLA (73 channels)
+    // BANGLA (68 channels)
     // ==================================================
 
     {
@@ -118,20 +118,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Anandatv",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 com.bd",
-                "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Arabica TV",
         "category": "Bangla",
         "img": "",
@@ -201,20 +187,6 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Ayna TV",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/ayna.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -324,20 +296,6 @@ window.rawChannels2 = [
             {
                 "name": "⭐ roarzone.info",
                 "url": "http://tv.roarzone.info/player.php?stream=bk/61",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Boishakhitv",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/boishakhitv-org.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -472,11 +430,6 @@ window.rawChannels2 = [
                 "name": "⭐ roarzone.info",
                 "url": "http://tv.roarzone.info/player.php?stream=bk/4",
                 "type": "hls"
-            },
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channel9hd.stream/playlist.m3u8",
-                "type": "hls"
             }
         ]
     }
@@ -507,25 +460,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Channel S UK",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/chsukoff.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Dbc",
         "category": "Bangla",
         "img": "",
@@ -533,20 +467,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 chowdhury-shaheb.com",
                 "url": "http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Dbcnews",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -774,11 +694,6 @@ window.rawChannels2 = [
                 "name": "⭐ aynascope.net",
                 "url": "https://tvsen5.aynascope.net/Ravc7gPCZpxk/index.m3u8?e=1769551971&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=35538eede60a87c2af6b30af6ec3ce26",
                 "type": "hls"
-            },
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
             }
         ]
     }
@@ -792,6 +707,20 @@ window.rawChannels2 = [
             {
                 "name": "⭐ aynascope.net",
                 "url": "https://tvsen6.aynascope.net/globaltvhd/index.m3u8?e=1769551979&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=1843998399b803674fb80cd49a413d55",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Green TV",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ncare.live",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/chunks.m3u8",
                 "type": "hls"
             }
         ]
@@ -1008,20 +937,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Nrbtv",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/nrb-eu.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "NTV",
         "category": "Bangla",
         "img": "https://www.ntvbd.com/sites/default/files/aggregator/2020/02/17/ntv-channel_0.jpg",
@@ -1124,11 +1039,6 @@ window.rawChannels2 = [
             {
                 "name": "⭐ roarzone.info",
                 "url": "http://tv.roarzone.info/player.php?stream=bk/14",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/rtv-sg.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -1287,7 +1197,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // NEWS (41 channels)
+    // NEWS (42 channels)
     // ==================================================
 
     {
@@ -1368,6 +1278,20 @@ window.rawChannels2 = [
             {
                 "name": "⭐ aynascope.net",
                 "url": "https://tvsen7.aynascope.net/BharatSamachar/index.m3u8?e=1769552005&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=432feab9b97c17a789d2b39107ee3a24",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Cgtn News",
+        "category": "News",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ncare.live",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/cgtn.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -1491,11 +1415,6 @@ window.rawChannels2 = [
             {
                 "name": "⭐ roarzone.info",
                 "url": "http://tv.roarzone.info/player.php?stream=edge2/ekhontv",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/globaltv.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -1905,7 +1824,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // SPORTS (71 channels)
+    // SPORTS (72 channels)
     // ==================================================
 
     {
@@ -2416,6 +2335,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 short.gy",
                 "url": "https://7pal.short.gy/prsport1",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Premium Sports-2",
+        "category": "Sports",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 short.gy",
+                "url": "https://7pal.short.gy/prsport2",
                 "type": "hls"
             }
         ]
@@ -2988,11 +2921,6 @@ window.rawChannels2 = [
                 "name": "⭐ roarzone.info",
                 "url": "http://tv.roarzone.info/player.php?stream=bk/79",
                 "type": "hls"
-            },
-            {
-                "name": "🔗 bozztv.com",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
-                "type": "hls"
             }
         ]
     }
@@ -3365,12 +3293,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
                 "type": "hls"
             },
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -3452,7 +3380,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // MUSIC (12 channels)
+    // MUSIC (11 channels)
     // ==================================================
 
     {
@@ -3477,20 +3405,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 akamaized.net",
                 "url": "https://epiconvh.akamaized.net/live/showbox/master.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Atnmusic",
-        "category": "Music",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnmusic.stream/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -4688,7 +4602,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (146 channels)
+    // OTHERS (145 channels)
     // ==================================================
 
     {
@@ -4697,13 +4611,13 @@ window.rawChannels2 = [
         "img": "",
         "sources": [
             {
-                "name": "🔗 bozztv.com",
-                "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
+                "name": "🔗 vercel.app",
+                "url": "https://cloudfrontnet.vercel.app/tplay/playout/209617/master.m3u8",
                 "type": "hls"
             },
             {
-                "name": "🔗 vercel.app",
-                "url": "https://cloudfrontnet.vercel.app/tplay/playout/209617/master.m3u8",
+                "name": "🔗 bozztv.com",
+                "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
                 "type": "hls"
             },
             {
@@ -5789,20 +5703,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Jago News 24",
-        "category": "Jagobd",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/jagonews24.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Kids TV",
         "category": "Channels",
         "img": "https://s3.aynaott.com/storage/24f86d03093467c8b9fa0e17f72c4e06",
@@ -6858,11 +6758,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 444
-// Total sources: 562
+// Total channels: 439
+// Total sources: 551
 // Top priority sources (⭐): 280
 // Other priority sources (⚡): 1
-// Regular sources: 281
+// Regular sources: 270
 // Categories: 11
-// Merged duplicates: 148 channels consolidated
+// Merged duplicates: 146 channels consolidated
 // Generated with M3U processor
