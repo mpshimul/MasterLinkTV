@@ -1,4 +1,4 @@
-// Generated: 2026-01-26 18:31 UTC
+// Generated: 2026-01-27 01:25 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -885,7 +885,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (18 channels, 1 with 🔐 DRM)
+    // KIDS (20 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -926,6 +926,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Pxj1jp7M/gopal-bhar.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "24/7 Jungle Book",
+        "sources": [
+            {
+                "name": "⚡ Playlist",
+                "url": "https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzWHwxLoNifJmfg_l-i380r8xqKhPheAuYLQ&s",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -1103,6 +1117,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/L5tFKBL4/pogo.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "Power Kids",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://cc-j2qrmdlg5y7lg.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-j2qrmdlg5y7lg/powerkids.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/gr9v9Tt9/pk.jpg",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -3677,7 +3705,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (6 channels)
+    // RELIGIOUS (7 channels)
     // ==================================================
 
     {
@@ -3746,6 +3774,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/jjmyWm0m/om-bangla-2.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Peace TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -4164,7 +4206,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 263
+// Total channels: 266
 // Channels with DRM: 34
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
