@@ -1,4 +1,4 @@
-// Generated: 2026-01-27 17:34 UTC
+// Generated: 2026-01-27 18:49 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -6,7 +6,7 @@
 window.rawChannels2 = [
 
     // ==================================================
-    // BANGLA (68 channels)
+    // BANGLA (69 channels)
     // ==================================================
 
     {
@@ -304,12 +304,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 vercel.app",
-                "url": "https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8",
+                "url": "https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8",
                 "type": "hls"
             },
             {
                 "name": "🔗 vercel.app",
-                "url": "https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8",
+                "url": "https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8",
                 "type": "hls"
             }
         ]
@@ -448,6 +448,20 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Channel S UK HD",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ncare.live",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -952,6 +966,11 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
+                "name": "🔗 ncare.live",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/ntvuk00332211.stream/playlist.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen1.aynaott.com/xV4jEKf3D9zc/index.m3u8",
                 "type": "hls"
@@ -1187,7 +1206,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // NEWS (40 channels)
+    // NEWS (41 channels)
     // ==================================================
 
     {
@@ -1268,6 +1287,20 @@ window.rawChannels2 = [
             {
                 "name": "⭐ aynascope.net",
                 "url": "https://tvsen7.aynascope.net/BharatSamachar/index.m3u8?e=1769537873&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e23fcd3eba00d46d6adf9b4689a4d98b",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Cgtn News",
+        "category": "News",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ncare.live",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/cgtn.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -2179,12 +2212,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 pages.dev",
-                "url": "https://starsportshindiii.pages.dev/index.m3u8",
+                "url": "https://starsportshindiii.pages.dev/720p.m3u8",
                 "type": "hls"
             },
             {
                 "name": "🔗 pages.dev",
-                "url": "https://starsportshindiii.pages.dev/720p.m3u8",
+                "url": "https://starsportshindiii.pages.dev/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -3902,6 +3935,11 @@ window.rawChannels2 = [
                 "name": "🔗 wiseplayout.com",
                 "url": "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "🌐 220.6",
+                "url": "http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2762.ts",
+                "type": "hls"
             }
         ]
     }
@@ -4597,7 +4635,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (149 channels)
+    // OTHERS (150 channels)
     // ==================================================
 
     {
@@ -4627,17 +4665,17 @@ window.rawChannels2 = [
             },
             {
                 "name": "🌐 239.54",
-                "url": "http://178.33.239.54:8080/507a/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "🌐 239.54",
                 "url": "http://178.33.239.54:8080/503a/index.m3u8",
                 "type": "hls"
             },
             {
-                "name": "🌐 149.16",
-                "url": "http://116.204.149.16/nagorik/index.m3u8",
+                "name": "🌐 239.54",
+                "url": "http://178.33.239.54:8080/507a/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 tundracast.com",
+                "url": "http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-lemar/index.m3u8",
                 "type": "hls"
             },
             {
@@ -4646,8 +4684,8 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
-                "name": "🌐 tundracast.com",
-                "url": "http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-lemar/index.m3u8",
+                "name": "🌐 149.16",
+                "url": "http://116.204.149.16/nagorik/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -5350,6 +5388,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen4.aynaott.com/durontotv/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Ekushey TV (480p)",
+        "category": "Unknown",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ekusheyserver.com",
+                "url": "https://ekusheyserver.com/etvlivesn.m3u8",
                 "type": "hls"
             }
         ]
@@ -6814,11 +6866,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 443
-// Total sources: 555
+// Total channels: 446
+// Total sources: 560
 // Top priority sources (⭐): 280
 // Other priority sources (⚡): 1
-// Regular sources: 274
+// Regular sources: 279
 // Categories: 11
-// Merged duplicates: 147 channels consolidated
+// Merged duplicates: 148 channels consolidated
 // Generated with M3U processor
