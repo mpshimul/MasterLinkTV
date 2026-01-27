@@ -1,4 +1,4 @@
-// Generated: 2026-01-27 06:31 UTC
+// Generated: 2026-01-27 12:40 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -899,7 +899,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (20 channels, 1 with 🔐 DRM)
+    // KIDS (19 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1177,23 +1177,9 @@ window.rawChannels2 = [
         "description": "Kids Channel"
     },
 
-    {
-        "name": "Zoo Moo",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn.skygo.mn/live/disk1/Zoomoo/HLSv3-FTA/Zoomoo.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/3J0Thmrb/zoo-moo.jpg",
-        "category": "Kids",
-        "description": "Kids Channel"
-    },
-
 
     // ==================================================
-    // ENTERTAINMENT (59 channels, 6 with 🔐 DRM)
+    // ENTERTAINMENT (60 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2013,6 +1999,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Tara TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://legitpro.co.in/taratv/taratv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/ytc/AIdro_njjooSlwTJnKdIZCGueYfSfotEcv0VLNzeeX8C_3735g=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Zee Bangla",
         "sources": [
             {
@@ -2743,7 +2743,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (30 channels, 6 with 🔐 DRM)
+    // MOVIE (33 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2957,6 +2957,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Filmy Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://anywhere.pwisetthon.com/http://103.145.48.150:90/laosat24/filmytv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/43r4kMWY/filmi-bangla.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Goldmines",
         "sources": [
             {
@@ -2994,20 +3008,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/d66J-MMZ06-55gkF5maclPGB5f5j1L0SAs3iWnl3lhoswlWrJ67wD2a3mZGkgHgt-W3kMrIT=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Lotus Macau",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/6q0JD7ZB/lotus-macau.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -3073,6 +3073,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Movie Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://anywhere.pwisetthon.com/http://alvetv.com/moviebanglatv/8080/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/vHRnL2MH/movie-bangla.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Movies Now HD",
         "sources": [
             {
@@ -3105,6 +3119,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sanonda",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://115.187.41.216:8080/hls/sanandatv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/TwTnMYrW/sananda.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Shemaroo Bollywood",
         "sources": [
             {
@@ -3128,6 +3156,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/FF8V2XHs/ss.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Tara Bangla Cinema",
+        "sources": [
+            {
+                "name": "Playlist",
+                "url": "https://anywhere.pwisetthon.com/http://103.145.48.150:90/laosat24/taratv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/503Bkwmk/tarabanglacinema.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -3864,7 +3906,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (26 channels, 7 with 🔐 DRM)
+    // OTHERS (25 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3941,20 +3983,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SjFpx6XX/discovery.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Discovery Asia",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/7hkmbg85/d-asia.jpg",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -4262,7 +4290,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 270
+// Total channels: 272
 // Channels with DRM: 34
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
