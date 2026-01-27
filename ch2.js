@@ -1,11 +1,11 @@
-// Generated: 2026-01-27 12:40 UTC
+// Generated: 2026-01-27 18:37 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (42 channels, 3 with 🔐 DRM)
+    // NEWS (44 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -51,6 +51,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/HjGW7XCJ/abp-ananda.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Al Ekhbariya",
+        "sources": [
+            {
+                "name": "⚡ Arabic",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/e/e3/%D8%A7%D9%84%D9%82%D9%86%D8%A7.png",
         "category": "News",
         "description": "News Channel"
     },
@@ -400,6 +414,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Libya Al Wataniya",
+        "sources": [
+            {
+                "name": "⚡ Arabic",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/libya_al_watanya/hls_roku/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.imgur.com/KSUny9D.jpeg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Malai Murasu TV",
         "sources": [
             {
@@ -680,7 +708,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (13 channels, 8 with 🔐 DRM)
+    // SPORTS (27 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -733,6 +761,202 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/bJRPtBpR/bein3.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Premier 1 HD",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Premier-1/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279488754%27&EntityType=%27Item%27&EntityId=%27567123%27&Width=1920&Height=1080",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Premier 3 HD",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Premier-3/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624617%27&EntityType=%27Item%27&EntityId=%27572419%27&Width=1920&Height=1080",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Premier 4 HD",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Premier-4/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624656%27&EntityType=%27Item%27&EntityId=%27572423%27&Width=1920&Height=1080",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Premier 5 HD",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Premier-5/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624630%27&EntityType=%27Item%27&EntityId=%27572420%27&Width=1920&Height=1080",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Premier 6 HD",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Premier-6/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624633%27&EntityType=%27Item%27&EntityId=%27572421%27&Width=1920&Height=1080",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Premier 7 HD",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Premier-7/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624605%27&EntityType=%27Item%27&EntityId=%27572417%27&Width=1920&Height=1080",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Premier 8 HD",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Premier-8/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624577%27&EntityType=%27Item%27&EntityId=%27572414%27&Width=1920&Height=1080",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Sports 1",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Sports-1/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://static.wikia.nocookie.net/logos/images/d/d4/HUB_Sports_1.png/revision/latest/scale-to-width-down/1200?cb=20240218062835&path-prefix=vi",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Sports 2",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Sports-2/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://static.wikia.nocookie.net/logosfake/images/2/25/HubSports_2.png/revision/latest?cb=20190619114541",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Sports 3",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Sports-3/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://r2.thesportsdb.com/images/media/channel/logo/tmpwbb1655810489.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Sports 4",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Sports-4/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.vimeocdn.com/video/2065871386-1e9bff68a218b46f95c503bc69cf9d566c5021dae6479880b15ba09efa83da70-d?f=webp",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Sports 5",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Sports-5/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://epg.pw/media/images/epg/2025/02/12/20250212042641983979_50.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Sports 7",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Sports-7/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://epg.pw/media/images/epg/2025/09/09/20250909042505032176_56.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Sports 8",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Sports-8/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://epg.pw/media/images/epg/2025/09/09/20250909042510381850_84.png",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -899,7 +1123,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (19 channels, 1 with 🔐 DRM)
+    // KIDS (20 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1004,7 +1228,7 @@ window.rawChannels2 = [
         "name": "24/7 Tom And Jerry",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "Server 2",
                 "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
                 "type": "hls"
             }
@@ -1177,9 +1401,23 @@ window.rawChannels2 = [
         "description": "Kids Channel"
     },
 
+    {
+        "name": "Zoo Moo",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn.skygo.mn/live/disk1/Zoomoo/HLSv3-FTA/Zoomoo.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/3J0Thmrb/zoo-moo.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
 
     // ==================================================
-    // ENTERTAINMENT (60 channels, 6 with 🔐 DRM)
+    // ENTERTAINMENT (62 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1480,20 +1718,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Colors",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://streamer2.nexgen.bz/COLORS/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/vBL4YjR8/colors.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "Colors Bangla",
         "sources": [
             {
@@ -1737,6 +1961,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Kuwait TV",
+        "sources": [
+            {
+                "name": "⚡ Arabic",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/kuwait_tv1/hls_roku/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/KuwaitTV.svg/250px-KuwaitTV.svg.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Maasranga",
         "sources": [
             {
@@ -1873,6 +2111,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Oman TV",
+        "sources": [
+            {
+                "name": "⚡ Arabic",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/oman_tv/hls_roku/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Saghhjjdegh.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "R Plus Gold",
         "sources": [
             {
@@ -1999,6 +2251,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sudan TV",
+        "sources": [
+            {
+                "name": "⚡ Arabic",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/sudan_tv/hls_roku/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://static.wikia.nocookie.net/logopedia/images/c/cc/Sudan_TV_logo_2000.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Tara TV",
         "sources": [
             {
@@ -2068,7 +2334,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (42 channels, 3 with 🔐 DRM)
+    // NEWS (44 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2114,6 +2380,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/HjGW7XCJ/abp-ananda.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Al Ekhbariya",
+        "sources": [
+            {
+                "name": "⚡ Arabic",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/e/e3/%D8%A7%D9%84%D9%82%D9%86%D8%A7.png",
         "category": "News",
         "description": "News Channel"
     },
@@ -2463,6 +2743,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Libya Al Wataniya",
+        "sources": [
+            {
+                "name": "⚡ Arabic",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/libya_al_watanya/hls_roku/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.imgur.com/KSUny9D.jpeg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Malai Murasu TV",
         "sources": [
             {
@@ -2743,7 +3037,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (33 channels, 6 with 🔐 DRM)
+    // MOVIE (34 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3008,6 +3302,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/d66J-MMZ06-55gkF5maclPGB5f5j1L0SAs3iWnl3lhoswlWrJ67wD2a3mZGkgHgt-W3kMrIT=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Lotus Macau",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/6q0JD7ZB/lotus-macau.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -3789,7 +4097,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (8 channels)
+    // RELIGIOUS (11 channels)
     // ==================================================
 
     {
@@ -3802,6 +4110,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/QMtrZNRk/bangla-kirtan.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Akaal Channel",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/akaal_tv/hls1_smart_akaal/akaal_tv.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.sikhentrepreneur.com/wp-content/uploads/2013/09/akaalch.png",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -3891,6 +4213,34 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Saudi Quran TV",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/ytc/AIdro_mesiGG76gww2WnpFVUFbMz-s2d4IjJJVhDqJuCVscqKLY=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Saudi Sunnah TV",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.lyngsat.com/logo/tv/ss/sunna-tv-sa.png",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
         "name": "Shquran Tv",
         "sources": [
             {
@@ -3906,7 +4256,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (25 channels, 7 with 🔐 DRM)
+    // OTHERS (27 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3945,12 +4295,31 @@ window.rawChannels2 = [
         "name": "BBC Earth",
         "sources": [
             {
-                "name": "⚡ Server 1",
+                "name": "⚡ UK 1",
                 "url": "https://d3u3pfhhvuad9k.cloudfront.net/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Asia",
+                "url": "https://hls.iill.top/api/BBC-Earth/playlist.m3u8",
                 "type": "hls"
             }
         ],
-        "img": "https://i.postimg.cc/HkdbcXH0/bbcearth.jpg",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNXOrjX8auopIAAKFRHx1Y-KLi8Ync-CWUfw&s",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
+        "name": "BBC Lifestyle",
+        "sources": [
+            {
+                "name": "Asia",
+                "url": "https://hls.iill.top/api/BBC-Lifestyle/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVYpn7TbifrC432Irpa2jXdlTdmCDDu0ThaQ&s",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -3983,6 +4352,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SjFpx6XX/discovery.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
+        "name": "Discovery Asia",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/7hkmbg85/d-asia.jpg",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -4290,7 +4673,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 272
+// Total channels: 299
 // Channels with DRM: 34
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
