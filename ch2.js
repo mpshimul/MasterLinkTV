@@ -1,4 +1,4 @@
-// Generated: 2026-01-27 18:37 UTC
+// Generated: 2026-01-28 01:22 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -708,7 +708,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (27 channels, 8 with 🔐 DRM)
+    // SPORTS (22 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -780,6 +780,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Hub Premier 2 HD",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Premier-2/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624578%27&EntityType=%27Item%27&EntityId=%27572415%27&Width=1920&Height=1080",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
         "name": "Hub Premier 3 HD",
         "sources": [
             {
@@ -789,62 +803,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624617%27&EntityType=%27Item%27&EntityId=%27572419%27&Width=1920&Height=1080",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Hub Premier 4 HD",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Premier-4/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624656%27&EntityType=%27Item%27&EntityId=%27572423%27&Width=1920&Height=1080",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Hub Premier 5 HD",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Premier-5/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624630%27&EntityType=%27Item%27&EntityId=%27572420%27&Width=1920&Height=1080",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Hub Premier 6 HD",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Premier-6/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624633%27&EntityType=%27Item%27&EntityId=%27572421%27&Width=1920&Height=1080",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Hub Premier 7 HD",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Premier-7/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624605%27&EntityType=%27Item%27&EntityId=%27572417%27&Width=1920&Height=1080",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -915,34 +873,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.vimeocdn.com/video/2065871386-1e9bff68a218b46f95c503bc69cf9d566c5021dae6479880b15ba09efa83da70-d?f=webp",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Hub Sports 5",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Sports-5/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://epg.pw/media/images/epg/2025/02/12/20250212042641983979_50.png",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Hub Sports 7",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Sports-7/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://epg.pw/media/images/epg/2025/09/09/20250909042505032176_56.png",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1417,7 +1347,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (62 channels, 6 with 🔐 DRM)
+    // ENTERTAINMENT (63 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1652,6 +1582,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/d1VDH0pY/Bollywood-Masala.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Bongo Drama",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://streams2.sofast.tv/ptnr-runntv/title-Bongo_Drama/sofastplayout/restream/6509864e-6447-4085-9053-c643734bbc1c/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/-WoL9dA-we7-4A1cWu_SHjzRl7e0_sdMrr-lFrznSAIyn__k7Hs89hvW8jV3_DpYP9PzjBQikw=s900-c-k-c0x00ffffff-no-rj",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -4673,7 +4617,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 299
+// Total channels: 295
 // Channels with DRM: 34
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
