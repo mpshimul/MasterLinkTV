@@ -1,4 +1,4 @@
-// Generated: 2026-01-28 18:36 UTC
+// Generated: 2026-01-29 01:33 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -689,7 +689,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (25 channels, 8 with 🔐 DRM)
+    // SPORTS (23 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -789,6 +789,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Hub Premier 4 HD",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Premier-4/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624656%27&EntityType=%27Item%27&EntityId=%27572423%27&Width=1920&Height=1080",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
         "name": "Hub Premier 8 HD",
         "sources": [
             {
@@ -831,20 +845,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Hub Sports 3",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Sports-3/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://r2.thesportsdb.com/images/media/channel/logo/tmpwbb1655810489.png",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
         "name": "Hub Sports 4",
         "sources": [
             {
@@ -873,43 +873,15 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Hub Sports 7",
+        "name": "Hub Sports 6",
         "sources": [
             {
                 "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Sports-7/playlist.m3u8",
+                "url": "https://hls.iill.top/api/Hub-Sports-6/playlist.m3u8",
                 "type": "hls"
             }
         ],
-        "img": "https://epg.pw/media/images/epg/2025/09/09/20250909042505032176_56.png",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Hub Sports 8",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Sports-8/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://epg.pw/media/images/epg/2025/09/09/20250909042510381850_84.png",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Live 1",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://anywhere.pwisetthon.com/http://ccdn.bdixsports.live:1935/live/live.stream/chunklist_w1167642283.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
+        "img": "https://epg.pw/media/images/epg/2025/02/12/20250212042824169600_35.png",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -3678,7 +3650,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (29 channels)
+    // MUSIC (28 channels)
     // ==================================================
 
     {
@@ -3897,20 +3869,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/wBKM5G7V/e-24.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -4344,7 +4302,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (33 channels, 11 with 🔐 DRM)
+    // OTHERS (32 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4749,24 +4707,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "6d647aff767c453daa5fb54a44c783c6",
-                    "key": "2f971e6a1cc58e7085afc761a3f13162"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "National Geographic Wild",
         "sources": [
             {
@@ -4861,7 +4801,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 312
-// Channels with DRM: 38
+// Total channels: 308
+// Channels with DRM: 37
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
