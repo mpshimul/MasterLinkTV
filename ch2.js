@@ -1,4 +1,4 @@
-// Generated: 2026-01-30 06:46 UTC
+// Generated: 2026-01-30 12:46 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -675,7 +675,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (23 channels, 8 with 🔐 DRM)
+    // SPORTS (22 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -840,20 +840,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.vimeocdn.com/video/2065871386-1e9bff68a218b46f95c503bc69cf9d566c5021dae6479880b15ba09efa83da70-d?f=webp",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Hub Sports 5",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Sports-5/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://epg.pw/media/images/epg/2025/02/12/20250212042641983979_50.png",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -4011,7 +3997,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (10 channels)
+    // RELIGIOUS (9 channels)
     // ==================================================
 
     {
@@ -4066,20 +4052,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/BvfMPnSP/madani-bangla.jpg",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Mercy TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXMFfcf9s50fsWGifUc9Do21MCTfRN6Y9-yw&s",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -4673,7 +4645,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 300
+// Total channels: 298
 // Channels with DRM: 38
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
