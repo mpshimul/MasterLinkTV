@@ -1,4 +1,4 @@
-// Generated: 2026-01-31 22:53 UTC
+// Generated: 2026-01-31 23:29 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -109,8 +109,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/897698f593fc07974fc46881a440733d",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/anandatv/index.m3u8?e=1769886032&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3cd6fdcd7f40f695bac3c7fc820028f8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=a108c4e9-ccfa-42f2-8f8f-169ded28cca2",
                 "type": "hls"
             }
         ]
@@ -137,13 +137,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/5282cec3a2e9349b750540d658cf1b6c",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/asiantv/index.m3u8?e=1769886031&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=1be5cdfa52e3f15cf14f3582af949aa3",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/edge/asian-tv/index.m3u8?token=3ee2ee9466025888810aef0cae44798d58de81dc-00d06bc92c5c9de379aadef81a4106c4-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/edge/asian-tv/index.m3u8?token=fc2009460990b2c425ed5a7ae3f837f56d35605a-905eb83ed21c53e5eb23631da72f67b0-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=4d629b90-cfc2-4426-9eef-62b879efdb02",
                 "type": "hls"
             }
         ]
@@ -156,18 +156,18 @@ window.rawChannels2 = [
         "img": "https://s6.gifyu.com/images/image27cfa7002786c232.png",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/atnbangla/index.m3u8?e=1769886030&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=156aa1dcbcb89c2e9d9f2614768268f9",
-                "type": "hls"
-            },
-            {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/2/index.m3u8?token=2259ca65f1f23c0426b920f7368e621a972d1286-09cc0b3918e2afd546a06c2c83a98af0-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/2/index.m3u8?token=23a9433fab9328167b4b073cfa061b79e1b329fb-294790e71a4c49cbcc3f04646984a75b-1769904608-1769901008",
                 "type": "hls"
             },
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=9046949b-9847-4b5d-96c1-e82b0734444b",
                 "type": "hls"
             }
         ]
@@ -195,12 +195,17 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/atn-news/index.m3u8?token=0cd7014ef9cddfb9878d48e37e263e8053b4244c-84b17f4851b9ba5732e5078284ce3798-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/atn-news/index.m3u8?token=bd57b5a4343fc4e2e7ee1423a4a6791742522b70-04bfb1423eee730d5ec38fb12c8f4713-1769904608-1769901008",
                 "type": "hls"
             },
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=a0a29f90-f7c2-4cc2-b0b4-667253585b84",
                 "type": "hls"
             }
         ]
@@ -213,13 +218,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/e42ecfa90e3d6b15bdb7fea5ef673864",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/banglatv/index.m3u8?e=1769886032&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=8458ac3451558fcfaa002175a1771ae3",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/19/index.m3u8?token=523b5bd73c27b0bb76690b5a73790a8ea0bcc601-f889395b2a53994c701a4e82f842cef9-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/19/index.m3u8?token=ee5a4ac5d04d7313e9263cff3cf825b933ee27f4-db866de19be1a0ef3df7fbb1e0c65f04-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=addb7014-1d2e-41d8-982d-7cafbdc48770",
                 "type": "hls"
             }
         ]
@@ -232,13 +237,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/788ab3e49b2aa6af247722762ed6e72a",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/banglavision/index.m3u8?e=1769886029&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=47b92e59d708f92757e97837b073a3c3",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/3/index.m3u8?token=698b470dc3b79433bc5a7350a8cd75b64639408e-e59026a1d7d00adabe8614d6e1b6531e-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/3/index.m3u8?token=3e4d6a73cef784c7258d6524adf25cc4e555041c-1887885017680cdbba68effbfba6dcde-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=21e75798-3b6a-4214-9d93-b3fecaa4e700",
                 "type": "hls"
             }
         ]
@@ -284,13 +289,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/f23d6f82c1a16458fe0e4c6f11b8fd87",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/bijoytv/index.m3u8?e=1769886033&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ab3339d99ea32f8e3e81e7b12e6dce69",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/ext/bijoy-tv/index.m3u8?token=f3bdfc91ac881a18bad230e2ab6f2c41c9d0c628-dbc6695c742dafebec071573cb5730ac-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/ext/bijoy-tv/index.m3u8?token=0cfc46e5559c6b419fdfbeba9066e8022815ae47-94474a35015d1ecdf5b0b80f0de0fec4-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=f7c89459-37bf-4129-904d-33b0a4c0d590",
                 "type": "hls"
             }
         ]
@@ -303,13 +308,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/58658d4594ca1ff3c5031c9d8e3d9fc0",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/boishakhitv/index.m3u8?e=1769886031&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3f67313dd39ae09e7bd94b22b411a3da",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/61/index.m3u8?token=b44f8887739cae8b93b598eec08662f9dd247903-31e9db3fca2d13c0170d87c2b8d2b4ba-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/61/index.m3u8?token=95ef0fccc4d92da3a74be6065c8bbfb0966f15bb-b11905cea72e4e9a6ba159891dcc4d93-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=92890d5c-473a-454c-ad10-2c6c0c91062a",
                 "type": "hls"
             }
         ]
@@ -342,7 +347,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/53/index.m3u8?token=c4f363680106e7498fb05ec2428ef8fa02e48220-09c5d1fadb71656d6ded173835dd116e-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/53/index.m3u8?token=c630d7eaadc4dd421f5867d890faae7fb1ab918d-5247d6ba1fe70e8fff0c420520025033-1769904608-1769901008",
                 "type": "hls"
             },
             {
@@ -360,8 +365,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/00da8a07fb26b2fb79359ee535e4c7bc",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/btvctg/index.m3u8?e=1769886028&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=d8cd7671399c1f3835601a8b16863bb4",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=7c5fee98-96e2-43df-95f4-ae8ded8e9efe",
                 "type": "hls"
             }
         ]
@@ -374,8 +379,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/9b6f35f73a099b7a5885a970523c5f78",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/btvhd/index.m3u8?e=1769886032&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c5870afcf145433b59308e9bc7296343",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=a0e6e9b6-b20b-4f54-82d6-881bef762cfd",
                 "type": "hls"
             }
         ]
@@ -388,13 +393,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/b30147b97d86754e4b97fc2989628391",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/btv_world/index.m3u8?e=1769886028&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=6d26a815243240cbb9040d706f3d204a",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/84/index.m3u8?token=a93512cc168a775ce9c08f962928753d4a79bdf0-9f33e331035d70d9fa83d0a144f9e9a5-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/84/index.m3u8?token=62200672f9a3143591d9d2fa3659f08f61752c58-a602ae6688f8face991a3ce4eef57f85-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=888a4c91-241e-47de-b9e5-11495d6cc596",
                 "type": "hls"
             },
             {
@@ -412,18 +417,18 @@ window.rawChannels2 = [
         "img": "https://dl.dropbox.com/s/puf12xv5flgbnz5/channel24_bd.png",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/channel24/index.m3u8?e=1769886023&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0192eace8851e268d64fb87084f6019b",
-                "type": "hls"
-            },
-            {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/channel24/index.m3u8?token=c1a0b60f7c7e17778dbf8b0621060bd7976cb6d6-42061c4de5f0ef62974ee7803ed11a64-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/channel24/index.m3u8?token=5c703962d10dc143c8cf9bfaeb90282966dd0ec3-f95e24eb64c341f73f4a6ede3e75c311-1769904608-1769901008",
                 "type": "hls"
             },
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=89247cb9-3c3e-465c-bbc7-d444b0d65424",
                 "type": "hls"
             }
         ]
@@ -436,13 +441,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/a959f06b4fc9e1421f867b6c1601fe43",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/channel9/index.m3u8?e=1769886031&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=42a4c804cadb3c2af881468f21689a6a",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/4/index.m3u8?token=aa2a6373ae31e55ee1100644804e016d16122719-df52ec8c0bbbed29cd50d76b2019b9c2-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/4/index.m3u8?token=dc27f72e6954cc93944203bb710e7a49df69ad04-1c22528c227eb0378583b8c227e7359b-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=56f7abf3-1586-4f6d-9df2-1726ccb43779",
                 "type": "hls"
             }
         ]
@@ -455,18 +460,18 @@ window.rawChannels2 = [
         "img": "https://cdn.tvpassport.com/image/station/240x135/channel-i-bangla.png",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/channeli/index.m3u8?e=1769886029&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0ee13f47aeb17f635786ac4076319ae7",
-                "type": "hls"
-            },
-            {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/6/index.m3u8?token=9f911cc9d7729b1a148d68a4c5917037fc6be5ba-b9750dd3f6a9303a6a3adc560912cb5b-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/6/index.m3u8?token=511d063a9a41838dbaf335948a30fc8d3eb6d2c0-ec9d4592b016af3339b8f36e548de9c3-1769904608-1769901008",
                 "type": "hls"
             },
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=20714fd4-dc3c-46d6-924f-3038d61f027c",
                 "type": "hls"
             }
         ]
@@ -507,8 +512,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/e5117c508d18adf0a3f2475eb1fd5a9d",
         "sources": [
             {
-                "name": "🔗 cloudfront.net",
-                "url": "https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/2e9e32a4-c4f7-49c3-96d6-c4e3660c7e3f/2.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=8df44874-5511-4c78-a854-8ab6dd6861e5",
                 "type": "hls"
             }
         ]
@@ -521,18 +526,18 @@ window.rawChannels2 = [
         "img": "https://upload.wikimedia.org/wikipedia/en/3/31/Deepto_TV_logo.png",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/DeeptoTVHD/index.m3u8?e=1769886030&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=6721f427b2b5240a8031c15d5041caa6",
-                "type": "hls"
-            },
-            {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/8/index.m3u8?token=39a3d3052be2afe381f624119803a2a62404e0e8-8886e9de621e82295ec4fba0315bb7f1-1769899816-1769896216",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/8/index.m3u8?token=a2f8fdab98b22346a484119972b2de54dbb85f8f-783215d8a7a20881000c446a90a88871-1769904608-1769901008",
                 "type": "hls"
             },
             {
                 "name": "📡 gpcdn.net",
                 "url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=0be12af9-e713-4c65-b4ed-b735793a0418",
                 "type": "hls"
             }
         ]
@@ -545,13 +550,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/d10390e5434e8cb44172257abd714beb",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/deshtv/index.m3u8?e=1769886031&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=5e9185919eb85f89f3ece4d73112b4a1",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/9/index.m3u8?token=228470dc8575be7cd0eb57c8433a242a857efbe2-a9ce44e44520e93acda03997f682dc41-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/9/index.m3u8?token=c87880220b47d441af8277f99c65d24a02467620-7e8e4280bfde3bba676715254b10152a-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=dd8c50e9-5dad-4cb9-9df8-5763e95281ad",
                 "type": "hls"
             }
         ]
@@ -620,8 +625,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/08773290bf83a917aebc07810f12ed49",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://vods2.aynascope.net/gseriesDrama/index.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=c7b00628-bc52-4609-be0a-ad02a16e4c04",
                 "type": "hls"
             }
         ]
@@ -634,13 +639,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/51f1530c076c027e431bf18a49613f0b",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/durontotv-live/index.m3u8?e=1769886032&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=95603cd3eb3100951006b7f23f770f8e",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/10/index.m3u8?token=32acff2eab9429b34a10ebb14a515cfa530f0d6e-cccb9652e4de60ed8c44f2607d08876a-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/10/index.m3u8?token=19cc06ada56cdccf20c9dbeb2bb1fc0add20b655-cfc1ac12868b589aebb7aa1aa6c9cec2-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=9ab9aa29-3d3b-4527-ab47-d9b69f0ea80c",
                 "type": "hls"
             }
         ]
@@ -653,18 +658,18 @@ window.rawChannels2 = [
         "img": "https://s4.gifyu.com/images/imagea02f4314e761661d.png",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/ekattorbdtv/index.m3u8?e=1769886024&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f40587d3a95eb0c24b18e52664fb63d9",
-                "type": "hls"
-            },
-            {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/11/index.m3u8?token=e51e560bb4fe9087ddd3eef03a6d40962fd7f7d5-265123352e22886bace2a48c8bf6b4ba-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/11/index.m3u8?token=dbca2040397ea1ddc656d11943a0abd45551e119-dcec776b10bb6888d608247e3bf307f2-1769904608-1769901008",
                 "type": "hls"
             },
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=1a7a1365-ae2c-470f-9fb2-25c6e83bb108",
                 "type": "hls"
             }
         ]
@@ -692,7 +697,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/65/index.m3u8?token=55f7cd01ddf00d1a11d49b16722e31eee2c5962a-4c5c9b8be1069d7089dcd69bf412616b-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/65/index.m3u8?token=e008634464556eb30527b5517a489be5ab970f87-ae0f89714299b6b4bc37745e995666d4-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -705,8 +710,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/2b00567c538d392c8050124f0064c4a1",
         "sources": [
             {
-                "name": "🔗 akamaized.net",
-                "url": "https://live-bangla.akamaized.net/liveabr/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=1092effd-ec5f-4842-a9eb-09db84a23415",
                 "type": "hls"
             }
         ]
@@ -719,8 +724,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/8a1af81802b0728c064c2adabcdc72c8",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/etv/index.m3u8?e=1769886030&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2eef112fddd6ea3bc4691f34d409976b",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=b3f0df76-15ba-4ede-a7de-bbaaf23a630e",
                 "type": "hls"
             }
         ]
@@ -733,8 +738,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/417a833f6d83021c99bfc3d4176610f4",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/Ravc7gPCZpxk/index.m3u8?e=1769886031&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b08809d439ce812f4b0125c500d4da8c",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=b1808fb2-8892-49dc-965e-d038e5334995",
                 "type": "hls"
             }
         ]
@@ -747,8 +752,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/ffd7ba9b76ad555933f94bcb7ff26b44",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/globaltvhd/index.m3u8?e=1769886032&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=842fef85c1b4cddfb2d9bcec3ac0d6a7",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=0ac6af3d-acce-4d9d-9ce5-32d4b53f9326",
                 "type": "hls"
             }
         ]
@@ -775,18 +780,18 @@ window.rawChannels2 = [
         "img": "https://dl.dropbox.com/s/7xwwb8hetz3w8rp/independent_tv.png",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/independenttv/index.m3u8?e=1769886023&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=24c4ed12e4689bfc7cfbfd9fdda062a9",
-                "type": "hls"
-            },
-            {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/12/index.m3u8?token=074325232d3ca4e2e9423523a9c5f48c1e881696-c74078acdb97c47af7a2c2808b57de9b-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/12/index.m3u8?token=bc2e42736af695d125c0de14e8c466c920687f33-00e705ef1ce347693d1f2ed1bfd174ee-1769904608-1769901008",
                 "type": "hls"
             },
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=22f28ae5-8c15-4904-b9f6-70bbd94cbc43",
                 "type": "hls"
             }
         ]
@@ -799,18 +804,18 @@ window.rawChannels2 = [
         "img": "https://dl.dropbox.com/s/k7z1dsec1jfjbkn/jamuna_tv_bd.png",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/jamunatv/index.m3u8?e=1769886024&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=453953bfa9f23194f0fcddc0ddc334e3",
-                "type": "hls"
-            },
-            {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/jamunatv/index.m3u8?token=151b8e7f90b297e4ffc6b33f2f94f821d3a17156-b70f42b1b16411b631100fe1223afe3f-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/jamunatv/index.m3u8?token=1eea3104d272604a97ab3e9cc1e5844869657cd3-eadb9e36bd8174adf758afc20a3fa2f6-1769904608-1769901008",
                 "type": "hls"
             },
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=8a1ff003-7cd5-4d75-8245-fa8aa3cdc6aa",
                 "type": "hls"
             }
         ]
@@ -837,13 +842,13 @@ window.rawChannels2 = [
         "img": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/a/a3/Maasranga_TV_HD_logo.png",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/maasrangatv/index.m3u8?e=1769886030&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=aa02c330fc1f283eacfd9e3a53a1db72",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/51/index.m3u8?token=8ca5a7b4e836cff20dd1b2467485653c72fffaa1-0d07aff45c2f8a169eb68ec7793b6ede-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/51/index.m3u8?token=418ab3cd6acc76d0ac2c35f1b6aecaf387166323-6b6c34e654c60d4482ee5b7ac539aa20-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=9a94b22f-c4a4-4150-8eb9-129d0ddeb934",
                 "type": "hls"
             },
             {
@@ -861,13 +866,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/73082846fdc15d9f0e7268b104c55d92",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/mohonatv/index.m3u8?e=1769886033&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=1a36374bbb6d0c35b1026f5e2c215fad",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/50/index.m3u8?token=c7af35f8840b288438fd5c6ef4f4109d7bb20bc2-11a0cf03387cf2c41ab859baff241b2d-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/50/index.m3u8?token=6e2e8eb36b1e41b1fe31a2dc3e7a6583671b652b-7eba2b9ead25b63e6b1a25e790e83d49-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=6662e038-604e-4cdc-87f7-8ec1cdf77a5e",
                 "type": "hls"
             }
         ]
@@ -880,13 +885,13 @@ window.rawChannels2 = [
         "img": "https://static.wikia.nocookie.net/logopedia/images/7/75/Music_Bangla_new.jpeg",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/mtv/index.m3u8?e=1769886053&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b21c5176cb2088600451c9e3af67887d",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=b4584eb3-f1da-4f1c-ac26-f547598ec2ed",
                 "type": "hls"
             },
             {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=6a3da04b-dacc-441f-9549-71da39b5af07",
                 "type": "hls"
             },
             {
@@ -904,18 +909,18 @@ window.rawChannels2 = [
         "img": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/My%20TV.svg.png",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/mytv/index.m3u8?e=1769886032&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=465463f0d249b2eb6a420a737a721499",
-                "type": "hls"
-            },
-            {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/56/index.m3u8?token=7e7c719321a9dd1b3bcdaf48fc67975ae529bd25-dfcd963fc0861fc45f27dc0c978235e9-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/56/index.m3u8?token=4cb4e822d6a5386f1c23e4f52da6ce1415bbe565-09edd14aae33d60faac10c541895dd26-1769904608-1769901008",
                 "type": "hls"
             },
             {
                 "name": "🔗 mytvbangla.com",
                 "url": "https://mytvbangla.com/0.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=c0480a4a-f066-4a20-9f7d-73bbd852260f",
                 "type": "hls"
             }
         ]
@@ -929,7 +934,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/nagorik/index.m3u8?token=92a55ff8346efa8a69db8ed397b740df6b198dad-07abfe89a9bc347b1525038fd85de258-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/nagorik/index.m3u8?token=dd346456e3ed910b2b72590ae1135b0e3accd9cc-5b19e45b384c7da363312b336b477c6a-1769904608-1769901008",
                 "type": "hls"
             },
             {
@@ -948,7 +953,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/18/index.m3u8?token=27d69b4d61429d7dbffa24577ffd3adfc649d16a-851bd8926cbf85b9a62e2249e2a8a8dd-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/18/index.m3u8?token=cee31a2fc1f7b58b503fb4a61fc79fe0117a5743-c2ad1a3b1bf7ffed60350917298c1cf6-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -961,8 +966,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/90635c3edf6e3c8dd92210b7248f1fa0",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/nexustv/index.m3u8?e=1769886033&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=a8da571ba06e67fc6ae607f9f25ae0e1",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=e64e1c11-1167-43a1-9e0f-995cbf6f7ff9",
                 "type": "hls"
             }
         ]
@@ -989,18 +994,18 @@ window.rawChannels2 = [
         "img": "https://www.ntvbd.com/sites/default/files/aggregator/2020/02/17/ntv-channel_0.jpg",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/ntvbd/index.m3u8?e=1769886029&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=593a4702203bfe2b0c71f8ce4bf00217",
-                "type": "hls"
-            },
-            {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/54/index.m3u8?token=50bb592b447d5f767debdc1a3b850c3b87876ce6-195b90c6e80718bedece19e77099c3ce-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/54/index.m3u8?token=1496fcc1bc500d53450e42add6d0392380bc36d1-12d487d9c4b2d948e217237acd72c953-1769904608-1769901008",
                 "type": "hls"
             },
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=1a2c8ec3-61d5-4355-80e2-fc3c9b178a0d",
                 "type": "hls"
             },
             {
@@ -1023,8 +1028,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/e33b23f7dc3d39008d672952c33069d4",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/PeaceTvBanglaHD/index.m3u8?e=1769886029&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=49f05ad9b3c9752c84e6ca0ae23f40b4",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=d0828e90-a8b9-4d2b-9bf7-ab996578147a",
                 "type": "hls"
             }
         ]
@@ -1079,13 +1084,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/094587a26f2c5e4f2962104728ec8c5d",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/RtvHD/index.m3u8?e=1769886030&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=caf32756e5eff63ab66480a92012766a",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/14/index.m3u8?token=e2251aea1dfef6991a3f06eb7ea916dff1e04f6f-6ea213329b392457b282415dc74a9d20-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/14/index.m3u8?token=82380681811bb37a8aec0fee88d586205539fdd6-30654346cac5407dd3c0a876ddaea4ea-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=70e97db9-5a9e-4642-874e-af3d30ba9925",
                 "type": "hls"
             }
         ]
@@ -1098,13 +1103,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/f710d2ff532cb7e7b75566232c5b72d3",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/satv/index.m3u8?e=1769886031&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=5ef210bcdc7d11fe33a4f40a972f74a1",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/15/index.m3u8?token=9e62128ae21ea7049078a75b757f78a46b3593e1-7158125b215fc4e6ab6510999d7964ef-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/15/index.m3u8?token=e8de48a5e1fce362ec8745aac1f09ebe7cc8e6c3-c035eeb9eb37c4790588d7c51446f839-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=d07563b0-7580-4cbd-a7c9-e67535c0164a",
                 "type": "hls"
             }
         ]
@@ -1118,7 +1123,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/88/index.m3u8?token=4dcdfacdb648a42f6ee07ed967d09f8a4a3a7a57-1798ce0de90ace3a205e53249293977a-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/88/index.m3u8?token=6bb9a6024dd7c08295c566c81bf10a35252c7002-b766141b2de99c285fe10827bf732c65-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -1131,18 +1136,18 @@ window.rawChannels2 = [
         "img": "https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/somoytv/index.m3u8?e=1769886022&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ebe7926c97b6a2fa1f91d68d64127230",
-                "type": "hls"
-            },
-            {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/somoy/index.m3u8?token=02adadd6bcad8f5121e8a51fcf56f9c84a8f6205-7e09a099d947fdfc4ff446529e5e35d8-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/somoy/index.m3u8?token=ae90cdd31775f28ae6374e6cd0d0c7ee1dacc34b-39b9676502730ac01eba7c83098d0301-1769904608-1769901008",
                 "type": "hls"
             },
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=27ec4394-7640-4dab-abf8-6a48893dfdfe",
                 "type": "hls"
             }
         ]
@@ -1156,7 +1161,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/31/index.m3u8?token=97a6b1a5b88175d62a0f234b669751a3f3d889cf-91b481b6f4aae95aa60733ee6f044d3f-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/31/index.m3u8?token=c10282472118f6b9e3485b9425ed4ac791255b7e-74a2e2bd0df0e5a73a35d8ae8d4bac3a-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -1188,8 +1193,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/111bfd01fb43770e925ca9cf16663f56",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/timetv/index.m3u8?e=1769886029&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2c1a8849c5a5e40ab0d641cd1d138292",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=9fe49249-fae7-402d-b5b1-6710691bbcf6",
                 "type": "hls"
             }
         ]
@@ -1216,13 +1221,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/7fc825467116fd9653dc0495c0532e01",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/ZeeBanglaCinema/index.m3u8?e=1769886062&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=328d319b6de0e814249d5563bcd42db7",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/29/index.m3u8?token=85ef1f91a487f38e4b0b6d1fcea9f950db5fad28-aced88354a755007c44323ebfde8ba6a-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/29/index.m3u8?token=1fa9a95cd6f77227eb59f90a22feeb2f7cd9e576-e20e66ea96acae2187a62f24671aee4f-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=ff14d64f-0fcb-45af-8313-9ae3ff788052",
                 "type": "hls"
             }
         ]
@@ -1235,8 +1240,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/0cb865748deefd42e69fd9a221cf38ee",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/PNEb3v2q6GBk/index.m3u8?e=1769886062&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c81fc77db5e3561579260119ae6a8b17",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=890a1a92-0602-4c2d-93ca-a2c43e7aec54",
                 "type": "hls"
             }
         ]
@@ -1253,8 +1258,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/b28173a251bda1357f9884ca7eef7b89",
         "sources": [
             {
-                "name": "🔗 uplynk.com",
-                "url": "https://content.uplynk.com/channel/ext/4413701bf5a1488db55b767f8ae9d4fa/kgo_24x7_news.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=63b750d3-73e9-4e8a-b04b-6c79bbcd4f13",
                 "type": "hls"
             }
         ]
@@ -1267,8 +1272,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/065af1ce1aa68d9d96c27050a8125413",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/AbcNews/index.m3u8?e=1769886022&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=fe9683cc3b3b65c09c39fd52d256ae08",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=50e2fe7f-fa1d-40ee-b37d-c19a992ed97c",
                 "type": "hls"
             }
         ]
@@ -1295,8 +1300,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/5d707a103f48d8f9f1634f1b70e2ecdf",
         "sources": [
             {
-                "name": "🔗 getaj.net",
-                "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=cb26514c-8cfb-4224-80e5-62a778c1a006",
                 "type": "hls"
             }
         ]
@@ -1323,8 +1328,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/4ec06dcab54cbbf5b204f797555e6b31",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/ANB_News/index.m3u8?e=1769886025&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=6a437a1916c904ac7066c6b522279fee",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=2b78b6b0-5711-438d-b2ec-33313b1806f4",
                 "type": "hls"
             }
         ]
@@ -1365,8 +1370,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/4eaf83274ee309489b535852b1780ad2",
         "sources": [
             {
-                "name": "🔗 wowza.com",
-                "url": "https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEeast.smil/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=140905b7-dfdf-4e51-aaf5-6fd132773fbe",
                 "type": "hls"
             }
         ]
@@ -1379,8 +1384,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/d04287478c2aa26265b600174318992d",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/BharatSamachar/index.m3u8?e=1769886027&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f9bea72b71d04e64dde8f8befb417ba8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=cc7357ac-f5cd-4824-ac68-5d26c56a5bbb",
                 "type": "hls"
             }
         ]
@@ -1426,13 +1431,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/e0b6da4715f468eb39591911a0597546",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/cnn/index.m3u8?e=1769886024&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=8909c7791795bc8ad10020ed1261d9ba",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/cnn/index.m3u8?token=56cc501fcaa65539da273f416d87b0b899ec7462-43e9f8bf0022f07721cb7a1709e482a8-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/cnn/index.m3u8?token=b4dc16c18d5a613dfb804faf6e2a4c2c8213ae76-ea8a329b13d50348a6e03ae2a4361264-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=2be13775-7176-4b90-98d7-04c90ffe3b5a",
                 "type": "hls"
             }
         ]
@@ -1459,13 +1464,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/2c5a73ac3f9772a9cb2d18df1b152545",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/dbcnews/index.m3u8?e=1769886023&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=daf88fa4e4f4fa3e4ecf6e57bb798071",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/7/index.m3u8?token=d873849e4320e538da4cda636815955e0573dddf-d3d5ccfea63b02ea6b97b631bb7913ee-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/7/index.m3u8?token=06b2d8f8592e6e8166005cdeec623694bbe62775-3bc6105deb13368f43288dfe27791031-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=0875f2c8-2043-499b-9472-2872412a6340",
                 "type": "hls"
             }
         ]
@@ -1507,12 +1512,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/85/index.m3u8?token=5fe63f549ffabcd2384091bec43b8f08bf3dd4e3-21ec6589268de6f18b766a15f9265b48-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/85/index.m3u8?token=e73bf482da807351ae07bf958c87a75efbc6ee5a-88119a07029fc11e5f5ed9eefd616469-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "🔗 akamaized.net",
-                "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=4f059328-a08e-41c0-aa0e-fb11eb69da7e",
                 "type": "hls"
             },
             {
@@ -1530,13 +1535,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/274c30c492e8795c8011d0129113f4bc",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/ekhontv/index.m3u8?e=1769886023&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ed7a13ae3f2b8290dbfa624fed072f55",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/ekhontv/index.m3u8?token=3116ec33cf0ec967c17319ac092f9c0219bbee66-9715b327ebca6d0b059704d5144798ec-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/ekhontv/index.m3u8?token=3ad78d245e519e5e6a444369acd5a29710cbd2b7-e60c7692eb529dcc5ef7994b74aa5d41-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=0579659b-2854-40d1-ad6a-69b70641ad17",
                 "type": "hls"
             }
         ]
@@ -1563,8 +1568,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/18fb4fcb519d5df8323e48c1d58f5ae7",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/foxnews/index.m3u8?e=1769886028&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=18e2a3e9cdd5266e86707f70800a6019",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=058d18a5-18d8-47e3-bb7c-68320e4b39bf",
                 "type": "hls"
             },
             {
@@ -1657,8 +1662,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/d3943796d7fe5962ca5385b656682b1a",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/HindiKhabar/index.m3u8?e=1769886027&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e268a50c7ccf5c8d2d6b02334c5dee4b",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=963a3050-6e3b-4de0-a945-bf075677b685",
                 "type": "hls"
             }
         ]
@@ -1671,8 +1676,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/49b496bca6d7c67d53431e9238f83397",
         "sources": [
             {
-                "name": "🔗 intoday.in",
-                "url": "https://feeds.intoday.in/hltapps/api/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=bd05c25c-2a31-496c-9534-1ab9c8e62a33",
                 "type": "hls"
             }
         ]
@@ -1699,8 +1704,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/201491b7327fffb27d78f800dd9f42d2",
         "sources": [
             {
-                "name": "🔗 presstv.ir",
-                "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=409a9d23-2206-4e2a-840c-1702571f3d38",
                 "type": "hls"
             }
         ]
@@ -1727,8 +1732,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/c643b3f7d7f79ad3913b5d2037f13a88",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/News1India/index.m3u8?e=1769886026&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=32ea96c286b182dfc079daf16ace8ad2",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=a7a2ca97-da11-42fb-8310-db584907c81e",
                 "type": "hls"
             }
         ]
@@ -1741,8 +1746,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/7c002f22c02096b0d1ba833ae9ea6d5b",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/news24/index.m3u8?e=1769886024&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e1030a6edba16071e67cc178668cbb3a",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=2b1a4340-2557-4d57-b77c-657bb30ce0c8",
                 "type": "hls"
             }
         ]
@@ -1769,8 +1774,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/1001f1d96d63da3ced733a843613b6e0",
         "sources": [
             {
-                "name": "🔗 cloudfront.net",
-                "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=4d545a29-276d-4843-97d7-533f94056c91",
                 "type": "hls"
             }
         ]
@@ -1783,8 +1788,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/d969a37a7e1bbd49449ae092d34f0549",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/nhkworld/index.m3u8?e=1769886025&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=581a10e424e6019e4d5c0bd1632d56b5",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=369ffecf-00a9-49a9-864d-a8f45c7ef6db",
                 "type": "hls"
             }
         ]
@@ -1797,8 +1802,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/73820738ff3902737f987eb34612b26d",
         "sources": [
             {
-                "name": "🔗 klowdtv.com",
-                "url": "https://a-cdn.klowdtv.com/live1/oan_720p/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=b1a47b97-b4eb-4462-8faa-65f5207a3506",
                 "type": "hls"
             }
         ]
@@ -1853,8 +1858,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/80e4113d034ad20bcbea341dcb4ae27e",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/SadhnaPrimeNews/index.m3u8?e=1769886026&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=5408e3aabaf2961191df8ffae203fede",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=b358a9bf-6c73-4901-bde6-0250b67330bc",
                 "type": "hls"
             }
         ]
@@ -1867,8 +1872,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/69d8281f965475f3293a3e30de8c0ccb",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/skynews/index.m3u8?e=1769886027&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=d576909201b06ea4d833dfeae7097ad8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=aab9a12d-b5a5-4028-8c92-94ea9d302f4e",
                 "type": "hls"
             }
         ]
@@ -1895,6 +1900,11 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/f63d4aad95532175f7f44be439f74111",
         "sources": [
             {
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=3ef6eb8b-32f9-4775-85a6-2ccc4b15d658",
+                "type": "hls"
+            },
+            {
                 "name": "🔗 com.tr",
                 "url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
                 "type": "hls"
@@ -1909,8 +1919,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/7b93f6be496c9fd25769b09970180c4c",
         "sources": [
             {
-                "name": "🔗 cloudfront.net",
-                "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=4b351549-878b-4f99-88ed-a50e7a4aa84b",
                 "type": "hls"
             }
         ]
@@ -1923,8 +1933,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/b5ac48b419add1992d235f7adc884889",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/TV9Bharatvarsh/index.m3u8?e=1769886026&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=cabc98d75a2a938580a873fbf6d2a56e",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=c3a6f6c5-1e55-4ad3-ba58-e80a271c8941",
                 "type": "hls"
             }
         ]
@@ -1937,8 +1947,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/671cfb22f8d0362ae01403b6e748f2e2",
         "sources": [
             {
-                "name": "🔗 cloudfront.net",
-                "url": "https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=6b66f133-9d9b-44c6-870a-8441c8b99fe1",
                 "type": "hls"
             }
         ]
@@ -1946,7 +1956,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // SPORTS (109 channels)
+    // SPORTS (110 channels)
     // ==================================================
 
     {
@@ -1955,8 +1965,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/076d49c9e09651ec0f1e1eee338e4a19",
         "sources": [
             {
-                "name": "🔗 abntv.live",
-                "url": "https://pepsi.abntv.live/hls/4spstream.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=29ca0414-87d4-43c6-8477-68ef5a6391a6",
                 "type": "hls"
             }
         ]
@@ -1969,8 +1979,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/64de30d2df9b2a888cb73f17614a9a8b",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/asports/index.m3u8?e=1769886006&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=dd8cd3ff28878e29cf84089511316ede",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=a3d48c46-7902-45e2-abf9-0fab60c4d117",
                 "type": "hls"
             }
         ]
@@ -1983,8 +1993,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/4a49a25eebddb4b8ad8e59298dd2040c",
         "sources": [
             {
-                "name": "🔗 starzplayarabia.com",
-                "url": "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_1/abudhabi_sports_1_hls_nd/index.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=a7c5f56e-52ea-47ca-8b0a-27bf6148c667",
                 "type": "hls"
             }
         ]
@@ -1997,8 +2007,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/e2f09b3c7415180f248438ef9688846a",
         "sources": [
             {
-                "name": "🔗 starzplayarabia.com",
-                "url": "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_2/abudhabi_sports_2_hls_nd/index.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=cdc583dd-8031-4b7b-af12-34009af38744",
                 "type": "hls"
             }
         ]
@@ -2109,8 +2119,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/f55bea3263be1af187fe1122e4f44142",
         "sources": [
             {
-                "name": "🔗 streamlock.net",
-                "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=6d75259a-cecb-4905-8146-358ec6938c62",
                 "type": "hls"
             }
         ]
@@ -2123,8 +2133,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/4429e88eac56b0c7c7274ce36db967d8",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/BahrainSports2/index.m3u8?e=1769886013&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0c973fd8d9cf47920f5869c532ff29e3",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=71e96376-d08c-4314-b2d6-449ff40a90b0",
                 "type": "hls"
             }
         ]
@@ -2137,8 +2147,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/04a56bc13c4c486ad4a4d82a1e00fd73",
         "sources": [
             {
-                "name": "🌐 moveonjoy.com",
-                "url": "http://fl1.moveonjoy.com/BEIN_SPORTS/index.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=490e6a84-17e2-42bb-8725-66af0c067239",
                 "type": "hls"
             }
         ]
@@ -2179,8 +2189,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/030ec528e912afb9a2ec3b4c5167a928",
         "sources": [
             {
-                "name": "🔗 frequency.stream",
-                "url": "https://linear-493.frequency.stream/dist/glewedtv/493/hls/master/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=909428fa-8473-43b2-aad5-23cf86b0d829",
                 "type": "hls"
             }
         ]
@@ -2193,8 +2203,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/253dcc8b5951160d6aa26bc5ac65ddb8",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/bloombergtv/index.m3u8?e=1769886010&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=103713b75c59518e78fbea533eea0d2e",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=4ca61a59-e0e2-4566-94fb-055ef46dac9e",
                 "type": "hls"
             }
         ]
@@ -2207,8 +2217,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/d7e38c0cbe2627352888645f68cc857b",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/btSport1/index.m3u8?e=1769886012&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=189fa795dca43e2db01700052f5414d0",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=a57241fe-02b1-4a39-a602-84a57622be6c",
                 "type": "hls"
             }
         ]
@@ -2221,8 +2231,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/0b6e5ad3267e5a5897abbe8f3be7b78a",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/btSport2/index.m3u8?e=1769886008&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=25f1b409bd2f7037bc21cf2ad5274d07",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=10bb1341-2aa8-4be2-8a25-76a75f5a3ee7",
                 "type": "hls"
             }
         ]
@@ -2291,8 +2301,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/7d20b575edc4e4b5276faa8c246e72a4",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/CricketGold/index.m3u8?e=1769886006&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4d5c4e96abca25a5c5b80ef35f74a402",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=7747ecdd-ba30-4737-a600-54fdcdbcfebd",
                 "type": "hls"
             }
         ]
@@ -2333,8 +2343,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/188500190395c4de0e506d518925dcc4",
         "sources": [
             {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-6.pishow.tv/live/13/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=3b238911-d385-406a-b936-07550f30a4f3",
                 "type": "hls"
             }
         ]
@@ -2348,12 +2358,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/dubai-sports/index.m3u8?token=9338b5dfb2f41a04bc469c5b87739e6d30d7f282-7b6808b336fb7b6b1c9cb8d18d5b0632-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/dubai-sports/index.m3u8?token=d80da22df285ece4ba0ab1b5078645b06a7d23a8-e1821d25fe56406706fde9014b2eaa2a-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "🔗 mgmlcdn.com",
-                "url": "https://dmisdracta.cdn.mgmlcdn.com/events/smil:events.stream.smil/chunklist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=b0bdcd1a-d9f8-4e45-92d2-deb4c842c691",
                 "type": "hls"
             }
         ]
@@ -2366,8 +2376,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/fa186d6d9b9ba9cb2403531b1fcdc08b",
         "sources": [
             {
-                "name": "🔗 mgmlcdn.com",
-                "url": "https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=a51ed57c-a9cb-4dcb-9160-eb0726835c45",
                 "type": "hls"
             }
         ]
@@ -2380,8 +2390,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/01629278d370141d5f1ae8dbdc97907e",
         "sources": [
             {
-                "name": "🔗 mgmlcdn.com",
-                "url": "https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=9c8e02cf-4765-4156-8ecf-999935c0115d",
                 "type": "hls"
             }
         ]
@@ -2394,8 +2404,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/833148a9228c3a12ef0effc8f265cf1f",
         "sources": [
             {
-                "name": "🔗 mgmlcdn.com",
-                "url": "https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=e897cca2-8086-42cc-a492-e1f3e4d9aed9",
                 "type": "hls"
             }
         ]
@@ -2408,8 +2418,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/b46df1959322aa48d270a6b163234c76",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/espn/index.m3u8?e=1769886008&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7722b50a9e9040c798a30bb3a785afd9",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=e263cd7f-45e9-4bc6-a350-bf968eb51b14",
                 "type": "hls"
             }
         ]
@@ -2423,7 +2433,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/euro_sports_hd/index.m3u8?token=b2413d36b4b071dd2181078edcaea4184c94c196-d3e577b1bbb6cd312ea289c426af2398-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/euro_sports_hd/index.m3u8?token=45a90710a31a46fc0ca0da607dcdf4ec501470b7-5e2a08e6b9477f3a0bbae323ee4a193d-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -2450,8 +2460,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/04d612228fedede6da010e5b163d5ac6",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/foxsports1/index.m3u8?e=1769886012&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=342f6a8ba53883321dd239e0210e7213",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=719f4fb9-cc8b-496e-8bf3-a1e5648e2cdb",
                 "type": "hls"
             }
         ]
@@ -2464,8 +2474,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/da4282cd107cc3d40efadae488b187e5",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/foxsports2/index.m3u8?e=1769886007&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=23c50ccbb490c588d2efbd8b302f5270",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=93c7e57d-e666-488a-aec9-a339a7e5eb74",
                 "type": "hls"
             }
         ]
@@ -2478,8 +2488,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/edb73991516696dfd53efbd32d80ca58",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/golfchannel/index.m3u8?e=1769886007&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7f2b8ed60d30ad29da9416422fd5bc91",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=9954b40b-67df-4cd9-9303-e02d713ad0a0",
                 "type": "hls"
             }
         ]
@@ -2506,8 +2516,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/b54495ee3cdd53ddaa19d1f98120f488",
         "sources": [
             {
-                "name": "🔗 mangomolo.com",
-                "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=3167764d-9154-4dda-a0cc-713ca5dee5d3",
                 "type": "hls"
             }
         ]
@@ -2521,12 +2531,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 pages.dev",
-                "url": "https://starsportshindiii.pages.dev/720p.m3u8",
+                "url": "https://starsportshindiii.pages.dev/index.m3u8",
                 "type": "hls"
             },
             {
                 "name": "🔗 pages.dev",
-                "url": "https://starsportshindiii.pages.dev/index.m3u8",
+                "url": "https://starsportshindiii.pages.dev/720p.m3u8",
                 "type": "hls"
             }
         ]
@@ -2539,8 +2549,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/66bdaa21aba96de6d32a3515715f7502",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/MarqueeSportsNetwork/index.m3u8?e=1769886009&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=52f21a53273019fe9e5e3028689614a7",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=d774d6a3-906e-42b4-b21a-9090b533a1b1",
                 "type": "hls"
             }
         ]
@@ -2567,8 +2577,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/39174e32d4f8d29a95c881637fe1ecdb",
         "sources": [
             {
-                "name": "🔗 iptv-playoutcenter.de",
-                "url": "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=0e1fb643-581b-40c5-bb62-1277a6a75ebf",
                 "type": "hls"
             }
         ]
@@ -2581,8 +2591,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/98963a3064053f0f01bdf9186c86c432",
         "sources": [
             {
-                "name": "🔗 wurl.com",
-                "url": "https://25dee28f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vdG9yc3BvcnR0di0xX0hMUw/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=db86c869-7bdd-44f5-9147-841d7cea1537",
                 "type": "hls"
             }
         ]
@@ -2609,8 +2619,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/0a241a80bf51d2c3b3722531706ce086",
         "sources": [
             {
-                "name": "🔗 nbcuni.com",
-                "url": "https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=9f230f21-7a07-4b80-b845-77f9327ddad3",
                 "type": "hls"
             }
         ]
@@ -2651,8 +2661,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/79f1ee920d6931a767ae0030e1c7c12b",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/nfl/index.m3u8?e=1769886012&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=19d321926356ae0cd6f2bdcbecec76be",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=94069990-c00c-401a-af81-169ed39d1cb4",
                 "type": "hls"
             }
         ]
@@ -2679,8 +2689,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/33f87783637fc95fdb8837ba9344c9e9",
         "sources": [
             {
-                "name": "🔗 mgmlcdn.com",
-                "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=0d69c371-f79e-40f8-8952-01be9e9cdb03",
                 "type": "hls"
             }
         ]
@@ -2707,8 +2717,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/3f1f920559925d7504151bceb69c3d19",
         "sources": [
             {
-                "name": "🔗 abntv.live",
-                "url": "https://spstr.abntv.live/hls/psstream.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=862bc1f4-6430-4198-87c5-fa040776c1c7",
                 "type": "hls"
             }
         ]
@@ -2749,8 +2759,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/370762bb5582389fb52469931cdcd357",
         "sources": [
             {
-                "name": "🔗 wns.live",
-                "url": "https://proshls.wns.live/hls/stream.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=38b0853b-8333-4387-bd86-8437073a1c49",
                 "type": "hls"
             }
         ]
@@ -2763,8 +2773,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/b0befd2d80789976ef317aeb5ef935b9",
         "sources": [
             {
-                "name": "🔗 skygo.mn",
-                "url": "https://cdn4.skygo.mn/live/disk1/SPSPrime/HLSv3-FTA/SPSPrime.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=9c354ad6-3efc-4e4d-9cd8-3584bcc9c315",
                 "type": "hls"
             }
         ]
@@ -2777,8 +2787,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/a6a66023b1ce294c3d0e8ebf256fa5f7",
         "sources": [
             {
-                "name": "🔗 skygo.mn",
-                "url": "https://cdn4.skygo.mn/live/disk1/SPSPlay/HLSv3-FTA/SPSPlay.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=9e6373ed-e25b-49ef-9a76-35b144535f75",
                 "type": "hls"
             }
         ]
@@ -2791,8 +2801,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/bcfc4d063ae30626ae0ffe998c74c272",
         "sources": [
             {
-                "name": "🔗 skygo.mn",
-                "url": "https://cdn4.skygo.mn/live/disk1/SPSFight/HLSv3-FTA/SPSFight.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=02a7f557-a6e7-4254-b9dd-f8c063ba97c5",
                 "type": "hls"
             }
         ]
@@ -2805,8 +2815,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/3c3b41f4c5f83f82011b90203c813508",
         "sources": [
             {
-                "name": "🔗 skygo.mn",
-                "url": "https://cdn4.skygo.mn/live/disk1/SPSPlus/HLSv3-FTA/SPSPlus.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=0790e6bd-458c-4f9d-86d9-1c554383b623",
                 "type": "hls"
             }
         ]
@@ -2819,8 +2829,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/9d9d7cbfba5a8ceea648bbd963ad1014",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/PtvSports/index.m3u8?e=1769886005&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=97e724dc3342b8a8d99a725bc25edc74",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=eacf6c3f-0773-4bc3-a03a-cfee09f10348",
                 "type": "hls"
             }
         ]
@@ -2847,8 +2857,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/ce9f61273938b15fd5372f1071ecfec5",
         "sources": [
             {
-                "name": "🔗 akamaized.net",
-                "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/index.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=1a9b1673-3098-4451-ac14-28ab9c3b2a3b",
                 "type": "hls"
             },
             {
@@ -2871,8 +2881,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/1f08174ace89c73d3d4d8b72dd4601a4",
         "sources": [
             {
-                "name": "🔗 itworkscdn.net",
-                "url": "https://svs.itworkscdn.net/smc4sportslive/smc4tv.smil/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=e9c383b6-72cd-4825-b815-b388e8a7a5d9",
                 "type": "hls"
             },
             {
@@ -2933,7 +2943,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/sony-sports-5-hd/index.m3u8?token=07b8cd70c4cb3718a0526c7f9238e71628350f58-84a2497fb8fba0167eb803d5d58e99dc-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/sony-sports-5-hd/index.m3u8?token=d7c853b39d6fdeb4bb8a12c4184630c70acba630-94df123292428c6f136730a50ea9b36f-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -2947,7 +2957,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/sony-sports-2-hd/index.m3u8?token=97d2df625c23e6771726baec31b209eafe75e258-e0d146bdcc6cd7b1dc88971ed94b6195-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/sony-sports-2-hd/index.m3u8?token=89264e81af0eb8613aea35c0850da072f5717064-81c8cf9b67cb36e802c49b854d1c9682-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -2961,7 +2971,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/sony-sports-3-hd/index.m3u8?token=637542ff9a2c67a6e202be348e9d71a6bca2cb3d-560443b23dab772a6c1e4572cbcbe0ed-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/sony-sports-3-hd/index.m3u8?token=5a7a38c4189117fba7d029e7298413cbbf7b435e-efa0e64d453d75ed74cbb29ca3ea6a4e-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -2974,8 +2984,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/06f5b193bfa4d31310ee934eb3c2222e",
         "sources": [
             {
-                "name": "🔗 frequency.stream",
-                "url": "https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=3f01188b-bba8-44ed-a75a-2662c108450c",
                 "type": "hls"
             }
         ]
@@ -3016,8 +3026,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/748d28752dcf95740561f1ac39e15fc3",
         "sources": [
             {
-                "name": "🔗 cloudfront.net",
-                "url": "https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=79ce27a8-bbfa-4661-a6ff-e6006e1510a3",
                 "type": "hls"
             }
         ]
@@ -3030,8 +3040,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/1aa37e387ed56a1260b285558eec7c46",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/SportsGrid/index.m3u8?e=1769886010&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=8a9e5b1fa7388490c9a1e16edaec69de",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=d49b0b2b-0132-4fd8-be49-88145477ee1d",
                 "type": "hls"
             }
         ]
@@ -3086,8 +3096,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/c96957383c33f1948e34fdcc07fbc29f",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/spsel1/index.m3u8?e=1769886010&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2f5c9f161143b5638db7c0583caf9858",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=594809c8-574e-46cf-a3e5-26e0bec1fe33",
                 "type": "hls"
             }
         ]
@@ -3100,13 +3110,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/64fb82ecdef7d8b182c944c639c4f8b7",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/c9EpzZ6fQBJ3/index.m3u8?e=1769886007&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0e7f842f293fdcc0380773b9bfeceb03",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/star-sports-1/index.m3u8?token=886c580f1f638cc065c3e1491df0bd2e54f5577e-c6e5994fba3fae34f808f0387532fe42-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/star-sports-1/index.m3u8?token=5b5201a40fb701e8cb89b0ec37bc4d125a097f28-a3e51baf66c30212c2fbdecea34a4442-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=f064e069-8861-43d5-ac79-828b029a50a1",
                 "type": "hls"
             }
         ]
@@ -3119,13 +3129,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/daeac3b0e17bfabd911bd5dc63c69aa8",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8?e=1769886015&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e41b512be0bde192052d674631dbee9f",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/star-sports-2/index.m3u8?token=a5df33d8d550aa807af21546b3915251909eef2f-02b9d3cadac6b9bab3f41e8729905e6c-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/star-sports-2/index.m3u8?token=de30a8620dfb5c0b5f3dfaa6c5a36ec8ba59d792-d92de6c71575c42564578495290bca39-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=3ac46078-2bf0-4998-a021-37b459e09fba",
                 "type": "hls"
             }
         ]
@@ -3139,7 +3149,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/star-sports-select-1/index.m3u8?token=6038d46dd21fedf69064a2ff697403e7ebb85688-b409cf3473246c6dc0f5c29a4aaaaa9b-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/star-sports-select-1/index.m3u8?token=0fff731f66bd18204335e553e0fadf5da40ea6a0-54c797148c1d33f7de2130bb2ecaa05e-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -3153,7 +3163,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/star-sports-select-2/index.m3u8?token=abf08d6510c7bf827782c097c9bb680983b8c72c-f4486e2cc1e44509c8a8ab6851b6051e-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/star-sports-select-2/index.m3u8?token=b4b5a5e730afb9b7fdb3800ce13e311d3e0c07f9-649946c3adfef5a042c1fbf2c5df4b0c-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -3250,13 +3260,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/dbc585f70a60b9855b6e13a8ce4cb6f4",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/tsports-hd/index.m3u8?e=1769886005&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3db64e49b512f81d9c5393c733130a7c",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/tsports/index.m3u8?token=cdef9b2a8186653d28fdbee9f1f99a86db2ee0bd-647b6561957d3be58678d0a121361281-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/tsports/index.m3u8?token=c0586e59578613501d272e173cf68f7e6fe2ddef-acf2e7dc11cc1718acb0ec77c5e9bb7c-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=fc95d30e-5323-4c12-bb38-7a1e3f04acc2",
                 "type": "hls"
             }
         ]
@@ -3269,8 +3279,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/5128cd32518d5a9ba7a37e21947fd8fd",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/talkSPORT/index.m3u8?e=1769886008&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c076621b1d48399aca637b3928b5ec3b",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=6e70514c-5f8e-483b-8c97-3c971b558a74",
                 "type": "hls"
             }
         ]
@@ -3284,7 +3294,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/ten_cricket/index.m3u8?token=0daf6fbb871e1dc4e20b02d7db13abb919d331d2-e4010c5407bcecc7c5d9d84b1d27c34d-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/ten_cricket/index.m3u8?token=41960eb5d1f84768dcab84a00d5763cca3acaac8-2ccbb5e6f6abf60cada21e640a9c4bcb-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -3348,6 +3358,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Tns Sports-3",
+        "category": "Sports",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 short.gy",
+                "url": "https://7pal.short.gy/tntspts3",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Tnt Sports 1 HD",
         "category": "Sports",
         "img": "https://s3.aynaott.com/storage/2d3095b01e65ea760b2543fff4d385c8",
@@ -3395,8 +3419,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/59fe7ff434fed04ecec29b4d737ebc95",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/tsn1/index.m3u8?e=1769886012&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9e512a2888cbf3670e5c45af461665a5",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=576e5655-01d2-442f-b311-7c826d48fb7d",
                 "type": "hls"
             }
         ]
@@ -3409,8 +3433,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/17642cb60c2af7fc36ca1e08cc54fdae",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/tsn2/index.m3u8?e=1769886008&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9014cb095631258f46e35db8ff5edd49",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=32d28b2c-aded-481d-833b-cee57cecfc93",
                 "type": "hls"
             }
         ]
@@ -3423,8 +3447,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/1cb10107a47db353e35ad78d3160eda7",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/tsn3/index.m3u8?e=1769886012&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e6e9556cdfbb71f2ca3af93c5ac53db0",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=9d3a1097-c171-4aee-99ad-e76c0c4a4c75",
                 "type": "hls"
             }
         ]
@@ -3437,8 +3461,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/a5b72812fcfb7bbe4fcdcd455824db7e",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/tsport7/index.m3u8?e=1769886021&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4a98087ff162194fa7572e209a080a1e",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=6f4426c7-e48d-4b57-9747-4e0af8cc0365",
                 "type": "hls"
             }
         ]
@@ -3479,8 +3503,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/94a778ec3219f7eb54bdf1ee07a95788",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/willowhd/index.m3u8?e=1769886011&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=fec905c782ff96b36ee70a6ccfbe3cfe",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=abfabaee-3898-4279-8645-3da5b0232867",
                 "type": "hls"
             }
         ]
@@ -3493,8 +3517,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/1a580ee2636a0c4761e623bc131ba7a6",
         "sources": [
             {
-                "name": "🔗 amagi.tv",
-                "url": "https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=d2152bbb-64e0-4822-826b-60853ca1d056",
                 "type": "hls"
             }
         ]
@@ -3507,8 +3531,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/e1749cf3040f11c63e722c941f213927",
         "sources": [
             {
-                "name": "🔗 sofast.tv",
-                "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=538b24c3-9493-44d5-be7c-482b51734f2c",
                 "type": "hls"
             }
         ]
@@ -3516,7 +3540,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // KIDS (28 channels)
+    // KIDS (29 channels)
     // ==================================================
 
     {
@@ -3525,8 +3549,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/76e36f75bf11c815a76c5622d627c814",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/3abnkids/index.m3u8?e=1769886034&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=6a4e4d3c91b635fe8e6b5e225530e24f",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=8a87e892-cbf1-4361-8d46-06cce682c902",
                 "type": "hls"
             }
         ]
@@ -3562,18 +3586,32 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Bbc Cbeebies",
+        "category": "Kids",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Cartoon Network",
         "category": "Kids",
         "img": "https://s3.aynaott.com/storage/a89142109d049ae325fd1681b50bfffb",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/cartoonnetwork/index.m3u8?e=1769886033&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=85282549126b6e978f367a09de5bd660",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/79/index.m3u8?token=c8d7bd6a5fb76e94d17017e684894ae480493b4c-7001f754c9867d2b0e97f4fde0fe4a60-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/79/index.m3u8?token=f44e2f0b665b7e7ad02064c6e94f60df15f6e217-fbe7afa9b63d7127bd5790bac46725e0-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=e73ffada-f80a-4c23-9bd8-76142e41c389",
                 "type": "hls"
             }
         ]
@@ -3586,8 +3624,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/6712a3c8a28689cfda4148faf095fa67",
         "sources": [
             {
-                "name": "🔗 emisoras.tv",
-                "url": "https://s.emisoras.tv:8081/diostevekids/index.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=a8b5e07e-b775-415f-b71f-9391bacc9e30",
                 "type": "hls"
             }
         ]
@@ -3601,7 +3639,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/discovery_kids/index.m3u8?token=46be2c59e2209b87fc1b1a59832ee4f559fe495c-720068469e20d6e31f19cd80c62c29eb-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/discovery_kids/index.m3u8?token=d5709641034f1733565e19f47708a7d2ce0a6ae5-6dab696c0a2953a7cc061e677dc50e55-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -3614,13 +3652,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/a0c74b576321da5aa33a69806401caf1",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/disney/index.m3u8?e=1769886037&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=aad9f91f463e78ed64134ff5e1dcaa20",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=1d7ad29d-ee4d-4590-a446-7db6d6aea230",
                 "type": "hls"
             },
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/disneyxd/index.m3u8?e=1769886037&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=15f1c75f610fc9ae0101e3688839ceae",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=1f6fd722-dea2-4463-8938-81e6bdc94189",
                 "type": "hls"
             }
         ]
@@ -3633,8 +3671,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/31a070024b6516e3738baec70168f0b6",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/disneyjr/index.m3u8?e=1769886034&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=91756da47d87545ae3da59137248a6a0",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=a9791899-66f2-4b94-9521-c333498f7ab9",
                 "type": "hls"
             },
             {
@@ -3652,8 +3690,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/ca9edd253c97a2c67fcd856f43a31702",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/familyjr/index.m3u8?e=1769886037&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=a10a2409921b1a9c0353c784675db303",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=d188a20a-8640-4511-a228-3a141c675629",
                 "type": "hls"
             }
         ]
@@ -3666,8 +3704,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/61c87bda9e538dd52b3ef654e85a11ff",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/ForeverKids/index.m3u8?e=1769886036&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=98d3b1ff4d0e9ddb0efd24d74a2defef",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=a36167ba-c4a4-422a-91c6-594228b8cae4",
                 "type": "hls"
             }
         ]
@@ -3708,8 +3746,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/bc2a021f901e4d1de4948f314536c1bf",
         "sources": [
             {
-                "name": "🔗 wurl.tv",
-                "url": "https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=79242874-bae7-449f-aec0-2bfe9593c694",
                 "type": "hls"
             }
         ]
@@ -3722,8 +3760,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/45d94f96cdc5a444bc4969af940fe294",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/MNetKids/index.m3u8?e=1769886036&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=37edcb3cb6e7c9f030c30b1ed3932319",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=d8909fcb-c413-48f5-b31b-54cbee95dd4e",
                 "type": "hls"
             }
         ]
@@ -3736,8 +3774,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/d9b8deaf735ee0954260c7b3b61f508d",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/MoonbugKids/index.m3u8?e=1769886036&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3429c7395aa8622faddf39bf4111203f",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=240c79af-7625-4384-9052-88dd73134ea1",
                 "type": "hls"
             }
         ]
@@ -3750,13 +3788,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/bb2375af2d1ff8666f2c24fbcec3c541",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/nicklodean/index.m3u8?e=1769886037&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9eb2c23664c0a9cf43e9d0c92ff4a7a0",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/55/index.m3u8?token=62ac7e8e03b02bee1a000aca244264a096e5ce7c-894d554f77d28fa8d213bc9322ed4e5e-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/55/index.m3u8?token=59b5897c08fdc160c2f292076b6f5428be923824-a95ed62c0861c0b4221d1ad79e47d07c-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=d8c19a31-9752-40cd-a392-fb95928a66b8",
                 "type": "hls"
             },
             {
@@ -3774,8 +3812,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/921409bfe77e2e3d32492116bc22fa3e",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/nickjr/index.m3u8?e=1769886034&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9180baf6ae8265d95e7bc4ba5007df69",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=c197b1bc-8909-4176-a50f-f855a4a51c1f",
                 "type": "hls"
             }
         ]
@@ -3788,8 +3826,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/a130687320f6b07db4bc3729b9d5e96e",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/nicktoons/index.m3u8?e=1769886034&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=34748a04c535b95137e3f882c6f608ff",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=3830c379-539b-4e18-9943-9664574c850b",
                 "type": "hls"
             }
         ]
@@ -3836,7 +3874,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/pogo_sd/index.m3u8?token=93cdd35cd5fb52eae1b1e98d0d89081533d4cc7a-f7ac7902c20bb698449f7a18ec27a848-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/pogo_sd/index.m3u8?token=0c2021ef56e1b8a391017076a5989182808bb967-b8f24412d5ce5cec288bd483fda7eca3-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -3849,8 +3887,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/5739277278d596533abbacc60ea694be",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/teennick/index.m3u8?e=1769886037&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=a1f16e3ea2a0e21145ff0cd22924e412",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=319225e9-8bd9-4848-a93b-fd5737809b0c",
                 "type": "hls"
             }
         ]
@@ -3863,8 +3901,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/91efc1ae410c11ccc4ab07f7221f0dad",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/TVCArabicKids/index.m3u8?e=1769886036&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=552ec4f58a1a18d0e99b484d4e15c26f",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=581cac8b-5962-4686-adb7-cb15e4624020",
                 "type": "hls"
             }
         ]
@@ -3877,8 +3915,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/c6fde511a99e5134dbf12b77da386cb6",
         "sources": [
             {
-                "name": "🔗 mycloudstream.io",
-                "url": "https://cdn.mycloudstream.io/hls/live/broadcast/nro19k2h/index.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=1486a1c3-9efe-48f7-8c7a-fe61a939d60a",
                 "type": "hls"
             }
         ]
@@ -3905,8 +3943,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/d79d89851faee0823a1f2bed1a96e84d",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/ytv/index.m3u8?e=1769886038&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=454d41c18ee62d5355fb46db5d5404cd",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=7c972a23-cee8-47f0-b61a-ac15d57002e4",
                 "type": "hls"
             }
         ]
@@ -3966,12 +4004,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
                 "type": "hls"
             },
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -4030,8 +4068,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/f24e50516ccf6b3e94a4ca749ccb3533",
         "sources": [
             {
-                "name": "🔗 persiana.live",
-                "url": "https://korhls.persiana.live/hls/stream.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=25059629-bb42-48d2-bcbc-8aa5c14e7f85",
                 "type": "hls"
             }
         ]
@@ -4104,8 +4142,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/370815c239b8b274264792c6da50a639",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/dhoom/index.m3u8?e=1769886061&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f18eee17e9079b7e9a812cdf2c007887",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=67d12ffa-059f-4d79-a4e5-b36104d0af06",
                 "type": "hls"
             },
             {
@@ -4128,8 +4166,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/1767a29ab2a18975e84cc9aee178681d",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/DreamTurk/index.m3u8?e=1769886060&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=eef5297498c345085e591d6c2d706b10",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=525df3f4-ce22-4008-be5d-e25410fd7248",
                 "type": "hls"
             }
         ]
@@ -4142,8 +4180,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/4aabe2bad793305adec08094f30af6b7",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/EkinTurk/index.m3u8?e=1769886060&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=aa2290a8f1fda6efa13b7378bb8ef23d",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=9cf16121-07d4-48c1-9f36-14ee8b7e3f31",
                 "type": "hls"
             }
         ]
@@ -4157,7 +4195,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/58/index.m3u8?token=5a878c7d288699c504d8e33e08c6d8a922777e92-307097be4d7e843a2ecd4e87df51582a-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/58/index.m3u8?token=7ee04b116d81643bf434a230005514af2376e398-602864e6c8d7f262046e5f5921d5c859-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -4226,8 +4264,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/c4f27e64c99b50629e7021b99ac9387a",
         "sources": [
             {
-                "name": "🔗 com.tr",
-                "url": "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=bdf309a5-d732-45d8-989a-5ad5defd0224",
                 "type": "hls"
             }
         ]
@@ -4240,8 +4278,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/bf29f05ce8cd71bc14dd5db02fc632fd",
         "sources": [
             {
-                "name": "🔗 morescreens.com",
-                "url": "https://muzzik-live.morescreens.com/mts-5/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=8b852c92-0157-4099-8352-b49723129558",
                 "type": "hls"
             }
         ]
@@ -4255,7 +4293,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/Zing/index.m3u8?token=8a6163595ab5788712ef334e328c7cba45d26e88-69c84bd1397ee52c3f3ffff4c47d9b11-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/Zing/index.m3u8?token=2c4b7ebb00edaa2fe6fc0ded3699871327070268-008d07778cd9b80f7fec37552ecf2dc4-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -4272,8 +4310,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/30a09b00515134c1fb1af96892a878a2",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/AlZaharTVTurkic/index.m3u8?e=1769886058&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b769770bcac18358c6fda1aeafafca6e",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=11b82c1f-aeeb-45b3-85b0-0a753604a2bd",
                 "type": "hls"
             }
         ]
@@ -4286,8 +4324,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/3458d0d9097a8283a94a13374bcbf5c7",
         "sources": [
             {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-4.pishow.tv/live/229/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=9b1539aa-d73b-4310-8809-d44b37995e6d",
                 "type": "hls"
             }
         ]
@@ -4300,8 +4338,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/66ac3ae1e56001353b69bb5f63ebcc6e",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/deen/index.m3u8?e=1769886059&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=6016854cfb253534745360df6d7a7ea4",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=72e3bc27-72a7-4c93-8953-66218fa7c51d",
                 "type": "hls"
             }
         ]
@@ -4314,8 +4352,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/09d759c7bb93fa3fb76014c8936201ce",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/eman/index.m3u8?e=1769886059&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=21a0bfda6d8eed609536cfd4a67444d3",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=9feb93f4-0ffa-4877-b619-0870644562c4",
                 "type": "hls"
             }
         ]
@@ -4328,8 +4366,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/eb1964ab22fe95d4012c46198ffcf4c3",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/iqrabangla/index.m3u8?e=1769886058&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=43b547cd136eb0ddcc8c8543703e42d6",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=b0684b5d-0e56-4429-8f64-55d8c18fcc1c",
                 "type": "hls"
             }
         ]
@@ -4342,8 +4380,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/813fca9bc7df9a4810efe2eb87c57039",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/MadaniTV/index.m3u8?e=1769886059&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=425cd33680353c70f55e513ce9af1dcf",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=32acaaeb-2b3b-4979-98d9-b45deecde3ec",
                 "type": "hls"
             },
             {
@@ -4366,8 +4404,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/5442b2655aca6398b26ba539f396565a",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/PeaceTVUrduHD/index.m3u8?e=1769886058&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=91131b9286290db297b3881cb8873111",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=dd837351-ae92-4ce1-b5d4-1ceece83accf",
                 "type": "hls"
             },
             {
@@ -4404,8 +4442,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/f00eda9194eb13e8ef1d1387889173bf",
         "sources": [
             {
-                "name": "🔗 protokolldns.xyz",
-                "url": "https://protokolldns.xyz/rtvislamweb554/index.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=596e39ca-a957-4029-bbc6-55e89dc5d4d4",
                 "type": "hls"
             }
         ]
@@ -4432,8 +4470,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/5b8848e0ec2d5cd133fadef42317dec5",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/takbeer/index.m3u8?e=1769886059&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=d3a15512f13736b82b3aa870e5885cae",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=8846b2aa-7f7f-4d5e-965e-42bed0fdf092",
                 "type": "hls"
             }
         ]
@@ -4446,8 +4484,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/9c1532f532f291a6b5d6d9b5faf041ce",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/tvone/index.m3u8?e=1769886058&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4e68851050c8e38dc166b62a2bbf752d",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=2eb119c5-7864-421a-a153-8d6b7b372e9b",
                 "type": "hls"
             }
         ]
@@ -4464,8 +4502,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/c79b782d70458866537715e5ac842123",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/andpictureshd/index.m3u8?e=1769886046&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2b8eca0be4c89805bf477d26c160c7e9",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=cd847504-8ebf-43ad-8beb-b53d80befb4b",
                 "type": "hls"
             }
         ]
@@ -4541,8 +4579,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/d2d8f00a60dc64dad6c0181cd86f7869",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/9xjalwa/index.m3u8?e=1769886042&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c9c2b9a2dbd21a2afaa428d57b794c14",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=da617cc0-9209-434c-9156-0f9387182a3f",
                 "type": "hls"
             }
         ]
@@ -4555,8 +4593,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/7e67b75dd21f29985a544f21f8f5a8e0",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/9X_Jhakaas/index.m3u8?e=1769886041&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9dcb68d26217152ea283639efc254769",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=0fc15069-e437-4138-a1bd-f62aaa93773e",
                 "type": "hls"
             }
         ]
@@ -4569,8 +4607,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/5d052254516639955d06182690d3fda2",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/9X_Tashan/index.m3u8?e=1769886042&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=5a60dde7965ddacf3c3c0f86d1101a3a",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=dbefbb0b-b2e0-4e34-8108-8852d53ee766",
                 "type": "hls"
             }
         ]
@@ -4583,13 +4621,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/8fb5a75cdb00b465703c4952f4eaaac6",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/9xm/index.m3u8?e=1769886041&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e9e8e72a836dd078e6901c9340479813",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/48/index.m3u8?token=1ed2152cccb4f7db957cd49c71dca17be18e400d-62ca8bd0ed13ec47a29a772b08191167-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/48/index.m3u8?token=fdef2ffd6cdb4d46a0272879d64018f68c4c956b-a17dd726425d22f99a07758ab501d3db-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=93d08244-7eb4-4294-80b5-43030f41ca9f",
                 "type": "hls"
             }
         ]
@@ -4617,7 +4655,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/100/index.m3u8?token=7d93a9cf66265181f9a81e7f9b5f20dc0653f1d5-5c7006e22596af9bd704bab81ae8fa53-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/100/index.m3u8?token=4a189ffeb8f690bc5c5b7554fc03dcf681b257d5-eec27f52844166a2a1d54d7b02a60fe0-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -4631,7 +4669,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/74/index.m3u8?token=e60b78032ef33149a689f67144f484ef3dcaf5f1-333d321443f2fb7d54bf6d65bf6c6a8a-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/74/index.m3u8?token=7e42f8935060c3c015d59ec8a9d953b369b51d54-1f2cc577d33c9e5f923cfd7210a466fe-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -4644,8 +4682,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/e7d8cff366343b850d04a655c6fbf2ff",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/AssamTalks/index.m3u8?e=1769886040&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0318af6a629e2d28cfeee88869db1c97",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=f7ef6919-d8e1-42da-8f34-ddd3364c27c1",
                 "type": "hls"
             }
         ]
@@ -4658,8 +4696,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/6f17785db48e7b5fb68b7d441ad3ad10",
         "sources": [
             {
-                "name": "🌐 co.in",
-                "url": "http://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=9e68af86-7f32-40ba-8d0f-f12276f8e206",
                 "type": "hls"
             }
         ]
@@ -4672,8 +4710,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/cf6bf88febd62a03ae727788b3d52566",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/B4UHitz/index.m3u8?e=1769886038&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3fd7785eee2e1f0fbf56cd7f2bcca2f2",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=7ce49cae-2511-40ed-a687-3102c6e29872",
                 "type": "hls"
             }
         ]
@@ -4686,8 +4724,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/dfb6c20649dd691bab10b2f9d2f0e400",
         "sources": [
             {
-                "name": "🔗 wiseplayout.com",
-                "url": "https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=d15d9237-42e6-453c-ba74-0fa1b339d57a",
                 "type": "hls"
             },
             {
@@ -4706,12 +4744,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/b4u_movies/index.m3u8?token=5fdfc74f3503b44b4b5427ba43d4f55100116d82-c146bce4d7eaa90fa909fb747cca9e37-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/b4u_movies/index.m3u8?token=853cc1bcabc65fcc34a39888384b96e3f8b40d34-980fe1674fc466e456a960ff2040b2a1-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "🔗 wiseplayout.com",
-                "url": "https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=47b010b6-9296-4e7f-9cfa-284e020a8984",
                 "type": "hls"
             },
             {
@@ -4735,12 +4773,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/b4u_music/index.m3u8?token=04c95b9810328ff7df812e830b1f50e81fab2239-268e43f07986f86832fdec41f2695d7f-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/b4u_music/index.m3u8?token=53b9c3f49eb493c3bec4f53d42c0c10f8f484bb2-7d8546d60458f0fe002d510dc86f8c9e-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "🔗 wiseplayout.com",
-                "url": "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=16924cee-bc7a-470b-895f-4c8bf5fc9019",
                 "type": "hls"
             },
             {
@@ -4773,12 +4811,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/68/index.m3u8?token=2d371af68345eed941ccfc1bd1a1478c3f97ddb3-86ecda072f24911608a25a47bf0fd386-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/68/index.m3u8?token=29733f8a089928d3436c27f57522bce4811b07e5-372f99be23f413c17fd5bb5f26000ca7-1769904608-1769901008",
                 "type": "hls"
             },
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/66/index.m3u8?token=06277383c30b221bbf5ba569217f5413f93cd153-eb7651ca7289d64b6fb903f9999bad25-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/66/index.m3u8?token=4b9557003ebf1d018513f156c4f24ee2758487a2-e2b6cfafb0c5d6bb63cdef24ef7163bd-1769904608-1769901008",
                 "type": "hls"
             },
             {
@@ -4796,8 +4834,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/acfb4adc18020853437df064788dcbca",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/Dabangg/index.m3u8?e=1769886041&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3095ef29ac6c7ce738b3cc35b0cdf3aa",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=ff7cadd6-b13a-40af-9976-e92057e30a40",
                 "type": "hls"
             }
         ]
@@ -4810,8 +4848,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/cb1c3e153b951760fb0396cd27b8a715",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/Dangal/index.m3u8?e=1769886040&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=eaa35d731e6987f0cd83355494476a78",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=56217203-21d2-4ca8-af74-b5b037a6f7f0",
                 "type": "hls"
             },
             {
@@ -4829,8 +4867,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/67b12df982bbb07b6a5af35d691dbb54",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/Dangal2/index.m3u8?e=1769886040&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ef32283d753fbb39ead11eacac6236a5",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=31e02282-4cac-4747-ac93-bd74be3c78d5",
                 "type": "hls"
             }
         ]
@@ -4843,8 +4881,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/fbc83a10908188b587aead1bde39a8b3",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/Dhamaal/index.m3u8?e=1769886041&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=23ea9adca6d744036b26729b4d7bee70",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=630b8f21-f5b8-4c05-b2c1-af8333d533c1",
                 "type": "hls"
             }
         ]
@@ -4857,8 +4895,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/d63eff8864579b144c097c549ec0470a",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/DhamakaMovies/index.m3u8?e=1769886043&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=d0c2d8b4f2c7c9355c23a2270911596f",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=cca69f06-02d4-4b39-aad9-f24688b81d0d",
                 "type": "hls"
             }
         ]
@@ -4871,8 +4909,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/f4edcca7247bbb4a263a51d7ebb82282",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/Dhinchaak/index.m3u8?e=1769886042&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f6e5d74f30fb1093bcbd652f5fcd1604",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=353f1b20-3f65-4477-8251-6c3c58a3a12e",
                 "type": "hls"
             }
         ]
@@ -4885,8 +4923,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/9d0cda929d2a459842a85cce47442776",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/Goldmines/index.m3u8?e=1769886039&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=191d8c4738b1f17c10e86f869fefad4a",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=c7f57cda-5a87-48c5-a758-4273db0864d2",
                 "type": "hls"
             },
             {
@@ -4904,8 +4942,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/e92e9e2fb70909f3dd30a8d89e644119",
         "sources": [
             {
-                "name": "🔗 aynaott.com",
-                "url": "https://tvsen6.aynaott.com/GoldminesBollywood/index.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=b80579f2-22d3-4b12-881e-60139810a791",
                 "type": "hls"
             }
         ]
@@ -4918,8 +4956,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/f8d9220406fa9ae79006914639f52e9b",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/GoldminesMovies/index.m3u8?e=1769886039&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=cc33bd64e54438e57b15c8c28968e1e8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=1f8a84b3-8079-4c29-9e73-f219664e9d4d",
                 "type": "hls"
             },
             {
@@ -4937,8 +4975,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/99cc4db2b1e5b2a259427660646f9684",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/HiDost/index.m3u8?e=1769886041&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0440e94df9c86c3c8d8f057ecd5a5660",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=f35879ff-4b1e-46b7-b429-9a020a4a3242",
                 "type": "hls"
             }
         ]
@@ -4951,8 +4989,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/3132515182ec50091b496fe515564084",
         "sources": [
             {
-                "name": "🔗 aynaott.com",
-                "url": "https://vods2.aynaott.com/hindimovies/index.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=4d5c3f29-c835-4920-8fa0-c0bafeaa31ed",
                 "type": "hls"
             }
         ]
@@ -4980,7 +5018,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/hum_masala/index.m3u8?token=acced221d48f954e1b31aef81ed3cbd6d6445bb0-51c6815312ab547b1909f8f72e4cadfd-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/hum_masala/index.m3u8?token=867382689c10277aca1ac849e1af121c327ff75c-aabed996e2b1be5ba405dbb360dd7522-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -4994,7 +5032,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/hum_sitaray/index.m3u8?token=ba4d655bda24e2f3d9b9c72f7fb827a065db84d4-817a80e6432370bbc76222e6659af6b3-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/hum_sitaray/index.m3u8?token=ef65ea9ab5625f45067c822a33006707685931a0-54967993874745d8b80f226176cedd1f-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -5008,7 +5046,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/hum_tv/index.m3u8?token=c3c644f842eb3f8942bf203fe86b2139f39494cd-253de7f0003ba606b23be7abac307b8e-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/hum_tv/index.m3u8?token=a706295498a6c4e9a3f6159e15e97313c81c7b36-fbf5f9096453d6c3915db7f60b0c90bf-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -5021,8 +5059,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/d90eb718a6674494d2dac28e1d96bf44",
         "sources": [
             {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-4.pishow.tv/live/1473/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=dc4a5da2-9423-4c3a-ac8e-62086ff7b6f1",
                 "type": "hls"
             }
         ]
@@ -5035,8 +5073,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/62a667c60e95b0d8e0a0c4d70275a7fc",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/ManoranjanMovies/index.m3u8?e=1769886041&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=de1f57c464ec2470414910d4472287b1",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=631ca0d6-474b-41ad-9ffc-24adc9931731",
                 "type": "hls"
             }
         ]
@@ -5049,8 +5087,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/1a62a70103bac9999411a72b8a8b7ccc",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/ManoranjanTV/index.m3u8?e=1769886042&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9c39a2d37cd9214a36a1cade72a26c24",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=960d0db1-3409-49b7-87da-61fe83fa2d8b",
                 "type": "hls"
             }
         ]
@@ -5063,8 +5101,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/ec0191729a03669fda8ba55c7ba1d4f2",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/mastimusic/index.m3u8?e=1769886042&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=53a580b4c38ddf3530b13f490b3e91c9",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=a0ff33aa-aee8-4fe3-a391-42bbb7cbacec",
                 "type": "hls"
             }
         ]
@@ -5105,8 +5143,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/09e356a3181cc613cf5680619d50a5f5",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/Network10/index.m3u8?e=1769886043&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b5f6bef2795931a5a5a7fc7542eac674",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=30c01099-08c9-45d3-91b2-572ca4c173eb",
                 "type": "hls"
             }
         ]
@@ -5119,8 +5157,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/947715e0a22f16ac21805073ce6eb0b6",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/RepublicTVBharat/index.m3u8?e=1769886043&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=bf50d90baebfd891d5b475b9374ab6e4",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=8377452f-fbc7-4780-8bd2-6db42ac285c0",
                 "type": "hls"
             }
         ]
@@ -5152,8 +5190,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/c63628e7301ba1eded68c0f75ab8d903",
         "sources": [
             {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-3.pishow.tv/live/230/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=2571fc63-ed1e-4107-b92d-bd4335d601dc",
                 "type": "hls"
             }
         ]
@@ -5167,7 +5205,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/33/index.m3u8?token=26766939a94935d091d810eab3f4360b7d8151eb-648b8b4dc00ef2d97a163bd0154d14aa-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/33/index.m3u8?token=529de8bd5ec2440d6a99cb46640a795d21ae8917-7a9f14778ab7d8ebcdbc89e085197090-1769904608-1769901008",
                 "type": "hls"
             },
             {
@@ -5200,12 +5238,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/77/index.m3u8?token=232a4a6d801380b509a04071b3ccf7e58ce2cf20-c62563fb40f088c8ab04b84124173c0d-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/77/index.m3u8?token=478c5a99d4b778c1a95711832c99ca31aa8044dd-00ce09b7b5a78307cd9d8469ca3e3e55-1769904608-1769901008",
                 "type": "hls"
             },
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/sony_max_hd/index.m3u8?token=b1a9d93126f6fcb446427895fa9903774d1488f8-867b4fdd6f8f4c6e97092655537788cb-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/sony_max_hd/index.m3u8?token=d9a3dca6f25b7246347375c972c10482f65d68db-395cbe0bd4df1f5a2d216d09d7b2e488-1769904608-1769901008",
                 "type": "hls"
             },
             {
@@ -5224,7 +5262,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/sonymax_2/index.m3u8?token=91ec078c0a3b5c441a1a39e0e66ab2a8af5fa04f-7cabbbaf34bf4a801bf15c1933a1cad2-1769899816-1769896216",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/sonymax_2/index.m3u8?token=5632caf1fe8c1c9e9d32805ab48a796b6aaf6858-7de9163519208aedfe1039b0c3eca27e-1769904608-1769901008",
                 "type": "hls"
             },
             {
@@ -5257,7 +5295,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/41/index.m3u8?token=c976f73ff3914d5fa1e07270fba3650650e65af8-b070b2fa72fff2d0e45acb558ed720b5-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/41/index.m3u8?token=63b542924c6a871b06e3f0944548057f2644dc8d-ebf156b946cba70e5d0886f3abfa8554-1769904608-1769901008",
                 "type": "hls"
             },
             {
@@ -5295,7 +5333,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/sony-sports-1-hd/index.m3u8?token=c3e28dd9b5a76602d3943acf76729eac5aa2b2a8-6de001477747df360c556711bab28a59-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/edge2/sony-sports-1-hd/index.m3u8?token=dea8c644834cc9bc950b280194f92eb4db63d608-4c926bbb0f17f8220bb8250970bd418c-1769904608-1769901008",
                 "type": "hls"
             },
             {
@@ -5313,8 +5351,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/8ab8956c9d9128f39ef21487a38f47a3",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen3.aynascope.net/HsatAP9H/index.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=53b34289-f9ac-456b-b934-e380f5ec684f",
                 "type": "hls"
             }
         ]
@@ -5327,13 +5365,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/2d12bf4f5dad8918427df0162d0e1184",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/Wfn4bVp3dLgA/index.m3u8?e=1769886043&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=38f8aa36d102f7efac71135c99c8c784",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/38/index.m3u8?token=b005f98958e3967866839d953220593909ca7437-49c7eca77e61572b714745a121554ba0-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/38/index.m3u8?token=5ee73bf00cea66b864f4c0abff88bb7cb9e4a8d5-c13cbcfe6dd422b3c11e3e88a387cee0-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=0b0235db-e5b4-48d9-95bc-30a7e3228947",
                 "type": "hls"
             }
         ]
@@ -5347,7 +5385,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/sonyyay/index.m3u8?token=8e609260a879d720211c7e716aeda7903b7754af-d23fd380111ade93933bc675a20f93f3-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/sonyyay/index.m3u8?token=593f9a1fc0fded252118986b0d30d69dc4398420-4e4eeb1a2d8e50f0f759bcd9336fb7df-1769904608-1769901008",
                 "type": "hls"
             },
             {
@@ -5380,7 +5418,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/72/index.m3u8?token=4683878daea25b55409ef67103d40502d7907c3f-d2e8a38346f1d45ea8e86ab84267b53c-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/72/index.m3u8?token=27fc05f6ad64d7bddd065a1e71801f9701abb27e-38a76727e19acdf2bfd5a094a3068684-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -5393,8 +5431,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/01c9cb3e1a4c90da6685700da863f0ce",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/TaazaTV/index.m3u8?e=1769886040&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e26b8711356c8c056bdb62414bf7c80d",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=f9f17a87-2cef-4639-9788-f26422ac7fbe",
                 "type": "hls"
             }
         ]
@@ -5407,8 +5445,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/5e07d993dda4763f4c35125fb9734e72",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/TheQ/index.m3u8?e=1769886040&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=fbb1a9a32de0ab3b73c1312c2989e438",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=a787feb3-0d50-41ad-9d43-f2cc02fada70",
                 "type": "hls"
             }
         ]
@@ -5422,7 +5460,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/zee_action/index.m3u8?token=03b6644bb4e38a621510d8aae05cd8d7c48c0ade-c9dc5b32c2467590c142ab0930663351-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/zee_action/index.m3u8?token=556d497555f2f7c0148ce54341c5f8975cd4ce4f-450b895ae29c5f4f50fc546fd468eae9-1769904608-1769901008",
                 "type": "hls"
             },
             {
@@ -5441,7 +5479,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/zee_bollywood/index.m3u8?token=57d8a559f411a00d008a7d528bad22f1f31fc8d2-bb856552b8ea8dd89e1248dc68efcf57-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/zee_bollywood/index.m3u8?token=cef1c680f8ab5ed099e34f0966ff01a4f7785933-491daa99c0a95a2abaa63fb2b6f3f1f2-1769904608-1769901008",
                 "type": "hls"
             },
             {
@@ -5460,7 +5498,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/76/index.m3u8?token=9fb60bcc62f3e378c33d0ce81e511803a5b88aac-d7b4f3bd29a19e391c69ab59202a5e3e-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/76/index.m3u8?token=2c1219b07a6d92e79a8aae9dfa963178d7e102c3-87d9765c91e137d2a1071cd4756656ee-1769904608-1769901008",
                 "type": "hls"
             },
             {
@@ -5479,12 +5517,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/40/index.m3u8?token=090c8b4fcc69c531f5aab5eb823650b846170d85-cbba6dd15c9c125eb603ba8a3665163b-1769899816-1769896216",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/40/index.m3u8?token=3630cb35f21c32049340e921a04f72ae3f67d6a2-a872e956ef703e231e749fe11f489ea1-1769904608-1769901008",
                 "type": "hls"
             },
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/34/index.m3u8?token=3b0cff6e95653efbf28d38cde9f18734eb369adb-f30b1ba348bb1c46ef65bb08e436f65c-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/34/index.m3u8?token=9fd296b342c1b01fbc71c5f10c0e730a1e611b57-f60976116a86da1d6721e625eb933d37-1769904608-1769901008",
                 "type": "hls"
             },
             {
@@ -5503,7 +5541,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/zee_anmol/index.m3u8?token=9124c841a7ebba12078600c5cc5993cd9f9c1c09-541b3cd304889c291de678032cd0fa69-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/zee_anmol/index.m3u8?token=2696e8e70522b5c67481f5c865a8698f55916a1d-489118ac701d0619adc624a3ba15eb0b-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -5516,8 +5554,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/bb1e93cd63ca86130fe6f66393b7497b",
         "sources": [
             {
-                "name": "🔗 zoomnews.info",
-                "url": "https://live.zoomnews.info/live/Zoom_playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=acc55af3-9678-4714-b67c-5d734f5b8a5b",
                 "type": "hls"
             }
         ]
@@ -5534,8 +5572,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/13c04e44967d653c70eac9670b47fa5d",
         "sources": [
             {
-                "name": "🔗 wurl.tv",
-                "url": "https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=6db89c8a-a26b-47fe-8643-6f2abd219ab4",
                 "type": "hls"
             }
         ]
@@ -5549,7 +5587,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/discovary_investigation_hd/index.m3u8?token=6873921f6c4fa894bc1148f6e6302bc86063b68e-c958c6362e80968fa61f0ca02332b67e-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/discovary_investigation_hd/index.m3u8?token=7a0d136b47206dce38d8f54639333e586322d978-520eb84b434ffbaff350c0618718e0db-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -5605,7 +5643,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/44/index.m3u8?token=bb432c67431e278ac1468f9fa572dfb30ab4ed06-3e2e83e45ef3d3ac308962a50d2212f9-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/44/index.m3u8?token=70063834ad2f9f89bb499fb38b594a4b1d101b78-4d29e0cfdc5c2dcac158054119774489-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -5613,7 +5651,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (173 channels)
+    // OTHERS (172 channels)
     // ==================================================
 
     {
@@ -5622,8 +5660,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/9b96b0e288c855d226ed2e769efbe19c",
         "sources": [
             {
-                "name": "🔗 persiana.live",
-                "url": "https://4afghls.persiana.live/hls/stream.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=c5a46f6e-9112-4043-82ff-e9e79156f8f8",
                 "type": "hls"
             }
         ]
@@ -5636,8 +5674,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/6ccc7357c3d8d35770732126dd819596",
         "sources": [
             {
-                "name": "🔗 sofast.tv",
-                "url": "https://streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=7a0871d0-1a45-430c-b513-3bba8a9cf820",
                 "type": "hls"
             }
         ]
@@ -5664,8 +5702,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/04a8e0917184b617f74b85f98a8cf983",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/Wm9Lv2RjZGT6/index.m3u8?e=1769886065&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=8b923f10bfed7641a2042f18644e3d4a",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=ed1ad924-f9f2-4302-97df-987bffb2b32e",
                 "type": "hls"
             }
         ]
@@ -5678,8 +5716,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/9882913a8d68aa99c0501b64749d6320",
         "sources": [
             {
-                "name": "🔗 abnvideos.com",
-                "url": "https://mediaserver.abnvideos.com/streams/abnurdu.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=9b638e91-1eaa-4f60-8d7a-13268a62bd39",
                 "type": "hls"
             }
         ]
@@ -5692,8 +5730,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/21992f5e8529a9d2a94b6edf917dbd8f",
         "sources": [
             {
-                "name": "🔗 amagi.tv",
-                "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=4e74c2fe-7685-4716-8cfc-ff742280f904",
                 "type": "hls"
             }
         ]
@@ -5706,8 +5744,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/baef6dd41c3ee6fabbb59bb8403cc1eb",
         "sources": [
             {
-                "name": "🔗 amagi.tv",
-                "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=f1acb290-c4c1-4010-8226-3f88b203c79c",
                 "type": "hls"
             },
             {
@@ -5725,8 +5763,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/f581d433008a3c1767023347190f01cf",
         "sources": [
             {
-                "name": "🔗 socialsmart.tv",
-                "url": "https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=06aecebc-0e41-4117-b069-d36dff730869",
                 "type": "hls"
             }
         ]
@@ -5768,7 +5806,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/89/index.m3u8?token=2883cc129c9bcffa37b97e6ec01fae132c6fccb0-24633079ca1f3e721e810d3a7bba736d-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/89/index.m3u8?token=ebf1f94b8816830fead06a33c1a9c51b48d20594-2627c907db73f3ab6a373f8555f09de6-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -5823,8 +5861,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/5522b7ef736d7f4e7f80ac6325dce821",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/amc/index.m3u8?e=1769886070&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0fad3b372aa8b92635a741cb3c40d3a2",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=a5e00efc-bb52-4e9f-9726-a256ffbf7397",
                 "type": "hls"
             }
         ]
@@ -5837,13 +5875,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/18d95033c5d53fc3b159141a842fdeac",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/animal_planet_hd/index.m3u8?e=1769886050&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=475353a481e23958595f6ad5a76c9237",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/animal_planet_hd/index.m3u8?token=cfd1275544a8169c16db073c8a85ea88deba4908-d5b530d6fdb491e241041d6c1d69a3c8-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/animal_planet_hd/index.m3u8?token=5e29e78f79a015deba9457dbfa37d2c4a02077c8-5c40e2597d6b8aa81bb1dfb7157f774e-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=fb4c9119-ad73-4e37-8091-b26126d200b9",
                 "type": "hls"
             }
         ]
@@ -5884,8 +5922,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/f59de29ce5a130a96023442694a2c58c",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/aspark/index.m3u8?e=1769886069&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7e9f27410c9f74e27e416ade34fd4086",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=b04e24f1-9260-484c-ad3b-4f3f1058b5db",
                 "type": "hls"
             }
         ]
@@ -5940,8 +5978,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/56d2c21362152b678998094f1c670dd5",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/axs/index.m3u8?e=1769886070&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=fd1cadae2abb08f7aa6558dbfc4de3c9",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=2f6357b3-11db-4fc3-aa84-ad1d48ee8526",
                 "type": "hls"
             }
         ]
@@ -5982,8 +6020,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/155b665c91fc74cf01b2b43d4b8c3e09",
         "sources": [
             {
-                "name": "🔗 ihostman.com",
-                "url": "https://apollo.ihostman.com:8002/stream?icy=https",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=89c6366b-4a2a-46ad-ad8b-feb324a64ea3",
                 "type": "hls"
             }
         ]
@@ -6012,6 +6050,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 fifabangladesh.site",
                 "url": "https://fifabangladesh.site/?id=f1b42e9e-0f82-41ae-a30b-c3f90d18f96b",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Bein Sports 1",
+        "category": "Football",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://live20.bozztv.com/giatv/giatv-tsports/tsports/chunks.m3u8",
                 "type": "hls"
             }
         ]
@@ -6052,8 +6104,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/7604a2c87620363fce86b73731b8035d",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/bravo/index.m3u8?e=1769886050&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=bb9fab2e70fc2dac233f8f614da19f00",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=edebdbdf-3290-42e7-8cda-cc8584cb1c32",
                 "type": "hls"
             }
         ]
@@ -6066,8 +6118,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/41536a676b99c1996efbccd8f65df42b",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/cbs/index.m3u8?e=1769886053&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c91e4768b7ff4d8a0c76859b65da1898",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=18a1811e-58b0-474a-9dde-00c3f6140749",
                 "type": "hls"
             }
         ]
@@ -6080,8 +6132,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/319020b844885cbabcd34e3f2f84d283",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/cgtnDocumentary/index.m3u8?e=1769886049&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=07aec7ece703e2a9237a6a34d4feb59e",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=8077a601-7b7f-4e58-88bd-7370c25d7001",
                 "type": "hls"
             }
         ]
@@ -6094,8 +6146,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/14a329b450239b9a4beaa4953c33367b",
         "sources": [
             {
-                "name": "🔗 cablecast.tv",
-                "url": "https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-2/live.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=00d97c7a-dda7-410e-9081-8b0e5b51e1f0",
                 "type": "hls"
             }
         ]
@@ -6108,8 +6160,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/16a213d06e7362d97cb6085e70c9b5a2",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/cnbc/index.m3u8?e=1769886053&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=efb020ef1539dcc4885576b2649b3746",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=eff32f41-b72d-456c-89e1-cf86a097202a",
                 "type": "hls"
             }
         ]
@@ -6122,8 +6174,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/211d55de947bdf03f5c18b7e30e0d98b",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/comedycentral/index.m3u8?e=1769886050&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=46eb407f46866b5ed67fd1a88b98d347",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=26689f92-263e-417b-bdc3-fef8f7eb7fa5",
                 "type": "hls"
             }
         ]
@@ -6136,8 +6188,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/bf9792dc04cace6a25407b6304a35046",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/cooking/index.m3u8?e=1769886050&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4899950c65b30eed3b72e8f0a05c8e0d",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=f3b88c27-c0ed-4a0b-a5fd-05cd9ab80a01",
                 "type": "hls"
             }
         ]
@@ -6150,8 +6202,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/7deacf82c7f75cf7aaee5e0935c3d2c8",
         "sources": [
             {
-                "name": "🔗 amagi.tv",
-                "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=7d81cb6f-d9f2-4d87-adf3-84e6fcc65983",
                 "type": "hls"
             }
         ]
@@ -6164,8 +6216,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/cb1ab052f5b733bbf600a7a8e3a1164b",
         "sources": [
             {
-                "name": "🔗 sofast.tv",
-                "url": "https://streams2.sofast.tv/sofastplayout/32eb332e-f644-46e5-ad91-e55ad80d14f7_0_HLS/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=fe98def1-6f32-4ff5-83df-ddc1531e7016",
                 "type": "hls"
             }
         ]
@@ -6178,8 +6230,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/9f391e512f41bec54b163b83667da453",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/cp24/index.m3u8?e=1769886053&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=47740ce424a0360b7a5046e6254607a5",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=398702be-6ac4-4878-90bb-ada4a7d56d21",
                 "type": "hls"
             }
         ]
@@ -6220,8 +6272,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/1b9208802bbf0cc01f1e8319b0ec633d",
         "sources": [
             {
-                "name": "🔗 live247stream.com",
-                "url": "https://livecdn.live247stream.com/discoverpakistan/web/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=0158eec7-6eb2-4dac-83ac-78da727c3134",
                 "type": "hls"
             }
         ]
@@ -6234,13 +6286,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/99526d9269f86250d6bb6cb625cd8275",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/discovery_hd/index.m3u8?e=1769886071&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=250f23f61bd263949b3625312ff1b153",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/83/index.m3u8?token=b6fff4bf5db8a4e773c43cacada925167da76668-fbf8384c94e73144d9b29b7eeac311e8-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/83/index.m3u8?token=1b957352edc705aded4cc7e4417ee384dfd7dd8e-709bc9dcee1617ace574bab45fcd6924-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=59308a2b-4110-461e-a2b3-ab035527d5a8",
                 "type": "hls"
             }
         ]
@@ -6253,8 +6305,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/3f7983c0bc7cacd206dd195a2eff6b10",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/discoveryfamily/index.m3u8?e=1769886049&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9046988d43430b6f27058d9808906cba",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=6aa7469a-89a8-4c46-a141-90fe1fff7893",
                 "type": "hls"
             }
         ]
@@ -6267,13 +6319,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/530b47c088522c355a93788fd80fbb1b",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/discovery_science/index.m3u8?e=1769886068&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e599447808fddfde1f175808552d4076",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/discovery_science/index.m3u8?token=58aa7efdd7120d13dd501b6a27458599053b4fda-1b5c6b415cc4117269d35aa43b9d27e2-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/discovery_science/index.m3u8?token=ffddb10610781be20f0909c51498758e46221db7-d51731c7e452dc90137dfaebd3809fdb-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=7b8ecade-cb1a-485e-b270-d128197ec444",
                 "type": "hls"
             }
         ]
@@ -6286,13 +6338,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/d3f1746d033e2c46deca83fd5e54b08b",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/discovery_turbo/index.m3u8?e=1769886049&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c9e7b5508f42b4a93c8b66e260a6cb80",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/discovery_turbo/index.m3u8?token=119c4d089de27839069086e54af6339d5506b20d-77ae1ada82acb51f5c5859d178b39f5a-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/discovery_turbo/index.m3u8?token=1977e685dadf601b831024bab0c313976e97ffde-58b0e20dc96b9f16c7b9a64c4e073bdf-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=c106cb9b-69a2-4759-94b6-2822f5155488",
                 "type": "hls"
             }
         ]
@@ -6305,8 +6357,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/f61b7578d7596a0cd3a1e226dec4454a",
         "sources": [
             {
-                "name": "🔗 mgmlcdn.com",
-                "url": "https://dminnvllta.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/chunklist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=1fab9ff5-a704-4457-b028-3251afbb040d",
                 "type": "hls"
             }
         ]
@@ -6319,8 +6371,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/fd587fd6f8a11005910212b669d04e99",
         "sources": [
             {
-                "name": "🔗 mgmlcdn.com",
-                "url": "https://dmieigthvllta.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/chunklist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=d9b700ff-3282-4654-b872-0b45081f72f3",
                 "type": "hls"
             }
         ]
@@ -6342,13 +6394,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Elche CF VS FC Barcelona (laliga 2025-26)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/131041_5427_ELC_BAR_FC-Web.png",
+        "name": "Ekushey TV (480p)",
+        "category": "Unknown",
+        "img": "",
         "sources": [
             {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fdlive.fancode.com/mumbai/131041_english_hls_3cab0967848633_1ta-di_h264/index.m3u8",
+                "name": "🔗 ekusheyserver.com",
+                "url": "https://ekusheyserver.com/etvlivesn.m3u8",
                 "type": "hls"
             }
         ]
@@ -6375,8 +6427,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/c0b0c986890a8c88c3566d93e18cada6",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/epix/index.m3u8?e=1769886050&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=8ac595c11adcdbb13f9fa1a8a760dac7",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=5b8f4aa1-7073-45c2-8d3d-9309db02d2d7",
                 "type": "hls"
             }
         ]
@@ -6391,20 +6443,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 fancode.com",
                 "url": "https://bd-mc-fdlive.fancode.com/mumbai/140033_english_hls_97fcdda9ad89287_1ta-di_h264/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Featured Holes - Day 3 VS Torrey Pines Golf Course (farmers Insurance Open 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/farmers-insurance-open-2026-old-match-card-_1769182129290.png",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fdlive.fancode.com/mumbai/140034_english_hls_bc9889b7b389576_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -6445,8 +6483,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/582675c375dfa47c2d66e6639fcd2eac",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/foodnetwork/index.m3u8?e=1769886050&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f978532069ec42e4413ea5b642afdecc",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=98cbc702-3ebe-45bf-be48-0b5bd0957baf",
                 "type": "hls"
             }
         ]
@@ -6459,8 +6497,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/4f6486854be670f7458ab60d0402ee42",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/fox5/index.m3u8?e=1769886049&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=8cae7211e5bf4639d94e9ce24a1a7c7f",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=442d91ee-46f3-4dc7-bbde-05f6775e9e6f",
                 "type": "hls"
             }
         ]
@@ -6473,8 +6511,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/20e4602dd584784607e5eff3963cdde6",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/foxbusiness/index.m3u8?e=1769886049&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7274562feb19286449bfa69bb1b79abe",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=6be81470-eb86-4df1-9726-a95396a293d0",
                 "type": "hls"
             }
         ]
@@ -6487,8 +6525,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/6dd20ecde19ea3f6b6cf6c040701973e",
         "sources": [
             {
-                "name": "🔗 foxweather.com",
-                "url": "https://247wlive.foxweather.com/stream/index.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=8b15f84b-674b-420e-843a-47c71d0c15e2",
                 "type": "hls"
             }
         ]
@@ -6501,8 +6539,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/f403cc315ca6269c5fcbf1875c95d329",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/fx/index.m3u8?e=1769886050&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=55a098856cc4a5d44a769b8d2115a967",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=d4175eaa-ec06-43fc-a022-cfd5432e31b9",
                 "type": "hls"
             }
         ]
@@ -6515,8 +6553,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/e0d54d73e6b9cf211cd760650467e596",
         "sources": [
             {
-                "name": "🔗 5centscdn.com",
-                "url": "https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=edc93090-78ee-4af8-9d81-8c4a70ae632d",
                 "type": "hls"
             }
         ]
@@ -6543,8 +6581,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/495e1816602db61aa4c2a348a257bd0a",
         "sources": [
             {
-                "name": "🔗 sofast.tv",
-                "url": "https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=8cf7e03a-c0c4-4373-8b4f-d2f0c809472c",
                 "type": "hls"
             }
         ]
@@ -6571,8 +6609,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/09817ae293eb16b79015ce66c48accbd",
         "sources": [
             {
-                "name": "🔗 ishiacloud.com",
-                "url": "https://live.ishiacloud.com/haditv.co.uk/haditv1.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=3eadcf2b-f425-4555-b080-5c4ec5224708",
                 "type": "hls"
             }
         ]
@@ -6599,8 +6637,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/a23f256ae7f1322fc7a6ab663410064b",
         "sources": [
             {
-                "name": "🌐 pluto.tv",
-                "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/628e685ba3811100070551a8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c291886-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=58dbb587-5d0d-412d-ae10-107ee9caac5a",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=307777ec-0dd3-4e09-9835-5fe3844054dd",
                 "type": "hls"
             }
         ]
@@ -6627,8 +6665,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/4a1291716680b5c095d33e106337bb04",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/hbo/index.m3u8?e=1769886048&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=91b4c710465702b08a76cc14e6e73080",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=1124edfa-0c73-4389-8c8c-988b8ae65460",
                 "type": "hls"
             }
         ]
@@ -6641,8 +6679,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/b64c028d8c0895ed81f3201d5979f7ba",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/hbo2/index.m3u8?e=1769886051&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=835aab408df513961d349201f0396ca9",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=4804c4fb-4d32-4a91-88e2-fa6d0798f6a5",
                 "type": "hls"
             }
         ]
@@ -6655,8 +6693,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/be15ed692e22ad4b7dcb9d7251ce32a6",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/hgtv/index.m3u8?e=1769886051&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=acdbe1216fd11ddc6d666be2d0750340",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=472766de-e0af-4cf3-89b4-31390bbe0942",
                 "type": "hls"
             }
         ]
@@ -6683,8 +6721,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/72ea808c9221d980cb79623ce3c5e820",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/historyen/index.m3u8?e=1769886049&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=33bd9104eb662208ca63625d0a7be519",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=77aab6ef-59da-4e68-881f-b12ea01df543",
                 "type": "hls"
             }
         ]
@@ -6697,8 +6735,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/1678abdbf203bb77af4bbf2905a3de59",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/ibtvusa/index.m3u8?e=1769886052&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=6a2482a55bbb89be33b6301c64eac5f2",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=f7f53551-5bcf-4704-9652-18a8b70568ca",
                 "type": "hls"
             }
         ]
@@ -6725,8 +6763,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/b35e9c1bcde3e6876892a22f91a9c4b5",
         "sources": [
             {
-                "name": "🔗 amagi.tv",
-                "url": "https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=bb4763ad-ff05-4aae-92f0-daa668de5231",
                 "type": "hls"
             }
         ]
@@ -6739,8 +6777,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/5e74c3498e10b3cd2dadfe676681d387",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/islam/index.m3u8?e=1769886047&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=cd8d48bb93e2919eeeadaeea49a5bbc4",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=f6096a6f-9891-4bfc-98d8-ea20ea1388fe",
                 "type": "hls"
             }
         ]
@@ -6767,8 +6805,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/24f86d03093467c8b9fa0e17f72c4e06",
         "sources": [
             {
-                "name": "🌐 mediacdn.ru",
-                "url": "http://origin5.mediacdn.ru/live/kidstv/index.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=99edc260-ff96-4c92-975d-f52d9600844b",
                 "type": "hls"
             }
         ]
@@ -6781,8 +6819,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/c355110e9cbebd89649a95f0f0fd77da",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/kolkatatv/index.m3u8?e=1769886067&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=a43290e09fd6de6bf9f5ebf0699166e4",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=262789f8-92af-4738-986c-c5deafeef997",
                 "type": "hls"
             }
         ]
@@ -6795,8 +6833,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/ac4e2fb2e4eccd7417e5cc5b5a733369",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/laff/index.m3u8?e=1769886051&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=35cd8e59bddbf045ea3c2434c3d9d98d",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=02deb7af-2139-41ec-96af-3f805a168021",
                 "type": "hls"
             }
         ]
@@ -6809,8 +6847,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/90258e6758834a12979d27097bee04a7",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/lifetime/index.m3u8?e=1769886051&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c4b3313fd532945f3001f426e9b01cdf",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=393d86c3-5518-4f70-94f1-af2f388d9181",
                 "type": "hls"
             }
         ]
@@ -6888,27 +6926,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Marquee Group - Day 3 VS Torrey Pines Golf Course (farmers Insurance Open 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/farmers-insurance-open-2026-old-match-card-_1769182129290.png",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fdlive.fancode.com/mumbai/140032_english_hls_6ce940b61978129_1ta-di_h264/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Millennium TV",
         "category": "Channels",
         "img": "https://s3.aynaott.com/storage/b6cd78082093f534a90c9e3ba38149f2",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/millenniumtv/index.m3u8?e=1769886067&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0b6584b2a59605e14d4fa0c307cfd423",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=50de5fa7-d6a7-48bf-9058-bd7aa1809e56",
                 "type": "hls"
             }
         ]
@@ -6963,13 +6987,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/a535fd3aae1f5dc79e9afa561cf28983",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/moviebangla/index.m3u8?e=1769886067&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e583af09812ae48d3ba6f966e359424d",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/86/index.m3u8?token=f74a28bd9f41a36e8ac720ada5da25f4505526e7-54274dcc3f80957affbef0112c6a5871-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/86/index.m3u8?token=2f2fe26910c8afd617aecc8985ec80d5923b3083-209ca86090a1b84e0bae3a40318a8654-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=d80aa15f-6487-40de-9bf7-04dd8203d5f4",
                 "type": "hls"
             }
         ]
@@ -6996,8 +7020,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/4d343b446b1e7164bb7239bbe822a570",
         "sources": [
             {
-                "name": "🔗 amagi.tv",
-                "url": "https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=e061189b-415d-4241-b0ab-7077924c6775",
                 "type": "hls"
             }
         ]
@@ -7010,8 +7034,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/9a9ca715640d3dc227a0a74750ab17f2",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/msnbc/index.m3u8?e=1769886056&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=de6cc393730a36d118dd3d5666d552eb",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=df14a727-6c91-4c8f-ba9f-2ae527ce27dd",
                 "type": "hls"
             }
         ]
@@ -7038,13 +7062,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/2dce8297266bbc9c235c27119f914e1b",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/natgeo/index.m3u8?e=1769886051&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ab6edba6a63c7077599d49dd6630536f",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/35/index.m3u8?token=b58626907f2e695c41fa81a75054dae62b379575-9dc275e69617739a6b0fd0f23c27ec01-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/35/index.m3u8?token=b5ad7f24293c0ebb6c53550ba90b91487eeafdbd-673d15e9f3b1ba213ce4f76d10ff57bf-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=f79543b0-41ab-433f-8bfc-53d6bba16399",
                 "type": "hls"
             },
             {
@@ -7062,8 +7086,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/b6d9c515205186e7f23afb0b1ccba232",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/NewsIndia24x7/index.m3u8?e=1769886067&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=99e4f7547f54f9d61823e9d8cf172654",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=247cf723-3c1d-47bc-b765-64da2623a297",
                 "type": "hls"
             }
         ]
@@ -7076,8 +7100,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/b051fa53014fff26dabf744955969810",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/NewsTime/index.m3u8?e=1769886066&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=23ce446f7b61cdd537c5fcac665776a5",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=c8080032-034e-4f04-b1ee-0847a6e62a41",
                 "type": "hls"
             }
         ]
@@ -7090,8 +7114,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/7526c6d25a1c213b413fe0647b956a8c",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/ntveurope/index.m3u8?e=1769886067&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=fe5a5a30037abb52b09a3c4804fb0126",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=140f1e47-362e-4fec-ba69-d766b6b03a32",
                 "type": "hls"
             }
         ]
@@ -7132,8 +7156,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/cccbc9a19bb14504beacff550f47d014",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/peacetv/index.m3u8?e=1769886068&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=957e7fe2979c3246dd6dc641af128bad",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=5a6ca809-0fbd-44d5-bcf4-aeb4d4cbd849",
                 "type": "hls"
             }
         ]
@@ -7160,8 +7184,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/08881e3043acc1d8671a055f1c8b2a91",
         "sources": [
             {
-                "name": "🌐 myradiostream.com",
-                "url": "http://s3.myradiostream.com:14498/;stream.mp3",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=c0eb976e-c0ef-42e5-abf5-af9e0e619ef4",
                 "type": "hls"
             }
         ]
@@ -7174,8 +7198,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/be9b48d87dcd7711cac19c17d8e01b27",
         "sources": [
             {
-                "name": "🔗 persiana.live",
-                "url": "https://ptravelhls.persiana.live/hls/stream.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=6587b33e-12f4-4f17-a37c-1a0955457ccb",
                 "type": "hls"
             }
         ]
@@ -7188,8 +7212,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/294b72dc2ca7b74ab3312059728cab22",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/pix11/index.m3u8?e=1769886069&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=86cdb23183657936b1873f9d86efba30",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=a5963ff0-36c4-4a1f-b8ce-5356c890a859",
                 "type": "hls"
             }
         ]
@@ -7258,8 +7282,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/9531f970bb7abf30ac2a48f40838c3a1",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/Rplus/index.m3u8?e=1769886065&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=01646bba1acaa718f2770a19ac261113",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=8dc64f21-7dc8-4a41-a583-ddec9f112aeb",
                 "type": "hls"
             }
         ]
@@ -7272,8 +7296,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/5a7f80e9417b452051a0e75db768e796",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/RplusGold/index.m3u8?e=1769886066&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f9320833ac10393b1f01ae1d794d7589",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=28d6e51f-2e35-4c83-9f18-3cf2b8ad1b77",
                 "type": "hls"
             },
             {
@@ -7291,8 +7315,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/af1ee0428972bbd41653a75ebe891f92",
         "sources": [
             {
-                "name": "🌐 co.uk",
-                "url": "http://radiobangladesh.co.uk:8000/live",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=95d7aeeb-37ce-49fb-b819-930b1a9636db",
                 "type": "hls"
             }
         ]
@@ -7319,8 +7343,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/13e3353730d4ec9243de82bf735ee2c5",
         "sources": [
             {
-                "name": "🔗 ihostman.com",
-                "url": "https://apollo.ihostman.com/8002/stream",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=c8a198a5-cf2b-47db-9dea-819600c80e0c",
                 "type": "hls"
             }
         ]
@@ -7333,8 +7357,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/22af43810a37af9a151f1e0a23adde63",
         "sources": [
             {
-                "name": "🔗 amazonaws.com",
-                "url": "https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=61b39e9d-7b21-414a-8050-a6d8cf68363b",
                 "type": "hls"
             }
         ]
@@ -7347,8 +7371,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/f1fbcbc6cd325f5324eabb3bc733584e",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/RDSSocialTV/index.m3u8?e=1769886048&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=18cb3d17d191cdc4d5b50430d8e1af00",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=fc4dfffa-ceff-404f-bf3b-1de7c6771ae5",
                 "type": "hls"
             }
         ]
@@ -7361,8 +7385,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/2127a03bd8ebe021b6bff9bdcdfb1973",
         "sources": [
             {
-                "name": "🌐 spicefmbd.com",
-                "url": "http://stream.spicefmbd.com/stream.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=08264a87-e3f4-4310-bf6c-f9d450595884",
                 "type": "hls"
             }
         ]
@@ -7375,8 +7399,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/18cb20e8e53eb27249c62d3aedf51241",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/R_Bangla/index.m3u8?e=1769886066&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=74ca052ee02bd50f6fea337bfef5e9fb",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=7141c05b-97cd-4dd1-9584-423c7a5ce13d",
                 "type": "hls"
             }
         ]
@@ -7389,8 +7413,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/78bc841232179b088a10eb32564c6c49",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/revolt/index.m3u8?e=1769886071&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=8acb625ce65dcf92e6ef4582089fe7db",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=54b59c45-9064-4ce6-b6cd-12895b34319d",
                 "type": "hls"
             }
         ]
@@ -7417,8 +7441,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/f4cdc5974a02f63c833146ad8856fb3b",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/RupshiBangla/index.m3u8?e=1769886066&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0608fb6d07439ceed747eeb111acade8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=3aa4d27d-91e1-4afe-a6b5-de35beefae4f",
                 "type": "hls"
             }
         ]
@@ -7431,8 +7455,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/80424ce0682e14e7d51e28de33d5f380",
         "sources": [
             {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-4.pishow.tv/live/1143/master.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=75412270-ce20-4376-8e7f-21fc76f84ed4",
                 "type": "hls"
             }
         ]
@@ -7459,8 +7483,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/76d7d7446ee57ec14ff67c1678725d19",
         "sources": [
             {
-                "name": "🔗 kwikmotion.com",
-                "url": "https://live.kwikmotion.com/sbrksasaudiaradiolive/srpksasaudiaradio/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=47c1f346-8f50-467d-b4ba-8c6084950aa9",
                 "type": "hls"
             }
         ]
@@ -7473,8 +7497,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/a6d7d9729aafd5055bfd5356b6fa8eef",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/skycinemanimation/index.m3u8?e=1769886051&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0f444f6698deb14eb5268922a180846e",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=1426f66b-7413-4bab-91a9-af2ac5c15474",
                 "type": "hls"
             }
         ]
@@ -7487,8 +7511,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/78b7ab973209ec06346cf8acfd8544cd",
         "sources": [
             {
-                "name": "🔗 skycdp.com",
-                "url": "https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=84600ec5-52b8-45fc-824a-3e3b4f7c9355",
                 "type": "hls"
             }
         ]
@@ -7543,8 +7567,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/d51be74cd5c23e19cb7e8c81029c2af9",
         "sources": [
             {
-                "name": "🔗 spicefmbd.com",
-                "url": "https://stream.spicefmbd.com/stream.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=ce5789db-3110-4d90-a4fc-a8cc7c32a6a6",
                 "type": "hls"
             }
         ]
@@ -7571,8 +7595,8 @@ window.rawChannels2 = [
         "img": "",
         "sources": [
             {
-                "name": "🔗 sofast.tv",
-                "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=33386cf6-4275-4e8a-93f8-a530f0db1e45",
                 "type": "hls"
             }
         ]
@@ -7599,13 +7623,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/890de862bcd876c54da7f3c0a3af0515",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/sjhdbd/index.m3u8?e=1769886062&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c9d42028f9d2513b01e4c3e212126556",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/30/index.m3u8?token=069b2af7d65fbf352325cca1ee933c1f0e364e21-830b25223760e5d1b6721e97d49c4904-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/30/index.m3u8?token=af604b196418c0658efc1e2c40ad68e249b74e89-9f0163e91ce5e6df23d1e5a8233de20f-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=f07177e9-d1a9-48b4-8e2e-1718d098bbfb",
                 "type": "hls"
             },
             {
@@ -7638,7 +7662,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/starmovies/index.m3u8?token=fd3e71f0f6919faf27ab7b21142e02a9ae716cad-c1b89a4ad7ad19e9bcc57b9c899b879e-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/starmovies/index.m3u8?token=7946835ed974bb35f62762a4eae3075c74ceea94-7c277b2311f64cd0c9c0c18ea18bb4d5-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -7651,13 +7675,13 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/cb91d6750648d5fd4a51c7cb6ff9eeed",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/sphdbd/index.m3u8?e=1769886063&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=d0d5b4560f8faa8d78cc5f6bb50b1c49",
+                "name": "⭐ roarzone.info",
+                "url": "https://edge2.roarzone.info:8444/roarzone/bk/67/index.m3u8?token=4857eecf0da7ada8d66c98ec575ab22e5911854c-a99843b17b64ceb746d9892ac9a38e24-1769904608-1769901008",
                 "type": "hls"
             },
             {
-                "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/bk/67/index.m3u8?token=651b7a176266c3de19d8abd01188db3493552657-24fcdc159d2d690903187f35d980136b-1769899815-1769896215",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=74524e79-5f3a-4824-8202-b9e346acb9a4",
                 "type": "hls"
             }
         ]
@@ -7670,8 +7694,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/addd5f3c52326489e02df9aa14bb4ea5",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/syfy/index.m3u8?e=1769886052&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3660096f76afe987c7c68059026e6ffe",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=979764c3-92a0-46d0-9408-a3d458fc761e",
                 "type": "hls"
             }
         ]
@@ -7698,8 +7722,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/45a768728c7514ba59d1a0ccf806e222",
         "sources": [
             {
-                "name": "🔗 seoul.kr",
-                "url": "https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=a1c8c162-0892-444b-8e84-0d62b9aa69f6",
                 "type": "hls"
             }
         ]
@@ -7740,8 +7764,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/ba3c9fa1144bc65322f8ae3a1bb69cc9",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/tlc_hd/index.m3u8?e=1769886052&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c5ac195240d2c4904042d4a432a688ef",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=63db4c23-d199-4be6-90a0-d46742c7d53e",
                 "type": "hls"
             }
         ]
@@ -7768,8 +7792,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/a7f87f1e71905ee14429ed26abd29b2a",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/travelxp/index.m3u8?e=1769886052&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ff79b53db4db0c54f88d19bc7184b890",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=b32b87d2-828c-48e2-b32c-eec0ed92b1a5",
                 "type": "hls"
             }
         ]
@@ -7782,8 +7806,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/a676d2f5ddf6e5f978b3d51876dceecf",
         "sources": [
             {
-                "name": "🔗 amazonaws.com",
-                "url": "https://27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_TravelXP/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=22c31d4b-491c-4eca-ac07-e9b1f131f5fd",
                 "type": "hls"
             }
         ]
@@ -7894,8 +7918,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/376b8483457b06dbc5b7b7b327a21ac6",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/usa/index.m3u8?e=1769886056&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=df0b4f5046009ba580dcd62df9f62739",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=f6f1a6ed-4629-4010-b50d-13fa4dd9a575",
                 "type": "hls"
             }
         ]
@@ -7908,8 +7932,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/67ec5601a4ce880899953322b536a783",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/vtvusa/index.m3u8?e=1769886070&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9b01e75558536ebe3c2bc73b712c15d6",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=7ba34de6-f932-440a-9fe4-190679a2d9a0",
                 "type": "hls"
             }
         ]
@@ -7950,8 +7974,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/67e08c23033802b4443baf81d1b048bf",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/TheWeatherChannel/index.m3u8?e=1769886052&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=16a124b846a38e316152aef3249e31ed",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=acc7957a-b9c4-482a-8639-154bdd7eada1",
                 "type": "hls"
             }
         ]
@@ -7978,8 +8002,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/b0bdea4df810e2d46f689cbb6c990c91",
         "sources": [
             {
-                "name": "🔗 wurl.tv",
-                "url": "https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=213a56e4-886c-44b1-8d72-2f8b9957376b",
                 "type": "hls"
             }
         ]
@@ -8006,8 +8030,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/597c839e577e81813e44812cedc50892",
         "sources": [
             {
-                "name": "🔗 cloudfront.net",
-                "url": "https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=ae2febd5-b25c-4977-a117-fc4fadcc44f6",
                 "type": "hls"
             }
         ]
@@ -8034,8 +8058,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/1e7dc35fdb26ce3aca17b41fae1aa56f",
         "sources": [
             {
-                "name": "🔗 amagi.tv",
-                "url": "https://aenetworks-worldwartv-rakuten.amagi.tv/playlist.m3u8",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=b2598ee7-734c-4265-9d9a-82ec8e1100e9",
                 "type": "hls"
             }
         ]
@@ -8081,8 +8105,8 @@ window.rawChannels2 = [
         "img": "https://s3.aynaott.com/storage/fea79ac5193dd9fb80aa1996f2adc1e2",
         "sources": [
             {
-                "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/zee24/index.m3u8?e=1769886067&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b82a8fe0c31eebcaca862513ae7f3b77",
+                "name": "🔗 fifabangladesh.site",
+                "url": "https://fifabangladesh.site/?id=71b599fa-1284-46c3-a2de-9eaab38d74de",
                 "type": "hls"
             }
         ]
@@ -8096,7 +8120,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ roarzone.info",
-                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/zee_cafe_hd/index.m3u8?token=184b126e2f35718a459fc18255aede32d0f4d47f-a95a55dc8cd8ee313c6abee6a24ff209-1769899815-1769896215",
+                "url": "https://edge2.roarzone.info:8444/roarzone/toffee/zee_cafe_hd/index.m3u8?token=c4870bf21b6282d4db60f4d2ba79842403e87473-1b367b442101d24ff5532b622c732aca-1769904608-1769901008",
                 "type": "hls"
             }
         ]
@@ -8106,11 +8130,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 531
-// Total sources: 655
-// Top priority sources (⭐): 280
+// Total channels: 532
+// Total sources: 658
+// Top priority sources (⭐): 100
 // Other priority sources (⚡): 1
-// Regular sources: 374
+// Regular sources: 557
 // Categories: 11
 // Merged duplicates: 177 channels consolidated
 // Generated with M3U processor
