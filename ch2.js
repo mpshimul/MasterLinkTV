@@ -1,4 +1,4 @@
-// Generated: 2026-01-31 06:37 UTC
+// Generated: 2026-01-31 12:39 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -689,7 +689,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (20 channels, 8 with 🔐 DRM)
+    // SPORTS (18 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -747,48 +747,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Hub Premier 1 HD",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Premier-1/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279488754%27&EntityType=%27Item%27&EntityId=%27567123%27&Width=1920&Height=1080",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Hub Premier 2 HD",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Premier-2/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624578%27&EntityType=%27Item%27&EntityId=%27572415%27&Width=1920&Height=1080",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Hub Premier 6 HD",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Premier-6/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624633%27&EntityType=%27Item%27&EntityId=%27572421%27&Width=1920&Height=1080",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
         "name": "Hub Premier 7 HD",
         "sources": [
             {
@@ -798,20 +756,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624605%27&EntityType=%27Item%27&EntityId=%27572417%27&Width=1920&Height=1080",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Hub Premier 8 HD",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Premier-8/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624577%27&EntityType=%27Item%27&EntityId=%27572414%27&Width=1920&Height=1080",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -859,29 +803,15 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Hub Sports 7",
+        "name": "Hub Sports 4",
         "sources": [
             {
                 "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Sports-7/playlist.m3u8",
+                "url": "https://hls.iill.top/api/Hub-Sports-4/playlist.m3u8",
                 "type": "hls"
             }
         ],
-        "img": "https://epg.pw/media/images/epg/2025/09/09/20250909042505032176_56.png",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Hub Sports 8",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Sports-8/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://epg.pw/media/images/epg/2025/09/09/20250909042510381850_84.png",
+        "img": "https://i.vimeocdn.com/video/2065871386-1e9bff68a218b46f95c503bc69cf9d566c5021dae6479880b15ba09efa83da70-d?f=webp",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -892,6 +822,11 @@ window.rawChannels2 = [
             {
                 "name": "⚡ Server 1",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1707/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://178.33.239.54:8080/503a/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ],
@@ -904,12 +839,59 @@ window.rawChannels2 = [
         "name": "Live 3",
         "sources": [
             {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://178.33.239.54:8080/507a/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 3",
                 "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
                 "type": "hls"
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports 1",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports 2",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "T Sports",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/tsport/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/DZbVq4jM/t-sports.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1006,7 +988,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (18 channels, 1 with 🔐 DRM)
+    // KIDS (19 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1113,6 +1095,25 @@ window.rawChannels2 = [
             {
                 "name": "Server 2",
                 "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/xd5gYkM8/tom-jerry.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "24/7 Tom And Jerry",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "http://1tv41.icu:8080/live/43761449506/smallwood/66311.m3u8?&Connection=keep-alive",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://1tv41.icu:8080/live/43761449506/smallwood/66311.m3u8?&Connection=keep-alive",
                 "type": "hls"
             }
         ],
@@ -1267,7 +1268,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (71 channels, 6 with 🔐 DRM)
+    // ENTERTAINMENT (72 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1839,6 +1840,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "GTV",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/gazitv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/yNLC1Rfw/gtv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Hum TV",
         "sources": [
             {
@@ -2204,6 +2219,11 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://tvsen1.aynaott.com/gUX8BJmNc2yF/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 3",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -3431,6 +3451,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Star Gold",
+        "sources": [
+            {
+                "name": "Stream 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/stargold/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/7YJXRsp7/gold.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Superfine Films",
         "sources": [
             {
@@ -3440,20 +3474,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://jiotvimages.cdn.jio.com/dare_images/shows/epgdata/a5f8b8d698133ad07c19b5c7a56a7de6.png?width=300",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Tara Bangla Cinema",
-        "sources": [
-            {
-                "name": "Playlist",
-                "url": "https://anywhere.pwisetthon.com/http://103.145.48.150:90/laosat24/taratv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/503Bkwmk/tarabanglacinema.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4137,7 +4157,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (32 channels, 10 with 🔐 DRM)
+    // OTHERS (33 channels, 11 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4560,6 +4580,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic Wild",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
+                    "key": "adf163c6c1729e6f77668d4e49f32352"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Popular Science",
         "sources": [
             {
@@ -4636,7 +4674,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 298
-// Channels with DRM: 37
+// Total channels: 299
+// Channels with DRM: 38
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
