@@ -1,4 +1,4 @@
-// Generated: 2026-01-31 12:39 UTC
+// Generated: 2026-01-31 18:29 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -689,7 +689,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (18 channels, 8 with 🔐 DRM)
+    // SPORTS (20 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -742,6 +742,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/bJRPtBpR/bein3.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Premier 6 HD",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Premier-6/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624633%27&EntityType=%27Item%27&EntityId=%27572421%27&Width=1920&Height=1080",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -817,6 +831,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Hub Sports 6",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Sports-6/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://epg.pw/media/images/epg/2025/02/12/20250212042824169600_35.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
         "name": "Live 2",
         "sources": [
             {
@@ -838,6 +866,11 @@ window.rawChannels2 = [
     {
         "name": "Live 3",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live-en.aisports.cc/moviebox/device01/playlist.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 2",
                 "url": "https://satoshi-cors.herokuapp.com/http://178.33.239.54:8080/507a/tracks-v1a1/mono.m3u8",
@@ -4157,7 +4190,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (33 channels, 11 with 🔐 DRM)
+    // OTHERS (32 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4580,24 +4613,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic Wild",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
-                    "key": "adf163c6c1729e6f77668d4e49f32352"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "Popular Science",
         "sources": [
             {
@@ -4674,7 +4689,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 299
-// Channels with DRM: 38
+// Total channels: 300
+// Channels with DRM: 37
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
