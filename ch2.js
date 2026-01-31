@@ -1,11 +1,11 @@
-// Generated: 2026-01-31 01:29 UTC
+// Generated: 2026-01-31 06:37 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (42 channels, 3 with 🔐 DRM)
+    // NEWS (43 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -573,6 +573,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "SITI 24X7",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://www.schannels.in/SITI24X7_1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/cSsxzVa-2j7DQ7ZLaRSS5oV4RVtkfiwIZoccMKSyitWXf5g1UyYcwavRI2rr-9JaBO52e_6T=s176-c-k-c0x00ffffff-no-rj-mo",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Somoy TV",
         "sources": [
             {
@@ -675,7 +689,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (17 channels, 8 with 🔐 DRM)
+    // SPORTS (20 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -756,6 +770,48 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624578%27&EntityType=%27Item%27&EntityId=%27572415%27&Width=1920&Height=1080",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Premier 6 HD",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Premier-6/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624633%27&EntityType=%27Item%27&EntityId=%27572421%27&Width=1920&Height=1080",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Premier 7 HD",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Premier-7/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624605%27&EntityType=%27Item%27&EntityId=%27572417%27&Width=1920&Height=1080",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Hub Premier 8 HD",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://hls.iill.top/api/Hub-Premier-8/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%279624577%27&EntityType=%27Item%27&EntityId=%27572414%27&Width=1920&Height=1080",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -2254,7 +2310,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (42 channels, 3 with 🔐 DRM)
+    // NEWS (43 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2822,6 +2878,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "SITI 24X7",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://www.schannels.in/SITI24X7_1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/cSsxzVa-2j7DQ7ZLaRSS5oV4RVtkfiwIZoccMKSyitWXf5g1UyYcwavRI2rr-9JaBO52e_6T=s176-c-k-c0x00ffffff-no-rj-mo",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Somoy TV",
         "sources": [
             {
@@ -2924,7 +2994,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (34 channels, 6 with 🔐 DRM)
+    // MOVIE (36 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2965,6 +3035,20 @@ window.rawChannels2 = [
             {
                 "name": "Playlist",
                 "url": "https://tplay.live/playlist/movies/bollywood-movies/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/HsvPf09Y/bollywood.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "24/7 Bollywood Movies 2",
+        "sources": [
+            {
+                "name": "Playlist",
+                "url": "https://vods2.aynaott.com/hindimovies/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -3263,6 +3347,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/vHRnL2MH/movie-bangla.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Movie Box",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/xdVgw5yG/movie-box.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4039,7 +4137,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (33 channels, 11 with 🔐 DRM)
+    // OTHERS (32 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4462,24 +4560,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic Wild",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
-                    "key": "adf163c6c1729e6f77668d4e49f32352"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "Popular Science",
         "sources": [
             {
@@ -4556,7 +4636,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 292
-// Channels with DRM: 38
+// Total channels: 298
+// Channels with DRM: 37
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
