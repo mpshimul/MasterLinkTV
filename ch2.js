@@ -1,4 +1,4 @@
-// Generated: 2026-02-02 12:49 UTC
+// Generated: 2026-02-02 18:40 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -787,7 +787,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (23 channels, 8 with 🔐 DRM)
+    // SPORTS (20 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -840,62 +840,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/bJRPtBpR/bein3.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Hub Sports 1",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Sports-1/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://static.wikia.nocookie.net/logos/images/d/d4/HUB_Sports_1.png/revision/latest/scale-to-width-down/1200?cb=20240218062835&path-prefix=vi",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Hub Sports 2",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Sports-2/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://static.wikia.nocookie.net/logosfake/images/2/25/HubSports_2.png/revision/latest?cb=20190619114541",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Hub Sports 3",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Sports-3/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://r2.thesportsdb.com/images/media/channel/logo/tmpwbb1655810489.png",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Hub Sports 4",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://hls.iill.top/api/Hub-Sports-4/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.vimeocdn.com/video/2065871386-1e9bff68a218b46f95c503bc69cf9d566c5021dae6479880b15ba09efa83da70-d?f=webp",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1046,6 +990,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports 2",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -4656,11 +4614,6 @@ window.rawChannels2 = [
                 "name": "Asia",
                 "url": "https://cdn4.skygo.mn/live/disk1/BBC_earth/HLSv3-FTA/BBC_earth.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "China",
-                "url": "https://hls.iill.top/api/BBC-Earth/playlist.m3u8",
-                "type": "hls"
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNXOrjX8auopIAAKFRHx1Y-KLi8Ync-CWUfw&s",
@@ -4674,11 +4627,6 @@ window.rawChannels2 = [
             {
                 "name": "Asia",
                 "url": "https://cdn4.skygo.mn/live/disk1/BBC_lifestyle/HLSv3-FTA/BBC_lifestyle.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "China",
-                "url": "https://hls.iill.top/api/BBC-Lifestyle/playlist.m3u8",
                 "type": "hls"
             }
         ],
@@ -5118,7 +5066,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 328
+// Total channels: 325
 // Channels with DRM: 40
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
