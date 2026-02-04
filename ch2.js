@@ -1,4 +1,4 @@
-// Generated: 2026-02-04 12:49 UTC
+// Generated: 2026-02-04 18:45 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1347,7 +1347,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (72 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (73 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2265,6 +2265,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/02nTdDvr/satv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Sony Entertainment",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/sethd/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/ydq1SThV/set.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -4457,7 +4471,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (32 channels, 10 with 🔐 DRM)
+    // OTHERS (33 channels, 11 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4880,6 +4894,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic Wild",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
+                    "key": "adf163c6c1729e6f77668d4e49f32352"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Popular Science",
         "sources": [
             {
@@ -4956,7 +4988,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 318
-// Channels with DRM: 42
+// Total channels: 320
+// Channels with DRM: 43
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
