@@ -1,4 +1,4 @@
-// Generated: 2026-02-04 06:48 UTC
+// Generated: 2026-02-04 12:49 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -943,11 +943,6 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Stream 1",
-                "url": "https://mrzplayin.fun/roarzon/stream.php?id=18283d4f5f13c0cac5cab4433a0ed8f0&e=.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Stream 1",
                 "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
                 "type": "hls"
             }
@@ -962,11 +957,6 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Stream 1",
-                "url": "https://mrzplayin.fun/roarzon/stream.php?id=1e8e3ca973f7808849df688219554a90&e=.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Stream 1",
                 "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
                 "type": "hls"
             }
@@ -979,11 +969,6 @@ window.rawChannels2 = [
     {
         "name": "T Sports",
         "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://padmaonline.duckdns.org:8088/T-SportHD/index.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 3",
                 "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/tsport/index.m3u8",
@@ -1362,7 +1347,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (73 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (72 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2280,20 +2265,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/02nTdDvr/satv.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Sony Entertainment",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/sethd/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/ydq1SThV/set.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -4486,7 +4457,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (33 channels, 11 with 🔐 DRM)
+    // OTHERS (32 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4909,24 +4880,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic Wild",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
-                    "key": "adf163c6c1729e6f77668d4e49f32352"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5003,7 +4956,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 320
-// Channels with DRM: 43
+// Total channels: 318
+// Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
