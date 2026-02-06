@@ -1,11 +1,11 @@
-// Generated: 2026-02-06 12:49 UTC
+// Generated: 2026-02-06 18:45 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (50 channels, 3 with 🔐 DRM)
+    // NEWS (55 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -59,7 +59,7 @@ window.rawChannels2 = [
         "name": "Al Jazeera",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "Qatar",
                 "url": "https://live-hls-web-aje-fa.thehlive.com/AJE/index.m3u8",
                 "type": "hls"
             }
@@ -92,12 +92,31 @@ window.rawChannels2 = [
         "name": "BBC News",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "UK",
                 "url": "https://tplay.live/out/news/bbc-news/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Asia",
+                "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8",
                 "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/s2679ZP4/bbc.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Bloomberg Television",
+        "sources": [
+            {
+                "name": "USA",
+                "url": "https://dcfcae89.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1pbl9CbG9vbWJlcmdUVl9ITFM/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXZCiWELnS_hJTOtsTrWDZKkhkmthiH2BfLA&s",
         "category": "News",
         "description": "News Channel"
     },
@@ -173,6 +192,24 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://media.licdn.com/dms/image/v2/D4D0BAQGXbP9MEGQ2MA/company-logo_200_200/B4DZcIT5xiGgAI-/0/1748191125673/cnbc_tv18_logo?e=2147483647&v=beta&t=KFbzWG-tLyBsxJILxVo9cAiyFHaZP_BPhTVOCTH_AFc",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "CNN",
+        "sources": [
+            {
+                "name": "🔐 USA",
+                "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cnnhd.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "900c43f0e02742dd854148b7a75abbec",
+                    "key": "da315cca7f2902b4de23199718ed7e90"
+                }
+            }
+        ],
+        "img": "https://play-lh.googleusercontent.com/375NW5yL8owK_hW9igW9sh-YJbda9ZcygpDXuVvK_R7l-yJp-fuhb4qvUw_FE4XW4ms",
         "category": "News",
         "description": "News Channel"
     },
@@ -629,6 +666,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Reuters",
+        "sources": [
+            {
+                "name": "⚡ UK",
+                "url": "https://dbrb49pjoymg4.cloudfront.net/10001/99951197/hls/playlist.m3u8?ads.xumo_channelId=99951197",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.editorandpublisher.com/uploads/original/20240723-181955-dae-Reuters%20cube.png.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Sangsad TV",
         "sources": [
             {
@@ -680,6 +731,49 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/cSsxzVa-2j7DQ7ZLaRSS5oV4RVtkfiwIZoccMKSyitWXf5g1UyYcwavRI2rr-9JaBO52e_6T=s176-c-k-c0x00ffffff-no-rj-mo",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Sky News",
+        "sources": [
+            {
+                "name": "⚡ UK Stream 1",
+                "url": "https://d25w9q07b2mtmw.cloudfront.net/live/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "⚡ UK Stream 2",
+                "url": "https://d3f4oii5n0oeqi.cloudfront.net/11701/88814560/hls/master.m3u8?ads.xumo_channelId=88814560",
+                "type": "hls"
+            },
+            {
+                "name": "⚡ UK Stream 4",
+                "url": "https://dbrb49pjoymg4.cloudfront.net/10001/99951223/hls/master.m3u8?ads.xumo_channelId=99951223",
+                "type": "hls"
+            },
+            {
+                "name": "UK Stream 3",
+                "url": "https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_mob.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSPUYtJoW_VT9YdaHMk9lWuztJJCj4bCtCjg&s",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Sky News Now",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://amg00663-skynews-skynewsau-samsungau-r7n40.amagi.tv/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://images-r2.thebrag.com/mw/uploads/2023/03/Sky-News-3.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -787,7 +881,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (17 channels, 8 with 🔐 DRM)
+    // SPORTS (16 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -934,20 +1028,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/6ss3NfsrbhKQaiY56yCtgg9NwpAoOYzVzjtWZTgKCm3BWeV4vUiXMYM3vJEebtPapo2M6cUT=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Star Sports 1",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -2446,7 +2526,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (50 channels, 3 with 🔐 DRM)
+    // NEWS (55 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2500,7 +2580,7 @@ window.rawChannels2 = [
         "name": "Al Jazeera",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "Qatar",
                 "url": "https://live-hls-web-aje-fa.thehlive.com/AJE/index.m3u8",
                 "type": "hls"
             }
@@ -2533,12 +2613,31 @@ window.rawChannels2 = [
         "name": "BBC News",
         "sources": [
             {
-                "name": "Server 1",
+                "name": "UK",
                 "url": "https://tplay.live/out/news/bbc-news/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Asia",
+                "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8",
                 "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/s2679ZP4/bbc.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Bloomberg Television",
+        "sources": [
+            {
+                "name": "USA",
+                "url": "https://dcfcae89.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1pbl9CbG9vbWJlcmdUVl9ITFM/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXZCiWELnS_hJTOtsTrWDZKkhkmthiH2BfLA&s",
         "category": "News",
         "description": "News Channel"
     },
@@ -2614,6 +2713,24 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://media.licdn.com/dms/image/v2/D4D0BAQGXbP9MEGQ2MA/company-logo_200_200/B4DZcIT5xiGgAI-/0/1748191125673/cnbc_tv18_logo?e=2147483647&v=beta&t=KFbzWG-tLyBsxJILxVo9cAiyFHaZP_BPhTVOCTH_AFc",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "CNN",
+        "sources": [
+            {
+                "name": "🔐 USA",
+                "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cnnhd.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "900c43f0e02742dd854148b7a75abbec",
+                    "key": "da315cca7f2902b4de23199718ed7e90"
+                }
+            }
+        ],
+        "img": "https://play-lh.googleusercontent.com/375NW5yL8owK_hW9igW9sh-YJbda9ZcygpDXuVvK_R7l-yJp-fuhb4qvUw_FE4XW4ms",
         "category": "News",
         "description": "News Channel"
     },
@@ -3070,6 +3187,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Reuters",
+        "sources": [
+            {
+                "name": "⚡ UK",
+                "url": "https://dbrb49pjoymg4.cloudfront.net/10001/99951197/hls/playlist.m3u8?ads.xumo_channelId=99951197",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.editorandpublisher.com/uploads/original/20240723-181955-dae-Reuters%20cube.png.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Sangsad TV",
         "sources": [
             {
@@ -3121,6 +3252,49 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/cSsxzVa-2j7DQ7ZLaRSS5oV4RVtkfiwIZoccMKSyitWXf5g1UyYcwavRI2rr-9JaBO52e_6T=s176-c-k-c0x00ffffff-no-rj-mo",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Sky News",
+        "sources": [
+            {
+                "name": "⚡ UK Stream 1",
+                "url": "https://d25w9q07b2mtmw.cloudfront.net/live/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "⚡ UK Stream 2",
+                "url": "https://d3f4oii5n0oeqi.cloudfront.net/11701/88814560/hls/master.m3u8?ads.xumo_channelId=88814560",
+                "type": "hls"
+            },
+            {
+                "name": "⚡ UK Stream 4",
+                "url": "https://dbrb49pjoymg4.cloudfront.net/10001/99951223/hls/master.m3u8?ads.xumo_channelId=99951223",
+                "type": "hls"
+            },
+            {
+                "name": "UK Stream 3",
+                "url": "https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_mob.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSPUYtJoW_VT9YdaHMk9lWuztJJCj4bCtCjg&s",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Sky News Now",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://amg00663-skynews-skynewsau-samsungau-r7n40.amagi.tv/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://images-r2.thebrag.com/mw/uploads/2023/03/Sky-News-3.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -3848,7 +4022,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (24 channels)
+    // MUSIC (25 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3949,6 +4123,24 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Wb8VmBjp/9xm.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Animal Planet HD",
+        "sources": [
+            {
+                "name": "🔐 Server 1",
+                "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Animalplanethd2/default/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "df81f15150f74c799fdde64ef49dfb75",
+                    "key": "05794a012ae74d77953f2b9fae6804c7"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/Kzq6TNxy/animalplanethd.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -4438,7 +4630,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (33 channels, 11 with 🔐 DRM)
+    // OTHERS (31 channels, 9 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4451,24 +4643,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/RFm9McDx/animal-planet.png",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Animal Planet HD",
-        "sources": [
-            {
-                "name": "🔐 Server 1",
-                "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Animalplanethd2/default/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "df81f15150f74c799fdde64ef49dfb75",
-                    "key": "05794a012ae74d77953f2b9fae6804c7"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/Kzq6TNxy/animalplanethd.jpg",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -4861,24 +5035,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic Wild",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
-                    "key": "adf163c6c1729e6f77668d4e49f32352"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "Popular Science",
         "sources": [
             {
@@ -4955,7 +5111,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 318
-// Channels with DRM: 43
+// Total channels: 326
+// Channels with DRM: 44
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
