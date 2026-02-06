@@ -1,4 +1,4 @@
-// Generated: 2026-02-06 01:32 UTC
+// Generated: 2026-02-06 06:50 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1072,7 +1072,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (18 channels, 1 with 🔐 DRM)
+    // KIDS (19 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1169,6 +1169,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/25T1j5cX/oggy2.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "24/7 Tom And Jerry",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/xd5gYkM8/tom-jerry.jpg",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -1333,7 +1347,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (74 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (73 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1919,20 +1933,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://media.licdn.com/dms/image/v2/D560BAQHElejP-dKJhg/company-logo_200_200/company-logo_200_200/0/1667384842286/green_tv_digital_logo?e=2147483647&v=beta&t=W0t2EpmzgDhkORaqs2SaZt0-LaRukY7CzF82EmhnAK8",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "GTV",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/gazitv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/yNLC1Rfw/gtv.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3834,7 +3834,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (25 channels)
+    // MUSIC (24 channels)
     // ==================================================
 
     {
@@ -4034,20 +4034,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/wBKM5G7V/e-24.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -4955,7 +4941,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 318
+// Total channels: 317
 // Channels with DRM: 43
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
