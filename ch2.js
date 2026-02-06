@@ -1,4 +1,4 @@
-// Generated: 2026-02-05 06:57 UTC
+// Generated: 2026-02-06 06:50 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -3834,7 +3834,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (26 channels)
+    // MUSIC (24 channels)
     // ==================================================
 
     {
@@ -4039,20 +4039,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
         "name": "Kalaignar Murasu",
         "sources": [
             {
@@ -4231,20 +4217,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Vsppw3V5/sb-music.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "Tabbar Hits",
-        "sources": [
-            {
-                "name": "Stream 2",
-                "url": "https://live1.ottlive.co.in/tabbarhitsswift/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/DfWzDhL6/tabbar-hits.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -4969,7 +4941,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 319
+// Total channels: 317
 // Channels with DRM: 43
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
