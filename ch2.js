@@ -1,4 +1,4 @@
-// Generated: 2026-02-05 18:45 UTC
+// Generated: 2026-02-06 01:32 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1072,7 +1072,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (19 channels, 1 with 🔐 DRM)
+    // KIDS (18 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1169,20 +1169,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/25T1j5cX/oggy2.jpg",
-        "category": "Kids",
-        "description": "Kids Channel"
-    },
-
-    {
-        "name": "24/7 Tom And Jerry",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/xd5gYkM8/tom-jerry.jpg",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -4969,7 +4955,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 319
+// Total channels: 318
 // Channels with DRM: 43
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
