@@ -1,4 +1,4 @@
-// Generated: 2026-02-06 06:50 UTC
+// Generated: 2026-02-06 12:49 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1347,7 +1347,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (73 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (74 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1933,6 +1933,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://media.licdn.com/dms/image/v2/D560BAQHElejP-dKJhg/company-logo_200_200/company-logo_200_200/0/1667384842286/green_tv_digital_logo?e=2147483647&v=beta&t=W0t2EpmzgDhkORaqs2SaZt0-LaRukY7CzF82EmhnAK8",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "GTV",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/gazitv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/yNLC1Rfw/gtv.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -4941,7 +4955,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 317
+// Total channels: 318
 // Channels with DRM: 43
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
