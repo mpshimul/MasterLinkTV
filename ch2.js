@@ -1,11 +1,11 @@
-// Generated: 2026-02-06 18:45 UTC
+// Generated: 2026-02-07 01:31 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (55 channels, 4 with 🔐 DRM)
+    // NEWS (54 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -224,20 +224,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://erp.adgully.com/artical_image/43d69552e24c92ea14e14bca3007eb78.jpeg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "DBC News",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/cJGD5HdQ/dbc.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -881,7 +867,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (16 channels, 8 with 🔐 DRM)
+    // SPORTS (17 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1028,6 +1014,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/6ss3NfsrbhKQaiY56yCtgg9NwpAoOYzVzjtWZTgKCm3BWeV4vUiXMYM3vJEebtPapo2M6cUT=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports 1",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -2526,7 +2526,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (55 channels, 4 with 🔐 DRM)
+    // NEWS (54 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2745,20 +2745,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://erp.adgully.com/artical_image/43d69552e24c92ea14e14bca3007eb78.jpeg",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "DBC News",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/cJGD5HdQ/dbc.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -4022,7 +4008,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (25 channels, 1 with 🔐 DRM)
+    // MUSIC (24 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4297,20 +4283,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Music Bangla",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla2025.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/8kRX8jMd/music-bangla.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
         "name": "Music India",
         "sources": [
             {
@@ -4471,7 +4443,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (11 channels)
+    // RELIGIOUS (10 channels)
     // ==================================================
 
     {
@@ -4512,20 +4484,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/tTkx4MWv/ilm.jpg",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Islam Bangla",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/islamchbangla.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhxUqZi3tzsjdt5rn7AWyC2CQgH8z14fd2g&s",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -5017,19 +4975,19 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic",
+        "name": "National Geographic Wild",
         "sources": [
             {
                 "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
                 "type": "dash",
                 "drm": {
-                    "kid": "6d647aff767c453daa5fb54a44c783c6",
-                    "key": "2f971e6a1cc58e7085afc761a3f13162"
+                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
+                    "key": "adf163c6c1729e6f77668d4e49f32352"
                 }
             }
         ],
-        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
+        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -5111,7 +5069,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 326
+// Total channels: 323
 // Channels with DRM: 44
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
