@@ -1,4 +1,4 @@
-// Generated: 2026-02-08 02:10 UTC
+// Generated: 2026-02-08 06:49 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -867,7 +867,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (14 channels, 8 with 🔐 DRM)
+    // SPORTS (17 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -931,6 +931,11 @@ window.rawChannels2 = [
                 "name": "⚡ Server 1",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1707/output/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://178.33.239.54:8080/503a/tracks-v1a1/mono.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
@@ -941,6 +946,11 @@ window.rawChannels2 = [
     {
         "name": "Live 3",
         "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://178.33.239.54:8080/507a/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 3",
                 "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
@@ -1004,6 +1014,48 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/6ss3NfsrbhKQaiY56yCtgg9NwpAoOYzVzjtWZTgKCm3BWeV4vUiXMYM3vJEebtPapo2M6cUT=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports 1",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports 2",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "T Sports",
+        "sources": [
+            {
+                "name": "Server 3",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/tsport/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/DZbVq4jM/t-sports.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -2206,6 +2258,11 @@ window.rawChannels2 = [
                 "name": "Server 1",
                 "url": "https://tvsen1.aynaott.com/gUX8BJmNc2yF/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 3",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/WpQ9PsZ3/star-jalsha.jpg",
@@ -3191,7 +3248,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (39 channels, 10 with 🔐 DRM)
+    // MOVIE (40 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3664,6 +3721,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Star Gold",
+        "sources": [
+            {
+                "name": "Stream 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/stargold/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/7YJXRsp7/gold.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Superfine Films",
         "sources": [
             {
@@ -3797,7 +3868,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (24 channels, 1 with 🔐 DRM)
+    // MUSIC (25 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4015,6 +4086,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/wBKM5G7V/e-24.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "K Pop",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -4876,7 +4961,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 310
+// Total channels: 315
 // Channels with DRM: 45
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
