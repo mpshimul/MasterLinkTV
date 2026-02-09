@@ -1,4 +1,4 @@
-// Generated: 2026-02-09 20:50 UTC
+// Generated: 2026-02-09 21:46 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -6,7 +6,7 @@
 window.rawChannels2 = [
 
     // ==================================================
-    // BANGLA (79 channels)
+    // BANGLA (73 channels)
     // ==================================================
 
     {
@@ -79,25 +79,6 @@ window.rawChannels2 = [
                 "name": "🔗 tangotv.in",
                 "url": "https://mumt03.tangotv.in/AAKASHAATH/index.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "🔗 ultrashort.info",
-                "url": "https://ultrashort.info/Z7cEes",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Abp Ananda",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 amagi.tv",
-                "url": "https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8",
-                "type": "hls"
             }
         ]
     }
@@ -124,21 +105,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/anandatv/index.m3u8?e=1770670829&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ec1086133b340d0f0fb6fdbe5541f078",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Anandatv",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 com.bd",
-                "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/playlist.m3u8",
+                "url": "https://tvsen6.aynascope.net/anandatv/index.m3u8?e=1770674430&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=a9ad769f024adfdd82e6d4bc6b371284",
                 "type": "hls"
             }
         ]
@@ -180,7 +147,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/asiantv/index.m3u8?e=1770670829&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7a64afa0ea97946ec79c9f9667332720",
+                "url": "https://tvsen6.aynascope.net/asiantv/index.m3u8?e=1770674429&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=d34aa5a248425f694065c567b91b82d5",
                 "type": "hls"
             },
             {
@@ -199,7 +166,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/atnbangla/index.m3u8?e=1770670827&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e1c1576b3b22fecdce3b33050402edab",
+                "url": "https://tvsen5.aynascope.net/atnbangla/index.m3u8?e=1770674428&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f6308a1df86f85164c3315238749e0e4",
                 "type": "hls"
             },
             {
@@ -250,27 +217,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Ayna TV",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/ayna.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Bangla TV",
         "category": "Bangla",
         "img": "https://s3.aynaott.com/storage/e42ecfa90e3d6b15bdb7fea5ef673864",
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/banglatv/index.m3u8?e=1770670829&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=35f188f7a2700f0659546a68af1646d3",
+                "url": "https://tvsen6.aynascope.net/banglatv/index.m3u8?e=1770674429&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=060bc0202985dee6c334c02caf551ffe",
                 "type": "hls"
             },
             {
@@ -289,7 +242,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/banglavision/index.m3u8?e=1770670827&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=6d9e29bfdb579e4ad5ec657a3c934839",
+                "url": "https://tvsen5.aynascope.net/banglavision/index.m3u8?e=1770674427&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=347fe626b3f9fc4d5701a31f794f337d",
                 "type": "hls"
             },
             {
@@ -341,7 +294,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/bijoytv/index.m3u8?e=1770670830&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9476dcb8d0152db77dcaee0ef162f43c",
+                "url": "https://tvsen6.aynascope.net/bijoytv/index.m3u8?e=1770674430&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=34efd42784bffaeedafb13d5257e8dfc",
                 "type": "hls"
             },
             {
@@ -360,26 +313,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/boishakhitv/index.m3u8?e=1770670828&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=21bbfda04e954e82ea037b9be7a4244c",
+                "url": "https://tvsen6.aynascope.net/boishakhitv/index.m3u8?e=1770674429&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=fa2561aabf284f6d001379d99ddb0c91",
                 "type": "hls"
             },
             {
                 "name": "⭐ roarzone.info",
                 "url": "https://edge2.roarzone.info:8444/roarzone/bk/61/index.m3u8?token=ed4c99ca5f2b1f33c5cea762480c41391b60a9d5-79311c5f1b8843f0878d4fcdbdc16286-1770672147-1770668547",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Boishakhitv",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/boishakhitv-org.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -431,7 +370,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/btvctg/index.m3u8?e=1770670826&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9ae9ae6956701e5e278bfc20a63efc41",
+                "url": "https://tvsen6.aynascope.net/btvctg/index.m3u8?e=1770674426&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=a541db18ff8e9880ca815e8ef9bfc265",
                 "type": "hls"
             }
         ]
@@ -445,7 +384,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/btvhd/index.m3u8?e=1770670829&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=378d10484987867e9965fa59f68bc551",
+                "url": "https://tvsen6.aynascope.net/btvhd/index.m3u8?e=1770674430&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=cfefe5d7100b921168c59376d1c28bf3",
                 "type": "hls"
             }
         ]
@@ -459,7 +398,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/btv_world/index.m3u8?e=1770670826&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=8bde16f67f05be784ba443c6b8e59891",
+                "url": "https://tvsen6.aynascope.net/btv_world/index.m3u8?e=1770674426&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=1551d85104f44cf6ec897c3d363e6273",
                 "type": "hls"
             },
             {
@@ -483,7 +422,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/channel24/index.m3u8?e=1770670821&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=d9a170a0655e7a4fb329af1655011f0a",
+                "url": "https://tvsen6.aynascope.net/channel24/index.m3u8?e=1770674421&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b3b3daf57b40d3935f271324a0afd70a",
                 "type": "hls"
             },
             {
@@ -512,17 +451,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/channel9/index.m3u8?e=1770670829&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=8cfdb7639460110610c9ed920394dcae",
+                "url": "https://tvsen6.aynascope.net/channel9/index.m3u8?e=1770674429&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=963ecc25a3e5f135128082d344ac5294",
                 "type": "hls"
             },
             {
                 "name": "⭐ roarzone.info",
                 "url": "https://edge2.roarzone.info:8444/roarzone/bk/4/index.m3u8?token=b44755c18b42a0e7226d7025e7a5885a3991f50e-da58427ce707fc084307aaef7b8edca9-1770672147-1770668547",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channel9hd.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -536,7 +470,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/channeli/index.m3u8?e=1770670827&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=368ab04c18c33cfa2f807c01d868f900",
+                "url": "https://tvsen6.aynascope.net/channeli/index.m3u8?e=1770674427&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4a56e7c1ec749324293e96b8afd0ea95",
                 "type": "hls"
             },
             {
@@ -554,30 +488,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Channel S UK HD",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ncare.live",
-                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/chsukoff.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Dbc",
         "category": "Bangla",
         "img": "",
@@ -585,20 +495,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 chowdhury-shaheb.com",
                 "url": "http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Dbcnews",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -626,7 +522,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/DeeptoTVHD/index.m3u8?e=1770670828&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f86ef8bfefe9841fc7bd485ad5428cdd",
+                "url": "https://tvsen5.aynascope.net/DeeptoTVHD/index.m3u8?e=1770674428&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e2095b6e7c45affc56f9cf5d18c826e6",
                 "type": "hls"
             },
             {
@@ -650,7 +546,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/deshtv/index.m3u8?e=1770670828&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=904dac2098ed9a2e16b3d5fca73ba0e9",
+                "url": "https://tvsen6.aynascope.net/deshtv/index.m3u8?e=1770674428&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c54089b5eafb530929ad64c0230dabb5",
                 "type": "hls"
             },
             {
@@ -705,6 +601,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Doraemon",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Drama 24",
         "category": "Bangla",
         "img": "https://s3.aynaott.com/storage/08773290bf83a917aebc07810f12ed49",
@@ -725,7 +635,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/durontotv-live/index.m3u8?e=1770670829&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ed14ec77fa769c76446c48cddaca2464",
+                "url": "https://tvsen6.aynascope.net/durontotv-live/index.m3u8?e=1770674429&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9c6b56e5fc9aee06b11a1b774dda334b",
                 "type": "hls"
             },
             {
@@ -744,7 +654,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/ekattorbdtv/index.m3u8?e=1770670822&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4c2d23ad83b5dd0db90ba3c4af7d8bfc",
+                "url": "https://tvsen6.aynascope.net/ekattorbdtv/index.m3u8?e=1770674422&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=671a42190701380ddf33f8731b1389c9",
                 "type": "hls"
             },
             {
@@ -755,20 +665,6 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Ekhone TV",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/globaltv.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -824,7 +720,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/etv/index.m3u8?e=1770670828&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=a6c1cef42fc9e7705d3cf82c58228e08",
+                "url": "https://tvsen6.aynascope.net/etv/index.m3u8?e=1770674428&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9357f60da4e4a1c459f83f607cf7af8a",
                 "type": "hls"
             }
         ]
@@ -838,12 +734,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/Ravc7gPCZpxk/index.m3u8?e=1770670828&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=fe3273ff37faf882dc65005abecca877",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8",
+                "url": "https://tvsen5.aynascope.net/Ravc7gPCZpxk/index.m3u8?e=1770674428&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e0a1aba2fef902093a50f51bd9096f75",
                 "type": "hls"
             }
         ]
@@ -857,7 +748,21 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/globaltvhd/index.m3u8?e=1770670830&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=465ae8916b36395c09f8014f402d8d95",
+                "url": "https://tvsen6.aynascope.net/globaltvhd/index.m3u8?e=1770674430&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=aa9ed8c869b179f869e38998857f5fc1",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Green TV",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ncare.live",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/chunks.m3u8",
                 "type": "hls"
             }
         ]
@@ -871,7 +776,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/independenttv/index.m3u8?e=1770670821&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=fde5fb4ae8cbf647b7dc6febbd6a0273",
+                "url": "https://tvsen6.aynascope.net/independenttv/index.m3u8?e=1770674422&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=a48d2b6eece054fc4cbd1a3e13869d05",
                 "type": "hls"
             },
             {
@@ -895,7 +800,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/jamunatv/index.m3u8?e=1770670822&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e6bf5958b1f33896a6e2934b68f29699",
+                "url": "https://tvsen6.aynascope.net/jamunatv/index.m3u8?e=1770674422&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9f38bdd2208c047babeb8c73409d21e3",
                 "type": "hls"
             },
             {
@@ -933,7 +838,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/maasrangatv/index.m3u8?e=1770670828&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4fc75e6a4be5cd9671e05f3c4dccc771",
+                "url": "https://tvsen5.aynascope.net/maasrangatv/index.m3u8?e=1770674428&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=6d5e73a82e718931adfe11088d75c6dc",
                 "type": "hls"
             },
             {
@@ -971,7 +876,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/mohonatv/index.m3u8?e=1770670830&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=57810676179256f77c50ba452f11aff9",
+                "url": "https://tvsen6.aynascope.net/mohonatv/index.m3u8?e=1770674430&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=cc3e2d7507675b598b3073a1f103d6b1",
                 "type": "hls"
             },
             {
@@ -990,7 +895,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/mtv/index.m3u8?e=1770670848&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3da925b9825a6190c4f5846dec2c3830",
+                "url": "https://tvsen6.aynascope.net/mtv/index.m3u8?e=1770674448&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=017b49142b21fb6417dff6442cd3a08d",
                 "type": "hls"
             },
             {
@@ -1014,7 +919,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/mytv/index.m3u8?e=1770670830&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=539456ed4248c25d6fe6c4363e67039e",
+                "url": "https://tvsen6.aynascope.net/mytv/index.m3u8?e=1770674430&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0f4e48d0ef0e9cea5d18291a8f9383b6",
                 "type": "hls"
             },
             {
@@ -1080,21 +985,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/nexustv/index.m3u8?e=1770670830&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3539e47830ab01901422b49ac31f38ac",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Nrbtv",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/nrb-eu.stream/tracks-v1a1/mono.m3u8",
+                "url": "https://tvsen6.aynascope.net/nexustv/index.m3u8?e=1770674430&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=173d026aa6d6028cf8c1afacbf9451b5",
                 "type": "hls"
             }
         ]
@@ -1108,7 +999,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/ntvbd/index.m3u8?e=1770670827&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f15d2e17b529122b8e312d5fa65b2f81",
+                "url": "https://tvsen5.aynascope.net/ntvbd/index.m3u8?e=1770674427&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f7d3f25496f680183c4b835f6449d152",
                 "type": "hls"
             },
             {
@@ -1156,7 +1047,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/PeaceTvBanglaHD/index.m3u8?e=1770670826&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=37ba9df7cdce8da20f73b14f7f707dec",
+                "url": "https://tvsen7.aynascope.net/PeaceTvBanglaHD/index.m3u8?e=1770674427&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2d7e59baa02944ae2aaed3fed4974506",
                 "type": "hls"
             }
         ]
@@ -1212,17 +1103,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/RtvHD/index.m3u8?e=1770670827&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b790bb869944f811fe756920f70c65ab",
+                "url": "https://tvsen5.aynascope.net/RtvHD/index.m3u8?e=1770674427&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2de7faefabf0f57c090e9ab75e501d72",
                 "type": "hls"
             },
             {
                 "name": "⭐ roarzone.info",
                 "url": "https://edge2.roarzone.info:8444/roarzone/bk/14/index.m3u8?token=222e6276bac15ae2b8ee7b9739045f7b2089f4a2-4cc60149993789ed602a5be2ce837d02-1770672147-1770668547",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/rtv-sg.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -1236,7 +1122,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/satv/index.m3u8?e=1770670829&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=57c572bed5bdceca826cc58451130406",
+                "url": "https://tvsen6.aynascope.net/satv/index.m3u8?e=1770674429&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3a5d588318a376ac3fd4cdb46ae0ba60",
                 "type": "hls"
             },
             {
@@ -1269,7 +1155,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/somoytv/index.m3u8?e=1770670821&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=d12b287e10005f476e490fc4f8f1f6dd",
+                "url": "https://tvsen6.aynascope.net/somoytv/index.m3u8?e=1770674421&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=250b82dbcad11d5f975db59915f570d4",
                 "type": "hls"
             },
             {
@@ -1306,18 +1192,8 @@ window.rawChannels2 = [
         "img": "",
         "sources": [
             {
-                "name": "🔗 pages.dev",
-                "url": "https://playztv-apps.pages.dev/star-jalsha/index.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen1.aynaott.com/gUX8BJmNc2yF/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 ultrashort.info",
-                "url": "https://ultrashort.info/5yLqax",
                 "type": "hls"
             }
         ]
@@ -1331,7 +1207,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/timetv/index.m3u8?e=1770670826&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0e3effd5c97c1bcedcfd0d6de062fffb",
+                "url": "https://tvsen7.aynascope.net/timetv/index.m3u8?e=1770674427&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b65a5de4c5c381eaf83138cad26658ca",
                 "type": "hls"
             }
         ]
@@ -1359,7 +1235,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/ZeeBanglaCinema/index.m3u8?e=1770670854&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=1087bc36d721cbee8bef6aab6265c857",
+                "url": "https://tvsen6.aynascope.net/ZeeBanglaCinema/index.m3u8?e=1770674454&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f40a248027ff216eaf7f05c4d75cbe3f",
                 "type": "hls"
             },
             {
@@ -1378,7 +1254,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/PNEb3v2q6GBk/index.m3u8?e=1770670854&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=462ae14382d0e65d9179c6b7e6cd6c71",
+                "url": "https://tvsen5.aynascope.net/PNEb3v2q6GBk/index.m3u8?e=1770674454&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=1b4107ed33d07827289471ec89e9d753",
                 "type": "hls"
             }
         ]
@@ -1410,7 +1286,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/AbcNews/index.m3u8?e=1770670820&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=85dcd39995241b4eb5d645219a928792",
+                "url": "https://tvsen6.aynascope.net/AbcNews/index.m3u8?e=1770674420&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=140d9e36a875a330979cd0c10d525599",
                 "type": "hls"
             }
         ]
@@ -1466,7 +1342,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/ANB_News/index.m3u8?e=1770670823&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=de0f259b7bf8f430db3aa817727af72d",
+                "url": "https://tvsen6.aynascope.net/ANB_News/index.m3u8?e=1770674424&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=d8db27023fe310a062adae7e535747bd",
                 "type": "hls"
             }
         ]
@@ -1522,7 +1398,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/BharatSamachar/index.m3u8?e=1770670825&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=35f144a31179c5a4d2ee8f44a5979163",
+                "url": "https://tvsen7.aynascope.net/BharatSamachar/index.m3u8?e=1770674425&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=8013c2e16628601ad42affa209f1f887",
                 "type": "hls"
             }
         ]
@@ -1538,6 +1414,11 @@ window.rawChannels2 = [
                 "name": "🔗 fifabangladesh.site",
                 "url": "https://fifabangladesh.site/?id=7909a70a-f8c8-4766-913a-b57e941bdd9d",
                 "type": "hls"
+            },
+            {
+                "name": "🔗 ncare.live",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/cgtn.stream/playlist.m3u8",
+                "type": "hls"
             }
         ]
     }
@@ -1550,7 +1431,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/cnn/index.m3u8?e=1770670822&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=43b5243f7ddc56ec74c083d2c04f7eb2",
+                "url": "https://tvsen6.aynascope.net/cnn/index.m3u8?e=1770674423&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4c0ab0690deff238e928ef0ef0709160",
                 "type": "hls"
             },
             {
@@ -1583,7 +1464,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/dbcnews/index.m3u8?e=1770670822&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f78f301b6a9f227ca796aac0b091e0fd",
+                "url": "https://tvsen6.aynascope.net/dbcnews/index.m3u8?e=1770674422&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4f10654b372a95903e3fb6337c706095",
                 "type": "hls"
             },
             {
@@ -1610,7 +1491,7 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "DW English _",
+        "name": "DW Naws",
         "category": "News",
         "img": "",
         "sources": [
@@ -1654,17 +1535,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/ekhontv/index.m3u8?e=1770670822&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7b115d78928d2e394af807cd92897a44",
+                "url": "https://tvsen6.aynascope.net/ekhontv/index.m3u8?e=1770674422&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=15ed0d3ec3cf90822923413b5ed0a654",
                 "type": "hls"
             },
             {
                 "name": "⭐ roarzone.info",
                 "url": "https://edge2.roarzone.info:8444/roarzone/edge2/ekhontv/index.m3u8?token=344cb007666c44ad6cafb2150902d37e9ad201b9-634ed8e6725e0656fd1fc26055f3b17c-1770672147-1770668547",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/globaltv.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -1692,7 +1568,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/foxnews/index.m3u8?e=1770670825&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=6a5ffdc212abaad554989c2c8e07a162",
+                "url": "https://tvsen6.aynascope.net/foxnews/index.m3u8?e=1770674426&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=15a67d16727abfa5839c744d6529c454",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 livenewsplay.com",
+                "url": "https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8",
                 "type": "hls"
             },
             {
@@ -1761,27 +1642,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Global News (us)",
-        "category": "News",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 corusdigitaldev.com",
-                "url": "https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Hindi Khabar",
         "category": "News",
         "img": "https://s3.aynaott.com/storage/d3943796d7fe5962ca5385b656682b1a",
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/HindiKhabar/index.m3u8?e=1770670825&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=bb9490d085f037bbf47d1da467084520",
+                "url": "https://tvsen7.aynascope.net/HindiKhabar/index.m3u8?e=1770674425&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=d72f4695312813f27b0dd9fdb7e8a73b",
                 "type": "hls"
             }
         ]
@@ -1803,20 +1670,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Iran International(en)",
-        "category": "News",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 co.uk",
-                "url": "https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b1196000.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Iran Press",
         "category": "News",
         "img": "https://s3.aynaott.com/storage/201491b7327fffb27d78f800dd9f42d2",
@@ -1824,6 +1677,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 presstv.ir",
                 "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Ndtv English",
+        "category": "News",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 akamaized.net",
+                "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8",
                 "type": "hls"
             }
         ]
@@ -1865,7 +1732,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/News1India/index.m3u8?e=1770670824&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0af2e8ced5c95f6cb183da0b8fa29559",
+                "url": "https://tvsen6.aynascope.net/News1India/index.m3u8?e=1770674424&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=8ee8d857aab53cf8f6e3f3e78534eedd",
                 "type": "hls"
             }
         ]
@@ -1879,7 +1746,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/news24/index.m3u8?e=1770670822&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9b19adbecb987b15b3def0b155778bc9",
+                "url": "https://tvsen6.aynascope.net/news24/index.m3u8?e=1770674422&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=6fe535977d00408eba01afa921d05792",
                 "type": "hls"
             }
         ]
@@ -1921,7 +1788,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/nhkworld/index.m3u8?e=1770670823&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=db3c598253fa6ea71786b3a643211eda",
+                "url": "https://tvsen6.aynascope.net/nhkworld/index.m3u8?e=1770674423&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=181ff854486ec0c5373ea23c06ba7935",
                 "type": "hls"
             }
         ]
@@ -1936,6 +1803,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 klowdtv.com",
                 "url": "https://a-cdn.klowdtv.com/live1/oan_720p/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Press TV Iran",
+        "category": "News",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 presstv.ir",
+                "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -1991,7 +1872,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/SadhnaPrimeNews/index.m3u8?e=1770670824&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b098e571af0fa71a4d04b3845f471fbd",
+                "url": "https://tvsen6.aynascope.net/SadhnaPrimeNews/index.m3u8?e=1770674424&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b3bd8b052c01e11c980750f60adb0c8b",
                 "type": "hls"
             }
         ]
@@ -2005,8 +1886,13 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/skynews/index.m3u8?e=1770670825&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=985634e14a4696dab5adebbe88787745",
+                "url": "https://tvsen5.aynascope.net/skynews/index.m3u8?e=1770674425&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=460955d68f790a8e627d69ee71e07cb5",
                 "type": "hls"
+            },
+            {
+                "name": "🔗 netplus.ch",
+                "url": "https://viamotionhsi.netplus.ch/live/eds/skynews/browser-dash/skynews.mpd",
+                "type": "dash"
             }
         ]
     }
@@ -2061,7 +1947,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/TV9Bharatvarsh/index.m3u8?e=1770670824&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=047a5cbbbadce5db19d40c4caaf1f6b1",
+                "url": "https://tvsen7.aynascope.net/TV9Bharatvarsh/index.m3u8?e=1770674424&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3444e292eb736258d5cb8b9ed51c2d07",
                 "type": "hls"
             }
         ]
@@ -2083,7 +1969,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // SPORTS (109 channels)
+    // SPORTS (111 channels)
     // ==================================================
 
     {
@@ -2107,7 +1993,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/asports/index.m3u8?e=1770670807&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=42c1051f44fa1c00110d1571a0c42a19",
+                "url": "https://tvsen6.aynascope.net/asports/index.m3u8?e=1770674407&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0c51d1dd0183d5a0ab743f8882738679",
                 "type": "hls"
             }
         ]
@@ -2247,7 +2133,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/BahrainSports2/index.m3u8?e=1770670814&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3b0c9fb9b2183070b477ae679d99277a",
+                "url": "https://tvsen6.aynascope.net/BahrainSports2/index.m3u8?e=1770674414&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=132bafcf83965dca8f10d44f55b0102e",
                 "type": "hls"
             }
         ]
@@ -2262,6 +2148,34 @@ window.rawChannels2 = [
             {
                 "name": "🌐 moveonjoy.com",
                 "url": "http://fl1.moveonjoy.com/BEIN_SPORTS/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Bein Sports 2",
+        "category": "Sports",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 109.73",
+                "url": "http://135.125.109.73:9000/beinsport2_.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Bein Sports 3",
+        "category": "Sports",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 109.73",
+                "url": "http://135.125.109.73:9000/beinsport3_.m3u8",
                 "type": "hls"
             }
         ]
@@ -2317,7 +2231,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/bloombergtv/index.m3u8?e=1770670811&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=61a3dac01052aa34b19e544e6723c384",
+                "url": "https://tvsen6.aynascope.net/bloombergtv/index.m3u8?e=1770674411&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f6f96858ea5fdb5b5a85fa4128c4ef6a",
                 "type": "hls"
             }
         ]
@@ -2331,7 +2245,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/btSport1/index.m3u8?e=1770670812&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7ff55ebaf3f63c34041ecd564245441e",
+                "url": "https://tvsen6.aynascope.net/btSport1/index.m3u8?e=1770674412&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ff39355aadd8c47a791f2f3b8cb9c895",
                 "type": "hls"
             }
         ]
@@ -2345,7 +2259,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/btSport2/index.m3u8?e=1770670809&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=73295b982b02931438065a764e8f18e9",
+                "url": "https://tvsen6.aynascope.net/btSport2/index.m3u8?e=1770674409&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ca704355900231242005401e42d78997",
                 "type": "hls"
             }
         ]
@@ -2415,7 +2329,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/CricketGold/index.m3u8?e=1770670807&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3eced543845c2c467ab30d899320d7b5",
+                "url": "https://tvsen6.aynascope.net/CricketGold/index.m3u8?e=1770674407&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f1c07974d72a0c24d41b2a08ce1c667f",
                 "type": "hls"
             }
         ]
@@ -2532,7 +2446,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/espn/index.m3u8?e=1770670809&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0903f04ab6784fbe043aa2a9b7601be6",
+                "url": "https://tvsen5.aynascope.net/espn/index.m3u8?e=1770674409&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=77fefbd04aef5d0452e78dda815c22f8",
                 "type": "hls"
             }
         ]
@@ -2574,7 +2488,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/foxsports1/index.m3u8?e=1770670812&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=64f516320d628088030348f28f161d40",
+                "url": "https://tvsen7.aynascope.net/foxsports1/index.m3u8?e=1770674413&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3089c0e48866dc42b8b2c94130db114a",
                 "type": "hls"
             }
         ]
@@ -2588,7 +2502,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/foxsports2/index.m3u8?e=1770670808&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=816c70f628140848ed072913420e0b1d",
+                "url": "https://tvsen7.aynascope.net/foxsports2/index.m3u8?e=1770674408&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=856bb4d564e4f99b07e7991df8408ad4",
                 "type": "hls"
             }
         ]
@@ -2602,7 +2516,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/golfchannel/index.m3u8?e=1770670808&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=008d70dddf4af9c7e5d83e9312b810e9",
+                "url": "https://tvsen6.aynascope.net/golfchannel/index.m3u8?e=1770674408&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e3b7a04341434554f1b82d53252230a6",
                 "type": "hls"
             }
         ]
@@ -2663,7 +2577,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/MarqueeSportsNetwork/index.m3u8?e=1770670810&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=d723237b8e4d44c7477e4a7bd1d2bf60",
+                "url": "https://tvsen6.aynascope.net/MarqueeSportsNetwork/index.m3u8?e=1770674410&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=65db928871ece0fe320cf862be141100",
                 "type": "hls"
             }
         ]
@@ -2761,7 +2675,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/nfl/index.m3u8?e=1770670812&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=018cfc825fc877ec3e6763dd321c6891",
+                "url": "https://tvsen6.aynascope.net/nfl/index.m3u8?e=1770674412&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=206f0d19cc9d162b54055538892c4342",
                 "type": "hls"
             }
         ]
@@ -2929,7 +2843,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/PtvSports/index.m3u8?e=1770670806&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f894bcffa15761ff2174fd37044b4f92",
+                "url": "https://tvsen5.aynascope.net/PtvSports/index.m3u8?e=1770674407&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=161d4edc6b1ee0523d1860610d962178",
                 "type": "hls"
             }
         ]
@@ -3140,7 +3054,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/SportsGrid/index.m3u8?e=1770670810&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=33de92ba6e8d729c28ea4963d55686dc",
+                "url": "https://tvsen6.aynascope.net/SportsGrid/index.m3u8?e=1770674411&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=43b26123877f0f5f7e5b876f8a69ee28",
                 "type": "hls"
             }
         ]
@@ -3196,7 +3110,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/spsel1/index.m3u8?e=1770670810&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f99ae0207e0ea7db0ace7c3acc92dea9",
+                "url": "https://tvsen6.aynascope.net/spsel1/index.m3u8?e=1770674410&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9041c1393b74f6e482546b983210ba8a",
                 "type": "hls"
             }
         ]
@@ -3210,7 +3124,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/c9EpzZ6fQBJ3/index.m3u8?e=1770670808&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4adee339238b3b72a911d94d23bdccd0",
+                "url": "https://tvsen5.aynascope.net/c9EpzZ6fQBJ3/index.m3u8?e=1770674409&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c041905d48840b726da7941e7c5c0a02",
                 "type": "hls"
             },
             {
@@ -3229,7 +3143,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8?e=1770670815&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=1918e1d87bf1ab4215dff483995c1ca0",
+                "url": "https://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8?e=1770674415&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=d2b0dc7f7f52cac5d9f01e2cb43b82d5",
                 "type": "hls"
             },
             {
@@ -3277,6 +3191,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 pages.dev",
                 "url": "https://starsportshindiii.pages.dev/360p.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Starsports 1 HD",
+        "category": "Sports",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 pages.dev",
+                "url": "https://playztv-apps.pages.dev/star-sports/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -3374,7 +3302,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/tsports-hd/index.m3u8?e=1770670806&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=a5533fa34f316f8d1a42b9019fd2f894",
+                "url": "https://tvsen7.aynascope.net/tsports-hd/index.m3u8?e=1770674407&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=63541c57e0c8a11a1405ada34df546bf",
                 "type": "hls"
             },
             {
@@ -3393,7 +3321,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/talkSPORT/index.m3u8?e=1770670809&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=02d5176c0334e60798f822844f883c29",
+                "url": "https://tvsen6.aynascope.net/talkSPORT/index.m3u8?e=1770674410&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=39117a01b05d2e4a7175bcea2453e14c",
                 "type": "hls"
             }
         ]
@@ -3471,20 +3399,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Tns Sports-3",
-        "category": "Sports",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 short.gy",
-                "url": "https://7pal.short.gy/tntspts3",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Tnt Sports 1 HD",
         "category": "Sports",
         "img": "https://s3.aynaott.com/storage/2d3095b01e65ea760b2543fff4d385c8",
@@ -3533,7 +3447,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/tsn1/index.m3u8?e=1770670812&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=731c46a715f4a08465716b24fbf9eb2d",
+                "url": "https://tvsen7.aynascope.net/tsn1/index.m3u8?e=1770674413&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=41f5eee3753fb3d9f0f6f1d315a40d0c",
                 "type": "hls"
             }
         ]
@@ -3547,7 +3461,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/tsn2/index.m3u8?e=1770670809&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=61ed4e8cabc4cce3d0512b40e028a711",
+                "url": "https://tvsen7.aynascope.net/tsn2/index.m3u8?e=1770674409&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=edbac78ecdeb24ac8d3b454dd63ed2db",
                 "type": "hls"
             }
         ]
@@ -3561,7 +3475,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/tsn3/index.m3u8?e=1770670813&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e2f458ee65eeaadca75134eec624e508",
+                "url": "https://tvsen7.aynascope.net/tsn3/index.m3u8?e=1770674413&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=97e121b21cee4eb54c75aeb0f8b013a4",
                 "type": "hls"
             }
         ]
@@ -3575,7 +3489,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/tsport7/index.m3u8?e=1770670820&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=80a1207400649da3316df7f1b6f0db95",
+                "url": "https://tvsen6.aynascope.net/tsport7/index.m3u8?e=1770674420&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=20e0868685068fca677fdbd07b11301d",
                 "type": "hls"
             }
         ]
@@ -3617,7 +3531,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/willowhd/index.m3u8?e=1770670812&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b1e3b3504557c64127ee8dcff230ca56",
+                "url": "https://tvsen5.aynascope.net/willowhd/index.m3u8?e=1770674412&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=cf6266f4e73cfb938555d2a8054bac4f",
                 "type": "hls"
             }
         ]
@@ -3653,7 +3567,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // KIDS (29 channels)
+    // KIDS (31 channels)
     // ==================================================
 
     {
@@ -3663,7 +3577,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/3abnkids/index.m3u8?e=1770670832&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=68e628b3380a1beb6cdcb9618ce6355e",
+                "url": "https://tvsen6.aynascope.net/3abnkids/index.m3u8?e=1770674432&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=79fc7f829b7eed5d7d04cd0bdf92375f",
                 "type": "hls"
             }
         ]
@@ -3699,27 +3613,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Bbc Cbeebies",
-        "category": "Kids",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 bozztv.com",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Cartoon Network",
         "category": "Kids",
         "img": "https://s3.aynaott.com/storage/a89142109d049ae325fd1681b50bfffb",
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/cartoonnetwork/index.m3u8?e=1770670831&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=eb9a98ffc2b10e5eadab9fd015dac444",
+                "url": "https://tvsen5.aynascope.net/cartoonnetwork/index.m3u8?e=1770674431&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=39fb30f67c4abea36c46f3bf4ac96d6e",
                 "type": "hls"
             },
             {
@@ -3766,12 +3666,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/disney/index.m3u8?e=1770670833&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=97c41a24bd252d6622268f0995d7a78d",
+                "url": "https://tvsen7.aynascope.net/disney/index.m3u8?e=1770674433&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2a61d359c0fe7d623494d9b095fa75d5",
                 "type": "hls"
             },
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/disneyxd/index.m3u8?e=1770670833&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=95f8586a4a525c6fc42b41ddb336c105",
+                "url": "https://tvsen5.aynascope.net/disneyxd/index.m3u8?e=1770674433&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f6637eee9ce4836f5e86c77116f8ce23",
                 "type": "hls"
             }
         ]
@@ -3785,9 +3685,18 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/disneyjr/index.m3u8?e=1770670831&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3768f0e1fd244790033df1c8c2d5a31b",
+                "url": "https://tvsen7.aynascope.net/disneyjr/index.m3u8?e=1770674431&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=51215e3571d48cd0f358184c8fb618a8",
                 "type": "hls"
-            },
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Disney Junior",
+        "category": "Kids",
+        "img": "",
+        "sources": [
             {
                 "name": "🌐 moveonjoy.com",
                 "url": "http://fl1.moveonjoy.com/DISNEY_JR/index.m3u8",
@@ -3818,7 +3727,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/familyjr/index.m3u8?e=1770670833&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=68cda94bc71c427bc15169d86bf040e5",
+                "url": "https://tvsen5.aynascope.net/familyjr/index.m3u8?e=1770674433&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=20895696275f5287e49a718eafe110f0",
                 "type": "hls"
             }
         ]
@@ -3832,7 +3741,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/ForeverKids/index.m3u8?e=1770670832&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=273c0570d797513b541558c04be86259",
+                "url": "https://tvsen6.aynascope.net/ForeverKids/index.m3u8?e=1770674432&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=28fe9e5db7dbcd4068281797e20d8136",
                 "type": "hls"
             }
         ]
@@ -3847,6 +3756,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 bozztv.com",
                 "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Gopal Bhar",
+        "category": "Kids",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8",
                 "type": "hls"
             }
         ]
@@ -3888,7 +3811,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/MNetKids/index.m3u8?e=1770670832&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b6ad8a4f1e2d8ac7b026988be910266a",
+                "url": "https://tvsen6.aynascope.net/MNetKids/index.m3u8?e=1770674433&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=d5e3a6ab87bee170da4b3e2e076668a4",
                 "type": "hls"
             }
         ]
@@ -3902,7 +3825,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/MoonbugKids/index.m3u8?e=1770670833&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=fa4b74c822c3f044f7e1a02865745e58",
+                "url": "https://tvsen6.aynascope.net/MoonbugKids/index.m3u8?e=1770674433&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9d58b74c29a62146d9fcf611567bf46b",
                 "type": "hls"
             }
         ]
@@ -3916,7 +3839,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/nicklodean/index.m3u8?e=1770670833&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=432160a00d967a520e5324216eb3e3bf",
+                "url": "https://tvsen7.aynascope.net/nicklodean/index.m3u8?e=1770674434&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7fded073e13ddca2a91108147d673b4f",
                 "type": "hls"
             },
             {
@@ -3940,7 +3863,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/nickjr/index.m3u8?e=1770670831&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e8a312e016c1bd95f75bcfc1938bc189",
+                "url": "https://tvsen5.aynascope.net/nickjr/index.m3u8?e=1770674432&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7d4d14c4b96be0271d9c7cac6ee8f8c2",
                 "type": "hls"
             }
         ]
@@ -3954,7 +3877,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/nicktoons/index.m3u8?e=1770670831&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4ed104a31d21033e05947dd39a93bd22",
+                "url": "https://tvsen5.aynascope.net/nicktoons/index.m3u8?e=1770674431&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ffb66794c6baa461010925881fc01f06",
                 "type": "hls"
             }
         ]
@@ -4015,7 +3938,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/teennick/index.m3u8?e=1770670834&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=274732e8c0e0e535797c8fccc35bbc0c",
+                "url": "https://tvsen7.aynascope.net/teennick/index.m3u8?e=1770674434&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=792835dbc4f192541763471c6ed0c166",
                 "type": "hls"
             }
         ]
@@ -4029,7 +3952,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/TVCArabicKids/index.m3u8?e=1770670833&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9f6528217f84b63b9215782684c89385",
+                "url": "https://tvsen6.aynascope.net/TVCArabicKids/index.m3u8?e=1770674433&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=6d44d7d5da51c28bfe0ad5e9e9ea7e83",
                 "type": "hls"
             }
         ]
@@ -4071,7 +3994,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/ytv/index.m3u8?e=1770670834&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=03d37110494890a7c07fb492c824ce6c",
+                "url": "https://tvsen6.aynascope.net/ytv/index.m3u8?e=1770674434&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2942c16e0122681b5a95edd5d13d1438",
                 "type": "hls"
             }
         ]
@@ -4086,6 +4009,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 zillarbarta.com",
                 "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "ZB Kartun",
+        "category": "Kids",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 zillarbarta.com",
+                "url": "https://server.zillarbarta.com/zbcatun/tracks-v1a1/mono.ts.m3u8",
                 "type": "hls"
             }
         ]
@@ -4250,20 +4187,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Atnmusic",
-        "category": "Music",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnmusic.stream/mono.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Baallee",
         "category": "Music",
         "img": "",
@@ -4284,7 +4207,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/dhoom/index.m3u8?e=1770670853&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=cdd103447de07fc8467e9e42981c79d1",
+                "url": "https://tvsen6.aynascope.net/dhoom/index.m3u8?e=1770674453&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=59028542fc99e1217c8b099521aad155",
                 "type": "hls"
             },
             {
@@ -4308,7 +4231,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/DreamTurk/index.m3u8?e=1770670852&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=250dfc24c3296e6a07c3d5664e2b14f0",
+                "url": "https://tvsen6.aynascope.net/DreamTurk/index.m3u8?e=1770674452&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=bd69daf4a9336b366cde2e06aaceff23",
                 "type": "hls"
             }
         ]
@@ -4322,7 +4245,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/EkinTurk/index.m3u8?e=1770670852&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e9c9da2a7bc672ab5c5475b7bac86f15",
+                "url": "https://tvsen6.aynascope.net/EkinTurk/index.m3u8?e=1770674452&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b91c680ace9ec61811fa2a64f5539a83",
                 "type": "hls"
             }
         ]
@@ -4351,6 +4274,20 @@ window.rawChannels2 = [
             {
                 "name": "🌐 253.52",
                 "url": "http://146.59.253.52:8080/hindihitshd/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Lovedoes",
+        "category": "Music",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209587/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -4438,7 +4375,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/AlZaharTVTurkic/index.m3u8?e=1770670850&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2334d3375df4b8fe75bc9ddb266f074e",
+                "url": "https://tvsen6.aynascope.net/AlZaharTVTurkic/index.m3u8?e=1770674450&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=fd1dc85d7ecc831e0fc0ddb6cf69fb58",
                 "type": "hls"
             }
         ]
@@ -4466,7 +4403,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/deen/index.m3u8?e=1770670851&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=d44333539823f640c67be1e8d6b3ea58",
+                "url": "https://tvsen7.aynascope.net/deen/index.m3u8?e=1770674451&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f0d8f7be757a16fdda67e53e80116a39",
                 "type": "hls"
             }
         ]
@@ -4480,7 +4417,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/eman/index.m3u8?e=1770670851&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=1403df991fbdd069371a5ebda7ee1825",
+                "url": "https://tvsen6.aynascope.net/eman/index.m3u8?e=1770674451&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=8d2bc78c0a9b23da57b05e05374a47ab",
                 "type": "hls"
             }
         ]
@@ -4494,7 +4431,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/iqrabangla/index.m3u8?e=1770670850&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7cf5c74e9c67f80117dc9da186a43249",
+                "url": "https://tvsen5.aynascope.net/iqrabangla/index.m3u8?e=1770674450&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ce313363be6b17be024150969001967f",
                 "type": "hls"
             }
         ]
@@ -4508,7 +4445,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/MadaniTV/index.m3u8?e=1770670851&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9a95b58771a4cadbf13e1865f9d580d3",
+                "url": "https://tvsen7.aynascope.net/MadaniTV/index.m3u8?e=1770674451&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=79c4601c1e20791c47bc2f8d5b43bf51",
                 "type": "hls"
             },
             {
@@ -4532,7 +4469,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/PeaceTVUrduHD/index.m3u8?e=1770670850&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ee4caf3ea789d42279bd1ae2f12669e8",
+                "url": "https://tvsen6.aynascope.net/PeaceTVUrduHD/index.m3u8?e=1770674450&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=63f35c1216faaa56ee04d33f66949ea2",
                 "type": "hls"
             },
             {
@@ -4603,7 +4540,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/takbeer/index.m3u8?e=1770670851&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0a5f1e08af19f0335115c981382051e8",
+                "url": "https://tvsen7.aynascope.net/takbeer/index.m3u8?e=1770674451&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3a8f8430ae210c59ec89e34c947cc70b",
                 "type": "hls"
             }
         ]
@@ -4617,7 +4554,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/tvone/index.m3u8?e=1770670850&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=fbc86d17ad6a15393572b35756e1d90b",
+                "url": "https://tvsen5.aynascope.net/tvone/index.m3u8?e=1770674450&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=115e2b131dd4bf03067df248fe3ed5ad",
                 "type": "hls"
             }
         ]
@@ -4635,7 +4572,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/andpictureshd/index.m3u8?e=1770670842&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=559c6e857d1ac1a9260ce4559c9c3695",
+                "url": "https://tvsen6.aynascope.net/andpictureshd/index.m3u8?e=1770674442&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0cf40301b4ec8599be798fb42dff2c2e",
                 "type": "hls"
             }
         ]
@@ -4663,8 +4600,18 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
+                "name": "🔗 akamaized.net",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "🌐 tundracast.com",
                 "url": "http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-lemar/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 149.16",
+                "url": "http://116.204.149.16/nagorik/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -4692,7 +4639,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/9xjalwa/index.m3u8?e=1770670838&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=344861a27b718e7812dcc97b68aa0928",
+                "url": "https://tvsen6.aynascope.net/9xjalwa/index.m3u8?e=1770674438&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=1f4b3f38520618875c0bb6c60fcfd8c9",
                 "type": "hls"
             }
         ]
@@ -4706,7 +4653,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/9X_Jhakaas/index.m3u8?e=1770670837&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=698ea8ee0845a36e30917c6608fd85f7",
+                "url": "https://tvsen6.aynascope.net/9X_Jhakaas/index.m3u8?e=1770674437&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c16b762341cd1415fb9b2904eaa3583c",
                 "type": "hls"
             }
         ]
@@ -4720,7 +4667,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/9X_Tashan/index.m3u8?e=1770670838&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=278a8f39a9da8fc7c2ec71112bfa745a",
+                "url": "https://tvsen6.aynascope.net/9X_Tashan/index.m3u8?e=1770674438&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=95be4f6958ac1480e365e9ff492712a6",
                 "type": "hls"
             }
         ]
@@ -4734,7 +4681,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/9xm/index.m3u8?e=1770670837&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ab9b5e08552538444aa47ffa0ea1e11d",
+                "url": "https://tvsen6.aynascope.net/9xm/index.m3u8?e=1770674437&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=bc0ef858db3d3b0f430b934669b24f73",
                 "type": "hls"
             },
             {
@@ -4795,7 +4742,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/AssamTalks/index.m3u8?e=1770670836&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=41fcf89fdf01175fe15b12483e99a2d1",
+                "url": "https://tvsen7.aynascope.net/AssamTalks/index.m3u8?e=1770674436&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7b90b2530bb820f2d41e92e0c6a5c82e",
                 "type": "hls"
             }
         ]
@@ -4823,7 +4770,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/B4UHitz/index.m3u8?e=1770670835&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e052f840743eca29f7767c6b5be335c9",
+                "url": "https://tvsen5.aynascope.net/B4UHitz/index.m3u8?e=1770674435&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9a76ea4c7d5ac3aafd514c1f25ab7f21",
                 "type": "hls"
             }
         ]
@@ -4894,11 +4841,6 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
-                "name": "🌐 227.29",
-                "url": "http://163.61.227.29:8000/play/a046/index.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "🌐 220.6",
                 "url": "http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2762.ts",
                 "type": "hls"
@@ -4952,7 +4894,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/Dabangg/index.m3u8?e=1770670837&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b3194e7af1aed11568fff483abb2db33",
+                "url": "https://tvsen6.aynascope.net/Dabangg/index.m3u8?e=1770674437&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=397528c88ab627e7e6a2c19bc3bd0287",
                 "type": "hls"
             }
         ]
@@ -4966,7 +4908,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/Dangal/index.m3u8?e=1770670836&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=71c5b919910ce5fb41344e9e2e866edb",
+                "url": "https://tvsen6.aynascope.net/Dangal/index.m3u8?e=1770674436&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=cc208d3cf0c87a5dfddcd3f8b458760b",
                 "type": "hls"
             },
             {
@@ -4985,12 +4927,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/Dangal2/index.m3u8?e=1770670836&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=68eb58d08d2bb3756f16a2637257d697",
-                "type": "hls"
-            },
-            {
-                "name": "🌐 227.29",
-                "url": "http://163.61.227.29:8000/play/a04b/index.m3u8",
+                "url": "https://tvsen6.aynascope.net/Dangal2/index.m3u8?e=1770674436&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=06bc55a5f3eca1c44be1a84908a5c827",
                 "type": "hls"
             }
         ]
@@ -5004,7 +4941,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/Dhamaal/index.m3u8?e=1770670836&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=96328ee82714dea4c39f0e0d9ffc2df4",
+                "url": "https://tvsen6.aynascope.net/Dhamaal/index.m3u8?e=1770674437&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7c2a949a32d51489651354b3b9d8d405",
                 "type": "hls"
             }
         ]
@@ -5018,7 +4955,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/DhamakaMovies/index.m3u8?e=1770670839&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2060189a9e460c346b4b56dca9f92957",
+                "url": "https://tvsen7.aynascope.net/DhamakaMovies/index.m3u8?e=1770674439&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b456ad063e42cc4544c732a937fbc9a6",
                 "type": "hls"
             }
         ]
@@ -5032,7 +4969,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/Dhinchaak/index.m3u8?e=1770670838&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=1ec76005cc36d31a7a7b16c3538297f3",
+                "url": "https://tvsen6.aynascope.net/Dhinchaak/index.m3u8?e=1770674438&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=bec9e21def1fd46affaca9dbe4d128f2",
                 "type": "hls"
             }
         ]
@@ -5046,7 +4983,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/Goldmines/index.m3u8?e=1770670835&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e00b7e6ba3296dc7385b0ea3d771ba07",
+                "url": "https://tvsen6.aynascope.net/Goldmines/index.m3u8?e=1770674435&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=fb8d362b0a2862328e758390bf4abf43",
                 "type": "hls"
             },
             {
@@ -5079,7 +5016,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/GoldminesMovies/index.m3u8?e=1770670835&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2e1000e775cd54b1102ecffb74fa1a47",
+                "url": "https://tvsen6.aynascope.net/GoldminesMovies/index.m3u8?e=1770674435&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=d1e66ce077e83cf6cb0f2becb6e42605",
                 "type": "hls"
             },
             {
@@ -5098,7 +5035,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/HiDost/index.m3u8?e=1770670837&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=84cb429b99940b8964aac6f439304b1e",
+                "url": "https://tvsen6.aynascope.net/HiDost/index.m3u8?e=1770674437&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0eec760936bb9194bb3fcb280264393b",
                 "type": "hls"
             }
         ]
@@ -5196,7 +5133,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/ManoranjanMovies/index.m3u8?e=1770670837&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f3c5143f732d0c82f28c41ba5ae8cd33",
+                "url": "https://tvsen6.aynascope.net/ManoranjanMovies/index.m3u8?e=1770674437&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4f667abe28e3d7b640e55c196af3d976",
                 "type": "hls"
             }
         ]
@@ -5210,7 +5147,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/ManoranjanTV/index.m3u8?e=1770670838&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e2bf39aa7c4736fdf0b7f215b71d927a",
+                "url": "https://tvsen6.aynascope.net/ManoranjanTV/index.m3u8?e=1770674439&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c22737e982fdc132aa72bb663f28891a",
                 "type": "hls"
             }
         ]
@@ -5224,7 +5161,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/mastimusic/index.m3u8?e=1770670837&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=8d9dc0cec79e31644855a9c7c1809d6d",
+                "url": "https://tvsen6.aynascope.net/mastimusic/index.m3u8?e=1770674438&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ab43ab37466cec1ce1ab33c4f374e29d",
                 "type": "hls"
             }
         ]
@@ -5266,7 +5203,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/Network10/index.m3u8?e=1770670839&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2de071d04e7421a53fc61ceadf360854",
+                "url": "https://tvsen6.aynascope.net/Network10/index.m3u8?e=1770674439&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=54f6198b3c375227a4a89463f09f541e",
                 "type": "hls"
             }
         ]
@@ -5280,7 +5217,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/RepublicTVBharat/index.m3u8?e=1770670839&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f8841ca89c24482abd70f5e07f6a4bf5",
+                "url": "https://tvsen6.aynascope.net/RepublicTVBharat/index.m3u8?e=1770674439&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4429de9032dd7ecf321626c0341933b2",
                 "type": "hls"
             }
         ]
@@ -5488,7 +5425,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/Wfn4bVp3dLgA/index.m3u8?e=1770670839&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=903b7537315ffa3b37cba0b9b59f7420",
+                "url": "https://tvsen5.aynascope.net/Wfn4bVp3dLgA/index.m3u8?e=1770674440&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ce392bbabe395ba7e9b4a22cc81e919c",
                 "type": "hls"
             },
             {
@@ -5554,7 +5491,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/TaazaTV/index.m3u8?e=1770670836&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=fee07a7a73dbb21ff99bb0a25bcb6844",
+                "url": "https://tvsen7.aynascope.net/TaazaTV/index.m3u8?e=1770674436&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=a85f92ebc78badc49aeb5baf12e06fd7",
                 "type": "hls"
             }
         ]
@@ -5568,7 +5505,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/TheQ/index.m3u8?e=1770670836&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=61d9cd37a4912e065e7b1bbbdcaa515d",
+                "url": "https://tvsen6.aynascope.net/TheQ/index.m3u8?e=1770674436&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7a378e6c64884442acc1339b5c12c182",
                 "type": "hls"
             }
         ]
@@ -5773,7 +5710,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (184 channels)
+    // OTHERS (177 channels)
     // ==================================================
 
     {
@@ -5805,20 +5742,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "5 News HD",
-        "category": "Unknown",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 227.29",
-                "url": "http://163.61.227.29:8000/play/a03m/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "A Spor",
         "category": "Football",
         "img": "",
@@ -5839,7 +5762,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/Wm9Lv2RjZGT6/index.m3u8?e=1770670857&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7267e25764ee33c1cb2393a46a799146",
+                "url": "https://tvsen5.aynascope.net/Wm9Lv2RjZGT6/index.m3u8?e=1770674457&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=32d146da4991c9d18ebcd497eda42212",
                 "type": "hls"
             }
         ]
@@ -6003,7 +5926,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/amc/index.m3u8?e=1770670860&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b5e195f7f326fe0bce67beefecf96c46",
+                "url": "https://tvsen6.aynascope.net/amc/index.m3u8?e=1770674460&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=651f214c98487a73d9037442b0b0eddf",
                 "type": "hls"
             }
         ]
@@ -6064,7 +5987,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/aspark/index.m3u8?e=1770670860&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c792fa27451620d0f5de1fd7a3e111d3",
+                "url": "https://tvsen6.aynascope.net/aspark/index.m3u8?e=1770674460&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3ee587608068bf580801c04619fc07d9",
                 "type": "hls"
             }
         ]
@@ -6120,7 +6043,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/axs/index.m3u8?e=1770670860&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=a2f3ffe74d152e10c810ec1e4590abff",
+                "url": "https://tvsen6.aynascope.net/axs/index.m3u8?e=1770674460&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7f5cc98c27a288cfc7fac10779514e3a",
                 "type": "hls"
             }
         ]
@@ -6246,7 +6169,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/bravo/index.m3u8?e=1770670845&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c32f6fe2bd5b945dc7c8dae6340fbe2a",
+                "url": "https://tvsen7.aynascope.net/bravo/index.m3u8?e=1770674445&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=feda281be3f233d9f1ba83fc361d38bb",
                 "type": "hls"
             }
         ]
@@ -6274,7 +6197,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/cbs/index.m3u8?e=1770670848&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=41cf18c5900e62f2f8cf7d6c0c849b71",
+                "url": "https://tvsen7.aynascope.net/cbs/index.m3u8?e=1770674448&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f565d11659b5a73a117e91cb6999fe81",
                 "type": "hls"
             }
         ]
@@ -6316,7 +6239,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/cgtnDocumentary/index.m3u8?e=1770670844&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=414ba22452b096f4abc6af90aa22f04a",
+                "url": "https://tvsen6.aynascope.net/cgtnDocumentary/index.m3u8?e=1770674444&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=abc18f1435930414335a07a36e634d4e",
                 "type": "hls"
             }
         ]
@@ -6344,21 +6267,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/cnbc/index.m3u8?e=1770670848&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4bd115726c315691f8ef37b258661d68",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Colors Cineplex Superhits",
-        "category": "Unknown",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 227.29",
-                "url": "http://163.61.227.29:8000/play/a04c/index.m3u8",
+                "url": "https://tvsen6.aynascope.net/cnbc/index.m3u8?e=1770674448&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4ef0d82c996f00cbaf60f528b797d903",
                 "type": "hls"
             }
         ]
@@ -6372,7 +6281,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/comedycentral/index.m3u8?e=1770670845&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4cecc838a46bda28a90745096e50158f",
+                "url": "https://tvsen7.aynascope.net/comedycentral/index.m3u8?e=1770674445&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=322bbe586d65ad7d89f2261c97604eea",
                 "type": "hls"
             }
         ]
@@ -6386,7 +6295,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/cooking/index.m3u8?e=1770670845&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=6e1c7e7a2ec10b4219f430ba493f8f33",
+                "url": "https://tvsen7.aynascope.net/cooking/index.m3u8?e=1770674445&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=4d796ac15e4fc9c617f986f3f7a95ef3",
                 "type": "hls"
             }
         ]
@@ -6428,7 +6337,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/cp24/index.m3u8?e=1770670848&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ecd32350a08fd3e9492430b18b8d8786",
+                "url": "https://tvsen6.aynascope.net/cp24/index.m3u8?e=1770674448&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3b4198df27f0cf3fbb3fe5b145b86814",
                 "type": "hls"
             }
         ]
@@ -6498,7 +6407,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/discovery_hd/index.m3u8?e=1770670861&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e8e8f74ee855fe9c1dbe76fb1c2d44d0",
+                "url": "https://tvsen6.aynascope.net/discovery_hd/index.m3u8?e=1770674461&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=47f47946b9b289a98c57bc4ae75c689b",
                 "type": "hls"
             },
             {
@@ -6517,7 +6426,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/discoveryfamily/index.m3u8?e=1770670844&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=313668394f29ff184568463dee28177d",
+                "url": "https://tvsen5.aynascope.net/discoveryfamily/index.m3u8?e=1770674445&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=33749449718ff9db2a6ec51168d7c07b",
                 "type": "hls"
             }
         ]
@@ -6531,7 +6440,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/discovery_science/index.m3u8?e=1770670859&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=14726e8b2422caf029b49584c60db5ef",
+                "url": "https://tvsen6.aynascope.net/discovery_science/index.m3u8?e=1770674460&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=fb296953d72e20d8740f4004c3ad5025",
                 "type": "hls"
             },
             {
@@ -6550,7 +6459,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/discovery_turbo/index.m3u8?e=1770670844&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7e4bc8a3774a2eb6d5f67ada16433d52",
+                "url": "https://tvsen6.aynascope.net/discovery_turbo/index.m3u8?e=1770674444&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9eb762a46ab68adef0d46d06ed614545",
                 "type": "hls"
             },
             {
@@ -6639,21 +6548,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/epix/index.m3u8?e=1770670845&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=59fa8b427e7a114da070dd12c8a758b2",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Fast Sports",
-        "category": "Unknown",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 227.29",
-                "url": "http://163.61.227.29:8000/play/a001/index.m3u8",
+                "url": "https://tvsen7.aynascope.net/epix/index.m3u8?e=1770674445&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=987b41edbca854e6988e62951e9dc229",
                 "type": "hls"
             }
         ]
@@ -6695,7 +6590,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/foodnetwork/index.m3u8?e=1770670846&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=010256df44f4465ecf549c0019957339",
+                "url": "https://tvsen6.aynascope.net/foodnetwork/index.m3u8?e=1770674446&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=380cc790862838c614bf9d24a7fc0b96",
                 "type": "hls"
             }
         ]
@@ -6709,7 +6604,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/fox5/index.m3u8?e=1770670844&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=79a7b0d8af0ce145fdb058d9df6632a2",
+                "url": "https://tvsen6.aynascope.net/fox5/index.m3u8?e=1770674444&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=6efa06898ab28a5bbf7533034d81344b",
                 "type": "hls"
             }
         ]
@@ -6723,7 +6618,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/foxbusiness/index.m3u8?e=1770670844&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=28267e1fccc0b2fb6795ed4a685bdaec",
+                "url": "https://tvsen6.aynascope.net/foxbusiness/index.m3u8?e=1770674444&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=879b9987a0a5b7a72425f14ca27d838e",
                 "type": "hls"
             }
         ]
@@ -6751,7 +6646,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/fx/index.m3u8?e=1770670845&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3002f13f22daaa73f365a254d09084f9",
+                "url": "https://tvsen7.aynascope.net/fx/index.m3u8?e=1770674446&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ebd01760a840a7717769abc3824909db",
                 "type": "hls"
             }
         ]
@@ -6891,7 +6786,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/hbo/index.m3u8?e=1770670843&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=df8e99d1ebfbf33d6d81d4f06f726e1e",
+                "url": "https://tvsen5.aynascope.net/hbo/index.m3u8?e=1770674444&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7ee269abe6e85e1f9b52950254ac2976",
                 "type": "hls"
             }
         ]
@@ -6905,7 +6800,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/hbo2/index.m3u8?e=1770670846&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2db7de97bb64e598c6218078a9b225a3",
+                "url": "https://tvsen7.aynascope.net/hbo2/index.m3u8?e=1770674446&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=42575dc088120d762476a942f63f2d83",
                 "type": "hls"
             }
         ]
@@ -6933,7 +6828,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/hgtv/index.m3u8?e=1770670846&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3d791875cf6249f36672512c47d05f88",
+                "url": "https://tvsen7.aynascope.net/hgtv/index.m3u8?e=1770674446&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=26dc2ebb234f3e1113f6d78e0543401f",
                 "type": "hls"
             }
         ]
@@ -6961,7 +6856,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/historyen/index.m3u8?e=1770670844&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=6849dd1a42113e7153226af7666b593b",
+                "url": "https://tvsen5.aynascope.net/historyen/index.m3u8?e=1770674444&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=867bfe5a3ec0e81c02d0c894b6d74e77",
                 "type": "hls"
             }
         ]
@@ -6975,26 +6870,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/ibtvusa/index.m3u8?e=1770670847&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=656b3ef94159671faa3110c30e677ea0",
+                "url": "https://tvsen7.aynascope.net/ibtvusa/index.m3u8?e=1770674447&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0624962fb9c9b53caf9866e59a658212",
                 "type": "hls"
             },
             {
                 "name": "🔗 streamlock.net",
                 "url": "https://5dd3981940faa.streamlock.net/ibtvusa/ibtvusa/chunklist_w270842026.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Icc World Cup 2026",
-        "category": "Icc World Cup 2026",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 149.16",
-                "url": "http://116.204.149.16/nagorik/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -7036,21 +6917,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/islam/index.m3u8?e=1770670843&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9779d3fa54dad6f31c1ea9d413d09d13",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Jago News 24",
-        "category": "Jagobd",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/jagonews24.stream/tracks-v1a1/mono.m3u8",
+                "url": "https://tvsen6.aynascope.net/islam/index.m3u8?e=1770674443&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f769ef0cc8f4d5c065f4e8420c1ab2b8",
                 "type": "hls"
             }
         ]
@@ -7092,7 +6959,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/kolkatatv/index.m3u8?e=1770670858&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9d5ea9badb19e63e104cf3cac8f2e08a",
+                "url": "https://tvsen6.aynascope.net/kolkatatv/index.m3u8?e=1770674458&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=85271e46f3473bcd7a69103e7e8b1789",
                 "type": "hls"
             }
         ]
@@ -7106,7 +6973,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/laff/index.m3u8?e=1770670846&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=512cefa72daf4f78336e80c1f009aa78",
+                "url": "https://tvsen7.aynascope.net/laff/index.m3u8?e=1770674446&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=cab11345ebabbaf15a05dc83517feb45",
                 "type": "hls"
             }
         ]
@@ -7120,7 +6987,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/lifetime/index.m3u8?e=1770670846&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e32c5b1374ec2c2cc43f8bc18f7d6dfc",
+                "url": "https://tvsen7.aynascope.net/lifetime/index.m3u8?e=1770674446&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7268dd4425a050281bedb9406dca9fa6",
                 "type": "hls"
             }
         ]
@@ -7135,20 +7002,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 fifabangladesh.site",
                 "url": "https://fifabangladesh.site/?id=71d85138-3dd6-4a6a-ac39-f47aa018a00a",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Live Quran TV",
-        "category": "Cricket",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 kwikmotion.com",
-                "url": "https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -7176,7 +7029,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/millenniumtv/index.m3u8?e=1770670859&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=af192ff42ea3878f54f628e01aeb3b1e",
+                "url": "https://tvsen7.aynascope.net/millenniumtv/index.m3u8?e=1770674459&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ad1f8215c1b554f90455c0ff18afdc68",
                 "type": "hls"
             }
         ]
@@ -7232,7 +7085,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/moviebangla/index.m3u8?e=1770670859&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f753423b9a5b4bb752b9f06ff1f1932b",
+                "url": "https://tvsen7.aynascope.net/moviebangla/index.m3u8?e=1770674459&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=90b7db7da516b480add06af640c50b1a",
                 "type": "hls"
             },
             {
@@ -7293,7 +7146,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/msnbc/index.m3u8?e=1770670848&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=87eff22c908f4a5125e469fd8b1a650c",
+                "url": "https://tvsen6.aynascope.net/msnbc/index.m3u8?e=1770674449&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=cc5e31a5e5193706b8cdfcb45a5a164f",
                 "type": "hls"
             }
         ]
@@ -7321,7 +7174,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/natgeo/index.m3u8?e=1770670846&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=11572aa130a350c1cd38a0531e2e0bbc",
+                "url": "https://tvsen6.aynascope.net/natgeo/index.m3u8?e=1770674447&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=1699a294de008bb6852ccf328c7f97d1",
                 "type": "hls"
             },
             {
@@ -7345,7 +7198,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/NewsIndia24x7/index.m3u8?e=1770670858&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=77cd0e4f7bcb2f02d402163ccfcc88cd",
+                "url": "https://tvsen5.aynascope.net/NewsIndia24x7/index.m3u8?e=1770674458&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=e85a0a6569506a2383817716ffe91262",
                 "type": "hls"
             }
         ]
@@ -7359,7 +7212,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/NewsTime/index.m3u8?e=1770670858&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=deb3b41b346de529c41fa4bae40f6f90",
+                "url": "https://tvsen6.aynascope.net/NewsTime/index.m3u8?e=1770674458&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=858c72b480aa4404fab3cd4df65ce9c2",
                 "type": "hls"
             }
         ]
@@ -7373,7 +7226,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/ntveurope/index.m3u8?e=1770670859&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=484daa67f99c630f1a9073f6cc6ac5ca",
+                "url": "https://tvsen7.aynascope.net/ntveurope/index.m3u8?e=1770674459&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=09a82e13bdb95334a4a237f60029bea9",
                 "type": "hls"
             }
         ]
@@ -7401,7 +7254,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/peacetv/index.m3u8?e=1770670859&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=cf379d21cc6358ccab93d77ce8e90854",
+                "url": "https://tvsen5.aynascope.net/peacetv/index.m3u8?e=1770674459&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ea02f4ed7730ad6de2dbc527996aa114",
                 "type": "hls"
             }
         ]
@@ -7457,7 +7310,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/pix11/index.m3u8?e=1770670860&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=851df2ae96aae032034dbf9e25d63898",
+                "url": "https://tvsen6.aynascope.net/pix11/index.m3u8?e=1770674460&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=fe4a55e1eb9901145ff2e37b9ef5001d",
                 "type": "hls"
             }
         ]
@@ -7527,7 +7380,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/Rplus/index.m3u8?e=1770670857&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=72023f9d1e3f94b24195d2e361490400",
+                "url": "https://tvsen6.aynascope.net/Rplus/index.m3u8?e=1770674457&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c9abbee99e82f25244eab6d2103d5e6e",
                 "type": "hls"
             }
         ]
@@ -7541,7 +7394,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/RplusGold/index.m3u8?e=1770670857&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3c238be115ac88c8ffd01405a035e707",
+                "url": "https://tvsen6.aynascope.net/RplusGold/index.m3u8?e=1770674457&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7f44b9a9ac86cb86cfa3654fa28ca564",
                 "type": "hls"
             },
             {
@@ -7630,7 +7483,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/RDSSocialTV/index.m3u8?e=1770670843&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=dbac764264edcc5389998935f45fd443",
+                "url": "https://tvsen6.aynascope.net/RDSSocialTV/index.m3u8?e=1770674443&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7353a256444bb26d4cbab790931a3b6a",
                 "type": "hls"
             }
         ]
@@ -7658,7 +7511,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen5.aynascope.net/R_Bangla/index.m3u8?e=1770670858&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ea945779b3b4fd1d9916be99971bdba6",
+                "url": "https://tvsen5.aynascope.net/R_Bangla/index.m3u8?e=1770674458&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=6910131d5970f424052c5125e68d4638",
                 "type": "hls"
             }
         ]
@@ -7672,7 +7525,21 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/revolt/index.m3u8?e=1770670861&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=019b90cce9f6b22e1f856eeb1b93b666",
+                "url": "https://tvsen6.aynascope.net/revolt/index.m3u8?e=1770674461&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c9e3a7bd2f2538e6b5390805be18ade6",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Rtl9 HD",
+        "category": "Infotainment",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 18.177",
+                "url": "http://151.80.18.177:86/RTL9/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -7686,7 +7553,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/RupshiBangla/index.m3u8?e=1770670857&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2cb3d71564c0d63b4f30c5c1d80ef243",
+                "url": "https://tvsen6.aynascope.net/RupshiBangla/index.m3u8?e=1770674457&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2766bf35a8b2849c914d89ea22326991",
                 "type": "hls"
             }
         ]
@@ -7756,7 +7623,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/skycinemanimation/index.m3u8?e=1770670847&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=52ad955c85ee5e752658575d5a93e55a",
+                "url": "https://tvsen7.aynascope.net/skycinemanimation/index.m3u8?e=1770674447&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=bf889aff3d39c6139587a587d3169c5b",
                 "type": "hls"
             }
         ]
@@ -7868,12 +7735,17 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/sjhdbd/index.m3u8?e=1770670854&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=bc9019c8ede4ccffd1c74f15beaa2a4d",
+                "url": "https://tvsen7.aynascope.net/sjhdbd/index.m3u8?e=1770674454&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=94a1fa8906be2c5ee727837bcc87e8be",
                 "type": "hls"
             },
             {
                 "name": "⭐ roarzone.info",
                 "url": "https://edge2.roarzone.info:8444/roarzone/bk/30/index.m3u8?token=e380771788bd4793211763c314cb973633e67f76-aaa21a2b76d41fce9e2443cda0805e02-1770672147-1770668547",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 ultrashort.info",
+                "url": "https://ultrashort.info/5yLqax",
                 "type": "hls"
             }
         ]
@@ -7915,7 +7787,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/sphdbd/index.m3u8?e=1770670854&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=74df090861a4c5bc93bd1f83ea22da98",
+                "url": "https://tvsen7.aynascope.net/sphdbd/index.m3u8?e=1770674454&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=dfc56b3ed0f5f74aa3e09b3de9756adf",
                 "type": "hls"
             },
             {
@@ -7934,7 +7806,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/syfy/index.m3u8?e=1770670847&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=b8d97dc3154ba1f505c4b935697b7738",
+                "url": "https://tvsen7.aynascope.net/syfy/index.m3u8?e=1770674447&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=9ef9acf48c11133e0ac8ee97148cc3f4",
                 "type": "hls"
             }
         ]
@@ -7989,20 +7861,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "The Q Kahaniyan",
-        "category": "Unknown",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 227.29",
-                "url": "http://163.61.227.29:8000/play/a04v/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "The Weather Network",
         "category": "Weather",
         "img": "https://s3.aynaott.com/storage/c4ed22bc99498463de2de6ea5bd6f827",
@@ -8023,7 +7881,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/tlc_hd/index.m3u8?e=1770670847&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=ba472a3d90730083aa538ebb178da612",
+                "url": "https://tvsen6.aynascope.net/tlc_hd/index.m3u8?e=1770674447&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2f3ca6272001c590e0480056bccf77bd",
                 "type": "hls"
             }
         ]
@@ -8051,7 +7909,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/travelxp/index.m3u8?e=1770670847&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=2aa83367fcf4bf1bee7a9344d400d808",
+                "url": "https://tvsen6.aynascope.net/travelxp/index.m3u8?e=1770674447&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=a5a0f4b470cc5fb17aa7a61f88e91ce0",
                 "type": "hls"
             }
         ]
@@ -8088,7 +7946,7 @@ window.rawChannels2 = [
 
     {
         "name": "Travel XP English NZ",
-        "category": "Infotainment Channels",
+        "category": "Information",
         "img": "",
         "sources": [
             {
@@ -8177,7 +8035,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/usa/index.m3u8?e=1770670848&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=6df26d90384f640c499b956c1f2a7403",
+                "url": "https://tvsen6.aynascope.net/usa/index.m3u8?e=1770674448&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=c0d630d05d46c3d71f4082008218d32f",
                 "type": "hls"
             }
         ]
@@ -8205,7 +8063,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen7.aynascope.net/vtvusa/index.m3u8?e=1770670860&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=863c60b22a60c9e17b39d8d96e880731",
+                "url": "https://tvsen7.aynascope.net/vtvusa/index.m3u8?e=1770674460&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=3ef94880be4e87259326141192b2e59e",
                 "type": "hls"
             }
         ]
@@ -8247,7 +8105,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/TheWeatherChannel/index.m3u8?e=1770670847&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=67697c445eeed457efa7578600e4f924",
+                "url": "https://tvsen6.aynascope.net/TheWeatherChannel/index.m3u8?e=1770674448&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=f9e6c26c3b3425e70ad058d1922b42f3",
                 "type": "hls"
             }
         ]
@@ -8392,21 +8250,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "⭐ aynascope.net",
-                "url": "https://tvsen6.aynascope.net/zee24/index.m3u8?e=1770670858&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=7c23bb28729639b50cf0715c707254d0",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Zee Anmol Cinema",
-        "category": "Unknown",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 227.29",
-                "url": "http://163.61.227.29:8000/play/a04j/index.m3u8",
+                "url": "https://tvsen6.aynascope.net/zee24/index.m3u8?e=1770674458&u=f908a6a4-d002-43ac-bdda-ae9c17c44a48&token=0de24a8dfaf7fe340a5ecdbb0b99a121",
                 "type": "hls"
             }
         ]
@@ -8430,11 +8274,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 552
-// Total sources: 682
+// Total channels: 543
+// Total sources: 667
 // Top priority sources (⭐): 279
 // Other priority sources (⚡): 1
-// Regular sources: 402
+// Regular sources: 387
 // Categories: 11
-// Merged duplicates: 184 channels consolidated
+// Merged duplicates: 181 channels consolidated
 // Generated with M3U processor
