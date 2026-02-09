@@ -1,4 +1,4 @@
-// Generated: 2026-02-08 18:34 UTC
+// Generated: 2026-02-09 01:51 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1505,7 +1505,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (73 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (74 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2442,6 +2442,25 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Sab",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://anywhere.pwisetthon.com/https://tigerhub-bd.vercel.app/SONY/Sab/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://tigerhub-bd.vercel.app/SONY/Sab/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/kMQ4KLhT/sab.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "SRK TV",
         "sources": [
             {
@@ -2461,6 +2480,11 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://tvsen1.aynaott.com/gUX8BJmNc2yF/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -3518,7 +3542,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (41 channels, 12 with 🔐 DRM)
+    // MOVIE (44 channels, 14 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3866,6 +3890,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "MN+",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://times-ott-live.akamaized.net/mnplus_wv_drm/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "40f019b86241d23ef075633fd7f1e927",
+                    "key": "058dec845bd340178a388edd104a015e"
+                }
+            }
+        ],
+        "img": "https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/leazcc.jpeg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "MNX HD",
         "sources": [
             {
@@ -3958,6 +4000,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Romedy Now",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://times-ott-live.akamaized.net/romedynow_wv_drm/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "40f019b86241d23ef075633fd7f1e927",
+                    "key": "058dec845bd340178a388edd104a015e"
+                }
+            }
+        ],
+        "img": "https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/nchght.jpeg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Sanonda",
         "sources": [
             {
@@ -3986,6 +4046,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/FF8V2XHs/ss.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Star Gold",
+        "sources": [
+            {
+                "name": "Stream 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/stargold/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/7YJXRsp7/gold.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4782,7 +4856,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (32 channels, 10 with 🔐 DRM)
+    // OTHERS (30 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5169,42 +5243,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "6d647aff767c453daa5fb54a44c783c6",
-                    "key": "2f971e6a1cc58e7085afc761a3f13162"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "National Geographic Wild",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
-                    "key": "adf163c6c1729e6f77668d4e49f32352"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5281,7 +5319,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 333
+// Total channels: 335
 // Channels with DRM: 52
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
