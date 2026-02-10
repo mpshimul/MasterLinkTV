@@ -1,4 +1,4 @@
-// Generated: 2026-02-10 13:04 UTC
+// Generated: 2026-02-10 19:05 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -938,7 +938,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (18 channels, 8 with 🔐 DRM)
+    // SPORTS (17 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1190,24 +1190,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Bvq4Qffp/tnt3.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "TNT Sports 4",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/i2pcjr4pe5/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "192b1115da041585c77200128549efa1",
-                    "key": "634e10efe4abbb14be400a3ccbac0258"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/SQwXQRTK/tnt4.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1547,7 +1529,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (75 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (73 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1829,20 +1811,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Bongo Drama",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://streams2.sofast.tv/ptnr-runntv/title-Bongo_Drama/sofastplayout/restream/6509864e-6447-4085-9053-c643734bbc1c/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/-WoL9dA-we7-4A1cWu_SHjzRl7e0_sdMrr-lFrznSAIyn__k7Hs89hvW8jV3_DpYP9PzjBQikw=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "BTV",
         "sources": [
             {
@@ -1913,20 +1881,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/vTQZ4Jg6/colors-bangla.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Dangal",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://live-dangal.akamaized.net/liveabr/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/Hk2rQKsR/Dangal.png",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2308,11 +2262,6 @@ window.rawChannels2 = [
     {
         "name": "Mazhavil Manorama",
         "sources": [
-            {
-                "name": "⚡ SD",
-                "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mazhavilmanorama_nim_https/050522/mazhavilmanorama/playlist.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "HD",
                 "url": "https://cdn-7.pishow.tv/live/1129/master.m3u8",
@@ -4444,11 +4393,6 @@ window.rawChannels2 = [
                 "name": "Server 1",
                 "url": "https://tplay.live/tplay/playout/209587/master.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://anywhere.pwisetthon.com/https://live20.bozztv.com/giatvplayout7/giatv-209587/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/jSLNzXgM/Bengali-Beats.png",
@@ -4459,11 +4403,6 @@ window.rawChannels2 = [
     {
         "name": "Deewana",
         "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://anywhere.pwisetthon.com/https://tplay.live/originals/deewana/index.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Stream 2",
                 "url": "https://tplay.live/originals/deewana/index.m3u8",
@@ -5402,7 +5341,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 340
-// Channels with DRM: 54
+// Total channels: 337
+// Channels with DRM: 53
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
