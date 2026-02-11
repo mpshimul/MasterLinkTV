@@ -1,4 +1,4 @@
-// Generated: 2026-02-11 13:02 UTC
+// Generated: 2026-02-11 19:01 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -298,6 +298,11 @@ window.rawChannels2 = [
     {
         "name": "Ekhon",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://jago-bosta.global.ssl.fastly.net/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/globaltv.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/ekhontv.index.m3u8",
@@ -919,7 +924,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (16 channels, 7 with 🔐 DRM)
+    // SPORTS (17 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1075,6 +1080,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/6ss3NfsrbhKQaiY56yCtgg9NwpAoOYzVzjtWZTgKCm3BWeV4vUiXMYM3vJEebtPapo2M6cUT=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports 1",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1496,7 +1515,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (64 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (65 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2293,6 +2312,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Entertainment",
+        "sources": [
+            {
+                "name": "HD",
+                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/sethd/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/ydq1SThV/set.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Sony Sab",
         "sources": [
             {
@@ -2758,6 +2791,11 @@ window.rawChannels2 = [
     {
         "name": "Ekhon",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://jago-bosta.global.ssl.fastly.net/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/globaltv.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/ekhontv.index.m3u8",
@@ -5164,7 +5202,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 324
+// Total channels: 326
 // Channels with DRM: 53
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
