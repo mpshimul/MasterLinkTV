@@ -1,4 +1,4 @@
-// Generated: 2026-02-12 01:50 UTC
+// Generated: 2026-02-12 07:00 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -312,11 +312,6 @@ window.rawChannels2 = [
     {
         "name": "Ekhon",
         "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://jago-bosta.global.ssl.fastly.net/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/globaltv.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/ekhontv.index.m3u8",
@@ -938,7 +933,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (17 channels, 7 with 🔐 DRM)
+    // SPORTS (23 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1032,6 +1027,11 @@ window.rawChannels2 = [
         "name": "Live 3",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://live-en.aisports.cc/moviebox/device01/playlist.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 3",
                 "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
                 "type": "hls"
@@ -1099,8 +1099,69 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Sports 1",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=7482ed5e9c4da0cc7de6aa27dc16c4c4&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/mg0RC192/ten1.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Sony Sports 2",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=6f8378e796d7f7cff65333fd3b1d0974&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/y8SC16G7/ten2.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Sony Sports 3",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=0bd594d32d6dc8cee0165bc175eeb862&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/152bjh3Y/ten3.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Sony Sports 5",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=0940a354e290cbf71e9d5d21e2883258&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/qqgZ1jVH/ten5.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
         "name": "Star Sports 1",
         "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=18283d4f5f13c0cac5cab4433a0ed8f0&e=.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Stream 1",
                 "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
@@ -1117,11 +1178,44 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Stream 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=1e8e3ca973f7808849df688219554a90&e=.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 1",
                 "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
                 "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports Select 1",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=b8966a010354b3b97eb8c050ea73460f&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://smartads.in/resources/assets/uploads/product_group/television/star-sports-select-1-hd.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports Select 2",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=cf33278a403f3b61fc708fb1cc2676df&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://static.wikia.nocookie.net/logopedia/images/4/46/Sss-hd2-bronze.png/revision/latest?cb=20170728104956",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1503,6 +1597,11 @@ window.rawChannels2 = [
         "name": "Sony Yay",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=7eccfe540a7590406ef28bd40c13ffa0&e=.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 2",
                 "url": "https://bostaflix.vercel.app/api/roarzone.m3u8?stream=toffee/sonyyay",
                 "type": "hls"
@@ -1529,7 +1628,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (74 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (76 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1881,6 +1980,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/nL8s287H/channel-s.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Colors",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=62848e3ce5804aa985513a7922ff87b2&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/vBL4YjR8/colors.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2452,8 +2565,27 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Aath",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=86ccc06d72b98d2e40d91bebe766fe96&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/y8WtVLd6/sony-aath.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Sony Entertainment",
         "sources": [
+            {
+                "name": "SD",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=2d67b743887c973488674aacde2f6fa4&e=.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "HD",
                 "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/sethd/index.m3u8",
@@ -2945,11 +3077,6 @@ window.rawChannels2 = [
     {
         "name": "Ekhon",
         "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://jago-bosta.global.ssl.fastly.net/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/globaltv.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/ekhontv.index.m3u8",
@@ -3571,7 +3698,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (44 channels, 14 with 🔐 DRM)
+    // MOVIE (47 channels, 14 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4061,6 +4188,48 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/TwTnMYrW/sananda.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Sony Max",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=893cae26e4f3583b49d7eb86e0c27d19&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/Z55d92mk/sony-max.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Sony Max 2",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=a99e6ccb22708a383e350b62edb941c4&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/DyM2gMGR/max2.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Sony Pix",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=f47a65615edfde6efab3227bbe657888&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/tggwMqHB/pix.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4871,7 +5040,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (32 channels, 10 with 🔐 DRM)
+    // OTHERS (31 channels, 9 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5276,24 +5445,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic Wild",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
-                    "key": "adf163c6c1729e6f77668d4e49f32352"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5370,7 +5521,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 338
-// Channels with DRM: 53
+// Total channels: 348
+// Channels with DRM: 52
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
