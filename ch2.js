@@ -1,4 +1,4 @@
-// Generated: 2026-02-13 06:58 UTC
+// Generated: 2026-02-13 12:48 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1483,6 +1483,11 @@ window.rawChannels2 = [
     {
         "name": "Sony Yay",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=7eccfe540a7590406ef28bd40c13ffa0&e=.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 2",
                 "url": "https://bostaflix.vercel.app/api/roarzone.m3u8?stream=toffee/sonyyay",
@@ -3566,7 +3571,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (45 channels, 14 with 🔐 DRM)
+    // MOVIE (47 channels, 14 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4056,6 +4061,34 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/TwTnMYrW/sananda.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Sony Max",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=893cae26e4f3583b49d7eb86e0c27d19&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/Z55d92mk/sony-max.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Sony Max 2",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=a99e6ccb22708a383e350b62edb941c4&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/DyM2gMGR/max2.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5365,7 +5398,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 338
+// Total channels: 340
 // Channels with DRM: 53
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
