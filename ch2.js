@@ -1,4 +1,4 @@
-// Generated: 2026-02-12 19:01 UTC
+// Generated: 2026-02-13 01:52 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1484,6 +1484,11 @@ window.rawChannels2 = [
         "name": "Sony Yay",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=7eccfe540a7590406ef28bd40c13ffa0&e=.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 2",
                 "url": "https://bostaflix.vercel.app/api/roarzone.m3u8?stream=toffee/sonyyay",
                 "type": "hls"
@@ -1510,7 +1515,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (74 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (76 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1970,8 +1975,27 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Deshe Bideshe",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://timetvplus.com/uploads/tv_image/deshe-bideshe-tv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Ekushey ETV",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://anywhere.pwisetthon.com/http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/ekusheytv.index.m3u8",
@@ -2428,8 +2452,27 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Aath",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=86ccc06d72b98d2e40d91bebe766fe96&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/y8WtVLd6/sony-aath.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Sony Entertainment",
         "sources": [
+            {
+                "name": "SD",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=2d67b743887c973488674aacde2f6fa4&e=.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "HD",
                 "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/sethd/index.m3u8",
@@ -3528,7 +3571,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (44 channels, 14 with 🔐 DRM)
+    // MOVIE (47 channels, 14 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4007,12 +4050,59 @@ window.rawChannels2 = [
         "name": "Sanonda",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://sananda.bengaldigital.live/Sananda/index.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 3",
                 "url": "https://anywhere.pwisetthon.com/http://115.187.41.216:8080/hls/sanandatv/index.m3u8",
                 "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/TwTnMYrW/sananda.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Sony Max",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=893cae26e4f3583b49d7eb86e0c27d19&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/Z55d92mk/sony-max.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Sony Max 2",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=a99e6ccb22708a383e350b62edb941c4&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/DyM2gMGR/max2.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Sony Pix",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=f47a65615edfde6efab3227bbe657888&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/tggwMqHB/pix.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4809,7 +4899,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (31 channels, 9 with 🔐 DRM)
+    // OTHERS (32 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5214,6 +5304,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic Wild",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
+                    "key": "adf163c6c1729e6f77668d4e49f32352"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5290,7 +5398,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 334
-// Channels with DRM: 52
+// Total channels: 340
+// Channels with DRM: 53
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
