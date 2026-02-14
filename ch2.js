@@ -1,4 +1,4 @@
-// Generated: 2026-02-14 01:33 UTC
+// Generated: 2026-02-14 06:42 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -175,6 +175,11 @@ window.rawChannels2 = [
             {
                 "name": "⚡ Server 3",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 1",
+                "url": "https://ch24cdn.ncare.live/channel24/ch24office/index.m3u8",
                 "type": "hls"
             },
             {
@@ -2400,6 +2405,11 @@ window.rawChannels2 = [
                 "name": "SD",
                 "url": "https://mrzplayin.fun/roarzon/stream.php?id=2d67b743887c973488674aacde2f6fa4&e=.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "HD",
+                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/sethd/index.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/ydq1SThV/set.jpg",
@@ -2446,6 +2456,16 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://tvsen1.aynaott.com/gUX8BJmNc2yF/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 3",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -2740,6 +2760,11 @@ window.rawChannels2 = [
             {
                 "name": "⚡ Server 3",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 1",
+                "url": "https://ch24cdn.ncare.live/channel24/ch24office/index.m3u8",
                 "type": "hls"
             },
             {
@@ -3484,7 +3509,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (46 channels, 14 with 🔐 DRM)
+    // MOVIE (47 channels, 14 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3659,6 +3684,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/tgwF8wQJ/B4-U-Movies.png",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Best Action",
+        "sources": [
+            {
+                "name": "Best-Action",
+                "url": "https://streams2.sofast.tv/ptnr-yupptv/title-BEST_ACTION_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9a4a5412-ca99-48d3-9013-d1811b95b9d2/manifest.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/ncHCB2vs/best-action.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4653,7 +4692,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (9 channels)
+    // RELIGIOUS (10 channels)
     // ==================================================
 
     {
@@ -4736,6 +4775,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/jjmyWm0m/om-bangla-2.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Peace TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -5283,7 +5336,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 334
+// Total channels: 336
 // Channels with DRM: 49
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
