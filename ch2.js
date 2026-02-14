@@ -1,4 +1,4 @@
-// Generated: 2026-02-13 18:43 UTC
+// Generated: 2026-02-14 01:33 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -919,7 +919,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (17 channels, 7 with 🔐 DRM)
+    // SPORTS (13 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1117,78 +1117,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/DZbVq4jM/t-sports.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "TNT Sports 1",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "d0f2e5c39e70c18f29bf77768a1ad89a",
-                    "key": "d6853c51fcf37a18905f0609972395d7"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/m2zr04T2/tnt1.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "TNT Sports 2",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "9f51f3dc6313ac8bc668e2d9d1c04dfa",
-                    "key": "74bc63e5a193454a91ca494975db33f9"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/cCVdsK0P/tnt2.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "TNT Sports 3",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "a93c1cbfdccd23233bac13540c693e7f",
-                    "key": "2f6ab2e6693eb847eff3c9da8f9d01fc"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/Bvq4Qffp/tnt3.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "TNT Sports 4",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/i2pcjr4pe5/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "192b1115da041585c77200128549efa1",
-                    "key": "634e10efe4abbb14be400a3ccbac0258"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/SQwXQRTK/tnt4.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -2472,11 +2400,6 @@ window.rawChannels2 = [
                 "name": "SD",
                 "url": "https://mrzplayin.fun/roarzon/stream.php?id=2d67b743887c973488674aacde2f6fa4&e=.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "HD",
-                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/sethd/index.m3u8",
-                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/ydq1SThV/set.jpg",
@@ -2523,16 +2446,6 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://tvsen1.aynaott.com/gUX8BJmNc2yF/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 3",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -3571,7 +3484,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (47 channels, 14 with 🔐 DRM)
+    // MOVIE (46 channels, 14 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3746,20 +3659,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/tgwF8wQJ/B4-U-Movies.png",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Best Action",
-        "sources": [
-            {
-                "name": "Best-Action",
-                "url": "https://streams2.sofast.tv/ptnr-yupptv/title-BEST_ACTION_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9a4a5412-ca99-48d3-9013-d1811b95b9d2/manifest.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/ncHCB2vs/best-action.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5384,7 +5283,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 339
-// Channels with DRM: 53
+// Total channels: 334
+// Channels with DRM: 49
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
