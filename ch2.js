@@ -1,4 +1,4 @@
-// Generated: 2026-02-15 01:53 UTC
+// Generated: 2026-02-15 06:49 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -175,11 +175,6 @@ window.rawChannels2 = [
             {
                 "name": "⚡ Server 3",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 1",
-                "url": "https://ch24cdn.ncare.live/channel24/ch24office/index.m3u8",
                 "type": "hls"
             },
             {
@@ -952,7 +947,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (13 channels, 3 with 🔐 DRM)
+    // SPORTS (19 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1113,8 +1108,69 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Sports 1",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=7482ed5e9c4da0cc7de6aa27dc16c4c4&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/mg0RC192/ten1.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Sony Sports 2",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=6f8378e796d7f7cff65333fd3b1d0974&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/y8SC16G7/ten2.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Sony Sports 3",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=0bd594d32d6dc8cee0165bc175eeb862&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/152bjh3Y/ten3.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Sony Sports 5",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=0940a354e290cbf71e9d5d21e2883258&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/qqgZ1jVH/ten5.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
         "name": "Star Sports 1",
         "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=18283d4f5f13c0cac5cab4433a0ed8f0&e=.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Stream 1",
                 "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
@@ -1131,11 +1187,39 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Stream 1",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=1e8e3ca973f7808849df688219554a90&e=.m3u8",
                 "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports Select 1",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=b8966a010354b3b97eb8c050ea73460f&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://smartads.in/resources/assets/uploads/product_group/television/star-sports-select-1-hd.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports Select 2",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=cf33278a403f3b61fc708fb1cc2676df&e=.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://static.wikia.nocookie.net/logopedia/images/4/46/Sss-hd2-bronze.png/revision/latest?cb=20170728104956",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1855,6 +1939,11 @@ window.rawChannels2 = [
         "name": "Colors",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://mrzplayin.fun/roarzon/stream.php?id=62848e3ce5804aa985513a7922ff87b2&e=.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 2",
                 "url": "https://anywhere.pwisetthon.com/http://217.20.112.199:8888/ColorsHD/index.m3u8",
                 "type": "hls"
@@ -2130,6 +2219,11 @@ window.rawChannels2 = [
     {
         "name": "GTV",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tvsen6.aynaott.com/gtvhdforgame/index.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 2",
                 "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/gazitv/index.m3u8",
@@ -3092,11 +3186,6 @@ window.rawChannels2 = [
             {
                 "name": "⚡ Server 3",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 1",
-                "url": "https://ch24cdn.ncare.live/channel24/ch24office/index.m3u8",
                 "type": "hls"
             },
             {
@@ -5408,7 +5497,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (32 channels, 10 with 🔐 DRM)
+    // OTHERS (33 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5587,6 +5676,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/0ySHyHDk/d-turbo.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
+        "name": "Epic",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://epiconvh.akamaized.net/live/epic/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/c1X91C4M/epic.jpg",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -5912,7 +6015,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 375
+// Total channels: 382
 // Channels with DRM: 49
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
