@@ -1,11 +1,11 @@
-// Generated: 2026-02-14 18:31 UTC
+// Generated: 2026-02-15 01:53 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (56 channels, 5 with 🔐 DRM)
+    // NEWS (58 channels, 5 with 🔐 DRM)
     // ==================================================
 
     {
@@ -545,6 +545,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "MBC TV Odisha",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt03.tangotv.in/MBCTV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTcLnb_i5kxG-7DhXERKQ3kAZaQihpn8gvlA&s",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Media One",
         "sources": [
             {
@@ -634,6 +648,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/zwrmWphe47oXEHVndsokIHupuBpVWq2_a_LCxiV_JA0YmaosO7S3kMeFyTNhNLUO8ovmT3hDfX0=s900-c-k-c0x00ffffff-no-rj",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "NEWS11 Bharat",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt02.tangotv.in/NEWS11BHARAT/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZwZ9A80iMUyTVqQDL6AdzrUmpZdxO090eUA&s",
         "category": "News",
         "description": "News Channel"
     },
@@ -1448,7 +1476,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (77 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (97 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1530,6 +1558,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Aaj Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/AAJ_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/dU-Bp46E2XlBaw376I_Boc-0lTEHgBrFJffOK4g1qQvQW5Ah00qL1IYGfWTYjekh8HibJb7nsQ=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Abzy Dhakad",
         "sources": [
             {
@@ -1590,6 +1632,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Jnd9k7Cy/anmol-tv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Ary Digital",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://mir-s3-cdn-cf.behance.net/projects/404/90ecb9218167821.Y3JvcCw1NzUzLDQ1MDAsMTEyNSww.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -1688,6 +1744,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/rFWQgTRD/boishakhi.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Bol Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/BOL_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/HstckCdt/bol-ent.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -1838,10 +1908,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Dangal 2",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://live-dangal2.akamaized.net/liveabr/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/HWyjSjkQ/Dangal-2.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Darshana TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://mumt04.tangotv.in/DARSHANATV/index.m3u8",
                 "type": "hls"
             }
@@ -1902,7 +1986,7 @@ window.rawChannels2 = [
         "name": "Desh TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/deshtv.index.m3u8",
                 "type": "hls"
             }
@@ -1960,6 +2044,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Express Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/EXPRESS_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://r2.thesportsdb.com/images/media/channel/logo/sswurt1476662766.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Fakt Marathi",
         "sources": [
             {
@@ -1997,6 +2095,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SKncg0gg/globaltv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Green Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/GREEN_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOMJrXPGx1YIFBC6ogdcJ87M35xQjneLhKA&s",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2058,10 +2170,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Kairali TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt01.tangotv.in/KAIRALI/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/ea4af867a91ddeb85fb5990c9be079e5.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Kairali We",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://cdn-3.pishow.tv/live/1530/master.m3u8",
                 "type": "hls"
             }
@@ -2075,7 +2201,7 @@ window.rawChannels2 = [
         "name": "Kalaignar TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://segment.yuppcdn.net/240122/kalaignartv/playlist.m3u8",
                 "type": "hls"
             }
@@ -2089,7 +2215,7 @@ window.rawChannels2 = [
         "name": "Kannur Vision",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://stream.logichost.in/kannurvision/live/playlist.m3u8",
                 "type": "hls"
             }
@@ -2103,12 +2229,26 @@ window.rawChannels2 = [
         "name": "Kaumudy TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8",
                 "type": "hls"
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5d7wjWkHY_VaaFcpji37s3CZwssMsXSxLZlgvTlgWYzfZBEexD1_f-ocxH0kBZBYitPA&usqp=CAU",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Kerala Vision",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt03.tangotv.in/KERALAVISION/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTysojarYeIH0HE_TtpZgiYAddCCvDS3_CBgA&s",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2159,7 +2299,7 @@ window.rawChannels2 = [
         "name": "Madhimugam TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://cdn-3.pishow.tv/live/1476/master.m3u8",
                 "type": "hls"
             }
@@ -2173,7 +2313,7 @@ window.rawChannels2 = [
         "name": "Malar TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://cdn-3.pishow.tv/live/473/master.m3u8",
                 "type": "hls"
             }
@@ -2187,7 +2327,7 @@ window.rawChannels2 = [
         "name": "Manoranjan TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://cdn-1.pishow.tv/live/1013/master.m3u8",
                 "type": "hls"
             }
@@ -2220,12 +2360,26 @@ window.rawChannels2 = [
         "name": "Mohona Television",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/mohona.index.m3u8",
                 "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/vBTXWxQF/mohona.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Mun TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/MUN_TV/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQFEQlJZEt9u8w/company-logo_200_200/company-logo_200_200/0/1697180175196?e=2147483647&v=beta&t=_qhFwyXTYEWa5QTTUDI3MwI8aefVr39xDxYKItDNLS0",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2292,6 +2446,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Pear TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt01.tangotv.in/PEARTV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.lyngsat.com/logo/tv/pp/pear-tv-in.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "R Plus Gold",
         "sources": [
             {
@@ -2306,10 +2474,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Rang TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt01.tangotv.in/RANG/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/0a5c79b522b0934ea9b2806dd9b8339f.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "RTV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/rtv.index.m3u8",
                 "type": "hls"
             }
@@ -2334,6 +2516,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sab Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/SAB_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGE8uyneXAmDlEikCnonDG2YX9SxfvfWnFWg&s",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "SATV",
         "sources": [
             {
@@ -2343,6 +2539,62 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/02nTdDvr/satv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Shalini TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://stream.singamcloud.in/shalinitv/shalinitv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/oq4TNLaYR0tvJypHi2VH_wWn8MN2MijcMA0lJ3lSYAKn6ce8RjFPJYL_2eTygF18m8nOqcMN=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Shemaroo MarathiBana",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://airtelapp.shemaroo.com/marathibana/smil:marathibanaadp.smil/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/4db56a487bc1edcd7438e667b6a46284.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Shemaroo TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://airtelapp.shemaroo.com/shemarootv/smil:shemarootvadp.smil/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/fe2abb2de6b079ea2e97ba2902b903fb.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Siri Kannada All Time",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt02.tangotv.in/SIRIKANNADAALLTIME/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.lyngsat.com/logo/tv/ss/siri-kannada-all-time-in.png",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2527,6 +2779,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Tamilan TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/6c862e3b037757f287141c2d553da1b1.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Tara TV",
         "sources": [
             {
@@ -2536,6 +2802,48 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/ytc/AIdro_njjooSlwTJnKdIZCGueYfSfotEcv0VLNzeeX8C_3735g=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Thanthi One",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt02.tangotv.in/THANTHIONE/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/bcea7fce3598bc29fd4db2d2ba6d22f7.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Vasanth TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt04.tangotv.in/VASANTHTV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/5761fa88d426be19ba1d457c027d3049.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Vissa TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt02.tangotv.in/VISSATV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/shows/2026-02-11/260211734018.jpg?width=700",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2614,7 +2922,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (56 channels, 5 with 🔐 DRM)
+    // NEWS (58 channels, 5 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3154,6 +3462,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "MBC TV Odisha",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt03.tangotv.in/MBCTV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTcLnb_i5kxG-7DhXERKQ3kAZaQihpn8gvlA&s",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Media One",
         "sources": [
             {
@@ -3243,6 +3565,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/zwrmWphe47oXEHVndsokIHupuBpVWq2_a_LCxiV_JA0YmaosO7S3kMeFyTNhNLUO8ovmT3hDfX0=s900-c-k-c0x00ffffff-no-rj",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "NEWS11 Bharat",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt02.tangotv.in/NEWS11BHARAT/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZwZ9A80iMUyTVqQDL6AdzrUmpZdxO090eUA&s",
         "category": "News",
         "description": "News Channel"
     },
@@ -3533,7 +3869,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (47 channels, 14 with 🔐 DRM)
+    // MOVIE (50 channels, 14 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3722,6 +4058,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/ncHCB2vs/best-action.png",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Bflix Movies",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt03.tangotv.in/BFLIX/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHTkXKNjwMTBzeEt-5U9Erf0U0lAPhDDzmkw&s",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -3991,6 +4341,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Public Movies",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt04.tangotv.in/PUBLICMOVIES/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/5aabe347098d412536655472bd144e6a.png",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Romedy Now",
         "sources": [
             {
@@ -4023,6 +4387,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/TwTnMYrW/sananda.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Shemaroo Josh",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://airtelapp.shemaroo.com/shemarooChumbakTV/smil:shemarooChumbakTVadp.smil/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/pVJvTYkj/Shemaroo-josh.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4267,7 +4645,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (25 channels, 1 with 🔐 DRM)
+    // MUSIC (30 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4330,6 +4708,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Jzqh6SSX/tplay.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "7S Music",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt03.tangotv.in/7SMUSIC/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://static.wikia.nocookie.net/logopedia/images/a/ac/76_Tamil_channel.jpeg/revision/latest?cb=20191225165506",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -4429,6 +4821,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Dabangg",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt01.tangotv.in/DABANGG/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/j21NsgJD/dabangg.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Deewana",
         "sources": [
             {
@@ -4487,9 +4893,28 @@ window.rawChannels2 = [
                 "name": "Stream 1",
                 "url": "https://amg13643-amg13643c2-amgplt0173.playout.now3.amagi.tv/playlist/amg13643-amg13643c2-amgplt0173/playlist.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Stream 3",
+                "url": "https://mumt04.tangotv.in/E24/index.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/wBKM5G7V/e-24.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Insync",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://mumt04.tangotv.in/INSYNC/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgf8vivzH870a8bvAvQOoFXSnmBm_cSwMF8g&s",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -4551,7 +4976,7 @@ window.rawChannels2 = [
             },
             {
                 "name": "Stream 2",
-                "url": "https://colorsportscreen.com/freetv/stream.m3u8?id=3bc587f10be1",
+                "url": "https://mumt02.tangotv.in/MASTIII/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -4631,6 +5056,34 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/zvj04hnW/ptc-music.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Raj Musix Malayalam",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt04.tangotv.in/RAJMUSIXMALAYALAM/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgZKDNWTOu4vLY0Wsn1xmHlLPjnpgQQtIT6Q&s",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Ramdhenu",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt01.tangotv.in/RAMDHENU/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/QC6KPQ0X/ramdhenu.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -4726,7 +5179,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (11 channels)
+    // RELIGIOUS (16 channels)
     // ==================================================
 
     {
@@ -4814,6 +5267,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Om",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt01.tangotv.in/OMTV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/baff06610cc2d29677de762afb7911cf.png",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
         "name": "Om Bangla",
         "sources": [
             {
@@ -4828,6 +5295,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Paras Gold",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt04.tangotv.in/PARASGOLD/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.lyngsat.com/logo/tv/pp/paras-gold-in.png",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
         "name": "Peace TV",
         "sources": [
             {
@@ -4837,6 +5318,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Santvani Channel",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-2.pishow.tv/live/475/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/4d143f1eb83377f459f6ec5fe3feb959.png",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -4879,6 +5374,34 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/g03Jqxvn/sharjahtvquranlive.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Shubh TV",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/cb75e0ad6c6117a19b17f762903a690b.png",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Tehzeeb TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-4.pishow.tv/live/239/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/411855530af18a02490ab43f57ddfe38.png",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -5064,20 +5587,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/0ySHyHDk/d-turbo.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Epic",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://epiconvh.akamaized.net/live/epic/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/c1X91C4M/epic.jpg",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -5359,6 +5868,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Weatherspy",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAcy7OdZhH0RGal0eWFF9vozfxB4n77mFX7mc9-SBxs69k44vJKhneDA5FhrW8SHdBNcA&usqp=CAU",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Wild Flix",
         "sources": [
             {
@@ -5389,7 +5912,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 338
+// Total channels: 375
 // Channels with DRM: 49
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
