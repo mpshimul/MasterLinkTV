@@ -1,4 +1,4 @@
-// Generated: 2026-02-17 06:57 UTC
+// Generated: 2026-02-17 12:56 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1443,7 +1443,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (95 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (94 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1842,20 +1842,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/R0PJ5d59/colors-marathi.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Dangal",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://live-dangal.akamaized.net/liveabr/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/Hk2rQKsR/Dangal.png",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2558,6 +2544,11 @@ window.rawChannels2 = [
             {
                 "name": "SD",
                 "url": "https://mrzplayin.fun/roarzon/stream.php?id=2d67b743887c973488674aacde2f6fa4&e=.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "HD",
+                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/sethd/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -4809,6 +4800,11 @@ window.rawChannels2 = [
         "name": "E 24",
         "sources": [
             {
+                "name": "Stream 1",
+                "url": "https://amg13643-amg13643c2-amgplt0173.playout.now3.amagi.tv/playlist/amg13643-amg13643c2-amgplt0173/playlist.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Stream 3",
                 "url": "https://mumt04.tangotv.in/E24/index.m3u8",
                 "type": "hls"
@@ -5093,7 +5089,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (15 channels)
+    // RELIGIOUS (16 channels)
     // ==================================================
 
     {
@@ -5162,6 +5158,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/BvfMPnSP/madani-bangla.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Mercy TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXMFfcf9s50fsWGifUc9Do21MCTfRN6Y9-yw&s",
         "category": "Religious",
         "description": "Religious Channel"
     },
