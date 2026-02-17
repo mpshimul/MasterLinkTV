@@ -1,4 +1,4 @@
-// Generated: 2026-02-17 12:56 UTC
+// Generated: 2026-02-17 18:55 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -947,7 +947,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (11 channels, 3 with 🔐 DRM)
+    // SPORTS (10 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1107,23 +1107,9 @@ window.rawChannels2 = [
         "description": "Sports Channel"
     },
 
-    {
-        "name": "Star Sports 2",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
 
     // ==================================================
-    // KIDS (21 channels, 4 with 🔐 DRM)
+    // KIDS (20 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1330,20 +1316,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/4xgPNDrf/duronto.jpg",
-        "category": "Kids",
-        "description": "Kids Channel"
-    },
-
-    {
-        "name": "Gubbare",
-        "sources": [
-            {
-                "name": "⚡ Hindi",
-                "url": "https://epiconvh.akamaized.net/live/gubbare/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://upload.wikimedia.org/wikipedia/en/0/01/Gubbare-TV_channel.jpg",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -4555,7 +4527,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (30 channels, 1 with 🔐 DRM)
+    // MUSIC (29 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5027,20 +4999,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/yYgHbgfn/sangeet-bhojpuri-1.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "Show Box",
-        "sources": [
-            {
-                "name": "⚡ Stream 1",
-                "url": "https://epiconvh.akamaized.net/live/showbox/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/Vsppw3V5/sb-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5836,7 +5794,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 371
+// Total channels: 368
 // Channels with DRM: 49
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
