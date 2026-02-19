@@ -1,11 +1,11 @@
-// Generated: 2026-02-19 12:58 UTC
+// Generated: 2026-02-19 18:48 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (57 channels, 4 with 🔐 DRM)
+    // NEWS (59 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -583,6 +583,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Nagaland TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-6.pishow.tv/live/10014/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/44b5607770003fbe0016e2fcc76c1d27.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "NDTV 24/7",
         "sources": [
             {
@@ -779,6 +793,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/2fK9Y8FCQvlRWuIojyWIywPKRU4TgzfwCTciLzlTOT9wQScACk_7Y9LFuWfBBgoWDZe_UhzQQR0=s900-c-k-c0x00ffffff-no-rj",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "SITI 24X7",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://www.schannels.in/SITI24X7_1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/cSsxzVa-2j7DQ7ZLaRSS5oV4RVtkfiwIZoccMKSyitWXf5g1UyYcwavRI2rr-9JaBO52e_6T=s176-c-k-c0x00ffffff-no-rj-mo",
         "category": "News",
         "description": "News Channel"
     },
@@ -1430,7 +1458,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (96 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (97 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2316,6 +2344,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "MK Six",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-3.pishow.tv/live/1253/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/155bad426a169fdc4ba921c24c2af420.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Mohona Television",
         "sources": [
             {
@@ -2736,6 +2778,11 @@ window.rawChannels2 = [
         "name": "Tara TV",
         "sources": [
             {
+                "name": "⚡ Server 2",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tara-tv/index.m3u8?ads.vf=G9BFeQBhLSm",
+                "type": "hls"
+            },
+            {
                 "name": "Server 1",
                 "url": "https://legitpro.co.in/taratv/taratv/index.m3u8",
                 "type": "hls"
@@ -2862,7 +2909,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (57 channels, 4 with 🔐 DRM)
+    // NEWS (59 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3440,6 +3487,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Nagaland TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-6.pishow.tv/live/10014/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/44b5607770003fbe0016e2fcc76c1d27.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "NDTV 24/7",
         "sources": [
             {
@@ -3641,6 +3702,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "SITI 24X7",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://www.schannels.in/SITI24X7_1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/cSsxzVa-2j7DQ7ZLaRSS5oV4RVtkfiwIZoccMKSyitWXf5g1UyYcwavRI2rr-9JaBO52e_6T=s176-c-k-c0x00ffffff-no-rj-mo",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Sky News",
         "sources": [
             {
@@ -3786,7 +3861,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (52 channels, 14 with 🔐 DRM)
+    // MOVIE (53 channels, 14 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4036,6 +4111,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Dhamaka Movies B4U",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-1.pishow.tv/live/235/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/_tSeyztRLJDo4VLxV0xnOFgldKnd7cslKmy7C2voLGri6RMWc_IgHrRf_RGXD3OpeHX4pBxD_g=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Filamchi Bhojpuri",
         "sources": [
             {
@@ -4212,20 +4301,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Movie Box",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/xdVgw5yG/movie-box.png",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
         "name": "Movieplex",
         "sources": [
             {
@@ -4267,6 +4342,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/DfH3xWQ4/nh-bolly-flix.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Oscar Movies",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-4.pishow.tv/live/233/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/3q7hOZZ13Ctb2sYwZ8DlCn23p8YypdoYv0YSl41VAfhjCSsol-rGM4eOhjhre8I8f6adk95WWGg=s900-c-k-c0x00ffffff-no-rj",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4590,7 +4679,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (36 channels, 1 with 🔐 DRM)
+    // MUSIC (40 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4766,6 +4855,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Brit Asia TV",
+        "sources": [
+            {
+                "name": "⚡ Stream 1",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/britasiatv/master.m3u8?ads.vf=65ah6vw-F20",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/BbM871q3/brit-asia.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Classic Hits",
         "sources": [
             {
@@ -4869,7 +4972,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Stream 1",
-                "url": "https://mumt03.tangotv.in/MELODYHITS/index.m3u8",
+                "url": "https://mumt01.tangotv.in/HINDIHITS/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -4993,11 +5096,6 @@ window.rawChannels2 = [
                 "name": "Server 1",
                 "url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://mumt05.tangotv.in/MUSICINDIA/index.m3u8",
-                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/QNYG5Kz9/music-india.jpg",
@@ -5067,6 +5165,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Punjabi Hits",
+        "sources": [
+            {
+                "name": "⚡ Stream 1",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-hits/index.m3u8?ads.vf=nlcgIN1EKyi",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/h472GJVw/punjabi-hits.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Punjabi Music HD",
         "sources": [
             {
@@ -5123,6 +5235,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Saga Music Haryanvi",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/master.m3u8?ads.vf=btFVPfWJgw8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/P5RRD2bM/saga-har.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Sangeet Bangla",
         "sources": [
             {
@@ -5165,6 +5291,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/ytc/AIdro_krsl3aXY8SdNBmq2U_JLwb8OsIzHGOR1nbrlaq_h8MvRI=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Tabbar Hits",
+        "sources": [
+            {
+                "name": "⚡ Stream 1",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tabbar-hits/index.m3u8?ads.vf=cr_1zfCL21S",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/DfWzDhL6/tabbar-hits.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5442,7 +5582,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (34 channels, 9 with 🔐 DRM)
+    // OTHERS (33 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5862,24 +6002,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "6d647aff767c453daa5fb54a44c783c6",
-                    "key": "2f971e6a1cc58e7085afc761a3f13162"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5970,7 +6092,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 380
-// Channels with DRM: 46
+// Total channels: 389
+// Channels with DRM: 45
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
