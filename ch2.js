@@ -1,11 +1,11 @@
-// Generated: 2026-02-19 01:49 UTC
+// Generated: 2026-02-19 06:59 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (57 channels, 4 with 🔐 DRM)
+    // NEWS (56 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -765,20 +765,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/2fK9Y8FCQvlRWuIojyWIywPKRU4TgzfwCTciLzlTOT9wQScACk_7Y9LFuWfBBgoWDZe_UhzQQR0=s900-c-k-c0x00ffffff-no-rj",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "SITI 24X7",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://www.schannels.in/SITI24X7_1/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/cSsxzVa-2j7DQ7ZLaRSS5oV4RVtkfiwIZoccMKSyitWXf5g1UyYcwavRI2rr-9JaBO52e_6T=s176-c-k-c0x00ffffff-no-rj-mo",
         "category": "News",
         "description": "News Channel"
     },
@@ -2805,7 +2791,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (57 channels, 4 with 🔐 DRM)
+    // NEWS (56 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3570,20 +3556,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "SITI 24X7",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://www.schannels.in/SITI24X7_1/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/cSsxzVa-2j7DQ7ZLaRSS5oV4RVtkfiwIZoccMKSyitWXf5g1UyYcwavRI2rr-9JaBO52e_6T=s176-c-k-c0x00ffffff-no-rj-mo",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
         "name": "Sky News",
         "sources": [
             {
@@ -3729,7 +3701,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (49 channels, 14 with 🔐 DRM)
+    // MOVIE (48 channels, 14 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4280,20 +4252,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Sony Max 2",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mrzplayin.fun/roarzon/stream.php?id=a99e6ccb22708a383e350b62edb941c4&e=.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/DyM2gMGR/max2.jpg",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
         "name": "Sony Pix",
         "sources": [
             {
@@ -4491,7 +4449,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (27 channels, 1 with 🔐 DRM)
+    // MUSIC (29 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4667,6 +4625,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Dabangg",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt01.tangotv.in/DABANGG/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/j21NsgJD/dabangg.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Deewana",
         "sources": [
             {
@@ -4747,6 +4719,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgf8vivzH870a8bvAvQOoFXSnmBm_cSwMF8g&s",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "K Pop",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5730,7 +5716,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 364
+// Total channels: 363
 // Channels with DRM: 47
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
