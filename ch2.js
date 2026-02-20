@@ -1,4 +1,4 @@
-// Generated: 2026-02-19 18:48 UTC
+// Generated: 2026-02-20 01:33 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1703,20 +1703,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Bijoy TV",
-        "sources": [
-            {
-                "name": "Playlist",
-                "url": "https://tplay.live/out/bangladesh/bijoytv.index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/sggs7Tv2/bijoytv.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "Boishakhi TV",
         "sources": [
             {
@@ -1965,6 +1951,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/kG5Zpp8y/deshtv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Deshe Bideshe",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://timetvplus.com/uploads/tv_image/deshe-bideshe-tv.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3861,7 +3861,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (53 channels, 14 with 🔐 DRM)
+    // MOVIE (54 channels, 14 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4296,6 +4296,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/vHRnL2MH/movie-bangla.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Movie Box",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/xdVgw5yG/movie-box.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5582,7 +5596,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (33 channels, 8 with 🔐 DRM)
+    // OTHERS (35 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -6002,6 +6016,42 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "6d647aff767c453daa5fb54a44c783c6",
+                    "key": "2f971e6a1cc58e7085afc761a3f13162"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
+        "name": "National Geographic Wild",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
+                    "key": "adf163c6c1729e6f77668d4e49f32352"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Popular Science",
         "sources": [
             {
@@ -6092,7 +6142,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 389
-// Channels with DRM: 45
+// Total channels: 392
+// Channels with DRM: 47
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
