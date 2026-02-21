@@ -1,11 +1,11 @@
-// Generated: 2026-02-20 18:44 UTC
+// Generated: 2026-02-21 01:33 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (58 channels, 4 with 🔐 DRM)
+    // NEWS (59 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -475,6 +475,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/8d69aeee54fa6a6d9feae943d972eaa7.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Kolkata TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt01.tangotv.in/KOLKATATV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/mkVfbs7P/kolkatatv.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -1907,11 +1921,6 @@ window.rawChannels2 = [
         "name": "Ekushey ETV",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://anywhere.pwisetthon.com/http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/ekusheytv.index.m3u8",
                 "type": "hls"
@@ -2735,7 +2744,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (58 channels, 4 with 🔐 DRM)
+    // NEWS (59 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3205,6 +3214,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/8d69aeee54fa6a6d9feae943d972eaa7.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Kolkata TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt01.tangotv.in/KOLKATATV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/mkVfbs7P/kolkatatv.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -4222,6 +4245,11 @@ window.rawChannels2 = [
         "name": "Sanonda",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://sananda.bengaldigital.live/Sananda/index.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 3",
                 "url": "https://anywhere.pwisetthon.com/http://115.187.41.216:8080/hls/sanandatv/index.m3u8",
                 "type": "hls"
@@ -4408,7 +4436,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (39 channels, 1 with 🔐 DRM)
+    // MUSIC (40 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4734,6 +4762,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/7L2vCFnH/josh-fw.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "K Pop",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5302,7 +5344,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (33 channels, 10 with 🔐 DRM)
+    // OTHERS (31 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5694,42 +5736,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "6d647aff767c453daa5fb54a44c783c6",
-                    "key": "2f971e6a1cc58e7085afc761a3f13162"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "National Geographic Wild",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
-                    "key": "adf163c6c1729e6f77668d4e49f32352"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5820,7 +5826,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 371
-// Channels with DRM: 45
+// Total channels: 372
+// Channels with DRM: 43
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
