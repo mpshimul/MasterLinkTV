@@ -1,4 +1,4 @@
-// Generated: 2026-02-21 18:34 UTC
+// Generated: 2026-02-22 01:50 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -957,7 +957,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (10 channels, 3 with 🔐 DRM)
+    // SPORTS (12 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1117,9 +1117,37 @@ window.rawChannels2 = [
         "description": "Sports Channel"
     },
 
+    {
+        "name": "Star Sports 1",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports 2",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
 
     // ==================================================
-    // KIDS (20 channels, 4 with 🔐 DRM)
+    // KIDS (19 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1391,20 +1419,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Sony Yay",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://bostaflix.vercel.app/api/roarzone.m3u8?stream=toffee/sonyyay",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/1413YzhR/yay.jpg",
-        "category": "Kids",
-        "description": "Kids Channel"
-    },
-
-    {
         "name": "Zoo Moo",
         "sources": [
             {
@@ -1420,7 +1434,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (88 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (89 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1974,6 +1988,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://media.licdn.com/dms/image/v2/D560BAQHElejP-dKJhg/company-logo_200_200/company-logo_200_200/0/1667384842286/green_tv_digital_logo?e=2147483647&v=beta&t=W0t2EpmzgDhkORaqs2SaZt0-LaRukY7CzF82EmhnAK8",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "GTV",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/gazitv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/yNLC1Rfw/gtv.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2536,6 +2564,11 @@ window.rawChannels2 = [
             {
                 "name": "Server 2",
                 "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 3",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -3687,7 +3720,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (47 channels, 12 with 🔐 DRM)
+    // MOVIE (48 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4108,6 +4141,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/vHRnL2MH/movie-bangla.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Movie Box",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/xdVgw5yG/movie-box.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5321,17 +5368,12 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (32 channels, 9 with 🔐 DRM)
+    // OTHERS (33 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
         "name": "Animal Planet",
         "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 2",
                 "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/animalplanet/index.m3u8",
@@ -5731,6 +5773,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic Wild",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
+                    "key": "adf163c6c1729e6f77668d4e49f32352"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5821,7 +5881,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 371
-// Channels with DRM: 44
+// Total channels: 375
+// Channels with DRM: 45
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
