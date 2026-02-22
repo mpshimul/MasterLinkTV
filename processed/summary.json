@@ -1,8 +1,8 @@
 {
-    "total_entries": 681,
-    "unique_channels": 627,
+    "total_entries": 682,
+    "unique_channels": 628,
     "channels_with_multiple_servers": 45,
-    "total_servers": 677,
+    "total_servers": 678,
     "channels_with_headers": 113,
     "total_headers": 222,
     "groups": {
@@ -29,7 +29,7 @@
         "Star Channels": 2,
         "Inbangla": 6,
         "Promo": 1,
-        "Unknown": 17,
+        "Unknown": 18,
         "Cricket": 17,
         "Bangladeshi": 8,
         "Football": 4,
@@ -37,14 +37,14 @@
         "Infotainment Channels": 4,
         "News Internasional": 15,
         "News Internasional Tv": 3,
-        "Entertainment": 2,
         "Fm Redio": 1,
+        "Entertainment": 2,
         "Relagion Channel": 4,
-        "Bangla Music": 1,
         "Hindi Movies": 7,
+        "Bangla Music": 1,
+        "Kolkata Bangla": 2,
         "English News": 2,
         "Hindi Music": 1,
-        "Kolkata Bangla": 2,
         "Indian Bangla News": 3,
         "English Movies": 1,
         "Bangla Movies": 1,
@@ -54,10 +54,10 @@
         "Live Tv": 2,
         "Islamic": 1,
         "Bangla 24 7": 1,
-        "Hindi 24 7": 2,
-        "Cartoons 24 7": 2
+        "Cartoons 24 7": 2,
+        "Hindi 24 7": 2
     },
-    "last_updated": "2026-02-22T18:24:13+00:00",
+    "last_updated": "2026-02-22T20:17:22+00:00",
     "source": "BD.m3u",
     "url": "https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u"
 }
