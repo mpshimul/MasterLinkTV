@@ -1,4 +1,4 @@
-// Generated: 2026-02-22 01:50 UTC
+// Generated: 2026-02-22 06:45 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1434,7 +1434,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (89 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (91 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1965,6 +1965,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Geo Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/GEO_ENTERTAINEMNT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/GpLH0TvJ/geo-ent.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Global TV",
         "sources": [
             {
@@ -2016,6 +2030,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQot7JfQIDygBtPDLKqP4lomWHllkOpnhtrow&s",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Hum TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/HUM_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/NMyGY6FT/hum.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -5368,12 +5396,17 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (33 channels, 10 with 🔐 DRM)
+    // OTHERS (32 channels, 9 with 🔐 DRM)
     // ==================================================
 
     {
         "name": "Animal Planet",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 2",
                 "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/animalplanet/index.m3u8",
@@ -5773,24 +5806,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic Wild",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
-                    "key": "adf163c6c1729e6f77668d4e49f32352"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5881,7 +5896,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 375
-// Channels with DRM: 45
+// Total channels: 376
+// Channels with DRM: 44
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
