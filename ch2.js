@@ -1,11 +1,11 @@
-// Generated: 2026-02-23 12:57 UTC
+// Generated: 2026-02-23 19:02 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (58 channels, 4 with 🔐 DRM)
+    // NEWS (59 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -310,6 +310,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "ET Now",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://anywhere.pwisetthon.com/http://212.102.34.8:9080/ETNOW/video.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.medianews4u.com/wp-content/uploads/2025/12/ET-NOW-Unveils-a-Powerful-New-Programming-Slate_-All-About-Your-Company-DEEP-DIVE-BrandVerse-and-Year-End-Programming-2025.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "ET Now Swadesh",
         "sources": [
             {
@@ -359,11 +373,6 @@ window.rawChannels2 = [
     {
         "name": "India News",
         "sources": [
-            {
-                "name": "National",
-                "url": "https://newsxott.in/hls/indianewsnational.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Gujarat",
                 "url": "https://newsxott.in/hls/indianewsgujarat.m3u8",
@@ -1420,7 +1429,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (96 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (97 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1838,6 +1847,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Hk2rQKsR/Dangal.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Dangal 2",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://live-dangal2.akamaized.net/liveabr/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/HWyjSjkQ/Dangal-2.png",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2507,20 +2530,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Shalini TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://stream.singamcloud.in/shalinitv/shalinitv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/oq4TNLaYR0tvJypHi2VH_wWn8MN2MijcMA0lJ3lSYAKn6ce8RjFPJYL_2eTygF18m8nOqcMN=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "Shemaroo MarathiBana",
         "sources": [
             {
@@ -2652,6 +2661,25 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/W176T68d/Star-Bharat.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Star Jalsha",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 3",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/WpQ9PsZ3/star-jalsha.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2847,7 +2875,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (58 channels, 4 with 🔐 DRM)
+    // NEWS (59 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3152,6 +3180,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "ET Now",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://anywhere.pwisetthon.com/http://212.102.34.8:9080/ETNOW/video.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.medianews4u.com/wp-content/uploads/2025/12/ET-NOW-Unveils-a-Powerful-New-Programming-Slate_-All-About-Your-Company-DEEP-DIVE-BrandVerse-and-Year-End-Programming-2025.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "ET Now Swadesh",
         "sources": [
             {
@@ -3201,11 +3243,6 @@ window.rawChannels2 = [
     {
         "name": "India News",
         "sources": [
-            {
-                "name": "National",
-                "url": "https://newsxott.in/hls/indianewsnational.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Gujarat",
                 "url": "https://newsxott.in/hls/indianewsgujarat.m3u8",
@@ -5414,7 +5451,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (32 channels, 9 with 🔐 DRM)
+    // OTHERS (32 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5497,20 +5534,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://d2gpx7np84fwh1.cloudfront.net/external/d2y2efdi5wgkcl.cloudfront.net/fit-in/688x464/media-io/2025/10/17/Channel_Logo.80dcf707.png?width=1920",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "CGTN Documentary",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://0472.org/hls/cgtnd.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/7ZKXqmzp/cgtn-docu.jpg",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -5806,6 +5829,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "6d647aff767c453daa5fb54a44c783c6",
+                    "key": "2f971e6a1cc58e7085afc761a3f13162"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "National Geographic Wild",
         "sources": [
             {
@@ -5914,7 +5955,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 378
-// Channels with DRM: 44
+// Total channels: 381
+// Channels with DRM: 45
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
