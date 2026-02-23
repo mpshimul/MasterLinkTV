@@ -1,4 +1,4 @@
-// Generated: 2026-02-23 01:49 UTC
+// Generated: 2026-02-23 07:03 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -957,7 +957,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (12 channels, 3 with 🔐 DRM)
+    // SPORTS (11 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1131,23 +1131,9 @@ window.rawChannels2 = [
         "description": "Sports Channel"
     },
 
-    {
-        "name": "Star Sports 2",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
 
     // ==================================================
-    // KIDS (18 channels, 4 with 🔐 DRM)
+    // KIDS (19 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1359,6 +1345,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Minimax",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/xC2TbNWn/minimax.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
         "name": "Nick Jr",
         "sources": [
             {
@@ -1420,7 +1420,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (98 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (97 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1801,11 +1801,6 @@ window.rawChannels2 = [
             {
                 "name": "Server 2",
                 "url": "https://anywhere.pwisetthon.com/http://217.20.112.199:8888/ColorsHD/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 3",
-                "url": "https://anywhere.pwisetthon.com/http://103.99.249.139/colors/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -2666,25 +2661,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/W176T68d/Star-Bharat.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Star Jalsha",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 3",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/WpQ9PsZ3/star-jalsha.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3832,7 +3808,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (47 channels, 12 with 🔐 DRM)
+    // MOVIE (48 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4244,6 +4220,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Movie Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://anywhere.pwisetthon.com/http://alvetv.com/moviebanglatv/8080/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/vHRnL2MH/movie-bangla.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Movie Box",
         "sources": [
             {
@@ -4558,7 +4548,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (39 channels, 1 with 🔐 DRM)
+    // MUSIC (40 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4884,6 +4874,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/7L2vCFnH/josh-fw.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "K Pop",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5218,7 +5222,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (14 channels)
+    // RELIGIOUS (15 channels)
     // ==================================================
 
     {
@@ -5273,6 +5277,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/BvfMPnSP/madani-bangla.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Mercy TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXMFfcf9s50fsWGifUc9Do21MCTfRN6Y9-yw&s",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -5937,7 +5955,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 379
+// Total channels: 381
 // Channels with DRM: 45
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
