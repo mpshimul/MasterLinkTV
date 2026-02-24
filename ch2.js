@@ -1,4 +1,4 @@
-// Generated: 2026-02-24 01:35 UTC
+// Generated: 2026-02-24 06:59 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1816,6 +1816,11 @@ window.rawChannels2 = [
                 "name": "Server 2",
                 "url": "https://anywhere.pwisetthon.com/http://217.20.112.199:8888/ColorsHD/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 3",
+                "url": "https://anywhere.pwisetthon.com/http://103.99.249.139/colors/index.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/vBL4YjR8/colors.jpg",
@@ -2525,6 +2530,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Shalini TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://stream.singamcloud.in/shalinitv/shalinitv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/oq4TNLaYR0tvJypHi2VH_wWn8MN2MijcMA0lJ3lSYAKn6ce8RjFPJYL_2eTygF18m8nOqcMN=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Shemaroo MarathiBana",
         "sources": [
             {
@@ -2581,20 +2600,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://www.lyngsat.com/logo/tv/ss/siri-kannada-all-time-in.png",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Sony Entertainment",
-        "sources": [
-            {
-                "name": "HD",
-                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/sethd/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/ydq1SThV/set.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -4374,6 +4379,11 @@ window.rawChannels2 = [
                 "name": "Server 1",
                 "url": "https://sananda.bengaldigital.live/Sananda/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 3",
+                "url": "https://anywhere.pwisetthon.com/http://115.187.41.216:8080/hls/sanandatv/index.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/TwTnMYrW/sananda.jpg",
@@ -4557,7 +4567,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (39 channels, 1 with 🔐 DRM)
+    // MUSIC (40 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4888,6 +4898,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "K Pop",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Kalaignar Murasu",
         "sources": [
             {
@@ -4987,6 +5011,11 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://tplay.live/tplay/playout/209901/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209901/tracks-v1a1/mono.ts.m3u8",
                 "type": "hls"
             }
         ],
@@ -5427,7 +5456,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (31 channels, 8 with 🔐 DRM)
+    // OTHERS (33 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5819,6 +5848,42 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "6d647aff767c453daa5fb54a44c783c6",
+                    "key": "2f971e6a1cc58e7085afc761a3f13162"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
+        "name": "National Geographic Wild",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
+                    "key": "adf163c6c1729e6f77668d4e49f32352"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5909,7 +5974,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 379
-// Channels with DRM: 43
+// Total channels: 382
+// Channels with DRM: 45
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
