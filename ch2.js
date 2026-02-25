@@ -1,4 +1,4 @@
-// Generated: 2026-02-24 19:00 UTC
+// Generated: 2026-02-25 01:49 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1380,7 +1380,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (98 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (97 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2471,20 +2471,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/02nTdDvr/satv.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Shalini TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://stream.singamcloud.in/shalinitv/shalinitv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/oq4TNLaYR0tvJypHi2VH_wWn8MN2MijcMA0lJ3lSYAKn6ce8RjFPJYL_2eTygF18m8nOqcMN=s900-c-k-c0x00ffffff-no-rj",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -5934,7 +5920,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 380
+// Total channels: 379
 // Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
