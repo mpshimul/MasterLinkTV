@@ -1,4 +1,4 @@
-// Generated: 2026-02-25 12:58 UTC
+// Generated: 2026-02-25 19:04 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1908,6 +1908,11 @@ window.rawChannels2 = [
     {
         "name": "Ekushey ETV",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://anywhere.pwisetthon.com/http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/ekusheytv.index.m3u8",
@@ -5201,7 +5206,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (15 channels)
+    // RELIGIOUS (14 channels)
     // ==================================================
 
     {
@@ -5373,20 +5378,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Shquran Tv",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/g03Jqxvn/sharjahtvquranlive.jpg",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
         "name": "Shubh TV",
         "sources": [
             {
@@ -5425,11 +5416,6 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/animalplanet/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -5898,7 +5884,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 378
+// Total channels: 377
 // Channels with DRM: 40
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
