@@ -1,4 +1,4 @@
-// Generated: 2026-02-25 19:04 UTC
+// Generated: 2026-02-26 01:35 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -957,7 +957,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (10 channels, 1 with 🔐 DRM)
+    // SPORTS (8 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1077,34 +1077,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/6ss3NfsrbhKQaiY56yCtgg9NwpAoOYzVzjtWZTgKCm3BWeV4vUiXMYM3vJEebtPapo2M6cUT=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Star Sports 1",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Star Sports 2",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1380,7 +1352,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (98 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (97 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2023,20 +1995,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "GTV",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/gazitv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/yNLC1Rfw/gtv.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "Hi Dost!",
         "sources": [
             {
@@ -2636,11 +2594,6 @@ window.rawChannels2 = [
             {
                 "name": "Server 2",
                 "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 3",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -4916,11 +4869,6 @@ window.rawChannels2 = [
                 "name": "⚡ Stream 1",
                 "url": "https://d1taaads3ztvmu.cloudfront.net/120723/mastii/chunklist.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "Stream 2",
-                "url": "https://mumt02.tangotv.in/MASTIII/index.m3u8",
-                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/L4f6PQnh/mastiii.jpg",
@@ -5206,7 +5154,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (14 channels)
+    // RELIGIOUS (15 channels)
     // ==================================================
 
     {
@@ -5378,6 +5326,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Shquran Tv",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/g03Jqxvn/sharjahtvquranlive.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
         "name": "Shubh TV",
         "sources": [
             {
@@ -5416,6 +5378,11 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/animalplanet/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -5884,7 +5851,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 377
+// Total channels: 375
 // Channels with DRM: 40
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
