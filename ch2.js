@@ -1,4 +1,4 @@
-// Generated: 2026-02-27 12:52 UTC
+// Generated: 2026-02-27 18:40 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1111,7 +1111,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (17 channels, 3 with 🔐 DRM)
+    // KIDS (18 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1291,6 +1291,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Duronto",
+        "sources": [
+            {
+                "name": "Bangla",
+                "url": "https://tvsen4.aynaott.com/durontotv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/4xgPNDrf/duronto.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
         "name": "Minimax",
         "sources": [
             {
@@ -1366,7 +1380,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (89 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (98 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1448,6 +1462,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Aaj Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/AAJ_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/dU-Bp46E2XlBaw376I_Boc-0lTEHgBrFJffOK4g1qQvQW5Ah00qL1IYGfWTYjekh8HibJb7nsQ=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Abzy Dhakad",
         "sources": [
             {
@@ -1508,6 +1536,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Jnd9k7Cy/anmol-tv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Ary Digital",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://mir-s3-cdn-cf.behance.net/projects/404/90ecb9218167821.Y3JvcCw1NzUzLDQ1MDAsMTEyNSww.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -1611,6 +1653,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Bol Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/BOL_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/HstckCdt/bol-ent.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Bongo Drama",
         "sources": [
             {
@@ -1705,11 +1761,6 @@ window.rawChannels2 = [
             {
                 "name": "Server 2",
                 "url": "https://anywhere.pwisetthon.com/http://217.20.112.199:8888/ColorsHD/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 3",
-                "url": "https://anywhere.pwisetthon.com/http://103.99.249.139/colors/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -1878,6 +1929,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Express Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/EXPRESS_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://r2.thesportsdb.com/images/media/channel/logo/sswurt1476662766.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Fakt Marathi",
         "sources": [
             {
@@ -1892,6 +1957,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Geo Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/GEO_ENTERTAINEMNT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/GpLH0TvJ/geo-ent.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Global TV",
         "sources": [
             {
@@ -1901,6 +1980,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SKncg0gg/globaltv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Green Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/GREEN_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOMJrXPGx1YIFBC6ogdcJ87M35xQjneLhKA&s",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -1943,6 +2036,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQot7JfQIDygBtPDLKqP4lomWHllkOpnhtrow&s",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Hum TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/HUM_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/NMyGY6FT/hum.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2191,6 +2298,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Mun TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/MUN_TV/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQFEQlJZEt9u8w/company-logo_200_200/company-logo_200_200/0/1697180175196?e=2147483647&v=beta&t=_qhFwyXTYEWa5QTTUDI3MwI8aefVr39xDxYKItDNLS0",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "My TV",
         "sources": [
             {
@@ -2317,6 +2438,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/8c1LTnTZ/ruposhi-bangla.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Sab Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/SAB_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGE8uyneXAmDlEikCnonDG2YX9SxfvfWnFWg&s",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2491,11 +2626,6 @@ window.rawChannels2 = [
             {
                 "name": "Server 2",
                 "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 3",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -3647,7 +3777,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (48 channels, 12 with 🔐 DRM)
+    // MOVIE (46 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3836,20 +3966,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/ncHCB2vs/best-action.png",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Bhojpuri Cinema",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/1z2YMvvc/Bhojpuri-Cinema.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4068,20 +4184,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/vHRnL2MH/movie-bangla.jpg",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Movie Box",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/xdVgw5yG/movie-box.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4387,7 +4489,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (40 channels, 1 with 🔐 DRM)
+    // MUSIC (39 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4718,20 +4820,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
         "name": "Kalaignar Murasu",
         "sources": [
             {
@@ -4803,11 +4891,6 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://mumt05.tangotv.in/MUSICINDIA/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -5799,7 +5882,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 370
+// Total channels: 377
 // Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
