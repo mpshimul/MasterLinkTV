@@ -1,4 +1,4 @@
-// Generated: 2026-02-26 18:50 UTC
+// Generated: 2026-02-27 01:32 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1380,7 +1380,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (95 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (98 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2004,6 +2004,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Green TV",
+        "sources": [
+            {
+                "name": "Playlist",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/chunks.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQHElejP-dKJhg/company-logo_200_200/company-logo_200_200/0/1667384842286/green_tv_digital_logo?e=2147483647&v=beta&t=W0t2EpmzgDhkORaqs2SaZt0-LaRukY7CzF82EmhnAK8",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "GTV",
         "sources": [
             {
@@ -2584,6 +2598,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "SRK TV",
+        "sources": [
+            {
+                "name": "Playlist",
+                "url": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/HWEDk9BVcD7TT3VpzVdkVqJkLkyi7WRq7KduIaFdb-y5Bh7mZdfD3A8yxCFsz7OHcubTZv21=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Star Bharat",
         "sources": [
             {
@@ -2593,6 +2621,25 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/W176T68d/Star-Bharat.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Star Jalsha",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 3",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/WpQ9PsZ3/star-jalsha.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3740,7 +3787,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (48 channels, 12 with 🔐 DRM)
+    // MOVIE (47 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4161,20 +4208,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/vHRnL2MH/movie-bangla.jpg",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Movie Box",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/xdVgw5yG/movie-box.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5369,7 +5402,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (33 channels, 10 with 🔐 DRM)
+    // OTHERS (32 channels, 9 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5761,24 +5794,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "6d647aff767c453daa5fb54a44c783c6",
-                    "key": "2f971e6a1cc58e7085afc761a3f13162"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "National Geographic Wild",
         "sources": [
             {
@@ -5887,7 +5902,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 377
-// Channels with DRM: 42
+// Total channels: 378
+// Channels with DRM: 41
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
