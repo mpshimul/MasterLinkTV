@@ -1,11 +1,11 @@
-// Generated: 2026-02-28 06:37 UTC
+// Generated: 2026-02-28 12:39 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (59 channels, 4 with 🔐 DRM)
+    // NEWS (58 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -798,20 +798,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "SITI 24X7",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://www.schannels.in/SITI24X7_1/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/cSsxzVa-2j7DQ7ZLaRSS5oV4RVtkfiwIZoccMKSyitWXf5g1UyYcwavRI2rr-9JaBO52e_6T=s176-c-k-c0x00ffffff-no-rj-mo",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
         "name": "Sky News",
         "sources": [
             {
@@ -1111,7 +1097,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (18 channels, 3 with 🔐 DRM)
+    // KIDS (17 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1240,20 +1226,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/8PQrRLN8/Animax.png",
-        "category": "Kids",
-        "description": "Kids Channel"
-    },
-
-    {
-        "name": "BBC Cbeebies",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn4.skygo.mn/live/disk1/Cbeebies/HLSv3-FTA/Cbeebies.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/uyeShLXK1reEq1zTYVtZkL9IoQb18T-G96q8HqCpb-uAxY4gxaR6KuuUo1KudRQfuDHMYSYcEg=s900-c-k-c0x00ffffff-no-rj",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -2009,20 +1981,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Green TV",
-        "sources": [
-            {
-                "name": "Playlist",
-                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/chunks.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://media.licdn.com/dms/image/v2/D560BAQHElejP-dKJhg/company-logo_200_200/company-logo_200_200/0/1667384842286/green_tv_digital_logo?e=2147483647&v=beta&t=W0t2EpmzgDhkORaqs2SaZt0-LaRukY7CzF82EmhnAK8",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "GTV",
         "sources": [
             {
@@ -2692,6 +2650,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Tamilan TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/6c862e3b037757f287141c2d553da1b1.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Tara TV",
         "sources": [
             {
@@ -2826,7 +2798,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (59 channels, 4 with 🔐 DRM)
+    // NEWS (58 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3619,20 +3591,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "SITI 24X7",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://www.schannels.in/SITI24X7_1/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/cSsxzVa-2j7DQ7ZLaRSS5oV4RVtkfiwIZoccMKSyitWXf5g1UyYcwavRI2rr-9JaBO52e_6T=s176-c-k-c0x00ffffff-no-rj-mo",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
         "name": "Sky News",
         "sources": [
             {
@@ -3778,7 +3736,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (47 channels, 12 with 🔐 DRM)
+    // MOVIE (48 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4199,6 +4157,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/vHRnL2MH/movie-bangla.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Movie Box",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/xdVgw5yG/movie-box.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4725,11 +4697,6 @@ window.rawChannels2 = [
         "name": "Deewana",
         "sources": [
             {
-                "name": "Stream 1",
-                "url": "https://anywhere.pwisetthon.com/https://tplay.live/originals/deewana/index.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Stream 2",
                 "url": "https://tplay.live/originals/deewana/index.m3u8",
                 "type": "hls"
@@ -4873,6 +4840,11 @@ window.rawChannels2 = [
             {
                 "name": "⚡ Stream 1",
                 "url": "https://d1taaads3ztvmu.cloudfront.net/120723/mastii/chunklist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 2",
+                "url": "https://mumt02.tangotv.in/MASTIII/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -5892,7 +5864,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 377
+// Total channels: 375
 // Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
