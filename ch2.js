@@ -1,4 +1,4 @@
-// Generated: 2026-02-28 01:28 UTC
+// Generated: 2026-02-28 06:37 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1380,7 +1380,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (96 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (97 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1909,6 +1909,11 @@ window.rawChannels2 = [
         "name": "Ekushey ETV",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://anywhere.pwisetthon.com/http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/ekusheytv.index.m3u8",
                 "type": "hls"
@@ -2013,6 +2018,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://media.licdn.com/dms/image/v2/D560BAQHElejP-dKJhg/company-logo_200_200/company-logo_200_200/0/1667384842286/green_tv_digital_logo?e=2147483647&v=beta&t=W0t2EpmzgDhkORaqs2SaZt0-LaRukY7CzF82EmhnAK8",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "GTV",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/gazitv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/yNLC1Rfw/gtv.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3759,7 +3778,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (48 channels, 12 with 🔐 DRM)
+    // MOVIE (47 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4185,20 +4204,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Movie Box",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/xdVgw5yG/movie-box.png",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
         "name": "Movieplex",
         "sources": [
             {
@@ -4499,7 +4504,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (40 channels, 1 with 🔐 DRM)
+    // MUSIC (39 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4830,20 +4835,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
         "name": "Kalaignar Murasu",
         "sources": [
             {
@@ -5168,7 +5159,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (14 channels)
+    // RELIGIOUS (15 channels)
     // ==================================================
 
     {
@@ -5279,6 +5270,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://www.lyngsat.com/logo/tv/pp/paras-gold-in.png",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Peace TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
         "category": "Religious",
         "description": "Religious Channel"
     },
