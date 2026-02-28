@@ -1,4 +1,4 @@
-// Generated: 2026-02-27 18:40 UTC
+// Generated: 2026-02-28 01:28 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1380,7 +1380,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (98 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (96 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1762,6 +1762,11 @@ window.rawChannels2 = [
                 "name": "Server 2",
                 "url": "https://anywhere.pwisetthon.com/http://217.20.112.199:8888/ColorsHD/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 3",
+                "url": "https://anywhere.pwisetthon.com/http://103.99.249.139/colors/index.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/vBL4YjR8/colors.jpg",
@@ -2008,20 +2013,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://media.licdn.com/dms/image/v2/D560BAQHElejP-dKJhg/company-logo_200_200/company-logo_200_200/0/1667384842286/green_tv_digital_logo?e=2147483647&v=beta&t=W0t2EpmzgDhkORaqs2SaZt0-LaRukY7CzF82EmhnAK8",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "GTV",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/gazitv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/yNLC1Rfw/gtv.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2627,6 +2618,11 @@ window.rawChannels2 = [
                 "name": "Server 2",
                 "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 3",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/WpQ9PsZ3/star-jalsha.jpg",
@@ -2672,20 +2668,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/G3PrLGk2/suntv.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Tamilan TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/6c862e3b037757f287141c2d553da1b1.png",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3777,7 +3759,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (46 channels, 12 with 🔐 DRM)
+    // MOVIE (48 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3966,6 +3948,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/ncHCB2vs/best-action.png",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Bhojpuri Cinema",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/1z2YMvvc/Bhojpuri-Cinema.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4184,6 +4180,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/vHRnL2MH/movie-bangla.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Movie Box",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/xdVgw5yG/movie-box.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4489,7 +4499,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (39 channels, 1 with 🔐 DRM)
+    // MUSIC (40 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4820,6 +4830,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "K Pop",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Kalaignar Murasu",
         "sources": [
             {
@@ -4858,11 +4882,6 @@ window.rawChannels2 = [
             {
                 "name": "⚡ Stream 1",
                 "url": "https://d1taaads3ztvmu.cloudfront.net/120723/mastii/chunklist.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Stream 2",
-                "url": "https://mumt02.tangotv.in/MASTIII/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -5149,7 +5168,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (15 channels)
+    // RELIGIOUS (14 channels)
     // ==================================================
 
     {
@@ -5260,20 +5279,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://www.lyngsat.com/logo/tv/pp/paras-gold-in.png",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Peace TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
         "category": "Religious",
         "description": "Religious Channel"
     },
