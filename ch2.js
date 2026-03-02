@@ -1,4 +1,4 @@
-// Generated: 2026-03-02 06:57 UTC
+// Generated: 2026-03-02 12:49 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1352,7 +1352,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (95 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (96 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1859,6 +1859,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Deshe Bideshe",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://timetvplus.com/uploads/tv_image/deshe-bideshe-tv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Ekushey ETV",
         "sources": [
             {
@@ -1957,6 +1971,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOMJrXPGx1YIFBC6ogdcJ87M35xQjneLhKA&s",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Green TV",
+        "sources": [
+            {
+                "name": "Playlist",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/chunks.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://media.licdn.com/dms/image/v2/D560BAQHElejP-dKJhg/company-logo_200_200/company-logo_200_200/0/1667384842286/green_tv_digital_logo?e=2147483647&v=beta&t=W0t2EpmzgDhkORaqs2SaZt0-LaRukY7CzF82EmhnAK8",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2373,20 +2401,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Qxh9wGTV/rtv.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Ruposhi Bangla",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn-4.pishow.tv/live/1039/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/8c1LTnTZ/ruposhi-bangla.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3698,7 +3712,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (48 channels, 12 with 🔐 DRM)
+    // MOVIE (47 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4119,20 +4133,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/vHRnL2MH/movie-bangla.jpg",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Movie Box",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/xdVgw5yG/movie-box.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4694,11 +4694,6 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://mumt03.tangotv.in/DHOOM/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://cdn-1.pishow.tv/live/1456/master.m3u8",
                 "type": "hls"
             }
         ],
@@ -5327,7 +5322,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (33 channels, 10 with 🔐 DRM)
+    // OTHERS (32 channels, 9 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5737,24 +5732,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic Wild",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
-                    "key": "adf163c6c1729e6f77668d4e49f32352"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5845,7 +5822,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 374
-// Channels with DRM: 42
+// Total channels: 373
+// Channels with DRM: 41
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
