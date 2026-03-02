@@ -1,4 +1,4 @@
-// Generated: 2026-03-02 01:35 UTC
+// Generated: 2026-03-02 06:57 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1352,7 +1352,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (96 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (95 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1854,20 +1854,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/kG5Zpp8y/deshtv.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Deshe Bideshe",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://timetvplus.com/uploads/tv_image/deshe-bideshe-tv.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -5859,7 +5845,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 375
+// Total channels: 374
 // Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
