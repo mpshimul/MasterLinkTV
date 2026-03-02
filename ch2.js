@@ -1,4 +1,4 @@
-// Generated: 2026-03-02 12:49 UTC
+// Generated: 2026-03-02 18:44 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1352,7 +1352,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (96 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (95 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2429,20 +2429,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/02nTdDvr/satv.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Shalini TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://stream.singamcloud.in/shalinitv/shalinitv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/oq4TNLaYR0tvJypHi2VH_wWn8MN2MijcMA0lJ3lSYAKn6ce8RjFPJYL_2eTygF18m8nOqcMN=s900-c-k-c0x00ffffff-no-rj",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -4438,7 +4424,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (40 channels, 1 with 🔐 DRM)
+    // MUSIC (39 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4759,20 +4745,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/7L2vCFnH/josh-fw.png",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5322,7 +5294,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (32 channels, 9 with 🔐 DRM)
+    // OTHERS (33 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5732,6 +5704,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic Wild",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
+                    "key": "adf163c6c1729e6f77668d4e49f32352"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5822,7 +5812,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 373
-// Channels with DRM: 41
+// Total channels: 372
+// Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
