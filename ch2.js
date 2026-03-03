@@ -1,4 +1,4 @@
-// Generated: 2026-03-03 06:49 UTC
+// Generated: 2026-03-03 12:48 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -4565,11 +4565,6 @@ window.rawChannels2 = [
         "name": "B4U Music",
         "sources": [
             {
-                "name": "⚡ Stream 3",
-                "url": "https://d3kdywbtdfbp9z.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/dff423e0-3c82-46d6-9ecb-3baa96b5694a/4598c408-0e38-488c-9b64-fc845d1ea2b6/0.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Stream 1",
                 "url": "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8",
                 "type": "hls"
@@ -5093,7 +5088,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (13 channels)
+    // RELIGIOUS (16 channels)
     // ==================================================
 
     {
@@ -5120,6 +5115,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://c.kmpr.in/assets/tv_channels_150/5220.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Akaal Channel",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/akaal_tv/hls1_smart_akaal/akaal_tv.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.sikhentrepreneur.com/wp-content/uploads/2013/09/akaalch.png",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -5153,6 +5162,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Mercy TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXMFfcf9s50fsWGifUc9Do21MCTfRN6Y9-yw&s",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
         "name": "Om",
         "sources": [
             {
@@ -5176,6 +5199,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/jjmyWm0m/om-bangla-2.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Paras Gold",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt04.tangotv.in/PARASGOLD/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.lyngsat.com/logo/tv/pp/paras-gold-in.png",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -5798,7 +5835,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 371
+// Total channels: 374
 // Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
