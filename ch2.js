@@ -1,4 +1,4 @@
-// Generated: 2026-03-03 12:48 UTC
+// Generated: 2026-03-03 18:46 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1338,7 +1338,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (96 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (95 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1840,20 +1840,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/kG5Zpp8y/deshtv.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Deshe Bideshe",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://timetvplus.com/uploads/tv_image/deshe-bideshe-tv.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -4424,7 +4410,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (40 channels, 1 with 🔐 DRM)
+    // MUSIC (39 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4740,20 +4726,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/7L2vCFnH/josh-fw.png",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5835,7 +5807,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 374
+// Total channels: 372
 // Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
