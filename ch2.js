@@ -1,4 +1,4 @@
-// Generated: 2026-03-04 12:49 UTC
+// Generated: 2026-03-04 18:45 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -943,7 +943,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (9 channels, 1 with 🔐 DRM)
+    // SPORTS (5 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1007,62 +1007,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "PSN 1",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn4.skygo.mn/live/disk1/SPSPrime/HLSv3-FTA/SPSPrime.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/6ss3NfsrbhKQaiY56yCtgg9NwpAoOYzVzjtWZTgKCm3BWeV4vUiXMYM3vJEebtPapo2M6cUT=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "PSN 2",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn4.skygo.mn/live/disk1/SPSPlay/HLSv3-FTA/SPSPlay.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/6ss3NfsrbhKQaiY56yCtgg9NwpAoOYzVzjtWZTgKCm3BWeV4vUiXMYM3vJEebtPapo2M6cUT=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "PSN 4",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn4.skygo.mn/live/disk1/SPSFight/HLSv3-FTA/SPSFight.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/6ss3NfsrbhKQaiY56yCtgg9NwpAoOYzVzjtWZTgKCm3BWeV4vUiXMYM3vJEebtPapo2M6cUT=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "PSN 5",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn4.skygo.mn/live/disk1/SPSPlus/HLSv3-FTA/SPSPlus.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/6ss3NfsrbhKQaiY56yCtgg9NwpAoOYzVzjtWZTgKCm3BWeV4vUiXMYM3vJEebtPapo2M6cUT=s900-c-k-c0x00ffffff-no-rj",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1338,7 +1282,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (88 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (93 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1527,6 +1471,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Asianet",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/asianet/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.medianews4u.com/wp-content/uploads/2025/09/Asianet-dominates-Malayalam-TV-with-64-prime-time-share-Bigg-Boss-7-leads-the-charge.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "ATN Bangla",
         "sources": [
             {
@@ -1695,6 +1653,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/nL8s287H/channel-s.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Colors Marathi",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/ColorsMarathi/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/R0PJ5d59/colors-marathi.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2439,6 +2411,34 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Entertainment",
+        "sources": [
+            {
+                "name": "HD",
+                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/sethd/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/ydq1SThV/set.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Sony Marathi",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/sonymarathi/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4wRjk798Ys8XdOzogPeYLsXGPP4w_8KZEXA&s",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Sony Sab",
         "sources": [
             {
@@ -2490,6 +2490,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://static.wikia.nocookie.net/logopedia/images/c/cc/Sudan_TV_logo_2000.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Sun TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/suntv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/G3PrLGk2/suntv.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -4681,11 +4695,6 @@ window.rawChannels2 = [
                 "name": "Server 1",
                 "url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://mumt05.tangotv.in/MUSICINDIA/index.m3u8",
-                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/QNYG5Kz9/music-india.jpg",
@@ -5130,7 +5139,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (32 channels, 9 with 🔐 DRM)
+    // OTHERS (33 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5139,6 +5148,11 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/animalplanet/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -5517,6 +5531,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "6d647aff767c453daa5fb54a44c783c6",
+                    "key": "2f971e6a1cc58e7085afc761a3f13162"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "National Geographic Wild",
         "sources": [
             {
@@ -5625,7 +5657,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 360
-// Channels with DRM: 41
+// Total channels: 362
+// Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
