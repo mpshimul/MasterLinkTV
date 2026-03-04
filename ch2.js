@@ -1,4 +1,4 @@
-// Generated: 2026-03-04 06:46 UTC
+// Generated: 2026-03-04 12:49 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1338,7 +1338,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (95 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (88 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1527,20 +1527,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Asianet",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/asianet/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://www.medianews4u.com/wp-content/uploads/2025/09/Asianet-dominates-Malayalam-TV-with-64-prime-time-share-Bigg-Boss-7-leads-the-charge.png",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "ATN Bangla",
         "sources": [
             {
@@ -1709,34 +1695,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/nL8s287H/channel-s.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Colors",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199:8888/ColorsHD/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/vBL4YjR8/colors.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Colors Marathi",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/ColorsMarathi/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/R0PJ5d59/colors-marathi.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2481,41 +2439,8 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Sony Entertainment",
-        "sources": [
-            {
-                "name": "HD",
-                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/sethd/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/ydq1SThV/set.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Sony Marathi",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/sonymarathi/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4wRjk798Ys8XdOzogPeYLsXGPP4w_8KZEXA&s",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "Sony Sab",
         "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199:8888/sabtvhd/index.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 3",
                 "url": "https://anywhere.pwisetthon.com/http://103.99.249.139/sonysab/index.m3u8",
@@ -2537,20 +2462,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/HWEDk9BVcD7TT3VpzVdkVqJkLkyi7WRq7KduIaFdb-y5Bh7mZdfD3A8yxCFsz7OHcubTZv21=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Star Bharat",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199:8888/lifeokhd/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/W176T68d/Star-Bharat.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2579,20 +2490,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://static.wikia.nocookie.net/logopedia/images/c/cc/Sudan_TV_logo_2000.png",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Sun TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/suntv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/G3PrLGk2/suntv.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3929,6 +3826,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Filamchi Bhojpuri",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://epiconvh.akamaized.net/live/filamchi/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/shows/2025-10-31/2510313384016.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Goldmines",
         "sources": [
             {
@@ -4322,20 +4233,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Zee Bolly World",
-        "sources": [
-            {
-                "name": "Playlist",
-                "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=6640",
-                "type": "hls"
-            }
-        ],
-        "img": "https://www.zeetvusa.com/wp-content/uploads/2020/07/zbollyworld-new-332-03.png",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
         "name": "Zee Bollywood",
         "sources": [
             {
@@ -4391,7 +4288,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (35 channels, 1 with 🔐 DRM)
+    // MUSIC (36 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4693,6 +4590,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/7L2vCFnH/josh-fw.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "K Pop",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5219,7 +5130,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (33 channels, 10 with 🔐 DRM)
+    // OTHERS (32 channels, 9 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5228,11 +5139,6 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/animalplanet/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -5611,24 +5517,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "6d647aff767c453daa5fb54a44c783c6",
-                    "key": "2f971e6a1cc58e7085afc761a3f13162"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "National Geographic Wild",
         "sources": [
             {
@@ -5737,7 +5625,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 367
-// Channels with DRM: 42
+// Total channels: 360
+// Channels with DRM: 41
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
