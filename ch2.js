@@ -1,11 +1,11 @@
-// Generated: 2026-03-04 18:45 UTC
+// Generated: 2026-03-05 01:35 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (58 channels, 4 with 🔐 DRM)
+    // NEWS (57 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -371,40 +371,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "India News",
-        "sources": [
-            {
-                "name": "National",
-                "url": "https://newsxott.in/hls/indianewsnational.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Gujarat",
-                "url": "https://newsxott.in/hls/indianewsgujarat.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Haryana",
-                "url": "https://newsxott.in/hls/indianewsharyana.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Punjab",
-                "url": "https://newsxott.in/hls/indianewspunjab.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Uttar Pradesh",
-                "url": "https://newsxott.in/hls/indianewsupuk.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://karthavya.com/wp-content/uploads/2019/07/India-News-Live.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
         "name": "India Today",
         "sources": [
             {
@@ -641,11 +607,6 @@ window.rawChannels2 = [
     {
         "name": "News X",
         "sources": [
-            {
-                "name": "News X",
-                "url": "https://newsxott.in/hls/newsx.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "News X World",
                 "url": "https://newsxott.in/hls/newsxworld.m3u8",
@@ -943,7 +904,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (5 channels, 1 with 🔐 DRM)
+    // SPORTS (9 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1007,6 +968,62 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "PSN 1",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn4.skygo.mn/live/disk1/SPSPrime/HLSv3-FTA/SPSPrime.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/6ss3NfsrbhKQaiY56yCtgg9NwpAoOYzVzjtWZTgKCm3BWeV4vUiXMYM3vJEebtPapo2M6cUT=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "PSN 2",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn4.skygo.mn/live/disk1/SPSPlay/HLSv3-FTA/SPSPlay.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/6ss3NfsrbhKQaiY56yCtgg9NwpAoOYzVzjtWZTgKCm3BWeV4vUiXMYM3vJEebtPapo2M6cUT=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "PSN 4",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn4.skygo.mn/live/disk1/SPSFight/HLSv3-FTA/SPSFight.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/6ss3NfsrbhKQaiY56yCtgg9NwpAoOYzVzjtWZTgKCm3BWeV4vUiXMYM3vJEebtPapo2M6cUT=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "PSN 5",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn4.skygo.mn/live/disk1/SPSPlus/HLSv3-FTA/SPSPlus.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/6ss3NfsrbhKQaiY56yCtgg9NwpAoOYzVzjtWZTgKCm3BWeV4vUiXMYM3vJEebtPapo2M6cUT=s900-c-k-c0x00ffffff-no-rj",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1775,6 +1792,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Deshe Bideshe",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://timetvplus.com/uploads/tv_image/deshe-bideshe-tv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Ekushey ETV",
         "sources": [
             {
@@ -2509,20 +2540,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Tamilan TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/6c862e3b037757f287141c2d553da1b1.png",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "Tara TV",
         "sources": [
             {
@@ -2652,7 +2669,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (58 channels, 4 with 🔐 DRM)
+    // NEWS (57 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3018,40 +3035,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "India News",
-        "sources": [
-            {
-                "name": "National",
-                "url": "https://newsxott.in/hls/indianewsnational.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Gujarat",
-                "url": "https://newsxott.in/hls/indianewsgujarat.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Haryana",
-                "url": "https://newsxott.in/hls/indianewsharyana.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Punjab",
-                "url": "https://newsxott.in/hls/indianewspunjab.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Uttar Pradesh",
-                "url": "https://newsxott.in/hls/indianewsupuk.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://karthavya.com/wp-content/uploads/2019/07/India-News-Live.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
         "name": "India Today",
         "sources": [
             {
@@ -3288,11 +3271,6 @@ window.rawChannels2 = [
     {
         "name": "News X",
         "sources": [
-            {
-                "name": "News X",
-                "url": "https://newsxott.in/hls/newsx.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "News X World",
                 "url": "https://newsxott.in/hls/newsxworld.m3u8",
@@ -4125,11 +4103,6 @@ window.rawChannels2 = [
         "name": "Sanonda",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://sananda.bengaldigital.live/Sananda/index.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 3",
                 "url": "https://anywhere.pwisetthon.com/http://115.187.41.216:8080/hls/sanandatv/index.m3u8",
                 "type": "hls"
@@ -4302,7 +4275,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (36 channels, 1 with 🔐 DRM)
+    // MUSIC (34 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4487,20 +4460,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Dabangg",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt01.tangotv.in/DABANGG/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/j21NsgJD/dabangg.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
         "name": "Deewana",
         "sources": [
             {
@@ -4609,20 +4568,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
         "name": "Kalaignar Murasu",
         "sources": [
             {
@@ -4722,11 +4667,6 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://tplay.live/tplay/playout/209901/master.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209901/tracks-v1a1/mono.ts.m3u8",
                 "type": "hls"
             }
         ],
@@ -5139,7 +5079,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (33 channels, 10 with 🔐 DRM)
+    // OTHERS (32 channels, 9 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5549,24 +5489,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic Wild",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
-                    "key": "adf163c6c1729e6f77668d4e49f32352"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5657,7 +5579,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 362
-// Channels with DRM: 42
+// Total channels: 361
+// Channels with DRM: 41
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
