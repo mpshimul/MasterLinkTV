@@ -1,4 +1,4 @@
-// Generated: 2026-03-06 12:46 UTC
+// Generated: 2026-03-06 18:42 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1041,7 +1041,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (17 channels, 3 with 🔐 DRM)
+    // KIDS (16 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1138,20 +1138,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/25T1j5cX/oggy2.jpg",
-        "category": "Kids",
-        "description": "Kids Channel"
-    },
-
-    {
-        "name": "24/7 Tom And Jerry",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/xd5gYkM8/tom-jerry.jpg",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -1296,7 +1282,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (92 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (91 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1887,20 +1873,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOMJrXPGx1YIFBC6ogdcJ87M35xQjneLhKA&s",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Green TV",
-        "sources": [
-            {
-                "name": "Playlist",
-                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/chunks.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://media.licdn.com/dms/image/v2/D560BAQHElejP-dKJhg/company-logo_200_200/company-logo_200_200/0/1667384842286/green_tv_digital_logo?e=2147483647&v=beta&t=W0t2EpmzgDhkORaqs2SaZt0-LaRukY7CzF82EmhnAK8",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -4325,7 +4297,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (35 channels, 1 with 🔐 DRM)
+    // MUSIC (36 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4491,6 +4463,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/jSLNzXgM/Bengali-Beats.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Classic Hits",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://mumt03.tangotv.in/CLASSICHITS/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/FHprhdVG/ch-fw.png",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5666,7 +5652,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 363
+// Total channels: 362
 // Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
