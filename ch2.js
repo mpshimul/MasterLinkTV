@@ -1,4 +1,4 @@
-// Generated: 2026-03-06 06:46 UTC
+// Generated: 2026-03-06 12:46 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1296,7 +1296,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (93 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (92 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1480,20 +1480,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/021TdcXS/asian.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Asianet",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://anywhere.pwisetthon.com/http://217.20.112.199/asianet/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://www.medianews4u.com/wp-content/uploads/2025/09/Asianet-dominates-Malayalam-TV-with-64-prime-time-share-Bigg-Boss-7-leads-the-charge.png",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -4339,7 +4325,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (36 channels, 1 with 🔐 DRM)
+    // MUSIC (35 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4505,20 +4491,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/jSLNzXgM/Bengali-Beats.png",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "Classic Hits",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://mumt03.tangotv.in/CLASSICHITS/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/FHprhdVG/ch-fw.png",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5176,7 +5148,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (32 channels, 9 with 🔐 DRM)
+    // OTHERS (33 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5586,6 +5558,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic Wild",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
+                    "key": "adf163c6c1729e6f77668d4e49f32352"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5676,7 +5666,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 364
-// Channels with DRM: 41
+// Total channels: 363
+// Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
