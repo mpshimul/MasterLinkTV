@@ -1,4 +1,4 @@
-// Generated: 2026-03-05 19:17 UTC
+// Generated: 2026-03-06 01:49 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -3674,7 +3674,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (47 channels, 12 with 🔐 DRM)
+    // MOVIE (46 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4276,20 +4276,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Superfine Films",
-        "sources": [
-            {
-                "name": "Playlist",
-                "url": "https://supflm.cdn.runn.tv/runntv/stream/p_supjio/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://jiotvimages.cdn.jio.com/dare_images/shows/epgdata/a5f8b8d698133ad07c19b5c7a56a7de6.png?width=300",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
         "name": "The Movie Club",
         "sources": [
             {
@@ -4395,7 +4381,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (36 channels, 1 with 🔐 DRM)
+    // MUSIC (35 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4697,20 +4683,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/7L2vCFnH/josh-fw.png",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5232,7 +5204,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (32 channels, 9 with 🔐 DRM)
+    // OTHERS (33 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5642,6 +5614,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic Wild",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
+                    "key": "adf163c6c1729e6f77668d4e49f32352"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5732,7 +5722,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 368
-// Channels with DRM: 41
+// Total channels: 367
+// Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
