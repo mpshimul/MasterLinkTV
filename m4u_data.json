@@ -1,0 +1,4781 @@
+{
+  "version": "5.0",
+  "generated_at": "2026-03-07T01:10:02.664403",
+  "total_movies": 30,
+  "statistics": {
+    "processed": 0,
+    "successful": 30,
+    "failed": 0,
+    "with_tmdb": 30,
+    "with_downloads": 30
+  },
+  "movies": [
+    {
+      "movies4u_url": "https://movies4u.claims/war-machine-netflix-original-2026-web-dl-multi-audio-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/original/4Rc9KO5H2FOtuy9gdRA1slDeazc.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48904",
+      "imdb_id": "tt15940132",
+      "tmdb_id": 1265609,
+      "title": "War Machine",
+      "original_title": "War Machine",
+      "overview": "On one last grueling mission during Army Ranger training, a combat engineer must lead his unit in a fight against a giant otherworldly killing machine.",
+      "release_date": "2026-02-12",
+      "year": 2026,
+      "runtime": 107,
+      "rating": 7.2,
+      "popularity": 20.1848,
+      "poster_path": "/rFhKkXhk7ClU03jQ5rHIApJDwev.jpg",
+      "backdrop_path": "/6yeVcxFR0j08vlv2OlL6zbewm4D.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 64295,
+          "name": "Alan Ritchson",
+          "character": "81",
+          "profile_path": "/92YNEEpCyugkTzPprJwZpvVtvuK.jpg",
+          "order": 0
+        },
+        {
+          "id": 6065,
+          "name": "Dennis Quaid",
+          "character": "Army Sgt Maj Sheridan",
+          "profile_path": "/lMaDAJHzsKH7U3dln2B3kY3rOhE.jpg",
+          "order": 1
+        },
+        {
+          "id": 1388314,
+          "name": "Stephan James",
+          "character": "7",
+          "profile_path": "/itWiVFI7uE8s4QQjcQBbVO0hY7K.jpg",
+          "order": 2
+        },
+        {
+          "id": 224181,
+          "name": "Jai Courtney",
+          "character": "Class President",
+          "profile_path": "/6vEaNwbOKov6yzQx15CdtrqfK3L.jpg",
+          "order": 3
+        },
+        {
+          "id": 65344,
+          "name": "Esai Morales",
+          "character": "Army Officer Torres",
+          "profile_path": "/cNYciYzUzxraGlw0BPql1QePi5H.jpg",
+          "order": 4
+        },
+        {
+          "id": 4377249,
+          "name": "Blake Richardson",
+          "character": "15",
+          "profile_path": "/58QVBtwjZODn9FGighvL94pgmsH.jpg",
+          "order": 5
+        },
+        {
+          "id": 1251875,
+          "name": "Keiynan Lonsdale",
+          "character": "60",
+          "profile_path": "/lSIKty1Y8JLIE4aqL6VmZYx0JEB.jpg",
+          "order": 6
+        },
+        {
+          "id": 5208267,
+          "name": "Jack Patten",
+          "character": "109",
+          "profile_path": "/sIE11wI7czGjYCUOlEKqXguIdsl.jpg",
+          "order": 7
+        },
+        {
+          "id": 1925382,
+          "name": "Joshua Diaz",
+          "character": "96",
+          "profile_path": "/dhqnloyyBe6iV4wbBiadLBgzgLt.jpg",
+          "order": 8
+        },
+        {
+          "id": 234548,
+          "name": "Daniel Webber",
+          "character": "57",
+          "profile_path": "/ldOZipwbPQP7AXoQTQHXQymwu9q.jpg",
+          "order": 9
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 198785,
+          "name": "Hidden Pictures",
+          "logo_path": "/oBnMrmwnlAKcACe5h7Vwmk8m1CC.png"
+        },
+        {
+          "id": 167684,
+          "name": "Range Media Partners",
+          "logo_path": "/kzQwU2H6woBFti9cqjr9BrVXrst.png"
+        },
+        {
+          "id": 224643,
+          "name": "Huge Film",
+          "logo_path": null
+        },
+        {
+          "id": 19010,
+          "name": "Emu Creek Pictures",
+          "logo_path": null
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "de",
+          "name": "Deutsch"
+        },
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "recommendations": [],
+      "download_links": {
+        "480P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.life/Movies4u.Foo.War.Machine.2026.480p.WEB.DL.Multi.Audio.ESubs.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "480p [500MB]",
+          "size": "500MB",
+          "size_mb": 500.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fukggl.buzz/Movies4u.Foo.War.Machine.2026.720p.WEB.DL.Multi.Audio.ESubs.mkv?token=7b0e45224c0fdebf85f79f6fa45ccfad",
+          "is_primary": true,
+          "quality_label": "720p [1.4GB]",
+          "size": "1.4GB",
+          "size_mb": 1433.6
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.work/Movies4u.Foo.War.Machine.2026.1080p.Multi.Audio.ESubs.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "1080p [3GB]",
+          "size": "3GB",
+          "size_mb": 3072.0
+        }
+      },
+      "director": {
+        "id": 143059,
+        "name": "Patrick Hughes"
+      },
+      "trailer": "https://www.youtube.com/watch?v=AFuE1LRxm80",
+      "collected_at": "2026-03-07T01:09:28.377530",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/the-bluff-amazon-prime-2026-web-dl-multi-audio-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/original/sojEzvfxR2DBcDSJyAisX8TWjov.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48726",
+      "imdb_id": "tt14181714",
+      "tmdb_id": 799882,
+      "title": "The Bluff",
+      "original_title": "The Bluff",
+      "overview": "When her tranquil life on a remote island is shattered by the return of her vengeful former captain, a skilled ex-pirate must confront her bloody past and unleash her deadly talents to save her family from a ruthless siege.",
+      "release_date": "2026-02-17",
+      "year": 2026,
+      "runtime": 102,
+      "rating": 6.1,
+      "popularity": 245.9062,
+      "poster_path": "/sojEzvfxR2DBcDSJyAisX8TWjov.jpg",
+      "backdrop_path": "/hYgUkH7TusddHRtelj53I6gFOWR.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 77234,
+          "name": "Priyanka Chopra Jonas",
+          "character": "Ercell",
+          "profile_path": "/9n2n3fUFI553HKH0CEAb2TPLtCx.jpg",
+          "order": 0
+        },
+        {
+          "id": 1372,
+          "name": "Karl Urban",
+          "character": "Captain Connor",
+          "profile_path": "/6CkZLwEJxfqqcJHyeXegMAvOlPh.jpg",
+          "order": 1
+        },
+        {
+          "id": 2592839,
+          "name": "Safia Oakley-Green",
+          "character": "Elizabeth",
+          "profile_path": "/k4JrjdSIfwWF1Qd5KHChDfnXpF2.jpg",
+          "order": 2
+        },
+        {
+          "id": 1100144,
+          "name": "Ismael Cruz Cordova",
+          "character": "T.H. Bodden",
+          "profile_path": "/oXcrsQGndk60iFkNB8qFnMHlNzL.jpg",
+          "order": 3
+        },
+        {
+          "id": 7242,
+          "name": "Temuera Morrison",
+          "character": "Quartermaster Lee",
+          "profile_path": "/AvtSC0f9QW7fMyFFNXEWDeQyfUk.jpg",
+          "order": 4
+        },
+        {
+          "id": 3103723,
+          "name": "Vedanten Naidoo",
+          "character": "Isaac",
+          "profile_path": "/gF55JKge7cMTP2DNH0asEiWkoJJ.jpg",
+          "order": 5
+        },
+        {
+          "id": 57795,
+          "name": "David Field",
+          "character": "Pastor Bradley",
+          "profile_path": "/aYtVOMnak4JmlLGw63lJObLf1J.jpg",
+          "order": 6
+        },
+        {
+          "id": 2096500,
+          "name": "Greg Hatton",
+          "character": "Scout",
+          "profile_path": "/j0jioHCWjJJEr41Vr2vHgRRtEMx.jpg",
+          "order": 7
+        },
+        {
+          "id": 1576672,
+          "name": "Pacharo Mzembe",
+          "character": "Chien",
+          "profile_path": "/lXeEgdThQ8eqFiAv6HTwqJn6AU5.jpg",
+          "order": 8
+        },
+        {
+          "id": 4819068,
+          "name": "Gideon Mzembe",
+          "character": "Lupe",
+          "profile_path": null,
+          "order": 9
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 106544,
+          "name": "AGBO",
+          "logo_path": "/psd84iF7PTGrKf4yFOStKj8JbAh.png"
+        },
+        {
+          "id": 168062,
+          "name": "Cinestar Pictures",
+          "logo_path": null
+        },
+        {
+          "id": 6831,
+          "name": "Big Indie Pictures",
+          "logo_path": "/fWSI4EjIDEEzCNJC8OTPX9Pdbxv.png"
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "recommendations": [],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/df353a2f99650794e9af7ee81579f8cb?token=1772820058",
+          "is_primary": true,
+          "quality_label": "480p [600MB]",
+          "size": "600MB",
+          "size_mb": 600.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.work/Movies4u.Foo.The.Bluff.2026.720p.WEB.DL.Multi.Audio.ESubs.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p [1.6GB]",
+          "size": "1.6GB",
+          "size_mb": 1638.4
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.life/Movies4u.Foo.The.Bluff.2026.1080p.WEB.DL.Multi.Audio.ESubs.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "1080p [2.4GB]",
+          "size": "2.4GB",
+          "size_mb": 2457.6
+        }
+      },
+      "director": {
+        "id": 59703,
+        "name": "Frank E. Flowers"
+      },
+      "trailer": "https://www.youtube.com/watch?v=uUYMqRjNxhM",
+      "collected_at": "2026-03-07T01:09:28.848710",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/the-raja-saab-2026-web-dl-multi-audio-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/w500/3aTDrgrGDjivLvqwU9q3NTDChPy.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48902",
+      "imdb_id": "tt23790696",
+      "tmdb_id": 1022453,
+      "title": "The Rajasaab",
+      "original_title": "ది రాజాసాబ్",
+      "overview": "Seeking his lost grandfather, a young man enters a haunted mansion and awakens a family curse powerful enough to upend both his life and reality.",
+      "release_date": "2026-01-08",
+      "year": 2026,
+      "runtime": 186,
+      "rating": 5.48,
+      "popularity": 6.8197,
+      "poster_path": "/nvK6gYa4diCnQkDVN42uoYXPrdT.jpg",
+      "backdrop_path": "/kCwmLYy9ZMto1eMH8BI9KcVVIH2.jpg",
+      "budget": 50000000,
+      "revenue": 21000000,
+      "genres": [
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 27,
+          "name": "Horror"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        }
+      ],
+      "cast": [
+        {
+          "id": 237045,
+          "name": "Prabhas",
+          "character": "Raju / Rajasaab",
+          "profile_path": "/u6RVP8ukgLaymeoi5VmX0JRAcCn.jpg",
+          "order": 0
+        },
+        {
+          "id": 85881,
+          "name": "Sanjay Dutt",
+          "character": "Pekamedala Kanakaraju",
+          "profile_path": "/oq4pnvWhl1HxKpp0KVlSfAr3Tiu.jpg",
+          "order": 1
+        },
+        {
+          "id": 94567,
+          "name": "Zarina Wahab",
+          "character": "Gangamma",
+          "profile_path": "/nY28L0JFjTlpIWdwt9qxO1p2HNn.jpg",
+          "order": 2
+        },
+        {
+          "id": 1830991,
+          "name": "Nidhhi Agerwal",
+          "character": "Bessy",
+          "profile_path": "/ptGhRQJPWdQhVVGMrSZvLXHWKlO.jpg",
+          "order": 3
+        },
+        {
+          "id": 1289455,
+          "name": "Malavika Mohanan",
+          "character": "Bhairavi",
+          "profile_path": "/5Uy1sP3RMabzZeG2P7zi8cPavqY.jpg",
+          "order": 4
+        },
+        {
+          "id": 1641604,
+          "name": "Riddhi Kumar",
+          "character": "Anitha",
+          "profile_path": "/kHFRGsX0HS3Viblm7Htns4lyJYn.jpg",
+          "order": 5
+        },
+        {
+          "id": 35779,
+          "name": "Boman Irani",
+          "character": "Dr. Padmabhushan",
+          "profile_path": "/5J7GiiNar9bg9rGYeA2L30JXE2W.jpg",
+          "order": 6
+        },
+        {
+          "id": 585397,
+          "name": "Samuthirakani",
+          "character": "Ganagaraju",
+          "profile_path": "/hicCPOdDfSRCEYkeb9g53FOY19A.jpg",
+          "order": 7
+        },
+        {
+          "id": 565865,
+          "name": "VTV Ganesh",
+          "character": "Mangalam Babai",
+          "profile_path": "/5JomvpPx6PrExYcZAbHM1MoHjoZ.jpg",
+          "order": 8
+        },
+        {
+          "id": 1412713,
+          "name": "Saptagiri",
+          "character": "Bessy's Aide",
+          "profile_path": "/h8G2HkmuwDuEgJEIAoUBvN8dSwN.jpg",
+          "order": 9
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 106829,
+          "name": "People Media Factory",
+          "logo_path": null
+        },
+        {
+          "id": 239118,
+          "name": "IVY Entertainment",
+          "logo_path": null
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "te",
+          "name": "తెలుగు"
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 1425389,
+          "title": "Janma Bhoomi",
+          "poster_path": "/hj6Y8l9BIs1063DJMo5On0PMFAF.jpg",
+          "vote_average": 8.5
+        },
+        {
+          "id": 410485,
+          "title": "Gasping for Air",
+          "poster_path": "/kXUVqLkUdVz92oju8Ox9frXlZRG.jpg",
+          "vote_average": 6.7
+        },
+        {
+          "id": 712509,
+          "title": "Six Weeks to Twelve Years",
+          "poster_path": "/kFHxdUKN0wOwxicowrM2htcL9d5.jpg",
+          "vote_average": 6.1
+        },
+        {
+          "id": 731857,
+          "title": "Velvet",
+          "poster_path": "/kMFgxihWnkLNqpaR9Yd0gNLhDsY.jpg",
+          "vote_average": 8.7
+        },
+        {
+          "id": 49406,
+          "title": "Grinebidder: Hele Danmarks Dirch",
+          "poster_path": null,
+          "vote_average": 7.0
+        }
+      ],
+      "download_links": {
+        "480P": {
+          "server": "FSLv2 Server",
+          "url": "https://fsl.gigabytes.icu/Movies4u.Foo.The.Raja.Saab.2026.480p.DS4K.WEB-DL.Hindi.ORG-Telugu.ESub.x264.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "480p [650MB]",
+          "size": "650MB",
+          "size_mb": 650.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fukggl.buzz/Movies4u.Foo.The.Raja.Saab.2026.720p.HEVC.DS4K.WEB-DL.Hindi.5.1-Telugu.ESub.x265.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p HEVC [1.2GB]",
+          "size": "1.2GB",
+          "size_mb": 1228.8
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fukggl.buzz/Movies4u.Foo.The.Raja.Saab.2026.1080p.HEVC.DS4K.WEB-DL.Hindi.5.1-Telugu.5.1.ESub.x265.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [2.5GB]",
+          "size": "2.5GB",
+          "size_mb": 2560.0
+        }
+      },
+      "director": {
+        "id": 1179683,
+        "name": "Maruthi Dasari"
+      },
+      "trailer": "https://www.youtube.com/watch?v=YFZMBqyXkqQ",
+      "collected_at": "2026-03-07T01:09:29.762828",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/lucky-the-superstar-2026-web-dl-multi-audio-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/w500/fb5ao0wON2Dq3atOy3rikyL8IsP.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48679",
+      "imdb_id": "tt39182425",
+      "tmdb_id": 1324842,
+      "title": "Lucky the Superstar",
+      "original_title": "லக்கி தி சூப்பர்ஸ்டார்",
+      "overview": "A stray puppy's adventure transforms lives: helping a child heal, bringing a family together, and causing political mayhem while finding her way home.",
+      "release_date": "2026-02-20",
+      "year": 2026,
+      "runtime": 123,
+      "rating": 2.333,
+      "popularity": 6.163,
+      "poster_path": "/fb5ao0wON2Dq3atOy3rikyL8IsP.jpg",
+      "backdrop_path": "/cg2ioY2B4LpnpaYfzSExvmGqy1c.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "cast": [
+        {
+          "id": 584950,
+          "name": "G. V. Prakash Kumar",
+          "character": "Lakshman Kumar",
+          "profile_path": "/ArX3l6CdNo0sGI8b6PFYveR9Azm.jpg",
+          "order": 0
+        },
+        {
+          "id": 1899034,
+          "name": "Anaswara Rajan",
+          "character": "Keerthi",
+          "profile_path": "/zWy5AjnXf7sm60X5PVa0mWDaFsp.jpg",
+          "order": 1
+        },
+        {
+          "id": 4869832,
+          "name": "Meghna Sumesh",
+          "character": "Ammu",
+          "profile_path": null,
+          "order": 2
+        },
+        {
+          "id": 144789,
+          "name": "Subbu Panchu",
+          "character": "Srinivasan",
+          "profile_path": "/jxGqgwuOoV5ZwvV1vIr4eoKENod.jpg",
+          "order": 3
+        },
+        {
+          "id": 237689,
+          "name": "Devadarshini",
+          "character": "Anu",
+          "profile_path": "/gSq4nM6z82LfI4yjL116P1RDkb0.jpg",
+          "order": 4
+        },
+        {
+          "id": 1668189,
+          "name": "Daniel Annie Pope",
+          "character": "Bala",
+          "profile_path": "/pRVfzOP3rS36Mi6Lkrok2Ro0d7q.jpg",
+          "order": 5
+        },
+        {
+          "id": 583960,
+          "name": "Namo Narayana",
+          "character": "Moorthy",
+          "profile_path": "/jE3oslL16GYDBjmER7zkdeTVyK8.jpg",
+          "order": 6
+        },
+        {
+          "id": 1425004,
+          "name": "Elango Kumaravel",
+          "character": "Kumar",
+          "profile_path": "/8LtXDdacaCA7Gk4B8ACxTs430EO.jpg",
+          "order": 7
+        },
+        {
+          "id": 1328272,
+          "name": "Madhusudhan Rao",
+          "character": "Chief Minister Sabhapathi",
+          "profile_path": "/e6BpJSqq9KBnsY6p95nrrXRsI0V.jpg",
+          "order": 8
+        },
+        {
+          "id": 503842,
+          "name": "Aadukalam Naren",
+          "character": "LOP : Kolgai Selvan",
+          "profile_path": "/w3a6Qwh6pbnU2j7vJlzpyc2r7Dw.jpg",
+          "order": 9
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 16430,
+          "name": "Kavithalayaa Productions",
+          "logo_path": null
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "ta",
+          "name": "தமிழ்"
+        }
+      ],
+      "recommendations": [],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.oreao-cdn.buzz/26ad239912e5b8d6c571739d16c55586?token=1772820058",
+          "is_primary": true,
+          "quality_label": "480p [650MB]",
+          "size": "650MB",
+          "size_mb": 650.0
+        },
+        "720P": {
+          "server": "FSL Server",
+          "url": "https://hub.oreao-cdn.buzz/f7b08f0dbcb0fb03a9567c4bb49b1fa8?token=1772820059",
+          "is_primary": true,
+          "quality_label": "720p HEVC [950MB]",
+          "size": "950MB",
+          "size_mb": 950.0
+        },
+        "1080P": {
+          "server": "FSL Server",
+          "url": "https://hub.oreao-cdn.buzz/6d220c79c62f0bb61b23cf9612a743a3?token=1772820061",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [2GB]",
+          "size": "2GB",
+          "size_mb": 2048.0
+        }
+      },
+      "director": {
+        "id": 1014832,
+        "name": "Udhayabanu Mageswaran"
+      },
+      "trailer": "https://www.youtube.com/watch?v=JwPvl7zUlUE",
+      "collected_at": "2026-03-07T01:09:31.448349",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/subedaar-2026-web-dl-multi-audio-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/w400/gKn63ZWEVK66OaC1svlI7g6r9ah.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48868",
+      "imdb_id": "tt31852278",
+      "tmdb_id": 1262547,
+      "title": "Subedaar",
+      "original_title": "सूबेदार",
+      "overview": "Haunted by loss and drifting away from his daughter, a retired Subedaar Arjun Maurya’s newly found civilian life is jolted by one reckless act. As old wounds reopen, he must summon the warrior within to face a new kind of war - one that hits too close to his heart.",
+      "release_date": "2026-03-05",
+      "year": 2026,
+      "runtime": 142,
+      "rating": null,
+      "popularity": 14.9417,
+      "poster_path": "/gKn63ZWEVK66OaC1svlI7g6r9ah.jpg",
+      "backdrop_path": "/eZJ3z1aAcHzoYmPSxuJjaYRMgi3.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 72118,
+          "name": "Anil Kapoor",
+          "character": "Subedaar Arjun Maurya",
+          "profile_path": "/6RcrXGFzO50Tazqc8tbDlzYKvTd.jpg",
+          "order": 0
+        },
+        {
+          "id": 2103447,
+          "name": "Radhikka Madan",
+          "character": "Shyama Maurya",
+          "profile_path": "/xX6h0GMgJ1jLJdA5lHrFwZcjEIz.jpg",
+          "order": 1
+        },
+        {
+          "id": 2477777,
+          "name": "Aditya Rawal",
+          "character": "Shashikant aka 'Prince'",
+          "profile_path": "/3UWOKRmDmOcS4tmJaDe7R4XhpV8.jpg",
+          "order": 2
+        },
+        {
+          "id": 76789,
+          "name": "Saurabh Shukla",
+          "character": "Prabhakar",
+          "profile_path": "/uFGVBmRIHLAQkYYSI2lSXOxMi4f.jpg",
+          "order": 3
+        },
+        {
+          "id": 99711,
+          "name": "Mona Singh",
+          "character": "Babli Didi",
+          "profile_path": "/fBl5KYnlKY8HDUqlTs64xbDZtU8.jpg",
+          "order": 4
+        },
+        {
+          "id": 2268369,
+          "name": "Faisal Malik",
+          "character": "Softy",
+          "profile_path": "/eztI7Y1VUqHz7OYZ4ytoyEz0amz.jpg",
+          "order": 5
+        },
+        {
+          "id": 82078,
+          "name": "Khushboo",
+          "character": "Sudha",
+          "profile_path": "/cu6ABz6a7iR1hLlCvBUzDSM2vag.jpg",
+          "order": 6
+        },
+        {
+          "id": 84956,
+          "name": "Nana Patekar",
+          "character": "Nana Waghmare",
+          "profile_path": "/gnhcslE2k2pgZK9xi1XFNZvZiEs.jpg",
+          "order": 7
+        },
+        {
+          "id": 3762697,
+          "name": "Snehalata Tagde",
+          "character": "Ranju Devi",
+          "profile_path": null,
+          "order": 8
+        },
+        {
+          "id": 1179627,
+          "name": "Manav Kaul",
+          "character": "Singer at Party",
+          "profile_path": "/xzb8QK85p7jqJaTqaTJORW6QLXj.jpg",
+          "order": 9
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 86581,
+          "name": "Abundantia Entertainment",
+          "logo_path": "/k6YH6rQLtNAgI5dQ7LIzBBvIgtx.png"
+        },
+        {
+          "id": 224123,
+          "name": "Opening Image",
+          "logo_path": null
+        },
+        {
+          "id": 221540,
+          "name": "Anil Kapoor Film & Communication Network",
+          "logo_path": "/6LVZ5JosGhxVTf2cnLr8iReoWXN.png"
+        },
+        {
+          "id": 210099,
+          "name": "Amazon MGM Studios",
+          "logo_path": "/g5oRCNCi8kNVb8gEoSoIcqkhjmR.png"
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "hi",
+          "name": "हिन्दी"
+        }
+      ],
+      "recommendations": [],
+      "download_links": {
+        "480P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.work/Movies4u.Foo.SUBEDAAR.2026.480p.Multi.Audio.ESub.x264.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "480p [600MB]",
+          "size": "600MB",
+          "size_mb": 600.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://fsl.gigabytes.icu/Movies4u.Foo.SUBEDAAR.2026.720p.HEVC.Multi.Audio.ESub.x265.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p HEVC [1GB]",
+          "size": "1GB",
+          "size_mb": 1024.0
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.work/Movies4u.Foo.SUBEDAAR.2026.1080p.HEVC.Multi.Audio.ESub.x265.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [2.1GB]",
+          "size": "2.1GB",
+          "size_mb": 2150.4
+        }
+      },
+      "director": {
+        "id": 1927085,
+        "name": "Suresh Triveni"
+      },
+      "trailer": "https://www.youtube.com/watch?v=wY1V7rEAQ3o",
+      "collected_at": "2026-03-07T01:09:32.518368",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/honey-2026-web-dl-multi-audio-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/w500/aiDE86ihhMcoDpcCLCHvuUDm0en.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48760",
+      "imdb_id": "tt39302439",
+      "tmdb_id": 1607762,
+      "title": "Honey",
+      "original_title": "హనీ",
+      "overview": "A broken family, a forbidden ritual, and a child trapped between reality and delusion. Honey exposes systemic abuse and spiritual madness, where the most terrifying monsters are painfully real.",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "runtime": 118,
+      "rating": 2.5,
+      "popularity": 1.8085,
+      "poster_path": "/aiDE86ihhMcoDpcCLCHvuUDm0en.jpg",
+      "backdrop_path": "/ApNGGi1ZPXds1pGfYxCoS9GLTZ0.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 27,
+          "name": "Horror"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1135117,
+          "name": "Naveen Chandra",
+          "character": "",
+          "profile_path": "/6iEhNOOqRTOQ0JFSiv6agtqvwx9.jpg",
+          "order": 0
+        },
+        {
+          "id": 1517172,
+          "name": "Divya Pillai",
+          "character": "",
+          "profile_path": "/n0BfTrgMiF0pAHvwl4Q3xvjHWlL.jpg",
+          "order": 1
+        },
+        {
+          "id": 3727633,
+          "name": "Divi Vadthya",
+          "character": "",
+          "profile_path": "/tGbtd4mJFbWMNi3TDjqsj5Y1bj2.jpg",
+          "order": 2
+        },
+        {
+          "id": 585271,
+          "name": "Raja Ravindra",
+          "character": "",
+          "profile_path": "/87759xPmVF3K9UyVkvdUA7SfrQI.jpg",
+          "order": 3
+        },
+        {
+          "id": 5921413,
+          "name": "Jayanni",
+          "character": "",
+          "profile_path": null,
+          "order": 4
+        },
+        {
+          "id": 5921415,
+          "name": "Jayathri",
+          "character": "",
+          "profile_path": null,
+          "order": 5
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 285412,
+          "name": "OVA Entertainments",
+          "logo_path": null
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "te",
+          "name": "తెలుగు"
+        }
+      ],
+      "recommendations": [],
+      "download_links": {
+        "480P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fukggl.buzz/Movies4u.Foo.HONEY.2026.480p.WEB-DL.Multi.Audio.H.264.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "480p [600MB]",
+          "size": "600MB",
+          "size_mb": 600.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fukggl.buzz/Movies4u.Foo.HONEY.2026.720p.HEVC.WEB-DL.Multi.Audio.H.265.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p HEVC [1.1GB]",
+          "size": "1.1GB",
+          "size_mb": 1126.4
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.work/Movies4u.Foo.HONEY.2026.1080p.HEVC.WEB-DL.Multi.Audio.H.265.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [2.4GB]",
+          "size": "2.4GB",
+          "size_mb": 2457.6
+        }
+      },
+      "director": {
+        "id": 2558326,
+        "name": "Karuna Kumar"
+      },
+      "trailer": null,
+      "collected_at": "2026-03-07T01:09:32.788601",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/with-love-2026-web-dl-multi-audio-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/w500/jClLRu0KZlmYqM3ByWPuoV3MnyC.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48895",
+      "imdb_id": "tt38123566",
+      "tmdb_id": 1508564,
+      "title": "With Love",
+      "original_title": "வித் லவ்",
+      "overview": "Sathya reluctantly agrees to a blind date arranged by his sister and meets Monisha. They discover they attended the same school years ago. Bonding over shared memories and old crushes, they reconnect with their past and grow closer.",
+      "release_date": "2026-02-06",
+      "year": 2026,
+      "runtime": 141,
+      "rating": 6.3,
+      "popularity": 1.3908,
+      "poster_path": "/84rCbRiY7cXwDO8lAXp5MIxuok5.jpg",
+      "backdrop_path": "/k9GObZbUUUxOjlRjY172GVroeSJ.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "cast": [
+        {
+          "id": 5102140,
+          "name": "Abishan Jeevinth",
+          "character": "Sathyaseelan",
+          "profile_path": "/eLRceYZAOs88jDmgh3jhOVtbBaH.jpg",
+          "order": 0
+        },
+        {
+          "id": 1899034,
+          "name": "Anaswara Rajan",
+          "character": "Monisha",
+          "profile_path": "/zWy5AjnXf7sm60X5PVa0mWDaFsp.jpg",
+          "order": 1
+        },
+        {
+          "id": 3441720,
+          "name": "Harish Kumar",
+          "character": "Dinesh",
+          "profile_path": "/5F32BNTgYRPQ04obPaYPPu7xo7M.jpg",
+          "order": 2
+        },
+        {
+          "id": 5197978,
+          "name": "Kavya Anil",
+          "character": "Anisha",
+          "profile_path": "/xDWp5KQtKrgnwYGLY4H6eXabqKW.jpg",
+          "order": 3
+        },
+        {
+          "id": 3197093,
+          "name": "Sacchin Nachiappan",
+          "character": "Balaji",
+          "profile_path": null,
+          "order": 4
+        },
+        {
+          "id": 586636,
+          "name": "Saravanan",
+          "character": "Swaminathan",
+          "profile_path": "/mrLYzEZr0w0dq7LS3CXfYdLVlpK.jpg",
+          "order": 5
+        },
+        {
+          "id": 1281599,
+          "name": "Theni Murugan",
+          "character": "Sathya's Father",
+          "profile_path": "/aJPfAAZMsdQqrNTPyIQUrCQxl3N.jpg",
+          "order": 6
+        },
+        {
+          "id": 3609740,
+          "name": "RJ Ananthi",
+          "character": "Sathya's Sister",
+          "profile_path": null,
+          "order": 7
+        },
+        {
+          "id": 5910086,
+          "name": "Sudharshan Gandhy",
+          "character": "Sathya's Brother-in-Law",
+          "profile_path": null,
+          "order": 8
+        },
+        {
+          "id": 4827654,
+          "name": "Sachana Namidass",
+          "character": "Sandhya",
+          "profile_path": "/vKAZo6Vs04qO9cUacLJa0FiliuY.jpg",
+          "order": 9
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 194235,
+          "name": "MRP Entertainment",
+          "logo_path": null
+        },
+        {
+          "id": 269694,
+          "name": "Zion Films",
+          "logo_path": "/hs7EI4H5YuqpX4WHYyFkDA6Ll7u.png"
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "ta",
+          "name": "தமிழ்"
+        }
+      ],
+      "recommendations": [],
+      "download_links": {
+        "480P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fukggl.buzz/Movies4u.Foo.With.Love.2026.480p.WEB-DL.Multi.Audio.ESub.x264.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "480p [700MB]",
+          "size": "700MB",
+          "size_mb": 700.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.work/Movies4u.Foo.With.Love.2026.720p.HEVC.WEB-DL.Multi.Audio.ESub.x265.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p HEVC [1.4GB]",
+          "size": "1.4GB",
+          "size_mb": 1433.6
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.work/Movies4u.Foo.With.Love.2026.1080p.HEVC.WEB-DL.Multi.Audio.ESub.x265.mkv?token=7b0e45224c0fdebf85f79f6fa45ccfad",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [2.5GB]",
+          "size": "2.5GB",
+          "size_mb": 2560.0
+        }
+      },
+      "director": {
+        "id": 5390749,
+        "name": "Madhan"
+      },
+      "trailer": null,
+      "collected_at": "2026-03-07T01:09:32.803204",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/assi-2026-hindi-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/w500/90lpgJBDpCQqOfQHJoICL652HVH.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48664",
+      "imdb_id": "tt39392533",
+      "tmdb_id": 1435606,
+      "title": "Assi",
+      "original_title": "अस्सी",
+      "overview": "When Parima, a school teacher in Delhi, is gang-raped on her way home late at night after an office party, Raavi, a prosecution lawyer, fights tooth and nail to help her get justice. But when eighty sexual assault cases are reported in India every single day, regardless of age group, ethnicity, time, or place,  and only four go to trial, what does justice really mean?",
+      "release_date": "2026-02-20",
+      "year": 2026,
+      "runtime": 134,
+      "rating": 5.0,
+      "popularity": 4.7602,
+      "poster_path": "/wBs2SZKKaYZJDmq01maIjdZwUT0.jpg",
+      "backdrop_path": "/1lhJYCkWU5HnnRFEza8GuJOdfPz.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 550167,
+          "name": "Taapsee Pannu",
+          "character": "Raavi",
+          "profile_path": "/43e24aeOC8AZITo6ShaKKG9aV0Y.jpg",
+          "order": 0
+        },
+        {
+          "id": 1399177,
+          "name": "Kani Kusruti",
+          "character": "Parima",
+          "profile_path": "/8WCuR3HcPYBeS2tQusFTEl596hM.jpg",
+          "order": 1
+        },
+        {
+          "id": 1307516,
+          "name": "Mohammed Zeeshan Ayyub",
+          "character": "Vinay",
+          "profile_path": "/cF1j8Vt9YPlOBjy3lfmhuF11dmD.jpg",
+          "order": 2
+        },
+        {
+          "id": 85874,
+          "name": "Manoj Pahwa",
+          "character": "Deepraj",
+          "profile_path": "/p7sufhnro3CM04au3L4KubTx43B.jpg",
+          "order": 3
+        },
+        {
+          "id": 1179628,
+          "name": "Kumud Mishra",
+          "character": "Kartik",
+          "profile_path": "/pM4eD7eIEPk2Lx0c5C1K201qnp6.jpg",
+          "order": 4
+        },
+        {
+          "id": 584324,
+          "name": "Revathi",
+          "character": "Vasudha",
+          "profile_path": "/sXS4erG255VJlP7XYAduNBNPyDL.jpg",
+          "order": 5
+        },
+        {
+          "id": 6497,
+          "name": "Naseeruddin Shah",
+          "character": "Basu Sir",
+          "profile_path": "/aVCigTGfijAnnm7I7TZbceXzPMl.jpg",
+          "order": 6
+        },
+        {
+          "id": 86892,
+          "name": "Supriya Pathak",
+          "character": "Nikka's Mother",
+          "profile_path": "/cDvNa9XL425kBiyT4xqRGM8kK4H.jpg",
+          "order": 7
+        },
+        {
+          "id": 1077058,
+          "name": "Rajendra Sethi",
+          "character": "SI Ashutosh Kataria",
+          "profile_path": "/orlzlhXtTA4ZXDJRUXKAEcnnlvz.jpg",
+          "order": 8
+        },
+        {
+          "id": 1241437,
+          "name": "Satyajit Sharma",
+          "character": "Navrattan",
+          "profile_path": "/A8K7DtRUyi4CrD5lZt9m97WLyDH.jpg",
+          "order": 9
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 108388,
+          "name": "Benaras Mediaworks",
+          "logo_path": null
+        },
+        {
+          "id": 3522,
+          "name": "T-Series",
+          "logo_path": "/d3u51JgEP5KwPfxS13ocqvtzZeX.png"
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "iso_639_1": "hi",
+          "name": "हिन्दी"
+        },
+        {
+          "iso_639_1": "ml",
+          "name": ""
+        }
+      ],
+      "recommendations": [],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.oreao-cdn.buzz/9c977a38dbdd7333252bfb6bb29238b2?token=1772820058",
+          "is_primary": true,
+          "quality_label": "480p [400MB]",
+          "size": "400MB",
+          "size_mb": 400.0
+        },
+        "720P": {
+          "server": "FSL Server",
+          "url": "https://hub.oreao-cdn.buzz/0a29a5418ffac8dd60587583f6ec8366?token=1772820058",
+          "is_primary": true,
+          "quality_label": "720p HEVC [750MB]",
+          "size": "750MB",
+          "size_mb": 750.0
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.work/Movies4u.Foo.Assi.2026.1080p.HEVC.HDTC.Hindi-Line.HC-ESub.x265.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [1.7GB]",
+          "size": "1.7GB",
+          "size_mb": 1740.8
+        }
+      },
+      "director": {
+        "id": 126765,
+        "name": "Anubhav Sinha"
+      },
+      "trailer": null,
+      "collected_at": "2026-03-07T01:09:33.763166",
+      "quality": "HDTS"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/do-deewane-seher-mein-2026-hindi-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/w400/p8yPjT9NAH87oD9TedclRaAW7RY.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48666",
+      "imdb_id": "tt31226272",
+      "tmdb_id": 1241693,
+      "title": "Do Deewane Seher Mein",
+      "original_title": "दो दीवाने शहर में",
+      "overview": "Two socially awkward millennials in Mumbai find love while struggling with self-acceptance. As they battle insecurities and societal pressure, their journey takes them from city chaos to mountain serenity.",
+      "release_date": "2026-02-20",
+      "year": 2026,
+      "runtime": 137,
+      "rating": 6.667,
+      "popularity": 0.9363,
+      "poster_path": "/p8yPjT9NAH87oD9TedclRaAW7RY.jpg",
+      "backdrop_path": "/ApvEXB4XrrsgUHFlKDG1Z1V3MWC.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 2242585,
+          "name": "Siddhant Chaturvedi",
+          "character": "Shashank Sharma",
+          "profile_path": "/2MTk5cqZUZEi35ksPbs6lr5I7wA.jpg",
+          "order": 0
+        },
+        {
+          "id": 1766034,
+          "name": "Mrunal Thakur",
+          "character": "Roshni Shrivastav",
+          "profile_path": "/rEUE20LCW46AQqExutWxwukFycI.jpg",
+          "order": 1
+        },
+        {
+          "id": 225162,
+          "name": "Ila Arun",
+          "character": "Ila Rastogi",
+          "profile_path": "/sKPy1XhTe2uhAMvCJDhHdvVHQZV.jpg",
+          "order": 2
+        },
+        {
+          "id": 1047716,
+          "name": "Joy Sengupta",
+          "character": "Adarsh Shrivastav",
+          "profile_path": "/8flKDQq1uAnK4ZHYIguhee2Pf3h.jpg",
+          "order": 3
+        },
+        {
+          "id": 1873664,
+          "name": "Ayesha Raza Mishra",
+          "character": "Kusum Shrivastav",
+          "profile_path": "/cKC6Gj5AbeoLpH0bxnSj8SEzewi.jpg",
+          "order": 4
+        },
+        {
+          "id": 2511646,
+          "name": "Viraj Ghelani",
+          "character": "Anil",
+          "profile_path": "/pkto3Imoy38yqzOmsXzNfBGrXhR.jpg",
+          "order": 5
+        },
+        {
+          "id": 1189743,
+          "name": "Sandeepa Dhar",
+          "character": "",
+          "profile_path": "/mFf8Nnf0n45KiR8zcwZTmAFGOoT.jpg",
+          "order": 6
+        },
+        {
+          "id": 1246538,
+          "name": "Deepraj Rana",
+          "character": "Deepak Sharma",
+          "profile_path": "/iwcSbYrvzo7crjtMQwMSqB9gvqv.jpg",
+          "order": 7
+        },
+        {
+          "id": 1001205,
+          "name": "Mona Ambegaonkar",
+          "character": "Sudha Sharma",
+          "profile_path": "/9gF4oeRMgeECk1jAGim18PnCRrn.jpg",
+          "order": 8
+        },
+        {
+          "id": 150476,
+          "name": "Naveen Kaushik",
+          "character": "",
+          "profile_path": "/amxQkCtdEGOQk6z1arVfHhLxYyA.jpg",
+          "order": 9
+        }
+      ],
+      "production_companies": [],
+      "spoken_languages": [
+        {
+          "iso_639_1": "hi",
+          "name": "हिन्दी"
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 44446,
+          "title": "Angelique and the Sultan",
+          "poster_path": "/mqENboMTcwRg09lm6wO1eyPaWgJ.jpg",
+          "vote_average": 6.347
+        },
+        {
+          "id": 136406,
+          "title": "LEGO Star Wars: The Empire Strikes Out",
+          "poster_path": "/doeFDzZ0Ywp8YUoRaEhVE5UBqka.jpg",
+          "vote_average": 6.394
+        },
+        {
+          "id": 1026563,
+          "title": "13 Exorcisms",
+          "poster_path": "/kdaEAPrT3Dq7pPjdhfTgNyMeOnK.jpg",
+          "vote_average": 5.895
+        },
+        {
+          "id": 644937,
+          "title": "Red",
+          "poster_path": "/dz50YDrsvlPh5bHLdkBZXcotXdp.jpg",
+          "vote_average": 4.5
+        },
+        {
+          "id": 624026,
+          "title": "Hong Gil-Dong Vs Terminator",
+          "poster_path": "/iX1Z18HEz6eUug1SJyKWK2zZNyh.jpg",
+          "vote_average": 4.3
+        }
+      ],
+      "download_links": {
+        "480P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.work/Movies4u.Foo.Do.Deewane.Seher.Mein.2026.480p.HDTC.Hindi-Line.x264.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "480p [400MB]",
+          "size": "400MB",
+          "size_mb": 400.0
+        },
+        "720P": {
+          "server": "FSL Server",
+          "url": "https://hub.oreao-cdn.buzz/691d52f6fe1551b5c16bdbe2fe6c4246?token=1772820058",
+          "is_primary": true,
+          "quality_label": "720p HEVC [750MB]",
+          "size": "750MB",
+          "size_mb": 750.0
+        },
+        "1080P": {
+          "server": "FSL Server",
+          "url": "https://hub.oreao-cdn.buzz/e4619cbc66473fecd10d29ac87aa5721?token=1772820060",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [1.7GB]",
+          "size": "1.7GB",
+          "size_mb": 1740.8
+        }
+      },
+      "director": {
+        "id": 1644440,
+        "name": "Ravi Udyawar"
+      },
+      "trailer": "https://www.youtube.com/watch?v=rjtPZbBUawE",
+      "collected_at": "2026-03-07T01:09:34.866509",
+      "quality": "HDTS"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/the-kerala-story-2-goes-beyond-2026-hindi-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/original/97jAFQcAnspd416cupbAbGMNT9z.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48784",
+      "imdb_id": "tt39310158",
+      "tmdb_id": 1625582,
+      "title": "The Kerala Story 2 Goes Beyond",
+      "original_title": "The Kerala Story 2 Goes Beyond",
+      "overview": "Three young Indian women across different states choose love over tradition, only to become trapped. Their parallel lives show how romance and rebellion transform into control and silence, turning love into a weapon that destroys freedom.",
+      "release_date": "2026-02-27",
+      "year": 2026,
+      "runtime": 131,
+      "rating": 5.1,
+      "popularity": 2.345,
+      "poster_path": "/97jAFQcAnspd416cupbAbGMNT9z.jpg",
+      "backdrop_path": "/lalZuTh46pR318FTNpJB5MZFk1m.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1841321,
+          "name": "Ulka Gupta",
+          "character": "",
+          "profile_path": "/vS53fJvAYuLrol8UlKOacWKvaqm.jpg",
+          "order": 0
+        },
+        {
+          "id": 3200250,
+          "name": "Aishwarya Ojha",
+          "character": "",
+          "profile_path": null,
+          "order": 1
+        },
+        {
+          "id": 1823760,
+          "name": "Aditi Bhatia",
+          "character": "",
+          "profile_path": "/qSU98pKYeg1xc3Ij3ms6NOzttE9.jpg",
+          "order": 2
+        },
+        {
+          "id": 4115011,
+          "name": "Arjan Aujla",
+          "character": "",
+          "profile_path": "/2CWIgJIuvR4QDDCBoAOm2CqT318.jpg",
+          "order": 3
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 14055,
+          "name": "Sunshine Pictures",
+          "logo_path": null
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "hi",
+          "name": "हिन्दी"
+        }
+      ],
+      "recommendations": [],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/91431450f6b7f10de97de6bc6faadcf2?token=1772820058",
+          "is_primary": true,
+          "quality_label": "480p [450MB]",
+          "size": "450MB",
+          "size_mb": 450.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://fsl.gigabytes.icu/Movies4u.Foo.The Kerala Story 2 Goes Beyond 2026 Hindi HDTC 720p x265 HEVC.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p HEVC [650MB]",
+          "size": "650MB",
+          "size_mb": 650.0
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.life/Movies4u.Foo.The Kerala Story 2 Goes Beyond 2026 Hindi HDTC 1080p 10bit x265 HEVC.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [1.6GB]",
+          "size": "1.6GB",
+          "size_mb": 1638.4
+        }
+      },
+      "director": {
+        "id": 2256908,
+        "name": "Kamakhya Narayan Singh"
+      },
+      "trailer": "https://www.youtube.com/watch?v=j0_038C5RRk",
+      "collected_at": "2026-03-07T01:09:35.472653",
+      "quality": "HDTS"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/oromeo-2026-hindi-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/w500/Apqc5JSXQtUJPcBGm6tBO6wQaoq.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48566",
+      "imdb_id": "tt31969779",
+      "tmdb_id": 1275574,
+      "title": "O' Romeo",
+      "original_title": "ओ रोमियो",
+      "overview": "What fate awaits a stonehearted gangster and bloodthirsty womaniser when true love claims him, helpless and unguarded? A gang war that shakes the entire underworld and crime syndicate to their very roots. A forbidden love; the tale of an unrequited passion.",
+      "release_date": "2026-02-13",
+      "year": 2026,
+      "runtime": 178,
+      "rating": 4.333,
+      "popularity": 30.5902,
+      "poster_path": "/2raQOPxWxnY30x4gwg93O2eOblR.jpg",
+      "backdrop_path": "/7AypNX6eZrqyUPZl77jvwTfHgeV.jpg",
+      "budget": 18000000,
+      "revenue": 7000000,
+      "genres": [
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 78245,
+          "name": "Shahid Kapoor",
+          "character": "Ustara",
+          "profile_path": "/q5jqLRioZgIVjXpKS8XHx27ScDQ.jpg",
+          "order": 0
+        },
+        {
+          "id": 2100209,
+          "name": "Triptii Dimri",
+          "character": "Afshan",
+          "profile_path": "/rGyxSvRhohagcF7lutUUQ2ARD5X.jpg",
+          "order": 1
+        },
+        {
+          "id": 1059474,
+          "name": "Avinash Tiwary",
+          "character": "Jalal",
+          "profile_path": "/bJWzCbCHPFui0lgWIRDEattNntn.jpg",
+          "order": 2
+        },
+        {
+          "id": 84956,
+          "name": "Nana Patekar",
+          "character": "Ismail Khan",
+          "profile_path": "/gnhcslE2k2pgZK9xi1XFNZvZiEs.jpg",
+          "order": 3
+        },
+        {
+          "id": 1673370,
+          "name": "Hussain Dalal",
+          "character": "Chhotu",
+          "profile_path": "/6V4sNgeLJQ1u8k9MPjVqytKBQWo.jpg",
+          "order": 4
+        },
+        {
+          "id": 146971,
+          "name": "Farida Jalal",
+          "character": "Dadi",
+          "profile_path": "/tJdqL4BRSAWVFX1W6cmwxFs9IFh.jpg",
+          "order": 5
+        },
+        {
+          "id": 1208682,
+          "name": "Vikrant Massey",
+          "character": "Mehboob Qureshi",
+          "profile_path": "/zvpP52P7CtVXYONmvWrH1aOcRTx.jpg",
+          "order": 6
+        },
+        {
+          "id": 2918853,
+          "name": "Anubha Fatehpuria",
+          "character": "Shilpa Chachi",
+          "profile_path": "/7KeBm0PHfsWIG8wjyrboUTem2TM.jpg",
+          "order": 7
+        },
+        {
+          "id": 85721,
+          "name": "Tamannaah Bhatia",
+          "character": "Rabia",
+          "profile_path": "/t4WYoKiFAyO1Rhjv7O03EKmJHp4.jpg",
+          "order": 8
+        },
+        {
+          "id": 1546398,
+          "name": "Disha Patani",
+          "character": "Julie",
+          "profile_path": "/oWfHKrvbk3Ak6UnrzDlAoZu7nlh.jpg",
+          "order": 9
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 60536,
+          "name": "Nadiadwala Grandson Entertainment",
+          "logo_path": "/chMIfiURhqvr6eWCrzxIwuaWVeN.png"
+        },
+        {
+          "id": 159556,
+          "name": "Vishal Bhardwaj Films",
+          "logo_path": "/shW4mTY2R6PEnNJuthUtNPBaITD.png"
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "iso_639_1": "hi",
+          "name": "हिन्दी"
+        },
+        {
+          "iso_639_1": "ur",
+          "name": "اردو"
+        }
+      ],
+      "recommendations": [],
+      "download_links": {
+        "480P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fukggl.buzz/Movies4u.Foo.O-Romeo.2026.480p.V2-HDTC.Hindi-Line.x264.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "480p [600MB]",
+          "size": "600MB",
+          "size_mb": 600.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://fsl.gigabytes.icu/Movies4u.Foo.O-Romeo.2026.720p.V2-HDTC.Hindi-Line.x264.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p [1.4GB]",
+          "size": "1.4GB",
+          "size_mb": 1433.6
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.life/Movies4u.Foo.O-Romeo.2026.1080p.V2-HDTC.Hindi-Line.x264.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "1080p [3.3GB]",
+          "size": "3.3GB",
+          "size_mb": 3379.2
+        }
+      },
+      "director": {
+        "id": 87550,
+        "name": "Vishal Bhardwaj"
+      },
+      "trailer": "https://www.youtube.com/watch?v=2M4hKmuBzUU",
+      "collected_at": "2026-03-07T01:09:45.094713",
+      "quality": "HDTS"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/the-comeback-2023-web-dl-multi-audio-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/original/hNnrtEEcDE0kHnUzzUmEGzY2eny.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48931",
+      "imdb_id": "tt28482763",
+      "tmdb_id": 1152306,
+      "title": "The Comeback",
+      "original_title": "零號追殺",
+      "overview": "Uncle Hua, an esteemed antique dealer, stands against the Green Dragon Gang to protect his neighborhood from forced demolition.",
+      "release_date": "2023-07-21",
+      "year": 2023,
+      "runtime": 108,
+      "rating": 5.7,
+      "popularity": 2.245,
+      "poster_path": "/hNnrtEEcDE0kHnUzzUmEGzY2eny.jpg",
+      "backdrop_path": "/hHqM294lY2Wygzofbq6UcqLkraG.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        }
+      ],
+      "cast": [
+        {
+          "id": 20519,
+          "name": "Simon Yam",
+          "character": "",
+          "profile_path": "/eilxjMhfobctnzZ0kBcFmnqtFyd.jpg",
+          "order": 0
+        },
+        {
+          "id": 63585,
+          "name": "Andy On Chi-Kit",
+          "character": "",
+          "profile_path": "/zbH0l4V3QJdvkLKPhBr5EB5JWnB.jpg",
+          "order": 1
+        },
+        {
+          "id": 57609,
+          "name": "Yuen Wah",
+          "character": "",
+          "profile_path": "/50iChkgIJI7ZmPUjCpYKfEsXBnf.jpg",
+          "order": 2
+        },
+        {
+          "id": 1897341,
+          "name": "Jiang Peiyao",
+          "character": "",
+          "profile_path": "/dPXXxRNpU8r1V0vpFpEmdIspkPU.jpg",
+          "order": 3
+        },
+        {
+          "id": 2491103,
+          "name": "Lei Mu",
+          "character": "",
+          "profile_path": "/sgeJ5pI8EWGE4Ny5q1O07bsYbCx.jpg",
+          "order": 4
+        },
+        {
+          "id": 25249,
+          "name": "Waise Lee Chi-Hung",
+          "character": "",
+          "profile_path": "/z8KzdPOVxNFvH7CkqwfMRPMmY1i.jpg",
+          "order": 5
+        },
+        {
+          "id": 70674,
+          "name": "Norman Tsui Siu-Keung",
+          "character": "",
+          "profile_path": "/s3uEzXI19Xq5D3pJojgnvVz6vov.jpg",
+          "order": 6
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 172414,
+          "name": "Beijing iQIYI Science & Technology 北京爱奇艺科技 (iQIYI)",
+          "logo_path": "/fNxBFqWr7eWEgNeBDvvCxsSItXx.png"
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "zh",
+          "name": "普通话"
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 286439,
+          "title": "For freedom and justice",
+          "poster_path": "/5JUne4OEHSnhvPCxR3iSYQ3tsqS.jpg",
+          "vote_average": 6.2
+        },
+        {
+          "id": 774658,
+          "title": "Scooby-Doo's Spookiest Tales",
+          "poster_path": "/fToBKSO2jELT7rA00wmlxcSp5pl.jpg",
+          "vote_average": 9.9
+        },
+        {
+          "id": 856245,
+          "title": "To Kill the Beast",
+          "poster_path": "/hAdkgE8lHelIQWpgrHk4wjEnbxQ.jpg",
+          "vote_average": 6.0
+        },
+        {
+          "id": 24929,
+          "title": "Return of the Living Dead Part II",
+          "poster_path": "/2zY8kt1HnQ8p8mjKcqBp9yQEC8x.jpg",
+          "vote_average": 6.369
+        },
+        {
+          "id": 284521,
+          "title": "Scooby-Doo! Meets the Harlem Globetrotters",
+          "poster_path": "/ewKEC5DWbkK3jP2cEr6K2WxlzgN.jpg",
+          "vote_average": 9.111
+        }
+      ],
+      "download_links": {
+        "480P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.work/Movies4u.Foo.The.Comeback.2024.480p.WEB-DL.Multi.Audio.H.264.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "480p [500MB]",
+          "size": "500MB",
+          "size_mb": 500.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.life/Movies4u.Foo.The.Comeback.2024.720p.WEB-DL.Multi.Audio.H.264.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p [1.4GB]",
+          "size": "1.4GB",
+          "size_mb": 1433.6
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fukggl.buzz/Movies4u.Foo.The.Comeback.2024.1080p.WEB-DL.Multi.Audio.H.264.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "1080p [2.3GB]",
+          "size": "2.3GB",
+          "size_mb": 2355.2
+        }
+      },
+      "director": {
+        "id": 2363550,
+        "name": "Chris Huo Suiqiang"
+      },
+      "trailer": "https://www.youtube.com/watch?v=srylFPYRcQw",
+      "collected_at": "2026-03-07T01:09:45.615713",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/jab-khuli-kitaab-2024-web-dl-hindi-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/w500/w12T2RVaMUCLeFjMnTBrqe1rxtV.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48897",
+      "imdb_id": "tt28023902",
+      "tmdb_id": 918785,
+      "title": "Jab Khuli Kitaab",
+      "original_title": "जब खुली किताब",
+      "overview": "When Anusuya confesses to her husband, Gopal, that she cheated on him with another man a few months into their five decade-long marriage, all hell breaks loose. Angry and hurt, Gopal decides to seek divorce while he struggles to keep the rest of the family oblivious to his and Anusuya’s blistering secret. What follows is an impassioned, often hilarious deep-dive into the lives of Gopal and Anusuya while they manoeuvre the rocky roads of their relationship, rediscovering the meaning of love and togetherness.",
+      "release_date": "2024-11-26",
+      "year": 2024,
+      "runtime": 115,
+      "rating": 5.3,
+      "popularity": 0.7599,
+      "poster_path": "/jOBGisbjCKaM6w7eLdkIyZcVRrn.jpg",
+      "backdrop_path": "/9nlSHunbDNrIYNKD03Z53baqrzc.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        }
+      ],
+      "cast": [
+        {
+          "id": 87549,
+          "name": "Pankaj Kapur",
+          "character": "Gopal Ji",
+          "profile_path": "/q1ILNa9c4bVT7sr6yE6TUzGYaPu.jpg",
+          "order": 0
+        },
+        {
+          "id": 78921,
+          "name": "Dimple Kapadia",
+          "character": "Anusuya",
+          "profile_path": "/rrISOX9TnetEAiZ5zCosTkmFdh2.jpg",
+          "order": 1
+        },
+        {
+          "id": 1756890,
+          "name": "Aparshakti Khurana",
+          "character": "R.K. Negi",
+          "profile_path": "/w7OEkPAaweO1JU105Qqvg073yW8.jpg",
+          "order": 2
+        },
+        {
+          "id": 1125099,
+          "name": "Manasi Parekh",
+          "character": "Asha Ji",
+          "profile_path": "/hehENX9xvxs97OCHZTYuceRPQ0q.jpg",
+          "order": 3
+        },
+        {
+          "id": 85473,
+          "name": "Samir Soni",
+          "character": "Parmesh",
+          "profile_path": "/dwQDVAzcjexg1HCDBeGEW0MoPth.jpg",
+          "order": 4
+        },
+        {
+          "id": 78283,
+          "name": "Nauheed Cyrusi",
+          "character": "Farnaaz",
+          "profile_path": "/7IoRyPaqjbWmOSHW3fKHbqkNLcZ.jpg",
+          "order": 5
+        },
+        {
+          "id": 3271485,
+          "name": "Sunil Palwal",
+          "character": "Jignesh",
+          "profile_path": "/fIq6SEHQjll7G25sCaa5QhQn4fw.jpg",
+          "order": 6
+        },
+        {
+          "id": 6026086,
+          "name": "Devyani Ratanpal",
+          "character": "Sujata",
+          "profile_path": null,
+          "order": 7
+        },
+        {
+          "id": 3090047,
+          "name": "Abuli Mamaji",
+          "character": "Dholu",
+          "profile_path": null,
+          "order": 8
+        },
+        {
+          "id": 6052703,
+          "name": "Kyra Kumar",
+          "character": "Meenu",
+          "profile_path": null,
+          "order": 9
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 34088,
+          "name": "Applause Entertainment",
+          "logo_path": "/P7yqIC1NpxvSDyr1BLGTElL0lo.png"
+        },
+        {
+          "id": 166676,
+          "name": "Shoe Strap Films",
+          "logo_path": null
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "hi",
+          "name": "हिन्दी"
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 44874,
+          "title": "Barbie: A Fashion Fairytale",
+          "poster_path": "/bFnf8f8DXdCANQ7Y62djgubhh4P.jpg",
+          "vote_average": 7.257
+        },
+        {
+          "id": 953553,
+          "title": "Gabriel's Rapture: Part II",
+          "poster_path": "/2DtnVEwBJKL5aUlLAyZASmQpWn8.jpg",
+          "vote_average": 8.163
+        },
+        {
+          "id": 115223,
+          "title": "Pokémon the Movie: Black - Victini and Reshiram",
+          "poster_path": "/SuIAXmxlbImWHobCkCWCHAeg03.jpg",
+          "vote_average": 6.588
+        },
+        {
+          "id": 478812,
+          "title": "Little Hands",
+          "poster_path": "/8zS8X3soYWXj5CCXE3S54sq89bd.jpg",
+          "vote_average": 7.0
+        },
+        {
+          "id": 129533,
+          "title": "Barbie: The Princess & the Popstar",
+          "poster_path": "/hab6ZMC3eXj9pQHlSxNUjonphCR.jpg",
+          "vote_average": 7.2
+        }
+      ],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.pizzacdn.buzz/a4fe595ea70b7926ecad1377114e5f6d?token=1772820062",
+          "is_primary": true,
+          "quality_label": "480p [400MB]",
+          "size": "400MB",
+          "size_mb": 400.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.life/Movies4u.Foo.Jab.Khuli.Kitaab.2024.720p.HEVC.Hindi.DS4K.WEB-DL.5.1.ESub.x265.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p HEVC [700MB]",
+          "size": "700MB",
+          "size_mb": 700.0
+        },
+        "1080P": {
+          "server": "FSL Server",
+          "url": "https://hub.pizzacdn.buzz/fcac829c221b265d820091d378f9d1cc?token=1772820064",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [1.6GB]",
+          "size": "1.6GB",
+          "size_mb": 1638.4
+        }
+      },
+      "director": {
+        "id": 76789,
+        "name": "Saurabh Shukla"
+      },
+      "trailer": null,
+      "collected_at": "2026-03-07T01:09:49.385996",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/naadi-dosh-2022-web-dl-dual-audio-hindi-gujarati-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/original/bDR3HJIXSOgUFLxRIU4eDLEQmcz.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/15308",
+      "imdb_id": "tt20251716",
+      "tmdb_id": 988716,
+      "title": "Naadi Dosh",
+      "original_title": "નાડી દોષ",
+      "overview": "New generation love birds, Riddhi and Kevin, shrewdly tackle the issue of 'Naadi Dosh', an old and dogmatic faith.",
+      "release_date": "2022-06-17",
+      "year": 2022,
+      "runtime": 131,
+      "rating": 6.0,
+      "popularity": 0.6553,
+      "poster_path": "/bDR3HJIXSOgUFLxRIU4eDLEQmcz.jpg",
+      "backdrop_path": "/b2jTNlmeTt7IXmpVngV74fhgpVE.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        },
+        {
+          "id": 10749,
+          "name": "Romance"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1954789,
+          "name": "Yash Soni",
+          "character": "Kevin",
+          "profile_path": "/uBasvWxd4YEXZNniZsdIzEUVBDt.jpg",
+          "order": 0
+        },
+        {
+          "id": 2106881,
+          "name": "Janki Bodiwala",
+          "character": "Riddhi",
+          "profile_path": "/zpOyHZgW79IiYuUu7QSDBznzdqL.jpg",
+          "order": 1
+        },
+        {
+          "id": 2299651,
+          "name": "Raunaq Kamdar",
+          "character": "Kunal",
+          "profile_path": "/yT6okFO4nWT1HXLtJePEDDf3SkW.jpg",
+          "order": 2
+        },
+        {
+          "id": 1735951,
+          "name": "Prashant Barot",
+          "character": "Prashant",
+          "profile_path": null,
+          "order": 3
+        },
+        {
+          "id": 3592035,
+          "name": "Ashish Kakkad",
+          "character": "Kamlesh",
+          "profile_path": null,
+          "order": 4
+        },
+        {
+          "id": 3592036,
+          "name": "Dipika Raval",
+          "character": "Krupa",
+          "profile_path": null,
+          "order": 5
+        },
+        {
+          "id": 2809575,
+          "name": "Kinnal Nayak",
+          "character": "Sanjivani",
+          "profile_path": null,
+          "order": 6
+        },
+        {
+          "id": 3592037,
+          "name": "Ravi Gohil",
+          "character": "Nishit",
+          "profile_path": "/ns0UZowWB2tOMe32t4dQWnuMwkV.jpg",
+          "order": 7
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 177282,
+          "name": "Big Box Series",
+          "logo_path": "/tLJrE1SYGMzoNmKmByikS8hiINf.png"
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "gu",
+          "name": ""
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 1182387,
+          "title": "Armor",
+          "poster_path": "/pnXLFioDeftqjlCVlRmXvIdMsdP.jpg",
+          "vote_average": 5.6
+        },
+        {
+          "id": 975902,
+          "title": "Boudica",
+          "poster_path": "/g57hTF2TYytHMveoKDpUN8iFk1p.jpg",
+          "vote_average": 5.863
+        },
+        {
+          "id": 662894,
+          "title": "The Wolf Pack",
+          "poster_path": "/olDaLipBeKRoQBRqUZSyzpkzzbp.jpg",
+          "vote_average": 6.5
+        },
+        {
+          "id": 920245,
+          "title": "Lion",
+          "poster_path": "/eu7IS649nzvIaCVdYeBBDw0bwlG.jpg",
+          "vote_average": 6.2
+        },
+        {
+          "id": 598387,
+          "title": "The Tiger's Apprentice",
+          "poster_path": "/64ZktFMmTzsm47wdsaMOID0DzcY.jpg",
+          "vote_average": 7.304
+        }
+      ],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.pizzacdn.buzz/9c3fb0f2c60b0d9054e914d4a0136303?token=1772820064",
+          "is_primary": true,
+          "quality_label": "480p [450MB]",
+          "size": "450MB",
+          "size_mb": 450.0
+        },
+        "720P": {
+          "server": "FSL Server",
+          "url": "https://hub.pizzacdn.buzz/a3b9595ba207911e2b545b04ea1487e7?token=1772820065",
+          "is_primary": true,
+          "quality_label": "720p HEVC [700MB]",
+          "size": "700MB",
+          "size_mb": 700.0
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://fsl.gigabytes.icu/Movies4u.Foo.Naadi Dosh 2022 DS4K Dual Audio [Hindi + Gujarati] Full Movie HD ESub 1080p.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "1080p [2.7GB]",
+          "size": "2.7GB",
+          "size_mb": 2764.8
+        }
+      },
+      "director": {
+        "id": 1540489,
+        "name": "Krishnadev Yagnik"
+      },
+      "trailer": "https://www.youtube.com/watch?v=LSkyUydaVxo",
+      "collected_at": "2026-03-07T01:09:49.451305",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/gandhi-talks-2026-web-dl-dual-audio-hindi-tamil-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/original/p4iQT3s97T3gQOLhTj0UplzYMOj.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48264",
+      "imdb_id": "tt8205190",
+      "tmdb_id": 786567,
+      "title": "Gandhi Talks",
+      "original_title": "Gandhi Talks",
+      "overview": "A silent black comedy, about the monetary needs of a character & how it impacts the others. A young, unemployed graduate Mahadev’s struggle to land a job through any means possible and crosses paths with a businessman and petty thief. A subject wherein silence speaks much louder than words. Although a work of fiction by the writer, all the characters in the film are sketched out to seem very real and relatable ensuring an enriching journey as well a laugh riot as the cat and mouse guffaws amongst them unfold. Gandhi Talks aims at telling a story by switching off the device of dialogue, which is not only scary but also interesting and challenging.",
+      "release_date": "2026-01-30",
+      "year": 2026,
+      "runtime": 130,
+      "rating": 4.0,
+      "popularity": 1.808,
+      "poster_path": "/p4iQT3s97T3gQOLhTj0UplzYMOj.jpg",
+      "backdrop_path": "/4Cqad6ZpWJRhBumGE1QwHs9pVuB.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1123766,
+          "name": "Vijay Sethupathi",
+          "character": "",
+          "profile_path": "/6qaMCgZ4MMBMYvTYEKCjLIdq0B5.jpg",
+          "order": 0
+        },
+        {
+          "id": 560056,
+          "name": "Arvind Swamy",
+          "character": "",
+          "profile_path": "/axg3WBjcK5j6YrstPtPdDKUJ0y2.jpg",
+          "order": 1
+        },
+        {
+          "id": 88797,
+          "name": "Aditi Rao Hydari",
+          "character": "",
+          "profile_path": "/3VGC1hn7gONNTa2ucEiXaQLIQbs.jpg",
+          "order": 2
+        },
+        {
+          "id": 2938318,
+          "name": "Divay Dhamija",
+          "character": "",
+          "profile_path": null,
+          "order": 3
+        },
+        {
+          "id": 1046748,
+          "name": "Siddharth Jadhav",
+          "character": "",
+          "profile_path": "/gtPwTPVOTQMludsRSFABqqK2m4r.jpg",
+          "order": 4
+        },
+        {
+          "id": 11849,
+          "name": "Rohini Hattangadi",
+          "character": "",
+          "profile_path": "/ApgSi1vZg0b0tl9ir3fERHhZUIU.jpg",
+          "order": 5
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 147480,
+          "name": "Movie Mill Entertainment",
+          "logo_path": null
+        },
+        {
+          "id": 86347,
+          "name": "Zee Studios",
+          "logo_path": "/ir79iQBhrXk9PJ5Pr9vlLjM4viO.png"
+        },
+        {
+          "id": 165716,
+          "name": "Kyoorius Digital Private Limited",
+          "logo_path": null
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "xx",
+          "name": "No Language"
+        }
+      ],
+      "recommendations": [],
+      "download_links": {
+        "480P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.work/Movies4u.Foo.Gandhi Talks 2026 Dual Audio [Hindi + Tamil] Full Movie HD ESub 480p.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "480p [500MB]",
+          "size": "500MB",
+          "size_mb": 500.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.work/Movies4u.Foo.Gandhi Talks 2026 Dual Audio [Hindi + Tamil] Full Movie HD ESub 720p HEVC.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p HEVC [800MB]",
+          "size": "800MB",
+          "size_mb": 800.0
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://fsl.gigabytes.icu/Movies4u.Foo.Gandhi Talks 2026 Dual Audio [Hindi + Tamil] Full Movie HD ESub 1080p HEVC.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [2.5GB]",
+          "size": "2.5GB",
+          "size_mb": 2560.0
+        }
+      },
+      "director": {
+        "id": 2938300,
+        "name": "Kishor Pandurang 'Belekar'"
+      },
+      "trailer": "https://www.youtube.com/watch?v=rph2F0uX-A0",
+      "collected_at": "2026-03-07T01:09:50.127819",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/laalo-krishna-sada-sahaayate-2025-web-dl-dual-audio-hindi-gujarati-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/w500/tViDPmnjZG7MHFssC2duXjOgxd4.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48893",
+      "imdb_id": "tt37956153",
+      "tmdb_id": 1567645,
+      "title": "Laalo: Krishna Sada Sahaayate",
+      "original_title": "લાલો : કૃષ્ણ સદા સહાયતે",
+      "overview": "A rickshaw driver trapped in a farmhouse confronts his past demons while experiencing visions of Lord Krishna, who guides him through a transformative journey of self-discovery and healing.",
+      "release_date": "2025-10-10",
+      "year": 2025,
+      "runtime": 135,
+      "rating": 3.8,
+      "popularity": 0.432,
+      "poster_path": "/tViDPmnjZG7MHFssC2duXjOgxd4.jpg",
+      "backdrop_path": "/2UkPzslRKYdExioA4ASjWDtYGdt.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 10751,
+          "name": "Family"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 4115623,
+          "name": "Reeva Racch",
+          "character": "Tulsi",
+          "profile_path": null,
+          "order": 0
+        },
+        {
+          "id": 4975309,
+          "name": "Shruhad Goswami",
+          "character": "Laalo",
+          "profile_path": null,
+          "order": 1
+        },
+        {
+          "id": 5817581,
+          "name": "Karan Joshi",
+          "character": "Lalji Dhansukh Parmar",
+          "profile_path": null,
+          "order": 2
+        }
+      ],
+      "production_companies": [],
+      "spoken_languages": [
+        {
+          "iso_639_1": "gu",
+          "name": ""
+        }
+      ],
+      "recommendations": [],
+      "download_links": {
+        "480P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.life/Movies4u.Foo.Laalo.Krishna.Sada.Sahaayate.2025.480p.DS4K.WEB-DL.Hindi-Gujarati.ESub.x264.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "480p [500MB]",
+          "size": "500MB",
+          "size_mb": 500.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.work/Movies4u.Foo.Laalo.Krishna.Sada.Sahaayate.2025.720p.10Bit.DS4K.WEB-DL.Hindi.5.1-Gujarati.5.1.HEVC.x265.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p HEVC [950MB]",
+          "size": "950MB",
+          "size_mb": 950.0
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fukggl.buzz/Movies4u.Foo.Laalo.Krishna.Sada.Sahaayate.2025.1080p.10Bit.DS4K.WEB-DL.Hindi.5.1-Gujarati.5.1.HEVC.x265.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [2.2GB]",
+          "size": "2.2GB",
+          "size_mb": 2252.8
+        }
+      },
+      "director": {
+        "id": 5812208,
+        "name": "Ankit Sakhiya"
+      },
+      "trailer": "https://www.youtube.com/watch?v=1oZyH61d_yc",
+      "collected_at": "2026-03-07T01:09:50.454737",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/jockey-2026-multi-audio-full-movie-web-dl/",
+      "movies4u_image": "https://image.tmdb.org/t/p/original/69zi48P9NIwPq7qdssxQ8qqbBNG.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48873",
+      "imdb_id": "tt39122441",
+      "tmdb_id": 1552952,
+      "title": "Jockey",
+      "original_title": "ஜாக்கி",
+      "overview": "The film Jackie is based on the ancient goat fighting tradition of Madurai. In a village in Madurai, Ramar and Karthi enter their goats into a goat fight competition. Ramars goat wins the competition. Envious, Karthi tries to take revenge on Ramar and his goat, causing various troubles for Ramar. Ramar thwarts these attempts and protects his goat.",
+      "release_date": "2026-01-23",
+      "year": 2026,
+      "runtime": 147,
+      "rating": 8.3,
+      "popularity": 2.3977,
+      "poster_path": "/69zi48P9NIwPq7qdssxQ8qqbBNG.jpg",
+      "backdrop_path": "/dlYqT4INqj1mKI7OmFXHKN86as6.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        }
+      ],
+      "cast": [
+        {
+          "id": 3271723,
+          "name": "Yuvan Krishna",
+          "character": "",
+          "profile_path": null,
+          "order": 0
+        },
+        {
+          "id": 3271725,
+          "name": "Ridhaan Krishna",
+          "character": "",
+          "profile_path": null,
+          "order": 1
+        },
+        {
+          "id": 2336847,
+          "name": "Ammu Abhirami",
+          "character": "",
+          "profile_path": "/6PV6Hf4p9urqlzLTmxvaovfhel4.jpg",
+          "order": 2
+        },
+        {
+          "id": 1328272,
+          "name": "Madhusudhan Rao",
+          "character": "",
+          "profile_path": "/e6BpJSqq9KBnsY6p95nrrXRsI0V.jpg",
+          "order": 3
+        },
+        {
+          "id": 4047178,
+          "name": "Sithan Mohan",
+          "character": "",
+          "profile_path": "/tkmwbHx0926oCAOSY3ALi0S4DNt.jpg",
+          "order": 4
+        },
+        {
+          "id": 1137473,
+          "name": "Saranya Ravichandran",
+          "character": "",
+          "profile_path": null,
+          "order": 5
+        },
+        {
+          "id": 3735869,
+          "name": "Sai Dinesh Badram",
+          "character": "",
+          "profile_path": null,
+          "order": 6
+        },
+        {
+          "id": 5722517,
+          "name": "Phathmen",
+          "character": "",
+          "profile_path": null,
+          "order": 7
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 162647,
+          "name": "PK7 Studios",
+          "logo_path": null
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "ta",
+          "name": "தமிழ்"
+        }
+      ],
+      "recommendations": [],
+      "download_links": {
+        "480P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fukggl.buzz/Movies4u.Foo.JOCKEY.2026.480p.WEB-DL.Multi.Audio.H264.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "480p [700MB]",
+          "size": "700MB",
+          "size_mb": 700.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://fsl.gigabytes.icu/Movies4u.Foo.JOCKEY.2026.720p.HEVC.WEB-DL.Multi.Audio.H265.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p HEVC [1.6GB]",
+          "size": "1.6GB",
+          "size_mb": 1638.4
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://fsl.gigabytes.icu/Movies4u.Foo.JOCKEY.2026.1080p.HEVC.WEB-DL.Multi.Audio.H265.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [2.7GB]",
+          "size": "2.7GB",
+          "size_mb": 2764.8
+        }
+      },
+      "director": {
+        "id": 3271732,
+        "name": "Pragabhal"
+      },
+      "trailer": null,
+      "collected_at": "2026-03-07T01:09:50.533357",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/memories-2023-web-dl-dual-audio-hindi-org-tamil-full-movie/",
+      "movies4u_image": "https://pix1.b442d6eefbd6173bad7ee5bde6cd31e8.com/download/8227f8dc77a01c4998604b942a81ea1a/filmyfy+wapkizs+com/Memories-2023-Dual-Audio-Hindi-Tamil-Full-Movie-HD-ESub-(filmyfy.fit).jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48850",
+      "imdb_id": "tt14962838",
+      "tmdb_id": 945106,
+      "title": "Memories",
+      "original_title": "மெமரீஸ்",
+      "overview": "Venky, suspected of committing multiple murders, suffers from memory loss and finds himself entangled in a web of lies. However, the true identity of Venky and the person responsible for his predicament are complex and multi-layered, leading to the discovery of the real killer.",
+      "release_date": "2023-03-10",
+      "year": 2023,
+      "runtime": 120,
+      "rating": 6.0,
+      "popularity": 2.5085,
+      "poster_path": "/jyeiTD4mkQrqtApb5FvcwYgUbHK.jpg",
+      "backdrop_path": "/tW4pCVGfGtODKxIVXWy51mzsEsi.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 9648,
+          "name": "Mystery"
+        }
+      ],
+      "cast": [
+        {
+          "id": 2255410,
+          "name": "Vetri",
+          "character": "Venki",
+          "profile_path": "/26ToRyzqNd4lelkKLyGZcuSdrCC.jpg",
+          "order": 0
+        },
+        {
+          "id": 2977270,
+          "name": "Dayyana Hameed",
+          "character": "Maya",
+          "profile_path": "/15xHth6M30pgd4gGS6pvMtzcvz2.jpg",
+          "order": 1
+        },
+        {
+          "id": 1951343,
+          "name": "Parvathy Arun",
+          "character": "Janaki",
+          "profile_path": "/8AwNhmjmJ3L7r4qXbv0vxSFLYD6.jpg",
+          "order": 2
+        },
+        {
+          "id": 1188530,
+          "name": "Hareesh Peradi",
+          "character": "",
+          "profile_path": "/s6Et5mOEicOPGc3mk4vZLiDQVM6.jpg",
+          "order": 3
+        },
+        {
+          "id": 1187402,
+          "name": "Ramesh Thilak",
+          "character": "Sharavanan",
+          "profile_path": "/cZ5RxGzGA5swW0rZwPhPU0yVNTb.jpg",
+          "order": 4
+        },
+        {
+          "id": 3439733,
+          "name": "Salil Das",
+          "character": "",
+          "profile_path": null,
+          "order": 5
+        },
+        {
+          "id": 1055740,
+          "name": "R. N. R. Manohar",
+          "character": "",
+          "profile_path": "/hH45hmcHeYUuVeUkpufN7tnwqph.jpg",
+          "order": 6
+        },
+        {
+          "id": 1506433,
+          "name": "S.P. Sreekumar",
+          "character": "",
+          "profile_path": "/yUvXyVY0AcuyhJvv4y1Z7dY7Hg2.jpg",
+          "order": 7
+        },
+        {
+          "id": 3066616,
+          "name": "Vanjiyoor Praveen Kumar",
+          "character": "",
+          "profile_path": null,
+          "order": 8
+        },
+        {
+          "id": 4013247,
+          "name": "Arunamshu Dev",
+          "character": "",
+          "profile_path": null,
+          "order": 9
+        }
+      ],
+      "production_companies": [],
+      "spoken_languages": [
+        {
+          "iso_639_1": "ta",
+          "name": "தமிழ்"
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 226979,
+          "title": "Test",
+          "poster_path": "/tTWRomgIMOoIB3CJLPlVbqSawEm.jpg",
+          "vote_average": 6.738
+        },
+        {
+          "id": 611359,
+          "title": "Tu Jhoothi Main Makkaar",
+          "poster_path": "/zHLtNP4KP0GMi6p1ACf2QvVnBvI.jpg",
+          "vote_average": 6.298
+        },
+        {
+          "id": 357953,
+          "title": "Return",
+          "poster_path": null,
+          "vote_average": 6.921
+        },
+        {
+          "id": 391559,
+          "title": "Fast",
+          "poster_path": "/p8c0a159yKnpciQCFsR8BaC23po.jpg",
+          "vote_average": 7.9
+        },
+        {
+          "id": 1268052,
+          "title": "Return",
+          "poster_path": "/jvAt8Yzzc66GZJsYGVRJAylgo3A.jpg",
+          "vote_average": 6.0
+        }
+      ],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.pizzacdn.buzz/5651ee0e1570c4472d596e6e0a333b33?token=1772820066",
+          "is_primary": true,
+          "quality_label": "480p [500MB]",
+          "size": "500MB",
+          "size_mb": 500.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.life/Movies4u.Foo.Memories 2023 Dual Audio [Hindi + Tamil] Full Movie HD ESub 720p HEVC.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p HEVC [600MB]",
+          "size": "600MB",
+          "size_mb": 600.0
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.work/Movies4u.Foo.Memories 2023 Dual Audio [Hindi + Tamil] Full Movie HD ESub 1080p.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "1080p [2.5GB]",
+          "size": "2.5GB",
+          "size_mb": 2560.0
+        }
+      },
+      "director": {
+        "id": 3951717,
+        "name": "Praveen Murugan"
+      },
+      "trailer": null,
+      "collected_at": "2026-03-07T01:09:50.578583",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/13-teen-2026-web-dl-punjabi-full-movie/",
+      "movies4u_image": "https://catimages.org/images/2026/03/05/13-Teen-2026-HDHub4u.Ms.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48886",
+      "imdb_id": "tt39958734",
+      "tmdb_id": 1646589,
+      "title": "13 Teen",
+      "original_title": "13 Teen",
+      "overview": "A high school teen struggles with peer pressure and drugs, navigating choices that could shape his future forever.",
+      "release_date": "2026-03-05",
+      "year": 2026,
+      "runtime": 93,
+      "rating": null,
+      "popularity": 0.1929,
+      "poster_path": "/rpaYcOV8oYOAVQmHyALZNAn3zka.jpg",
+      "backdrop_path": null,
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 140738,
+          "name": "Roshan Prince",
+          "character": "",
+          "profile_path": "/cqkK5Z1GKnE0SisYlehd22PRYhi.jpg",
+          "order": 0
+        },
+        {
+          "id": 6052972,
+          "name": "Saurav Sharma",
+          "character": "",
+          "profile_path": null,
+          "order": 1
+        },
+        {
+          "id": 5256473,
+          "name": "Parichita Keshub",
+          "character": "",
+          "profile_path": null,
+          "order": 2
+        },
+        {
+          "id": 6052973,
+          "name": "Diljot Basra",
+          "character": "",
+          "profile_path": null,
+          "order": 3
+        },
+        {
+          "id": 6052974,
+          "name": "Savy Sood",
+          "character": "",
+          "profile_path": null,
+          "order": 4
+        }
+      ],
+      "production_companies": [],
+      "spoken_languages": [],
+      "recommendations": [],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.pizzacdn.buzz/1d8eb6e821d3038807c6cfe6d7939e6a?token=1772820065",
+          "is_primary": true,
+          "quality_label": "480p [300MB]",
+          "size": "300MB",
+          "size_mb": 300.0
+        },
+        "720P": {
+          "server": "FSL Server",
+          "url": "https://hub.pizzacdn.buzz/3f6a933306c12de3a69e9d12fcc8cba3?token=1772820066",
+          "is_primary": true,
+          "quality_label": "720p HEVC [550MB]",
+          "size": "550MB",
+          "size_mb": 550.0
+        },
+        "1080P": {
+          "server": "FSL Server",
+          "url": "https://hub.pizzacdn.buzz/56a73e3b9692f8cc2c53e2ae550a953f?token=1772820067",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [1.3GB]",
+          "size": "1.3GB",
+          "size_mb": 1331.2
+        }
+      },
+      "director": {
+        "id": 140738,
+        "name": "Roshan Prince"
+      },
+      "trailer": null,
+      "collected_at": "2026-03-07T01:09:50.595851",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/jadugar-ka-badla-jora-kaiya-thattunga-2025-web-dl-dual-audio-hindi-org-tamil-full-movie/",
+      "movies4u_image": "https://pix1.b442d6eefbd6173bad7ee5bde6cd31e8.com/download/710deee741d0253ee7148f636d96c4f6/filmyfy+wapkizs+com/Jadugar-Ka-Badla-Jora-Kaiya-Thattunga-2025-Dual-Audio-Hindi-Tamil-Full-Movie-HD-ESub-(filmyfy.fit).jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48852",
+      "imdb_id": "tt32474216",
+      "tmdb_id": 1477870,
+      "title": "Jora Kaiya Thattunga",
+      "original_title": "ஜோரா கைய தட்டுங்க",
+      "overview": "A solitary magician in rural South India battles social resistance while pursuing his deceased father's aspirations, until hardship sparks his metamorphosis into a resilient force ready to overcome.",
+      "release_date": "2025-05-16",
+      "year": 2025,
+      "runtime": 107,
+      "rating": 5.5,
+      "popularity": 1.1641,
+      "poster_path": "/kom0PpAofXsyGzsuL76XApU8Dtr.jpg",
+      "backdrop_path": "/tFX0b8zZ93SbSBgkLcKbdOtgkJN.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1540764,
+          "name": "Yogi Babu",
+          "character": "Magician",
+          "profile_path": "/lTNb5POaftGHXzgN9aIegcehh89.jpg",
+          "order": 0
+        },
+        {
+          "id": 1188530,
+          "name": "Hareesh Peradi",
+          "character": "DSP Hariharan",
+          "profile_path": "/s6Et5mOEicOPGc3mk4vZLiDQVM6.jpg",
+          "order": 1
+        },
+        {
+          "id": 3407731,
+          "name": "Shanthi Rao",
+          "character": "Kani",
+          "profile_path": "/gCFjBFMZO2h268wfGnaZBfPC60N.jpg",
+          "order": 2
+        },
+        {
+          "id": 5426063,
+          "name": "Zakir Ali",
+          "character": "Kareem",
+          "profile_path": "/r0i0PONjhBMjrl740kKH2bCF69N.jpg",
+          "order": 3
+        },
+        {
+          "id": 5490846,
+          "name": "Menaga Priya",
+          "character": "Suja",
+          "profile_path": null,
+          "order": 4
+        },
+        {
+          "id": 2530144,
+          "name": "Kalki Raja",
+          "character": "Magician's Assistant",
+          "profile_path": "/ghejKia8Wufa38bjhJOvfHu9xcW.jpg",
+          "order": 5
+        },
+        {
+          "id": 2243239,
+          "name": "Aruvi Bala",
+          "character": "Deepak",
+          "profile_path": "/euENjLUKN5tzo9iCeJ8wz4TaTmu.jpg",
+          "order": 6
+        },
+        {
+          "id": 1065797,
+          "name": "Manimaran",
+          "character": "Kali",
+          "profile_path": null,
+          "order": 7
+        },
+        {
+          "id": 3576769,
+          "name": "Vasanthi Guru",
+          "character": "SI Meena",
+          "profile_path": null,
+          "order": 8
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 261760,
+          "name": "WAMA Entertaiment",
+          "logo_path": null
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "ta",
+          "name": "தமிழ்"
+        }
+      ],
+      "recommendations": [],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.pizzacdn.buzz/a66fa9ee54fa47f1cbe072ae9691d9b3?token=1772820065",
+          "is_primary": true,
+          "quality_label": "480p [400MB]",
+          "size": "400MB",
+          "size_mb": 400.0
+        },
+        "720P": {
+          "server": "FSL Server",
+          "url": "https://hub.pizzacdn.buzz/ce8e2c33c6647bd37ca79b68671da137?token=1772820066",
+          "is_primary": true,
+          "quality_label": "720p HEVC [600MB]",
+          "size": "600MB",
+          "size_mb": 600.0
+        },
+        "1080P": {
+          "server": "FSL Server",
+          "url": "https://hub.pizzacdn.buzz/649f9079469aa1577beaa49298a0971b?token=1772820067",
+          "is_primary": true,
+          "quality_label": "1080p [2.2GB]",
+          "size": "2.2GB",
+          "size_mb": 2252.8
+        }
+      },
+      "director": {
+        "id": 1978322,
+        "name": "Vineesh Millennium"
+      },
+      "trailer": null,
+      "collected_at": "2026-03-07T01:09:50.654047",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/anniversary-2025-web-dl-multi-audio-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/original/sSdpXGBNt3mQzjZZVK6eV5NcPdc.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48831",
+      "imdb_id": "tt12583926",
+      "tmdb_id": 1126336,
+      "title": "Anniversary",
+      "original_title": "Anniversary",
+      "overview": "When Ellen and Paul’s son introduces his new girlfriend one lovely afternoon at their 25th anniversary party, no one suspects that it is the beginning of the end for this happy family. The new girlfriend is Liz, Ellen’s former student, who left the university, some years before, after Ellen called her out in class for her radical ideology.",
+      "release_date": "2025-10-29",
+      "year": 2025,
+      "runtime": 111,
+      "rating": 6.7,
+      "popularity": 3.5301,
+      "poster_path": "/sSdpXGBNt3mQzjZZVK6eV5NcPdc.jpg",
+      "backdrop_path": "/mNUciC3vHhoskveYsO3hiFypqMz.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 2882,
+          "name": "Diane Lane",
+          "character": "Ellen",
+          "profile_path": "/6OfP3vFMuCL51zamFKgb8aS74hs.jpg",
+          "order": 0
+        },
+        {
+          "id": 3497,
+          "name": "Kyle Chandler",
+          "character": "Paul",
+          "profile_path": "/66n7XNj1dyYkzCBWR3Lq8Vz4PJ1.jpg",
+          "order": 1
+        },
+        {
+          "id": 1443712,
+          "name": "Madeline Brewer",
+          "character": "Anna",
+          "profile_path": "/mJEQDY9qIAe00RchuuqfmrCi9Kg.jpg",
+          "order": 2
+        },
+        {
+          "id": 1059597,
+          "name": "Zoey Deutch",
+          "character": "Cynthia",
+          "profile_path": "/tn6ErnytTct7HNAFG2dW17QcBk5.jpg",
+          "order": 3
+        },
+        {
+          "id": 1172108,
+          "name": "Mckenna Grace",
+          "character": "Birdie",
+          "profile_path": "/dE8QXlTlTjTlsW2nXtCkvbA5WPZ.jpg",
+          "order": 4
+        },
+        {
+          "id": 1232756,
+          "name": "Phoebe Dynevor",
+          "character": "Liz",
+          "profile_path": "/cviluUTn94TaPy9rlVSkHpgGxRR.jpg",
+          "order": 5
+        },
+        {
+          "id": 527393,
+          "name": "Dylan O'Brien",
+          "character": "Josh",
+          "profile_path": "/xN3GdvIlqsR838gDoblhPH0numP.jpg",
+          "order": 6
+        },
+        {
+          "id": 1829245,
+          "name": "Daryl McCormack",
+          "character": "Rob",
+          "profile_path": "/uxBEREn7HCDzhSNJaFw8MPdvXxo.jpg",
+          "order": 7
+        },
+        {
+          "id": 1401548,
+          "name": "Rebecca O'Mara",
+          "character": "Enumerator",
+          "profile_path": "/uIlgKmFDIp5jWuBaGlkeCTor4Cn.jpg",
+          "order": 8
+        },
+        {
+          "id": 1736805,
+          "name": "Flavia Watson",
+          "character": "Gemma",
+          "profile_path": "/2cd1rokJeilBNRHikii0gj6KoNM.jpg",
+          "order": 9
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 1632,
+          "name": "Lionsgate",
+          "logo_path": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png"
+        },
+        {
+          "id": 181874,
+          "name": "Fifth Season",
+          "logo_path": "/crrgXvLhDO9c57HYrbO4H58Vxmb.png"
+        },
+        {
+          "id": 8073,
+          "name": "Nick Wechsler Productions",
+          "logo_path": null
+        },
+        {
+          "id": 13649,
+          "name": "Chockstone Pictures",
+          "logo_path": null
+        },
+        {
+          "id": 20859,
+          "name": "Churchill Films",
+          "logo_path": null
+        },
+        {
+          "id": 86504,
+          "name": "Metropolitan Pictures",
+          "logo_path": "/7ppNVcvDg0ZXSR1bZi397hLD206.png"
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "recommendations": [],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/7ea5317ba982b2572cd6cb379012c695?token=1772820066",
+          "is_primary": true,
+          "quality_label": "480p [500MB]",
+          "size": "500MB",
+          "size_mb": 500.0
+        },
+        "720P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/0bf0dbf3b44782f80368f927fb1997f5?token=1772820067",
+          "is_primary": true,
+          "quality_label": "720p [1.4GB]",
+          "size": "1.4GB",
+          "size_mb": 1433.6
+        },
+        "1080P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/34d53d3c7302ed565fae297e8e333c4c?token=1772820068",
+          "is_primary": true,
+          "quality_label": "1080p [2.4GB]",
+          "size": "2.4GB",
+          "size_mb": 2457.6
+        }
+      },
+      "director": {
+        "id": 566109,
+        "name": "Jan Komasa"
+      },
+      "trailer": "https://www.youtube.com/watch?v=Uk6LhwvTYrE",
+      "collected_at": "2026-03-07T01:09:56.691131",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/thaanara-2024-web-dl-dual-audio-hindi-org-malayalam-full-movie/",
+      "movies4u_image": "https://pix1.b442d6eefbd6173bad7ee5bde6cd31e8.com/download/3869484f0766140c727042eba3ca150a/filmyfy+wapkizs+com/Thaanara-2024-Dual-Audio-Hindi-Malayalam-Full-Movie-HD-ESub-(filmyfy.fit).jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48817",
+      "imdb_id": "tt27411215",
+      "tmdb_id": 1121822,
+      "title": "Thaanara",
+      "original_title": "താനാരാ",
+      "overview": "A thief, a politician and a singer find themselves in a precarious position in a city mansion.",
+      "release_date": "2024-08-23",
+      "year": 2024,
+      "runtime": 118,
+      "rating": 5.0,
+      "popularity": 1.4367,
+      "poster_path": "/jdhzrBTqDThVeOSyQwrBP9UiJkq.jpg",
+      "backdrop_path": "/jBh2wrL4a9r72GFy1jprqG6hrpn.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1569583,
+          "name": "Vishnu Unnikrishnan",
+          "character": "Nandan",
+          "profile_path": "/mISo3eVkptL36FUsHfSgOkcWN3e.jpg",
+          "order": 0
+        },
+        {
+          "id": 1296632,
+          "name": "Shine Tom Chacko",
+          "character": "Aadarsh",
+          "profile_path": "/lIfhgkTK8bgM5jS2R91ZvCxKIwj.jpg",
+          "order": 1
+        },
+        {
+          "id": 1130154,
+          "name": "Aju Varghese",
+          "character": "James",
+          "profile_path": "/1kP34TpAdUt174VZWCaxHua2sy1.jpg",
+          "order": 2
+        },
+        {
+          "id": 1469613,
+          "name": "Deepti Sati",
+          "character": "Shraddha",
+          "profile_path": "/fJxyokBySxWusZceV3G3arnv0bY.jpg",
+          "order": 3
+        },
+        {
+          "id": 2306209,
+          "name": "Chinnu Chandini Nair",
+          "character": "Anjali",
+          "profile_path": "/jYNwz2Zl411FVfcw4OeARt2mQbj.jpg",
+          "order": 4
+        },
+        {
+          "id": 2297836,
+          "name": "Sneha Babu",
+          "character": "Asha",
+          "profile_path": "/qpKcI5lVeBHtnkcSKSuB4ERGVb7.jpg",
+          "order": 5
+        },
+        {
+          "id": 1373170,
+          "name": "Jibu Jacob",
+          "character": "Commissioner",
+          "profile_path": "/8pwqHpFYjfVHRdUp0QIUSJ5RsIJ.jpg",
+          "order": 6
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 80317,
+          "name": "Goodwill Entertainments",
+          "logo_path": "/bETeYaOtL4SvaQn2x1kOTeq7QcE.png"
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "ml",
+          "name": ""
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 1143723,
+          "title": "Secrets of Palace coup d'etat. Russia, 18th century. Film №5. Second Bride Emperor",
+          "poster_path": "/hbovMKvotuBCxnfaMiBb8kRSV6w.jpg",
+          "vote_average": 6.2
+        },
+        {
+          "id": 475557,
+          "title": "Joker",
+          "poster_path": "/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+          "vote_average": 8.127
+        },
+        {
+          "id": 869612,
+          "title": "Master Gardener",
+          "poster_path": "/afkyHDaMblwX2F1zJzMrTnPsDUH.jpg",
+          "vote_average": 6.012
+        },
+        {
+          "id": 29514,
+          "title": "Two Evil Eyes",
+          "poster_path": "/zVWaQfaSZ7AWE0XqbMT57szVmXo.jpg",
+          "vote_average": 6.126
+        },
+        {
+          "id": 87827,
+          "title": "Life of Pi",
+          "poster_path": "/iLgRu4hhSr6V1uManX6ukDriiSc.jpg",
+          "vote_average": 7.407
+        }
+      ],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/b7765797bc5d5972eec81487788dbd4f?token=1772820068",
+          "is_primary": true,
+          "quality_label": "480p [450MB]",
+          "size": "450MB",
+          "size_mb": 450.0
+        },
+        "720P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/cc226c9b8a02e4ea4a84aff7447275de?token=1772820069",
+          "is_primary": true,
+          "quality_label": "720p HEVC [650MB]",
+          "size": "650MB",
+          "size_mb": 650.0
+        },
+        "1080P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/ee7014d9962d12a33f2d3d8ee25313eb?token=1772820070",
+          "is_primary": true,
+          "quality_label": "1080p [2.4GB]",
+          "size": "2.4GB",
+          "size_mb": 2457.6
+        }
+      },
+      "director": {
+        "id": 4824359,
+        "name": "Haridas"
+      },
+      "trailer": "https://www.youtube.com/watch?v=yhDwXSAs7QY",
+      "collected_at": "2026-03-07T01:10:00.491321",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/dead-sea-2024-bluray-dual-audio-hindi-org-english-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/w780/ohisXa9ArEoV05ajLfX2T5D6NNF.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48802",
+      "imdb_id": "tt11724920",
+      "tmdb_id": 1308757,
+      "title": "Dead Sea",
+      "original_title": "Dead Sea",
+      "overview": "Stranded in the open sea after a fatal accident, a young woman and her two friends are rescued by a fishing vessel's captain, unaware that the ship harbors a chilling secret.",
+      "release_date": "2024-07-26",
+      "year": 2024,
+      "runtime": 88,
+      "rating": 6.232,
+      "popularity": 2.5134,
+      "poster_path": "/ohisXa9ArEoV05ajLfX2T5D6NNF.jpg",
+      "backdrop_path": "/y0XEqAqynGW4uVG8gkOnAf5vcYU.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 27,
+          "name": "Horror"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1775560,
+          "name": "Isabel Gravitt",
+          "character": "Kaya Adams",
+          "profile_path": "/s6ZpLK0OpC32yHfAJoo9SEWDLPg.jpg",
+          "order": 0
+        },
+        {
+          "id": 118753,
+          "name": "Alexander Wraith",
+          "character": "Rey",
+          "profile_path": "/yZ4j5eEebjJkrowhUvAK7UEtsFq.jpg",
+          "order": 1
+        },
+        {
+          "id": 64057,
+          "name": "Dean Cameron",
+          "character": "Curtis Hunt",
+          "profile_path": "/l5KJNacxI4qOHZwtUev9mRInmXb.jpg",
+          "order": 2
+        },
+        {
+          "id": 1446466,
+          "name": "Garrett Wareing",
+          "character": "Julian",
+          "profile_path": "/ghJmP5QlDsVSQEF8XlDSciZ4q6x.jpg",
+          "order": 3
+        },
+        {
+          "id": 1352920,
+          "name": "Genneya Walton",
+          "character": "Tessa Miles",
+          "profile_path": "/eP3wMmU1drxDHW54t5hvDcIxs05.jpg",
+          "order": 4
+        },
+        {
+          "id": 4793764,
+          "name": "Koa Tom",
+          "character": "Xander",
+          "profile_path": "/1SqsaGFOBnKienSdxmBtIJwwDQp.jpg",
+          "order": 5
+        },
+        {
+          "id": 1327926,
+          "name": "Brian Silverman",
+          "character": "Russell Adams",
+          "profile_path": "/jW9mBzEKlYi5dx7U6pmO76RYppM.jpg",
+          "order": 6
+        },
+        {
+          "id": 104473,
+          "name": "Al Burke",
+          "character": "Sgt. Burke",
+          "profile_path": "/gMQmzq2C2eUEpOBKrb3RpE5G1jc.jpg",
+          "order": 7
+        },
+        {
+          "id": 4793765,
+          "name": "Phoenix Volken",
+          "character": "Kit Adams",
+          "profile_path": "/3Uzm62LtIUhOc19lqldzfzkbgg1.jpg",
+          "order": 8
+        },
+        {
+          "id": 4793766,
+          "name": "Audriana Volken",
+          "character": "Sadie",
+          "profile_path": null,
+          "order": 9
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 89989,
+          "name": "Del Rey Films",
+          "logo_path": null
+        },
+        {
+          "id": 232155,
+          "name": "Laguna Six",
+          "logo_path": null
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 1193450,
+          "title": "The Green Gang",
+          "poster_path": "/sKaBVsZncMcWn1FtLT0ox9aLBpx.jpg",
+          "vote_average": 6.167
+        },
+        {
+          "id": 1179558,
+          "title": "15 Cameras",
+          "poster_path": "/muQrASlFPg4Hx0BEDwXjUsBMSHM.jpg",
+          "vote_average": 5.804
+        },
+        {
+          "id": 527969,
+          "title": "Camp",
+          "poster_path": "/5tmffZhi559MC3FzPi48I7UMJJR.jpg",
+          "vote_average": 2.9
+        },
+        {
+          "id": 1440094,
+          "title": "Row",
+          "poster_path": "/5kA3GQ6Wsop0S5HstvrHFfTEth0.jpg",
+          "vote_average": 6.6
+        },
+        {
+          "id": 1115377,
+          "title": "The Angel Maker",
+          "poster_path": "/cqqDvNVqAN3Z3VWtfcuDlAlRXeh.jpg",
+          "vote_average": 5.418
+        }
+      ],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/b187e538c2229d0f81b64ae99b6fe331?token=1772820070",
+          "is_primary": true,
+          "quality_label": "480p [350MB]",
+          "size": "350MB",
+          "size_mb": 350.0
+        },
+        "720P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/8093cf375567055511546a2f7767da6e?token=1772820071",
+          "is_primary": true,
+          "quality_label": "720p [950MB]",
+          "size": "950MB",
+          "size_mb": 950.0
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fukggl.buzz/Movies4u.Foo.Dead.Sea.2024.1080p.BluRay.Hindi.English.ESub.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "1080p [1.7GB]",
+          "size": "1.7GB",
+          "size_mb": 1740.8
+        }
+      },
+      "director": {
+        "id": 1115305,
+        "name": "Phil Volken"
+      },
+      "trailer": "https://www.youtube.com/watch?v=QXO439zDgLA",
+      "collected_at": "2026-03-07T01:10:00.533815",
+      "quality": "BluRay"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/secret-2024-web-dl-dual-audio-hindi-org-malayalam-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/original/7saO2J2wvmM3eZu1OzgfMlaYzKr.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48806",
+      "imdb_id": "tt27494298",
+      "tmdb_id": 1242850,
+      "title": "Secret",
+      "original_title": "Secret",
+      "overview": "A man tries desperately to change his fate after an astrology reading predicts the death of his fiancé.",
+      "release_date": "2024-07-26",
+      "year": 2024,
+      "runtime": 117,
+      "rating": 2.0,
+      "popularity": 1.1625,
+      "poster_path": "/7saO2J2wvmM3eZu1OzgfMlaYzKr.jpg",
+      "backdrop_path": "/fo7lRfADFFlFEO64mePHkgGN7ai.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 9648,
+          "name": "Mystery"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1274870,
+          "name": "Dhyan Sreenivasan",
+          "character": "Mithun",
+          "profile_path": "/5osJr8O74M3dq5GqbOfDGuSAIJx.jpg",
+          "order": 0
+        },
+        {
+          "id": 2288336,
+          "name": "Aparna Das",
+          "character": "Amaya",
+          "profile_path": "/eLcg4bZfNVOW0h0T7AWonpSpu3g.jpg",
+          "order": 1
+        },
+        {
+          "id": 1192913,
+          "name": "Jacob Gregory",
+          "character": "Prince",
+          "profile_path": "/1wfvMQTUM2OjZwoOoa0TlPfOvMC.jpg",
+          "order": 2
+        },
+        {
+          "id": 2242138,
+          "name": "Kalesh Ramanand",
+          "character": "Moorthy",
+          "profile_path": "/865gFRupfBT3zPRNNl7AHnjcFwT.jpg",
+          "order": 3
+        },
+        {
+          "id": 4362399,
+          "name": "Ardra Mohan",
+          "character": "Shreya",
+          "profile_path": "/cZaCOyZpA8G7AHIqHM7uOMbXPwN.jpg",
+          "order": 4
+        },
+        {
+          "id": 1199187,
+          "name": "Renji Panicker",
+          "character": "MLA",
+          "profile_path": "/5MGztWs1yxlptGDzeofC2jG7cAm.jpg",
+          "order": 5
+        },
+        {
+          "id": 1333293,
+          "name": "Jayakrishnan",
+          "character": "Madhu",
+          "profile_path": "/rp8IoqKBxQk9i8GYaHqqX824aVL.jpg",
+          "order": 6
+        },
+        {
+          "id": 2616604,
+          "name": "Abhiram Radhakrishnan",
+          "character": "Faizi",
+          "profile_path": "/8AjTvCsrPkiOLYblggiMlUAketU.jpg",
+          "order": 7
+        },
+        {
+          "id": 584795,
+          "name": "Manikuttan",
+          "character": "Harishankar",
+          "profile_path": "/sL6Lc8oTNzh5PJe8i4iJ0aXPKZ5.jpg",
+          "order": 8
+        },
+        {
+          "id": 2450620,
+          "name": "Dilshana Dilshad",
+          "character": "Faizi's Wife",
+          "profile_path": null,
+          "order": 9
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 220444,
+          "name": "Lakshmi Parvathy Vision",
+          "logo_path": null
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "ml",
+          "name": ""
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 591275,
+          "title": "Fear Street: 1666",
+          "poster_path": "/rmEPtz3Ufzol2VWUAZYzOFaBio3.jpg",
+          "vote_average": 7.089
+        },
+        {
+          "id": 537170,
+          "title": "My Little Pony: Equestria Girls - Rollercoaster of Friendship",
+          "poster_path": "/vjDE0bioRTxD4k9ICdL50sTZXnK.jpg",
+          "vote_average": 8.154
+        },
+        {
+          "id": 844613,
+          "title": "Sonic 30th Anniversary Symphony",
+          "poster_path": "/nhbXu6nIBV6lP4L93eHi7PJcILE.jpg",
+          "vote_average": 7.115
+        },
+        {
+          "id": 988355,
+          "title": "Red",
+          "poster_path": null,
+          "vote_average": 5.8
+        },
+        {
+          "id": 533991,
+          "title": "Stree",
+          "poster_path": "/2xLDWr72Wxc1JGmbxza2V8g26YH.jpg",
+          "vote_average": 6.9
+        }
+      ],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/cc4ccd4c4a632547bbba8629f42dfb49?token=1772820070",
+          "is_primary": true,
+          "quality_label": "480p [450MB]",
+          "size": "450MB",
+          "size_mb": 450.0
+        },
+        "720P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/7d1bb28b6921e346b3ed5c102681096a?token=1772820071",
+          "is_primary": true,
+          "quality_label": "720p HEVC [700MB]",
+          "size": "700MB",
+          "size_mb": 700.0
+        },
+        "1080P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/e26a25ecd4594d6821d09c629bc61eb4?token=1772820073",
+          "is_primary": true,
+          "quality_label": "1080p [2.8GB]",
+          "size": "2.8GB",
+          "size_mb": 2867.2
+        }
+      },
+      "director": {
+        "id": 587731,
+        "name": "S. N. Swamy"
+      },
+      "trailer": null,
+      "collected_at": "2026-03-07T01:10:01.078988",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/amaran-2024-web-dl-multi-audio-full-movie/",
+      "movies4u_image": "https://movies4u.claims/wp-content/uploads/2024/11/amaran.webp",
+      "m4ulinks_url": "https://m4ulinks.com/number/29808",
+      "imdb_id": "tt27118357",
+      "tmdb_id": 927342,
+      "title": "Amaran",
+      "original_title": "அமரன்",
+      "overview": "A heroic true story of Major Mukund Varadarajan, an Indian Army officer who displayed extraordinary bravery during a counterterrorism mission in Kashmir’s Shopian district. The film captures his courage in protecting his nation and the devotion of his wife Indhu Rebecaa Varghese.",
+      "release_date": "2024-10-31",
+      "year": 2024,
+      "runtime": 169,
+      "rating": 7.396,
+      "popularity": 4.1126,
+      "poster_path": "/yj9DbvPWjytH2EvDpGuJwos69rn.jpg",
+      "backdrop_path": "/7cNE2qydew1c8fqnlhWjkE3DHc2.jpg",
+      "budget": 14700000,
+      "revenue": 39200000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 10752,
+          "name": "War"
+        }
+      ],
+      "cast": [
+        {
+          "id": 587982,
+          "name": "Sivakarthikeyan",
+          "character": "Major Mukund Varadarajan",
+          "profile_path": "/jgy9y3V8QqZmu5r8sMxrGCzXuyp.jpg",
+          "order": 0
+        },
+        {
+          "id": 1473119,
+          "name": "Sai Pallavi",
+          "character": "Indhu Rebecca Varghese",
+          "profile_path": "/qAPdGKUIUEzLibdgVCey7oKvvME.jpg",
+          "order": 1
+        },
+        {
+          "id": 86212,
+          "name": "Rahul Bose",
+          "character": "Colonel Amit Singh Dabas",
+          "profile_path": "/6T0xhsganOB8SI48HCGd99XKj9l.jpg",
+          "order": 2
+        },
+        {
+          "id": 1295875,
+          "name": "Bhuvan Arora",
+          "character": "Vikram Singh",
+          "profile_path": "/AtEfX9ta8LZTWh7yZ4dVc2wpIRO.jpg",
+          "order": 3
+        },
+        {
+          "id": 1353425,
+          "name": "Lallu Prasath",
+          "character": "Ravi Shankar",
+          "profile_path": "/f6TVtddrbG1Qk1brFASrpPehpQh.jpg",
+          "order": 4
+        },
+        {
+          "id": 3398014,
+          "name": "Shyam Mohan",
+          "character": "Indhu's brother",
+          "profile_path": "/wqUndf8mfVUxKtus68hrh7dlBhX.jpg",
+          "order": 5
+        },
+        {
+          "id": 4486281,
+          "name": "Mir Salman",
+          "character": "Saifudeen K",
+          "profile_path": null,
+          "order": 6
+        },
+        {
+          "id": 931521,
+          "name": "Shyamaprasad",
+          "character": "R. Varadarajan",
+          "profile_path": "/7XmS8tF5OGt7y9YdpyySIWBECkH.jpg",
+          "order": 7
+        },
+        {
+          "id": 3188093,
+          "name": "Geetha Kailasam",
+          "character": "Geetha Varadarajan",
+          "profile_path": "/8hOXtSmjgIVEq2LhSJAxNirTN95.jpg",
+          "order": 8
+        },
+        {
+          "id": 2330873,
+          "name": "Gaurav Venkatesh",
+          "character": "Sepoy Venkanna",
+          "profile_path": null,
+          "order": 9
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 7202,
+          "name": "Raajkamal Films International",
+          "logo_path": "/tanmRcGlEgtAZhdcU7kMGZvYFbr.png"
+        },
+        {
+          "id": 63520,
+          "name": "Sony Pictures International Productions",
+          "logo_path": "/ytQNtv7i4wtkuLyguqRLC0FX8GL.png"
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "ta",
+          "name": "தமிழ்"
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 1093966,
+          "title": "Vettaiyan",
+          "poster_path": "/yEEyhQaW7cEb0IDJstoMBmEtPND.jpg",
+          "vote_average": 6.3
+        },
+        {
+          "id": 939243,
+          "title": "Sonic the Hedgehog 3",
+          "poster_path": "/d8Ryb8AunYAuycVKDp5HpdWPKgC.jpg",
+          "vote_average": 7.622
+        },
+        {
+          "id": 1090007,
+          "title": "First Shift",
+          "poster_path": "/ajsGI4JYaciPIe3gPgiJ3Vw5Vre.jpg",
+          "vote_average": 5.7
+        },
+        {
+          "id": 32077,
+          "title": "True Confessions",
+          "poster_path": "/qwTwHKesH4QcvSBkS1dE89AIFst.jpg",
+          "vote_average": 6.1
+        },
+        {
+          "id": 890138,
+          "title": "A.R.M - Ajayante Randam Moshanam",
+          "poster_path": "/OClpEeRlHK3DrFO7QtWXtpDIOK.jpg",
+          "vote_average": 6.9
+        }
+      ],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/e0468687120bbc75362ebab40c5be154?token=1772820068",
+          "is_primary": true,
+          "quality_label": "480p [850MB]",
+          "size": "850MB",
+          "size_mb": 850.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.life/Movies4u.Foo.Amaran.2024.720p.HEVC.WEB.DL.Multi.Audio.ESub.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p HEVC [1.5GB]",
+          "size": "1.5GB",
+          "size_mb": 1536.0
+        },
+        "1080P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/a5cba76aa5a01090afcb0390eda784e2?token=1772820071",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [3.2GB]",
+          "size": "3.2GB",
+          "size_mb": 3276.8
+        }
+      },
+      "director": {
+        "id": 1670825,
+        "name": "Rajkumar Periasamy"
+      },
+      "trailer": null,
+      "collected_at": "2026-03-07T01:10:01.854552",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/tanvi-the-great-2025-hindi-full-movie/",
+      "movies4u_image": "https://movies4u.claims/wp-content/uploads/2025/07/tanvi-the-great.webp",
+      "m4ulinks_url": "https://m4ulinks.com/number/40822",
+      "imdb_id": "tt31598703",
+      "tmdb_id": 1282557,
+      "title": "Tanvi the Great",
+      "original_title": "तन्वी द ग्रेट",
+      "overview": "Autistic young Tanvi Raina learns of her deceased Indian Army father's dream to salute the flag at Siachen Glacier. Despite barriers facing those neurodivergent in military service, she resolves to complete his mission.",
+      "release_date": "2025-07-18",
+      "year": 2025,
+      "runtime": 160,
+      "rating": 6.5,
+      "popularity": 2.0804,
+      "poster_path": "/jytZfJtjJnw7Yn2zW52wcbPYVXQ.jpg",
+      "backdrop_path": "/oxBkchNIv8xIhHya8TxdKldDwCJ.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 5293562,
+          "name": "Shubhangi Dutta",
+          "character": "Tanvi Raina",
+          "profile_path": null,
+          "order": 0
+        },
+        {
+          "id": 6217,
+          "name": "Anupam Kher",
+          "character": "Col Pratap Raina",
+          "profile_path": "/kgU5Ap1Kf9RnicB5DMcXEZqed2f.jpg",
+          "order": 1
+        },
+        {
+          "id": 1042821,
+          "name": "Pallavi Joshi",
+          "character": "Vidya Raina",
+          "profile_path": "/bufY8EQxMnqvStvwEatRI78Kjej.jpg",
+          "order": 2
+        },
+        {
+          "id": 20508,
+          "name": "Iain Glen",
+          "character": "Michael Simmons",
+          "profile_path": "/d9CKAAiV1HvSnzzmpDzD0mC0HlX.jpg",
+          "order": 3
+        },
+        {
+          "id": 86014,
+          "name": "Jackie Shroff",
+          "character": "Brigadier Joshi",
+          "profile_path": "/1UNJypgEyuihUW2avLLVYj76jie.jpg",
+          "order": 4
+        },
+        {
+          "id": 35779,
+          "name": "Boman Irani",
+          "character": "Raza Saab",
+          "profile_path": "/5J7GiiNar9bg9rGYeA2L30JXE2W.jpg",
+          "order": 5
+        },
+        {
+          "id": 560056,
+          "name": "Arvind Swamy",
+          "character": "Major Srinivas",
+          "profile_path": "/axg3WBjcK5j6YrstPtPdDKUJ0y2.jpg",
+          "order": 6
+        },
+        {
+          "id": 1255273,
+          "name": "Karan Tacker",
+          "character": "Capt. Samar Raina",
+          "profile_path": "/9Xn36FsPr9dbRK1HWyDpPsni58L.jpg",
+          "order": 7
+        },
+        {
+          "id": 130111,
+          "name": "Nassar",
+          "character": "Brig. K. N. Rao",
+          "profile_path": "/p3I0tSQY3C5qZW3NzFfbpjKPNL6.jpg",
+          "order": 8
+        },
+        {
+          "id": 6052718,
+          "name": "Ashish Kaushik",
+          "character": "Dogra",
+          "profile_path": null,
+          "order": 9
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 177403,
+          "name": "Anupam Kher Studio",
+          "logo_path": null
+        },
+        {
+          "id": 32413,
+          "name": "National Film Development Corporation of India",
+          "logo_path": "/jXHqu6xyG8l5mKwK66u5ahzYdfD.png"
+        },
+        {
+          "id": 2934,
+          "name": "Excel Entertainment",
+          "logo_path": "/bFoQPEgrOKeQWPBM0RIkfaR3etq.png"
+        },
+        {
+          "id": 132250,
+          "name": "AA Films",
+          "logo_path": null
+        },
+        {
+          "id": 291355,
+          "name": "Lower Middle Class",
+          "logo_path": null
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "hi",
+          "name": "हिन्दी"
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 1241634,
+          "title": "Saiyaara",
+          "poster_path": "/hQBIsi3ZfBYEayMc3GhcEmJVkss.jpg",
+          "vote_average": 6.425
+        },
+        {
+          "id": 533535,
+          "title": "Deadpool & Wolverine",
+          "poster_path": "/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+          "vote_average": 7.556
+        },
+        {
+          "id": 1140817,
+          "title": "As",
+          "poster_path": null,
+          "vote_average": 7.054
+        },
+        {
+          "id": 693134,
+          "title": "Dune: Part Two",
+          "poster_path": "/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+          "vote_average": 8.131
+        },
+        {
+          "id": 1022796,
+          "title": "Wish",
+          "poster_path": "/nesuSdJakNkf0zs7OfoasB6Clxf.jpg",
+          "vote_average": 6.225
+        }
+      ],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/d30be6dfdee63847ff2bbe51e991625e?token=1772820067",
+          "is_primary": true,
+          "quality_label": "480p [550MB]",
+          "size": "550MB",
+          "size_mb": 550.0
+        },
+        "720P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/527d007d649282fee27e4ebdbaa38364?token=1772820068",
+          "is_primary": true,
+          "quality_label": "720p HEVC [900MB]",
+          "size": "900MB",
+          "size_mb": 900.0
+        },
+        "1080P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/3fddc866f8a7542b867c00542a239a77?token=1772820070",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [2.1GB]",
+          "size": "2.1GB",
+          "size_mb": 2150.4
+        }
+      },
+      "director": {
+        "id": 6217,
+        "name": "Anupam Kher"
+      },
+      "trailer": "https://www.youtube.com/watch?v=7dVdYE6wWQ8",
+      "collected_at": "2026-03-07T01:10:02.045692",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/failure-2023-web-dl-dual-audio-hindi-org-english-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/w400/88NQffi3zkG1qGOvMIPnmfJo4jM.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48847",
+      "imdb_id": "tt19880934",
+      "tmdb_id": 996866,
+      "title": "Failure!",
+      "original_title": "Failure!",
+      "overview": "Shot in a single, 87-minute take, James has just one hour to choose between financial ruin or murder to protect his family.",
+      "release_date": "2023-08-28",
+      "year": 2023,
+      "runtime": 87,
+      "rating": 5.7,
+      "popularity": 0.7545,
+      "poster_path": "/88NQffi3zkG1qGOvMIPnmfJo4jM.jpg",
+      "backdrop_path": "/yH2Wv0oHLX8ew3vOqhjWOvnLoa0.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 11769,
+          "name": "Ted Raimi",
+          "character": "James",
+          "profile_path": "/juhz6ajCjjHlLPzYBxPtDxwX6em.jpg",
+          "order": 0
+        },
+        {
+          "id": 1650452,
+          "name": "Merrick McCartha",
+          "character": "Mr. Serge",
+          "profile_path": "/9Rg9QH4IePAbaVMrDkqNLCkncN0.jpg",
+          "order": 1
+        },
+        {
+          "id": 3614574,
+          "name": "Melissa Diaz",
+          "character": "Maria",
+          "profile_path": "/bgRIqUTPBcTqBaRALphXV591lCN.jpg",
+          "order": 2
+        },
+        {
+          "id": 1976215,
+          "name": "Noel Douglas Orput",
+          "character": "Unknown Man",
+          "profile_path": null,
+          "order": 3
+        },
+        {
+          "id": 2297494,
+          "name": "Christin Muuli",
+          "character": "Jessica",
+          "profile_path": "/n6rqVDOewYODeSriCzZYsxiR1hC.jpg",
+          "order": 4
+        },
+        {
+          "id": 1266885,
+          "name": "Daniel Kuhlman",
+          "character": "Alvar",
+          "profile_path": "/yQ8tK7hdJCxy99RZjZTLXDDxYlb.jpg",
+          "order": 5
+        },
+        {
+          "id": 5252780,
+          "name": "LeVar Michael",
+          "character": "Robert",
+          "profile_path": null,
+          "order": 6
+        },
+        {
+          "id": 3096315,
+          "name": "Spencer Langston",
+          "character": "JP. Jr.",
+          "profile_path": null,
+          "order": 7
+        },
+        {
+          "id": 5252781,
+          "name": "John Paul Medrano",
+          "character": "Michael",
+          "profile_path": null,
+          "order": 8
+        },
+        {
+          "id": 2032852,
+          "name": "Ernest Cavazos",
+          "character": "Slavko",
+          "profile_path": "/sN7lJL3HURncvGRQwCzWguAYoFb.jpg",
+          "order": 9
+        }
+      ],
+      "production_companies": [],
+      "spoken_languages": [
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "recommendations": [],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/1b730e1079ec302de0803b97dc5d5acb?token=1772820066",
+          "is_primary": true,
+          "quality_label": "480p [400MB]",
+          "size": "400MB",
+          "size_mb": 400.0
+        },
+        "720P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/e0dbe4ea524c19b062e6ccf37ffcad27?token=1772820067",
+          "is_primary": true,
+          "quality_label": "720p HEVC [600MB]",
+          "size": "600MB",
+          "size_mb": 600.0
+        },
+        "1080P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/2494f32d302a2c6c7bd4f8da1c174744?token=1772820069",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [1.5GB]",
+          "size": "1.5GB",
+          "size_mb": 1536.0
+        }
+      },
+      "director": {
+        "id": 2932255,
+        "name": "Alex Kahuam"
+      },
+      "trailer": "https://www.youtube.com/watch?v=QK9vCi3ccRo",
+      "collected_at": "2026-03-07T01:10:02.123472",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/rdx-2023-web-dl-multi-audio-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/original/E4prGNIMN8USgwZBkVj3ADasAG.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/10155",
+      "imdb_id": "tt24517458",
+      "tmdb_id": 997391,
+      "title": "RDX: Robert Dony Xavier",
+      "original_title": "ആര്‍ഡിഎക്സ്: റോബര്‍ട്ട് ഡോണി സേവ്യര്‍",
+      "overview": "Once-menacing, anger fueled, trained martial arts fighters Robert, Dony and Xavier settle down to peaceful lives, after a significant event prompts them. Fate orchestrates their reunion and return from exile to their fighting ways, when their history linger ominously and one of them faces a violent attack.",
+      "release_date": "2023-08-25",
+      "year": 2023,
+      "runtime": 150,
+      "rating": 6.694,
+      "popularity": 1.4263,
+      "poster_path": "/y6QRQ0bHGt9Wc1BBTZsa1iB2PAm.jpg",
+      "backdrop_path": "/2n6KECWCNmekIEgZFNlldkELUsP.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1307394,
+          "name": "Shane Nigam",
+          "character": "Robert",
+          "profile_path": "/9KJqx2V9aRwcTuMh2FQmWj5HrAO.jpg",
+          "order": 0
+        },
+        {
+          "id": 1758913,
+          "name": "Antony Varghese",
+          "character": "Dony",
+          "profile_path": "/dKRa8ghSXw6J1OTcxMziZh3l1jb.jpg",
+          "order": 1
+        },
+        {
+          "id": 1310401,
+          "name": "Neeraj Madhav",
+          "character": "Xavier",
+          "profile_path": "/vzFN3yyUEzEstVkMRnaI4lImrOp.jpg",
+          "order": 2
+        },
+        {
+          "id": 182174,
+          "name": "Lal",
+          "character": "Phillip",
+          "profile_path": "/ds3eeWA56YFeeuWP6WUs1ok58FK.jpg",
+          "order": 3
+        },
+        {
+          "id": 458928,
+          "name": "Babu Antony",
+          "character": "Anthony",
+          "profile_path": "/yaT3I5xf8XG806Or6sOMPMPOUVD.jpg",
+          "order": 4
+        },
+        {
+          "id": 1061910,
+          "name": "Baiju Santhosh",
+          "character": "Roy",
+          "profile_path": "/mAGYsgiYZ5A3B24jx5PZdibN87I.jpg",
+          "order": 5
+        },
+        {
+          "id": 1696318,
+          "name": "Maala Parvathi",
+          "character": "Kunju Mole",
+          "profile_path": "/l0iW1LfapmsXcvJaLPuwb68L5Ll.jpg",
+          "order": 6
+        },
+        {
+          "id": 1154378,
+          "name": "Mahima Nambiar",
+          "character": "Mini",
+          "profile_path": "/us0TCjr5IHotLbyr6PKjofEqN2x.jpg",
+          "order": 7
+        },
+        {
+          "id": 1610318,
+          "name": "Aima Sebastian",
+          "character": "Simi",
+          "profile_path": "/mFMNOe02XNXO29vFwVswrQ7A6mJ.jpg",
+          "order": 8
+        },
+        {
+          "id": 1199165,
+          "name": "Nishanth Sagar",
+          "character": "Davis",
+          "profile_path": "/s8uiq88RmHzQ73n0noDCdMCZGyj.jpg",
+          "order": 9
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 32731,
+          "name": "Weekend Blockbusters",
+          "logo_path": "/sXyxmudHMS51IqoSEadeydPqlK0.png"
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "ml",
+          "name": ""
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 341895,
+          "title": "Premam",
+          "poster_path": "/wfMgsfDrtouYOM6MbrkHtU96Xij.jpg",
+          "vote_average": 7.5
+        },
+        {
+          "id": 11900,
+          "title": "Even Dwarfs Started Small",
+          "poster_path": "/2jt9Cw1o7JchR4Tka1RiADJ9Fe9.jpg",
+          "vote_average": 6.399
+        },
+        {
+          "id": 71801,
+          "title": "X",
+          "poster_path": "/v4F7QeyeCEvZR8FSYITD1ftF7cM.jpg",
+          "vote_average": 5.8
+        },
+        {
+          "id": 1075789,
+          "title": "The Ballad of Davy Crockett",
+          "poster_path": "/r3eg88OcnLcCihQdaW3IAOlui4F.jpg",
+          "vote_average": 5.239
+        },
+        {
+          "id": 74109,
+          "title": "X",
+          "poster_path": "/mJcTXKTsEGefD3rH3gnEW6qbpsu.jpg",
+          "vote_average": 5.6
+        }
+      ],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/ccf028fe23aeb8cd0ccad0e25822ab72?token=1772820071",
+          "is_primary": true,
+          "quality_label": "480p [800MB]",
+          "size": "800MB",
+          "size_mb": 800.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://fsl.gigabytes.icu/Movies4u.Foo.RDX.2023.720p.HEVC.WEB.DL.Multi.Audio.ESubs.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p HEVC [1.4GB]",
+          "size": "1.4GB",
+          "size_mb": 1433.6
+        },
+        "1080P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/86c6abc08c1f072e9e39a03265fe383c?token=1772820073",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [2.9GB]",
+          "size": "2.9GB",
+          "size_mb": 2969.6
+        }
+      },
+      "director": {
+        "id": 3146427,
+        "name": "Nahas Hidayath"
+      },
+      "trailer": null,
+      "collected_at": "2026-03-07T01:10:02.599859",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/dear-2024-web-dl-multi-audio-full-movie/",
+      "movies4u_image": "https://image.tmdb.org/t/p/original/baV0cklaSoCbls6P0EdnqeHdZHy.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/22811",
+      "imdb_id": "tt24244300",
+      "tmdb_id": 1122356,
+      "title": "DeAr",
+      "original_title": "டியர்",
+      "overview": "A newly married couple faces challenges when the wife's snoring interrupts the husband's sleep. Their struggles depict the compromises needed for a lasting marriage.",
+      "release_date": "2024-04-11",
+      "year": 2024,
+      "runtime": 134,
+      "rating": 6.8,
+      "popularity": 0.7975,
+      "poster_path": "/nGrdWSoaPklsid9POrELW7Ll7dz.jpg",
+      "backdrop_path": "/6gWXHCVptuSbvmsY2qwnhUnfMDE.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 10749,
+          "name": "Romance"
+        }
+      ],
+      "cast": [
+        {
+          "id": 584950,
+          "name": "G. V. Prakash Kumar",
+          "character": "Arjun",
+          "profile_path": "/ArX3l6CdNo0sGI8b6PFYveR9Azm.jpg",
+          "order": 0
+        },
+        {
+          "id": 1114583,
+          "name": "Aishwarya Rajesh",
+          "character": "Deepika",
+          "profile_path": "/9xChl6zSGT9Svx5jghZg1yrW47w.jpg",
+          "order": 1
+        },
+        {
+          "id": 1306567,
+          "name": "Kaali Venkat",
+          "character": "Saravanan",
+          "profile_path": "/w36lwArVQb0lDIJEenBECHqSdpG.jpg",
+          "order": 2
+        },
+        {
+          "id": 467845,
+          "name": "Rohini",
+          "character": "Lakshmi",
+          "profile_path": "/oeT5DXeqsTY17DtJLTGpQec91fr.jpg",
+          "order": 3
+        },
+        {
+          "id": 580626,
+          "name": "Ilavarasu",
+          "character": "Rangarajan",
+          "profile_path": "/gWCREhajMvlOE49g79zyvwdpf5E.jpg",
+          "order": 4
+        },
+        {
+          "id": 520089,
+          "name": "Thalaivasal Vijay",
+          "character": "",
+          "profile_path": "/2mlbBSwHF2nzlPpVnjXpTKLaoxQ.jpg",
+          "order": 5
+        },
+        {
+          "id": 3188093,
+          "name": "Geetha Kailasam",
+          "character": "",
+          "profile_path": "/8hOXtSmjgIVEq2LhSJAxNirTN95.jpg",
+          "order": 6
+        },
+        {
+          "id": 4045719,
+          "name": "Nandhini Madesh",
+          "character": "",
+          "profile_path": null,
+          "order": 7
+        },
+        {
+          "id": 2929310,
+          "name": "Magalakshmi Sudarsanan",
+          "character": "Jenni",
+          "profile_path": null,
+          "order": 8
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 181720,
+          "name": "Nutmeg Productions",
+          "logo_path": null
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "ta",
+          "name": "தமிழ்"
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 897515,
+          "title": "Chhatriwali",
+          "poster_path": "/yj6QBEx3QMMxfz5AqDtFEgvlfSb.jpg",
+          "vote_average": 6.0
+        },
+        {
+          "id": 1273448,
+          "title": "Viswam",
+          "poster_path": "/AoKFsFsh5oeJM7rbFPJRzoEz5jy.jpg",
+          "vote_average": 3.0
+        },
+        {
+          "id": 2501,
+          "title": "The Bourne Identity",
+          "poster_path": "/aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
+          "vote_average": 7.471
+        },
+        {
+          "id": 64688,
+          "title": "21 Jump Street",
+          "poster_path": "/8v3Sqv9UcIUC4ebmpKWROqPBINZ.jpg",
+          "vote_average": 6.884
+        },
+        {
+          "id": 767,
+          "title": "Harry Potter and the Half-Blood Prince",
+          "poster_path": "/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg",
+          "vote_average": 7.681
+        }
+      ],
+      "download_links": {
+        "480P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/3dcdef7735f3df5d24bd8d0e9886291b?token=1772820070",
+          "is_primary": true,
+          "quality_label": "480p [700MB]",
+          "size": "700MB",
+          "size_mb": 700.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.life/Movies4u.Foo.DeAr.2024.720p.HEVC.WEB.DL.Multi.Audio.ESubs.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p HEVC [1.4GB]",
+          "size": "1.4GB",
+          "size_mb": 1433.6
+        },
+        "1080P": {
+          "server": "FSL Server",
+          "url": "https://hub.raj.lat/b7b716ae5a757a680853d032630d0eae?token=1772820072",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [2.5GB]",
+          "size": "2.5GB",
+          "size_mb": 2560.0
+        }
+      },
+      "director": {
+        "id": 2585233,
+        "name": "Anand Ravichandran"
+      },
+      "trailer": "https://www.youtube.com/watch?v=nJOnyufuXwM",
+      "collected_at": "2026-03-07T01:10:02.619779",
+      "quality": "WEB-DL"
+    },
+    {
+      "movies4u_url": "https://movies4u.claims/cobra-2022-multi-audio-full-movie-web-dl/",
+      "movies4u_image": "https://image.tmdb.org/t/p/w500/p0P3xRPCVQUsgDL77RUvaYEpxx6.jpg",
+      "m4ulinks_url": "https://m4ulinks.com/number/48797",
+      "imdb_id": "tt9466814",
+      "tmdb_id": 793032,
+      "title": "Cobra",
+      "original_title": "கோப்ரா",
+      "overview": "A genius mathematician doubles up as a hit man, assassinating people opposing a ruthless corporate behemoth. While he manages to stay ahead of the Interpol and the psychotic head of the corporation, who are after him, can he evade the mysterious hacker who is keen to unmask him?",
+      "release_date": "2022-08-31",
+      "year": 2022,
+      "runtime": 183,
+      "rating": 5.75,
+      "popularity": 1.697,
+      "poster_path": "/eriBjgwmiXWqKKZxciLQiWgof1K.jpg",
+      "backdrop_path": "/4xCkHdDkHCTyc1rDjKt1tUYlqJj.jpg",
+      "budget": 0,
+      "revenue": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 93191,
+          "name": "Vikram",
+          "character": "Mathiyazhagan / Kathirvelan",
+          "profile_path": "/c171LQMyHtULZC0RmuIHiiFDOjv.jpg",
+          "order": 0
+        },
+        {
+          "id": 2182257,
+          "name": "Srinidhi Shetty",
+          "character": "Bhavana Menon",
+          "profile_path": "/pTsixKDFS3n2xsvR6wDZ9J6jjfQ.jpg",
+          "order": 1
+        },
+        {
+          "id": 2306376,
+          "name": "Irfan Pathan",
+          "character": "Aslan Yilmaz",
+          "profile_path": "/792trPuoqQZkDJVxAE2sINxT1i8.jpg",
+          "order": 2
+        },
+        {
+          "id": 93194,
+          "name": "K. S. Ravikumar",
+          "character": "Nellaiappan",
+          "profile_path": "/8dUdM3sFvL4aXnDtLJJCkDMNEbo.jpg",
+          "order": 3
+        },
+        {
+          "id": 1697412,
+          "name": "Roshan Mathew",
+          "character": "Rajiv Rishi",
+          "profile_path": "/9BzqaEdErGxF1EDELQEXpnRsqQu.jpg",
+          "order": 4
+        },
+        {
+          "id": 581072,
+          "name": "Anandaraj",
+          "character": "Orphanage Incharge",
+          "profile_path": "/gZxzckfurzV0oQOME8b1ATNoMHD.jpg",
+          "order": 5
+        },
+        {
+          "id": 1069468,
+          "name": "Robo Shankar",
+          "character": "Kumaresan",
+          "profile_path": "/jjKdriPFYRaniZDlWlIw6ctdHqC.jpg",
+          "order": 6
+        },
+        {
+          "id": 1189245,
+          "name": "Miya George",
+          "character": "Madhi and Kathir's mother",
+          "profile_path": "/uO6GaN8qNLM5FRu6KGDeooVu6LL.jpg",
+          "order": 7
+        },
+        {
+          "id": 2250680,
+          "name": "Mirnalini Ravi",
+          "character": "Jennifer Rosario",
+          "profile_path": "/xJWqESPs6cshSFeYEK1pSPZIai3.jpg",
+          "order": 8
+        },
+        {
+          "id": 3254513,
+          "name": "Meenakshi Govindarajan",
+          "character": "Judith Samson",
+          "profile_path": "/nXRjq3b2ugL9NapT7AOziLCo7F3.jpg",
+          "order": 9
+        }
+      ],
+      "production_companies": [
+        {
+          "id": 106088,
+          "name": "Seven Screen Studios",
+          "logo_path": "/f2fgAWy1lj4fXbxUAjVSmW9oLTV.png"
+        }
+      ],
+      "spoken_languages": [
+        {
+          "iso_639_1": "ta",
+          "name": "தமிழ்"
+        }
+      ],
+      "recommendations": [
+        {
+          "id": 864692,
+          "title": "Pathaan",
+          "poster_path": "/arf00BkwvXo0CFKbaD9OpqdE4Nu.jpg",
+          "vote_average": 6.434
+        },
+        {
+          "id": 894803,
+          "title": "Sita Ramam",
+          "poster_path": "/t1O94ZBzsQXJihtVkrsStRLyUDR.jpg",
+          "vote_average": 7.7
+        },
+        {
+          "id": 660046,
+          "title": "Ponniyin Selvan: Part I",
+          "poster_path": "/zSNyZUeqDdii0doQ9970E90kCkb.jpg",
+          "vote_average": 7.128
+        },
+        {
+          "id": 32740,
+          "title": "Krrish",
+          "poster_path": "/Apd4UKesyTmpDutEjNVHP45kvBi.jpg",
+          "vote_average": 6.5
+        },
+        {
+          "id": 870769,
+          "title": "Viruman",
+          "poster_path": "/d6kc9cgm9c3bVa3xWPM7Z15ZJQ0.jpg",
+          "vote_average": 5.5
+        }
+      ],
+      "download_links": {
+        "480P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.life/Movies4u.Foo.Cobra.2022.480p.Hindi.WEB-DL.ESub.x264.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "480p [500MB]",
+          "size": "500MB",
+          "size_mb": 500.0
+        },
+        "720P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fsl-buckets.life/Movies4u.Foo.Cobra.2022.720p.10Bit.HEVC.Hindi.WEB-DL.5.1.ESub.x265.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "720p HEVC [1GB]",
+          "size": "1GB",
+          "size_mb": 1024.0
+        },
+        "1080P": {
+          "server": "FSLv2 Server",
+          "url": "https://cdn.fukggl.buzz/Movies4u.Foo.Cobra.2022.1080p.10Bit.HEVC.Hindi.WEB-DL.5.1.ESub.x265.mkv?token=7a2451e1b6820b8ac17c9b15a351f6cb",
+          "is_primary": true,
+          "quality_label": "1080p HEVC [2.3GB]",
+          "size": "2.3GB",
+          "size_mb": 2355.2
+        }
+      },
+      "director": {
+        "id": 1469920,
+        "name": "R. Ajay Gnanamuthu"
+      },
+      "trailer": null,
+      "collected_at": "2026-03-07T01:10:02.648188",
+      "quality": "WEB-DL"
+    }
+  ]
+}
