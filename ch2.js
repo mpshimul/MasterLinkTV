@@ -1,4 +1,4 @@
-// Generated: 2026-03-07 01:30 UTC
+// Generated: 2026-03-07 06:39 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1041,7 +1041,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (16 channels, 3 with 🔐 DRM)
+    // KIDS (17 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1138,6 +1138,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/25T1j5cX/oggy2.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "24/7 Tom And Jerry",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/xd5gYkM8/tom-jerry.jpg",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -1282,7 +1296,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (92 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (91 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1681,20 +1695,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/HWyjSjkQ/Dangal-2.png",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Darshana TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt04.tangotv.in/DARSHANATV/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://media.licdn.com/dms/image/v2/C560BAQEL49S7MytBgg/company-logo_200_200/company-logo_200_200/0/1637128620818?e=2147483647&v=beta&t=woB6D-yxeJR4Fy-tsMnFG-QyioX4CC52V2WWezMVRwE",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -4469,11 +4469,6 @@ window.rawChannels2 = [
                 "name": "Server 1",
                 "url": "https://tplay.live/tplay/playout/209587/master.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://anywhere.pwisetthon.com/https://live20.bozztv.com/giatvplayout7/giatv-209587/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/jSLNzXgM/Bengali-Beats.png",
@@ -5148,7 +5143,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (32 channels, 9 with 🔐 DRM)
+    // OTHERS (33 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5558,6 +5553,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic Wild",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
+                    "key": "adf163c6c1729e6f77668d4e49f32352"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5648,7 +5661,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 362
-// Channels with DRM: 41
+// Total channels: 363
+// Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
