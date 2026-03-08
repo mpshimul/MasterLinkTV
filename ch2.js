@@ -1,11 +1,11 @@
-// Generated: 2026-03-07 18:32 UTC
+// Generated: 2026-03-08 01:47 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (58 channels, 4 with 🔐 DRM)
+    // NEWS (56 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -371,30 +371,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "India News",
-        "sources": [
-            {
-                "name": "Gujarat",
-                "url": "https://newsxott.in/hls/indianewsgujarat.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Punjab",
-                "url": "https://newsxott.in/hls/indianewspunjab.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Uttar Pradesh",
-                "url": "https://newsxott.in/hls/indianewsupuk.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://karthavya.com/wp-content/uploads/2019/07/India-News-Live.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
         "name": "India Today",
         "sources": [
             {
@@ -624,25 +600,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/bNJny8Qw/news-24.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "News X",
-        "sources": [
-            {
-                "name": "News X",
-                "url": "https://newsxott.in/hls/newsx.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "News X World",
-                "url": "https://newsxott.in/hls/newsxworld.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/zwrmWphe47oXEHVndsokIHupuBpVWq2_a_LCxiV_JA0YmaosO7S3kMeFyTNhNLUO8ovmT3hDfX0=s900-c-k-c0x00ffffff-no-rj",
         "category": "News",
         "description": "News Channel"
     },
@@ -2628,7 +2585,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (58 channels, 4 with 🔐 DRM)
+    // NEWS (56 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2994,30 +2951,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "India News",
-        "sources": [
-            {
-                "name": "Gujarat",
-                "url": "https://newsxott.in/hls/indianewsgujarat.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Punjab",
-                "url": "https://newsxott.in/hls/indianewspunjab.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Uttar Pradesh",
-                "url": "https://newsxott.in/hls/indianewsupuk.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://karthavya.com/wp-content/uploads/2019/07/India-News-Live.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
         "name": "India Today",
         "sources": [
             {
@@ -3247,25 +3180,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/bNJny8Qw/news-24.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "News X",
-        "sources": [
-            {
-                "name": "News X",
-                "url": "https://newsxott.in/hls/newsx.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "News X World",
-                "url": "https://newsxott.in/hls/newsxworld.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/zwrmWphe47oXEHVndsokIHupuBpVWq2_a_LCxiV_JA0YmaosO7S3kMeFyTNhNLUO8ovmT3hDfX0=s900-c-k-c0x00ffffff-no-rj",
         "category": "News",
         "description": "News Channel"
     },
@@ -3556,7 +3470,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (46 channels, 12 with 🔐 DRM)
+    // MOVIE (47 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3982,6 +3896,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Movie Box",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/xdVgw5yG/movie-box.png",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Movieplex",
         "sources": [
             {
@@ -4263,7 +4191,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (35 channels, 1 with 🔐 DRM)
+    // MUSIC (36 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4565,6 +4493,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/7L2vCFnH/josh-fw.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "K Pop",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5604,7 +5546,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 360
+// Total channels: 358
 // Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
