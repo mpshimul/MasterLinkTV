@@ -1,4 +1,4 @@
-// Generated: 2026-03-09 01:50 UTC
+// Generated: 2026-03-09 07:03 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1262,7 +1262,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (86 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (85 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1577,20 +1577,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/nL8s287H/channel-s.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Colors",
-        "sources": [
-            {
-                "name": "Server 3",
-                "url": "https://anywhere.pwisetthon.com/http://103.99.249.139/colors/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/vBL4YjR8/colors.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -5478,7 +5464,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 352
+// Total channels: 351
 // Channels with DRM: 41
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
