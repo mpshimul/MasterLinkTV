@@ -1,11 +1,11 @@
-// Generated: 2026-03-10 01:32 UTC
+// Generated: 2026-03-10 06:47 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (56 channels, 4 with 🔐 DRM)
+    // NEWS (57 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -511,6 +511,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/0a22e24d565a1f951c03e2008216de15.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "MBC TV Odisha",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt03.tangotv.in/MBCTV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTcLnb_i5kxG-7DhXERKQ3kAZaQihpn8gvlA&s",
         "category": "News",
         "description": "News Channel"
     },
@@ -2642,7 +2656,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (56 channels, 4 with 🔐 DRM)
+    // NEWS (57 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3148,6 +3162,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/0a22e24d565a1f951c03e2008216de15.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "MBC TV Odisha",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt03.tangotv.in/MBCTV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTcLnb_i5kxG-7DhXERKQ3kAZaQihpn8gvlA&s",
         "category": "News",
         "description": "News Channel"
     },
@@ -4253,7 +4281,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (32 channels)
+    // MUSIC (35 channels)
     // ==================================================
 
     {
@@ -4316,6 +4344,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Jzqh6SSX/tplay.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "7S Music",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt03.tangotv.in/7SMUSIC/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://static.wikia.nocookie.net/logopedia/images/a/ac/76_Tamil_channel.jpeg/revision/latest?cb=20191225165506",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -4514,6 +4556,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Josh TV",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://mumt03.tangotv.in/JOSHTV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/7L2vCFnH/josh-fw.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "K Pop",
         "sources": [
             {
@@ -4580,16 +4636,25 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Melody Hits",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://mumt03.tangotv.in/MELODYHITS/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/vTzwY5LW/mh-fw.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Music India",
         "sources": [
             {
                 "name": "Server 1",
                 "url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://mumt05.tangotv.in/MUSICINDIA/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -5021,7 +5086,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (34 channels, 11 with 🔐 DRM)
+    // OTHERS (32 channels, 9 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5431,42 +5496,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "6d647aff767c453daa5fb54a44c783c6",
-                    "key": "2f971e6a1cc58e7085afc761a3f13162"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "National Geographic Wild",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
-                    "key": "adf163c6c1729e6f77668d4e49f32352"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5557,7 +5586,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 357
-// Channels with DRM: 42
+// Total channels: 360
+// Channels with DRM: 40
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
