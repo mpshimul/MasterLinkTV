@@ -1,4 +1,4 @@
-// Generated: 2026-03-10 07:49 UTC
+// Generated: 2026-03-10 08:53 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -1280,7 +1280,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // SPORTS (24 channels)
+    // SPORTS (25 channels)
     // ==================================================
 
     {
@@ -1375,6 +1375,20 @@ window.rawChannels2 = [
             {
                 "name": "⭐ roarzone.info",
                 "url": "https://edge2.roarzone.info:8447/roarzone/edge3/euro-sport-hd/index.m3u8?token=67555d25e9803d504adf68bf7fbbb434944df966-725e601e54d58712e50e422738e506e9-1773129741-1773126141",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Fallback Channel",
+        "category": "Sports",
+        "img": "https://abusaeeidx.github.io/Support/images/offline.jpg",
+        "sources": [
+            {
+                "name": "🔗 githubusercontent.com",
+                "url": "https://raw.githubusercontent.com/HelloPeopleTv4you/IPTV-Playlist/refs/heads/main/offline/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2189,7 +2203,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // HINDI (25 channels)
+    // HINDI (26 channels)
     // ==================================================
 
     {
@@ -2214,6 +2228,20 @@ window.rawChannels2 = [
             {
                 "name": "⭐ roarzone.info",
                 "url": "https://edge2.roarzone.info:8447/roarzone/edge3/tv-hd/index.m3u8?token=d8d496ca9d24ee6e1a3fc09a36b351f843a141d2-d822fba1c6556def8a6fd6fe7afb7d56-1773129741-1773126141",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Ary Digital",
+        "category": "Hindi",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ml-pull-dvc-myco.io",
+                "url": "https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8",
                 "type": "hls"
             }
         ]
@@ -2717,17 +2745,17 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (59 channels)
+    // OTHERS (61 channels)
     // ==================================================
 
     {
         "name": "",
-        "category": "Islamic Channels",
+        "category": "Cricket",
         "img": "",
         "sources": [
             {
-                "name": "🔗 erbvr.com",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
+                "name": "🔗 bozztv.com",
+                "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
                 "type": "hls"
             },
             {
@@ -2736,8 +2764,8 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
-                "name": "🔗 bozztv.com",
-                "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
+                "name": "🔗 erbvr.com",
+                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
                 "type": "hls"
             }
         ]
@@ -2988,13 +3016,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Colors Infinity HD",
-        "category": "Information",
-        "img": "",
+        "name": "Cag Delhi VS Spj Cargo (tillo Cup 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
         "sources": [
             {
-                "name": "🌐 254.25",
-                "url": "http://103.229.254.25:7001/play/a0du/index.m3u8",
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fdlive.fancode.com/mumbai/141262_english_hls_bf799af95f6989_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -3002,13 +3030,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Delhi Champions VS Punjab Lions (thunderbolt T10 League 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
+        "name": "Colors Infinity HD",
+        "category": "Information",
+        "img": "",
         "sources": [
             {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fdlive.fancode.com/mumbai/141184_english_hls_da9a75d90c28906_1ta-di_h264/index.m3u8",
+                "name": "🌐 254.25",
+                "url": "http://103.229.254.25:7001/play/a0du/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -3152,13 +3180,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Me-",
-        "category": "Live Tv",
-        "img": "",
+        "name": "Malaysia VS Bahrain (bahrain Tour OF Malaysia- 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/Bahrain-tour-of-Malaysia-old-card.jpg",
         "sources": [
             {
-                "name": "🔗 iptvbd.live",
-                "url": "https://iptvbd.live/metv1080/1080.m3u8",
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fdlive.fancode.com/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -3166,13 +3194,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Mhkl Banaras VS Ncc Odisha (tillo Cup 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
+        "name": "Me-",
+        "category": "Live Tv",
+        "img": "",
         "sources": [
             {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fdlive.fancode.com/mumbai/141261_english_hls_2c44537e4667376_1ta-di_h264/index.m3u8",
+                "name": "🔗 iptvbd.live",
+                "url": "https://iptvbd.live/metv1080/1080.m3u8",
                 "type": "hls"
             }
         ]
@@ -3281,6 +3309,34 @@ window.rawChannels2 = [
             {
                 "name": "🔗 kwikmotion.com",
                 "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Radio Bater BD",
+        "category": "Cricket",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 digitalsynapsebd.com",
+                "url": "http://as31.digitalsynapsebd.com:8446/;stream.mp3",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Rajasthan Emperors VS Gujarat Tigers (thunderbolt T10 League 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fdlive.fancode.com/mumbai/141185_english_hls_1fbf6889cd53055_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -3589,11 +3645,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 239
-// Total sources: 278
+// Total channels: 243
+// Total sources: 282
 // Top priority sources (⭐): 109
 // Other priority sources (⚡): 1
-// Regular sources: 168
+// Regular sources: 172
 // Categories: 10
-// Merged duplicates: 79 channels consolidated
+// Merged duplicates: 81 channels consolidated
 // Generated with M3U processor
