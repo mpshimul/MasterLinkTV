@@ -1,4 +1,4 @@
-// Generated: 2026-03-10 12:52 UTC
+// Generated: 2026-03-10 18:46 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -909,7 +909,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (6 channels, 1 with 🔐 DRM)
+    // SPORTS (5 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -978,20 +978,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Star Sports 1",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
         "name": "Star Sports 2",
         "sources": [
             {
@@ -1007,7 +993,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (18 channels, 3 with 🔐 DRM)
+    // KIDS (19 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1247,15 +1233,29 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Sony Yay",
+        "name": "Sonic",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://anywhere.pwisetthon.com/http://203.18.159.115/SONYYAY/tracks-v1a1/mono.m3u8",
+                "name": "Hindi",
+                "url": "https://anywhere.pwisetthon.com/http://203.18.159.115/SONIC/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ],
-        "img": "https://i.postimg.cc/1413YzhR/yay.jpg",
+        "img": "https://static.wikia.nocookie.net/logopedia/images/a/aa/Nickelodeon_Sonic_logo_2025.png/revision/latest/scale-to-width-down/300?cb=20250606121016",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "Super Hungama",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://anywhere.pwisetthon.com/http://203.18.159.115/SUPERHUNGAMA/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/en/7/74/Super_Hungama_Logo.png",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -1499,6 +1499,11 @@ window.rawChannels2 = [
                 "name": "⚡ Server 1",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/banglavision/index.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/PJxGv57P/banglavision.jpg",
@@ -1641,8 +1646,8 @@ window.rawChannels2 = [
         "name": "Colors",
         "sources": [
             {
-                "name": "Server 3",
-                "url": "https://anywhere.pwisetthon.com/http://103.99.249.139/colors/index.m3u8",
+                "name": "Server 4",
+                "url": "https://anywhere.pwisetthon.com/http://203.18.159.115/COLORSHD/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ],
@@ -3555,7 +3560,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (47 channels, 12 with 🔐 DRM)
+    // MOVIE (48 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3786,6 +3791,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/sxWcXTg4/cj.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Colors Bangla Cinema",
+        "sources": [
+            {
+                "name": "Playlist",
+                "url": "https://anywhere.pwisetthon.com/http://203.18.159.115/COLORSBANGLACINEMA/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Colors_Bangla_Cinema.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4276,7 +4295,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (35 channels)
+    // MUSIC (34 channels)
     // ==================================================
 
     {
@@ -4415,11 +4434,6 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://tplay.live/tplay/playout/209587/master.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://anywhere.pwisetthon.com/https://live20.bozztv.com/giatvplayout7/giatv-209587/tracks-v1a1/mono.ts.m3u8",
                 "type": "hls"
             }
         ],
@@ -4560,20 +4574,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/7L2vCFnH/josh-fw.png",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5095,7 +5095,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (34 channels, 11 with 🔐 DRM)
+    // OTHERS (34 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5526,13 +5526,9 @@ window.rawChannels2 = [
         "name": "National Geographic Wild",
         "sources": [
             {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
-                    "key": "adf163c6c1729e6f77668d4e49f32352"
-                }
+                "name": "Server 1",
+                "url": "https://anywhere.pwisetthon.com/http://203.18.159.115/NATGEOWILDHD/tracks-v1a1/mono.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
@@ -5632,6 +5628,6 @@ window.rawChannels2 = [
 
 // SUMMARY - WITH DRM SUPPORT
 // Total channels: 363
-// Channels with DRM: 42
+// Channels with DRM: 41
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
