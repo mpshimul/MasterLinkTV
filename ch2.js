@@ -1,4 +1,4 @@
-// Generated: 2026-03-11 01:32 UTC
+// Generated: 2026-03-11 06:50 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -909,7 +909,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (6 channels, 1 with 🔐 DRM)
+    // SPORTS (5 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -936,11 +936,6 @@ window.rawChannels2 = [
             {
                 "name": "⚡ Server 1",
                 "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://cdn-7.pishow.tv/live/1161/master.m3u8",
                 "type": "hls"
             }
         ],
@@ -987,20 +982,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Star Sports 2",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1290,7 +1271,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (94 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (92 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1513,6 +1494,11 @@ window.rawChannels2 = [
                 "name": "⚡ Server 1",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/banglavision/index.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/PJxGv57P/banglavision.jpg",
@@ -1544,20 +1530,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/rFWQgTRD/boishakhi.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Bol Entertainment",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/BOL_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/HstckCdt/bol-ent.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2340,20 +2312,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Sab Entertainment",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/SAB_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGE8uyneXAmDlEikCnonDG2YX9SxfvfWnFWg&s",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "SATV",
         "sources": [
             {
@@ -2490,6 +2448,11 @@ window.rawChannels2 = [
             {
                 "name": "Server 2",
                 "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 3",
+                "url": "https://anywhere.pwisetthon.com/http://203.18.159.115/STARJALSHAHD/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ],
@@ -3588,7 +3551,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (48 channels, 12 with 🔐 DRM)
+    // MOVIE (49 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3903,6 +3866,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/d66J-MMZ06-55gkF5maclPGB5f5j1L0SAs3iWnl3lhoswlWrJ67wD2a3mZGkgHgt-W3kMrIT=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Jalsha Movies",
+        "sources": [
+            {
+                "name": "Playlist",
+                "url": "https://anywhere.pwisetthon.com/http://203.18.159.115/JALSHAMOVIESHD/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.indiantvinfo.com/media/2022/12/Jalsha-Movies-Logo.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5142,7 +5119,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (34 channels, 10 with 🔐 DRM)
+    // OTHERS (35 channels, 11 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5552,15 +5529,33 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic Wild",
+        "name": "National Geographic",
         "sources": [
             {
                 "name": "Server 1",
-                "url": "https://anywhere.pwisetthon.com/http://203.18.159.115/NATGEOWILDHD/tracks-v1a1/mono.m3u8",
+                "url": "https://anywhere.pwisetthon.com/http://203.18.159.115/NATGEOHD/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ],
-        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
+        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
+        "name": "National Geographic",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "6d647aff767c453daa5fb54a44c783c6",
+                    "key": "2f971e6a1cc58e7085afc761a3f13162"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -5674,7 +5669,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 366
-// Channels with DRM: 41
+// Total channels: 365
+// Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
