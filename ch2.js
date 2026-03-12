@@ -1,11 +1,11 @@
-// Generated: 2026-03-12 01:33 UTC
+// Generated: 2026-03-12 06:55 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (56 channels, 4 with 🔐 DRM)
+    // NEWS (57 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -258,6 +258,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "DBC News",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/dbc/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/cJGD5HdQ/dbc.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "DD News",
         "sources": [
             {
@@ -399,6 +413,11 @@ window.rawChannels2 = [
             {
                 "name": "⚡ Server 1",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/jamuna/index.m3u8",
                 "type": "hls"
             },
             {
@@ -791,6 +810,11 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/somoy/index.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 3",
                 "url": "https://tplay.live/out/news/somoy-tv/index.m3u8",
                 "type": "hls"
@@ -983,7 +1007,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (19 channels, 3 with 🔐 DRM)
+    // KIDS (20 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1264,9 +1288,23 @@ window.rawChannels2 = [
         "description": "Kids Channel"
     },
 
+    {
+        "name": "Zoo Moo",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn.skygo.mn/live/disk1/Zoomoo/HLSv3-FTA/Zoomoo.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/3J0Thmrb/zoo-moo.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
 
     // ==================================================
-    // ENTERTAINMENT (84 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (85 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1460,6 +1498,11 @@ window.rawChannels2 = [
             {
                 "name": "⚡ Server 1",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/banglavision/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -1806,6 +1849,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://media.licdn.com/dms/image/v2/D560BAQHElejP-dKJhg/company-logo_200_200/company-logo_200_200/0/1667384842286/green_tv_digital_logo?e=2147483647&v=beta&t=W0t2EpmzgDhkORaqs2SaZt0-LaRukY7CzF82EmhnAK8",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "GTV",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/gazitv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/yNLC1Rfw/gtv.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2174,6 +2231,11 @@ window.rawChannels2 = [
         "name": "RTV",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/rtv/index.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/rtv.index.m3u8",
                 "type": "hls"
@@ -2318,11 +2380,6 @@ window.rawChannels2 = [
     {
         "name": "Star Jalsha",
         "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 3",
                 "url": "https://anywhere.pwisetthon.com/http://203.18.159.115/STARJALSHAHD/tracks-v1a1/mono.m3u8",
@@ -2520,7 +2577,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (56 channels, 4 with 🔐 DRM)
+    // NEWS (57 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2773,6 +2830,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "DBC News",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/dbc/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/cJGD5HdQ/dbc.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "DD News",
         "sources": [
             {
@@ -2914,6 +2985,11 @@ window.rawChannels2 = [
             {
                 "name": "⚡ Server 1",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/jamuna/index.m3u8",
                 "type": "hls"
             },
             {
@@ -3306,6 +3382,11 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/somoy/index.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 3",
                 "url": "https://tplay.live/out/news/somoy-tv/index.m3u8",
                 "type": "hls"
@@ -3400,7 +3481,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (48 channels, 12 with 🔐 DRM)
+    // MOVIE (47 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3849,20 +3930,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/xdVgw5yG/movie-box.png",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Movieplex",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt04.tangotv.in/MOVIEPLEX/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://www.lyngsat.com/logo/tv/mm/movieplex-in.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4424,20 +4491,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
         "name": "Kalaignar Murasu",
         "sources": [
             {
@@ -4593,6 +4646,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/3J8zY4yf/pm-fw.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Ragni TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt04.tangotv.in/RAGNITV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/Jzqh6SSX/tplay.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5509,7 +5576,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 355
+// Total channels: 358
 // Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
