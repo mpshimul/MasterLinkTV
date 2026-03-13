@@ -1,11 +1,11 @@
-// Generated: 2026-03-13 06:52 UTC
+// Generated: 2026-03-13 12:50 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (58 channels, 4 with 🔐 DRM)
+    // NEWS (64 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -108,6 +108,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Bloomberg Originals",
+        "sources": [
+            {
+                "name": "USA",
+                "url": "https://f56779ab.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1pbl9CbG9vbWJlcmdPcmlnaW5hbHNfSExT/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/vBbrwFKG/bloomberg-org.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Bloomberg Television",
         "sources": [
             {
@@ -146,6 +160,21 @@ window.rawChannels2 = [
             {
                 "name": "Arabic",
                 "url": "https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Español",
+                "url": "https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Français",
+                "url": "https://francais-livews.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Русский",
+                "url": "https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8",
                 "type": "hls"
             }
         ],
@@ -224,6 +253,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://play-lh.googleusercontent.com/375NW5yL8owK_hW9igW9sh-YJbda9ZcygpDXuVvK_R7l-yJp-fuhb4qvUw_FE4XW4ms",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "CNN Headlines",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mediapackage-ptcn-source.fullscreen.nz/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/3xKMbd8F/cnn-h.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -702,6 +745,34 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "NHK World",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn4.skygo.mn/live/disk1/NHK_World/HLSv3-FTA/NHK_World.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/dtxLjPmL/nhk-world.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Press TV",
+        "sources": [
+            {
+                "name": "Qatar",
+                "url": "https://live.presstv.ir/hls/presstv.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/mDpyYpdB/presstv.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Reuters",
         "sources": [
             {
@@ -711,6 +782,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/cHCwD43k/reuters-u.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "RT",
+        "sources": [
+            {
+                "name": "Qatar",
+                "url": "https://wisewatchoott.wiseplayout.com/RT/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/1280px-Russia-today-logo.svg.png",
         "category": "News",
         "description": "News Channel"
     },
@@ -825,6 +910,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "TOI Global",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.sli.ke/live/npnhm84gz9/fhd/stream.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/h4QwtVyC/toi.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "WION",
         "sources": [
             {
@@ -908,7 +1007,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (4 channels, 1 with 🔐 DRM)
+    // SPORTS (6 channels, 1 with 🔐 DRM)
     // ==================================================
 
     {
@@ -972,6 +1071,34 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports 1",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports 2",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1261,7 +1388,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (84 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (94 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1343,6 +1470,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Aaj Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/AAJ_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/dU-Bp46E2XlBaw376I_Boc-0lTEHgBrFJffOK4g1qQvQW5Ah00qL1IYGfWTYjekh8HibJb7nsQ=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Abzy Dhakad",
         "sources": [
             {
@@ -1403,6 +1544,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Jnd9k7Cy/anmol-tv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Ary Digital",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://mir-s3-cdn-cf.behance.net/projects/404/90ecb9218167821.Y3JvcCw1NzUzLDQ1MDAsMTEyNSww.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -1492,6 +1647,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/rFWQgTRD/boishakhi.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Bol Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/BOL_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/HstckCdt/bol-ent.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -1589,8 +1758,8 @@ window.rawChannels2 = [
         "name": "Colors",
         "sources": [
             {
-                "name": "Server 4",
-                "url": "https://anywhere.pwisetthon.com/http://203.18.159.115/COLORSHD/tracks-v1a1/mono.m3u8",
+                "name": "Server 3",
+                "url": "https://anywhere.pwisetthon.com/http://103.99.249.139/colors/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -1764,6 +1933,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Express Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/EXPRESS_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://r2.thesportsdb.com/images/media/channel/logo/sswurt1476662766.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Fakt Marathi",
         "sources": [
             {
@@ -1778,6 +1961,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Geo Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/GEO_ENTERTAINEMNT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/GpLH0TvJ/geo-ent.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Global TV",
         "sources": [
             {
@@ -1787,6 +1984,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SKncg0gg/globaltv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Green Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/GREEN_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOMJrXPGx1YIFBC6ogdcJ87M35xQjneLhKA&s",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -1829,6 +2040,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQot7JfQIDygBtPDLKqP4lomWHllkOpnhtrow&s",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Hum TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/HUM_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/NMyGY6FT/hum.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2077,6 +2302,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Mun TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/MUN_TV/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQFEQlJZEt9u8w/company-logo_200_200/company-logo_200_200/0/1697180175196?e=2147483647&v=beta&t=_qhFwyXTYEWa5QTTUDI3MwI8aefVr39xDxYKItDNLS0",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "My TV",
         "sources": [
             {
@@ -2199,6 +2438,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sab Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/SAB_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGE8uyneXAmDlEikCnonDG2YX9SxfvfWnFWg&s",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "SATV",
         "sources": [
             {
@@ -2302,6 +2555,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Sab",
+        "sources": [
+            {
+                "name": "Server 3",
+                "url": "https://anywhere.pwisetthon.com/http://103.99.249.139/sonysab/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/kMQ4KLhT/sab.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "SRK TV",
         "sources": [
             {
@@ -2318,6 +2585,11 @@ window.rawChannels2 = [
     {
         "name": "Star Jalsha",
         "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/starjalsha/index.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 3",
                 "url": "https://anywhere.pwisetthon.com/http://203.18.159.115/STARJALSHAHD/tracks-v1a1/mono.m3u8",
@@ -2515,7 +2787,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (58 channels, 4 with 🔐 DRM)
+    // NEWS (64 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2618,6 +2890,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Bloomberg Originals",
+        "sources": [
+            {
+                "name": "USA",
+                "url": "https://f56779ab.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1pbl9CbG9vbWJlcmdPcmlnaW5hbHNfSExT/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/vBbrwFKG/bloomberg-org.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Bloomberg Television",
         "sources": [
             {
@@ -2656,6 +2942,21 @@ window.rawChannels2 = [
             {
                 "name": "Arabic",
                 "url": "https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Español",
+                "url": "https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Français",
+                "url": "https://francais-livews.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Русский",
+                "url": "https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8",
                 "type": "hls"
             }
         ],
@@ -2734,6 +3035,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://play-lh.googleusercontent.com/375NW5yL8owK_hW9igW9sh-YJbda9ZcygpDXuVvK_R7l-yJp-fuhb4qvUw_FE4XW4ms",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "CNN Headlines",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mediapackage-ptcn-source.fullscreen.nz/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/3xKMbd8F/cnn-h.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -3212,6 +3527,34 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "NHK World",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn4.skygo.mn/live/disk1/NHK_World/HLSv3-FTA/NHK_World.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/dtxLjPmL/nhk-world.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Press TV",
+        "sources": [
+            {
+                "name": "Qatar",
+                "url": "https://live.presstv.ir/hls/presstv.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/mDpyYpdB/presstv.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "Reuters",
         "sources": [
             {
@@ -3221,6 +3564,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/cHCwD43k/reuters-u.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "RT",
+        "sources": [
+            {
+                "name": "Qatar",
+                "url": "https://wisewatchoott.wiseplayout.com/RT/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/1280px-Russia-today-logo.svg.png",
         "category": "News",
         "description": "News Channel"
     },
@@ -3335,6 +3692,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "TOI Global",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.sli.ke/live/npnhm84gz9/fhd/stream.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/h4QwtVyC/toi.jpg",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
         "name": "WION",
         "sources": [
             {
@@ -3418,7 +3789,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (47 channels, 12 with 🔐 DRM)
+    // MOVIE (48 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4020,6 +4391,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Star Gold",
+        "sources": [
+            {
+                "name": "Stream 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/stargold/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/7YJXRsp7/gold.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Superfine Films",
         "sources": [
             {
@@ -4514,11 +4899,6 @@ window.rawChannels2 = [
                 "name": "Server 1",
                 "url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://mumt05.tangotv.in/MUSICINDIA/index.m3u8",
-                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/QNYG5Kz9/music-india.jpg",
@@ -4734,7 +5114,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (16 channels)
+    // RELIGIOUS (15 channels)
     // ==================================================
 
     {
@@ -4864,20 +5244,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Peace TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
         "name": "Santvani Channel",
         "sources": [
             {
@@ -4963,7 +5329,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (36 channels, 11 with 🔐 DRM)
+    // OTHERS (35 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5401,24 +5767,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "6d647aff767c453daa5fb54a44c783c6",
-                    "key": "2f971e6a1cc58e7085afc761a3f13162"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "National Geographic Wild",
         "sources": [
             {
@@ -5527,7 +5875,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 357
-// Channels with DRM: 42
+// Total channels: 380
+// Channels with DRM: 41
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
