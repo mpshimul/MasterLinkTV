@@ -1,4 +1,4 @@
-// Generated: 2026-03-14 06:49 UTC
+// Generated: 2026-03-14 12:47 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1696,6 +1696,11 @@ window.rawChannels2 = [
                 "name": "⚡ Server 1",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/banglavision/index.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/PJxGv57P/banglavision.jpg",
@@ -1830,6 +1835,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/nL8s287H/channel-s.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Colors",
+        "sources": [
+            {
+                "name": "Server 3",
+                "url": "https://anywhere.pwisetthon.com/http://103.99.249.139/colors/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/vBL4YjR8/colors.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2120,20 +2139,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOMJrXPGx1YIFBC6ogdcJ87M35xQjneLhKA&s",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Green TV",
-        "sources": [
-            {
-                "name": "Playlist",
-                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/chunks.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://media.licdn.com/dms/image/v2/D560BAQHElejP-dKJhg/company-logo_200_200/company-logo_200_200/0/1667384842286/green_tv_digital_logo?e=2147483647&v=beta&t=W0t2EpmzgDhkORaqs2SaZt0-LaRukY7CzF82EmhnAK8",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3944,7 +3949,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (49 channels, 12 with 🔐 DRM)
+    // MOVIE (48 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4379,20 +4384,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/vHRnL2MH/movie-bangla.jpg",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Movie Box",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/xdVgw5yG/movie-box.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -6081,7 +6072,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 393
+// Total channels: 392
 // Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
