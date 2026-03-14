@@ -1,4 +1,4 @@
-// Generated: 2026-03-14 01:37 UTC
+// Generated: 2026-03-14 06:49 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1459,7 +1459,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (99 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (98 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1696,11 +1696,6 @@ window.rawChannels2 = [
                 "name": "⚡ Server 1",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://anywhere.pwisetthon.com/http://tvn2.chowdhury-shaheb.com/banglavision/index.m3u8",
-                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/PJxGv57P/banglavision.jpg",
@@ -1835,20 +1830,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/nL8s287H/channel-s.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Colors",
-        "sources": [
-            {
-                "name": "Server 3",
-                "url": "https://anywhere.pwisetthon.com/http://103.99.249.139/colors/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/vBL4YjR8/colors.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3963,7 +3944,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (48 channels, 12 with 🔐 DRM)
+    // MOVIE (49 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4292,6 +4273,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/d66J-MMZ06-55gkF5maclPGB5f5j1L0SAs3iWnl3lhoswlWrJ67wD2a3mZGkgHgt-W3kMrIT=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Lotus Macau",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/6q0JD7ZB/lotus-macau.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5550,7 +5545,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (33 channels, 11 with 🔐 DRM)
+    // OTHERS (34 channels, 11 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5900,6 +5895,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "KITE Victers",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRw5j21VYGJhzIzhCA-EZ51uIbdDNMBe96CA&s",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Love Nature",
         "sources": [
             {
@@ -6072,7 +6081,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 392
+// Total channels: 393
 // Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
