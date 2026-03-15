@@ -1,11 +1,11 @@
-// Generated: 2026-03-15 12:48 UTC
+// Generated: 2026-03-15 18:41 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (63 channels, 4 with 🔐 DRM)
+    // NEWS (64 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -595,6 +595,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://media.licdn.com/dms/image/v2/C4D0BAQERZwk1iL4m_w/company-logo_200_200/company-logo_200_200/0/1631322422535?e=2147483647&v=beta&t=Dk2eJzcMflN0nQxbryoMPfaCZRSgCmlrPk4A6XbCebI",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Nagaland TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-6.pishow.tv/live/10014/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/44b5607770003fbe0016e2fcc76c1d27.png",
         "category": "News",
         "description": "News Channel"
     },
@@ -1308,7 +1322,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (92 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (93 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2497,6 +2511,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "STV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://amigofx.com:1936/stv/stv/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQT9jZUmc4W3Ir5GzczUlT0nuGJemYEecUhA&s",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Sudan TV",
         "sources": [
             {
@@ -2654,7 +2682,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (63 channels, 4 with 🔐 DRM)
+    // NEWS (64 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3244,6 +3272,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://media.licdn.com/dms/image/v2/C4D0BAQERZwk1iL4m_w/company-logo_200_200/company-logo_200_200/0/1631322422535?e=2147483647&v=beta&t=Dk2eJzcMflN0nQxbryoMPfaCZRSgCmlrPk4A6XbCebI",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Nagaland TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-6.pishow.tv/live/10014/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/44b5607770003fbe0016e2fcc76c1d27.png",
         "category": "News",
         "description": "News Channel"
     },
@@ -5134,7 +5176,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (33 channels, 11 with 🔐 DRM)
+    // OTHERS (34 channels, 11 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5262,6 +5304,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SjFpx6XX/discovery.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
+        "name": "Discovery Asia",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/7hkmbg85/d-asia.jpg",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -5651,7 +5707,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 368
+// Total channels: 372
 // Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
