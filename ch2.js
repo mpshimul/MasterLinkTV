@@ -1,4 +1,4 @@
-// Generated: 2026-03-16 07:21 UTC
+// Generated: 2026-03-16 13:10 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1322,7 +1322,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (84 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (86 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1455,6 +1455,11 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Playlist",
+                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/ananda-tv/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Playlist",
                 "url": "https://tplay.live/out/bangladesh/anandatv.index.m3u8",
                 "type": "hls"
             }
@@ -1486,7 +1491,12 @@ window.rawChannels2 = [
         "name": "Asian TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
+                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/asian-tv/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/asiantv.index.m3u8",
                 "type": "hls"
             }
@@ -1514,7 +1524,12 @@ window.rawChannels2 = [
         "name": "Bangla TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
+                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/bangla-tv/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/banglatv.index.m3u8",
                 "type": "hls"
             }
@@ -1542,7 +1557,12 @@ window.rawChannels2 = [
         "name": "Bijoy TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
+                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/bijoy-tv/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/bijoytv.index.m3u8",
                 "type": "hls"
             }
@@ -1626,8 +1646,8 @@ window.rawChannels2 = [
         "name": "Channel i",
         "sources": [
             {
-                "name": "⚡ Server 1",
-                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8",
+                "name": "Server 1",
+                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/channel-i/index.m3u8",
                 "type": "hls"
             },
             {
@@ -1645,7 +1665,12 @@ window.rawChannels2 = [
         "name": "Channel S",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
+                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/channel-s/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/channels.index.m3u8",
                 "type": "hls"
             }
@@ -1869,7 +1894,12 @@ window.rawChannels2 = [
         "name": "Global TV",
         "sources": [
             {
-                "name": "Playlist",
+                "name": "Server 1",
+                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/global-tv/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/globaltv.index.m3u8",
                 "type": "hls"
             }
@@ -2352,6 +2382,34 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://www.lyngsat.com/logo/tv/ss/siri-kannada-all-time-in.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Sony Aath",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/sony-aath/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/y8WtVLd6/sony-aath.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Sony Sab",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/sony-sab-hd/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/kMQ4KLhT/sab.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3548,7 +3606,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (44 channels, 12 with 🔐 DRM)
+    // MOVIE (47 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3694,12 +3752,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Server 1",
-                "url": "https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8",
+                "url": "https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/playlist.m3u8",
                 "type": "hls"
             },
             {
                 "name": "Server 2",
-                "url": "https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/playlist.m3u8",
+                "url": "https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8",
                 "type": "hls"
             }
         ],
@@ -3713,12 +3771,17 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Server 1",
-                "url": "https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8",
+                "url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8",
                 "type": "hls"
             },
             {
                 "name": "Server 2",
-                "url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8",
+                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/b4u-movies-apac/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 3",
+                "url": "https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8",
                 "type": "hls"
             }
         ],
@@ -4094,6 +4157,48 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Max",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/sony-max-hd/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/Z55d92mk/sony-max.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Sony Max 2",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/sony-max-2/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/DyM2gMGR/max2.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Sony Pix",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/sony-pix-hd/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/tggwMqHB/pix.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "South Station",
         "sources": [
             {
@@ -4227,7 +4332,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (35 channels)
+    // MUSIC (37 channels)
     // ==================================================
 
     {
@@ -4351,6 +4456,11 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Stream 1",
+                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/b4u-music/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 2",
                 "url": "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8",
                 "type": "hls"
             }
@@ -4383,21 +4493,7 @@ window.rawChannels2 = [
                 "type": "hls"
             }
         ],
-        "img": "https://i.postimg.cc/FHprhdVG/ch-fw.png",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "Dabangg",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt01.tangotv.in/DABANGG/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/j21NsgJD/dabangg.jpg",
+        "img": "https://i.postimg.cc/Kvbgc7YM/classic-hits.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -4478,6 +4574,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Evergreen Hits",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://mumt02.tangotv.in/EVERGREENHITS2/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/vTg1kDqw/evergreen-hits2.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Hindi Hits",
         "sources": [
             {
@@ -4486,7 +4596,7 @@ window.rawChannels2 = [
                 "type": "hls"
             }
         ],
-        "img": "https://i.postimg.cc/QxsVs3rq/hh-fw.png",
+        "img": "https://i.postimg.cc/LsxnsjGm/hindi-hits.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -4573,11 +4683,6 @@ window.rawChannels2 = [
                 "name": "⚡ Stream 1",
                 "url": "https://d1taaads3ztvmu.cloudfront.net/120723/mastii/chunklist.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "Stream 2",
-                "url": "https://mumt02.tangotv.in/MASTIII/index.m3u8",
-                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/L4f6PQnh/mastiii.jpg",
@@ -4594,7 +4699,7 @@ window.rawChannels2 = [
                 "type": "hls"
             }
         ],
-        "img": "https://i.postimg.cc/vTzwY5LW/mh-fw.png",
+        "img": "https://i.postimg.cc/KYpnR1HC/melody-hits.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -4694,6 +4799,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Ragni TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt04.tangotv.in/RAGNITV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/Jzqh6SSX/tplay.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Raj Musix Malayalam",
         "sources": [
             {
@@ -4764,6 +4883,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/ytc/AIdro_krsl3aXY8SdNBmq2U_JLwb8OsIzHGOR1nbrlaq_h8MvRI=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Steelbird Music",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://cdn2.in/SteelbirdMusicTVhls/live.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/93926d5dd30455efa55a1c0a3bb797e9.png",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5586,7 +5719,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 363
+// Total channels: 370
 // Channels with DRM: 42
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
