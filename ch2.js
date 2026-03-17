@@ -1,4 +1,4 @@
-// Generated: 2026-03-17 01:53 UTC
+// Generated: 2026-03-17 07:08 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1067,7 +1067,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (16 channels, 3 with 🔐 DRM)
+    // KIDS (28 channels, 6 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1183,6 +1183,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Afro Kiddos",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=13775",
+                "type": "hls"
+            }
+        ],
+        "img": "https://img2.static-ottera.com/prod/tg/linear_channel/thumbnails/widescreen/640x360/B_-dvleanz-xCmycNaftzR56Q_q1iIjayGtFcKA_ILc.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
         "name": "Animax",
         "sources": [
             {
@@ -1215,6 +1229,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Camp Spoopy",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=264",
+                "type": "hls"
+            }
+        ],
+        "img": "https://img3.static-ottera.com/prod/tg/linear_channel/logo/640x360/camp-spoopy-2021_1920-x-1080_option-5.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
         "name": "Cartoon Network",
         "sources": [
             {
@@ -1242,6 +1270,102 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Gt38t22F/d-kids.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "Disney Channel",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://dash2.antik.sk/stream/hisi_disney_channel/playlist_cbcs.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "11223344556677889900112233445566",
+                    "key": "4b80724d0ef86bcb2c21f7999d67739d"
+                }
+            }
+        ],
+        "img": "https://images.seeklogo.com/logo-png/25/1/new-disney-channel-logo-png_seeklogo-255285.png",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "Disney Junior",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://dash2.antik.sk/stream/hisi_disney_jr/playlist_cbcs.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "11223344556677889900112233445566",
+                    "key": "edef8ba979d64acea3c827dcd51d21ed"
+                }
+            }
+        ],
+        "img": "https://cms-media.clink.services/Mobile_ree4ih.png",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "Disney XD",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://dash2.antik.sk/stream/hisi_disney_jr/playlist_cbcs.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "11223344556677889900112233445566",
+                    "key": "4b80724d0ef86bcb2c21f7999d67739d"
+                }
+            }
+        ],
+        "img": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/CD4826FEC87B2F49DC854B8A74BDACD5AB6C21056C3833D1A0AC77158E76DA12/compose?aspectRatio=1.78&format=webp&width=600",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "Eddie's Wonderland",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=294",
+                "type": "hls"
+            }
+        ],
+        "img": "https://img2.static-ottera.com/prod/tg/linear_channel/thumbnails/widescreen/480x270/eddies-wonderland-2021_d.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "Gross Out TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=41",
+                "type": "hls"
+            }
+        ],
+        "img": "https://img2.static-ottera.com/prod/tg/linear_channel/thumbnails/widescreen/640x360/gross-out-1920-x-1080-.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "Kids Flix",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50",
+                "type": "hls"
+            }
+        ],
+        "img": "https://play-lh.googleusercontent.com/hMM6boFl8BdsgqeHAycUoyNnyRJZSSeFXPAqA2FesVAxqwjzOVEMoNXMl8-JncB1ZU4",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -1302,6 +1426,62 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Z5bg3drK/rongeen.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "Sparkle Power",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=35",
+                "type": "hls"
+            }
+        ],
+        "img": "https://img2.static-ottera.com/prod/tg/linear_channel/thumbnails/widescreen/640x360/sparkle-power-1920-x-1080.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "TG Junior",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=31",
+                "type": "hls"
+            }
+        ],
+        "img": "https://img3.static-ottera.com/prod/tg/linear_channel/thumbnails/widescreen/480x270/tgjr_1.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "Toon Googles",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=33",
+                "type": "hls"
+            }
+        ],
+        "img": "https://play-lh.googleusercontent.com/AU1wSj49k4rUyt2jv_1Ui3uYwAJIM90tAChT9JMNsqcB2FsVA9bF4fuT27uqn3uDCYk=w240-h480-rw",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "Zoo Moo",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=40",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/3J0Thmrb/zoo-moo.jpg",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -1427,25 +1607,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Yq9H0sLb/Abzy-Dhakad.png",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Akash Aath",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt03.tangotv.in/AAKASHAATH/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://cdn-4.pishow.tv/live/969/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/WzkcbSSJ/akash-aath.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2319,6 +2480,25 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Peppers",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://d1msejlow1t3l4.cloudfront.net/fta/peppers/chunks.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://cdn-2.pishow.tv/live/1383/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/ytc/AIdro_lRqWi7GK5UoOeKQs1hPj38bMyqPBwEo35pwDVGaw3Qbqs=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "R Plus Gold",
         "sources": [
             {
@@ -2342,6 +2522,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/0a5c79b522b0934ea9b2806dd9b8339f.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Rengoni",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt05.tangotv.in/RENGONI/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://pbs.twimg.com/profile_images/880366209404776451/d8zE7-fu.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2515,20 +2709,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://static.wikia.nocookie.net/logopedia/images/c/cc/Sudan_TV_logo_2000.png",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Tamilan TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/6c862e3b037757f287141c2d553da1b1.png",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3655,7 +3835,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (43 channels, 12 with 🔐 DRM)
+    // MOVIE (45 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3787,6 +3967,11 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Server 1",
+                "url": "https://mumt05.tangotv.in/B4UBHOJPURI/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
                 "url": "https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8",
                 "type": "hls"
             }
@@ -3806,6 +3991,11 @@ window.rawChannels2 = [
             },
             {
                 "name": "Server 2",
+                "url": "https://mumt02.tangotv.in/B4UKADAK/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 3",
                 "url": "https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8",
                 "type": "hls"
             }
@@ -3821,6 +4011,11 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://mumt02.tangotv.in/B4UMOVIES/index.m3u8",
                 "type": "hls"
             },
             {
@@ -4012,6 +4207,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Maha_Movies.png",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "MIX Hollywood",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/KvFqjytv/mix-h.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4215,6 +4424,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "TG Movies",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=286",
+                "type": "hls"
+            }
+        ],
+        "img": "https://img1.static-ottera.com/prod/tg/linear_channel/logo/480x270/tg-movies-1920-x-1080_1.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "The Movie Club",
         "sources": [
             {
@@ -4320,7 +4543,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (36 channels)
+    // MUSIC (41 channels)
     // ==================================================
 
     {
@@ -4443,7 +4666,22 @@ window.rawChannels2 = [
         "name": "B4U Music",
         "sources": [
             {
+                "name": "Stream 1",
+                "url": "https://mumt04.tangotv.in/B4UMUSIC/index.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Stream 2",
+                "url": "https://cdn-2.pishow.tv/live/415/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 3",
+                "url": "https://mumbai-edge.smartplaytv.in/B4uMusic/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 4",
                 "url": "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8",
                 "type": "hls"
             }
@@ -4599,6 +4837,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Joo Music",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://image.roku.com/developer_channels/prod/9cf63093182d69095ae19a443776978bb2398161ccc2dbda94e71f200b85f511.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Josh TV",
         "sources": [
             {
@@ -4608,6 +4860,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/7L2vCFnH/josh-fw.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "K Pop",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -4641,20 +4907,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/575e7238007c7695a7c2bc5d7b6d0ff9.png",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "Mastiii",
-        "sources": [
-            {
-                "name": "⚡ Stream 1",
-                "url": "https://d1taaads3ztvmu.cloudfront.net/120723/mastii/chunklist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/L4f6PQnh/mastiii.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -4697,6 +4949,25 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/7PmcCFcy/nh-bollyraga.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Only Music",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://mumbai-edge.smartplaytv.in/OnlyMusic/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 2",
+                "url": "https://livestream.unlimitedcdn.com/onlymusic/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/shows/2026-03-12/260312903011.jpg?width=700",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -4749,6 +5020,39 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Public Music",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-3.pishow.tv/live/441/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://mumbai-edge.smartplaytv.in/publicmusickannada/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_3rFEtXJ4KScIt6kwtLeGN-ZwdSiBA4UZJg&s",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Punjabi Hits",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://legitpro.co.in/punjabihits/punjabihits/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://play-lh.googleusercontent.com/Z5eBTFh01UZmECMBw2buJ3i2mWeRKYu3jgYrmN-byioWwpzOrCImYR6LRAtd53QrueM",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Punjabi Music HD",
         "sources": [
             {
@@ -4786,6 +5090,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgZKDNWTOu4vLY0Wsn1xmHlLPjnpgQQtIT6Q&s",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Raj Musix Telugu",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://mumt02.tangotv.in/RAJMUSIXTELUGU/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/Raj-Musi-Telugu_TV_white.png",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5152,7 +5470,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (31 channels, 9 with 🔐 DRM)
+    // OTHERS (37 channels, 11 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5267,6 +5585,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Cooking Panda",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=46",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/ytc/AIdro_m7_6cQOwZKkI-RxzJE3e85oFdMoFBEX5iJIrUcOBwEG6A=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Discovery",
         "sources": [
             {
@@ -5280,6 +5612,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SjFpx6XX/discovery.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
+        "name": "Discovery Asia",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/7hkmbg85/d-asia.jpg",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -5386,6 +5732,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://cdn.sportika.net/cropped-foodie-hub(1).png",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
+        "name": "Guinness World Records",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=567",
+                "type": "hls"
+            }
+        ],
+        "img": "https://img1.static-ottera.com/prod/tg/linear_channel/logo/480x270/grw_updated.jpg",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -5543,6 +5903,56 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Miami TV Fashion",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16283",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW-_x4R5nZ7pvTIvA2oMe2OYHORoTytxVMqw&s",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
+        "name": "National Geographic",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "6d647aff767c453daa5fb54a44c783c6",
+                    "key": "2f971e6a1cc58e7085afc761a3f13162"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
+        "name": "National Geographic Wild",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
+                    "key": "adf163c6c1729e6f77668d4e49f32352"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5633,7 +6043,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 368
-// Channels with DRM: 40
+// Total channels: 393
+// Channels with DRM: 45
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
