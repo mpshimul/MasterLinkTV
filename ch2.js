@@ -1,4 +1,4 @@
-// Generated: 2026-03-17 07:08 UTC
+// Generated: 2026-03-17 13:09 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -997,7 +997,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (4 channels, 1 with 🔐 DRM)
+    // SPORTS (10 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1005,15 +1005,51 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔐 Server 1",
-                "url": "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
+                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein1)/master.mpd",
                 "type": "dash",
                 "drm": {
-                    "kid": "335DAD778109954503DCBB21DC92015F",
-                    "key": "24bfd75d436cbf73168a2a2dccd40281"
+                    "kid": "d48b6088253c443eb94d27cb7828f707",
+                    "key": "e9776141f9e949273a072b0e035070ab"
                 }
             }
         ],
         "img": "https://i.postimg.cc/dQBQkL01/bein1.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Bein Sports 2",
+        "sources": [
+            {
+                "name": "🔐 Server 1",
+                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein2)/master.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "efa6ff1acefa43048e8b7adc21d98871",
+                    "key": "5d0f448b52a92035e3763c4a60275933"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/RZjv5tgh/bein2.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Bein Sports 3",
+        "sources": [
+            {
+                "name": "🔐 Server 1",
+                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein3)/master.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "816ee2f7c19f49ed84276f34541b465b",
+                    "key": "ca764a9973b6123a1112cffd3b32010d"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/bJRPtBpR/bein3.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1041,9 +1077,13 @@ window.rawChannels2 = [
         "name": "Live 2",
         "sources": [
             {
-                "name": "⚡ Server 1",
-                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1707/output/index.m3u8",
-                "type": "hls"
+                "name": "🔐 Server 1",
+                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein4)/master.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "d561ff976397473e9b456b44cdffcdd2",
+                    "key": "2b6cff42f7fae7e8bc32f3d5c62dc3c2"
+                }
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
@@ -1065,9 +1105,81 @@ window.rawChannels2 = [
         "description": "Sports Channel"
     },
 
+    {
+        "name": "Premier Sports",
+        "sources": [
+            {
+                "name": "🔐 Server 1",
+                "url": "https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_ps_hd1/default/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "b8b595299fdf41c1a3481fddeb0b55e4",
+                    "key": "cd2b4ad0eb286239a4a022e6ca5fd007"
+                }
+            }
+        ],
+        "img": "https://i.imgur.com/GTfUEnU.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Premier Sports 2",
+        "sources": [
+            {
+                "name": "🔐 Server 1",
+                "url": "https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/premiersports2hd/default/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "59454adb530b4e0784eae62735f9d850",
+                    "key": "61100d0b8c4dd13e4eb8b4851ba192cc"
+                }
+            }
+        ],
+        "img": "https://i.imgur.com/OWVR172.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "SPOTV",
+        "sources": [
+            {
+                "name": "🔐 Server 1",
+                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(spoTV)/master.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "5b593bd530f1403a8f3eb9b2cd9236c8",
+                    "key": "d07c6a7f0b37a4090341e6380ff85060"
+                }
+            }
+        ],
+        "img": "https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A5BC0-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=222",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "SPOTV 2",
+        "sources": [
+            {
+                "name": "🔐 Server 1",
+                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(spoTV2)/master.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "1af079fb8e1d43d890c1d804431ad84c",
+                    "key": "3dc40bc5aaf09af8b1572646a45b1242"
+                }
+            }
+        ],
+        "img": "https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A6A70-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=222",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
 
     // ==================================================
-    // KIDS (28 channels, 6 with 🔐 DRM)
+    // KIDS (30 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1403,6 +1515,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Nickelodeon",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Nickelodeon)/master.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "9b10e787fac84ff484c8c7d7f7668925",
+                    "key": "7d7d3793e4489f6ebc50d002e4bdbd44"
+                }
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Nickelodeon_2023_logo.png",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
         "name": "Power Kids",
         "sources": [
             {
@@ -1426,6 +1556,24 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Z5bg3drK/rongeen.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "Sony Yay Tamil",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(SonyYay)/master.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "582e9e382cb0495886afbabdbdb6fbf7",
+                    "key": "c0f550839b235443724cd007392b6e40"
+                }
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/7a5c1a5aa0cd931646a7d3d078a740bc.png",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -1476,6 +1624,11 @@ window.rawChannels2 = [
         "name": "Zoo Moo",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://cdn.skygo.mn/live/disk1/Zoomoo/HLSv3-FTA/Zoomoo.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 2",
                 "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=40",
                 "type": "hls"
@@ -1488,7 +1641,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (93 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (97 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1612,6 +1765,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Akash Aath",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt03.tangotv.in/AAKASHAATH/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/WzkcbSSJ/akash-aath.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Ananda TV",
         "sources": [
             {
@@ -1709,6 +1876,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/PJxGv57P/banglavision.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Big Magic",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt05.tangotv.in/BIGMAGIC/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTshxArWWUTWYmwlcIZGhOXbTw5GraQkf4xjA&s",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2714,6 +2895,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Tamilan TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/6c862e3b037757f287141c2d553da1b1.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Tara TV",
         "sources": [
             {
@@ -2783,6 +2978,24 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/wj9Q6Mj6/zee-bangla.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Zee Tamil",
+        "sources": [
+            {
+                "name": "🔐 HD",
+                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(ZeeTamil)/master.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "06e1831ba6f946568bdea62e67ca7317",
+                    "key": "f02c40d2006e036104f7726116861d7c"
+                }
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXAQ8QqR_jJq1z3OK7yqDPRTixOPnGVbF-Zg&s",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3835,7 +4048,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (45 channels, 12 with 🔐 DRM)
+    // MOVIE (47 channels, 13 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4212,6 +4425,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "MH1 Movies",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt03.tangotv.in/MHONEMOVIE/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.lyngsat.com/logo/tv/mm/mh-1-movies-in.png",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "MIX Hollywood",
         "sources": [
             {
@@ -4537,6 +4764,24 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/d61eef03af878ccecfe169b26b6686b0.png",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Zee Thirai",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(ZeeThi)/master.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "bd7282e920e5437a9b1f01bc6f81795c",
+                    "key": "99763370f0763b0f7119aab091cc70c8"
+                }
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKupv9Pff-n6hztryy-Es9h8SCXlxvtmFp4w&s",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4976,11 +5221,6 @@ window.rawChannels2 = [
         "name": "Oxygen Music",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://tplay.live/tplay/playout/209901/master.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 2",
                 "url": "https://live20.bozztv.com/giatvplayout7/giatv-209901/tracks-v1a1/mono.ts.m3u8",
                 "type": "hls"
@@ -5097,6 +5337,11 @@ window.rawChannels2 = [
     {
         "name": "Raj Musix Telugu",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-1.pishow.tv/live/1213/master.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 2",
                 "url": "https://mumt02.tangotv.in/RAJMUSIXTELUGU/index.m3u8",
@@ -5470,7 +5715,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (37 channels, 11 with 🔐 DRM)
+    // OTHERS (36 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5917,24 +6162,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "6d647aff767c453daa5fb54a44c783c6",
-                    "key": "2f971e6a1cc58e7085afc761a3f13162"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "National Geographic Wild",
         "sources": [
             {
@@ -6043,7 +6270,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 393
-// Channels with DRM: 45
+// Total channels: 406
+// Channels with DRM: 55
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
