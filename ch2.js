@@ -1,4 +1,4 @@
-// Generated: 2026-03-17 13:09 UTC
+// Generated: 2026-03-17 19:04 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1623,11 +1623,6 @@ window.rawChannels2 = [
     {
         "name": "Zoo Moo",
         "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn.skygo.mn/live/disk1/Zoomoo/HLSv3-FTA/Zoomoo.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 2",
                 "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=40",
@@ -4788,7 +4783,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (41 channels)
+    // MUSIC (37 channels)
     // ==================================================
 
     {
@@ -4993,20 +4988,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Dhoom Music Bangla",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt03.tangotv.in/DHOOM/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/26RpwgN5/dmb-music.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
         "name": "E 24",
         "sources": [
             {
@@ -5021,20 +5002,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/wBKM5G7V/e-24.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "Ekamra Musiq",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live.ekamraott.com/musiq/musiq/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/vmqxMQvJ/ekamra-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5105,20 +5072,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/7L2vCFnH/josh-fw.png",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5221,6 +5174,11 @@ window.rawChannels2 = [
         "name": "Oxygen Music",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://tplay.live/tplay/playout/209901/master.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 2",
                 "url": "https://live20.bozztv.com/giatvplayout7/giatv-209901/tracks-v1a1/mono.ts.m3u8",
                 "type": "hls"
@@ -5302,20 +5260,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/3J8zY4yf/pm-fw.png",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "Ragni TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt04.tangotv.in/RAGNITV/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/Jzqh6SSX/tplay.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5472,7 +5416,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (17 channels)
+    // RELIGIOUS (16 channels)
     // ==================================================
 
     {
@@ -5513,20 +5457,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://www.sikhentrepreneur.com/wp-content/uploads/2013/09/akaalch.png",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Ekamra Paramatma",
-        "sources": [
-            {
-                "name": "Originals",
-                "url": "https://live.ekamraott.com/paramatma/paramatma/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/zvM91RLJ/ekamra-paramatma.jpg",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -5715,7 +5645,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (36 channels, 10 with 🔐 DRM)
+    // OTHERS (37 channels, 11 with 🔐 DRM)
     // ==================================================
 
     {
@@ -6162,6 +6092,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "6d647aff767c453daa5fb54a44c783c6",
+                    "key": "2f971e6a1cc58e7085afc761a3f13162"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "National Geographic Wild",
         "sources": [
             {
@@ -6270,7 +6218,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 406
-// Channels with DRM: 55
+// Total channels: 402
+// Channels with DRM: 56
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
