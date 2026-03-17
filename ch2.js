@@ -1,4 +1,4 @@
-// Generated: 2026-03-16 19:06 UTC
+// Generated: 2026-03-17 01:53 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1067,7 +1067,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (17 channels, 3 with 🔐 DRM)
+    // KIDS (16 channels, 3 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1306,23 +1306,9 @@ window.rawChannels2 = [
         "description": "Kids Channel"
     },
 
-    {
-        "name": "Zoo Moo",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn.skygo.mn/live/disk1/Zoomoo/HLSv3-FTA/Zoomoo.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/3J0Thmrb/zoo-moo.jpg",
-        "category": "Kids",
-        "description": "Kids Channel"
-    },
-
 
     // ==================================================
-    // ENTERTAINMENT (95 channels, 7 with 🔐 DRM)
+    // ENTERTAINMENT (93 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1469,11 +1455,6 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Playlist",
-                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/ananda-tv/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Playlist",
                 "url": "https://tplay.live/out/bangladesh/anandatv.index.m3u8",
                 "type": "hls"
             }
@@ -1519,11 +1500,6 @@ window.rawChannels2 = [
         "name": "Asian TV",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/asian-tv/index.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/asiantv.index.m3u8",
                 "type": "hls"
@@ -1552,11 +1528,6 @@ window.rawChannels2 = [
         "name": "Bangla TV",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/bangla-tv/index.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/banglatv.index.m3u8",
                 "type": "hls"
@@ -1584,11 +1555,6 @@ window.rawChannels2 = [
     {
         "name": "Bijoy TV",
         "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/bijoy-tv/index.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/bijoytv.index.m3u8",
@@ -1688,11 +1654,6 @@ window.rawChannels2 = [
         "name": "Channel i",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/channel-i/index.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 3",
                 "url": "https://tplay.live/out/bangladesh/channeli.index.m3u8",
                 "type": "hls"
@@ -1706,11 +1667,6 @@ window.rawChannels2 = [
     {
         "name": "Channel S",
         "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/channel-s/index.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/channels.index.m3u8",
@@ -1963,11 +1919,6 @@ window.rawChannels2 = [
     {
         "name": "Global TV",
         "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/global-tv/index.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/globaltv.index.m3u8",
@@ -2508,34 +2459,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://www.lyngsat.com/logo/tv/ss/siri-kannada-all-time-in.png",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Sony Aath",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/sony-aath/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/y8WtVLd6/sony-aath.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Sony Sab",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/sony-sab-hd/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/kMQ4KLhT/sab.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3732,7 +3655,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (42 channels, 8 with 🔐 DRM)
+    // MOVIE (43 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3901,11 +3824,6 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
-                "name": "Server 2",
-                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/b4u-movies-apac/index.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 3",
                 "url": "https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8",
                 "type": "hls"
@@ -4071,6 +3989,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Lotus Macau",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/6q0JD7ZB/lotus-macau.png",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Maha Movie",
         "sources": [
             {
@@ -4085,15 +4017,37 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "MIX Hollywood",
+        "name": "MN+",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8",
-                "type": "hls"
+                "name": "🔐 Auto",
+                "url": "https://times-ott-live.akamaized.net/mnplus_wv_drm/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "40f019b86241d23ef075633fd7f1e927",
+                    "key": "058dec845bd340178a388edd104a015e"
+                }
             }
         ],
-        "img": "https://i.postimg.cc/KvFqjytv/mix-h.jpg",
+        "img": "https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/leazcc.jpeg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "MNX HD",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "40f019b86241d23ef075633fd7f1e927",
+                    "key": "058dec845bd340178a388edd104a015e"
+                }
+            }
+        ],
+        "img": "https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/vunjev.jpeg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4122,6 +4076,24 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://www.lyngsat.com/logo/tv/mm/movieplex-in.png",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Movies Now HD",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "40f019b86241d23ef075633fd7f1e927",
+                    "key": "058dec845bd340178a388edd104a015e"
+                }
+            }
+        ],
+        "img": "https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/wthfwe.jpeg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4183,6 +4155,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Romedy Now",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://times-ott-live.akamaized.net/romedynow_wv_drm/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "40f019b86241d23ef075633fd7f1e927",
+                    "key": "058dec845bd340178a388edd104a015e"
+                }
+            }
+        ],
+        "img": "https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/nchght.jpeg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Shemaroo Josh",
         "sources": [
             {
@@ -4192,48 +4182,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/pVJvTYkj/Shemaroo-josh.jpg",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Sony Max",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/sony-max-hd/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/Z55d92mk/sony-max.jpg",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Sony Max 2",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/sony-max-2/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/DyM2gMGR/max2.jpg",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Sony Pix",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/sony-pix-hd/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/tggwMqHB/pix.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4494,11 +4442,6 @@ window.rawChannels2 = [
     {
         "name": "B4U Music",
         "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://edge2.roarzone.info:8447/roarzone/edge3/b4u-music/index.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Stream 2",
                 "url": "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8",
@@ -5209,7 +5152,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (34 channels, 11 with 🔐 DRM)
+    // OTHERS (31 channels, 9 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5337,20 +5280,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SjFpx6XX/discovery.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Discovery Asia",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/7hkmbg85/d-asia.jpg",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -5614,42 +5543,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "6d647aff767c453daa5fb54a44c783c6",
-                    "key": "2f971e6a1cc58e7085afc761a3f13162"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "National Geographic Wild",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
-                    "key": "adf163c6c1729e6f77668d4e49f32352"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "Popular Science",
         "sources": [
             {
@@ -5740,7 +5633,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 373
-// Channels with DRM: 38
+// Total channels: 368
+// Channels with DRM: 40
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
