@@ -1,11 +1,11 @@
-// Generated: 2026-03-17 19:04 UTC
+// Generated: 2026-03-18 01:59 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (64 channels, 4 with 🔐 DRM)
+    // NEWS (62 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -534,34 +534,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/0a22e24d565a1f951c03e2008216de15.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "MBC TV Odisha",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt03.tangotv.in/MBCTV/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTcLnb_i5kxG-7DhXERKQ3kAZaQihpn8gvlA&s",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "MBCTV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt03.tangotv.in/MBCTV/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxtjnyTDqsFChVwz0ZS_ww_8GUFnjfnbXmxw&s",
         "category": "News",
         "description": "News Channel"
     },
@@ -1636,7 +1608,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (97 channels, 8 with 🔐 DRM)
+    // ENTERTAINMENT (87 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1732,20 +1704,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Aaj Entertainment",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/AAJ_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/dU-Bp46E2XlBaw376I_Boc-0lTEHgBrFJffOK4g1qQvQW5Ah00qL1IYGfWTYjekh8HibJb7nsQ=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "Abzy Dhakad",
         "sources": [
             {
@@ -1801,20 +1759,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Jnd9k7Cy/anmol-tv.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Ary Digital",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://mir-s3-cdn-cf.behance.net/projects/404/90ecb9218167821.Y3JvcCw1NzUzLDQ1MDAsMTEyNSww.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -1913,20 +1857,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/rFWQgTRD/boishakhi.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Bol Entertainment",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/BOL_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/HstckCdt/bol-ent.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2212,20 +2142,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Express Entertainment",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/EXPRESS_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://r2.thesportsdb.com/images/media/channel/logo/sswurt1476662766.png",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "Fakt Marathi",
         "sources": [
             {
@@ -2240,20 +2156,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Geo Entertainment",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/GEO_ENTERTAINEMNT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/GpLH0TvJ/geo-ent.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "Global TV",
         "sources": [
             {
@@ -2263,20 +2165,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SKncg0gg/globaltv.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Green Entertainment",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/GREEN_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOMJrXPGx1YIFBC6ogdcJ87M35xQjneLhKA&s",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2305,20 +2193,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQot7JfQIDygBtPDLKqP4lomWHllkOpnhtrow&s",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Hum TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/HUM_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/NMyGY6FT/hum.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2567,20 +2441,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Mun TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/MUN_TV/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQFEQlJZEt9u8w/company-logo_200_200/company-logo_200_200/0/1697180175196?e=2147483647&v=beta&t=_qhFwyXTYEWa5QTTUDI3MwI8aefVr39xDxYKItDNLS0",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "My TV",
         "sources": [
             {
@@ -2731,20 +2591,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Sab Entertainment",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/SAB_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGE8uyneXAmDlEikCnonDG2YX9SxfvfWnFWg&s",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "SATV",
         "sources": [
             {
@@ -2754,20 +2600,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/02nTdDvr/satv.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Shalini TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://stream.singamcloud.in/shalinitv/shalinitv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/oq4TNLaYR0tvJypHi2VH_wWn8MN2MijcMA0lJ3lSYAKn6ce8RjFPJYL_2eTygF18m8nOqcMN=s900-c-k-c0x00ffffff-no-rj",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3051,7 +2883,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (64 channels, 4 with 🔐 DRM)
+    // NEWS (62 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3580,34 +3412,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/0a22e24d565a1f951c03e2008216de15.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "MBC TV Odisha",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt03.tangotv.in/MBCTV/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTcLnb_i5kxG-7DhXERKQ3kAZaQihpn8gvlA&s",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "MBCTV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt03.tangotv.in/MBCTV/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxtjnyTDqsFChVwz0ZS_ww_8GUFnjfnbXmxw&s",
         "category": "News",
         "description": "News Channel"
     },
@@ -4783,7 +4587,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (37 channels)
+    // MUSIC (38 channels)
     // ==================================================
 
     {
@@ -5072,6 +4876,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/7L2vCFnH/josh-fw.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "K Pop",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5645,7 +5463,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (37 channels, 11 with 🔐 DRM)
+    // OTHERS (36 channels, 11 with 🔐 DRM)
     // ==================================================
 
     {
@@ -5787,20 +5605,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SjFpx6XX/discovery.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Discovery Asia",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/7hkmbg85/d-asia.jpg",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -6218,7 +6022,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 402
+// Total channels: 388
 // Channels with DRM: 56
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
