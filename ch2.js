@@ -1,4 +1,4 @@
-// Generated: 2026-03-18 19:03 UTC
+// Generated: 2026-03-19 01:58 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1179,7 +1179,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (29 channels, 8 with 🔐 DRM)
+    // KIDS (30 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1276,6 +1276,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/25T1j5cX/oggy2.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
+        "name": "24/7 Tom And Jerry",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/xd5gYkM8/tom-jerry.jpg",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -1627,7 +1641,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (89 channels, 8 with 🔐 DRM)
+    // ENTERTAINMENT (90 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2198,6 +2212,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SKncg0gg/globaltv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "GTV",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/gazitv/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/yNLC1Rfw/gtv.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3922,7 +3950,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (47 channels, 13 with 🔐 DRM)
+    // MOVIE (46 channels, 13 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4140,20 +4168,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/1z2YMvvc/Bhojpuri-Cinema.png",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Bongo Movies",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://streams2.sofast.tv/ptnr-runntv/title-Bongo_Movies/sofastplayout/restream/a02e1e3c-eeba-4339-88e1-d6f7e99669e2/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/BmBoIPeUL6mxko43qsipKqKc-tsdoZfE5Jl_kZXvgVNxsWOvN7UTqdMQl_6r1GB2fksOI91qXCw=s176-c-k-c0x00ffffff-no-rj-mo",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4662,65 +4676,43 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (40 channels)
+    // MUSIC (44 channels)
     // ==================================================
 
     {
         "name": "24/7 Music",
         "sources": [
             {
-                "name": "Hindi Music",
-                "url": "https://tplay.live/out/music/indian-music.index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Hindi Music 2",
-                "url": "https://tplay.live/out/music/indian-music2.index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "World Music",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/music/world-music.index.m3u8",
                 "type": "hls"
-            },
+            }
+        ],
+        "img": "https://i.postimg.cc/Jzqh6SSX/tplay.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "24/7 Music",
+        "sources": [
             {
-                "name": "World Music 2",
+                "name": "Server 1",
                 "url": "https://tplay.live/out/music/world-music2.index.m3u8",
                 "type": "hls"
-            },
+            }
+        ],
+        "img": "https://i.postimg.cc/Jzqh6SSX/tplay.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "24/7 Music",
+        "sources": [
             {
-                "name": "World Music 3",
-                "url": "https://tplay.live/out/music/world-music3.index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Arabic",
-                "url": "https://tplay.live/out/music/arabic-music.index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Adnan Sami Playlist",
-                "url": "https://tplay.live/playlist/music/adnan-sami/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Wind of Change Playlist",
-                "url": "https://tplay.live/playlist/music/wind-of-change/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Coke Studio Bangla Playlist",
-                "url": "https://tplay.live/playlist/music/coke-studio-bangla/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Dance Playlist",
-                "url": "https://tplay.live/playlist/music/dance-performance/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Bhojpuri Playlist",
-                "url": "https://tplay.live/playlist/music/bhojpuri/index.m3u8",
+                "name": "Server 1",
+                "url": "https://tplay.live/out/music/indian-music2.index.m3u8",
                 "type": "hls"
             }
         ],
@@ -4763,6 +4755,39 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "9X Jhakaas",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-3.pishow.tv/live/6/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://9xjio.wiseplayout.com/9X_Jhakaas/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/59f65220db9d688fbaadde26c62344f6.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "9X Tashan",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://9xjio.wiseplayout.com/9X_Tashan/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/34f7a758cc55df62756f64ee1ef78054.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "9XM",
         "sources": [
             {
@@ -4773,6 +4798,11 @@ window.rawChannels2 = [
             {
                 "name": "Stream 1",
                 "url": "https://wiselp.wiseplayout.com/9XM/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 3",
+                "url": "https://9xjio.wiseplayout.com/9XM/master.m3u8",
                 "type": "hls"
             }
         ],
@@ -5036,11 +5066,6 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://mumt05.tangotv.in/MUSICINDIA/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -6158,7 +6183,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 397
+// Total channels: 402
 // Channels with DRM: 56
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
