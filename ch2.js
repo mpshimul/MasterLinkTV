@@ -1,4 +1,4 @@
-// Generated: 2026-03-19 19:00 UTC
+// Generated: 2026-03-20 01:53 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -4255,7 +4255,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (49 channels, 14 with 🔐 DRM)
+    // MOVIE (48 channels, 14 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4613,20 +4613,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/d66J-MMZ06-55gkF5maclPGB5f5j1L0SAs3iWnl3lhoswlWrJ67wD2a3mZGkgHgt-W3kMrIT=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Lotus Macau",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/6q0JD7ZB/lotus-macau.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5788,7 +5774,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (18 channels)
+    // RELIGIOUS (17 channels)
     // ==================================================
 
     {
@@ -5941,20 +5927,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://www.lyngsat.com/logo/tv/pp/paras-gold-in.png",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Peace TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -6656,7 +6628,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 432
+// Total channels: 430
 // Channels with DRM: 58
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
