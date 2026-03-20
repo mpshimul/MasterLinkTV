@@ -1,11 +1,11 @@
-// Generated: 2026-03-20 01:53 UTC
+// Generated: 2026-03-20 06:58 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (65 channels, 4 with 🔐 DRM)
+    // NEWS (64 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -295,20 +295,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/c4y3Vd73/dd.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Ekamra Bharat",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live.ekamraott.com/bharat/bharat/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/02p7JKxy/ekamra-bharat.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -1373,6 +1359,11 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Urdu",
+                "url": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Urdu",
                 "url": "https://s3.ideationtec.live/Cartoon_Network/Cartoon_Network.m3u8",
                 "type": "hls"
             }
@@ -1643,11 +1634,6 @@ window.rawChannels2 = [
         "name": "Zoo Moo",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://cdn.skygo.mn/live/disk1/Zoomoo/HLSv3-FTA/Zoomoo.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 2",
                 "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=40",
                 "type": "hls"
@@ -1660,7 +1646,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (107 channels, 9 with 🔐 DRM)
+    // ENTERTAINMENT (106 channels, 9 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2357,11 +2343,6 @@ window.rawChannels2 = [
         "name": "Geo Entertainment",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/GEO_ENTERTAINEMNT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 2",
                 "url": "https://s3.ideationtec.live/GEO_Entertainment/GEO_Entertainment.m3u8",
                 "type": "hls"
@@ -2424,20 +2405,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQot7JfQIDygBtPDLKqP4lomWHllkOpnhtrow&s",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Hum TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/HUM_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/NMyGY6FT/hum.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3249,7 +3216,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (65 channels, 4 with 🔐 DRM)
+    // NEWS (64 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3539,20 +3506,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/c4y3Vd73/dd.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Ekamra Bharat",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live.ekamraott.com/bharat/bharat/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/02p7JKxy/ekamra-bharat.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -4255,7 +4208,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (48 channels, 14 with 🔐 DRM)
+    // MOVIE (47 channels, 14 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4506,34 +4459,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Ekamra Baiscope",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live.ekamraott.com/baiscope/baiscope/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/bvyDnGv4/baiscope.jpg",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Ekamra Cinema",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live.ekamraott.com/cynema/cynema/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/LsghdGxj/ekamra-cinema.jpg",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
         "name": "ETV Cinema",
         "sources": [
             {
@@ -4613,6 +4538,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/d66J-MMZ06-55gkF5maclPGB5f5j1L0SAs3iWnl3lhoswlWrJ67wD2a3mZGkgHgt-W3kMrIT=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Lotus Macau",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/6q0JD7ZB/lotus-macau.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5774,7 +5713,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (17 channels)
+    // RELIGIOUS (18 channels)
     // ==================================================
 
     {
@@ -5932,6 +5871,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Peace TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
         "name": "Santvani Channel",
         "sources": [
             {
@@ -6017,7 +5970,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (39 channels, 11 with 🔐 DRM)
+    // OTHERS (38 channels, 11 with 🔐 DRM)
     // ==================================================
 
     {
@@ -6159,20 +6112,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SjFpx6XX/discovery.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Discovery Asia",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/7hkmbg85/d-asia.jpg",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -6628,7 +6567,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 430
+// Total channels: 426
 // Channels with DRM: 58
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
