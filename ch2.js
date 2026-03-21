@@ -1,4 +1,4 @@
-// Generated: 2026-03-20 18:52 UTC
+// Generated: 2026-03-21 01:37 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -5125,7 +5125,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (49 channels)
+    // MUSIC (50 channels)
     // ==================================================
 
     {
@@ -5848,6 +5848,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Tarang Music",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://livetv.tarangplus.in/tarangmusic-origin/live/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/25rP5nCd/tarang-music.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "VEVO",
         "sources": [
             {
@@ -5891,7 +5905,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (16 channels)
+    // RELIGIOUS (17 channels)
     // ==================================================
 
     {
@@ -6035,6 +6049,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Peace TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
         "name": "Santvani Channel",
         "sources": [
             {
@@ -6120,7 +6148,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (38 channels, 10 with 🔐 DRM)
+    // OTHERS (39 channels, 11 with 🔐 DRM)
     // ==================================================
 
     {
@@ -6591,6 +6619,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "6d647aff767c453daa5fb54a44c783c6",
+                    "key": "2f971e6a1cc58e7085afc761a3f13162"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "National Geographic Wild",
         "sources": [
             {
@@ -6713,7 +6759,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 435
-// Channels with DRM: 58
+// Total channels: 438
+// Channels with DRM: 59
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
