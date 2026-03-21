@@ -1,4 +1,4 @@
-// Generated: 2026-03-21 12:47 UTC
+// Generated: 2026-03-21 18:40 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -5125,7 +5125,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (50 channels)
+    // MUSIC (48 channels)
     // ==================================================
 
     {
@@ -5171,20 +5171,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Jzqh6SSX/tplay.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "24hr K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/akamaissh101/ssh101/24hrkpoptv/chunks.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/4NSw2Y26/24h-kpop.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5505,20 +5491,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/yY6RNL41/joshtv.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5905,7 +5877,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (16 channels)
+    // RELIGIOUS (18 channels)
     // ==================================================
 
     {
@@ -6049,6 +6021,34 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Paras Gold",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt04.tangotv.in/PARASGOLD/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.lyngsat.com/logo/tv/pp/paras-gold-in.png",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Peace TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
         "name": "Santvani Channel",
         "sources": [
             {
@@ -6134,7 +6134,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (38 channels, 11 with 🔐 DRM)
+    // OTHERS (39 channels, 11 with 🔐 DRM)
     // ==================================================
 
     {
@@ -6276,6 +6276,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SjFpx6XX/discovery.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
+        "name": "Discovery Asia",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/7hkmbg85/d-asia.jpg",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -6731,7 +6745,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 436
+// Total channels: 437
 // Channels with DRM: 59
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
