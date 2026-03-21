@@ -57,7 +57,7 @@
             "Hindi 24 7": 2,
             "Bangla 24 7": 1
         },
-        "last_updated": "2026-03-21T06:33:20+00:00",
+        "last_updated": "2026-03-21T08:22:31+00:00",
         "source": "BD.m3u",
         "url": "https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u"
     },
@@ -11729,6 +11729,6 @@
     "metadata": {
         "version": "2.0",
         "format": "grouped",
-        "last_updated": "2026-03-21T06:33:20+00:00"
+        "last_updated": "2026-03-21T08:22:31+00:00"
     }
 }
