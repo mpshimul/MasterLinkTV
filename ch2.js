@@ -1,4 +1,4 @@
-// Generated: 2026-03-21 06:47 UTC
+// Generated: 2026-03-21 12:47 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -5125,7 +5125,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (49 channels)
+    // MUSIC (50 channels)
     // ==================================================
 
     {
@@ -5332,6 +5332,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/jSLNzXgM/Bengali-Beats.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Classic Hits",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://mumt03.tangotv.in/CLASSICHITS/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/Kvbgc7YM/classic-hits.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5891,7 +5905,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (17 channels)
+    // RELIGIOUS (16 channels)
     // ==================================================
 
     {
@@ -6035,20 +6049,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Peace TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
         "name": "Santvani Channel",
         "sources": [
             {
@@ -6134,7 +6134,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (39 channels, 11 with 🔐 DRM)
+    // OTHERS (38 channels, 11 with 🔐 DRM)
     // ==================================================
 
     {
@@ -6276,20 +6276,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SjFpx6XX/discovery.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Discovery Asia",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/7hkmbg85/d-asia.jpg",
         "category": "Others",
         "description": "Others Channel"
     },
@@ -6745,7 +6731,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 437
+// Total channels: 436
 // Channels with DRM: 59
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
