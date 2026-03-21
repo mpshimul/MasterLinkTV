@@ -1,4 +1,4 @@
-// Generated: 2026-03-21 01:37 UTC
+// Generated: 2026-03-21 06:47 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -5125,7 +5125,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (50 channels)
+    // MUSIC (49 channels)
     // ==================================================
 
     {
@@ -5332,20 +5332,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/jSLNzXgM/Bengali-Beats.png",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "Classic Hits",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://mumt03.tangotv.in/CLASSICHITS/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/Kvbgc7YM/classic-hits.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -6759,7 +6745,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 438
+// Total channels: 437
 // Channels with DRM: 59
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
