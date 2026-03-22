@@ -1,4 +1,4 @@
-// Generated: 2026-03-22 12:50 UTC
+// Generated: 2026-03-22 18:41 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -4374,7 +4374,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (54 channels, 16 with 🔐 DRM)
+    // MOVIE (53 channels, 16 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4847,20 +4847,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Movie Box",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/xdVgw5yG/movie-box.png",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
         "name": "Movieplex",
         "sources": [
             {
@@ -5224,7 +5210,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (50 channels)
+    // MUSIC (49 channels)
     // ==================================================
 
     {
@@ -5938,20 +5924,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Steelbird Music",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://cdn2.in/SteelbirdMusicTVhls/live.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/93926d5dd30455efa55a1c0a3bb797e9.png",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
         "name": "Tarang Music",
         "sources": [
             {
@@ -6009,7 +5981,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (17 channels)
+    // RELIGIOUS (18 channels)
     // ==================================================
 
     {
@@ -6167,6 +6139,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Peace TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
         "name": "Santvani Channel",
         "sources": [
             {
@@ -6252,7 +6238,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (38 channels, 10 with 🔐 DRM)
+    // OTHERS (39 channels, 11 with 🔐 DRM)
     // ==================================================
 
     {
@@ -6741,6 +6727,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic Wild",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
+                    "key": "adf163c6c1729e6f77668d4e49f32352"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Popular Science",
         "sources": [
             {
@@ -6846,6 +6850,6 @@ window.rawChannels2 = [
 
 // SUMMARY - WITH DRM SUPPORT
 // Total channels: 444
-// Channels with DRM: 62
+// Channels with DRM: 63
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
