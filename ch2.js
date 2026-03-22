@@ -1,4 +1,4 @@
-// Generated: 2026-03-22 01:59 UTC
+// Generated: 2026-03-22 06:55 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -5829,7 +5829,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (17 channels)
+    // RELIGIOUS (18 channels)
     // ==================================================
 
     {
@@ -5926,6 +5926,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/BvfMPnSP/madani-bangla.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Mercy TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXMFfcf9s50fsWGifUc9Do21MCTfRN6Y9-yw&s",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -6683,7 +6697,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 434
+// Total channels: 435
 // Channels with DRM: 59
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
