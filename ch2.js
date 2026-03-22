@@ -1,4 +1,4 @@
-// Generated: 2026-03-22 06:55 UTC
+// Generated: 2026-03-22 12:50 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1039,7 +1039,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (11 channels, 8 with 🔐 DRM)
+    // SPORTS (12 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1127,6 +1127,11 @@ window.rawChannels2 = [
                 "name": "Server 1",
                 "url": "https://mix.drmlive.net/mix/playboxtv.m3u8?id=830835320",
                 "type": "hls"
+            },
+            {
+                "name": "Server 3",
+                "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00451-dazn-daznringside-lgus/playlist.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
@@ -1203,6 +1208,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Sports 5",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/sonyten3/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/qqgZ1jVH/ten5.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
         "name": "SPOTV",
         "sources": [
             {
@@ -1240,7 +1259,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (30 channels, 8 with 🔐 DRM)
+    // KIDS (31 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1632,6 +1651,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Yay",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/sonyyay/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/1413YzhR/yay.jpg",
+        "category": "Kids",
+        "description": "Kids Channel"
+    },
+
+    {
         "name": "Sony Yay Tamil",
         "sources": [
             {
@@ -1712,7 +1745,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (103 channels, 9 with 🔐 DRM)
+    // ENTERTAINMENT (108 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1938,6 +1971,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Bangla Drama",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://tplay.live/playlist/mix/bangla-drama.index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVAeszlFWlfcadc7jXVfQQnjZnGLWpMhcqPg&s",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Bangla TV",
         "sources": [
             {
@@ -2022,20 +2069,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Bongo Drama",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://streams2.sofast.tv/ptnr-runntv/title-Bongo_Drama/sofastplayout/restream/6509864e-6447-4085-9053-c643734bbc1c/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/-WoL9dA-we7-4A1cWu_SHjzRl7e0_sdMrr-lFrznSAIyn__k7Hs89hvW8jV3_DpYP9PzjBQikw=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "Brio TV",
         "sources": [
             {
@@ -2106,6 +2139,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/nL8s287H/channel-s.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Colors",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/colors/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/vBL4YjR8/colors.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2198,7 +2245,12 @@ window.rawChannels2 = [
         "name": "Deepto TV",
         "sources": [
             {
-                "name": "Server 2",
+                "name": "⚡ Server 1",
+                "url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 3",
                 "url": "https://tplay.live/out/bangladesh/deeptotv.index.m3u8",
                 "type": "hls"
             }
@@ -2985,6 +3037,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Sab",
+        "sources": [
+            {
+                "name": "Server 4",
+                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/sonysab/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/kMQ4KLhT/sab.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "SRK TV",
         "sources": [
             {
@@ -3124,6 +3190,60 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/wj9Q6Mj6/zee-bangla.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "ZEE Kannada",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeekannada/default/manifest.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "50e714b65ead453cbfab9b20bed5c79d",
+                    "key": "bc08e108b9ee4f65b99cb9dad9532f3f"
+                }
+            }
+        ],
+        "img": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/1PrOGXAh.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Zee Marathi",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeemarathi/default/manifest.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "2a8d6c938ea647248f7a10eedc39f097",
+                    "key": "7d81feb84ed84bd88fdc5ca9de3c16da"
+                }
+            }
+        ],
+        "img": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/4bimlHJj.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Zee Sarthak",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeesarthak/default/devil.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "ecad0b097b574078a4a1bde24bfdb2e5",
+                    "key": "568bb13d04db4b738864f6c849474cd5"
+                }
+            }
+        ],
+        "img": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/zee-sarthak.png",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -4254,7 +4374,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (50 channels, 15 with 🔐 DRM)
+    // MOVIE (54 channels, 16 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4326,7 +4446,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Playlist",
-                "url": "https://vods2.aynaott.com/hindimovies/index.m3u8",
+                "url": "https://tplay.live/playlist/movies/hindi-movies.index.m3u8",
                 "type": "hls"
             }
         ],
@@ -4847,6 +4967,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Shemaroo Bollywood",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/0NW9N0WT/Shemaroo-Bollywood.png",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Shemaroo Josh",
         "sources": [
             {
@@ -4861,6 +4995,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Max",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/sonymax/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/Z55d92mk/sony-max.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "South Station",
         "sources": [
             {
@@ -4870,6 +5018,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/FF8V2XHs/ss.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Star Gold",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/stargold/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/7YJXRsp7/gold.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5020,6 +5182,24 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Cinemalu.png",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "ZEE Talkies",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetalkies/default/manifest.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "f081f32756374c3d8265e1a1e029614e",
+                    "key": "356a3a6d8ce34d49a84ad464b20b1a3e"
+                }
+            }
+        ],
+        "img": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/VGfIqjrc.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5829,7 +6009,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (18 channels)
+    // RELIGIOUS (17 channels)
     // ==================================================
 
     {
@@ -5987,20 +6167,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Peace TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
         "name": "Santvani Channel",
         "sources": [
             {
@@ -6086,7 +6252,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (39 channels, 11 with 🔐 DRM)
+    // OTHERS (38 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -6575,24 +6741,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic Wild",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
-                    "key": "adf163c6c1729e6f77668d4e49f32352"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "Popular Science",
         "sources": [
             {
@@ -6697,7 +6845,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 435
-// Channels with DRM: 59
+// Total channels: 444
+// Channels with DRM: 62
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
