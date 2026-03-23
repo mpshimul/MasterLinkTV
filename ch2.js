@@ -1,4 +1,4 @@
-// Generated: 2026-03-23 01:58 UTC
+// Generated: 2026-03-23 07:17 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1039,7 +1039,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (12 channels, 8 with 🔐 DRM)
+    // SPORTS (16 channels, 8 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1125,7 +1125,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Server 1",
-                "url": "https://mix.drmlive.net/mix/playboxtv.m3u8?id=830835320",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://46.225.94.157/hls/espn/index.m3u8",
                 "type": "hls"
             },
             {
@@ -1253,6 +1253,77 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A6A70-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=222",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports 1",
+        "sources": [
+            {
+                "name": "Stream 2",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn1.chowdhury-shaheb.com/starsport1/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 3",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports 2",
+        "sources": [
+            {
+                "name": "Stream 2",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.99.249.139/starsport2/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 3",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 4",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn1.chowdhury-shaheb.com/starsport2/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "T Sports",
+        "sources": [
+            {
+                "name": "Server 3",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn1.chowdhury-shaheb.com/tsport/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/DZbVq4jM/t-sports.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Willow",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/L4b8S5Df/willow.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1745,7 +1816,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (112 channels, 12 with 🔐 DRM)
+    // ENTERTAINMENT (111 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -2112,11 +2183,6 @@ window.rawChannels2 = [
             {
                 "name": "⚡ Server 2",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 1",
-                "url": "https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/d96eb7f4-83c2-4472-9597-3568390a8ebf/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -2799,20 +2865,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://media0098.elcinema.com/tvguide/1371_1.png",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Mix One",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-hwc.myco.io/MixONE/hls/MixONE_H264-720p.m3u8?pkg_media=video&pkg_hm=index.m3u8&pkg_svc=1&pkg_vcodec=avc1",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/GNAHhu67wZNeTbEONgZbP-5l0w9qmBNjNcNtXEqg-8fq8UZsqKRmKDqtg5hgmAAph_bAqLfJ=s900-c-k-c0x00ffffff-no-rj",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -4455,7 +4507,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (54 channels, 16 with 🔐 DRM)
+    // MOVIE (55 channels, 16 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4803,6 +4855,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/VLCpyP4j/pishow-1459.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Goldmines Action",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt03.tangotv.in/GOLDMINESACTION/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/_X6U6bMLF-pTu5wBMFwsSI6aubGrXk2B0kUKdGiLIMqFLyDIne4Ot4ro76BS1S8fX3pWcCwS=s900-c-k-c0x00ffffff-no-rj",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5305,7 +5371,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (49 channels)
+    // MUSIC (50 channels)
     // ==================================================
 
     {
@@ -5771,6 +5837,11 @@ window.rawChannels2 = [
                 "name": "Server 1",
                 "url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://mumt05.tangotv.in/MUSICINDIA/index.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/QNYG5Kz9/music-india.jpg",
@@ -6014,6 +6085,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Steelbird Music",
+        "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://cdn2.in/SteelbirdMusicTVhls/live.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/93926d5dd30455efa55a1c0a3bb797e9.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Tarang Music",
         "sources": [
             {
@@ -6071,7 +6156,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (18 channels)
+    // RELIGIOUS (17 channels)
     // ==================================================
 
     {
@@ -6224,20 +6309,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://www.lyngsat.com/logo/tv/pp/paras-gold-in.png",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Peace TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -6939,7 +7010,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 449
+// Total channels: 453
 // Channels with DRM: 63
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
