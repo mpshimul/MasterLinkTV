@@ -1,4 +1,4 @@
-// Generated: 2026-03-23 13:04 UTC
+// Generated: 2026-03-23 18:55 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1264,6 +1264,11 @@ window.rawChannels2 = [
                 "name": "Stream 2",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn1.chowdhury-shaheb.com/starsport1/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Stream 3",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
@@ -1274,6 +1279,11 @@ window.rawChannels2 = [
     {
         "name": "Star Sports 2",
         "sources": [
+            {
+                "name": "Stream 2",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.99.249.139/starsport2/index.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Stream 4",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn1.chowdhury-shaheb.com/starsport2/index.m3u8",
@@ -5592,20 +5602,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "24hr K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/akamaissh101/ssh101/24hrkpoptv/chunks.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/4NSw2Y26/24h-kpop.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
         "name": "7S Music",
         "sources": [
             {
@@ -6142,6 +6138,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/d0f62zFZ/punjabi-musichd.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "Ragni TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt04.tangotv.in/RAGNITV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/SQcv7NPS/ragni.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
