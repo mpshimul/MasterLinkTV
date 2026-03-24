@@ -1,4 +1,4 @@
-// Generated: 2026-03-24 07:09 UTC
+// Generated: 2026-03-24 13:11 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1264,11 +1264,6 @@ window.rawChannels2 = [
                 "name": "Stream 2",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn1.chowdhury-shaheb.com/starsport1/index.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "Stream 3",
-                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
-                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
@@ -1279,16 +1274,6 @@ window.rawChannels2 = [
     {
         "name": "Star Sports 2",
         "sources": [
-            {
-                "name": "Stream 2",
-                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.99.249.139/starsport2/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Stream 3",
-                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Stream 4",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn1.chowdhury-shaheb.com/starsport2/index.m3u8",
@@ -1807,7 +1792,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (112 channels, 12 with 🔐 DRM)
+    // ENTERTAINMENT (113 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1991,6 +1976,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Ary Digital",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://mir-s3-cdn-cf.behance.net/projects/404/90ecb9218167821.Y3JvcCw1NzUzLDQ1MDAsMTEyNSww.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Asian TV",
         "sources": [
             {
@@ -2120,6 +2119,11 @@ window.rawChannels2 = [
         "name": "Bol Entertainment",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/BOL_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 2",
                 "url": "https://s2.ideationtec.live/BOL_Entertainment_HD/BOL_Entertainment_HD.m3u8",
                 "type": "hls"
@@ -2208,6 +2212,11 @@ window.rawChannels2 = [
     {
         "name": "Colors",
         "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/colors/index.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 4",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/colorshd/index.m3u8",
@@ -2466,6 +2475,11 @@ window.rawChannels2 = [
         "name": "Express Entertainment",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/EXPRESS_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 2",
                 "url": "https://s3.ideationtec.live/Express_Entertainment/Express_Entertainment.m3u8",
                 "type": "hls"
@@ -2494,6 +2508,11 @@ window.rawChannels2 = [
         "name": "Geo Entertainment",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/GEO_ENTERTAINEMNT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 2",
                 "url": "https://s3.ideationtec.live/GEO_Entertainment/GEO_Entertainment.m3u8",
                 "type": "hls"
@@ -2514,6 +2533,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SKncg0gg/globaltv.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Green Entertainment",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/GREEN_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOMJrXPGx1YIFBC6ogdcJ87M35xQjneLhKA&s",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2542,6 +2575,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQot7JfQIDygBtPDLKqP4lomWHllkOpnhtrow&s",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Hum TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/HUM_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/NMyGY6FT/hum.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2612,20 +2659,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5d7wjWkHY_VaaFcpji37s3CZwssMsXSxLZlgvTlgWYzfZBEexD1_f-ocxH0kBZBYitPA&usqp=CAU",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Kerala Vision",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt03.tangotv.in/KERALAVISION/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTysojarYeIH0HE_TtpZgiYAddCCvDS3_CBgA&s",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2846,6 +2879,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Mun TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/MUN_TV/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQFEQlJZEt9u8w/company-logo_200_200/company-logo_200_200/0/1697180175196?e=2147483647&v=beta&t=_qhFwyXTYEWa5QTTUDI3MwI8aefVr39xDxYKItDNLS0",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "My TV",
         "sources": [
             {
@@ -2940,20 +2987,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "R Plus Gold",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt03.tangotv.in/RPLUSGOLD/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/fbWdLj4y/rplusgold.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "Rang TV",
         "sources": [
             {
@@ -2998,6 +3031,11 @@ window.rawChannels2 = [
     {
         "name": "Sab Entertainment",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/SAB_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 2",
                 "url": "https://s1.ideationtec.live/SAB_Entertainment/SAB_Entertainment.m3u8",
@@ -3150,20 +3188,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/HWEDk9BVcD7TT3VpzVdkVqJkLkyi7WRq7KduIaFdb-y5Bh7mZdfD3A8yxCFsz7OHcubTZv21=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Star Jalsha",
-        "sources": [
-            {
-                "name": "Server 4",
-                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/starjalsha/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/WpQ9PsZ3/star-jalsha.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -4497,7 +4521,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (60 channels, 16 with 🔐 DRM)
+    // MOVIE (57 channels, 16 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4588,20 +4612,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/DZmhKfbK/dubbed.jpg",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "All Time Movies",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt03.tangotv.in/ALLTIMEMOVIES/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/U4INXhwmEUOABHoemQBpI6C9t4jb9iBmDvZ3ZT3lAb9Au_jVl32NL8XDpy-9cBjRJ2LP69Ovzg=s160-c-k-c0x00ffffff-no-rj",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -4845,34 +4855,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/VLCpyP4j/pishow-1459.jpg",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Goldmines Action",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt03.tangotv.in/GOLDMINESACTION/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/_X6U6bMLF-pTu5wBMFwsSI6aubGrXk2B0kUKdGiLIMqFLyDIne4Ot4ro76BS1S8fX3pWcCwS=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Movie",
-        "description": "Movie Channel"
-    },
-
-    {
-        "name": "Goldmines Bollywood",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt03.tangotv.in/GOLDMINESBOLLYWOOD/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/BMAiZnOGPMbMXWFW-lYwgp1-qJD6iPbBtB6YS3Kyr9lPM1jlegCl83vHjyasFEjPJrBYAsaeLQ=s900-c-k-c0x00ffffff-no-rj",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5456,7 +5438,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (52 channels)
+    // MUSIC (51 channels)
     // ==================================================
 
     {
@@ -5516,20 +5498,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/4NSw2Y26/24h-kpop.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "7S Music",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt03.tangotv.in/7SMUSIC/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://static.wikia.nocookie.net/logopedia/images/a/ac/76_Tamil_channel.jpeg/revision/latest?cb=20191225165506",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -7156,7 +7124,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 462
+// Total channels: 459
 // Channels with DRM: 63
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
