@@ -1,4 +1,4 @@
-// Generated: 2026-03-24 19:06 UTC
+// Generated: 2026-03-25 01:56 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -152,6 +152,11 @@ window.rawChannels2 = [
     {
         "name": "CGTN",
         "sources": [
+            {
+                "name": "English",
+                "url": "https://english-livebkali.cgtn.com/live/encgtn.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Arabic",
                 "url": "https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8",
@@ -1244,11 +1249,6 @@ window.rawChannels2 = [
             {
                 "name": "Stream 2",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn1.chowdhury-shaheb.com/starsport1/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Stream 3",
-                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -3608,6 +3608,11 @@ window.rawChannels2 = [
         "name": "CGTN",
         "sources": [
             {
+                "name": "English",
+                "url": "https://english-livebkali.cgtn.com/live/encgtn.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Arabic",
                 "url": "https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8",
                 "type": "hls"
@@ -4475,7 +4480,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (57 channels, 16 with 🔐 DRM)
+    // MOVIE (58 channels, 16 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4851,6 +4856,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://c.kmpr.in/assets/tv_channels_150/7176.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Jalsha Movies",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/jalshamovies/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.indiantvinfo.com/media/2022/12/Jalsha-Movies-Logo.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5392,7 +5411,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (50 channels)
+    // MUSIC (51 channels)
     // ==================================================
 
     {
@@ -5763,6 +5782,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/yY6RNL41/joshtv.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "K Pop",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -7045,7 +7078,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 453
+// Total channels: 455
 // Channels with DRM: 63
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
