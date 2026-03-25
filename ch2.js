@@ -1,4 +1,4 @@
-// Generated: 2026-03-25 13:07 UTC
+// Generated: 2026-03-25 18:59 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1039,7 +1039,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (16 channels, 8 with 🔐 DRM)
+    // SPORTS (15 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1190,24 +1190,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Premier Sports 2",
-        "sources": [
-            {
-                "name": "🔐 Server 1",
-                "url": "https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/premiersports2hd/default/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "59454adb530b4e0784eae62735f9d850",
-                    "key": "61100d0b8c4dd13e4eb8b4851ba192cc"
-                }
-            }
-        ],
-        "img": "https://i.imgur.com/OWVR172.png",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
         "name": "Sony Sports 5",
         "sources": [
             {
@@ -1335,7 +1317,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // KIDS (30 channels, 8 with 🔐 DRM)
+    // KIDS (29 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1460,24 +1442,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://img2.static-ottera.com/prod/tg/linear_channel/thumbnails/widescreen/640x360/B_-dvleanz-xCmycNaftzR56Q_q1iIjayGtFcKA_ILc.jpg",
-        "category": "Kids",
-        "description": "Kids Channel"
-    },
-
-    {
-        "name": "Animax",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_animax_sd_new/default/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "92032b0e41a543fb9830751273b8debd",
-                    "key": "03f8b65e2af785b10d6634735dbe6c11"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/8PQrRLN8/Animax.png",
         "category": "Kids",
         "description": "Kids Channel"
     },
@@ -4569,7 +4533,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (59 channels, 16 with 🔐 DRM)
+    // MOVIE (60 channels, 16 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4973,6 +4937,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://c.kmpr.in/assets/tv_channels_150/7176.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Jalsha Movies",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/jalshamovies/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.indiantvinfo.com/media/2022/12/Jalsha-Movies-Logo.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5514,7 +5492,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (52 channels)
+    // MUSIC (51 channels)
     // ==================================================
 
     {
@@ -6120,20 +6098,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Ragni TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt04.tangotv.in/RAGNITV/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/SQcv7NPS/ragni.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
         "name": "Raj Musix Malayalam",
         "sources": [
             {
@@ -6584,7 +6548,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (40 channels, 11 with 🔐 DRM)
+    // OTHERS (39 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -6898,24 +6862,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "History TV",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_historyhd/default/index/default/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "a7724b7ca2604c33bb2e963a0319968a",
-                    "key": "6f97e3e2eb2bade626e0281ec01d3675"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/LsC3pgKH/history.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "History TV 18",
         "sources": [
             {
@@ -7209,7 +7155,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 464
-// Channels with DRM: 63
+// Total channels: 461
+// Channels with DRM: 60
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
