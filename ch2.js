@@ -1,11 +1,11 @@
-// Generated: 2026-03-25 01:56 UTC
+// Generated: 2026-03-25 07:07 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (66 channels, 4 with 🔐 DRM)
+    // NEWS (67 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -295,6 +295,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/c4y3Vd73/dd.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Ekamra Bharat",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/bharat/bharat/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/02p7JKxy/ekamra-bharat.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -1250,6 +1264,11 @@ window.rawChannels2 = [
                 "name": "Stream 2",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn1.chowdhury-shaheb.com/starsport1/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Stream 3",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
@@ -1788,7 +1807,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (111 channels, 12 with 🔐 DRM)
+    // ENTERTAINMENT (110 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1823,6 +1842,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/xTjxKHqG/tvhd.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "1 Paschima",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/onepaschima/onepaschima/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/h4ZjjSNG/onepaschima.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -1886,11 +1919,6 @@ window.rawChannels2 = [
     {
         "name": "Aaj Entertainment",
         "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/AAJ_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 2",
                 "url": "https://s2.ideationtec.live/AAJ_Entertainment/AAJ_Entertainment.m3u8",
@@ -1958,20 +1986,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Jnd9k7Cy/anmol-tv.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Ary Digital",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://mir-s3-cdn-cf.behance.net/projects/404/90ecb9218167821.Y3JvcCw1NzUzLDQ1MDAsMTEyNSww.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2106,11 +2120,6 @@ window.rawChannels2 = [
         "name": "Bol Entertainment",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/BOL_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 2",
                 "url": "https://s2.ideationtec.live/BOL_Entertainment_HD/BOL_Entertainment_HD.m3u8",
                 "type": "hls"
@@ -2211,6 +2220,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/vBL4YjR8/colors.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Dainik Asha",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/da/da/video.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/cCVQWsdJ/dainikasha.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2333,6 +2356,34 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Ekamra Manoranjan",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/manoranjan/manoranjan/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/26F0w9Rt/ekamra-manoranjan.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Ekamra Nilachakra",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/nilachakra/nilachakra/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/JnjqhDdG/ekamra-nilachakra.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Ekushey ETV",
         "sources": [
             {
@@ -2406,11 +2457,6 @@ window.rawChannels2 = [
         "name": "Express Entertainment",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/EXPRESS_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 2",
                 "url": "https://s3.ideationtec.live/Express_Entertainment/Express_Entertainment.m3u8",
                 "type": "hls"
@@ -2439,11 +2485,6 @@ window.rawChannels2 = [
         "name": "Geo Entertainment",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/GEO_ENTERTAINEMNT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 2",
                 "url": "https://s3.ideationtec.live/GEO_Entertainment/GEO_Entertainment.m3u8",
                 "type": "hls"
@@ -2464,20 +2505,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/SKncg0gg/globaltv.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Green Entertainment",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/GREEN_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOMJrXPGx1YIFBC6ogdcJ87M35xQjneLhKA&s",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2506,20 +2533,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQot7JfQIDygBtPDLKqP4lomWHllkOpnhtrow&s",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Hum TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/HUM_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/NMyGY6FT/hum.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2824,20 +2837,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Mun TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/MUN_TV/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQFEQlJZEt9u8w/company-logo_200_200/company-logo_200_200/0/1697180175196?e=2147483647&v=beta&t=_qhFwyXTYEWa5QTTUDI3MwI8aefVr39xDxYKItDNLS0",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "My TV",
         "sources": [
             {
@@ -2991,11 +2990,6 @@ window.rawChannels2 = [
         "name": "Sab Entertainment",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/SAB_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 2",
                 "url": "https://s1.ideationtec.live/SAB_Entertainment/SAB_Entertainment.m3u8",
                 "type": "hls"
@@ -3119,20 +3113,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/ydq1SThV/set.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Sony Sab",
-        "sources": [
-            {
-                "name": "Server 4",
-                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/sonysab/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/kMQ4KLhT/sab.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3460,7 +3440,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (66 channels, 4 with 🔐 DRM)
+    // NEWS (67 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3750,6 +3730,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/c4y3Vd73/dd.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Ekamra Bharat",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/bharat/bharat/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/02p7JKxy/ekamra-bharat.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -4480,7 +4474,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (58 channels, 16 with 🔐 DRM)
+    // MOVIE (60 channels, 16 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4744,6 +4738,34 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://yt3.googleusercontent.com/_tSeyztRLJDo4VLxV0xnOFgldKnd7cslKmy7C2voLGri6RMWc_IgHrRf_RGXD3OpeHX4pBxD_g=s900-c-k-c0x00ffffff-no-rj",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Ekamra Baiscope",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/baiscope/baiscope/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/bvyDnGv4/baiscope.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Ekamra Cinema",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/cynema/cynema/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/LsghdGxj/ekamra-cinema.jpg",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5411,7 +5433,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (51 channels)
+    // MUSIC (52 channels)
     // ==================================================
 
     {
@@ -5689,6 +5711,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Ekamra Musiq",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/musiq/musiq/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/vmqxMQvJ/ekamra-music.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Evergreen Hits",
         "sources": [
             {
@@ -5867,6 +5903,11 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://mumt05.tangotv.in/MUSICINDIA/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -6210,7 +6251,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (17 channels)
+    // RELIGIOUS (18 channels)
     // ==================================================
 
     {
@@ -6251,6 +6292,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://www.sikhentrepreneur.com/wp-content/uploads/2013/09/akaalch.png",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Ekamra Paramatma",
+        "sources": [
+            {
+                "name": "Originals",
+                "url": "https://live.ekamraott.com/paramatma/paramatma/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/zvM91RLJ/ekamra-paramatma.jpg",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -6453,7 +6508,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (40 channels, 11 with 🔐 DRM)
+    // OTHERS (38 channels, 9 with 🔐 DRM)
     // ==================================================
 
     {
@@ -6938,42 +6993,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "6d647aff767c453daa5fb54a44c783c6",
-                    "key": "2f971e6a1cc58e7085afc761a3f13162"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "National Geographic Wild",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
-                    "key": "adf163c6c1729e6f77668d4e49f32352"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "Popular Science",
         "sources": [
             {
@@ -7078,7 +7097,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 455
-// Channels with DRM: 63
+// Total channels: 458
+// Channels with DRM: 61
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
