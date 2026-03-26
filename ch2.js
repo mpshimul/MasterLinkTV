@@ -1,11 +1,11 @@
-// Generated: 2026-03-26 13:17 UTC
+// Generated: 2026-03-26 19:10 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (67 channels, 4 with 🔐 DRM)
+    // NEWS (68 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -295,6 +295,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/c4y3Vd73/dd.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Ekamra Bharat",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/bharat/bharat/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/02p7JKxy/ekamra-bharat.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -1039,7 +1053,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (14 channels, 7 with 🔐 DRM)
+    // SPORTS (15 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1190,6 +1204,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Sports 5",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/sonyten3/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/qqgZ1jVH/ten5.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
         "name": "SPOTV",
         "sources": [
             {
@@ -1232,6 +1260,11 @@ window.rawChannels2 = [
                 "name": "Stream 2",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn1.chowdhury-shaheb.com/starsport1/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Stream 3",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport1/index.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
@@ -1242,6 +1275,16 @@ window.rawChannels2 = [
     {
         "name": "Star Sports 2",
         "sources": [
+            {
+                "name": "Stream 2",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.99.249.139/starsport2/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 3",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Stream 4",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn1.chowdhury-shaheb.com/starsport2/index.m3u8",
@@ -1256,6 +1299,11 @@ window.rawChannels2 = [
     {
         "name": "T Sports",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/tsports1/index.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 3",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn1.chowdhury-shaheb.com/tsport/index.m3u8",
@@ -1737,7 +1785,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (107 channels, 12 with 🔐 DRM)
+    // ENTERTAINMENT (116 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1772,6 +1820,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/xTjxKHqG/tvhd.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "1 Paschima",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/onepaschima/onepaschima/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/h4ZjjSNG/onepaschima.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -1883,11 +1945,6 @@ window.rawChannels2 = [
         "name": "Ananda TV",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/anandatv.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 3",
                 "url": "https://tplay.live/out/bangladesh/anandatv.index.m3u8",
                 "type": "hls"
@@ -1937,11 +1994,6 @@ window.rawChannels2 = [
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/asiantv.index.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "Server 3",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/asian-test-sample-ok-d.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/021TdcXS/asian.jpg",
@@ -1959,20 +2011,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/BbLck5F4/atn-bangla.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Aur Life",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://s3.ideationtec.live/Aur_Life/Aur_Life.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/HuRtbtQKBU0desDRLArEeqjxI5qIhIKTZcaZeh0oO1ynmZM07V9LU5en4Qg5Q2BnImyxpOLE=s900-c-k-c0x00ffffff-no-rj",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2101,6 +2139,11 @@ window.rawChannels2 = [
                 "name": "⚡ Server 2",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 1",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/btv/index.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/nzQXt33R/btv.jpg",
@@ -2151,6 +2194,39 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/nL8s287H/channel-s.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Colors",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/colors/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 4",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/colorshd/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/vBL4YjR8/colors.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Dainik Asha",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/da/da/video.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/cCVQWsdJ/dainikasha.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2251,11 +2327,6 @@ window.rawChannels2 = [
                 "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/deshtv.index.m3u8",
                 "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/deshtv.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/kG5Zpp8y/deshtv.jpg",
@@ -2278,16 +2349,53 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Ekamra Jatra",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/jatra/jatra/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/FK6Wzkbn/ekamra-jatra.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Ekamra Manoranjan",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/manoranjan/manoranjan/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/26F0w9Rt/ekamra-manoranjan.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Ekamra Nilachakra",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/nilachakra/nilachakra/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/JnjqhDdG/ekamra-nilachakra.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "Ekushey ETV",
         "sources": [
             {
                 "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/ekusheytv.index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
                 "type": "hls"
             }
         ],
@@ -2450,8 +2558,8 @@ window.rawChannels2 = [
         "name": "GTV",
         "sources": [
             {
-                "name": "Server 3",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8",
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/gazitv/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -2777,11 +2885,6 @@ window.rawChannels2 = [
         "name": "Mohona Television",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/mohona.index.m3u8",
                 "type": "hls"
@@ -2809,11 +2912,6 @@ window.rawChannels2 = [
     {
         "name": "My TV",
         "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/mytv.index.m3u8",
@@ -3070,6 +3168,48 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Aath",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/sonyaath/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/y8WtVLd6/sony-aath.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Sony Entertainment",
+        "sources": [
+            {
+                "name": "Server 3",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/sonyentten/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/ydq1SThV/set.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Sony Sab",
+        "sources": [
+            {
+                "name": "Server 4",
+                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/sonysab/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/kMQ4KLhT/sab.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
         "name": "SRK TV",
         "sources": [
             {
@@ -3093,6 +3233,25 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/WpQ9PsZ3/star-jalsha.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Star Plus",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/starplus/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 3",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/starplus/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/htNZQ0x0/Star-Plus.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3373,7 +3532,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (67 channels, 4 with 🔐 DRM)
+    // NEWS (68 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3663,6 +3822,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/c4y3Vd73/dd.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Ekamra Bharat",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/bharat/bharat/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/02p7JKxy/ekamra-bharat.jpg",
         "category": "News",
         "description": "News Channel"
     },
@@ -4407,7 +4580,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MOVIE (55 channels, 16 with 🔐 DRM)
+    // MOVIE (60 channels, 16 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4676,6 +4849,34 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Ekamra Baiscope",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/baiscope/baiscope/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/bvyDnGv4/baiscope.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Ekamra Cinema",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/cynema/cynema/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/LsghdGxj/ekamra-cinema.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "ETV Cinema",
         "sources": [
             {
@@ -4783,6 +4984,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://c.kmpr.in/assets/tv_channels_150/7176.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Jalsha Movies",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/jalshamovies/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.indiantvinfo.com/media/2022/12/Jalsha-Movies-Logo.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5052,6 +5267,25 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sony Max",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/sonymax/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 4",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/sonymax/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/Z55d92mk/sony-max.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
         "name": "Sony Max 2",
         "sources": [
             {
@@ -5083,12 +5317,36 @@ window.rawChannels2 = [
         "name": "Star Gold",
         "sources": [
             {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/stargold/index.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Stream 3",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/stargold/index.m3u8",
                 "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/7YJXRsp7/gold.jpg",
+        "category": "Movie",
+        "description": "Movie Channel"
+    },
+
+    {
+        "name": "Star Movies",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/starmovies/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 3",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/starmovies/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/STAR_Movies_logo.svg/250px-STAR_Movies_logo.svg.png",
         "category": "Movie",
         "description": "Movie Channel"
     },
@@ -5281,7 +5539,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (51 channels)
+    // MUSIC (50 channels)
     // ==================================================
 
     {
@@ -5327,20 +5585,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Jzqh6SSX/tplay.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "24hr K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/akamaissh101/ssh101/24hrkpoptv/chunks.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/4NSw2Y26/24h-kpop.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5559,6 +5803,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Ekamra Musiq",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live.ekamraott.com/musiq/musiq/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/vmqxMQvJ/ekamra-music.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Evergreen Hits",
         "sources": [
             {
@@ -5652,20 +5910,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/yY6RNL41/joshtv.jpg",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -6126,6 +6370,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Ekamra Paramatma",
+        "sources": [
+            {
+                "name": "Originals",
+                "url": "https://live.ekamraott.com/paramatma/paramatma/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/zvM91RLJ/ekamra-paramatma.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
         "name": "ETV Life",
         "sources": [
             {
@@ -6219,20 +6477,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://www.lyngsat.com/logo/tv/pp/paras-gold-in.png",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Peace TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -6930,7 +7174,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 446
+// Total channels: 462
 // Channels with DRM: 60
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
