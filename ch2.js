@@ -1,4 +1,4 @@
-// Generated: 2026-03-25 18:59 UTC
+// Generated: 2026-03-26 02:04 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1262,16 +1262,6 @@ window.rawChannels2 = [
         "name": "Star Sports 2",
         "sources": [
             {
-                "name": "Stream 2",
-                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.99.249.139/starsport2/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Stream 3",
-                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn2.chowdhury-shaheb.com/starsport2/index.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Stream 4",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://tvn1.chowdhury-shaheb.com/starsport2/index.m3u8",
                 "type": "hls"
@@ -2196,11 +2186,6 @@ window.rawChannels2 = [
     {
         "name": "Colors",
         "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/colors/index.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 4",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/colorshd/index.m3u8",
@@ -5492,7 +5477,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (51 channels)
+    // MUSIC (50 channels)
     // ==================================================
 
     {
@@ -5963,6 +5948,11 @@ window.rawChannels2 = [
                 "name": "Server 1",
                 "url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://mumt05.tangotv.in/MUSICINDIA/index.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/QNYG5Kz9/music-india.jpg",
@@ -6220,20 +6210,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Steelbird Music",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://cdn2.in/SteelbirdMusicTVhls/live.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/93926d5dd30455efa55a1c0a3bb797e9.png",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
         "name": "Tarang Music",
         "sources": [
             {
@@ -6291,7 +6267,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (18 channels)
+    // RELIGIOUS (17 channels)
     // ==================================================
 
     {
@@ -6444,20 +6420,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://www.lyngsat.com/logo/tv/pp/paras-gold-in.png",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Peace TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -7155,7 +7117,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 461
+// Total channels: 459
 // Channels with DRM: 60
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
