@@ -1,11 +1,11 @@
-// Generated: 2026-03-27 02:07 UTC
+// Generated: 2026-03-27 07:12 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (67 channels, 4 with 🔐 DRM)
+    // NEWS (68 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -492,6 +492,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/dtR7Gh4t/jamuna-tv.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Jaya Plus",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://45.148.145.57/IN_JayaPlus/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/ed00e083788380a3523e2ef1d7f33fe8.png",
         "category": "News",
         "description": "News Channel"
     },
@@ -1161,11 +1175,6 @@ window.rawChannels2 = [
         "name": "Live 3",
         "sources": [
             {
-                "name": "Server 2",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/sonyten5/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 3",
                 "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
                 "type": "hls"
@@ -1195,15 +1204,15 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Sony Sports 2",
+        "name": "Sony Sports 1",
         "sources": [
             {
                 "name": "Server 2",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/sonyten2/tracks-v1a1/mono.m3u8",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/sonyten1/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ],
-        "img": "https://i.postimg.cc/y8SC16G7/ten2.jpg",
+        "img": "https://i.postimg.cc/mg0RC192/ten1.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1790,7 +1799,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (112 channels, 12 with 🔐 DRM)
+    // ENTERTAINMENT (113 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1945,6 +1954,11 @@ window.rawChannels2 = [
         "name": "Ananda TV",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/anandatv.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 3",
                 "url": "https://tplay.live/out/bangladesh/anandatv.index.m3u8",
                 "type": "hls"
@@ -1979,6 +1993,11 @@ window.rawChannels2 = [
             {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/asiantv.index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 3",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/asian-test-sample-ok-d.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ],
@@ -2200,6 +2219,11 @@ window.rawChannels2 = [
                 "name": "Server 4",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/colorshd/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 5",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/colorshd/tracks-v1a1/mono.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/vBL4YjR8/colors.jpg",
@@ -2316,6 +2340,11 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/deshtv.index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/deshtv.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ],
@@ -2501,6 +2530,11 @@ window.rawChannels2 = [
         "name": "Geo Entertainment",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/GEO_ENTERTAINEMNT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 2",
                 "url": "https://s3.ideationtec.live/GEO_Entertainment/GEO_Entertainment.m3u8",
                 "type": "hls"
@@ -2549,6 +2583,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQot7JfQIDygBtPDLKqP4lomWHllkOpnhtrow&s",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Hum TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://ml-pull-dvc-myco.io:2096/HUM_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/NMyGY6FT/hum.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2842,6 +2890,11 @@ window.rawChannels2 = [
         "name": "Mohona Television",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/mohona.index.m3u8",
                 "type": "hls"
@@ -2855,6 +2908,11 @@ window.rawChannels2 = [
     {
         "name": "My TV",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/mytv.index.m3u8",
@@ -3456,7 +3514,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (67 channels, 4 with 🔐 DRM)
+    // NEWS (68 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -3943,6 +4001,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/dtR7Gh4t/jamuna-tv.png",
+        "category": "News",
+        "description": "News Channel"
+    },
+
+    {
+        "name": "Jaya Plus",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://45.148.145.57/IN_JayaPlus/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/ed00e083788380a3523e2ef1d7f33fe8.png",
         "category": "News",
         "description": "News Channel"
     },
@@ -5180,6 +5252,11 @@ window.rawChannels2 = [
         "name": "Sony Max",
         "sources": [
             {
+                "name": "Server 2",
+                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/sonymax/index.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 4",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/sonymax/index.m3u8",
                 "type": "hls"
@@ -5221,6 +5298,11 @@ window.rawChannels2 = [
     {
         "name": "Star Gold",
         "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/stargold/index.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Stream 3",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/stargold/index.m3u8",
@@ -5439,7 +5521,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (51 channels)
+    // MUSIC (52 channels)
     // ==================================================
 
     {
@@ -5787,6 +5869,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Jaya Max",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://satoshi-cors.herokuapp.com/http://45.148.145.57/IN_D2HJAYAMOVIE/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/2160e45255960cfbacc217bfe5ec63d4.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
         "name": "Joo Music",
         "sources": [
             {
@@ -5895,11 +5991,6 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://mumt05.tangotv.in/MUSICINDIA/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -6243,7 +6334,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (17 channels)
+    // RELIGIOUS (18 channels)
     // ==================================================
 
     {
@@ -6401,6 +6492,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Peace TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
         "name": "Santvani Channel",
         "sources": [
             {
@@ -6486,7 +6591,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (38 channels, 9 with 🔐 DRM)
+    // OTHERS (39 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -6953,6 +7058,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "6d647aff767c453daa5fb54a44c783c6",
+                    "key": "2f971e6a1cc58e7085afc761a3f13162"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "National Geographic Wild",
         "sources": [
             {
@@ -7075,7 +7198,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 457
-// Channels with DRM: 59
+// Total channels: 463
+// Channels with DRM: 60
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
