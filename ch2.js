@@ -1,11 +1,11 @@
-// Generated: 2026-03-26 19:10 UTC
+// Generated: 2026-03-27 02:07 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // NEWS (68 channels, 4 with 🔐 DRM)
+    // NEWS (67 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -492,20 +492,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/dtR7Gh4t/jamuna-tv.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Jaya Plus",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://satoshi-cors.herokuapp.com/http://45.148.145.57/IN_JayaPlus/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/ed00e083788380a3523e2ef1d7f33fe8.png",
         "category": "News",
         "description": "News Channel"
     },
@@ -1053,7 +1039,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (15 channels, 7 with 🔐 DRM)
+    // SPORTS (16 channels, 7 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1175,6 +1161,11 @@ window.rawChannels2 = [
         "name": "Live 3",
         "sources": [
             {
+                "name": "Server 2",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/sonyten5/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 3",
                 "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
                 "type": "hls"
@@ -1204,15 +1195,15 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Sony Sports 5",
+        "name": "Sony Sports 2",
         "sources": [
             {
                 "name": "Server 2",
-                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/sonyten3/index.m3u8",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/sonyten2/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ],
-        "img": "https://i.postimg.cc/qqgZ1jVH/ten5.jpg",
+        "img": "https://i.postimg.cc/y8SC16G7/ten2.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1292,6 +1283,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports Select 1",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starselect1/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://smartads.in/resources/assets/uploads/product_group/television/star-sports-select-1-hd.png",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -1785,7 +1790,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // ENTERTAINMENT (116 channels, 12 with 🔐 DRM)
+    // ENTERTAINMENT (112 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1898,11 +1903,6 @@ window.rawChannels2 = [
         "name": "Aaj Entertainment",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/AAJ_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 2",
                 "url": "https://s2.ideationtec.live/AAJ_Entertainment/AAJ_Entertainment.m3u8",
                 "type": "hls"
@@ -1974,20 +1974,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Ary Digital",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://mir-s3-cdn-cf.behance.net/projects/404/90ecb9218167821.Y3JvcCw1NzUzLDQ1MDAsMTEyNSww.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "Asian TV",
         "sources": [
             {
@@ -2011,6 +1997,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/BbLck5F4/atn-bangla.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    {
+        "name": "Aur Life",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://s3.ideationtec.live/Aur_Life/Aur_Life.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://yt3.googleusercontent.com/HuRtbtQKBU0desDRLArEeqjxI5qIhIKTZcaZeh0oO1ynmZM07V9LU5en4Qg5Q2BnImyxpOLE=s900-c-k-c0x00ffffff-no-rj",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2102,11 +2102,6 @@ window.rawChannels2 = [
     {
         "name": "Bol Entertainment",
         "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/BOL_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 2",
                 "url": "https://s2.ideationtec.live/BOL_Entertainment_HD/BOL_Entertainment_HD.m3u8",
@@ -2201,11 +2196,6 @@ window.rawChannels2 = [
     {
         "name": "Colors",
         "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/colors/index.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 4",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/colorshd/index.m3u8",
@@ -2397,6 +2387,11 @@ window.rawChannels2 = [
                 "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/ekusheytv.index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/c4f9c3vr/ekusheetv.jpg",
@@ -2464,11 +2459,6 @@ window.rawChannels2 = [
         "name": "Express Entertainment",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/EXPRESS_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 2",
                 "url": "https://s3.ideationtec.live/Express_Entertainment/Express_Entertainment.m3u8",
                 "type": "hls"
@@ -2511,11 +2501,6 @@ window.rawChannels2 = [
         "name": "Geo Entertainment",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/GEO_ENTERTAINEMNT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 2",
                 "url": "https://s3.ideationtec.live/GEO_Entertainment/GEO_Entertainment.m3u8",
                 "type": "hls"
@@ -2541,25 +2526,11 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Green Entertainment",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/GREEN_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOMJrXPGx1YIFBC6ogdcJ87M35xQjneLhKA&s",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "GTV",
         "sources": [
             {
-                "name": "Server 2",
-                "url": "https://satoshi-cors.herokuapp.com/http://tvn2.chowdhury-shaheb.com/gazitv/index.m3u8",
+                "name": "Server 3",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -2578,20 +2549,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQot7JfQIDygBtPDLKqP4lomWHllkOpnhtrow&s",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Hum TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/HUM_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/NMyGY6FT/hum.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -2896,20 +2853,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Mun TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/MUN_TV/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://media.licdn.com/dms/image/v2/D4D0BAQFEQlJZEt9u8w/company-logo_200_200/company-logo_200_200/0/1697180175196?e=2147483647&v=beta&t=_qhFwyXTYEWa5QTTUDI3MwI8aefVr39xDxYKItDNLS0",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
         "name": "My TV",
         "sources": [
             {
@@ -3063,11 +3006,6 @@ window.rawChannels2 = [
         "name": "Sab Entertainment",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://ml-pull-dvc-myco.io:2096/SAB_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 2",
                 "url": "https://s1.ideationtec.live/SAB_Entertainment/SAB_Entertainment.m3u8",
                 "type": "hls"
@@ -3191,20 +3129,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/ydq1SThV/set.jpg",
-        "category": "Entertainment",
-        "description": "Entertainment Channel"
-    },
-
-    {
-        "name": "Sony Sab",
-        "sources": [
-            {
-                "name": "Server 4",
-                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/sonysab/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/kMQ4KLhT/sab.jpg",
         "category": "Entertainment",
         "description": "Entertainment Channel"
     },
@@ -3532,7 +3456,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // NEWS (68 channels, 4 with 🔐 DRM)
+    // NEWS (67 channels, 4 with 🔐 DRM)
     // ==================================================
 
     {
@@ -4019,20 +3943,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/dtR7Gh4t/jamuna-tv.png",
-        "category": "News",
-        "description": "News Channel"
-    },
-
-    {
-        "name": "Jaya Plus",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://satoshi-cors.herokuapp.com/http://45.148.145.57/IN_JayaPlus/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/ed00e083788380a3523e2ef1d7f33fe8.png",
         "category": "News",
         "description": "News Channel"
     },
@@ -5270,11 +5180,6 @@ window.rawChannels2 = [
         "name": "Sony Max",
         "sources": [
             {
-                "name": "Server 2",
-                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/sonymax/index.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 4",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/sonymax/index.m3u8",
                 "type": "hls"
@@ -5316,11 +5221,6 @@ window.rawChannels2 = [
     {
         "name": "Star Gold",
         "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://satoshi-cors.herokuapp.com/http://103.99.249.139/stargold/index.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Stream 3",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/stargold/index.m3u8",
@@ -5539,7 +5439,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (50 channels)
+    // MUSIC (51 channels)
     // ==================================================
 
     {
@@ -5585,6 +5485,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/Jzqh6SSX/tplay.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "24hr K Pop",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/akamaissh101/ssh101/24hrkpoptv/chunks.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/4NSw2Y26/24h-kpop.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5873,20 +5787,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Jaya Max",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://satoshi-cors.herokuapp.com/http://45.148.145.57/IN_D2HJAYAMOVIE/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/2160e45255960cfbacc217bfe5ec63d4.png",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
         "name": "Joo Music",
         "sources": [
             {
@@ -5910,6 +5810,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/yY6RNL41/joshtv.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    {
+        "name": "K Pop",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -5981,6 +5895,11 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://mumt05.tangotv.in/MUSICINDIA/index.m3u8",
                 "type": "hls"
             }
         ],
@@ -6567,7 +6486,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (39 channels, 10 with 🔐 DRM)
+    // OTHERS (38 channels, 9 with 🔐 DRM)
     // ==================================================
 
     {
@@ -7034,24 +6953,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "National Geographic",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "6d647aff767c453daa5fb54a44c783c6",
-                    "key": "2f971e6a1cc58e7085afc761a3f13162"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
         "name": "National Geographic Wild",
         "sources": [
             {
@@ -7174,7 +7075,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 462
-// Channels with DRM: 60
+// Total channels: 457
+// Channels with DRM: 59
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
