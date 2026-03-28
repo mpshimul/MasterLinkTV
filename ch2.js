@@ -1,4 +1,4 @@
-// Generated: 2026-03-27 19:03 UTC
+// Generated: 2026-03-28 01:57 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -1874,6 +1874,11 @@ window.rawChannels2 = [
         "name": "Ananda TV",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/anandatv.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 3",
                 "url": "https://tplay.live/out/bangladesh/anandatv.index.m3u8",
                 "type": "hls"
@@ -2264,6 +2269,11 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://tplay.live/out/bangladesh/deshtv.index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/deshtv.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ],
@@ -2772,6 +2782,11 @@ window.rawChannels2 = [
         "name": "Mohona Television",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/mohona.index.m3u8",
                 "type": "hls"
@@ -2799,6 +2814,11 @@ window.rawChannels2 = [
     {
         "name": "My TV",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 2",
                 "url": "https://tplay.live/out/bangladesh/mytv.index.m3u8",
@@ -5995,6 +6015,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Akaal Channel",
+        "sources": [
+            {
+                "name": "⚡ Server 1",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/akaal_tv/hls1_smart_akaal/akaal_tv.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.sikhentrepreneur.com/wp-content/uploads/2013/09/akaalch.png",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
         "name": "Ekamra Paramatma",
         "sources": [
             {
@@ -6093,20 +6127,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Peace TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
         "name": "Santvani Channel",
         "sources": [
             {
@@ -6192,7 +6212,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (37 channels, 10 with 🔐 DRM)
+    // OTHERS (38 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -6631,6 +6651,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Miami TV Fashion",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16283",
+                "type": "hls"
+            }
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW-_x4R5nZ7pvTIvA2oMe2OYHORoTytxVMqw&s",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "National Geographic",
         "sources": [
             {
@@ -6771,7 +6805,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 435
+// Total channels: 436
 // Channels with DRM: 60
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
