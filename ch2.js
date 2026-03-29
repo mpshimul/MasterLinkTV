@@ -1,4 +1,4 @@
-// Generated: 2026-03-29 12:58 UTC
+// Generated: 2026-03-29 18:49 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -997,7 +997,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // SPORTS (28 channels, 13 with 🔐 DRM)
+    // SPORTS (27 channels, 13 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1234,13 +1234,13 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
-                "name": "Server 3",
-                "url": "https://p4kp.rjmbts.workers.dev/7455.m3u8",
+                "name": "Server 2",
+                "url": "https://sm-monirul.top/RoarZone/play.php?id=ZWRnZTIvc3Rhci1zcG9ydHMtMQ==&e=.m3u8",
                 "type": "hls"
             },
             {
-                "name": "Server 4",
-                "url": "https://stream.snexus.co/live/SHARQ_GAME_TV/main_stream.m3u8",
+                "name": "Server 3",
+                "url": "https://p4kp.rjmbts.workers.dev/7455.m3u8",
                 "type": "hls"
             }
         ],
@@ -1324,20 +1324,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Sony Sports 2",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/sonyten2/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/y8SC16G7/ten2.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
         "name": "SPOTV",
         "sources": [
             {
@@ -1412,15 +1398,15 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Star Sports Select 1",
+        "name": "Star Sports Select 2",
         "sources": [
             {
                 "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starselect1/tracks-v1a1/mono.m3u8",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starselect2/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ],
-        "img": "https://smartads.in/resources/assets/uploads/product_group/television/star-sports-select-1-hd.png",
+        "img": "https://static.wikia.nocookie.net/logopedia/images/4/46/Sss-hd2-bronze.png/revision/latest?cb=20170728104956",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -2308,6 +2294,11 @@ window.rawChannels2 = [
             {
                 "name": "Server 4",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/colorshd/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 5",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/colorshd/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ],
@@ -5267,7 +5258,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // MUSIC (40 channels)
+    // MUSIC (39 channels)
     // ==================================================
 
     {
@@ -5544,20 +5535,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://image.roku.com/developer_channels/prod/9cf63093182d69095ae19a443776978bb2398161ccc2dbda94e71f200b85f511.png",
-        "category": "Music",
-        "description": "Music Channel"
-    },
-
-    {
-        "name": "K Pop",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wMrpYMsN/kpop-music.jpg",
         "category": "Music",
         "description": "Music Channel"
     },
@@ -6700,7 +6677,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 430
+// Total channels: 428
 // Channels with DRM: 66
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
