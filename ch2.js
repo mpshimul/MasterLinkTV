@@ -1,11 +1,11 @@
-// Generated: 2026-03-31 07:08 UTC
+// Generated: 2026-03-31 13:06 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // SPORTS (35 channels, 12 with 🔐 DRM)
+    // SPORTS (34 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -266,11 +266,6 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
-                "name": "Server 2",
-                "url": "https://sm-monirul.top/RoarZone/play.php?id=ZWRnZTIvc3Rhci1zcG9ydHMtMQ==&e=.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 3",
                 "url": "https://p4kp.rjmbts.workers.dev/7455.m3u8",
                 "type": "hls"
@@ -287,6 +282,11 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://psl.bigbaat.app/out/v1/0ef369b90c7b4025b76621e46ee5fb70/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/tsports1/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ],
@@ -348,6 +348,11 @@ window.rawChannels2 = [
     {
         "name": "Sony Sports 1",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/sonyten1/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 2",
                 "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C65/master.m3u8",
@@ -509,20 +514,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://smartads.in/resources/assets/uploads/product_group/television/star-sports-select-1-hd.png",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Star Sports Select 2",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starselect2/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://static.wikia.nocookie.net/logopedia/images/4/46/Sss-hd2-bronze.png/revision/latest?cb=20170728104956",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -819,7 +810,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 50
+// Total channels: 49
 // Channels with DRM: 12
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
