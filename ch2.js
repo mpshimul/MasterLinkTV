@@ -1,11 +1,11 @@
-// Generated: 2026-03-31 01:56 UTC
+// Generated: 2026-03-31 07:08 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // SPORTS (27 channels, 12 with 🔐 DRM)
+    // SPORTS (35 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -156,6 +156,34 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Kantipur Max",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C413/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wB1Hmg1s/knt-max.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Kantipur Max 2",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C190/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wB1Hmg1s/knt-max.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
         "name": "Live 2",
         "sources": [
             {
@@ -238,6 +266,11 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
+                "name": "Server 2",
+                "url": "https://sm-monirul.top/RoarZone/play.php?id=ZWRnZTIvc3Rhci1zcG9ydHMtMQ==&e=.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 3",
                 "url": "https://p4kp.rjmbts.workers.dev/7455.m3u8",
                 "type": "hls"
@@ -299,6 +332,90 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Sky Sports Cricket",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C688/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/P5YhzxMD/sky-cric.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Sony Sports 1",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C65/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/mg0RC192/ten1.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Sony Sports 2",
+        "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C72/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/y8SC16G7/ten2.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Sony Sports 3",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C73/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/152bjh3Y/ten3.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Sony Sports 4",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C244/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/MGPqJsYm/ten4.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Sony Sports 5",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C61/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/qqgZ1jVH/ten5.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
         "name": "SPOTV",
         "sources": [
             {
@@ -343,8 +460,13 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
+                "name": "Stream 2",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C248/master.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Stream 3",
-                "url": "https://p4kp.rjmbts.workers.dev/25121.m3u8",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C283/master.m3u8",
                 "type": "hls"
             }
         ],
@@ -358,12 +480,17 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Stream 1",
-                "url": "https://p4kp.rjmbts.workers.dev/7455.m3u8",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starsports2/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             },
             {
                 "name": "Stream 2",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starsports2/tracks-v1a1/mono.m3u8",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C250/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Stream 5",
+                "url": "https://p4kp.rjmbts.workers.dev/7455.m3u8",
                 "type": "hls"
             }
         ],
@@ -592,20 +719,6 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Peace TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jzxlzmgwj9tfpyv8ldpf",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
         "name": "Santvani Channel",
         "sources": [
             {
@@ -689,588 +802,24 @@ window.rawChannels2 = [
         "description": "Religious Channel"
     },
 
-
-    // ==================================================
-    // OTHERS (37 channels, 10 with 🔐 DRM)
-    // ==================================================
-
     {
-        "name": "Animal Planet",
+        "name": "WWE Network",
         "sources": [
             {
                 "name": "Server 1",
-                "url": "https://vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C490/master.m3u8",
                 "type": "hls"
             }
         ],
-        "img": "https://i.postimg.cc/RFm9McDx/animal-planet.png",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Animal Planet HD",
-        "sources": [
-            {
-                "name": "🔐 Server 1",
-                "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Animalplanethd2/default/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "df81f15150f74c799fdde64ef49dfb75",
-                    "key": "05794a012ae74d77953f2b9fae6804c7"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/Kzq6TNxy/animalplanethd.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Asian Food Network",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(AsianFoodNetwork)/master.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "d6f69611e9e94a1cba591f855b191362",
-                    "key": "bbd319d36c1728a8e4cc6bb4a8ad12f4"
-                }
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/ytc/AIdro_mDtpbQ4xPiWFR0hhWISS-9i7jCBDorMcMBeBkEoQ805V4=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "BBC Earth",
-        "sources": [
-            {
-                "name": "⚡ UK",
-                "url": "https://d3u3pfhhvuad9k.cloudfront.net/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Asia",
-                "url": "https://cdn4.skygo.mn/live/disk1/BBC_earth/HLSv3-FTA/BBC_earth.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNXOrjX8auopIAAKFRHx1Y-KLi8Ync-CWUfw&s",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "BBC Lifestyle",
-        "sources": [
-            {
-                "name": "Asia",
-                "url": "https://cdn4.skygo.mn/live/disk1/BBC_lifestyle/HLSv3-FTA/BBC_lifestyle.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVYpn7TbifrC432Irpa2jXdlTdmCDDu0ThaQ&s",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "CGTN Discovering China",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://ml-pull-hwc.myco.io/CGTN/hls/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://d2gpx7np84fwh1.cloudfront.net/external/d2y2efdi5wgkcl.cloudfront.net/fit-in/688x464/media-io/2025/10/17/Channel_Logo.80dcf707.png?width=1920",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "CGTN Documentary",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://0472.org/hls/cgtnd.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/7ZKXqmzp/cgtn-docu.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Cooking Panda",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=46",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/ytc/AIdro_m7_6cQOwZKkI-RxzJE3e85oFdMoFBEX5iJIrUcOBwEG6A=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Discovery",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverychannel2/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "b70a8cf9450c4d6484b4ac4d3c6761c0",
-                    "key": "0908be844260409cbac180bf0181da40"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/SjFpx6XX/discovery.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Discovery Asia",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/7hkmbg85/d-asia.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Discovery HD",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/discovery/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/SjFpx6XX/discovery.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Discovery Pakistan",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://livecdn.live247stream.com/discoverpakistan/web/playlist.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://s3.ideationtec.live/Discover_Pakistan/Discover_Pakistan.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/cH9LLc8m/d-pak.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Discovery Science",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryscience2/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "5458f45efedb4d6f8aa6ac76c85b621b",
-                    "key": "dbf8a0a306a64525ba3012fd225370c0"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/vZMgj4YQ/d-sci.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Discovery Turbo",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryturbo2/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "c011525969e44b99a86059dbb3cdf4e8",
-                    "key": "6700a5d93203417b8585f7de7dd1a09b"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/0ySHyHDk/d-turbo.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Epic",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/c1X91C4M/epic.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "ETV Abhiruchi",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://dg3721c3ez5m0.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_ABHIRUCHI_H264_cloud-in/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/6QMwP2Hc/etv-abhiruchi.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Foodie Hub",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://cc-oq5ndvigrlkaa.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-oq5ndvigrlkaa/IQJW/WBD/FoodieHub_IN/FoodieHub_IN.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://cdn.sportika.net/cropped-foodie-hub(1).png",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Guinness World Records",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=567",
-                "type": "hls"
-            }
-        ],
-        "img": "https://img1.static-ottera.com/prod/tg/linear_channel/logo/480x270/grw_updated.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "HGTV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mediapackage-hgtv-source.fullscreen.nz/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/tCVphVLB/hgtv.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "History TV 18",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/playlist/amg01448-samsungindia-historychannelhindi-samsungin/playlist.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 3",
-                "url": "https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://static.wikia.nocookie.net/logopedia/images/6/67/History_tv18_hd.png/revision/latest?cb=20210515171227",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "House of Crime",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://cc-y2z89muounal4.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y2z89muounal4/IQJW/WBD/HouseOfCrime_IN/HouseOfCrime_IN.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4600004HW_20250416T005413SQUARE.png",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "INFAST",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://d30jgtzu0azlqq.cloudfront.net/playlist/samsungus-insighttv/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvNWNOQ2CVYM3nP66GmeQlS_1D-tNJo4GnjX4_1fSMozIMfIN_oHrKwi3C2zVsZbB9E90&usqp=CAU",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Investigation Discovery",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Investigationdiscovery2/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "2828ea6f6a984505b0454da0c03f68b9",
-                    "key": "5d3b7195086544c2807aa8c1544e7379"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/cHKNTBPr/id.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "INWILD",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://d30jgtzu0azlqq.cloudfront.net/playlist/samsungus-insighttv/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://cdn.uc.assets.prezly.com/92770c71-9d6f-400f-8311-38e9cfec52c2/InWild_landscape-green.png",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "KITE Victers",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRw5j21VYGJhzIzhCA-EZ51uIbdDNMBe96CA&s",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Love Nature",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(LoveNature)/master.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "3af2407f93664272a2b0c24be3632d93",
-                    "key": "6504d3e04a92a7d0d0d36818f477cae4"
-                }
-            }
-        ],
-        "img": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Love_Nature_logo_%282025%29.svg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Love the Planet",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk-apopw.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/VLJ8Bbbc/love-the-planet.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Makkal TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://5k8q87azdy4v-hls-live.wmncdn.net/MAKKAL/271ddf829afeece44d8732757fba1a66.sdp/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://play-lh.googleusercontent.com/ipwuom_ArR-0tJ21BVOOWR85CTXFG57eEf24M_kN6AXVb9iXM61ijrk9PzUwLtkd1A=w600-h300-pc0xffffff-pd",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "National Geographic",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561901/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "6d647aff767c453daa5fb54a44c783c6",
-                    "key": "2f971e6a1cc58e7085afc761a3f13162"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/05pWTnLq/nat-geo.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "National Geographic Wild",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
-                    "key": "adf163c6c1729e6f77668d4e49f32352"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Popular Science",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://amg13231-actve-amg13231c5-sportstribal-emea-1269.playouts.now.amagi.tv/playlist/amg13231-actvefast-powder-sportstribalemea/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/FzhNb9Jj/popular.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "TLC",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Tlc2/default/manifest.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "e48e7373d6be47ecab83a20849f6823e",
-                    "key": "513ce07a2ee24ffdbe667eff5a9d46a8"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/63p7Yght/tlc-1.jpg",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Travelxp",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/zGdP4tPR/travelxp.png",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Village Cooking Channel",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://glb.bozztv.com/glb/ushba-t10/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/66OTTHSdZwqnz75I-z_sCFmf-EKQ9q4_OZsluCDm3KqPrcauc16Si1gGQuUgqe82Pi05Y2vnpw=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Weatherspy",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAcy7OdZhH0RGal0eWFF9vozfxB4n77mFX7mc9-SBxs69k44vJKhneDA5FhrW8SHdBNcA&usqp=CAU",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "Wild Flix",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://cc-qgrxgp51645lw.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-qgrxgp51645lw/IQJW/WBD/WildFlix_IN/WildFlix_IN.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN460000585_20250416T020413SQUARE.png",
-        "category": "Others",
-        "description": "Others Channel"
-    },
-
-    {
-        "name": "XXTreme Jobs",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://cc-zko1curyce7jh.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zko1curyce7jh/IQJW/WBD/XXtremeJobs_IN/XXtremeJobs_IN.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN46000011Q_20250205T004626SQUARE.png",
-        "category": "Others",
-        "description": "Others Channel"
+        "img": "https://upload.wikimedia.org/wikipedia/en/8/8c/WWE_Network_logo.jpeg",
+        "category": "Religious",
+        "description": "Religious Channel"
     },
 
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 79
-// Channels with DRM: 22
+// Total channels: 50
+// Channels with DRM: 12
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
