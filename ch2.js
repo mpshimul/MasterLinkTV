@@ -1,11 +1,11 @@
-// Generated: 2026-03-30 18:56 UTC
+// Generated: 2026-03-31 01:56 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // SPORTS (28 channels, 12 with 🔐 DRM)
+    // SPORTS (27 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -177,11 +177,6 @@ window.rawChannels2 = [
         "name": "Live 3",
         "sources": [
             {
-                "name": "Server 2",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/sonyten5/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 3",
                 "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
                 "type": "hls"
@@ -239,12 +234,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "Server 1",
-                "url": "https://p4kp.rjmbts.workers.dev/22148.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://sm-monirul.top/RoarZone/play.php?id=ZWRnZTIvc3Rhci1zcG9ydHMtMQ==&e=.m3u8",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C190/master.m3u8",
                 "type": "hls"
             },
             {
@@ -304,20 +294,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.imgur.com/GTfUEnU.png",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Sony Sports 2",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/sonyten2/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/y8SC16G7/ten2.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -715,7 +691,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // OTHERS (36 channels, 9 with 🔐 DRM)
+    // OTHERS (37 channels, 10 with 🔐 DRM)
     // ==================================================
 
     {
@@ -1172,6 +1148,24 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "National Geographic Wild",
+        "sources": [
+            {
+                "name": "🔐 Auto",
+                "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561201/index.mpd",
+                "type": "dash",
+                "drm": {
+                    "kid": "ffa7c3ca6020428c919e13b817b7e31b",
+                    "key": "adf163c6c1729e6f77668d4e49f32352"
+                }
+            }
+        ],
+        "img": "https://i.postimg.cc/9MHP15XD/nat-geo-wild.jpg",
+        "category": "Others",
+        "description": "Others Channel"
+    },
+
+    {
         "name": "Popular Science",
         "sources": [
             {
@@ -1277,6 +1271,6 @@ window.rawChannels2 = [
 
 // SUMMARY - WITH DRM SUPPORT
 // Total channels: 79
-// Channels with DRM: 21
+// Channels with DRM: 22
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
