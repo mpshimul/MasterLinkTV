@@ -1,4 +1,4 @@
-// Generated: 2026-04-01 02:05 UTC
+// Generated: 2026-04-01 07:15 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -219,6 +219,11 @@ window.rawChannels2 = [
         "name": "Live 4",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://ptu.ridsys.in/riptv/live/STAR_SPORTS_1_HD/index.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 2",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://46.225.94.157/hls/espn/index.m3u8",
                 "type": "hls"
@@ -282,11 +287,6 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://psl.bigbaat.app/out/v1/0ef369b90c7b4025b76621e46ee5fb70/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/tsports1/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ],
@@ -483,6 +483,11 @@ window.rawChannels2 = [
     {
         "name": "Star Sports 2",
         "sources": [
+            {
+                "name": "Stream 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starsports2/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Stream 2",
                 "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C250/master.m3u8",
