@@ -1,11 +1,11 @@
-// Generated: 2026-04-01 07:15 UTC
+// Generated: 2026-04-01 13:09 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // SPORTS (35 channels, 12 with 🔐 DRM)
+    // SPORTS (34 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -266,11 +266,6 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
-                "name": "Server 2",
-                "url": "https://sm-monirul.top/RoarZone/play.php?id=ZWRnZTIvc3Rhci1zcG9ydHMtMQ==&e=.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 3",
                 "url": "https://p4kp.rjmbts.workers.dev/7455.m3u8",
                 "type": "hls"
@@ -528,20 +523,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://static.wikia.nocookie.net/logopedia/images/4/46/Sss-hd2-bronze.png/revision/latest?cb=20170728104956",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "T Sports",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/tsports1/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/DZbVq4jM/t-sports.jpg",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -824,7 +805,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 50
+// Total channels: 49
 // Channels with DRM: 12
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
