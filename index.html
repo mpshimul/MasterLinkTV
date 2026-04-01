@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Zee Bangla - Fullscreen HLS Player</title>
+    <!-- HLS.js library for cross-browser HLS (HTTP Live Streaming) playback -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.7"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none; /* Prevents accidental text selection on double-click */
+        }
+
+        body {
+            background: #0a0f1e;
+            font-family: 'Segoe UI', 'Roboto', 'Inter', system-ui, -apple-system, sans-serif;
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+            position: fixed;
+        }
+
+        /* Main player container - fills entire screen */
+        .player-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+        }
+
+        /* Video element: fullscreen ready, covers all available space while preserving aspect ratio */
+        #videoPlayer {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;  /* 'contain' shows full video without cropping, black bars if needed */
+            background: #000000;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        /* Custom overlay UI controls (simple, minimalist, appears on hover/tap) */
+        .controls-overlay {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0) 100%);
+            padding: 1.5rem 1.8rem 1.2rem 1.8rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            flex-wrap: wrap;
+            z-index: 10;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+            backdrop-filter: blur(2px);
+        }
+
+        /* Active state for controls */
+        .controls-overlay.visible {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        /* Button group */
+        .control-buttons {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .ctrl-btn {
+            background: rgba(20, 20, 30, 0.8);
+            border: none;
+            color: white;
+            font-size: 1.3rem;
+            width: 44px;
+            height: 44px;
+            border-radius: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            backdrop-filter: blur(4px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+
+        .ctrl-btn:hover {
+            background: #e50914;
+            transform: scale(1.05);
+        }
+
+        .ctrl-btn:active {
+            transform: scale(0.96);
+        }
+
+        /* Fullscreen specific button highlight */
+        .fullscreen-active {
+            background: #e50914;
+        }
+
+        /* Volume slider container */
+        .volume-control {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(0,0,0,0.6);
+            padding: 0 12px;
+            border-radius: 40px;
+            height: 44px;
+        }
+
+        .volume-icon {
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+
+        input[type="range"] {
+            width: 90px;
+            height: 4px;
+            -webkit-appearance: none;
+            background: rgba(255,255,255,0.3);
+            border-radius: 5px;
+            outline: none;
+            cursor: pointer;
+        }
+
+        input[type="range"]:focus {
+            outline: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: #e50914;
+            cursor: pointer;
+            box-shadow: 0 0 2px white;
+        }
+
+        /* Time display */
+        .time-display {
+            color: white;
+            font-size: 0.9rem;
+            font-weight: 500;
+            background: rgba(0,0,0,0.5);
+            padding: 6px 12px;
+            border-radius: 30px;
+            letter-spacing: 0.5px;
+            font-family: monospace;
+        }
+
+        /* Loading indicator */
+        .loading-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0,0,0,0.7);
+            backdrop-filter: blur(8px);
+            padding: 12px 24px;
+            border-radius: 50px;
+            color: white;
+            font-weight: 500;
+            z-index: 20;
+            font-size: 1rem;
+            pointer-events: none;
+            transition: opacity 0.2s;
+            opacity: 0;
+            font-family: monospace;
+        }
+
+        .loading-overlay.show {
+            opacity: 1;
+        }
+
+        /* Error message styling */
+        .error-message {
+            position: absolute;
+            bottom: 30%;
+            left: 20px;
+            right: 20px;
+            background: #e50914cc;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: 500;
+            z-index: 15;
+            backdrop-filter: blur(4px);
+            font-size: 0.9rem;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+        }
+
+        .error-message.visible {
+            opacity: 1;
+        }
+
+        /* small responsive adjustments */
+        @media (max-width: 640px) {
+            .controls-overlay {
+                padding: 1rem 1rem 0.8rem 1rem;
+            }
+            .ctrl-btn {
+                width: 38px;
+                height: 38px;
+                font-size: 1rem;
+            }
+            .volume-control {
+                height: 38px;
+            }
+            .time-display {
+                font-size: 0.7rem;
+            }
+            input[type="range"] {
+                width: 70px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="player-container">
+    <video id="videoPlayer" playsinline crossorigin="anonymous" preload="auto">
+        <!-- Fallback text if browser doesn't support video tag -->
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<!-- Custom minimal control bar (fullscreen toggle, play/pause, volume, time) -->
+<div id="controlsOverlay" class="controls-overlay">
+    <div class="control-buttons">
+        <button id="playPauseBtn" class="ctrl-btn" aria-label="Play/Pause">⏸</button>
+        <div class="volume-control">
+            <span id="volumeIcon" class="volume-icon">🔊</span>
+            <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
+        </div>
+        <button id="fullscreenBtn" class="ctrl-btn" aria-label="Fullscreen">⤢</button>
+    </div>
+    <div id="timeDisplay" class="time-display">00:00 / 00:00</div>
+</div>
+
+<div id="loadingIndicator" class="loading-overlay">📡 Loading stream ...</div>
+<div id="errorMessage" class="error-message">⚠️ Connection error. Retrying...</div>
+
+<script>
+    (function() {
+        // ---------- CONFIGURATION ----------
+        const STREAM_URL = "http://27.124.71.27/Zee_Bangla/index.m3u8";
+        
+        // DOM elements
+        const video = document.getElementById('videoPlayer');
+        const playPauseBtn = document.getElementById('playPauseBtn');
+        const fullscreenBtn = document.getElementById('fullscreenBtn');
+        const volumeSlider = document.getElementById('volumeSlider');
+        const volumeIconSpan = document.getElementById('volumeIcon');
+        const timeDisplay = document.getElementById('timeDisplay');
+        const controlsOverlay = document.getElementById('controlsOverlay');
+        const loadingIndicator = document.getElementById('loadingIndicator');
+        const errorMessageDiv = document.getElementById('errorMessage');
+        
+        // State variables
+        let hls = null;               // HLS instance
+        let isPlaying = false;
+        let retryCount = 0;
+        let retryTimeout = null;
+        let controlsTimeout = null;    // timeout to auto-hide controls
+        let isControlsVisible = false;
+        
+        // ---------- HELPER FUNCTIONS ----------
+        function showLoading(show) {
+            if (show) {
+                loadingIndicator.classList.add('show');
+            } else {
+                loadingIndicator.classList.remove('show');
+            }
+        }
+        
+        function showError(msg, autoClear = true) {
+            errorMessageDiv.textContent = msg || "⚠️ Playback error. Reconnecting...";
+            errorMessageDiv.classList.add('visible');
+            if (autoClear) {
+                setTimeout(() => {
+                    errorMessageDiv.classList.remove('visible');
+                }, 4000);
+            }
+        }
+        
+        function hideError() {
+            errorMessageDiv.classList.remove('visible');
+        }
+        
+        // Update play/pause button icon based on video state
+        function updatePlayPauseIcon() {
+            if (video.paused) {
+                playPauseBtn.innerHTML = "▶";
+                playPauseBtn.setAttribute('aria-label', 'Play');
+                isPlaying = false;
+            } else {
+                playPauseBtn.innerHTML = "⏸";
+                playPauseBtn.setAttribute('aria-label', 'Pause');
+                isPlaying = true;
+            }
+        }
+        
+        // Format time in mm:ss
+        function formatTime(seconds) {
+            if (isNaN(seconds)) return "00:00";
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+        }
+        
+        // Update time display (current/duration)
+        function updateTimeDisplay() {
+            const current = video.currentTime || 0;
+            const duration = video.duration || 0;
+            let durationStr = duration ? formatTime(duration) : "LIVE";
+            if (isNaN(duration) || duration === Infinity || duration === 0) {
+                // HLS live streams often have duration = 0 or Infinity -> show as LIVE
+                durationStr = "LIVE";
+                timeDisplay.textContent = `${formatTime(current)} / LIVE`;
+            } else {
+                timeDisplay.textContent = `${formatTime(current)} / ${formatTime(duration)}`;
+            }
+        }
+        
+        // Volume icon update based on volume/mute
+        function updateVolumeIcon() {
+            const vol = video.volume;
+            const muted = video.muted;
+            if (muted || vol === 0) {
+                volumeIconSpan.innerHTML = "🔇";
+            } else if (vol < 0.5) {
+                volumeIconSpan.innerHTML = "🔉";
+            } else {
+                volumeIconSpan.innerHTML = "🔊";
+            }
+        }
+        
+        // Sync volume slider with video volume
+        function syncVolumeUI() {
+            volumeSlider.value = video.muted ? 0 : video.volume;
+            updateVolumeIcon();
+        }
+        
+        // ---------- FULLSCREEN HANDLING (Cross-browser) ----------
+        function toggleFullscreen() {
+            if (!document.fullscreenElement && !document.webkitFullscreenElement && !document.msFullscreenElement) {
+                // Enter fullscreen on the container or video element (usually video works best)
+                const elem = video;
+                const requestFullscreen = elem.requestFullscreen || elem.webkitRequestFullscreen || elem.msRequestFullscreen;
+                if (requestFullscreen) {
+                    requestFullscreen.call(elem).catch(err => {
+                        console.warn("Fullscreen error:", err);
+                        showError("Fullscreen not supported", true);
+                    });
+                } else {
+                    showError("Fullscreen API not available", true);
+                }
+            } else {
+                // Exit fullscreen
+                const exitFullscreen = document.exitFullscreen || document.webkitExitFullscreen || document.msExitFullscreen;
+                if (exitFullscreen) {
+                    exitFullscreen.call(document);
+                }
+            }
+        }
+        
+        // Listen to fullscreen change to style button if needed
+        function onFullscreenChange() {
+            const isFull = !!(document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement);
+            if (isFull) {
+                fullscreenBtn.classList.add('fullscreen-active');
+                fullscreenBtn.innerHTML = "✖";  // indicate exit
+                fullscreenBtn.setAttribute('aria-label', 'Exit fullscreen');
+            } else {
+                fullscreenBtn.classList.remove('fullscreen-active');
+                fullscreenBtn.innerHTML = "⤢";
+                fullscreenBtn.setAttribute('aria-label', 'Fullscreen');
+            }
+        }
+        
+        // ---------- CONTROLS AUTO-HIDE (for immersive experience) ----------
+        function showControlsTemporarily() {
+            if (controlsTimeout) clearTimeout(controlsTimeout);
+            if (!isControlsVisible) {
+                controlsOverlay.classList.add('visible');
+                isControlsVisible = true;
+            }
+            // Auto hide after 3 seconds of inactivity
+            controlsTimeout = setTimeout(() => {
+                if (isControlsVisible && !video.paused) {  // only auto-hide when playing (optional)
+                    controlsOverlay.classList.remove('visible');
+                    isControlsVisible = false;
+                } else if (isControlsVisible && video.paused) {
+                    // If paused, keep controls visible? better UX: keep until play? Let's keep visible while paused
+                    // but we'll not hide if paused. So we clear timeout and just don't hide. Actually good.
+                    // So we do nothing
+                }
+            }, 3200);
+        }
+        
+        // Toggle controls on user activity (mouse move, tap)
+        function handleUserActivity() {
+            showControlsTemporarily();
+        }
+        
+        // Optional: Lock controls visible when video is paused (better UX)
+        function onPlayPauseStateChange() {
+            if (video.paused) {
+                // When paused, ensure controls stay visible
+                if (controlsTimeout) clearTimeout(controlsTimeout);
+                controlsOverlay.classList.add('visible');
+                isControlsVisible = true;
+            } else {
+                // When playing, schedule hide after 2.5s
+                showControlsTemporarily();
+            }
+            updatePlayPauseIcon();
+        }
+        
+        // ---------- HLS INITIALIZATION ----------
+        function initHLS() {
+            // Clean up any previous HLS instance
+            if (hls) {
+                hls.destroy();
+                hls = null;
+            }
+            // Reset error display
+            hideError();
+            showLoading(true);
+            
+            // Check if browser supports native HLS (Safari / iOS)
+            if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                // Native HLS support
+                console.log("Using native HLS playback");
+                video.src = STREAM_URL;
+                video.addEventListener('loadedmetadata', () => {
+                    showLoading(false);
+                    video.play().catch(e => {
+                        console.warn("Autoplay prevented:", e);
+                        // Autoplay might be blocked, user must click play
+                        showLoading(false);
+                        showError("Click play to start stream", true);
+                    });
+                });
+                video.addEventListener('error', (e) => {
+                    console.error("Native video error", e);
+                    showLoading(false);
+                    showError("Stream error. Attempting reload...", true);
+                    attemptRetry();
+                });
+            } else {
+                // Use HLS.js for broader support
+                if (Hls.isSupported()) {
+                    hls = new Hls({
+                        enableWorker: true,
+                        lowLatencyMode: true,
+                        backBufferLength: 60,
+                        maxBufferLength: 30,
+                        manifestLoadingTimeOut: 10000,
+                        manifestLoadingMaxRetry: 4,
+                        levelLoadingTimeOut: 8000,
+                        fragLoadingTimeOut: 10000,
+                    });
+                    hls.loadSource(STREAM_URL);
+                    hls.attachMedia(video);
+                    
+                    hls.on(Hls.Events.MANIFEST_PARSED, () => {
+                        console.log("HLS manifest loaded, starting playback");
+                        showLoading(false);
+                        video.play().catch(err => {
+                            console.log("Autoplay blocked:", err);
+                            showLoading(false);
+                            // Show hint but not error, user can press play
+                            showError("Press ▶ to start", true);
+                        });
+                        retryCount = 0; // reset retry counter on success
+                        hideError();
+                    });
+                    
+                    hls.on(Hls.Events.ERROR, (event, data) => {
+                        if (data.fatal) {
+                            console.error("Fatal HLS error:", data);
+                            switch (data.type) {
+                                case Hls.ErrorTypes.NETWORK_ERROR:
+                                    showError("Network error, reconnecting...");
+                                    attemptRetry();
+                                    break;
+                                case Hls.ErrorTypes.MEDIA_ERROR:
+                                    showError("Media error, recovering...");
+                                    hls.recoverMediaError();
+                                    break;
+                                default:
+                                    showError("Fatal error, restarting...");
+                                    attemptRetry();
+                                    break;
+                            }
+                        } else {
+                            // Non-fatal: just log
+                            console.warn("HLS non-fatal error:", data);
+                        }
+                    });
+                    
+                    hls.on(Hls.Events.MEDIA_ATTACHED, () => {
+                        console.log("HLS media attached");
+                    });
+                    
+                } else {
+                    showError("HLS not supported in this browser");
+                    showLoading(false);
+                }
+            }
+        }
+        
+        // Retry logic: exponential backoff up to 12 seconds
+        function attemptRetry() {
+            if (retryTimeout) clearTimeout(retryTimeout);
+            const maxRetries = 6;
+            if (retryCount >= maxRetries) {
+                showError("Unable to connect after multiple attempts. Please refresh.");
+                showLoading(false);
+                return;
+            }
+            const delay = Math.min(3000 * Math.pow(1.5, retryCount), 15000);
+            retryCount++;
+            showLoading(true);
+            retryTimeout = setTimeout(() => {
+                console.log(`Retry attempt ${retryCount} after ${delay}ms`);
+                initHLS();
+            }, delay);
+        }
+        
+        // ---------- EVENT LISTENERS for UI & Video ----------
+        function bindEvents() {
+            // Play/Pause button
+            playPauseBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (video.paused) {
+                    video.play().catch(err => {
+                        console.warn("Playback failed:", err);
+                        showError("Playback blocked. Click again or check stream.", true);
+                    });
+                } else {
+                    video.pause();
+                }
+                updatePlayPauseIcon();
+                // Keep controls visible after toggle
+                showControlsTemporarily();
+            });
+            
+            // Fullscreen button
+            fullscreenBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                toggleFullscreen();
+                showControlsTemporarily();
+            });
+            
+            // Volume slider
+            volumeSlider.addEventListener('input', (e) => {
+                const val = parseFloat(e.target.value);
+                video.volume = val;
+                video.muted = (val === 0);
+                syncVolumeUI();
+                showControlsTemporarily();
+            });
+            
+            // Volume icon click to mute/unmute
+            volumeIconSpan.addEventListener('click', (e) => {
+                e.stopPropagation();
+                video.muted = !video.muted;
+                if (!video.muted && video.volume === 0) {
+                    video.volume = 0.5;  // set reasonable volume if unmuted from zero
+                    volumeSlider.value = 0.5;
+                } else if (video.muted) {
+                    volumeSlider.value = 0;
+                } else {
+                    volumeSlider.value = video.volume;
+                }
+                syncVolumeUI();
+                showControlsTemporarily();
+            });
+            
+            // Video element events
+            video.addEventListener('play', () => {
+                isPlaying = true;
+                updatePlayPauseIcon();
+                // start auto-hide timer after playing
+                showControlsTemporarily();
+            });
+            
+            video.addEventListener('pause', () => {
+                isPlaying = false;
+                updatePlayPauseIcon();
+                // Keep controls visible when paused
+                if (controlsTimeout) clearTimeout(controlsTimeout);
+                controlsOverlay.classList.add('visible');
+                isControlsVisible = true;
+            });
+            
+            video.addEventListener('timeupdate', () => {
+                updateTimeDisplay();
+            });
+            
+            video.addEventListener('volumechange', () => {
+                syncVolumeUI();
+            });
+            
+            video.addEventListener('waiting', () => {
+                showLoading(true);
+            });
+            
+            video.addEventListener('canplay', () => {
+                showLoading(false);
+                hideError();
+            });
+            
+            video.addEventListener('playing', () => {
+                showLoading(false);
+                hideError();
+            });
+            
+            video.addEventListener('ended', () => {
+                // For live streams, never really ends, but just in case
+                console.log("Stream ended");
+            });
+            
+            // Error handling on video element directly (for native HLS fallback)
+            video.addEventListener('error', (e) => {
+                const error = video.error;
+                console.error("Video element error:", error);
+                if (error && (error.code === 2 || error.code === 4)) {
+                    showError("Stream loading failed. Retrying...");
+                    attemptRetry();
+                }
+                showLoading(false);
+            });
+            
+            // Show controls on mouse movement / touch events
+            const activityEvents = ['mousemove', 'click', 'touchstart', 'touchend'];
+            activityEvents.forEach(eventType => {
+                document.addEventListener(eventType, handleUserActivity);
+            });
+            
+            // Also when hovering the container, show controls
+            video.addEventListener('mouseenter', handleUserActivity);
+            video.addEventListener('click', (e) => {
+                // Toggle play/pause on video click for convenience, but also show controls
+                if (video.paused) {
+                    video.play().catch(() => {});
+                } else {
+                    video.pause();
+                }
+                showControlsTemporarily();
+                e.stopPropagation();
+            });
+            
+            // Ensure that when fullscreen changes we update button appearance
+            document.addEventListener('fullscreenchange', onFullscreenChange);
+            document.addEventListener('webkitfullscreenchange', onFullscreenChange);
+            document.addEventListener('msfullscreenchange', onFullscreenChange);
+        }
+        
+        // Initially set volume sync
+        video.volume = 1;
+        video.muted = false;
+        syncVolumeUI();
+        
+        // Initialize HLS stream
+        initHLS();
+        
+        // Bind UI events after video load
+        bindEvents();
+        
+        // Additional: show controls initially for visibility
+        setTimeout(() => {
+            showControlsTemporarily();
+        }, 500);
+        
+        // Cleanup retry timeout on page unload (optional but good)
+        window.addEventListener('beforeunload', () => {
+            if (retryTimeout) clearTimeout(retryTimeout);
+            if (hls) {
+                hls.destroy();
+                hls = null;
+            }
+        });
+        
+        // For live streams that might have infinite duration, update time display gracefully
+        // Also ensure when duration changes, timeDisplay updates properly
+        video.addEventListener('durationchange', updateTimeDisplay);
+        video.addEventListener('loadedmetadata', updateTimeDisplay);
+        
+        // Extra: if the stream uses CORS or needs to reload after visibility change
+      document.addEventListener('visibilitychange', () => {
+            if (!document.hidden && video.paused && !video.ended) {
+                // Optionally resume if user comes back, but not mandatory.
+                // We do nothing to preserve battery, but could try to re-sync.
+                // However reconnection not required. Only if stream stalled? but fine.
+            }
+        });
+        
+        console.log("Fullscreen HLS Player ready | Stream URL:", STREAM_URL);
+    })();
+</script>
+</body>
+</html>
