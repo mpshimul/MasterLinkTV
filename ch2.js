@@ -1,11 +1,11 @@
-// Generated: 2026-04-01 13:09 UTC
+// Generated: 2026-04-01 18:55 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // SPORTS (34 channels, 12 with 🔐 DRM)
+    // SPORTS (35 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -218,11 +218,6 @@ window.rawChannels2 = [
     {
         "name": "Live 4",
         "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://ptu.ridsys.in/riptv/live/STAR_SPORTS_1_HD/index.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 2",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://46.225.94.157/hls/espn/index.m3u8",
@@ -528,6 +523,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "T Sports",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/tsports1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/DZbVq4jM/t-sports.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
         "name": "Tennis Channel",
         "sources": [
             {
@@ -805,7 +814,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 49
+// Total channels: 50
 // Channels with DRM: 12
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
