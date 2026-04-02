@@ -1,4 +1,4 @@
-// Generated: 2026-04-01 18:55 UTC
+// Generated: 2026-04-02 01:52 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
@@ -358,6 +358,11 @@ window.rawChannels2 = [
         "name": "Sony Sports 2",
         "sources": [
             {
+                "name": "Server 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/sonyten2/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Server 2",
                 "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C72/master.m3u8",
                 "type": "hls"
@@ -473,11 +478,6 @@ window.rawChannels2 = [
     {
         "name": "Star Sports 2",
         "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starsports2/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Stream 2",
                 "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C250/master.m3u8",
