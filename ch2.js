@@ -1,11 +1,11 @@
-// Generated: 2026-04-02 13:02 UTC
+// Generated: 2026-04-02 18:51 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // SPORTS (33 channels, 12 with 🔐 DRM)
+    // SPORTS (35 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -156,6 +156,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Kantipur Max",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C413/master.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/wB1Hmg1s/knt-max.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
         "name": "Kantipur Max 2",
         "sources": [
             {
@@ -190,6 +204,11 @@ window.rawChannels2 = [
     {
         "name": "Live 3",
         "sources": [
+            {
+                "name": "Server 2",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/sonyten5/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 3",
                 "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
@@ -263,6 +282,11 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://psl.bigbaat.app/out/v1/0ef369b90c7b4025b76621e46ee5fb70/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/tsports1/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ],
@@ -481,6 +505,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports Select 1",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starselect1/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://smartads.in/resources/assets/uploads/product_group/television/star-sports-select-1-hd.png",
         "category": "Sports",
         "description": "Sports Channel"
     },
@@ -848,7 +886,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 51
+// Total channels: 53
 // Channels with DRM: 12
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
