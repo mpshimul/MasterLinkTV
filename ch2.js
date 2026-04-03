@@ -1,11 +1,11 @@
-// Generated: 2026-04-03 07:04 UTC
+// Generated: 2026-04-03 12:55 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // SPORTS (35 channels, 12 with 🔐 DRM)
+    // SPORTS (33 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -162,6 +162,11 @@ window.rawChannels2 = [
                 "name": "Server 1",
                 "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C413/master.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C183/master.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://i.postimg.cc/wB1Hmg1s/knt-max.jpg",
@@ -204,11 +209,6 @@ window.rawChannels2 = [
     {
         "name": "Live 3",
         "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/sonyten5/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 3",
                 "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
@@ -282,11 +282,6 @@ window.rawChannels2 = [
             {
                 "name": "Server 1",
                 "url": "https://psl.bigbaat.app/out/v1/0ef369b90c7b4025b76621e46ee5fb70/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/tsports1/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ],
@@ -367,6 +362,11 @@ window.rawChannels2 = [
     {
         "name": "Sony Sports 2",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/sonyten2/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 2",
                 "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C72/master.m3u8",
@@ -484,6 +484,11 @@ window.rawChannels2 = [
         "name": "Star Sports 2",
         "sources": [
             {
+                "name": "Stream 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starsports2/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "Stream 2",
                 "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C250/master.m3u8",
                 "type": "hls"
@@ -500,41 +505,8 @@ window.rawChannels2 = [
     },
 
     {
-        "name": "Star Sports Select 1",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starselect1/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://smartads.in/resources/assets/uploads/product_group/television/star-sports-select-1-hd.png",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Star Sports Select 2",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starselect2/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://static.wikia.nocookie.net/logopedia/images/4/46/Sss-hd2-bronze.png/revision/latest?cb=20170728104956",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
         "name": "T Sports",
         "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/tsports1/index.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "Server 3",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/tsports1/index.m3u8",
@@ -608,7 +580,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (17 channels)
+    // RELIGIOUS (19 channels)
     // ==================================================
 
     {
@@ -626,6 +598,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Aaseervatham TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt04.tangotv.in/AASEERVATHAMTV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://c.kmpr.in/assets/tv_channels_150/5220.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
         "name": "Akaal Channel",
         "sources": [
             {
@@ -635,20 +621,6 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://www.sikhentrepreneur.com/wp-content/uploads/2013/09/akaalch.png",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Azan TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://www.jagobd.com/wp-content/uploads/2019/04/azantvs.jpg",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -738,6 +710,20 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Om",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt01.tangotv.in/OMTV/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/baff06610cc2d29677de762afb7911cf.png",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
         "name": "Om Bangla",
         "sources": [
             {
@@ -747,6 +733,20 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://i.postimg.cc/jjmyWm0m/om-bangla-2.jpg",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Paras Gold",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://mumt04.tangotv.in/PARASGOLD/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.lyngsat.com/logo/tv/pp/paras-gold-in.png",
         "category": "Religious",
         "description": "Religious Channel"
     },
