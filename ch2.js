@@ -1,11 +1,11 @@
-// Generated: 2026-04-03 12:55 UTC
+// Generated: 2026-04-03 18:42 UTC
 // Includes DRM support for .mpd streams
 // Format: {drm: {kid: "...", key: "..."}}
 
 window.rawChannels2 = [
 
     // ==================================================
-    // SPORTS (33 channels, 12 with 🔐 DRM)
+    // SPORTS (35 channels, 12 with 🔐 DRM)
     // ==================================================
 
     {
@@ -344,11 +344,6 @@ window.rawChannels2 = [
         "name": "Sony Sports 1",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/sonyten1/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "Server 2",
                 "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C65/master.m3u8",
                 "type": "hls"
@@ -505,8 +500,41 @@ window.rawChannels2 = [
     },
 
     {
+        "name": "Star Sports Select 1",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starselect1/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://smartads.in/resources/assets/uploads/product_group/television/star-sports-select-1-hd.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
+        "name": "Star Sports Select 2",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starselect2/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://static.wikia.nocookie.net/logopedia/images/4/46/Sss-hd2-bronze.png/revision/latest?cb=20170728104956",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    {
         "name": "T Sports",
         "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/tsports1/index.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "Server 3",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/tsports1/index.m3u8",
@@ -580,7 +608,7 @@ window.rawChannels2 = [
 
 
     // ==================================================
-    // RELIGIOUS (19 channels)
+    // RELIGIOUS (21 channels)
     // ==================================================
 
     {
@@ -621,6 +649,25 @@ window.rawChannels2 = [
             }
         ],
         "img": "https://www.sikhentrepreneur.com/wp-content/uploads/2013/09/akaalch.png",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Azan TV",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/azantv.stream/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.jagobd.com/wp-content/uploads/2019/04/azantvs.jpg",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -688,9 +735,28 @@ window.rawChannels2 = [
                 "name": "⚡ Server 1",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "Server 2",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/islamictvbd.stream/playlist.m3u8",
+                "type": "hls"
             }
         ],
         "img": "https://upload.wikimedia.org/wikipedia/en/9/90/Islamic_TV_New_Logo.png",
+        "category": "Religious",
+        "description": "Religious Channel"
+    },
+
+    {
+        "name": "Madani Bangla",
+        "sources": [
+            {
+                "name": "Server 1",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/islamictvbd.stream/playlist.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://i.postimg.cc/BvfMPnSP/madani-bangla.jpg",
         "category": "Religious",
         "description": "Religious Channel"
     },
@@ -852,7 +918,7 @@ window.rawChannels2 = [
 ];
 
 // SUMMARY - WITH DRM SUPPORT
-// Total channels: 52
+// Total channels: 56
 // Channels with DRM: 12
 // .mpd streams include drm: {kid: "...", key: "..."}
 // Generated with enhanced DRM parsing
