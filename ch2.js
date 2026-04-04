@@ -1,919 +1,581 @@
-// Generated: 2026-04-04 12:43 UTC
-// Includes DRM support for .mpd streams
-// Format: {drm: {kid: "...", key: "..."}}
-
 window.rawChannels2 = [
 
-    // ==================================================
-    // SPORTS (35 channels, 12 with 🔐 DRM)
-    // ==================================================
-
-    {
-        "name": "BBC News",
-        "sources": [
-            {
-                "name": "UK",
-                "url": "https://tplay.live/out/news/bbc-news/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Asia",
-                "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/s2679ZP4/bbc.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Bein Sports 1",
-        "sources": [
-            {
-                "name": "🔐 Server 1",
-                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein1)/master.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "d48b6088253c443eb94d27cb7828f707",
-                    "key": "e9776141f9e949273a072b0e035070ab"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/dQBQkL01/bein1.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Bein Sports 2",
-        "sources": [
-            {
-                "name": "🔐 Server 1",
-                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein2)/master.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "efa6ff1acefa43048e8b7adc21d98871",
-                    "key": "5d0f448b52a92035e3763c4a60275933"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/RZjv5tgh/bein2.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Bein Sports 3",
-        "sources": [
-            {
-                "name": "🔐 Server 1",
-                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein3)/master.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "816ee2f7c19f49ed84276f34541b465b",
-                    "key": "ca764a9973b6123a1112cffd3b32010d"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/bJRPtBpR/bein3.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "DD Sports",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://cdn-7.pishow.tv/live/1161/master.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 3",
-                "url": "https://mix.drmlive.net/mix/playboxtv.m3u8?id=PBha-10569",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/WzT8m77f/dd-sports.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Fox Sports",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://d1jzu95oc8fgt3.cloudfront.net:443/FOX_Sports.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/TzefJpalKWO0akoDZBlYLwAsgYLhK8OTkdclGr8KHW0V8EIi6uhfQZEpaB2Ln3hKjOgYjgiS4w=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Fox Sports 1",
-        "sources": [
-            {
-                "name": "🔐 Server 1",
-                "url": "https://cors-everywhere-wc8b4.ondigitalocean.app/https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tmpzbbdj9y/out/v1/962736723a534ba294e7592fef49827b/cenc.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "5466ebd70704bdeb657f0abf3c5ca4ef",
-                    "key": "bdd79b72d8e48ed483aa623cc38a8a16"
-                }
-            }
-        ],
-        "img": "https://iili.io/KYJqv0G.png",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Fox Sports 2",
-        "sources": [
-            {
-                "name": "🔐 Server 1",
-                "url": "https://cors-everywhere-wc8b4.ondigitalocean.app/https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "09453ce820d65fbc675de3185f9e454c",
-                    "key": "98cff9600995fa381c76fdacf3c7edae"
-                }
-            }
-        ],
-        "img": "https://iili.io/KYJC4V9.png",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Kantipur Max",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C413/master.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C183/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wB1Hmg1s/knt-max.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Kantipur Max 2",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C190/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wB1Hmg1s/knt-max.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Live 2",
-        "sources": [
-            {
-                "name": "🔐 Server 1",
-                "url": "https://a204aivottepl-a.akamaihd.net/sin-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "7e9239c1982d984a002df3ed049d0756",
-                    "key": "1b8a17598129a3618535c8fb05f103fe"
-                }
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Live 3",
-        "sources": [
-            {
-                "name": "Server 3",
-                "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Live 4",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://46.225.94.157/hls/espn/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 4",
-                "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00451-dazn-daznringside-lgus/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Live 5",
-        "sources": [
-            {
-                "name": "🔐 Server 1",
-                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Bein4)/master.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "d561ff976397473e9b456b44cdffcdd2",
-                    "key": "2b6cff42f7fae7e8bc32f3d5c62dc3c2"
-                }
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Live 6",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C190/master.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 3",
-                "url": "https://p4kp.rjmbts.workers.dev/7455.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Live 7",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://psl.bigbaat.app/out/v1/0ef369b90c7b4025b76621e46ee5fb70/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/tsports1/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywSEQroGG4RHEkDjj2LYZYVS_DEoZEB5wjw&s",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Premier League TV",
-        "sources": [
-            {
-                "name": "🔐 Server 1",
-                "url": "https://cors-everywhere-wc8b4.ondigitalocean.app/https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "002046c9a49b9ab1cdb6616bec5d26c3",
-                    "key": "d2f92f6b7edc9a1a05d393ba0c20ef9e"
-                }
-            }
-        ],
-        "img": "https://iili.io/KWCtSja.png",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Premier Sports",
-        "sources": [
-            {
-                "name": "🔐 Server 1",
-                "url": "https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_ps_hd1/default/index.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "b8b595299fdf41c1a3481fddeb0b55e4",
-                    "key": "cd2b4ad0eb286239a4a022e6ca5fd007"
-                }
-            }
-        ],
-        "img": "https://i.imgur.com/GTfUEnU.png",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Sky Sports Cricket",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C688/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/P5YhzxMD/sky-cric.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Sony Sports 1",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/sonyten1/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C65/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/mg0RC192/ten1.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Sony Sports 2",
-        "sources": [
-            {
-                "name": "Server 2",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C72/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/y8SC16G7/ten2.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Sony Sports 3",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C73/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/152bjh3Y/ten3.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Sony Sports 4",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C244/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/MGPqJsYm/ten4.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Sony Sports 5",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C61/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/qqgZ1jVH/ten5.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "SPOTV",
-        "sources": [
-            {
-                "name": "🔐 Server 1",
-                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(spoTV)/master.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "5b593bd530f1403a8f3eb9b2cd9236c8",
-                    "key": "d07c6a7f0b37a4090341e6380ff85060"
-                }
-            }
-        ],
-        "img": "https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A5BC0-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=222",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "SPOTV 2",
-        "sources": [
-            {
-                "name": "🔐 Server 1",
-                "url": "https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(spoTV2)/master.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "1af079fb8e1d43d890c1d804431ad84c",
-                    "key": "3dc40bc5aaf09af8b1572646a45b1242"
-                }
-            }
-        ],
-        "img": "https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A6A70-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=222",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Star Sports 1",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/sonyten5/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Stream 2",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C248/master.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Stream 3",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C283/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/0Nf1hhL0/sst1.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Star Sports 2",
-        "sources": [
-            {
-                "name": "Stream 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starsports2/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Stream 2",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C250/master.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Stream 5",
-                "url": "https://p4kp.rjmbts.workers.dev/7455.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/wxtTsjKK/sst2.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Star Sports Select 1",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starselect1/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://smartads.in/resources/assets/uploads/product_group/television/star-sports-select-1-hd.png",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Star Sports Select 2",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://stvlive.net:8080/starselect2/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://static.wikia.nocookie.net/logopedia/images/4/46/Sss-hd2-bronze.png/revision/latest?cb=20170728104956",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "T Sports",
-        "sources": [
-            {
-                "name": "Server 3",
-                "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/http://103.175.242.10:8080/tsports1/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/DZbVq4jM/t-sports.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Tennis Channel",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.ibb.co.com/HT0W29vz/Tennis-Channel.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "TNT Sports 1",
-        "sources": [
-            {
-                "name": "🔐 Auto",
-                "url": "https://cors-everywhere-wc8b4.ondigitalocean.app/https://live-pv-ta.amazon.fastly-edge.com:443/lhr-nitro/live/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
-                "type": "dash",
-                "drm": {
-                    "kid": "294b596763cefc22d0c6312939e13d82",
-                    "key": "52148f1043d238a487c29e04f1da8a7b"
-                }
-            }
-        ],
-        "img": "https://i.postimg.cc/m2zr04T2/tnt1.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Trace Sport",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://upload.wikimedia.org/wikipedia/commons/f/f4/TraceSSLogo.png",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
-    {
-        "name": "Willow",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/L4b8S5Df/willow.jpg",
-        "category": "Sports",
-        "description": "Sports Channel"
-    },
-
 
     // ==================================================
-    // RELIGIOUS (21 channels)
+    // Sports (18 channels)
     // ==================================================
 
     {
-        "name": "24/7 Bangla Kirtan",
+        "name": "BEIN SPORTS 1",
         "sources": [
             {
-                "name": "Playlist",
-                "url": "https://tplay.live/playlist/mix/bangla-kirtan/index.m3u8",
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/beIN_Sports_1/index.m3u8",
                 "type": "hls"
             }
         ],
-        "img": "https://i.postimg.cc/QMtrZNRk/bangla-kirtan.jpg",
-        "category": "Religious",
-        "description": "Religious Channel"
+        "img": "http://tv.spacexraj.com/uploads/6953faa91806b.png",
+        "category": "Sports",
+        "description": "Sports Channel"
     },
+    {
+        "name": "BEIN SPORTS 2",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/beIN_Sports_2/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/6953fab00a25c.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+    {
+        "name": "BEIN SPORTS 3",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/beIN_Sports_3/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/6953fab74cc61.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+    {
+        "name": "DAZN",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/DAZN_LaLiga/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/696157337d087.jpg",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+    {
+        "name": "STAR SPORTS 1",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/Star_Sports_1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/6987458e8d6bb.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+    {
+        "name": "T SPORTS",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/T-Sports/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/6953f86c1101a.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+    {
+        "name": "TNT SPORTS 1",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/TNT_Sports_1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/695bb8905b594.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+    {
+        "name": "TNT SPORTS 2",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/TNT_Sports_2/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/6953f807142e7.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+    {
+        "name": "TNT SPORTS 3",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/TNT_Sports_3/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/6953f80fed049.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+    {
+        "name": "TNT SPORTS 4",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/TNT_Sports_4/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/6953f818bd4a2.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+    {
+        "name": "TSN SPORTS 1",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/TSN_1/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/696157b301b65.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+    {
+        "name": "TSN SPORTS 2",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/TSN_2/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/696157bbd00ef.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+    {
+        "name": "TSN SPORTS 3",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/TSN_3/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/696157c80643b.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+    {
+        "name": "TSN SPORTS 4",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/TSN_4/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/696157d411a81.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+    {
+        "name": "WILLOW",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/Willow_Extra/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/696891e5bce30.png",
+        "category": "Sports",
+        "description": "Sports Channel"
+    },
+
+    // ==================================================
+    // Entertainment (9 channels)
+    // ==================================================
 
     {
-        "name": "Aaseervatham TV",
+        "name": "ANIMAL PLANET",
         "sources": [
             {
-                "name": "Server 1",
-                "url": "https://mumt04.tangotv.in/AASEERVATHAMTV/index.m3u8",
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/Animal_Planet/index.m3u8",
                 "type": "hls"
             }
         ],
-        "img": "https://c.kmpr.in/assets/tv_channels_150/5220.jpg",
-        "category": "Religious",
-        "description": "Religious Channel"
+        "img": "http://tv.spacexraj.com/uploads/695ed338836cc.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
     },
+    {
+        "name": "AXN",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/AXN/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/6968939076150.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+    {
+        "name": "BOLLYWOOD",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/Bollywood_HD/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/696896b0a2629.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+    {
+        "name": "CINEMAX",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/Cinemax/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/696892f791565.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+    {
+        "name": "HBO",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/HBO/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/6968940e5f35b.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+    {
+        "name": "LOVE NATURE",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/Love_Nature/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/6968964f1562e.jpg",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+    {
+        "name": "MBC BOLLYWOOD",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/MBC-Bollywood/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/6968988804cf2.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+    {
+        "name": "MOVIES NOW",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/Movies_Now/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/6968948804ca5.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+    {
+        "name": "ZEE BANGLA CINEMA",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/Zee_Bangla_Cinema/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/69688c398bcda.png",
+        "category": "Entertainment",
+        "description": "Entertainment Channel"
+    },
+
+    // ==================================================
+    // Akash Go (11 channels)
+    // ==================================================
 
     {
-        "name": "Akaal Channel",
+        "name": "ATN BANGLA",
         "sources": [
             {
-                "name": "⚡ Server 1",
-                "url": "https://cdn-globecast.akamaized.net/live/eds/akaal_tv/hls1_smart_akaal/akaal_tv.m3u8",
+                "name": "💠 Server",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
                 "type": "hls"
             }
         ],
-        "img": "https://www.sikhentrepreneur.com/wp-content/uploads/2013/09/akaalch.png",
-        "category": "Religious",
-        "description": "Religious Channel"
+        "img": "https://s6.gifyu.com/images/image27cfa7002786c232.png",
+        "category": "Akash Go",
+        "description": "Akash Go Channel"
     },
+    {
+        "name": "ATN NEWS",
+        "sources": [
+            {
+                "name": "💠 Server",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://dl.dropbox.com/s/4ldi1dp09s8o6bm/atn_news_bd.png",
+        "category": "Akash Go",
+        "description": "Akash Go Channel"
+    },
+    {
+        "name": "BTV",
+        "sources": [
+            {
+                "name": "💠 Server",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://ssl.com.bd/sites/default/files/BTV%20Logo%20Gallery.png",
+        "category": "Akash Go",
+        "description": "Akash Go Channel"
+    },
+    {
+        "name": "CHANNEL 24",
+        "sources": [
+            {
+                "name": "💠 Server",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://dl.dropbox.com/s/puf12xv5flgbnz5/channel24_bd.png",
+        "category": "Akash Go",
+        "description": "Akash Go Channel"
+    },
+    {
+        "name": "CHANNEL I",
+        "sources": [
+            {
+                "name": "💠 Server",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://cdn.tvpassport.com/image/station/240x135/channel-i-bangla.png",
+        "category": "Akash Go",
+        "description": "Akash Go Channel"
+    },
+    {
+        "name": "EKATTOR TV",
+        "sources": [
+            {
+                "name": "💠 Server",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://s4.gifyu.com/images/imagea02f4314e761661d.png",
+        "category": "Akash Go",
+        "description": "Akash Go Channel"
+    },
+    {
+        "name": "INDEPENDENT TV",
+        "sources": [
+            {
+                "name": "💠 Server",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://dl.dropbox.com/s/7xwwb8hetz3w8rp/independent_tv.png",
+        "category": "Akash Go",
+        "description": "Akash Go Channel"
+    },
+    {
+        "name": "JAMUNA TV",
+        "sources": [
+            {
+                "name": "💠 Server",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://dl.dropbox.com/s/k7z1dsec1jfjbkn/jamuna_tv_bd.png",
+        "category": "Akash Go",
+        "description": "Akash Go Channel"
+    },
+    {
+        "name": "NTV",
+        "sources": [
+            {
+                "name": "💠 Server",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://www.ntvbd.com/sites/default/files/aggregator/2020/02/17/ntv-channel_0.jpg",
+        "category": "Akash Go",
+        "description": "Akash Go Channel"
+    },
+    {
+        "name": "SOMOY TV",
+        "sources": [
+            {
+                "name": "💠 Server",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png",
+        "category": "Akash Go",
+        "description": "Akash Go Channel"
+    },
+    {
+        "name": "DEEPTO TV",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/69a193ba02d7e.jpg",
+        "category": "Akash Go",
+        "description": "Akash Go Channel"
+    },
+
+
+
+    // ==================================================
+    // Bangla (3 channels)
+    // ==================================================
 
     {
-        "name": "Azan TV",
+        "name": "SUN BANGLA",
         "sources": [
             {
-                "name": "Server 2",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/azantv.stream/playlist.m3u8",
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/Sun_Bangla/index.m3u8",
                 "type": "hls"
             }
         ],
-        "img": "https://www.jagobd.com/wp-content/uploads/2019/04/azantvs.jpg",
-        "category": "Religious",
-        "description": "Religious Channel"
+        "img": "http://tv.spacexraj.com/uploads/69688986e104d.jpg",
+        "category": "Bangla",
+        "description": "Bangla Channel"
     },
+    {
+        "name": "ZEE BANGLA",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/Zee_Bangla/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/696891b9c4fc7.png",
+        "category": "Bangla",
+        "description": "Bangla Channel"
+    },
+
+    // ==================================================
+    // Music (4 channels)
+    // ==================================================
 
     {
-        "name": "Ekamra Paramatma",
+        "name": "MUSIC INDIA",
         "sources": [
             {
-                "name": "Originals",
-                "url": "https://live.ekamraott.com/paramatma/paramatma/index.m3u8",
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/music-India/index.m3u8",
                 "type": "hls"
             }
         ],
-        "img": "https://i.postimg.cc/zvM91RLJ/ekamra-paramatma.jpg",
-        "category": "Religious",
-        "description": "Religious Channel"
+        "img": "http://tv.spacexraj.com/uploads/6968a07797cff.jpg",
+        "category": "Music",
+        "description": "Music Channel"
     },
+    {
+        "name": "ONEMUZ",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/OneMUZ/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/6968927431bf5.jpg",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+    {
+        "name": "TRACE LATINA",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/Trace_Latina/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/69688d4b4b3f1.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+    {
+        "name": "TRACE URBAN",
+        "sources": [
+            {
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/Trace_Urban/index.m3u8",
+                "type": "hls"
+            }
+        ],
+        "img": "http://tv.spacexraj.com/uploads/69688d9e90090.png",
+        "category": "Music",
+        "description": "Music Channel"
+    },
+
+    // ==================================================
+    // News (1 channel)
+    // ==================================================
 
     {
-        "name": "ETV Life",
+        "name": "TV9 HINDI",
         "sources": [
             {
-                "name": "⚡ Server 1",
-                "url": "https://d2cj1h11htct8o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_LIFE_H264_cloud_in/index.m3u8",
+                "name": "🚀 Server",
+                "url": "http://27.124.71.27/tv9_Hindi/index.m3u8",
                 "type": "hls"
             }
         ],
-        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/0b79cae17adfb14c6c414a426671c735.png",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Ilm TV",
-        "sources": [
-            {
-                "name": "Originals",
-                "url": "https://tplay.live/originals/ilm-tv/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/tTkx4MWv/ilm.jpg",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Islam Bangla",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live-islamtv-bangla.simplestreamcdn.com/live12/islamtv_bangla/bitrate1.isml/live.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhxUqZi3tzsjdt5rn7AWyC2CQgH8z14fd2g&s",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Islamic TV",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "Server 2",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/islamictvbd.stream/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://upload.wikimedia.org/wikipedia/en/9/90/Islamic_TV_New_Logo.png",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Madani Bangla",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/islamictvbd.stream/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/BvfMPnSP/madani-bangla.jpg",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Mercy TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXMFfcf9s50fsWGifUc9Do21MCTfRN6Y9-yw&s",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Om",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt01.tangotv.in/OMTV/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/baff06610cc2d29677de762afb7911cf.png",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Om Bangla",
-        "sources": [
-            {
-                "name": "Originals",
-                "url": "https://tplay.live/originals/om-bangla/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/jjmyWm0m/om-bangla-2.jpg",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Paras Gold",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://mumt04.tangotv.in/PARASGOLD/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://www.lyngsat.com/logo/tv/pp/paras-gold-in.png",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Santvani Channel",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn-2.pishow.tv/live/475/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/4d143f1eb83377f459f6ec5fe3feb959.png",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Saudi Quran TV",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://yt3.googleusercontent.com/ytc/AIdro_mesiGG76gww2WnpFVUFbMz-s2d4IjJJVhDqJuCVscqKLY=s900-c-k-c0x00ffffff-no-rj",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Saudi Sunnah TV",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://www.lyngsat.com/logo/tv/ss/sunna-tv-sa.png",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Shquran Tv",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/playlist.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://i.postimg.cc/g03Jqxvn/sharjahtvquranlive.jpg",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Shubh TV",
-        "sources": [
-            {
-                "name": "⚡ Server 1",
-                "url": "https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/cb75e0ad6c6117a19b17f762903a690b.png",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "Tehzeeb TV",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://cdn-4.pishow.tv/live/239/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/411855530af18a02490ab43f57ddfe38.png",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
-    {
-        "name": "WWE Network",
-        "sources": [
-            {
-                "name": "Server 1",
-                "url": "https://autumn-shape-b04a.soft-disk-1347.workers.dev/?url=http://maxotts.maxdigitaltv.com/x-media/C490/master.m3u8",
-                "type": "hls"
-            }
-        ],
-        "img": "https://upload.wikimedia.org/wikipedia/en/8/8c/WWE_Network_logo.jpeg",
-        "category": "Religious",
-        "description": "Religious Channel"
-    },
-
+        "img": "http://tv.spacexraj.com/uploads/69a5a89919b67.png",
+        "category": "News",
+        "description": "News Channel"
+    }
 ];
-
-// SUMMARY - WITH DRM SUPPORT
-// Total channels: 56
-// Channels with DRM: 12
-// .mpd streams include drm: {kid: "...", key: "..."}
-// Generated with enhanced DRM parsing
