@@ -34,9 +34,9 @@
         "Islamic Channels": 10,
         "Infotainment Channels": 4,
         "News Internasional": 13,
-        "News Internasional Tv": 3,
         "Entertainment": 3,
         "Fm Redio": 1,
+        "News Internasional Tv": 3,
         "Radio Fm": 1,
         "Hindi Movies": 9,
         "Relagion Channel": 2,
@@ -44,16 +44,16 @@
         "Hindi Music": 4,
         "English News": 3,
         "Bangla Movies": 3,
-        "Information": 1,
         "English Movies": 1,
-        "Ipl 2026": 1,
-        "Indian-bangla": 2,
+        "Information": 1,
         "Movies": 2,
-        "Cartoons 24 7": 2,
+        "Indian-bangla": 2,
+        "Ipl 2026": 1,
         "Bangla 24 7": 1,
-        "Hindi 24 7": 2
+        "Hindi 24 7": 2,
+        "Cartoons 24 7": 2
     },
-    "last_updated": "2026-04-17T09:09:00+00:00",
+    "last_updated": "2026-04-17T10:47:24+00:00",
     "source": "BD.m3u",
     "url": "https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u"
 }
