@@ -1,16 +1,15 @@
 {
-    "total_entries": 691,
-    "unique_channels": 591,
+    "total_entries": 689,
+    "unique_channels": 589,
     "channels_with_multiple_servers": 87,
-    "total_servers": 691,
+    "total_servers": 689,
     "channels_with_headers": 108,
     "total_headers": 216,
     "groups": {
         "Welcome To Playz Tv New App": 1,
         "Akash Go": 13,
         "Bangla": 88,
-        "Live Event": 7,
-        "Uncategorized": 1,
+        "Live Event": 6,
         "Live Bdix": 67,
         "Sports": 84,
         "News": 30,
@@ -41,8 +40,8 @@
         "Fm Redio": 1,
         "Ipl 2026": 2,
         "Relagion Channel": 2,
-        "Kolkata Bangla Music": 1,
         "Hindi Movies": 10,
+        "Kolkata Bangla Music": 1,
         "Kolkata Bangla": 2,
         "Indian Bangla News": 2,
         "Information": 2,
@@ -55,10 +54,10 @@
         "English Movie": 3,
         "Indian-bangla": 2,
         "Cartoons 24 7": 2,
-        "Bangla 24 7": 1,
-        "Hindi 24 7": 2
+        "Hindi 24 7": 2,
+        "Bangla 24 7": 1
     },
-    "last_updated": "2026-05-21T21:22:07+00:00",
+    "last_updated": "2026-05-21T22:58:01+00:00",
     "source": "BD.m3u",
     "url": "https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u"
 }
