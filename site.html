@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Master Link | Modern ISP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f8fafc;
+      color: #0f172a;
+      scroll-behavior: smooth;
+      line-height: 1.5;
+    }
+
+    /* Modern sticky notice */
+    .notice-bar {
+      position: sticky;
+      top: 0;
+      width: 100%;
+      background: rgba(10, 10, 10, 0.92);
+      backdrop-filter: blur(12px);
+      color: #facc15;
+      overflow: hidden;
+      white-space: nowrap;
+      z-index: 1100;
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(255, 193, 7, 0.3);
+    }
+    .notice-text {
+      display: inline-block;
+      padding-left: 100%;
+      animation: scrollNotice 24s linear infinite;
+      letter-spacing: 0.3px;
+    }
+    .notice-bar:hover .notice-text {
+      animation-play-state: paused;
+    }
+    @keyframes scrollNotice {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+
+    /* Glass header */
+    .header {
+      position: sticky;
+      top: 45px;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(16px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02), 0 1px 0 rgba(0, 0, 0, 0.05);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 32px;
+      z-index: 1000;
+      transition: all 0.2s;
+    }
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .logo-img {
+      height: 48px;
+      width: auto;
+      border-radius: 14px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .site-title {
+      font-family: 'Space Grotesk', monospace;
+      font-weight: 700;
+      font-size: 1.7rem;
+      background: linear-gradient(135deg, #0b5e2e, #1e9b5e);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      letter-spacing: -0.5px;
+    }
+    .nav-links {
+      display: flex;
+      gap: 28px;
+    }
+    .nav-links a {
+      text-decoration: none;
+      font-weight: 600;
+      color: #1e293b;
+      transition: 0.2s;
+      font-size: 0.95rem;
+      position: relative;
+    }
+    .nav-links a:after {
+      content: '';
+      position: absolute;
+      bottom: -6px;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background: linear-gradient(90deg, #0f9b4e, #2dd4bf);
+      transition: 0.3s;
+    }
+    .nav-links a:hover:after {
+      width: 100%;
+    }
+    .nav-links a:hover {
+      color: #0b5e2e;
+    }
+
+    /* Hero section with modern gradient overlay */
+    .hero {
+      background: linear-gradient(120deg, rgba(0, 0, 0, 0.65), rgba(0, 30, 20, 0.7)), url('https://lh3.googleusercontent.com/sitesv/AA5AbUDC4T5v90QF56VmiK4JyRWm9P77yPJDGNNUP7wEpPG_aMEX1MqJwQPFYb2fR2oVmwf6-4ffo6JfmBkhJN9F2eRPWUGqjVy2zyDgzXAGr1E4teh2y1HgafQwFQAGAqXMfHiqRv56ZttJqnO_XRHymSvtM1rBnxWFKimgz2fVv1nigJO0gw6dcTqH=w16383');
+      background-size: cover;
+      background-position: center 30%;
+      text-align: center;
+      padding: 120px 24px;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 4.2rem;
+      font-family: 'Space Grotesk', monospace;
+      font-weight: 800;
+      letter-spacing: -1px;
+      text-shadow: 0 2px 15px rgba(0,0,0,0.3);
+    }
+    .hero h1 span:first-child {
+      background: linear-gradient(135deg, #fff, #cbd5e1);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    .hero h1 span:last-child {
+      background: linear-gradient(135deg, #90e0c8, #2dd4bf);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    .hero h3 {
+      font-size: 1.6rem;
+      font-weight: 500;
+      background: rgba(255,255,255,0.12);
+      backdrop-filter: blur(8px);
+      display: inline-block;
+      padding: 12px 32px;
+      border-radius: 60px;
+      margin-top: 24px;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+
+    /* Sections */
+    .section {
+      padding: 80px 24px;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+    .section-alt {
+      background: #ffffff;
+      border-radius: 48px 48px 0 0;
+      box-shadow: 0 -8px 30px rgba(0,0,0,0.02);
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 700;
+      font-family: 'Space Grotesk', monospace;
+      margin-bottom: 48px;
+      background: linear-gradient(135deg, #0b5e2e, #0f9b4e);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    .offer-badge {
+      background: linear-gradient(135deg, #991b1b, #dc2626);
+      color: #fef08a;
+      display: inline-block;
+      padding: 12px 32px;
+      font-size: 2rem;
+      font-weight: 800;
+      border-radius: 60px;
+      margin-bottom: 30px;
+      box-shadow: 0 15px 35px rgba(220,38,38,0.2);
+    }
+    .offer-img {
+      max-width: 100%;
+      border-radius: 32px;
+      box-shadow: 0 20px 35px -12px rgba(0,0,0,0.2);
+      transition: transform 0.4s ease;
+    }
+    .offer-img:hover {
+      transform: scale(1.01);
+    }
+
+    /* Glass card grid */
+    .grid-3, .contact-grid, .package-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 32px;
+      margin-top: 32px;
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(12px);
+      border-radius: 32px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255,255,255,0.5);
+      padding: 28px 20px;
+      text-align: center;
+      transition: all 0.25s ease;
+      border: 1px solid rgba(255,255,255,0.6);
+    }
+    .glass-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 30px -12px rgba(0, 100, 50, 0.15);
+      border-color: rgba(15, 155, 78, 0.3);
+    }
+    .contact-img {
+      width: 110px;
+      height: 110px;
+      object-fit: cover;
+      border-radius: 60px;
+      margin-bottom: 18px;
+      border: 3px solid #0f9b4e;
+      box-shadow: 0 8px 14px rgba(0,0,0,0.1);
+    }
+    .btn-call, .btn-wa, .btn-package {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 40px;
+      text-decoration: none;
+      font-weight: 600;
+      margin: 6px 4px;
+      transition: 0.2s;
+      font-size: 0.85rem;
+    }
+    .btn-call {
+      background: #2563eb;
+      color: white;
+      box-shadow: 0 2px 6px rgba(37,99,235,0.3);
+    }
+    .btn-wa {
+      background: #25d366;
+      color: white;
+    }
+    .btn-package {
+      background: linear-gradient(95deg, #0b5e2e, #0f9b4e);
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      margin-top: 12px;
+    }
+    .btn-call:hover, .btn-wa:hover, .btn-package:hover {
+      transform: scale(1.02);
+      filter: brightness(1.02);
+    }
+
+    .package-card {
+      background: white;
+      border-radius: 36px;
+      padding: 28px 20px;
+      text-align: center;
+      box-shadow: 0 15px 30px -12px rgba(0,0,0,0.08);
+      transition: all 0.2s;
+    }
+    .package-card:hover {
+      transform: translateY(-5px);
+    }
+    .package-card h3 {
+      font-size: 2rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #0b5e2e, #0f9b4e);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    .price {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin: 12px 0;
+      color: #0f172a;
+    }
+    .ftp-link, .tv-link {
+      display: block;
+      background: rgba(255,255,255,0.7);
+      backdrop-filter: blur(4px);
+      padding: 14px;
+      margin: 12px 0;
+      border-radius: 60px;
+      text-decoration: none;
+      font-weight: 600;
+      color: #0b5e2e;
+      border: 1px solid rgba(15,155,78,0.4);
+      transition: 0.2s;
+      text-align: center;
+    }
+    .ftp-link:hover, .tv-link:hover {
+      background: #0f9b4e;
+      color: white;
+      border-color: transparent;
+    }
+
+    .qr-img {
+      max-width: 220px;
+      margin: 20px auto;
+      display: block;
+      border-radius: 32px;
+      box-shadow: 0 15px 25px -8px rgba(0,0,0,0.1);
+    }
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      margin: 40px 0;
+      border-radius: 32px;
+      overflow: hidden;
+      box-shadow: 0 20px 30px -12px rgba(0,0,0,0.2);
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    footer {
+      background: #0a1f1a;
+      color: #cbd5e1;
+      text-align: center;
+      padding: 48px 20px;
+      margin-top: 40px;
+    }
+    .social-icon {
+      width: 42px;
+      transition: 0.2s;
+      filter: brightness(0) invert(1);
+      opacity: 0.8;
+    }
+    .social-icon:hover {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 700px) {
+      .header { flex-direction: column; gap: 14px; padding: 16px; top: 44px; }
+      .hero h1 { font-size: 2.5rem; }
+      .hero h3 { font-size: 1.2rem; }
+      .section-title { font-size: 1.9rem; }
+      .offer-badge { font-size: 1.4rem; padding: 8px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="notice-bar">
+  <div class="notice-text">🔔 সম্মানিত গ্রাহক, আপনার অবগতির জন্য জানানো যাচ্ছে যে, যথাসময় আপনার ইন্টারনেট বিল পরিশোধ করুন, অন্যথায় আপনার সংযোগটি সয়ঙ্ক্রিয়ভাবে বন্ধ হয়ে যাবে, ধন্যবাদ।</div>
+</div>
+
+<div class="header">
+  <div class="logo-area">
+    <img class="logo-img" src="https://lh3.googleusercontent.com/sitesv/AA5AbUCgrx-o1R6G_kQw2nnT11dB2USMrv2X53VtBsFRZnmPdiqZpeD1fN70DBsjY5emxXdvoNiLDlXf3XDWQsWhdAiZS5U-8x_qQeJJ1WU3u2bqUxoe2WXaxVDJ_b2ml78H5PgwLEJLG9QnLht_10_QDULi7ifP1NhINicmuE2VWmswwRlvDQ7KJJc1=w16383" alt="Master Link">
+    <span class="site-title">MASTER LINK</span>
+  </div>
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#contacts">Contacts</a>
+    <a href="#ftp">FTP</a>
+    <a href="#packages">Plans</a>
+    <a href="#livetv">Live TV</a>
+  </div>
+</div>
+
+<section class="hero">
+  <h1><span>MASTER</span> <span>LINK</span></h1>
+  <h3>YOUR TRUSTED INTERNET SERVICE PROVIDER</h3>
+</section>
+
+<div class="section" style="text-align: center;">
+  <div class="offer-badge">🔥 দাবানল অফার 🔥</div>
+  <img class="offer-img" src="https://lh3.googleusercontent.com/sitesv/AA5AbUCMa2XVf3j-eNpoD0auD5TDd5kMXcUQQXS1oB7lOQGpPVKNqKju4ksfzsm-hSsP82wfhnd-m_0oDb63BRJYfGZLJwCVbV6YQIa9MBQSp37EJ0KIbHdWCtyDTzIec9nvGieTeraUAqjGTriSk0FxIm46JWTtYq-pkNGvhBuyXmDMUvQw8e0Pif8ICPZaYM0SliTlJ1iSSJOuu04EPMnZ9zR1QtkF7S_hsoM_=w1280" alt="দাবানল অফার">
+  <p style="margin-top: 28px; font-size: 1.1rem; max-width: 600px; margin-left: auto; margin-right: auto;">প্রতিনিয়ত আপডেট এবং বিভিন্ন ইনফরমেশন জানতে আমাদের ফেসবুক পেজে ফলো করুন।</p>
+</div>
+
+<!-- CONTACT US section -->
+<div class="section section-alt" id="contacts">
+  <h2 class="section-title">CONTACT US</h2>
+  <div style="display: flex; justify-content: center; margin-bottom: 50px;">
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmasterlinkbd&tabs=timeline&width=400&height=450&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="450" style="border:none;overflow:hidden; border-radius: 32px;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+  </div>
+
+  <div style="text-align:center; margin: 40px 0 20px;">
+    <h3 style="font-size: 1.8rem; font-weight: 600;">Office / bKash Payment</h3>
+    <div class="glass-card" style="max-width: 320px; margin: 20px auto;">
+      <img class="contact-img" src="https://lh3.googleusercontent.com/sitesv/AA5AbUD8h7FhdZhdgEOAyPYZ_yrfV0PXTsWCYIPIvnITyfYeLvhJ_0V75PX_21aylyM1JuQyJ2EwcIkWlhbZYdrwu5yoL92FgUQWiyy-73Af7cfKG9TU-iqY21YcoHMmWewR4olZIFuNrb_LlttnZfxl_BYdktJykRMszeUZQfM_8lP0Ku-8ettObL1NAqlmBBSgYBGnPlDDDINjHroCMcitkgJ7c9KHCb0z_dSfEhg=w1280" style="width:90px; height:90px;">
+      <h3>+8801805002090</h3>
+      <a href="tel:+8801805002090" class="btn-call">📞 Call</a>
+      <a href="https://wa.me/+8801805002090" class="btn-wa">💬 WhatsApp</a>
+    </div>
+  </div>
+
+  <h2 class="section-title" style="margin-top: 20px;">SERVICE MEN / SUPPORT</h2>
+  <div class="contact-grid">
+    <div class="glass-card">
+      <img class="contact-img" src="https://lh3.googleusercontent.com/sitesv/AA5AbUBZ5nYN7jrAv8vVK1r-IRh9yfgBUOLz1svB5VR4yl4lvgAFKD2_PkgWoXKiU9ZL9PXuksB-LCkaDWcbDiAbdepN93S5rc-Y9ENsF6XgiK7qI9MbISDNKkHTAw1_lw2FP2eAO1F_TKFKh5whxUwsTj831xs3TcrvB412purMeJ0WHR0zkAS-i3WcIfs=w1280">
+      <h3>আরিফ হোসেন</h3>
+      <p>+8801805002091</p>
+      <a href="tel:+8801805002091" class="btn-call">Call</a>
+      <a href="https://wa.me/+8801805002091" class="btn-wa">WhatsApp</a>
+    </div>
+    <div class="glass-card">
+      <img class="contact-img" src="https://lh3.googleusercontent.com/sitesv/AA5AbUB9zNJsItQ5mxy2yhM7cGKjk7d6b1GnsafDfPdl7JTSPGLZ-Q4NtzuoII6pbvgv1MR_yCLDtvZmS8rzd7IPUW2DWEDTql7AvxWWxYOn7bOIEljENafj2hAu4zItTdjbcza0BMM23ZLBec3XOe__IkCb_IKd72hlLpcpJSqfVw08ntqqHbIEKn96=w1280">
+      <h3>এখলাস উদ্দিন</h3>
+      <p>+8801805002092</p>
+      <a href="tel:+8801805002092" class="btn-call">Call</a>
+      <a href="https://wa.me/+8801805002092" class="btn-wa">WhatsApp</a>
+    </div>
+    <div class="glass-card">
+      <img class="contact-img" src="https://lh3.googleusercontent.com/sitesv/AA5AbUBd13Hv1JxNFInW8-j5aLiWUX_-0FAnsHDd80wYL_7OTps71_kXKEOI5yjYQ-cJsBa3BzZDQWJdrBmOI1qpyUhL083mjkBBkiumqSdXCNuLPhel7pN4GgW14xeFoMozOKbJYRnB0QTpvrhs9OWG4gr50TIwZkvK6riSiT_v9xLXogpZQQdBTAnBFRg=w1280">
+      <h3>মোঃ অমিত</h3>
+      <p>+8801805002093</p>
+      <a href="tel:+8801805002093" class="btn-call">Call</a>
+      <a href="https://wa.me/+8801805002093" class="btn-wa">WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<!-- Payment QR -->
+<div class="section" style="text-align: center; background: #f1f5f9;">
+  <h2 class="section-title">পেমেন্ট করতে স্ক্যান করুন</h2>
+  <img class="qr-img" src="https://lh3.googleusercontent.com/sitesv/AA5AbUBf-JGoMBuimy897Hcmyp7NPyBGTEV6_LGtLBIVIbpkIPCrZC1AdYZwR0FwUVFjYmyIV4qiOaIYZrH1ceJAsOW6plAch2ZmxVwDi8ATVVLMs1ALVEMAlWXoBWqdMxUZkjGXrOfUjym4dkjE8GPi5p0opnh67lrMFu0pczbDlEpJxJG8ga7LshQeyq1o6XLlhvfTDfKZksNUXsAPBxTs0jyrWapcORrSWQ7s=w1280" alt="bKash QR">
+</div>
+
+<!-- FTP SERVERS -->
+<div class="section" id="ftp">
+  <h2 class="section-title">FTP SERVER</h2>
+  <div class="grid-3">
+    <a href="https://www.galleryclubs.com/" target="_blank" class="ftp-link">🎨 GALLERYCLUBS</a>
+    <a href="http://10.10.10.10/" target="_blank" class="ftp-link">🖥️ SERVER 1</a>
+    <a href="https://discoveryftp.net/" target="_blank" class="ftp-link">🌐 Discovery FTP</a>
+    <a href="https://movies.discoveryftp.net/" target="_blank" class="ftp-link">🎬 DFLIX MOVIES</a>
+    <a href="http://10.10.10.3/" target="_blank" class="ftp-link">🎞️ MOVIES WORLD</a>
+    <a href="http://172.16.50.14/" target="_blank" class="ftp-link">🍿 DHAKA FLIX</a>
+  </div>
+</div>
+
+<!-- PACKAGES -->
+<div class="section section-alt" id="packages">
+  <h2 class="section-title">INTERNET PLANS</h2>
+  <div class="package-grid">
+    <div class="package-card"><h3>20Mbps</h3><div class="price">500 Taka</div><ul style="list-style:none; margin:15px 0"><li>✓ YouTube 100Mbps</li><li>✓ Facebook 50Mbps</li><li>✓ BDIX 300Mbps</li><li>✓ LIVE TV</li></ul><a href="https://wa.me/+8801805002090" class="btn-package">Get Plan →</a></div>
+    <div class="package-card"><h3>25Mbps</h3><div class="price">650 Taka</div><ul style="list-style:none;"><li>✓ YouTube 100Mbps</li><li>✓ Facebook 50Mbps</li><li>✓ BDIX 300Mbps</li><li>✓ LIVE TV</li></ul><a href="https://wa.me/+8801805002090" class="btn-package">Get Plan →</a></div>
+    <div class="package-card"><h3>30Mbps</h3><div class="price">800 Taka</div><ul style="list-style:none;"><li>✓ YouTube 100Mbps</li><li>✓ Facebook 50Mbps</li><li>✓ BDIX 300Mbps</li><li>✓ LIVE TV</li></ul><a href="https://wa.me/+8801805002090" class="btn-package">Get Plan →</a></div>
+    <div class="package-card"><h3>35Mbps</h3><div class="price">1000 Taka</div><ul style="list-style:none;"><li>✓ YouTube 100Mbps</li><li>✓ Facebook 50Mbps</li><li>✓ BDIX 300Mbps</li><li>✓ LIVE TV</li></ul><a href="https://wa.me/+8801805002090" class="btn-package">Get Plan →</a></div>
+    <div class="package-card"><h3>40Mbps</h3><div class="price">1200 Taka</div><ul style="list-style:none;"><li>✓ YouTube 100Mbps</li><li>✓ Facebook 50Mbps</li><li>✓ BDIX 300Mbps</li><li>✓ LIVE TV</li></ul><a href="https://wa.me/+8801805002090" class="btn-package">Get Plan →</a></div>
+    <div class="package-card"><h3>50Mbps</h3><div class="price">1500 Taka</div><ul style="list-style:none;"><li>✓ YouTube 100Mbps</li><li>✓ Facebook 50Mbps</li><li>✓ BDIX 300Mbps</li><li>✓ LIVE TV</li></ul><a href="https://wa.me/+8801805002090" class="btn-package">Get Plan →</a></div>
+    <div class="package-card"><h3>60Mbps</h3><div class="price">2000 Taka</div><ul style="list-style:none;"><li>✓ YouTube 100Mbps</li><li>✓ Facebook 50Mbps</li><li>✓ BDIX 300Mbps</li><li>✓ LIVE TV</li></ul><a href="https://wa.me/+8801805002090" class="btn-package">Get Plan →</a></div>
+    <div class="package-card"><h3>100Mbps</h3><div class="price">3000 Taka</div><ul style="list-style:none;"><li>✓ YouTube 100Mbps</li><li>✓ Facebook 50Mbps</li><li>✓ BDIX 300Mbps</li><li>✓ LIVE TV</li></ul><a href="https://wa.me/+8801805002090" class="btn-package">Get Plan →</a></div>
+  </div>
+</div>
+
+<!-- LIVE TV -->
+<div class="section" id="livetv">
+  <h2 class="section-title">LIVE TV</h2>
+  <div class="grid-3">
+    <a href="http://10.99.99.99/" target="_blank" class="tv-link">📺 BASNET TV</a>
+    <a href="http://10.30.30.30/" target="_blank" class="tv-link">📡 KBSNET TV</a>
+  </div>
+  <div style="text-align:center; margin: 40px 0 20px;">
+    <p style="font-size:1.1rem;">Android & Smart TV App</p>
+    <a href="https://github.com/mpshimul/MasterLinkTV/raw/refs/heads/main/MASTER_LINK_TV_.apk" class="btn-package" style="background:#ea580c;">📱 DOWNLOAD APP</a>
+    <p style="margin-top: 15px;">Smart TV browser: <strong><a href="https://2cm.es/tv4u" target="_blank" style="color:#0f9b4e;">2cm.es/tv4u</a></strong></p>
+  </div>
+  <div class="video-wrapper">
+    <iframe src="https://www.youtube.com/embed/ur1OMDp3G1w?si=KkOL47SBxahK0jn0&start=48" title="YouTube tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</div>
+
+<footer>
+  <a href="https://www.facebook.com/masterlinkbd" target="_blank">
+    <img class="social-icon" src="https://ssl.gstatic.com/atari/images/sociallinks/facebook_white_28dp.png" alt="FB">
+  </a>
+  <p style="margin-top: 20px;">© 2025 MASTER LINK. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
