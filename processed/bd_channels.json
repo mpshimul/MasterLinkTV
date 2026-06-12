@@ -50,7 +50,7 @@
             "Indian-bangla": 1,
             "Hindi 24 7": 2
         },
-        "last_updated": "2026-06-12T19:56:13+00:00",
+        "last_updated": "2026-06-12T21:26:30+00:00",
         "source": "BD.m3u",
         "url": "https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u"
     },
@@ -4863,6 +4863,6 @@
     "metadata": {
         "version": "2.0",
         "format": "grouped",
-        "last_updated": "2026-06-12T19:56:13+00:00"
+        "last_updated": "2026-06-12T21:26:30+00:00"
     }
 }
