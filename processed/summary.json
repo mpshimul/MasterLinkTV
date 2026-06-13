@@ -39,16 +39,16 @@
         "Hindi Movies": 8,
         "Hindi": 3,
         "Hindi Music": 3,
+        "Information": 2,
         "English Movies": 3,
         "Bangla Movies": 1,
         "Hindi Dabbing Movies": 1,
-        "Information": 2,
         "English Movie": 1,
         "English News": 1,
         "Indian-bangla": 1,
         "Hindi 24 7": 2
     },
-    "last_updated": "2026-06-13T02:37:17+00:00",
+    "last_updated": "2026-06-13T07:39:48+00:00",
     "source": "BD.m3u",
     "url": "https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u"
 }
