@@ -1,4 +1,4 @@
-// Generated: 2026-06-27 14:14 UTC
+// Generated: 2026-06-27 15:49 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -31,20 +31,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8?e=1782542108&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=1395c06ee1124e9b26b2603b9f869e42",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Antarjal",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 94.27",
-                "url": "http://103.225.94.27/Infobase/hdd-2/Bangla/Antarjal%20(2023)%201080p%20WEBDL.mp4",
                 "type": "hls"
             }
         ]
@@ -195,6 +181,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 ncare.live",
                 "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Channel-16",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -364,6 +364,11 @@ window.rawChannels2 = [
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen5.aynaott.com/Ravc7gPCZpxk/index.m3u8?e=1782542108&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=4a37132bd139a17212dc7f39780b013a",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -548,6 +553,11 @@ window.rawChannels2 = [
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen5.aynaott.com/RtvHD/index.m3u8?e=1782542108&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=c996f2c4a9e0af8accc4b80bf664d112",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -1309,36 +1319,17 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // SPORTS (75 channels)
+    // SPORTS (37 channels)
     // ==================================================
 
     {
-        "name": "A Sports HD",
+        "name": "A Sports",
         "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/12-by-xfireflix.png",
+        "img": "https://s3.aynaott.com/storage/64de30d2df9b2a888cb73f17614a9a8b",
         "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/asportshd.m3u8?md5=eVeEXlcrx5f-x9YeQmGEJQ&expires=1782569187",
-                "type": "hls"
-            },
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8?e=1782542110&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=0c5f56ccd88dbc2b4a916a8532038c95",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Astro Cricket",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008895589.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/fox501.m3u8?md5=tB_CuGoCWmMwz2JAuzUaLg&expires=1782569190",
                 "type": "hls"
             }
         ]
@@ -1367,11 +1358,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen6.aynaott.com/beinsports/index.m3u8?e=1782542110&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=8eb14df522d2074918b99ce1b9d9506f",
-                "type": "hls"
-            },
-            {
-                "name": "🌐 online24.pm",
-                "url": "http://ua.online24.pm/play/1101/350B326FB34F4B8/video.m3u8",
                 "type": "hls"
             }
         ]
@@ -1491,27 +1477,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Espn 1",
+        "name": "Fallback Channel",
         "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/17-by-xfireflix.png",
+        "img": "https://abusaeeidx.github.io/Support/images/offline.jpg",
         "sources": [
             {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn7.zohanayaan.com:1686/hls/espnusa.m3u8?md5=CMpPXq8KBel5jDaLlx_LYg&expires=1782569190",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Espn 2",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/17-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn3.zohanayaan.com:1686/hls/espn2.m3u8?md5=HcfIkCOazC-CM-UY2bHuDg&expires=1782569191",
+                "name": "🔗 githubusercontent.com",
+                "url": "https://raw.githubusercontent.com/HelloPeopleTv4you/IPTV-Playlist/refs/heads/main/offline/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -1540,20 +1512,6 @@ window.rawChannels2 = [
             {
                 "name": "📡 gpcdn.net",
                 "url": "https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Fox Cricket 501 HD",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/6-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/fox501.m3u8?md5=tB_CuGoCWmMwz2JAuzUaLg&expires=1782569190",
                 "type": "hls"
             }
         ]
@@ -1596,20 +1554,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 mangomolo.com",
                 "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Laliga",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/19-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn9.zohanayaan.com:1686/hls/laligauk.m3u8?md5=JLyfTXFBO_aon8Zh2IoqZg&expires=1782569190",
                 "type": "hls"
             }
         ]
@@ -1687,354 +1631,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Premier Sports 1",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/31-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn5.zohanayaan.com:1686/hls/premieruk.m3u8?md5=zIlkDkGuBKcClICbLCQ46g&expires=1782569190",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Premier Sports 2",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/31-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn2.zohanayaan.com:1686/hls/hdchnl2.m3u8?md5=gezEqUGG6bux5e1CNnAqmQ&expires=1782569190",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Ptv Sports",
         "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/20-by-xfireflix.png",
+        "img": "https://s3.aynaott.com/storage/9d9d7cbfba5a8ceea648bbd963ad1014",
         "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn8.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=aeiJuVWYfnhfson8Fk6DEg&expires=1782569186",
-                "type": "hls"
-            },
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen7.aynaott.com/zY3hJ7pQ2vM5gD8s/index.m3u8?e=1782542110&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&ip=172.184.211.161&token=6e83d9983d7a448af0705bfb3736c9ec",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Cinema",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/skycinema.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn6.zohanayaan.com:1686/hls/skysme.m3u8?md5=h43zvcK7MPUmtzk6EisyQg&expires=1782569187",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sport 6 NZ",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn5.zohanayaan.com:1686/hls/sky6nz.m3u8?md5=QM1CyTeHLddyz9ksc32i9Q&expires=1782569189",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sport NZ 1",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn10.zohanayaan.com:1686/hls/sky1nz.m3u8?md5=0-yzgrnZUF_V0ChAoxsLzw&expires=1782569188",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sport NZ 2",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/sky2nz.m3u8?md5=jGHRVpaJ5ur8E9Qr1WrkKQ&expires=1782569188",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sport NZ 3",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn3.zohanayaan.com:1686/hls/sky3nz.m3u8?md5=1ni8mDJPMEmRkhMMYzyMpQ&expires=1782569188",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sport NZ 4",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/sky4nz.m3u8?md5=PvfuNzm9HftKJ6qaZv-Hbw&expires=1782569188",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sport NZ 5",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn6.zohanayaan.com:1686/hls/sky5nz.m3u8?md5=woef559CVKpA8fBip4doag&expires=1782569188",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sport NZ 7",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/sky7nz.m3u8?md5=WeIcR5uyD57UtJR40bVygQ&expires=1782569189",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sport NZ 8",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn3.zohanayaan.com:1686/hls/sky8nz.m3u8?md5=jqh-SeGarrNvyyrYcKJSLw&expires=1782569189",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sport NZ 9",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn7.zohanayaan.com:1686/hls/sky9nz.m3u8?md5=F2ySoQNWkttSZNtoQ8igeA&expires=1782569189",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sports Action",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745007829332.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn2.zohanayaan.com:1686/hls/skysact.m3u8?md5=f2tDzw1vDum_TQgIaMB1UQ&expires=1782569189",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sports Arena",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745007829327.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn2.zohanayaan.com:1686/hls/skysare.m3u8?md5=JhAChsRyKyqeZUBvuZ4dgQ&expires=1782569190",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sports Cricket",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn9.zohanayaan.com:1686/hls/skyscric.m3u8?md5=ui_UiWf4wjxQF3CL1KpVrQ&expires=1782569187",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sports F1",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008468637.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn6.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=u_ed3jAAkBQkVecXLaMzAQ&expires=1782569190",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sports Football",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/44-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn2.zohanayaan.com:1686/hls/skysfott.m3u8?md5=GbCZ2aYtWVjriSL_I67ydA&expires=1782569189",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sports Golf",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008055327.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn7.zohanayaan.com:1686/hls/skysgol.m3u8?md5=FDGi-2Flb41f13xc5zvICA&expires=1782569189",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sports Main Event",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/18-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn6.zohanayaan.com:1686/hls/skysme.m3u8?md5=h43zvcK7MPUmtzk6EisyQg&expires=1782569187",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sports Mix",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/13-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn5.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=CpOzUa9eZnWmjaVQgfWAvw&expires=1782569191",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sports Plus",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008347584.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn2.zohanayaan.com:1686/hls/skysare.m3u8?md5=JhAChsRyKyqeZUBvuZ4dgQ&expires=1782569190",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sports Premier League",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/43-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn9.zohanayaan.com:1686/hls/skysprem.m3u8?md5=ExJH4d-Np5jzN09x5TEDhw&expires=1782569189",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sky Sports Tennis",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745009085794.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn9.zohanayaan.com:1686/hls/skystennis.m3u8?md5=5Btkfy58JFmbwNnziSYE1Q&expires=1782569191",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sony Sports3",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1000173192-modified.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn6.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=OInWGbgC1O7RBwHwfFoa8A&expires=1782569191",
                 "type": "hls"
             }
         ]
@@ -2112,62 +1715,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Star Sports 1",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/16-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn10.zohanayaan.com:1686/hls/star1in.m3u8?md5=umpVWOfxtr-4GHV9Q1QtiQ&expires=1782569186",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Star Sports 1 Hindi",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/starhindi.m3u8?md5=BshltKvMM4NsYZzbiZjvSw&expires=1782569186",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Super Football",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/34-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn8.zohanayaan.com:1686/hls/superfotball.m3u8?md5=oVLvB9xCMP0YhfywtHtoGg&expires=1782569190",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Super Premier League",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008781606.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn9.zohanayaan.com:1686/hls/superpremier.m3u8?md5=WyuiW3UN6CwDjb9aFhnJ3Q&expires=1782569190",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Talk Sport",
         "category": "Sports",
         "img": "https://s3.aynaott.com/storage/5128cd32518d5a9ba7a37e21947fd8fd",
@@ -2182,20 +1729,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Ten Sports",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/10-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/tenspk.m3u8?md5=4jZH2Sp-aYtKFC_bwNnuUg&expires=1782569187",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Thunder ER",
         "category": "Sports",
         "img": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380791303.png",
@@ -2203,62 +1736,6 @@ window.rawChannels2 = [
             {
                 "name": "📡 gpcdn.net",
                 "url": "https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Tnt 1",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn3.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=I8APgVsy163VbYH64zkIuA&expires=1782569187",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Tnt 2",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn5.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=upu-VX1Jj4JHvreHH0hmWg&expires=1782569187",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Tnt 3",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/bbtsp3.m3u8?md5=SuKYCFExQuZ1-FEe-4jXdw&expires=1782569188",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Tnt 4",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=GDg88sxyBzzTMhg26CRPvQ&expires=1782569188",
                 "type": "hls"
             }
         ]
@@ -2322,32 +1799,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Willow HD",
+        "name": "Willow TV",
         "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/38-by-xfireflix.png",
+        "img": "https://s3.aynaott.com/storage/94a778ec3219f7eb54bdf1ee07a95788",
         "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn7.zohanayaan.com:1686/hls/willowusa.m3u8?md5=OONMeD5Qg-Lj7MENUjjrqg&expires=1782569186",
-                "type": "hls"
-            },
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1782542111&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=ef29a752f3f7b1c32ba52dc2acf85b20",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Willow HD 2",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/8-by-xfireflix.png",
-        "sources": [
-            {
-                "name": "🔗 zohanayaan.com",
-                "url": "https://cdn5.zohanayaan.com:1686/hls/willowextra.m3u8?md5=FxK-K9qq0dVWIbXvV-4R0w&expires=1782569186",
                 "type": "hls"
             }
         ]
@@ -2383,7 +1841,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // KIDS (22 channels)
+    // KIDS (24 channels)
     // ==================================================
 
     {
@@ -2394,6 +1852,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen6.aynaott.com/3abnkids/index.m3u8?e=1782542114&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=7421eab1322244ab37578f3851a8e65c",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Bbc Cbeebies",
+        "category": "Kids",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2677,6 +2149,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Tom & Jarry",
+        "category": "Kids",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Tvcarib Kids & Teens",
         "category": "Kids",
         "img": "https://s3.aynaott.com/storage/c6fde511a99e5134dbf12b77da386cb6",
@@ -2800,12 +2286,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
                 "type": "hls"
             },
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -2846,7 +2332,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // MOVIE (21 channels)
+    // MOVIE (19 channels)
     // ==================================================
 
     {
@@ -3004,20 +2490,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Mardaani 3",
-        "category": "Movie",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 94.27",
-                "url": "http://103.225.94.27/Infobase/hdd-3/hindi/Mardaani%203%20(2026)%201080p%20DVDRip.mp4",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Originals",
         "category": "Movie",
         "img": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
@@ -3081,20 +2553,6 @@ window.rawChannels2 = [
             {
                 "name": "📡 gpcdn.net",
                 "url": "https://nomawnoijl.gpcdn.net/akash/superrix/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Test",
-        "category": "Movie",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 94.27",
-                "url": "http://103.225.94.27/Infobase/hdd-3/Hindi%20Dub/Test%20(2025)%201080p%20WEBDL.mp4",
                 "type": "hls"
             }
         ]
@@ -3698,7 +3156,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (111 channels)
+    // OTHERS (108 channels)
     // ==================================================
 
     {
@@ -3796,13 +3254,13 @@ window.rawChannels2 = [
         "img": "",
         "sources": [
             {
-                "name": "🔗 edgenextcdn.net",
-                "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8",
+                "name": "🔗 akamaized.net",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8",
                 "type": "hls"
             },
             {
-                "name": "🔗 akamaized.net",
-                "url": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8",
+                "name": "🔗 edgenextcdn.net",
+                "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -3859,20 +3317,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 232.131",
                 "url": "http://66.45.232.131:9994/;stream.mp3",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "AL Sunnah TV",
-        "category": "Islamic Channels",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 net.sa",
-                "url": "http://m.live.net.sa:1935/live/sunnah/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -4027,20 +3471,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen6.aynaott.com/cgtnDocumentary/index.m3u8?e=1782542112&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=58598a72f3ee68dedcb470c15a37640f",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Channel 1 News HD",
-        "category": "Cricket",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -4828,32 +4258,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Practice 3 VS Austria (f1 Lenovo Austrian Grand Prix 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/F1_Austria_web.jpg",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/139459_english_hls_df447f2bd296291_1ta-di_h264/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Quran",
-        "category": "Islamic Channels",
+        "category": "Fm Redio",
         "img": "",
         "sources": [
             {
                 "name": "🔗 quranicaudio.com",
                 "url": "https://download.quranicaudio.com/qdc/abdurrahmaan_as_sudais/murattal/96.mp3",
-                "type": "hls"
-            },
-            {
-                "name": "🌐 net.sa",
-                "url": "http://m.live.net.sa:1935/live/quran/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -5062,13 +4473,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Sunnah TV",
-        "category": "Islamic Channels",
-        "img": "",
+        "name": "Sprint Race VS Austria (f2 Austria 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/F2_Austria_Old_match-card.jpg",
         "sources": [
             {
-                "name": "🌐 net.sa",
-                "url": "http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1",
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/139632_english_hls_7a334f4f2518200_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -5288,11 +4699,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 359
-// Total sources: 401
+// Total channels: 318
+// Total sources: 357
 // Top priority sources (⭐): 20
 // Other priority sources (⚡): 25
-// Regular sources: 356
+// Regular sources: 312
 // Categories: 11
-// Merged duplicates: 119 channels consolidated
+// Merged duplicates: 106 channels consolidated
 // Generated with M3U processor
