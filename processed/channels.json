@@ -20,7 +20,7 @@
         "group": "Live Event",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonydaimenew.akamaized.net%2Fhls%2Flive%2F20000292%2FEngland_2706%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1782613328%7Eacl%3D%2F%2A%7Eid%3D87201862225752615954910915263579%7Ehmac%3D7aa7beff106e02591c52ed1bb00575bb903ce989c6bbb7692e064e672ba0acd1",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonydaimenew.akamaized.net%2Fhls%2Flive%2F20000292%2FEngland_2706%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1782620663%7Eacl%3D%2F%2A%7Eid%3D67366287260579270371032553580409%7Ehmac%3D7e35e4233d9b1ec0e9823cbe087cdb06e9bac4db486b36dbafc285e457058a0a",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -29,13 +29,73 @@
             }
         ]
     },
-    "open_d_italia_day_3_27_jun_2026_eng_dp_world_tour_live_event": {
-        "name": "Open d'Italia - Day 3 - 27 Jun 2026 [ENG] - DP World Tour",
-        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000018953/1780272160310972_DP_World_Tour_Open_dItalia_day3_landscape_thumb.jpg",
+    "ufc_fight_night_fiziev_vs_torres_27_jun_2026_eng_ufc_fight_night_fiziev_vs_torres_live_event": {
+        "name": "UFC Fight Night - Fiziev vs Torres - 27 Jun 2026 [ENG] - UFC Fight Night - Fiziev vs Torres",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000020080/1782504993200606_UFC_Fight_Night_Fiziev_vs_Torres_eng_landscape_thumb.jpg",
         "group": "Live Event",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonydaimenew.akamaized.net%2Fhls%2Flive%2F20000293%2FOpen_dIt2706%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1782613328%7Eacl%3D%2F%2A%7Eid%3D87201862225752615954910915263579%7Ehmac%3D7aa7beff106e02591c52ed1bb00575bb903ce989c6bbb7692e064e672ba0acd1",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonydaimenew.akamaized.net%2Fhls%2Flive%2F20000291%2FUFCFight2706%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1782620663%7Eacl%3D%2F%2A%7Eid%3D67366287260579270371032553580409%7Ehmac%3D7e35e4233d9b1ec0e9823cbe087cdb06e9bac4db486b36dbafc285e457058a0a",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "ufc_fight_night_fiziev_vs_torres_27_jun_2026_hin_ufc_fight_night_fiziev_vs_torres_live_event": {
+        "name": "UFC Fight Night - Fiziev vs Torres - 27 Jun 2026 [HIN] - UFC Fight Night - Fiziev vs Torres",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000020080/1782504993200606_UFC_Fight_Night_Fiziev_vs_Torres_eng_landscape_thumb.jpg",
+        "group": "Live Event",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonydaimenew.akamaized.net%2Fhls%2Flive%2F20000291%2FUFCFight2706%2FHIN%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1782620663%7Eacl%3D%2F%2A%7Eid%3D67366287260579270371032553580409%7Ehmac%3D7e35e4233d9b1ec0e9823cbe087cdb06e9bac4db486b36dbafc285e457058a0a",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "ufc_fight_night_fiziev_vs_torres_27_jun_2026_tam_ufc_fight_night_fiziev_vs_torres_live_event": {
+        "name": "UFC Fight Night - Fiziev vs Torres - 27 Jun 2026 [TAM] - UFC Fight Night - Fiziev vs Torres",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000020080/1782504993200606_UFC_Fight_Night_Fiziev_vs_Torres_eng_landscape_thumb.jpg",
+        "group": "Live Event",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonydaimenew.akamaized.net%2Fhls%2Flive%2F20000291%2FUFCFight2706%2FTAM%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1782620663%7Eacl%3D%2F%2A%7Eid%3D67366287260579270371032553580409%7Ehmac%3D7e35e4233d9b1ec0e9823cbe087cdb06e9bac4db486b36dbafc285e457058a0a",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "ufc_fight_night_fiziev_vs_torres_27_jun_2026_tel_ufc_fight_night_fiziev_vs_torres_live_event": {
+        "name": "UFC Fight Night - Fiziev vs Torres - 27 Jun 2026 [TEL] - UFC Fight Night - Fiziev vs Torres",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000020080/1782504993200606_UFC_Fight_Night_Fiziev_vs_Torres_eng_landscape_thumb.jpg",
+        "group": "Live Event",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonydaimenew.akamaized.net%2Fhls%2Flive%2F20000291%2FUFCFight2706%2FTEL%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1782620663%7Eacl%3D%2F%2A%7Eid%3D67366287260579270371032553580409%7Ehmac%3D7e35e4233d9b1ec0e9823cbe087cdb06e9bac4db486b36dbafc285e457058a0a",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "ufc_fight_night_fiziev_vs_torres_27_jun_2026_kan_ufc_fight_night_fiziev_vs_torres_live_event": {
+        "name": "UFC Fight Night - Fiziev vs Torres - 27 Jun 2026 [KAN] - UFC Fight Night - Fiziev vs Torres",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000020080/1782504993200606_UFC_Fight_Night_Fiziev_vs_Torres_eng_landscape_thumb.jpg",
+        "group": "Live Event",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonydaimenew.akamaized.net%2Fhls%2Flive%2F20000291%2FUFCFight2706%2FKAN%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1782620663%7Eacl%3D%2F%2A%7Eid%3D67366287260579270371032553580409%7Ehmac%3D7e35e4233d9b1ec0e9823cbe087cdb06e9bac4db486b36dbafc285e457058a0a",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -125,7 +185,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FXMpHaEf0ANBhv8w6NWR7%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D2c17d6ee0f9ca50defa6786a35e6fcc3",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FXMpHaEf0ANBhv8w6NWR7%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dcd5ae1e3b46511f460c0394d3425650b",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -178,7 +238,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FKGdZEdA7qQ43dmPkgk1j%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dda3fd8b8572dab8cae2f1422fb2c914b",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FKGdZEdA7qQ43dmPkgk1j%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D9f56e60cc1662121647d6e3aae549d09",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -201,7 +261,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FpF66Tkz0qFwP2aMMqHyt%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D55dedf34d8b8df555367d2f4f56ad166",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FpF66Tkz0qFwP2aMMqHyt%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D43918104151b54221f39409c3cdbe809",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -254,7 +314,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fchannel24%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Da49ff73545196ec30058ef5bc5e484e7",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fchannel24%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3De8ad5f9037c0c1f06ad89eb5d9a4fa1d",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -277,7 +337,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fatnnews%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D9bde9c3799d5eaf3a5d039c5a21ce6d6",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fatnnews%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D456f4cfbcaa718251bcfc9186ecd03f9",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -788,7 +848,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FWef2Vj67njeYGDqQNFB9%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D19e60b0d079498644e88a479b8e50559",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FWef2Vj67njeYGDqQNFB9%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D1622cfa63347fb2beb864835458c884c",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -865,13 +925,13 @@
             }
         ]
     },
-    "namibia_vs_nigeria_nigeria_tour_of_namibia_2026_live_event": {
-        "name": "Namibia vs Nigeria (Nigeria tour of Namibia 2026)",
-        "logo": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card_1782298949083.png",
+    "sri_lanka_vs_west_indies_sri_lanka_tour_of_west_indies_2026_live_event": {
+        "name": "Sri Lanka vs West Indies (Sri Lanka tour of West Indies 2026)",
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-SL_test_Web-match-card.png",
         "group": "Live Event",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbd-mc-fblive.fancode.com%2Fmumbai%2F143321_english_hls_96db62182e40570_1ta-di_h264%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbd-mc-fblive.fancode.com%2Fmumbai%2F142978_english_hls_84812121a137931_1ta-di_h264%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -880,13 +940,13 @@
             }
         ]
     },
-    "shivamogga_yodhas_vs_kalyani_bengaluru_blasters_maharaja_t20_trophy_2026_live_event": {
-        "name": "Shivamogga Yodhas vs Kalyani Bengaluru Blasters (Maharaja T20 Trophy- 2026)",
-        "logo": "https://www.fancode.com/skillup-uploads/cms-media/143427_6134_SY_KBB_FC-WEB_1782272593022.jpg",
+    "bahamas_vs_belize_icc_men_s_t20_wc_americas_sub_regional_qualifier_a_live_event": {
+        "name": "Bahamas vs Belize (ICC Men's T20 WC Americas Sub-regional Qualifier A)",
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/143291_6120_BAH_BIZ_fc-web_1782198800787.jpg",
         "group": "Live Event",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbd-mc-fblive.fancode.com%2Fmumbai%2F143427_english_hls_f0d21b9fd237474_1ta-di_h264%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbd-mc-fblive.fancode.com%2Fmumbai%2F143291_english_hls_99ccc73a6254743_1ta-di_h264%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -895,13 +955,28 @@
             }
         ]
     },
-    "karim_capital_chargers_vs_jayqo_panthers_faridabad_future_star_u_15_championship_2026_live_event": {
-        "name": "Karim Capital Chargers vs Jayqo Panthers Faridabad (Future Star U-15 Championship 2026)",
+    "mysore_warriors_vs_gulbarga_mystics_maharaja_t20_trophy_2026_live_event": {
+        "name": "Mysore Warriors vs Gulbarga Mystics (Maharaja T20 Trophy- 2026)",
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/143428_6134_MW_GMY_FC-WEB_1782272593056.jpg",
+        "group": "Live Event",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbd-mc-fblive.fancode.com%2Fmumbai%2F143428_english_hls_93a969305e82200_1ta-di_h264%2Findex.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "bahadurgarh_royals_vs_ddh_meerut_spartans_future_star_u_15_championship_2026_live_event": {
+        "name": "Bahadurgarh Royals vs DDH Meerut Spartans (Future Star U-15 Championship 2026)",
         "logo": "https://www.fancode.com/skillup-uploads/cms-media/Future-Star-U-15-Championship_fc-web.jpg",
         "group": "Live Event",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbd-mc-fblive.fancode.com%2Fmumbai%2F143557_english_hls_ae6fcdfae786940_1ta-di_h264%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbd-mc-fblive.fancode.com%2Fmumbai%2F143558_english_hls_98d768fa7665916_1ta-di_h264%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -910,13 +985,13 @@
             }
         ]
     },
-    "day_2_vs_assen_grand_prix_of_netherlands_2026_live_event": {
-        "name": "Day 2 vs ASSEN (GRAND PRIX OF NETHERLANDS 2026)",
-        "logo": "https://www.fancode.com/skillup-uploads/cms-media/Tissot-Grand-Prix-of-the-Netherlands-old-match-card.png",
+    "main_feed_day_3_vs_tpc_river_highlands_cromwell_connecticut_travelers_championship_2026_live_event": {
+        "name": "Main Feed - Day 3 vs TPC River Highlands - Cromwell- Connecticut (Travelers Championship 2026)",
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/3_1781899929249.png",
         "group": "Live Event",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbd-mc-fblive.fancode.com%2Fmumbai%2F139955_english_hls_1ac25133f375303_1ta-di_h264%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbd-mc-fblive.fancode.com%2Fmumbai%2F143576_english_hls_2f9ee357a788544_1ta-di_h264%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -925,13 +1000,13 @@
             }
         ]
     },
-    "sprint_race_vs_austria_f2_austria_2026_live_event": {
-        "name": "Sprint Race vs Austria (F2 AUSTRIA 2026)",
-        "logo": "https://www.fancode.com/skillup-uploads/cms-media/F2_Austria_Old_match-card.jpg",
+    "men_s_final_vs_eastbourne_great_britain_atp_250_lexus_eastbourne_open_2026_live_event": {
+        "name": "Men's Final vs Eastbourne- Great Britain (ATP 250 - Lexus Eastbourne Open 2026)",
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/ATP-250---Lexus-Eastbourne-Open-2026_FC-WEB.jpg",
         "group": "Live Event",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbd-mc-fblive.fancode.com%2Fmumbai%2F139632_english_hls_7a334f4f2518200_1ta-di_h264%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbd-mc-fblive.fancode.com%2Fmumbai%2F143282_english_hls_649a90300b40021_1ta-di_h264%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1595,28 +1670,13 @@
             }
         ]
     },
-    "fallback_channel_sports": {
-        "name": "Fallback Channel",
-        "logo": "https://abusaeeidx.github.io/Support/images/offline.jpg",
-        "group": "Sports",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fraw.githubusercontent.com%2FHelloPeopleTv4you%2FIPTV-Playlist%2Frefs%2Fheads%2Fmain%2Foffline%2Findex.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
     "channel_i_bangla": {
         "name": "Channel I",
         "logo": "https://s3.aynaott.com/storage/8e998f20a9cc52cb8eb1f52a5bf38204",
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FFNHpYvGZ7FkCE10PwTHm%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D137e3cd08d1272641151a732f493800e",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FFNHpYvGZ7FkCE10PwTHm%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D62ce3e781f8e07878c19564525968b9c",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1646,7 +1706,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FJHPxHAWonztVucyc4GzF%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D57b3c572957296282b2e85705ef73eb4",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FJHPxHAWonztVucyc4GzF%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D94d2fa8004eeec5d418fac523ffca383",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1661,7 +1721,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fbanglavision%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Df3ead8d44fc5a03f71bb2364195bc87b",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fbanglavision%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D2e2a1f29f15c04714875821875d6d09f",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1676,20 +1736,12 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fapp24.jagobd.com.bd%2Fc3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2%2Frtv-sg.stream%2Ftracks-v1a1%2Fmono.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FRtvHD%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dace21726584301f2b0623c16f4179e7f",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
                 "headers_count": 0,
                 "server_number": 1
-            },
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FRtvHD%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dc996f2c4a9e0af8accc4b80bf664d112",
-                "quality": "Unknown",
-                "priority": 2,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 2
             }
         ]
     },
@@ -1699,7 +1751,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fatnbangla%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dda214ced4ba711a8ba8dbb9be1226ff8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fatnbangla%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D995447fa8a14f50a1b926c49ff0091f7",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1714,7 +1766,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fy4mEVZNAbeNWTbd6Z2Pw%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Df0d00a0e68c5022dcc9ecc9b8bdff3ce",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fy4mEVZNAbeNWTbd6Z2Pw%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D8e1c2d21548931d5ad62844b41fec722",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1729,7 +1781,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fmaasrangatv%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D7c73ad36e01a25c1bb50d06130f34309",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fmaasrangatv%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D153ed0ebe092c705a276ad336761576f",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1744,7 +1796,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FDeeptoTVHD%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Db3b4ba98a8cc6120012980caca621f90",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FDeeptoTVHD%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D7e53c6dd943804695c88c06789272f3c",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1759,20 +1811,12 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fapp24.jagobd.com.bd%2Fc3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2%2Fgazibdz.stream%2Ftracks-v1a1%2Fmono.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FRavc7gPCZpxk%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dab642f8dcb843c571c4072836e86efb4",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
                 "headers_count": 0,
                 "server_number": 1
-            },
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FRavc7gPCZpxk%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D4a37132bd139a17212dc7f39780b013a",
-                "quality": "Unknown",
-                "priority": 2,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 2
             }
         ]
     },
@@ -1782,7 +1826,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FryFkXfd1a4CQ7mMdc820%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D905c3a2c2cd615ea802d5eaff04a6303",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FryFkXfd1a4CQ7mMdc820%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D9bd25fdc91fd5de0b535b39f42f69877",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1797,7 +1841,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F1d3uG9VCgrR9DRtWZM57%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D26c36bf42803ed8fe24e6e7f7fb021e3",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F1d3uG9VCgrR9DRtWZM57%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dac3d0a0373f5d26cdcb837e6ffb62501",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1812,7 +1856,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fchannel9%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D3b426f2850afeb57c4785ca86a1df17b",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fchannel9%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D6606f71487d7aaffdef894056916cad5",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1827,7 +1871,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FpKb5k6NnzxsKpWUs6E8M%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dc7405db4ace50dc2a510b3d4183c8ac6",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FpKb5k6NnzxsKpWUs6E8M%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D39af1914f6f72053104e710b40f26c83",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1842,7 +1886,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FrELXiuUXqbgzPb06Npom%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3De7eaa4946d98b304fed002acecfa94fc",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FrELXiuUXqbgzPb06Npom%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D758d7b9831b0ccda6ebc4e264c0d81fa",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1857,7 +1901,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2F6xyZ3N4oHv2KBJdB6W4p%2Findex.fmp4.m3u8%3Ftoken%3D960267cd2ac143956348068238571851534eea9a-b12842a0f079b191be30af3ae3809a3d-1782535508-1782534608%26remote%3Dno_check_ip",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2F6xyZ3N4oHv2KBJdB6W4p%2Findex.fmp4.m3u8%3Ftoken%3D2975a9806565904cf717bf29541b9360519d296b-21327ae4aca4e8276dc2b9f8edc86320-1782574039-1782573139%26remote%3Dno_check_ip",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1872,7 +1916,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F39ee93nUbCCmm5LsyD4t%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Df4664bb08ae2032e74ee26c2807dc5bb",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F39ee93nUbCCmm5LsyD4t%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D94c614356a4501085fec1936bcf7d37a",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1887,7 +1931,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FAQLYTPfXtjm5x7zj7AsM%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D9942a6e9f7d543589efa461325fb9fa6",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FAQLYTPfXtjm5x7zj7AsM%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D19c9dc87351d5df6f61aad11073caac8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1902,7 +1946,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FLeUAm4F1iixYns3s3Non%2Findex.m3u8%3Fe%3D1782542108%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D1395c06ee1124e9b26b2603b9f869e42",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FLeUAm4F1iixYns3s3Non%2Findex.m3u8%3Fe%3D1782580639%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D1ec3fd9c6c877af77c9177851c0e3f10",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1917,7 +1961,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fy0q9eFAuquAtvTxRzUHq%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D6ce1ddde1f81e34f7ee9038c4d2f57d7",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fy0q9eFAuquAtvTxRzUHq%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D07a022239a806b25aca2f2987dfef5d8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1932,7 +1976,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FN8Xbo5vdwVU6sF43RsW0%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dcf15b8c685e7fc88dfb8ad40cdc004b4",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FN8Xbo5vdwVU6sF43RsW0%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dea7c1a849aacecf4db6db4719412434e",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1947,7 +1991,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fnexustv%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dfe2cc41c7e51e5a2cd284000c4279481",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fnexustv%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D35181b2b90edd33bf75d977abbdbf4c5",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1962,7 +2006,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FAkyX5dunzju4cpo26dr7%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dcd068f7f3d8a1315da37bfe475e5cb1c",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FAkyX5dunzju4cpo26dr7%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Db161e7d28cb10c60f8898be85de21e63",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -1992,7 +2036,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FopREbXLqJ2HFYPCXTJBa%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D8e7f196095a2365b227dc09f73188655",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FopREbXLqJ2HFYPCXTJBa%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D88c7651d5be06fddb40e555128860a27",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2007,7 +2051,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FTjGR1GcxKetHNVcMVxbq%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D944a786c4c9078165b97debe3c5e6e66",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FTjGR1GcxKetHNVcMVxbq%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Deb97d77a1879e5ad72518c1dc88dde85",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2022,7 +2066,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2FxM9hpJpqLqs83ZrvkeBG%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D716f7cd265237c5daf4976b3b4292956",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2FxM9hpJpqLqs83ZrvkeBG%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Db5b818bdd7b9a7fcb3b3b85404a2cd1b",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2037,7 +2081,7 @@
         "group": "Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2FeQbvBDhUkVuCovH2bT66%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D1cd1cedf551a641c3b2e687d988b1bd2",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2FeQbvBDhUkVuCovH2bT66%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D2ed22f726ef76f9955ab62c95d920334",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2067,7 +2111,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FAbcNews%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D96a8fc82b2f39f75dc9b8759adb2148a",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FAbcNews%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Df29add18135353573066d975ecd60557",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2082,7 +2126,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FtV8mB2zP7rX4kL1w%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Da90b84dd5f2a29e70bfb582431f3a1d4",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FtV8mB2zP7rX4kL1w%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D7fabd42bccbf9bdce729445b2a063a2d",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2112,7 +2156,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fbbcnews%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3De7fa3a7fedc0cdcf3e7c965ffc073ead",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fbbcnews%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D60870b4e77b4ad4b9fd10df3a904c2fc",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2127,7 +2171,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FfbgZV3X17hwWcyfZ4pdb%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D6c8f09f04d9dcdb7cf6a98319966c2c4",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FfbgZV3X17hwWcyfZ4pdb%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D3d1402563a12b5ea8dec192ad6a74bad",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2142,7 +2186,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fcdgr3tw6WoG7JyRnLbi0%2Findex.m3u8%3Fe%3D1782542109%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Df9b044c1d76b8a6c62440de1fad52501",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fcdgr3tw6WoG7JyRnLbi0%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D5e0b11c2870d75d8b13a78f80eeef1c4",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2157,7 +2201,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FEWDrV5QskgarZEUBb3pU%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Defd6797c828bff846156e954cb2d2ff8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FEWDrV5QskgarZEUBb3pU%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Daf70037914bd61b51c89e138d92d6c9b",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2172,7 +2216,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fcnn%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D475c49a5d2375cc857fe65713737522e",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fcnn%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D46589db5de98d5699fd933ca797ca3d6",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2217,7 +2261,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fnhkworld%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D833ccdbd0518ffd55a4607d976b7f0f5",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fnhkworld%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dbf71c8ebd34f7c6333fc634a64a223ad",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2247,7 +2291,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FANB_News%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dddb7144fbfb1b6b1946579f9d3d60bfc",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FANB_News%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dcc1f070bccd3e13ad3e9742adaa259c9",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2262,7 +2306,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FNews1India%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dd87da795774a8165ca55bce15910d3e4",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FNews1India%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D3711580c9ac639908edfa53b407eb68a",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2277,7 +2321,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FSadhnaPrimeNews%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D14a6f2f380f950f7b9aa0f020f53cec1",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FSadhnaPrimeNews%2Findex.m3u8%3Fe%3D1782580640%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D35b4e048a364ad94a62f36923ac137ec",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2322,7 +2366,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fskynews%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D10d241ee2adcb7746600adaf7d046506",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fskynews%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D8d56bd78e83a3f921995e0827a674ca4",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2337,7 +2381,7 @@
         "group": "News",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2FHindiKhabar%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dbbac06c6af298282bc56bd1691cda93f",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2FHindiKhabar%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D95dc5af7739194389e65a0d2b9c42f55",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2412,7 +2456,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2FzY3hJ7pQ2vM5gD8s%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26ip%3D172.184.211.161%26token%3D6e83d9983d7a448af0705bfb3736c9ec",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2FzY3hJ7pQ2vM5gD8s%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26ip%3D172.182.195.181%26token%3D9214d769335217c08f5955e3b01d9303",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2427,7 +2471,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fzv68oqPDu7MZZwmHhRxt%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D0c5f56ccd88dbc2b4a916a8532038c95",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fzv68oqPDu7MZZwmHhRxt%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Db8709291f8a5827ce0d7604e6ee20dd0",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2442,7 +2486,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FM2W2UR49dmeKbZnmdRzN%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D0003ce0df33d03cbe9c60ef790f51ed8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FM2W2UR49dmeKbZnmdRzN%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3De6df7996d94999263877cf7894173e7a",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2457,7 +2501,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fgolfchannel%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dafd90c37c4cd6a17cd05f1c0c003d5e4",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fgolfchannel%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D76c65a84b81fdb1f669cb9e3c3900eb1",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2487,7 +2531,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Ffoxsports2%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dd12f629c5d777211440c1ca30de17669",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Ffoxsports2%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3De6c15eb722ed4e27e78c80d26985cab8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2502,7 +2546,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fbeinsports%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D8eb14df522d2074918b99ce1b9d9506f",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fbeinsports%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D51348f9d6355a4663bef3bab4c126059",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2517,7 +2561,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FbtSport2%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dd6a7d5c1ce61951abd40c803f1ba712c",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FbtSport2%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dff6fb99690412f16a165aad915084391",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2532,7 +2576,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fespn%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3De0c82a1e09c5c4f5c0553b3726749260",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fespn%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Df9cd1b45f12d9427f0b86a09f75ea930",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2547,7 +2591,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Ftsn2%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D59526772981e66b06431a04b285e3722",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Ftsn2%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dab2dcc7f395cc20d71ab28345137a181",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2562,7 +2606,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FtalkSPORT%2Findex.m3u8%3Fe%3D1782542110%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D8a56e7eabcd4b9b27d86fcffdb71859a",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FtalkSPORT%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Ddaeb7ea5a19a2af5222ba9ea7a465e72",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2607,7 +2651,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FMarqueeSportsNetwork%2Findex.m3u8%3Fe%3D1782542111%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D0db6ea2137468d289ee5018680c5658d",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FMarqueeSportsNetwork%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D099b62fb00dd980e027761afda484b13",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2622,7 +2666,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FSportsGrid%2Findex.m3u8%3Fe%3D1782542111%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D8fa9b99ece988efc89c7d068c630eb49",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FSportsGrid%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Da24da22f341eb2cb288895ebe7014648",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2652,7 +2696,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fbloombergtv%2Findex.m3u8%3Fe%3D1782542111%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D41d36a674329d5483d5eee7e4c0a9a31",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fbloombergtv%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D4da1b5afcb78b1fbca2aaee2a1c8d5d0",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2682,7 +2726,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fwillowhd%2Findex.m3u8%3Fe%3D1782542111%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Def29a752f3f7b1c32ba52dc2acf85b20",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fwillowhd%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D017550bf6e62293df253ffbf2b4cb2b6",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2697,7 +2741,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fnfl%2Findex.m3u8%3Fe%3D1782542111%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D31e84cc55fb139ea9cc3ea082128691b",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fnfl%2Findex.m3u8%3Fe%3D1782580641%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dcba0d30641157a3e655e724a71e915cc",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2727,7 +2771,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Ftsn1%2Findex.m3u8%3Fe%3D1782542111%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D603851b619fef56d9324e695a612ba24",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Ftsn1%2Findex.m3u8%3Fe%3D1782580642%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D5d00aaf2f4978fe3b5b4cc70538d2cb8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2742,7 +2786,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Ftsn3%2Findex.m3u8%3Fe%3D1782542111%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D88adc4b68eb098266f0c215c9adddedc",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Ftsn3%2Findex.m3u8%3Fe%3D1782580642%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D85e4ff164434faf6ce01f0bec496affc",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2862,7 +2906,7 @@
         "group": "Channels",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FRplusGold%2Findex.m3u8%3Fe%3D1782542111%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D6815d2b5e559a604ae9a557413be08fb",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FRplusGold%2Findex.m3u8%3Fe%3D1782580642%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D6b591e98dc867cbd32cda07bebb70de3",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2892,7 +2936,7 @@
         "group": "Channels",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FNewsTime%2Findex.m3u8%3Fe%3D1782542111%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dc3c59425b371c0b89ef34fab5fcff48f",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FNewsTime%2Findex.m3u8%3Fe%3D1782580642%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D1577ac4d84b0af7f48b69f80281176e3",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2907,7 +2951,7 @@
         "group": "Channels",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FR_Bangla%2Findex.m3u8%3Fe%3D1782542111%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D3b6024ed902e726afe85d92efe3cff4e",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FR_Bangla%2Findex.m3u8%3Fe%3D1782580642%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Db99207d4254b992603983a5da471901b",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2922,7 +2966,7 @@
         "group": "Channels",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fzee24%2Findex.m3u8%3Fe%3D1782542111%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Df3813e2075b51f94714afe7cbd199dcd",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fzee24%2Findex.m3u8%3Fe%3D1782580642%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D2d131348e37e3fc790feaaffbb9d9020",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2937,7 +2981,7 @@
         "group": "Channels",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fkolkatatv%2Findex.m3u8%3Fe%3D1782542111%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Daf85c02f70aeecdbefaaa2dd36209f3a",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fkolkatatv%2Findex.m3u8%3Fe%3D1782580642%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D7cbbaa36bf264609ce2cdc8013a0dd4c",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2967,7 +3011,7 @@
         "group": "Channels",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fpix11%2Findex.m3u8%3Fe%3D1782542111%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D61cc6cf0c55fa0cd086d519316393f3a",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fpix11%2Findex.m3u8%3Fe%3D1782580642%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D10eb32a662dac1921402d47da4496f1f",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2982,7 +3026,7 @@
         "group": "Channels",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Famc%2Findex.m3u8%3Fe%3D1782542111%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Df9abcf438ffe99827161229b832683ec",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Famc%2Findex.m3u8%3Fe%3D1782580642%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D494b313b39e58b96c02074c072c57573",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -2997,7 +3041,7 @@
         "group": "Channels",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Faxs%2Findex.m3u8%3Fe%3D1782542111%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D9e7255af124d3ff92c16640d8c21ad99",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Faxs%2Findex.m3u8%3Fe%3D1782580642%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dc37599f407dd9d6a3cc6934d82709574",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3192,7 +3236,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fislam%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D7cf3b971e7621c0b37429b77edd9a59c",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fislam%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D019525248da8de3be6084db02052a0cc",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3207,7 +3251,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FRDSSocialTV%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dec5b582018164dfa693cd619ade8ec35",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FRDSSocialTV%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D53ce2c8ece25cd3dfedf56f2b5c567bc",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3222,7 +3266,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fhbo%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Df79bab443700ad3e9f3e027b8e7ef06b",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fhbo%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D1772c1c846caaa035a2ed57ed9ed57fd",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3237,7 +3281,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FcgtnDocumentary%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D58598a72f3ee68dedcb470c15a37640f",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FcgtnDocumentary%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Da81d6f42d882c9838da7ae22448f769f",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3252,7 +3296,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Ffoxbusiness%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D7499debf835a16f22bdd7adeb749f904",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Ffoxbusiness%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3De25d5802bb40ec134415f9a1a54f09b8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3267,7 +3311,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Ffox5%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dae38e4d268d33daef1c7ff1c280ef6fd",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Ffox5%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D510cddba1fd04eb7dedaae1676aab486",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3282,7 +3326,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fdiscoveryfamily%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D08b8ff61edb88280aa190e1feac50a92",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fdiscoveryfamily%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D8cace172ba60d05414c6569c9f7943dd",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3312,7 +3356,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fbravo%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D1657f5294ba6b369451237d55e6904d2",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fbravo%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D27fbf7de170852dfac5f4faa4d19b12d",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3327,7 +3371,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fcomedycentral%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D4e2ff607a64ca8eb29bf9c2485f2ab2b",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fcomedycentral%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D2879be1944f57019a5577c9bd0e8d24e",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3342,7 +3386,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fcooking%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D0e9d0ecde4cf3234628ee045d8e177ea",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fcooking%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D3aec386907a5984d0adfbd8214a3358c",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3357,7 +3401,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fepix%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D27fc79ea4c77592c70f9961d73b0b4d2",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fepix%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dc14932d4788243cce70d50de1700f771",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3372,7 +3416,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Ffx%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D1b4e816eeae877b6173fc3e0913122ad",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Ffx%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Db26ccab2ad90977672225d994b4c94b1",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3387,7 +3431,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Ffoodnetwork%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D51ca547450a3b244b13449fd7c68157e",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Ffoodnetwork%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Df890955cc3a53c109e353de49c68c3f1",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3402,7 +3446,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fhbo2%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D30f74e5b5bcdd0c087b285566931eb85",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fhbo2%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D786dea95a78e90363950f646e01a6415",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3417,7 +3461,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fhgtv%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D806938356df3b6466c66eec62ce7dd89",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fhgtv%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D348a3eace68e7f5a7c06385978622381",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3432,7 +3476,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Flaff%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Da524365ff12ce421f460bd417a99c57f",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Flaff%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Da156ccda22ac2d3ee9d8780e1b879e15",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3447,7 +3491,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Flifetime%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Db7b84a53d405e9f43fa6acbd1f655d6c",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Flifetime%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D08a421dd0d3f548e84059d5852338277",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3462,7 +3506,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fnatgeo%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D0d956540b43300d5423227a76f7b23c0",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fnatgeo%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D36e235cc83b9d6907d85ea7da8974fe8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3477,7 +3521,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fsyfy%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D6eb477dce9e398fd4fb14bbb46295a78",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fsyfy%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Daadcea5bbcf629844063f95c9962498d",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3492,7 +3536,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Ftlc_hd%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D9311c697e22bc51e4d1b1dd32d6993b3",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Ftlc_hd%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dc9147db4f766c74e4f01c256de38d166",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3507,7 +3551,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Ftravelxp%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D3732e217abdb3d9c70ed8b18edae9f1b",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Ftravelxp%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Df679d0298338ab4c09c7795c23d23c9c",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3522,7 +3566,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fibtvusa%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D7761626678bc9750dc2b3a064ef4122a",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fibtvusa%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D44fa6d1e506a63c3cc18cdf577e8a3bc",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3537,7 +3581,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FTheWeatherChannel%2Findex.m3u8%3Fe%3D1782542112%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D9bbb0cbf4c9fbe4f601b4198c3af1960",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FTheWeatherChannel%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dbca586a075b296de2d3bbe90cbb5d219",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3552,7 +3596,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fcnbc%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D773d02d42754c29caf0422178b10cb8c",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fcnbc%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D957195d957d6058fb3833e9025ccf79d",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3567,7 +3611,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fcbs%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Deb7a7016d18a1629b288fd54585c0446",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fcbs%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dfe7799542426ed207009e1041c1fe31b",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3582,7 +3626,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fcp24%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D7708257d82c452d9590869260daea0cc",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fcp24%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D6f8346c581e966254bfd02cf31478d6d",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3597,7 +3641,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fmtv%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D7eecb1312cda9c056a951a681acc1575",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fmtv%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D4ff108fa922c984175820e051dbfffc4",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3612,7 +3656,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fusa%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D4460c53e135e62d5c4c880057c814ecd",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fusa%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Df43a32c295701f250ad769f3ce066c77",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3627,7 +3671,7 @@
         "group": "English",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fmsnbc%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dfc0c799fe795a0b5db37e366338f2cb0",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fmsnbc%2Findex.m3u8%3Fe%3D1782580643%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D90a0ae168a4dd5edb3ecf59b1fd7d918",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3687,7 +3731,7 @@
         "group": "Hindi",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2FAssamTalks%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dfeb7a34d09f0c92893d78ae76eba590a",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2FAssamTalks%2Findex.m3u8%3Fe%3D1782580644%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D17925d6f36e1bd8552afe3b71f55d1b9",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3702,7 +3746,7 @@
         "group": "Hindi",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2FTaazaTV%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D812c895e91f73b15c7085ba369c8a5f5",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2FTaazaTV%2Findex.m3u8%3Fe%3D1782580644%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D77c07f52253ca91c7672cbf9dc139242",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3717,7 +3761,7 @@
         "group": "Hindi",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FDangal%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D931d3658449edc6185c1f288981d8fee",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FDangal%2Findex.m3u8%3Fe%3D1782580644%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D638a459469fe228bd741a2a7049250d5",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3762,7 +3806,7 @@
         "group": "Hindi",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FCiPT1VTG8bVekeAZiibd%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D0a76e8c3d6795690659e5c761d53cd10",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FCiPT1VTG8bVekeAZiibd%2Findex.m3u8%3Fe%3D1782580644%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D015dade7865681fb9518f39698b3a571",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3777,7 +3821,7 @@
         "group": "Hindi",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F9X_Tashan%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dd82eaac474d6a7dfea43991a9152faa0",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F9X_Tashan%2Findex.m3u8%3Fe%3D1782580644%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dc13265b3b73d97d10d28d781ab6d248f",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3792,7 +3836,7 @@
         "group": "Hindi",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FDhinchaak%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Ddc316def69fd24a3f5d58ab209bc6c55",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FDhinchaak%2Findex.m3u8%3Fe%3D1782580644%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D5120f2fe2abf834ab279808e9e7f8f90",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3822,7 +3866,7 @@
         "group": "Hindi",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FManoranjanTV%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Db0067229e5a999d615d99af8011e8285",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FManoranjanTV%2Findex.m3u8%3Fe%3D1782580644%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D37fd56cf5c43b81fae92c5c18d69e606",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3837,7 +3881,7 @@
         "group": "Hindi",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FNetwork10%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Db12f1ff8dcb2c1f0cfa239b4d03088d3",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FNetwork10%2Findex.m3u8%3Fe%3D1782580644%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D82033117a58ea823e63ee515e1f7be00",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3852,7 +3896,7 @@
         "group": "Hindi",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FRepublicTVBharat%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D7789c1a5a47997c2ab131bbd8aea044d",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FRepublicTVBharat%2Findex.m3u8%3Fe%3D1782580644%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D3df6a75debb3419749a6498d58af1825",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3882,7 +3926,7 @@
         "group": "Hindi",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FGreenTvHD%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dac24fef1a0a504ad96b99e98a1e0159e",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FGreenTvHD%2Findex.m3u8%3Fe%3D1782580644%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dacf2810e77f9d88e5f41ec45f17fe335",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -3980,7 +4024,7 @@
                 "server_number": 1
             },
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fcartoonnetwork%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D326bc5b15381acf223772799e700dc38",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fcartoonnetwork%2Findex.m3u8%3Fe%3D1782580644%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D52935ddaf6bd2a4d84cc268942322692",
                 "quality": "Unknown",
                 "priority": 2,
                 "has_headers": false,
@@ -4018,7 +4062,7 @@
         "group": "Kids",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fdisneyjr%2Findex.m3u8%3Fe%3D1782542113%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D33b72f16ad643fd741218bd96db21fcf",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fdisneyjr%2Findex.m3u8%3Fe%3D1782580644%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D6a14879f9e655ddb5679dfce9d661af6",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4033,7 +4077,7 @@
         "group": "Kids",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fnicktoons%2Findex.m3u8%3Fe%3D1782542114%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dac64d4f0867f5e9be988d9356e89dbcd",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fnicktoons%2Findex.m3u8%3Fe%3D1782580644%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D7c94df306b42b0a0253b34478c22d41b",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4048,7 +4092,7 @@
         "group": "Kids",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fnickjr%2Findex.m3u8%3Fe%3D1782542114%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D46393d56866c6bae5c14f734fe0df27e",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fnickjr%2Findex.m3u8%3Fe%3D1782580644%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D3a8759501a2f8c272f89802b298eaa06",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4063,7 +4107,7 @@
         "group": "Kids",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F3abnkids%2Findex.m3u8%3Fe%3D1782542114%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D7421eab1322244ab37578f3851a8e65c",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F3abnkids%2Findex.m3u8%3Fe%3D1782580644%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3De83bfda5098633aa848e0edd4152fd5f",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4108,7 +4152,7 @@
         "group": "Kids",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FMoonbugKids%2Findex.m3u8%3Fe%3D1782542114%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D453f8383f5d0dae0bcb52d572c4607e0",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FMoonbugKids%2Findex.m3u8%3Fe%3D1782580644%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D2fc339d49a79b47446685ebabd1dc00a",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4123,7 +4167,7 @@
         "group": "Kids",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fdisney%2Findex.m3u8%3Fe%3D1782542114%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3De31e90f2a91fda3c379c5b786462d91c",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fdisney%2Findex.m3u8%3Fe%3D1782580645%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dd0515fb9500d9e1d6dc0702f5bd59cb4",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4138,7 +4182,7 @@
         "group": "Kids",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fdisneyxd%2Findex.m3u8%3Fe%3D1782542114%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Ddd04926f478d0e456672791f8b514420",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fdisneyxd%2Findex.m3u8%3Fe%3D1782580645%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D278d19f56c6a3fe66feadf6c39e271af",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4153,7 +4197,7 @@
         "group": "Kids",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Ffamilyjr%2Findex.m3u8%3Fe%3D1782542114%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Df15675e0d0d831c978f351ff08ed0528",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Ffamilyjr%2Findex.m3u8%3Fe%3D1782580645%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D46e913cf26c0b90cbb9402a40957d311",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4168,7 +4212,7 @@
         "group": "Kids",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fnicklodean%2Findex.m3u8%3Fe%3D1782542114%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D4d512e571cc6155eac0daf12ccd09502",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fnicklodean%2Findex.m3u8%3Fe%3D1782580645%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D4d76db7f795032dac761a188969ce739",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4183,7 +4227,7 @@
         "group": "Kids",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fteennick%2Findex.m3u8%3Fe%3D1782542114%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D6ae568f31ca6b88fb72fedbbdf262612",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fteennick%2Findex.m3u8%3Fe%3D1782580645%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D6f9d3a87f94524d32d7d0a7f77648fb3",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4198,7 +4242,7 @@
         "group": "Kids",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fytv%2Findex.m3u8%3Fe%3D1782542114%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D0948b3dfb20b80f4cb808c56b2cfa8cc",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fytv%2Findex.m3u8%3Fe%3D1782580645%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Dee262516cb088b887168a283c7bcb099",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4258,7 +4302,7 @@
         "group": "Religious",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FPeaceTVUrduHD%2Findex.m3u8%3Fe%3D1782542114%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D6cc56945f8a87fc61657e302cd3880c4",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FPeaceTVUrduHD%2Findex.m3u8%3Fe%3D1782580645%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D9e216ecceb5df7b3de2eefd5ea88dc14",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4288,7 +4332,7 @@
         "group": "Religious",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fdeen%2Findex.m3u8%3Fe%3D1782542114%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D5f8e685143fb08aeec67f940d4d5025e",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Fdeen%2Findex.m3u8%3Fe%3D1782580645%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D01e01070f42fb95eda92baf9d87b1c71",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4303,7 +4347,7 @@
         "group": "Religious",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Feman%2Findex.m3u8%3Fe%3D1782542114%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D56b62035724826ec7e2e64768e90bafa",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Feman%2Findex.m3u8%3Fe%3D1782580645%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3Da2d8fde70d4a86a22d9d28fc24e7a2c7",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4318,7 +4362,7 @@
         "group": "Religious",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Ftakbeer%2Findex.m3u8%3Fe%3D1782542114%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D69b0d3cfd40068fe57ab85cc9b54c5f0",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2Ftakbeer%2Findex.m3u8%3Fe%3D1782580645%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D2b57462a081baa058fa0a60a6e6bec33",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4333,7 +4377,7 @@
         "group": "Religious",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2FMadaniTV%2Findex.m3u8%3Fe%3D1782542114%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D80a5512f823867f815d8d5c689e557b1",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen7.aynaott.com%2FMadaniTV%2Findex.m3u8%3Fe%3D1782580645%26u%3Df54c14f5-0c1d-4106-885c-3bcd7626f69f%26token%3D023307ecae6bffdd902f019532adb32c",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4582,21 +4626,6 @@
             }
         ]
     },
-    "ekushey_tv_480p_unknown": {
-        "name": "Ekushey TV (480p)",
-        "logo": "",
-        "group": "Unknown",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fekusheyserver.com%2Fetvlivesn.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
     "fox_sport_fifa_fifa_world_cup_2026": {
         "name": "Fox Sport Fifa",
         "logo": "",
@@ -4672,21 +4701,6 @@
             }
         ]
     },
-    "fm_radio_cricket": {
-        "name": "FM Radio",
-        "logo": "",
-        "group": "Cricket",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fstream.spicefmbd.com%2Fstream.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
     "sky_sports_cricket": {
         "name": "Sky Sports",
         "logo": "",
@@ -4702,73 +4716,13 @@
             }
         ]
     },
-    "desh_tv_bangladeshi": {
-        "name": "Desh TV",
-        "logo": "",
-        "group": "Bangladeshi",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbozztv.com%2Frongo%2Frongo-DeshTV%2Ftracks-v1a1%2Fmono.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "live_quran_tv_cricket": {
-        "name": "Live Quran TV",
+    "fm_radio_cricket": {
+        "name": "FM Radio",
         "logo": "",
         "group": "Cricket",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive.kwikmotion.com%2Fsharjahtvquranlive%2Fshqurantv.smil%2Fplaylist.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "somoy_tv_fifa_world_cup_2026": {
-        "name": "Somoy TV",
-        "logo": "",
-        "group": "Fifa World Cup 2026",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F114.130.57.233%3A8080%2FSomoy-TV-3Mb%2Ftracks-v1a1%2Fmono.m3u8%3Ftoken%3DSkQuhAXZxgBan1",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "bein_sports_1_football": {
-        "name": "Bein Sports 1",
-        "logo": "",
-        "group": "Football",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg02873-kravemedia-mtrspt1-distrotv%2Fplaylist.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "bbc_cbeebies_kids": {
-        "name": "BBC Cbeebies",
-        "logo": "",
-        "group": "Kids",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209622%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fstream.spicefmbd.com%2Fstream.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4792,13 +4746,88 @@
             }
         ]
     },
-    "saudi_quran_islamic_channels": {
-        "name": "Saudi Quran",
+    "live_quran_tv_cricket": {
+        "name": "Live Quran TV",
         "logo": "",
-        "group": "Islamic Channels",
+        "group": "Cricket",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-globecast.akamaized.net%2Flive%2Feds%2Fsaudi_quran%2Fhls_roku%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive.kwikmotion.com%2Fsharjahtvquranlive%2Fshqurantv.smil%2Fplaylist.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "bein_sports_fifa_world_cup_2026": {
+        "name": "Bein Sports",
+        "logo": "",
+        "group": "Fifa World Cup 2026",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fua.online24.pm%2Fplay%2F1101%2F350B326FB34F4B8%2Fvideo.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "desh_tv_bangladeshi": {
+        "name": "Desh TV",
+        "logo": "",
+        "group": "Bangladeshi",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbozztv.com%2Frongo%2Frongo-DeshTV%2Ftracks-v1a1%2Fmono.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "bein_sports_1_football": {
+        "name": "Bein Sports 1",
+        "logo": "",
+        "group": "Football",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg02873-kravemedia-mtrspt1-distrotv%2Fplaylist.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "somoy_tv_fifa_world_cup_2026": {
+        "name": "Somoy TV",
+        "logo": "",
+        "group": "Fifa World Cup 2026",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F114.130.57.233%3A8080%2FSomoy-TV-3Mb%2Ftracks-v1a1%2Fmono.m3u8%3Ftoken%3DSkQuhAXZxgBan1",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "bbc_cbeebies_kids": {
+        "name": "BBC Cbeebies",
+        "logo": "",
+        "group": "Kids",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209622%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4813,7 +4842,7 @@
         "group": "Islamic Channels",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fshd-gcp-live.edgenextcdn.net%2Flive%2Fbitmovin-al-ekhbaria%2F297b3ef1cd0633ad9cfba7473a686a06%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-globecast.akamaized.net%2Flive%2Feds%2Fal_ekhbariya%2Fhls_roku%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4821,57 +4850,12 @@
                 "server_number": 1
             },
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-globecast.akamaized.net%2Flive%2Feds%2Fal_ekhbariya%2Fhls_roku%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fshd-gcp-live.edgenextcdn.net%2Flive%2Fbitmovin-al-ekhbaria%2F297b3ef1cd0633ad9cfba7473a686a06%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 2,
                 "has_headers": false,
                 "headers_count": 0,
                 "server_number": 2
-            }
-        ]
-    },
-    "quran_radiotv_smc_islamic_channels": {
-        "name": "QURAN RADIOTV SMC",
-        "logo": "",
-        "group": "Islamic Channels",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive.kwikmotion.com%2Fsmcquranlive%2Fquranradiolive%2Fplaylist.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "a_spor_football": {
-        "name": "A SPOR",
-        "logo": "",
-        "group": "Football",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Frnttwmjcin.turknet.ercdn.net%2Flcpmvefbyo%2Faspor%2Faspor_480p.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "rongeen_tv_kids": {
-        "name": "Rongeen TV",
-        "logo": "",
-        "group": "Kids",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fserver.thelegitpro.in%2Frongeentv%2Frongeentv%2Ftracks-v1a1%2Fmono.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
             }
         ]
     },
@@ -4882,6 +4866,21 @@
         "servers": [
             {
                 "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftravelxp-travelxp-1-nz.samsung.wurl.tv%2Fplaylist.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "quran_radiotv_smc_islamic_channels": {
+        "name": "QURAN RADIOTV SMC",
+        "logo": "",
+        "group": "Islamic Channels",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive.kwikmotion.com%2Fsmcquranlive%2Fquranradiolive%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4905,13 +4904,13 @@
             }
         ]
     },
-    "t_global_news_canada_news_internasional": {
-        "name": "T Global News (Canada)",
+    "saudi_quran_islamic_channels": {
+        "name": "Saudi Quran",
         "logo": "",
-        "group": "News Internasional",
+        "group": "Islamic Channels",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive.corusdigitaldev.com%2Fgroupd%2Flive%2F49a91e7f-1023-430f-8d66-561055f3d0f7%2Flive.isml%2Fmaster.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-globecast.akamaized.net%2Flive%2Feds%2Fsaudi_quran%2Fhls_roku%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4920,13 +4919,43 @@
             }
         ]
     },
-    "dw_news_news_internasional": {
-        "name": "DW NEWS",
+    "rongeen_tv_kids": {
+        "name": "Rongeen TV",
+        "logo": "",
+        "group": "Kids",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fserver.thelegitpro.in%2Frongeentv%2Frongeentv%2Ftracks-v1a1%2Fmono.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "a_spor_football": {
+        "name": "A SPOR",
+        "logo": "",
+        "group": "Football",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Frnttwmjcin.turknet.ercdn.net%2Flcpmvefbyo%2Faspor%2Faspor_480p.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "t_global_news_canada_news_internasional": {
+        "name": "T Global News (Canada)",
         "logo": "",
         "group": "News Internasional",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fdwamdstream102.akamaized.net%2Fhls%2Flive%2F2015525%2Fdwstream102%2Fstream02%2FstreamPlaylist.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive.corusdigitaldev.com%2Fgroupd%2Flive%2F49a91e7f-1023-430f-8d66-561055f3d0f7%2Flive.isml%2Fmaster.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4950,13 +4979,13 @@
             }
         ]
     },
-    "bahrain_quran_islamic_channels": {
-        "name": "BAHRAIN QURAN",
+    "dw_news_news_internasional": {
+        "name": "DW NEWS",
         "logo": "",
-        "group": "Islamic Channels",
+        "group": "News Internasional",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2F5c7b683162943.streamlock.net%2Flive%2Fngrp%3Abahrainquran_all%2Fplaylist.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fdwamdstream102.akamaized.net%2Fhls%2Flive%2F2015525%2Fdwstream102%2Fstream02%2FstreamPlaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4965,13 +4994,13 @@
             }
         ]
     },
-    "insight_documentary": {
-        "name": "Insight",
+    "bahrain_quran_islamic_channels": {
+        "name": "BAHRAIN QURAN",
         "logo": "",
-        "group": "Documentary",
+        "group": "Islamic Channels",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Finsighttv-samsung-us.amagi.tv%2Fplaylist.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2F5c7b683162943.streamlock.net%2Flive%2Fngrp%3Abahrainquran_all%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4995,13 +5024,13 @@
             }
         ]
     },
-    "trt_world_news_internasional_tv": {
-        "name": "TRT WORLD",
+    "al_qamar_islamic_channels": {
+        "name": "AL QAMAR",
         "logo": "",
-        "group": "News Internasional Tv",
+        "group": "Islamic Channels",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftv-trtworld.medya.trt.com.tr%2Fmaster.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fstreamer3.premio.link%2Falqamar%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5025,6 +5054,21 @@
             }
         ]
     },
+    "iran_international_en_news_internasional": {
+        "name": "Iran International(EN)",
+        "logo": "",
+        "group": "News Internasional",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fdev-live.livetvstream.co.uk%2FLS-63503-4%2Fchunklist_b1196000.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
     "cnn_us_news_internasional": {
         "name": "CNN (US)",
         "logo": "",
@@ -5032,6 +5076,51 @@
         "servers": [
             {
                 "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fturnerlive.warnermediacdn.com%2Fhls%2Flive%2F586495%2Fcnngo%2Fcnn_slate%2FVIDEO_0_3564000.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "quran_fm_redio": {
+        "name": "Quran",
+        "logo": "",
+        "group": "Fm Redio",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fdownload.quranicaudio.com%2Fqdc%2Fabdurrahmaan_as_sudais%2Fmurattal%2F96.mp3",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "france_24_english_720p_news_internasional": {
+        "name": "France 24 English (720p)",
+        "logo": "",
+        "group": "News Internasional",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037218-b%2FF24_EN_HI_HLS%2Fmaster_2300.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "news_max_2_news_internasional": {
+        "name": "News Max 2",
+        "logo": "",
+        "group": "News Internasional",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fnmxlive.akamaized.net%2Fhls%2Flive%2F529965%2FLive_1%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5063,28 +5152,13 @@
             }
         ]
     },
-    "al_qamar_islamic_channels": {
-        "name": "AL QAMAR",
+    "colors_infinity_entertainment": {
+        "name": "Colors Infinity",
         "logo": "",
-        "group": "Islamic Channels",
+        "group": "Entertainment",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fstreamer3.premio.link%2Falqamar%2Fplaylist.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "quran_fm_redio": {
-        "name": "Quran",
-        "logo": "",
-        "group": "Fm Redio",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fdownload.quranicaudio.com%2Fqdc%2Fabdurrahmaan_as_sudais%2Fmurattal%2F96.mp3",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flivecdn.live247stream.com%2Fjoomusic%2Ftv%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5099,7 +5173,7 @@
         "group": "Entertainment",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fb01c02nl.mediatriple.net%2Fvideoonlylive%2Fmtkgeuihrlfwlive%2Fu_stream_5c9e2ee6997cb_1%2Fplaylist.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fb01c02nl.mediatriple.net%2Fvideoonlylive%2Fmtkgeuihrlfwlive%2Fbroadcast_5c9e2ee690051.smil%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5107,7 +5181,7 @@
                 "server_number": 1
             },
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fb01c02nl.mediatriple.net%2Fvideoonlylive%2Fmtkgeuihrlfwlive%2Fbroadcast_5c9e2ee690051.smil%2Fplaylist.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fb01c02nl.mediatriple.net%2Fvideoonlylive%2Fmtkgeuihrlfwlive%2Fu_stream_5c9e2ee6997cb_1%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 2,
                 "has_headers": false,
@@ -5116,13 +5190,13 @@
             }
         ]
     },
-    "news_max_2_news_internasional": {
-        "name": "News Max 2",
+    "france_news_24_news_internasional_tv": {
+        "name": "France News 24",
         "logo": "",
-        "group": "News Internasional",
+        "group": "News Internasional Tv",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fnmxlive.akamaized.net%2Fhls%2Flive%2F529965%2FLive_1%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037179%2FF24_FR_HI_HLS%2Fmaster_5000.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5146,43 +5220,13 @@
             }
         ]
     },
-    "france_24_english_720p_news_internasional": {
-        "name": "France 24 English (720p)",
+    "ndtv_news_news_internasional": {
+        "name": "NDTV NEWS",
         "logo": "",
         "group": "News Internasional",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037218-b%2FF24_EN_HI_HLS%2Fmaster_2300.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "france_news_24_news_internasional_tv": {
-        "name": "France News 24",
-        "logo": "",
-        "group": "News Internasional Tv",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive.france24.com%2Fhls%2Flive%2F2037179%2FF24_FR_HI_HLS%2Fmaster_5000.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "iran_international_en_news_internasional": {
-        "name": "Iran International(EN)",
-        "logo": "",
-        "group": "News Internasional",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fdev-live.livetvstream.co.uk%2FLS-63503-4%2Fchunklist_b1196000.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fndtv24x7elemarchana.akamaized.net%2Fhls%2Flive%2F2003678-b%2Fndtv24x7%2Fmaster.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5206,81 +5250,6 @@
             }
         ]
     },
-    "colors_infinity_entertainment": {
-        "name": "Colors Infinity",
-        "logo": "",
-        "group": "Entertainment",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flivecdn.live247stream.com%2Fjoomusic%2Ftv%2Fplaylist.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "ewtn_tv_relagion_channel": {
-        "name": "EWTN TV",
-        "logo": "",
-        "group": "Relagion Channel",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn3.wowza.com%2F1%2FZVBYYXFLLzE0c3NC%2FQk1FMURC%2Fhls%2Fqrpsvkxl%2F720%2Fchunklist.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "gopal_bhar_tv_cartoon_drama": {
-        "name": "Gopal Bhar TV",
-        "logo": "",
-        "group": "Cartoon Drama",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209611%2Ftracks-v1a1%2Fmono.ts.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "ndtv_english_news_internasional": {
-        "name": "NDTV English",
-        "logo": "",
-        "group": "News Internasional",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fndtv24x7elemarchana.akamaized.net%2Fhls%2Flive%2F2003678%2Fndtv24x7%2Fmaster.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "motu_patlu_cartoon_drama": {
-        "name": "Motu Patlu",
-        "logo": "",
-        "group": "Cartoon Drama",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209622%2Ftracks-v1a1%2Fmono.ts.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
     "arihant_tv_relagion_channel": {
         "name": "Arihant TV",
         "logo": "",
@@ -5288,6 +5257,21 @@
         "servers": [
             {
                 "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Faasthaott.akamaized.net%2F110923%2Fsmil%3Aarihant.smil%2Fchunklist_b1928000.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "trt_world_news_internasional_tv": {
+        "name": "TRT WORLD",
+        "logo": "",
+        "group": "News Internasional Tv",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftv-trtworld.medya.trt.com.tr%2Fmaster.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5311,13 +5295,118 @@
             }
         ]
     },
-    "ndtv_news_news_internasional": {
-        "name": "NDTV NEWS",
+    "ndtv_english_news_internasional": {
+        "name": "NDTV English",
         "logo": "",
         "group": "News Internasional",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fndtv24x7elemarchana.akamaized.net%2Fhls%2Flive%2F2003678-b%2Fndtv24x7%2Fmaster.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fndtv24x7elemarchana.akamaized.net%2Fhls%2Flive%2F2003678%2Fndtv24x7%2Fmaster.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "gopal_bhar_tv_cartoon_drama": {
+        "name": "Gopal Bhar TV",
+        "logo": "",
+        "group": "Cartoon Drama",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209611%2Ftracks-v1a1%2Fmono.ts.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "ndtv_hindi_news_internasional": {
+        "name": "NDTV Hindi",
+        "logo": "",
+        "group": "News Internasional",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fndtvindiaelemarchana.akamaized.net%2Fhls%2Flive%2F2003679%2Fndtvindia%2Fmaster.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "ewtn_tv_relagion_channel": {
+        "name": "EWTN TV",
+        "logo": "",
+        "group": "Relagion Channel",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn3.wowza.com%2F1%2FZVBYYXFLLzE0c3NC%2FQk1FMURC%2Fhls%2Fqrpsvkxl%2F720%2Fchunklist.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "motu_patlu_cartoon_drama": {
+        "name": "Motu Patlu",
+        "logo": "",
+        "group": "Cartoon Drama",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209622%2Ftracks-v1a1%2Fmono.ts.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "insight_documentary": {
+        "name": "Insight",
+        "logo": "",
+        "group": "Documentary",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Finsighttv-samsung-us.amagi.tv%2Fplaylist.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "nk_indian_bangla_news": {
+        "name": "NK",
+        "logo": "",
+        "group": "Indian Bangla News",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Famg01218-republictvfast-amg01218c1-samsung-in-1918.playouts.now.amagi.tv%2Fplaylist%2Famg01218-republictvfast-rbangla-samsungin%2Fplaylist.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "dhoom_music_kolkata_bangla_music": {
+        "name": "Dhoom Music",
+        "logo": "",
+        "group": "Kolkata Bangla Music",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F103.175.73.12%3A8080%2Flive%2F378%2F378_0.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5356,66 +5445,6 @@
             }
         ]
     },
-    "channel_16_bangla_music": {
-        "name": "Channel-16",
-        "logo": "",
-        "group": "Bangla Music",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fapp24.jagobd.com.bd%2Fc3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2%2Fchannel16bd.stream%2Ftracks-v1a1%2Fmono.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "dhoom_music_kolkata_bangla_music": {
-        "name": "Dhoom Music",
-        "logo": "",
-        "group": "Kolkata Bangla Music",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F103.175.73.12%3A8080%2Flive%2F378%2F378_0.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "ndtv_hindi_news_internasional": {
-        "name": "NDTV Hindi",
-        "logo": "",
-        "group": "News Internasional",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fndtvindiaelemarchana.akamaized.net%2Fhls%2Flive%2F2003679%2Fndtvindia%2Fmaster.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "nk_indian_bangla_news": {
-        "name": "NK",
-        "logo": "",
-        "group": "Indian Bangla News",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Famg01218-republictvfast-amg01218c1-samsung-in-1918.playouts.now.amagi.tv%2Fplaylist%2Famg01218-republictvfast-rbangla-samsungin%2Fplaylist.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
     "sheemaroo_bollywood_hindi_movies": {
         "name": "Sheemaroo Bollywood",
         "logo": "",
@@ -5446,13 +5475,13 @@
             }
         ]
     },
-    "r_plus_gold_kolkata_bangla": {
-        "name": "R Plus Gold",
+    "mr_bean_animated_cartoon_drama": {
+        "name": "Mr Bean Animated",
         "logo": "",
-        "group": "Kolkata Bangla",
+        "group": "Cartoon Drama",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-4.pishow.tv%2Flive%2F1231%2F1231_1.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Famg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv%2Fplaylist%2Famg00627-banijayfast-mrbeanitcc-rakutenit%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5476,58 +5505,13 @@
             }
         ]
     },
-    "mr_bean_animated_cartoon_drama": {
-        "name": "Mr Bean Animated",
-        "logo": "",
-        "group": "Cartoon Drama",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Famg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv%2Fplaylist%2Famg00627-banijayfast-mrbeanitcc-rakutenit%2Fplaylist.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "tom_jarry_kids": {
-        "name": "Tom & Jarry",
-        "logo": "",
-        "group": "Kids",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-208314%2Fplaylist.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "travel_xp_english_eu_information": {
-        "name": "Travel XP English EU",
-        "logo": "",
-        "group": "Information",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftravelxp-travelxp-1-eu.rakuten.wurl.tv%2Fplaylist.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "aakash_aath_kolkata_bangla": {
-        "name": "AAKASH AATH",
+    "r_plus_gold_kolkata_bangla": {
+        "name": "R Plus Gold",
         "logo": "",
         "group": "Kolkata Bangla",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-4.pishow.tv%2Flive%2F969%2Fmaster.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-4.pishow.tv%2Flive%2F1231%2F1231_1.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5543,6 +5527,21 @@
         "servers": [
             {
                 "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F103.175.73.12%3A8080%2Flive%2F13%2F13_0.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "aakash_aath_kolkata_bangla": {
+        "name": "AAKASH AATH",
+        "logo": "",
+        "group": "Kolkata Bangla",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-4.pishow.tv%2Flive%2F969%2Fmaster.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5581,13 +5580,28 @@
             }
         ]
     },
-    "hindi_hits_hindi_music": {
-        "name": "Hindi Hits",
+    "tom_jarry_kids": {
+        "name": "Tom & Jarry",
         "logo": "",
-        "group": "Hindi Music",
+        "group": "Kids",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F146.59.253.52%3A8080%2Fhindihitshd%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-208314%2Fplaylist.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "travel_xp_english_eu_information": {
+        "name": "Travel XP English EU",
+        "logo": "",
+        "group": "Information",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftravelxp-travelxp-1-eu.rakuten.wurl.tv%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5611,13 +5625,13 @@
             }
         ]
     },
-    "freelancer_english_movies": {
-        "name": "Freelancer",
+    "hindi_hits_hindi_music": {
+        "name": "Hindi Hits",
         "logo": "",
-        "group": "English Movies",
+        "group": "Hindi Music",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fpremimum.online%2Fmovie%2Fjen12345%2Fjen54321%2F353751.mp4",
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F146.59.253.52%3A8080%2Fhindihitshd%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5633,6 +5647,21 @@
         "servers": [
             {
                 "url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fpremimum.online%2Fmovie%2Fjen12345%2Fjen54321%2F717746.mp4",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "freelancer_english_movies": {
+        "name": "Freelancer",
+        "logo": "",
+        "group": "English Movies",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fpremimum.online%2Fmovie%2Fjen12345%2Fjen54321%2F353751.mp4",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5686,36 +5715,6 @@
             }
         ]
     },
-    "food_food_information": {
-        "name": "Food Food",
-        "logo": "",
-        "group": "Information",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F103.175.73.12%3A8080%2Flive%2F143%2F143_0.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "9xm_hindi_music": {
-        "name": "9XM",
-        "logo": "",
-        "group": "Hindi Music",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F103.175.73.12%3A8080%2Flive%2F155%2F155_0.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
     "r_plus_news_indian_bangla_news": {
         "name": "R Plus News",
         "logo": "",
@@ -5731,13 +5730,13 @@
             }
         ]
     },
-    "e24_hindi_music": {
-        "name": "E24",
+    "food_food_information": {
+        "name": "Food Food",
         "logo": "",
-        "group": "Hindi Music",
+        "group": "Information",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F103.175.73.12%3A8080%2Flive%2F159%2F159_0.m3u8",
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F103.175.73.12%3A8080%2Flive%2F143%2F143_0.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5761,21 +5760,6 @@
             }
         ]
     },
-    "b4u_kadak_hindi_movies": {
-        "name": "B4U Kadak",
-        "logo": "",
-        "group": "Hindi Movies",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-2.pishow.tv%2Flive%2F227%2Fmaster.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
     "goldmines_movies_hindi_movies": {
         "name": "Goldmines Movies",
         "logo": "",
@@ -5791,13 +5775,13 @@
             }
         ]
     },
-    "b4u_movies_hindi": {
-        "name": "B4U Movies",
+    "b4u_kadak_hindi_movies": {
+        "name": "B4U Kadak",
         "logo": "",
-        "group": "Hindi",
+        "group": "Hindi Movies",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Famg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv%2Fplaylist.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-2.pishow.tv%2Flive%2F227%2Fmaster.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5806,13 +5790,28 @@
             }
         ]
     },
-    "goldmines_movies_2_hindi_movies": {
-        "name": "Goldmines Movies 2",
+    "9xm_hindi_music": {
+        "name": "9XM",
         "logo": "",
-        "group": "Hindi Movies",
+        "group": "Hindi Music",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-2.pishow.tv%2Flive%2F1460%2Fmaster.m3u8",
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F103.175.73.12%3A8080%2Flive%2F155%2F155_0.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "e24_hindi_music": {
+        "name": "E24",
+        "logo": "",
+        "group": "Hindi Music",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F103.175.73.12%3A8080%2Flive%2F159%2F159_0.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5836,13 +5835,13 @@
             }
         ]
     },
-    "cowboy_tv_sports": {
-        "name": "Cowboy tv",
+    "animal_planet_information": {
+        "name": "Animal Planet",
         "logo": "",
-        "group": "Sports",
+        "group": "Information",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Famg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv%2Fplaylist%2Famg17292-tetonridgellc-tetonridgefast-distrotvus%2Fplaylist.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftiger-hub.vercel.app%40vodzong.mjunoon.tv%3A8087%2Fstreamtest%2FAnimal-Planet-158-3%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5851,13 +5850,28 @@
             }
         ]
     },
-    "animal_planet_information": {
-        "name": "Animal Planet",
+    "goldmines_movies_2_hindi_movies": {
+        "name": "Goldmines Movies 2",
         "logo": "",
-        "group": "Information",
+        "group": "Hindi Movies",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftiger-hub.vercel.app%40vodzong.mjunoon.tv%3A8087%2Fstreamtest%2FAnimal-Planet-158-3%2Fplaylist.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-2.pishow.tv%2Flive%2F1460%2Fmaster.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "rtnews_global_news_internasional": {
+        "name": "RTNEWS GLOBAL",
+        "logo": "",
+        "group": "News Internasional",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Frt-rtd.rttv.com%2Fdvr%2Frtdoc%2Fplaylist.m3u8%3Fv%3D1",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5881,6 +5895,36 @@
             }
         ]
     },
+    "music_mastii_music": {
+        "name": "Music Mastii",
+        "logo": "",
+        "group": "Music",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209592%2Ftracks-v1a1%2Fmono.ts.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "cowboy_tv_sports": {
+        "name": "Cowboy tv",
+        "logo": "",
+        "group": "Sports",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Famg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv%2Fplaylist%2Famg17292-tetonridgellc-tetonridgefast-distrotvus%2Fplaylist.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
     "baallee_music": {
         "name": "Baallee",
         "logo": "",
@@ -5896,13 +5940,13 @@
             }
         ]
     },
-    "music_mastii_music": {
-        "name": "Music Mastii",
+    "b4u_movies_hindi": {
+        "name": "B4U Movies",
         "logo": "",
-        "group": "Music",
+        "group": "Hindi",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209592%2Ftracks-v1a1%2Fmono.ts.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Famg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5941,21 +5985,6 @@
             }
         ]
     },
-    "rtnews_global_news_internasional": {
-        "name": "RTNEWS GLOBAL",
-        "logo": "",
-        "group": "News Internasional",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Frt-rtd.rttv.com%2Fdvr%2Frtdoc%2Fplaylist.m3u8%3Fv%3D1",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
     "mk_six_hindi": {
         "name": "MK Six",
         "logo": "",
@@ -5978,6 +6007,21 @@
         "servers": [
             {
                 "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209612%2Ftracks-v1a1%2Fmono.ts.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "south_movies_hindi_24_7": {
+        "name": "South Movies",
+        "logo": "",
+        "group": "Hindi 24 7",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209593%2Ftracks-v1a1%2Fmono.ts.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
