@@ -1,4 +1,4 @@
-// Generated: 2026-06-30 11:28 UTC
+// Generated: 2026-06-30 13:25 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -6,7 +6,7 @@
 window.rawChannels2 = [
 
     // ==================================================
-    // BANGLA (42 channels)
+    // BANGLA (41 channels)
     // ==================================================
 
     {
@@ -294,20 +294,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 sonarbanglatv.com",
                 "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Doraemon",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 bozztv.com",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
                 "type": "hls"
             }
         ]
@@ -2369,12 +2355,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
                 "type": "hls"
             },
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -2936,7 +2922,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // HINDI (22 channels)
+    // HINDI (20 channels)
     // ==================================================
 
     {
@@ -3085,20 +3071,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Hindi Movies",
-        "category": "Hindi",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 bozztv.com",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Khushboo",
         "category": "Hindi",
         "img": "https://s3.aynaott.com/storage/d90eb718a6674494d2dac28e1d96bf44",
@@ -3230,20 +3202,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "South Movies",
-        "category": "Hindi",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 bozztv.com",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Taaza TV",
         "category": "Hindi",
         "img": "https://s3.aynaott.com/storage/01c9cb3e1a4c90da6685700da863f0ce",
@@ -3304,7 +3262,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (102 channels)
+    // OTHERS (106 channels)
     // ==================================================
 
     {
@@ -3589,6 +3547,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Bangladesh VS Zimbabwe (bangladesh Tour OF Zimbabwe- 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/Zimbabwe-vs-Bangladesh_One-off-Test_2026_FC-WEB_1782576215289.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143399_english_hls_b76266f66a18138_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Bein Sports Direct",
         "category": "Fifa World Cup 2026",
         "img": "",
@@ -3638,6 +3610,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen6.aynaott.com/cgtnDocumentary/index.m3u8?e=1782785196&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=d1f559a90d7f8794c5fffff22722d762",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Chhinnamasta Lions VS Mills Cricket Club (kpl Indo Nepal T20 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/KPL-Indo-Nepal-T20_fc-web_1782227515719.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143530_english_hls_822f667fad19409_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -3736,6 +3722,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen6.aynaott.com/cp24/index.m3u8?e=1782785196&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=90a74933444b4044756a5fe727a86ba0",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Ddh Meerut Spartans VS Sonipat Kings (future Star U-15 Championship 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/Future-Star-U-15-Championship_fc-web.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143563_english_hls_b94f832e0619846_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -4126,20 +4126,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Kcc VS Hpca Patna (kpl Indo Nepal T20 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/KPL-Indo-Nepal-T20_fc-web_1782227515719.jpg",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/143529_english_hls_0bfff8dcbe29211_1ta-di_h264/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Kolkata TV",
         "category": "Channels",
         "img": "https://s3.aynaott.com/storage/c355110e9cbebd89649a95f0f0fd77da",
@@ -4500,6 +4486,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Shivamogga Yodhas VS Gulbarga Mystics (maharaja T20 Trophy- 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/143432_6134_SY_GMY_FC-WEB_1782272593698.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143432_english_hls_028a82bb8b91389_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Sky News Weather",
         "category": "Weather",
         "img": "https://s3.aynaott.com/storage/78b7ab973209ec06346cf8acfd8544cd",
@@ -4535,6 +4535,20 @@ window.rawChannels2 = [
             {
                 "name": "🌐 vintera.tv",
                 "url": "http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Somoy News TV (1080p)",
+        "category": "Unknown",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://bozztv.com/rongo/rongo-somoy/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -4768,11 +4782,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 324
-// Total sources: 360
+// Total channels: 325
+// Total sources: 361
 // Top priority sources (⭐): 20
 // Other priority sources (⚡): 25
-// Regular sources: 315
+// Regular sources: 316
 // Categories: 11
 // Merged duplicates: 108 channels consolidated
 // Generated with M3U processor
