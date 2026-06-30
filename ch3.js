@@ -1,4 +1,4 @@
-// Generated: 2026-06-30 08:06 UTC
+// Generated: 2026-06-30 11:28 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -3304,7 +3304,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (101 channels)
+    // OTHERS (102 channels)
     // ==================================================
 
     {
@@ -4126,6 +4126,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Kcc VS Hpca Patna (kpl Indo Nepal T20 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/KPL-Indo-Nepal-T20_fc-web_1782227515719.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143529_english_hls_0bfff8dcbe29211_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Kolkata TV",
         "category": "Channels",
         "img": "https://s3.aynaott.com/storage/c355110e9cbebd89649a95f0f0fd77da",
@@ -4754,11 +4768,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 323
-// Total sources: 359
+// Total channels: 324
+// Total sources: 360
 // Top priority sources (⭐): 20
 // Other priority sources (⚡): 25
-// Regular sources: 314
+// Regular sources: 315
 // Categories: 11
-// Merged duplicates: 107 channels consolidated
+// Merged duplicates: 108 channels consolidated
 // Generated with M3U processor
