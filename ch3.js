@@ -1,4 +1,4 @@
-// Generated: 2026-07-01 12:11 UTC
+// Generated: 2026-07-01 15:20 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -1360,7 +1360,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // SPORTS (42 channels)
+    // SPORTS (41 channels)
     // ==================================================
 
     {
@@ -1511,20 +1511,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen5.aynaott.com/espn/index.m3u8?e=1782889568&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=36215f2294e4f61109855b7972459e5f",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Fallback Channel",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Support/images/offline.jpg",
-        "sources": [
-            {
-                "name": "🔗 githubusercontent.com",
-                "url": "https://raw.githubusercontent.com/HelloPeopleTv4you/IPTV-Playlist/refs/heads/main/offline/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -3351,7 +3337,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (107 channels)
+    // OTHERS (110 channels)
     // ==================================================
 
     {
@@ -3360,13 +3346,13 @@ window.rawChannels2 = [
         "img": "",
         "sources": [
             {
-                "name": "🔗 erbvr.com",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
+                "name": "🔗 akamaized.net",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
                 "type": "hls"
             },
             {
-                "name": "🔗 akamaized.net",
-                "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
+                "name": "🔗 erbvr.com",
+                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
                 "type": "hls"
             }
         ]
@@ -3594,6 +3580,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Atn Music (360p)",
+        "category": "Unknown",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ncare.live",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Awaaz India",
         "category": "Latest",
         "img": "https://s3.aynaott.com/storage/6f17785db48e7b5fb68b7d441ad3ad10",
@@ -3629,20 +3629,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 streamlock.net",
                 "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Band-e-amir Dragons VS Amo Sharks (shpageeza Cricket League- 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/143582_6148_AM_BD_fc-web_1782725011344.jpg",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/143582_english_hls_94a6d2b78b41805_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -3916,6 +3902,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Ekushey TV (480p)",
+        "category": "Unknown",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ekusheyserver.com",
+                "url": "https://ekusheyserver.com/etvlivesn.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Epix TV",
         "category": "English",
         "img": "https://s3.aynaott.com/storage/c0b0c986890a8c88c3566d93e18cada6",
@@ -4084,20 +4084,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Gopal Bhar TV",
-        "category": "Cartoon Drama",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 bozztv.com",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Green TV (1080p)",
         "category": "Unknown",
         "img": "",
@@ -4152,6 +4138,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen7.aynaott.com/hgtv/index.m3u8?e=1782889570&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=fa78f768c0cda4df71913232e48ccbc9",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Hpca Patna VS Chinnamasta Lions (kpl Indo Nepal T20 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/KPL-Indo-Nepal-T20_fc-web_1782227515719.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143532_english_hls_447acd8bc24392_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -4222,6 +4222,20 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Kalyani Bengaluru Blasters VS Hubli Tigers (maharaja T20 Trophy- 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/143434_6134_KBB_HT_FC-WEB_1782272592972.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143434_english_hls_5956f8f66413553_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -4304,13 +4318,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Mills Cricket Club VS Rml Sports (kpl Indo Nepal T20 2026)",
+        "name": "Mis-e-ainak Knights VS Speen Ghar Tigers (shpageeza Cricket League- 2026)",
         "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/KPL-Indo-Nepal-T20_fc-web_1782227515719.jpg",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/143583_6148_MAK_SG_fc-web_1782725012134.jpg",
         "sources": [
             {
                 "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/143531_english_hls_e15c30786748760_1ta-di_h264/index.m3u8",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143583_english_hls_8a8c35625189867_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -4650,6 +4664,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Somoy News TV (1080p)",
+        "category": "Unknown",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://bozztv.com/rongo/rongo-somoy/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Sports Fishing TV",
         "category": "Channels",
         "img": "https://s3.aynaott.com/storage/fede32688e783945fed0473f3b0daf23",
@@ -4890,11 +4918,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 332
-// Total sources: 370
+// Total channels: 334
+// Total sources: 372
 // Top priority sources (⭐): 20
 // Other priority sources (⚡): 25
-// Regular sources: 325
+// Regular sources: 327
 // Categories: 11
-// Merged duplicates: 110 channels consolidated
+// Merged duplicates: 111 channels consolidated
 // Generated with M3U processor
