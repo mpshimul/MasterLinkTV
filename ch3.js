@@ -1,4 +1,4 @@
-// Generated: 2026-07-05 13:59 UTC
+// Generated: 2026-07-05 15:22 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -706,7 +706,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // SPORTS (9 channels)
+    // SPORTS (10 channels)
     // ==================================================
 
     {
@@ -731,6 +731,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 pishow.tv",
                 "url": "https://cdn-6.pishow.tv/live/13/master.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Fallback Channel",
+        "category": "Sports",
+        "img": "https://abusaeeidx.github.io/Support/images/offline.jpg",
+        "sources": [
+            {
+                "name": "🔗 githubusercontent.com",
+                "url": "https://raw.githubusercontent.com/HelloPeopleTv4you/IPTV-Playlist/refs/heads/main/offline/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -1116,12 +1130,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
                 "type": "hls"
             },
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -1677,7 +1691,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (54 channels)
+    // OTHERS (55 channels)
     // ==================================================
 
     {
@@ -1971,6 +1985,34 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Day 4 VS Hulencourt Golf Club- Belgium (hulencourt Women's Open 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/d_1782469797601.png",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143411_english_hls_e806df084e2082_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Day 4 VS United States OF America (us Senior Open Championship 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/143581_6147_PGA_LOC_fc-web.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143581_english_hls_dba73a2a7828396_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Delicious",
         "category": "Infotainment",
         "img": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
@@ -2034,20 +2076,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 fancode.com",
                 "url": "https://bd-mc-fblive.fancode.com/mumbai/143625_english_hls_3ff7be17b74727_1ta-di_h264/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Ekushey TV (480p)",
-        "category": "Unknown",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ekusheyserver.com",
-                "url": "https://ekusheyserver.com/etvlivesn.m3u8",
                 "type": "hls"
             }
         ]
@@ -2237,20 +2265,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Mysore Warriors VS Kalyani Bengaluru Blasters (maharaja T20 Trophy- 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/143439_6134_KBB_MW_FC-WEB_1782272593670.jpg",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/143439_english_hls_a8f1bdb2d133941_1ta-di_h264/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Peace TV English",
         "category": "Islamic Channels",
         "img": "",
@@ -2291,6 +2305,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 kwikmotion.com",
                 "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Race VS Great Britain (f1 Pirelli British Grand Prix 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/British-Grand-Prix_fc-web.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/139466_english_hls_5aae1b234285733_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2454,11 +2482,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 169
-// Total sources: 177
+// Total channels: 171
+// Total sources: 179
 // Top priority sources (⭐): 19
 // Other priority sources (⚡): 25
-// Regular sources: 133
+// Regular sources: 135
 // Categories: 10
-// Merged duplicates: 56 channels consolidated
+// Merged duplicates: 57 channels consolidated
 // Generated with M3U processor
