@@ -1,4 +1,4 @@
-// Generated: 2026-07-05 18:09 UTC
+// Generated: 2026-07-05 19:52 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -6,7 +6,7 @@
 window.rawChannels2 = [
 
     // ==================================================
-    // BANGLA (22 channels)
+    // BANGLA (18 channels)
     // ==================================================
 
     {
@@ -80,34 +80,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Channel 1 News 4K",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Channel-16",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Deepto TV",
         "category": "Bangla",
         "img": "https://upload.wikimedia.org/wikipedia/en/3/31/Deepto_TV_logo.png",
@@ -134,11 +106,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 bozztv.com",
                 "url": "https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/deshtv.stream/tracks-v1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -200,20 +167,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 sunplex.live",
                 "url": "http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Mohona TV",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -308,20 +261,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 thelegitpro.in",
                 "url": "https://thelegitpro.in/pntv/rplusnews24x7/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "RTV",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -1738,7 +1677,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (55 channels)
+    // OTHERS (52 channels)
     // ==================================================
 
     {
@@ -2018,27 +1957,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Day 4 VS Hulencourt Golf Club- Belgium (hulencourt Women's Open 2026)",
+        "name": "Day 4 - World Feed VS Tpc Deere Run Silvis- Illinois (john Deere Classic 2026)",
         "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/d_1782469797601.png",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/John-Deere-Classic_Web-match-card.png",
         "sources": [
             {
                 "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/143411_english_hls_e806df084e2082_1ta-di_h264/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Day 4 VS United States OF America (us Senior Open Championship 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/143581_6147_PGA_LOC_fc-web.jpg",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/143581_english_hls_dba73a2a7828396_1ta-di_h264/index.m3u8",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143670_english_hls_202b4abbbc48076_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2116,20 +2041,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "F1 Kids 2026 VS Silverstone (f1 Kids 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/F1_Kids_China_GP_web_1777734590623.jpg",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/143675_english_hls_363cacff8938439_1ta-di_h264/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "FM Radio",
         "category": "Cricket",
         "img": "",
@@ -2179,11 +2090,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 ncare.live",
                 "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -2343,20 +2249,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 kwikmotion.com",
                 "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Race VS Great Britain (f1 Pirelli British Grand Prix 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/British-Grand-Prix_fc-web.jpg",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/139466_english_hls_5aae1b234285733_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2534,11 +2426,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 174
-// Total sources: 184
+// Total channels: 167
+// Total sources: 175
 // Top priority sources (⭐): 19
 // Other priority sources (⚡): 25
-// Regular sources: 140
+// Regular sources: 131
 // Categories: 10
-// Merged duplicates: 58 channels consolidated
+// Merged duplicates: 55 channels consolidated
 // Generated with M3U processor
