@@ -1,4 +1,4 @@
-// Generated: 2026-07-07 13:36 UTC
+// Generated: 2026-07-07 16:35 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -200,6 +200,11 @@ window.rawChannels2 = [
             {
                 "name": "🔗 mytvbangla.com",
                 "url": "https://mytvbangla.com/0.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 ncare.live",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -1166,7 +1171,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // MOVIE (24 channels)
+    // MOVIE (25 channels)
     // ==================================================
 
     {
@@ -1219,6 +1224,20 @@ window.rawChannels2 = [
             {
                 "name": "📡 gpcdn.net",
                 "url": "https://nomawnoijl.gpcdn.net/akash/cineedge/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Colors Cineplex HD",
+        "category": "Movie",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 126.10",
+                "url": "http://66.102.126.10:8000/play/a076/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -1506,7 +1525,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // MUSIC (6 channels)
+    // MUSIC (5 channels)
     // ==================================================
 
     {
@@ -1531,20 +1550,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 mcncdndigital.com",
                 "url": "https://mcncdndigital.com/balleballetv/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "E24",
-        "category": "Music",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 73.12",
-                "url": "http://103.175.73.12:8080/live/159/159_0.m3u8",
                 "type": "hls"
             }
         ]
@@ -1714,7 +1719,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (58 channels)
+    // OTHERS (56 channels)
     // ==================================================
 
     {
@@ -2045,6 +2050,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Channel S",
+        "category": "Unknown",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ncare.live",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Delicious",
         "category": "Infotainment",
         "img": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
@@ -2080,34 +2099,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 deshitv24.net",
                 "url": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Doraemon TV",
-        "category": "Cartoon Drama",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 bozztv.com",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Ekushey TV (480p)",
-        "category": "Unknown",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ekusheyserver.com",
-                "url": "https://ekusheyserver.com/etvlivesn.m3u8",
                 "type": "hls"
             }
         ]
@@ -2206,20 +2197,6 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Itahari Super Kings VS Chinnamasta Lions (kpl Indo Nepal T20 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/KPL-Indo-Nepal-T20_fc-web_1782227515719.jpg",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/143540_english_hls_97bfb0174a50205_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2542,11 +2519,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 176
-// Total sources: 182
+// Total channels: 174
+// Total sources: 181
 // Top priority sources (⭐): 19
 // Other priority sources (⚡): 25
-// Regular sources: 138
+// Regular sources: 137
 // Categories: 10
 // Merged duplicates: 58 channels consolidated
 // Generated with M3U processor
