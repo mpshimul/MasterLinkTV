@@ -1,4 +1,4 @@
-// Generated: 2026-07-08 17:43 UTC
+// Generated: 2026-07-08 19:42 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -869,22 +869,8 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // KIDS (12 channels)
+    // KIDS (11 channels)
     // ==================================================
-
-    {
-        "name": "Bbc Cbeebies",
-        "category": "Kids",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 bozztv.com",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
 
     {
         "name": "Buddystar HD",
@@ -1585,7 +1571,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // HINDI (6 channels)
+    // HINDI (4 channels)
     // ==================================================
 
     {
@@ -1610,20 +1596,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 73.12",
                 "url": "http://103.175.73.12:8080/live/13/13_0.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Hindi Movies",
-        "category": "Hindi",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 bozztv.com",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8",
                 "type": "hls"
             }
         ]
@@ -1658,20 +1630,6 @@ window.rawChannels2 = [
     }
     ,
 
-    {
-        "name": "South Movies",
-        "category": "Hindi",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 bozztv.com",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
     // ==================================================
     // DOCUMENTARY (1 channels)
     // ==================================================
@@ -1691,7 +1649,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (61 channels)
+    // OTHERS (59 channels)
     // ==================================================
 
     {
@@ -2050,20 +2008,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Ekushey TV (480p)",
-        "category": "Unknown",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ekusheyserver.com",
-                "url": "https://ekusheyserver.com/etvlivesn.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Ewtn TV",
         "category": "Relagion Channel",
         "img": "",
@@ -2246,20 +2190,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Namibia VS Vidarbha (vidarbha Cricket Association Tour OF Namibia)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/143631_6150_NAM_VID_fc-web.jpg",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/143631_english_hls_e8be295a7c90161_1ta-di_h264/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Norway VS Hungary (icc Men's T20 World Cup Europe Sub Regional Qualifier B- 2026)",
         "category": "Live Event",
         "img": "https://www.fancode.com/skillup-uploads/cms-media/113.png",
@@ -2372,6 +2302,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Pritam And Pedro(s1e6)",
+        "category": "Web Series",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ctgfun.com",
+                "url": "https://ftp.ctgfun.com/TV_Series/Pritam%20and%20Pedro/Pritam%20and%20Pedro%20S01%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Pritam%20and%20Pedro%20S01E06%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mp4",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Quran",
         "category": "Islamic Channels",
         "img": "",
@@ -2398,20 +2342,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 kwikmotion.com",
                 "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Romania VS Serbia (icc Men's T20 World Cup Europe Sub Regional Qualifier B- 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/113.png",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/4246562_english_hls_291d0bf0f582108_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2561,11 +2491,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 177
-// Total sources: 184
+// Total channels: 172
+// Total sources: 179
 // Top priority sources (⭐): 19
 // Other priority sources (⚡): 25
-// Regular sources: 140
+// Regular sources: 135
 // Categories: 10
-// Merged duplicates: 59 channels consolidated
+// Merged duplicates: 57 channels consolidated
 // Generated with M3U processor
