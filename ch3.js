@@ -1,4 +1,4 @@
-// Generated: 2026-07-10 07:41 UTC
+// Generated: 2026-07-10 11:10 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -6,7 +6,7 @@
 window.rawChannels2 = [
 
     // ==================================================
-    // BANGLA (25 channels)
+    // BANGLA (24 channels)
     // ==================================================
 
     {
@@ -141,20 +141,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Doraemon",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 bozztv.com",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Ekushey TV",
         "category": "Bangla",
         "img": "https://s4.gifyu.com/images/image534fa27d7683f33d.png",
@@ -268,20 +254,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Nagorik TV HD",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 117.83",
-                "url": "http://103.163.117.83:8063/ch8/tracks-v1/index.fmp4.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "NK",
         "category": "Bangla",
         "img": "",
@@ -366,6 +338,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "RTV",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Surongo",
         "category": "Bangla",
         "img": "",
@@ -380,7 +366,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // NEWS (29 channels)
+    // NEWS (30 channels)
     // ==================================================
 
     {
@@ -747,6 +733,11 @@ window.rawChannels2 = [
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "🌐 57.233",
+                "url": "http://114.130.57.233:8080/Somoy-TV-3Mb/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1",
+                "type": "hls"
             }
         ]
     }
@@ -794,9 +785,37 @@ window.rawChannels2 = [
     }
     ,
 
+    {
+        "name": "Trt World",
+        "category": "News",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 com.tr",
+                "url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
     // ==================================================
-    // SPORTS (9 channels)
+    // SPORTS (13 channels)
     // ==================================================
+
+    {
+        "name": "Cowboy TV",
+        "category": "Sports",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 amagi.tv",
+                "url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
 
     {
         "name": "Crazy EX",
@@ -820,6 +839,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 pishow.tv",
                 "url": "https://cdn-6.pishow.tv/live/13/master.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Fallback Channel",
+        "category": "Sports",
+        "img": "https://abusaeeidx.github.io/Support/images/offline.jpg",
+        "sources": [
+            {
+                "name": "🔗 githubusercontent.com",
+                "url": "https://raw.githubusercontent.com/HelloPeopleTv4you/IPTV-Playlist/refs/heads/main/offline/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -904,6 +937,34 @@ window.rawChannels2 = [
             {
                 "name": "🌐 93.154",
                 "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "T-sports [2]",
+        "category": "Sports",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 93.31",
+                "url": "http://103.165.93.31:8095/tsports/tracks-v1a1a2/mono.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "T-sports [3]",
+        "category": "Sports",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 93.31",
+                "url": "http://103.165.93.31:8095/tsports/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -1274,7 +1335,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // MOVIE (22 channels)
+    // MOVIE (26 channels)
     // ==================================================
 
     {
@@ -1299,6 +1360,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 pishow.tv",
                 "url": "https://cdn-2.pishow.tv/live/227/master.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Blast",
+        "category": "Movie",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 fastshare1.com",
+                "url": "http://fastshare1.com/movie/25711345/late8airline/752198.mp4",
                 "type": "hls"
             }
         ]
@@ -1341,6 +1416,20 @@ window.rawChannels2 = [
             {
                 "name": "🌐 premimum.online",
                 "url": "http://premimum.online/movie/jen12345/jen54321/353751.mp4",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Goldmines",
+        "category": "Movie",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 pishow.tv",
+                "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8",
                 "type": "hls"
             }
         ]
@@ -1411,6 +1500,34 @@ window.rawChannels2 = [
             {
                 "name": "🌐 31.111",
                 "url": "http://103.213.31.111/HBOHD/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Hinde Movies 3",
+        "category": "Movie",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 aynaott.com",
+                "url": "https://vods2.aynaott.com/hindimovies/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Ini Utharam",
+        "category": "Movie",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 fastshare1.com",
+                "url": "http://fastshare1.com/movie/25711345/late8airline/752193.mp4",
                 "type": "hls"
             }
         ]
@@ -1674,7 +1791,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // HINDI (7 channels)
+    // HINDI (6 channels)
     // ==================================================
 
     {
@@ -1685,20 +1802,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 amagi.tv",
                 "url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Bflix Movies",
-        "category": "Hindi",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8",
                 "type": "hls"
             }
         ]
@@ -1808,7 +1911,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (60 channels)
+    // OTHERS (58 channels)
     // ==================================================
 
     {
@@ -1817,13 +1920,13 @@ window.rawChannels2 = [
         "img": "",
         "sources": [
             {
-                "name": "🔗 erbvr.com",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
+                "name": "🔗 akamaized.net",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
                 "type": "hls"
             },
             {
-                "name": "🔗 akamaized.net",
-                "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
+                "name": "🔗 erbvr.com",
+                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
                 "type": "hls"
             }
         ]
@@ -1976,13 +2079,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Arihant TV",
-        "category": "Relagion Channel",
+        "name": "Animal Planet HD",
+        "category": "Information",
         "img": "",
         "sources": [
             {
-                "name": "🔗 akamaized.net",
-                "url": "https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8",
+                "name": "🔗 mjunoon.tv",
+                "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -1990,13 +2093,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Atn Music (360p)",
-        "category": "Unknown",
+        "name": "Arihant TV",
+        "category": "Relagion Channel",
         "img": "",
         "sources": [
             {
-                "name": "🔗 ncare.live",
-                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8",
+                "name": "🔗 akamaized.net",
+                "url": "https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8",
                 "type": "hls"
             }
         ]
@@ -2046,20 +2149,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Bein Sports 1 Max Arabic",
-        "category": "Fifa World Cup 2026",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 starhub.pro",
-                "url": "http://starhub.pro/live/farhat-3379/67897-913379/744517.ts",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Bein Sports Direct",
         "category": "Fifa World Cup 2026",
         "img": "",
@@ -2074,13 +2163,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Boishakhi TV",
-        "category": "Unknown",
+        "name": "Bein Sports Tekrar",
+        "category": "Fifa World Cup 2026",
         "img": "",
         "sources": [
             {
-                "name": "🔗 sonarbanglatv.com",
-                "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
+                "name": "🔗 online24.pm",
+                "url": "https://ua.online24.pm/play/1103/350B326FB34F4B8/video.m3u8",
                 "type": "hls"
             }
         ]
@@ -2088,13 +2177,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Channel 1 News HD",
-        "category": "Cricket",
+        "name": "Boishakhi TV",
+        "category": "Unknown",
         "img": "",
         "sources": [
             {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8",
+                "name": "🔗 sonarbanglatv.com",
+                "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2170,6 +2259,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 deshitv24.net",
                 "url": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Doraemon TV",
+        "category": "Cartoon Drama",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
                 "type": "hls"
             }
         ]
@@ -2378,20 +2481,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "MR Bean Animated",
-        "category": "Cartoon Drama",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 amagi.tv",
-                "url": "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Peace TV English",
         "category": "Islamic Channels",
         "img": "",
@@ -2399,20 +2488,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 erbvr.com",
                 "url": "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Peace TV Urdu",
-        "category": "Relagion Channel",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 erbvr.com",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2679,11 +2754,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 184
-// Total sources: 195
+// Total channels: 189
+// Total sources: 201
 // Top priority sources (⭐): 19
 // Other priority sources (⚡): 25
-// Regular sources: 151
+// Regular sources: 157
 // Categories: 10
-// Merged duplicates: 61 channels consolidated
+// Merged duplicates: 63 channels consolidated
 // Generated with M3U processor
