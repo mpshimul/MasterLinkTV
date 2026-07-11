@@ -1,4 +1,4 @@
-// Generated: 2026-07-11 17:30 UTC
+// Generated: 2026-07-11 19:11 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -6,7 +6,7 @@
 window.rawChannels2 = [
 
     // ==================================================
-    // BANGLA (25 channels)
+    // BANGLA (23 channels)
     // ==================================================
 
     {
@@ -289,34 +289,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 amagi.tv",
                 "url": "https://amg01218-republictvfast-amg01218c1-samsung-in-1918.playouts.now.amagi.tv/playlist/amg01218-republictvfast-rbangla-samsungin/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Pcv",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 duckdns.org",
-                "url": "https://padmaonline.duckdns.org:8088/pcv/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "R Plus Gold",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-4.pishow.tv/live/1231/1231_1.m3u8",
                 "type": "hls"
             }
         ]
@@ -795,7 +767,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // SPORTS (14 channels)
+    // SPORTS (13 channels)
     // ==================================================
 
     {
@@ -834,20 +806,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 pishow.tv",
                 "url": "https://cdn-6.pishow.tv/live/13/master.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Fallback Channel",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Support/images/offline.jpg",
-        "sources": [
-            {
-                "name": "🔗 githubusercontent.com",
-                "url": "https://raw.githubusercontent.com/HelloPeopleTv4you/IPTV-Playlist/refs/heads/main/offline/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -995,8 +953,22 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // KIDS (13 channels)
+    // KIDS (15 channels)
     // ==================================================
+
+    {
+        "name": "Bbc Cbeebies",
+        "category": "Kids",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
 
     {
         "name": "Buddystar HD",
@@ -1006,6 +978,20 @@ window.rawChannels2 = [
             {
                 "name": "📡 gpcdn.net",
                 "url": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Cartoon Network",
+        "category": "Kids",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -1302,7 +1288,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // MOVIE (24 channels)
+    // MOVIE (23 channels)
     // ==================================================
 
     {
@@ -1313,20 +1299,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 amagi.tv",
                 "url": "https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "B4u Kadak",
-        "category": "Movie",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-2.pishow.tv/live/227/master.m3u8",
                 "type": "hls"
             }
         ]
@@ -1730,7 +1702,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // HINDI (7 channels)
+    // HINDI (4 channels)
     // ==================================================
 
     {
@@ -1741,20 +1713,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 amagi.tv",
                 "url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Bflix Movies",
-        "category": "Hindi",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8",
                 "type": "hls"
             }
         ]
@@ -1776,20 +1734,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Hindi Movies",
-        "category": "Hindi",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 bozztv.com",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Mbc TV",
         "category": "Hindi",
         "img": "",
@@ -1797,20 +1741,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 10.248",
                 "url": "http://93.184.10.248/MBCBollywood/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "MK Six",
-        "category": "Hindi",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-3.pishow.tv/live/1253/master.m3u8",
                 "type": "hls"
             }
         ]
@@ -1864,7 +1794,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (56 channels)
+    // OTHERS (54 channels)
     // ==================================================
 
     {
@@ -1873,13 +1803,13 @@ window.rawChannels2 = [
         "img": "",
         "sources": [
             {
-                "name": "🔗 erbvr.com",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
+                "name": "🔗 akamaized.net",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
                 "type": "hls"
             },
             {
-                "name": "🔗 akamaized.net",
-                "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
+                "name": "🔗 erbvr.com",
+                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
                 "type": "hls"
             }
         ]
@@ -2198,20 +2128,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 com.bd",
                 "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channels.stream/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Day 2 VS Sachsenring (liqui Moly Grand Prix OF Germany 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/Liqui_Moly_GP_Germany_2026_FC-WEB.jpg",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/139958_english_hls_b00cad079d15124_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2660,30 +2576,16 @@ window.rawChannels2 = [
             }
         ]
     }
-    ,
-
-    {
-        "name": "Zimbabwe VS Bangladesh (bangladesh Tour OF Zimbabwe- 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/Zimbabwe--vs-Bangladesh-old-.png",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/143402_english_hls_f613f0001e43912_1ta-di_h264/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
     
 
 ];
 
 // STATISTICS
-// Total channels: 184
-// Total sources: 195
+// Total channels: 177
+// Total sources: 188
 // Top priority sources (⭐): 19
 // Other priority sources (⚡): 25
-// Regular sources: 151
+// Regular sources: 144
 // Categories: 10
-// Merged duplicates: 61 channels consolidated
+// Merged duplicates: 59 channels consolidated
 // Generated with M3U processor
