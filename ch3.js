@@ -1,4 +1,4 @@
-// Generated: 2026-07-11 10:00 UTC
+// Generated: 2026-07-11 11:30 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -730,7 +730,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // SPORTS (13 channels)
+    // SPORTS (12 channels)
     // ==================================================
 
     {
@@ -811,20 +811,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 online24.pm",
                 "url": "http://ua102.online24.pm:8222/1101/video.m3u8?token=350B326FB34F4B8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Live Sports-9",
-        "category": "Sports",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 streamhostingcdn.top",
-                "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -916,7 +902,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // KIDS (13 channels)
+    // KIDS (14 channels)
     // ==================================================
 
     {
@@ -941,6 +927,20 @@ window.rawChannels2 = [
             {
                 "name": "📡 gpcdn.net",
                 "url": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Cartoon Network",
+        "category": "Kids",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -1182,12 +1182,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
                 "type": "hls"
             },
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -2051,6 +2051,34 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Channel S",
+        "category": "Unknown",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ncare.live",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Coastal Kings Mangaluru VS Shivamogga Yodhas (maharaja T20 Trophy- 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/143436_6134_CKM_SY_FC-WEB_1782272593179.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143447_english_hls_df6d68cf8c2463_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Day 2 VS Sachsenring (liqui Moly Grand Prix OF Germany 2026)",
         "category": "Live Event",
         "img": "https://www.fancode.com/skillup-uploads/cms-media/Liqui_Moly_GP_Germany_2026_FC-WEB.jpg",
@@ -2401,20 +2429,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Pritam And Pedro(s1e4)",
-        "category": "Web Series",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ctgfun.com",
-                "url": "https://ftp.ctgfun.com/TV_Series/Pritam%20and%20Pedro/Pritam%20and%20Pedro%20S01%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Pritam%20and%20Pedro%20S01E04%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mp4",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Pritam And Pedro(s1e5)",
         "category": "Web Series",
         "img": "",
@@ -2511,20 +2525,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 bozztv.com",
                 "url": "https://bozztv.com/rongo/rongo-somoy/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Speen Ghar Tigers VS Amo Sharks (shpageeza Cricket League- 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/143598_6148_SG_AM_fc-web_1782725011587.jpg",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/143598_english_hls_a97b98dba360905_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
