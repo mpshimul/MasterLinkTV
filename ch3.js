@@ -1,4 +1,4 @@
-// Generated: 2026-07-13 19:36 UTC
+// Generated: 2026-07-13 21:02 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -6,7 +6,7 @@
 window.rawChannels2 = [
 
     // ==================================================
-    // BANGLA (24 channels)
+    // BANGLA (21 channels)
     // ==================================================
 
     {
@@ -155,20 +155,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "EP TV",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/eptv.stream/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Kolkata TV",
         "category": "Bangla",
         "img": "",
@@ -195,20 +181,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 sunplex.live",
                 "url": "http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Mohona TV",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -303,20 +275,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 pishow.tv",
                 "url": "https://cdn-4.pishow.tv/live/1231/1231_2.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "RTV",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -1544,7 +1502,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // MUSIC (6 channels)
+    // MUSIC (5 channels)
     // ==================================================
 
     {
@@ -1569,20 +1527,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 mcncdndigital.com",
                 "url": "https://mcncdndigital.com/balleballetv/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Channel-16",
-        "category": "Music",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -1752,7 +1696,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (52 channels)
+    // OTHERS (56 channels)
     // ==================================================
 
     {
@@ -1892,6 +1836,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Ananda TV",
+        "category": "Unknown",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ncare.live",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Animal Planet HD",
         "category": "Information",
         "img": "",
@@ -1913,6 +1871,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 akamaized.net",
                 "url": "https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Atn Music (360p)",
+        "category": "Unknown",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ncare.live",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -2004,20 +1976,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Channel 1 News HD",
-        "category": "Cricket",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Channel 7",
         "category": "Utrun Broadband",
         "img": "",
@@ -2039,20 +1997,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 fancode.com",
                 "url": "https://bd-mc-fblive.fancode.com/mumbai/143497_english_hls_a92613e81217241_1ta-di_h264/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Day 1 - World Feed VS Switzerland (atp 250 - Efg Swiss Open Gstaad 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/EFG-Swiss-Open-Gstaad_fc-Web.jpg",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/143490_english_hls_7b7a9ab14c90630_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2102,20 +2046,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Ekushey TV (480p)",
-        "category": "Unknown",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ekusheyserver.com",
-                "url": "https://ekusheyserver.com/etvlivesn.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Ewtn TV",
         "category": "Relagion Channel",
         "img": "",
@@ -2151,25 +2081,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 73.12",
                 "url": "http://103.175.73.12:8080/live/143/143_0.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Gazi TV",
-        "category": "Unknown",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ncare.live",
-                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -2310,6 +2221,76 @@ window.rawChannels2 = [
             {
                 "name": "🔗 erbvr.com",
                 "url": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Pritam And Pedro(s1e1)",
+        "category": "Web Series",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ctgfun.com",
+                "url": "https://ftp.ctgfun.com/TV_Series/Pritam%20and%20Pedro/Pritam%20and%20Pedro%20S01%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Pritam%20and%20Pedro%20S01E01%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mp4",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Pritam And Pedro(s1e2)",
+        "category": "Web Series",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ctgfun.com",
+                "url": "https://ftp.ctgfun.com/TV_Series/Pritam%20and%20Pedro/Pritam%20and%20Pedro%20S01%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Pritam%20and%20Pedro%20S01E02%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mp4",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Pritam And Pedro(s1e3)",
+        "category": "Web Series",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ctgfun.com",
+                "url": "https://ftp.ctgfun.com/TV_Series/Pritam%20and%20Pedro/Pritam%20and%20Pedro%20S01%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Pritam%20and%20Pedro%20S01E03%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mp4",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Pritam And Pedro(s1e4)",
+        "category": "Web Series",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ctgfun.com",
+                "url": "https://ftp.ctgfun.com/TV_Series/Pritam%20and%20Pedro/Pritam%20and%20Pedro%20S01%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Pritam%20and%20Pedro%20S01E04%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mp4",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Pritam And Pedro(s1e6)",
+        "category": "Web Series",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ctgfun.com",
+                "url": "https://ftp.ctgfun.com/TV_Series/Pritam%20and%20Pedro/Pritam%20and%20Pedro%20S01%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Pritam%20and%20Pedro%20S01E06%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mp4",
                 "type": "hls"
             }
         ]
@@ -2490,6 +2471,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "West Indies VS New Zealand (new Zealand Tour OF West Indies- 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-WI_Odi_fc-web.png",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143604_english_hls_f12e08876820754_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Yrf Music HD",
         "category": "Unknown",
         "img": "",
@@ -2507,10 +2502,10 @@ window.rawChannels2 = [
 
 // STATISTICS
 // Total channels: 172
-// Total sources: 182
+// Total sources: 181
 // Top priority sources (⭐): 19
 // Other priority sources (⚡): 25
-// Regular sources: 138
+// Regular sources: 137
 // Categories: 10
 // Merged duplicates: 57 channels consolidated
 // Generated with M3U processor
