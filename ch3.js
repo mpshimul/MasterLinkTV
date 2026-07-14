@@ -1,4 +1,4 @@
-// Generated: 2026-07-14 09:07 UTC
+// Generated: 2026-07-14 11:08 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -545,6 +545,11 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 242.10",
+                "url": "http://103.175.242.10:8080/independent/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -1738,7 +1743,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (59 channels)
+    // OTHERS (64 channels)
     // ==================================================
 
     {
@@ -2013,6 +2018,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Belgium VS Hungary (icc Men's T20 World Cup Europe Sub Regional Qualifier B- 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/113.png",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/4246582_english_hls_bdf77704a065549_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Boishakhi TV",
         "category": "Unknown",
         "img": "",
@@ -2027,13 +2046,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Bost Defenders VS Speen Ghar Tigers (shpageeza Cricket League- 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/143587_6148_BOS_SG_fc-web_1782725012178.jpg",
+        "name": "Channel 1 News HD",
+        "category": "Cricket",
+        "img": "",
         "sources": [
             {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-fblive.fancode.com/mumbai/143602_english_hls_e76593f89d88088_1ta-di_h264/index.m3u8",
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -2048,6 +2067,34 @@ window.rawChannels2 = [
             {
                 "name": "🌐 193.194",
                 "url": "http://103.13.193.194:8082/T-SPORTS-HD/video.m3u8?token=RusriRM-L73G33",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Day 2 - World Feed VS Sweden (atp 250 - Nordea Open 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/Nordea-Open_Web-match-card.png",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143484_english_hls_ce9011c07f27534_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Day 2 - World Feed VS Switzerland (atp 250 - Efg Swiss Open Gstaad 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/EFG-Swiss-Open-Gstaad_fc-Web.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143491_english_hls_a60884f83292633_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2104,6 +2151,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 bozztv.com",
                 "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Ekushey TV (480p)",
+        "category": "Unknown",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ekusheyserver.com",
+                "url": "https://ekusheyserver.com/etvlivesn.m3u8",
                 "type": "hls"
             }
         ]
@@ -2237,6 +2298,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Mis-e-ainak Knights VS Band-e-amir Dragons (shpageeza Cricket League- 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/143596_6148_BD_MAK_fc-web_1782725011507.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143695_english_hls_cb0018fc8896337_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Motor Vision",
         "category": "Cricket",
         "img": "",
@@ -2272,20 +2347,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 amagi.tv",
                 "url": "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Nan TV",
-        "category": "Unknown",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ncare.live",
-                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -2466,6 +2527,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Serbia VS Estonia (icc Men's T20 World Cup Europe Sub Regional Qualifier B- 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/113.png",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/4246581_english_hls_8faf96cf9657167_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Sochi 24 HD",
         "category": "Infotainment Channels",
         "img": "",
@@ -2580,11 +2655,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 178
-// Total sources: 186
+// Total channels: 183
+// Total sources: 192
 // Top priority sources (⭐): 19
 // Other priority sources (⚡): 25
-// Regular sources: 142
+// Regular sources: 148
 // Categories: 10
-// Merged duplicates: 59 channels consolidated
+// Merged duplicates: 61 channels consolidated
 // Generated with M3U processor
