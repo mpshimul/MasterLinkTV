@@ -1,4 +1,4 @@
-// Generated: 2026-07-14 06:35 UTC
+// Generated: 2026-07-14 09:07 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -545,11 +545,6 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "🌐 242.10",
-                "url": "http://103.175.242.10:8080/independent/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2032,13 +2027,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Channel 1 News HD",
-        "category": "Cricket",
-        "img": "",
+        "name": "Bost Defenders VS Speen Ghar Tigers (shpageeza Cricket League- 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/143587_6148_BOS_SG_fc-web_1782725012178.jpg",
         "sources": [
             {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8",
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-fblive.fancode.com/mumbai/143602_english_hls_e76593f89d88088_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2109,20 +2104,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 bozztv.com",
                 "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Ekushey TV (480p)",
-        "category": "Unknown",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ekusheyserver.com",
-                "url": "https://ekusheyserver.com/etvlivesn.m3u8",
                 "type": "hls"
             }
         ]
@@ -2291,6 +2272,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 amagi.tv",
                 "url": "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Nan TV",
+        "category": "Unknown",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ncare.live",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -2586,10 +2581,10 @@ window.rawChannels2 = [
 
 // STATISTICS
 // Total channels: 178
-// Total sources: 187
+// Total sources: 186
 // Top priority sources (⭐): 19
 // Other priority sources (⚡): 25
-// Regular sources: 143
+// Regular sources: 142
 // Categories: 10
 // Merged duplicates: 59 channels consolidated
 // Generated with M3U processor
