@@ -1,4 +1,4 @@
-// Generated: 2026-07-18 04:08 UTC
+// Generated: 2026-07-18 06:28 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -8,20 +8,6 @@ window.rawChannels2 = [
     // ==================================================
     // BANGLA (24 channels)
     // ==================================================
-
-    {
-        "name": "Aakash Aath",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-4.pishow.tv/live/969/master.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
 
     {
         "name": "Akash Aath",
@@ -176,6 +162,34 @@ window.rawChannels2 = [
             {
                 "name": "🌐 72.204",
                 "url": "http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "EP TV",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/eptv.stream/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Kolkata TV",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 co.in",
+                "url": "https://cdn.ottlive.co.in/kolkatatv/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -338,20 +352,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Somoy Tv-[2]",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 57.233",
-                "url": "http://114.130.57.233:8080/Somoy-TV-3Mb/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Surongo",
         "category": "Bangla",
         "img": "",
@@ -366,7 +366,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // NEWS (30 channels)
+    // NEWS (28 channels)
     // ==================================================
 
     {
@@ -433,20 +433,6 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "DW English",
-        "category": "News",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 akamaized.net",
-                "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8?v=1",
                 "type": "hls"
             }
         ]
@@ -706,20 +692,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Rtnews Global",
-        "category": "News",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 rttv.com",
-                "url": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8?v=1",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Somoy TV",
         "category": "News",
         "img": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560559088.png",
@@ -727,6 +699,11 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 57.233",
+                "url": "http://114.130.57.233:8080/Somoy-TV-3Mb/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1",
                 "type": "hls"
             }
         ]
@@ -790,7 +767,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // SPORTS (12 channels)
+    // SPORTS (8 channels)
     // ==================================================
 
     {
@@ -815,20 +792,6 @@ window.rawChannels2 = [
             {
                 "name": "📡 gpcdn.net",
                 "url": "https://nomawnoijl.gpcdn.net/akash/crazy_ex/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Fallback Channel",
-        "category": "Sports",
-        "img": "https://abusaeeidx.github.io/Support/images/offline.jpg",
-        "sources": [
-            {
-                "name": "🔗 githubusercontent.com",
-                "url": "https://raw.githubusercontent.com/HelloPeopleTv4you/IPTV-Playlist/refs/heads/main/offline/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -864,34 +827,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Live Sports-4",
-        "category": "Sports",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 18.177",
-                "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Mtr Sports-1",
-        "category": "Sports",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 amagi.tv",
-                "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Sports Legends",
         "category": "Sports",
         "img": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770377900139.png",
@@ -913,20 +848,6 @@ window.rawChannels2 = [
             {
                 "name": "📡 gpcdn.net",
                 "url": "https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Star Sports 1 HD",
-        "category": "Sports",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 93.154",
-                "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -964,6 +885,20 @@ window.rawChannels2 = [
     // ==================================================
     // KIDS (11 channels)
     // ==================================================
+
+    {
+        "name": "Bbc Cbeebies",
+        "category": "Kids",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
 
     {
         "name": "Buddystar HD",
@@ -1057,20 +992,6 @@ window.rawChannels2 = [
             {
                 "name": "📡 gpcdn.net",
                 "url": "https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Nursary Rhymes",
-        "category": "Kids",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 104.106",
-                "url": "http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -1250,7 +1171,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // MOVIE (20 channels)
+    // MOVIE (17 channels)
     // ==================================================
 
     {
@@ -1261,20 +1182,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 amagi.tv",
                 "url": "https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "B4u Kadak",
-        "category": "Movie",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-2.pishow.tv/live/227/master.m3u8",
                 "type": "hls"
             }
         ]
@@ -1324,20 +1231,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Goldmines",
-        "category": "Movie",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Goldmines Bollywood",
         "category": "Movie",
         "img": "",
@@ -1345,34 +1238,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 73.12",
                 "url": "http://103.175.73.12:8080/live/52/52_0.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Goldmines Movies",
-        "category": "Movie",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-2.pishow.tv/live/1461/master.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Goldmines Movies 2",
-        "category": "Movie",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-2.pishow.tv/live/1460/master.m3u8",
                 "type": "hls"
             }
         ]
@@ -1457,6 +1322,20 @@ window.rawChannels2 = [
             {
                 "name": "📡 gpcdn.net",
                 "url": "https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Sheemaroo Bollywood",
+        "category": "Movie",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 amagi.tv",
+                "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -1622,7 +1501,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // HINDI (7 channels)
+    // HINDI (5 channels)
     // ==================================================
 
     {
@@ -1682,34 +1561,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "MK Six",
-        "category": "Hindi",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-3.pishow.tv/live/1253/master.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Sheemaroo Bollywood",
-        "category": "Hindi",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 amagi.tv",
-                "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "South Movies",
         "category": "Hindi",
         "img": "",
@@ -1724,8 +1575,22 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // DOCUMENTARY (1 channels)
+    // DOCUMENTARY (2 channels)
     // ==================================================
+
+    {
+        "name": "Insight",
+        "category": "Documentary",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 amagi.tv",
+                "url": "https://insighttv-samsung-us.amagi.tv/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
 
     {
         "name": "Real Wild",
@@ -1742,7 +1607,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (59 channels)
+    // OTHERS (60 channels)
     // ==================================================
 
     {
@@ -1786,25 +1651,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 akamaized.net",
                 "url": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 edgenextcdn.net",
-                "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "AL Istiqama",
-        "category": "Islamic Channels",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ercdn.net",
-                "url": "https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8",
                 "type": "hls"
             }
         ]
@@ -1910,6 +1756,34 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Animal_planet_hd",
+        "category": "Infotainment Channels",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 cliptv.az",
+                "url": "http://mfe01.cliptv.az/dash/Animal_Planet_HD345wer.ism/playlist.mpd",
+                "type": "dash"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Arihant TV",
+        "category": "Relagion Channel",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 akamaized.net",
+                "url": "https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Bahrain Quran",
         "category": "Islamic Channels",
         "img": "",
@@ -1931,6 +1805,20 @@ window.rawChannels2 = [
             {
                 "name": "🌐 online24.pm",
                 "url": "http://ua.online24.pm/play/1101/350B326FB34F4B8/video.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Bein Sports 1",
+        "category": "Football",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 amagi.tv",
+                "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -2111,20 +1999,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "G Series Drama",
-        "category": "Cricket",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 aynaott.com",
-                "url": "https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Gazi TV",
         "category": "Unknown",
         "img": "",
@@ -2144,8 +2018,8 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Gopal Bhar TV",
-        "category": "Cartoon Drama",
+        "name": "Gopal Bhar",
+        "category": "Cartoons | 24/7",
         "img": "",
         "sources": [
             {
@@ -2165,20 +2039,6 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Live Quran TV",
-        "category": "Cricket",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 kwikmotion.com",
-                "url": "https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -2229,7 +2089,7 @@ window.rawChannels2 = [
 
     {
         "name": "Motu Patlu",
-        "category": "Cartoon Drama",
+        "category": "Cartoons | 24/7",
         "img": "",
         "sources": [
             {
@@ -2429,6 +2289,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Rtv (720p)",
+        "category": "Unknown",
+        "img": "",
+        "sources": [
+            {
+                "name": "⭐ aynascope.net",
+                "url": "http://tvsen5.aynascope.net/RtvHD/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Saudi Quran",
         "category": "Islamic Channels",
         "img": "",
@@ -2506,6 +2380,11 @@ window.rawChannels2 = [
             {
                 "name": "🌐 93.31",
                 "url": "http://103.165.93.31:8095/tsports/video.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 57.233",
+                "url": "http://114.130.57.233:8080/LIVE-Sports/video.m3u8?token=SkQuhAXZxgBan1",
                 "type": "hls"
             }
         ]
@@ -2599,11 +2478,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 179
-// Total sources: 188
-// Top priority sources (⭐): 19
+// Total channels: 170
+// Total sources: 180
+// Top priority sources (⭐): 20
 // Other priority sources (⚡): 25
-// Regular sources: 144
+// Regular sources: 135
 // Categories: 10
-// Merged duplicates: 59 channels consolidated
+// Merged duplicates: 56 channels consolidated
 // Generated with M3U processor
