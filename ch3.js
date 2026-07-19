@@ -1,4 +1,4 @@
-// Generated: 2026-07-19 10:57 UTC
+// Generated: 2026-07-19 12:03 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -6,7 +6,7 @@
 window.rawChannels2 = [
 
     // ==================================================
-    // BANGLA (22 channels)
+    // BANGLA (24 channels)
     // ==================================================
 
     {
@@ -120,6 +120,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 sonarbanglatv.com",
                 "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Dhoom Music",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 73.12",
+                "url": "http://103.175.73.12:8080/live/378/378_0.m3u8",
                 "type": "hls"
             }
         ]
@@ -303,6 +317,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 thelegitpro.in",
                 "url": "https://thelegitpro.in/pntv/rplusnews24x7/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "RTV",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -678,7 +706,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // SPORTS (10 channels)
+    // SPORTS (9 channels)
     // ==================================================
 
     {
@@ -773,20 +801,6 @@ window.rawChannels2 = [
             {
                 "name": "📡 gpcdn.net",
                 "url": "https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Star Sports 1 HD",
-        "category": "Sports",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 93.154",
-                "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -1116,12 +1130,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
                 "type": "hls"
             },
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -1649,7 +1663,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (62 channels)
+    // OTHERS (67 channels)
     // ==================================================
 
     {
@@ -1798,13 +1812,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Arihant TV",
-        "category": "Relagion Channel",
+        "name": "Atn Music (360p)",
+        "category": "Unknown",
         "img": "",
         "sources": [
             {
-                "name": "🔗 akamaized.net",
-                "url": "https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8",
+                "name": "🔗 ncare.live",
+                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -1938,6 +1952,34 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Dambulla Sixers VS Jaffna Kings (lanka Premier League- 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/4246717_52991_DS_JK_FC-WEB.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-pdlive.fancode.com/mumbai/4246717_english_hls_9dee290f0090463_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Day 4 VS Royal Birkdale (the Open 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/The-Open-Championship_fc-web.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-pdlive.fancode.com/mumbai/4246811_english_hls_4492dd440847598_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Delicious",
         "category": "Infotainment",
         "img": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
@@ -1994,13 +2036,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Ewtn TV",
-        "category": "Relagion Channel",
+        "name": "Ekushey TV (480p)",
+        "category": "Unknown",
         "img": "",
         "sources": [
             {
-                "name": "🔗 wowza.com",
-                "url": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/qrpsvkxl/720/chunklist.m3u8",
+                "name": "🔗 ekusheyserver.com",
+                "url": "https://ekusheyserver.com/etvlivesn.m3u8",
                 "type": "hls"
             }
         ]
@@ -2008,13 +2050,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Feature Race VS Spa-francorchamps (f3 Belgium 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/F3_GP_Old_match-card.jpg",
+        "name": "Ewtn TV",
+        "category": "Relagion Channel",
+        "img": "",
         "sources": [
             {
-                "name": "🔗 fancode.com",
-                "url": "https://bd-mc-pdlive.fancode.com/mumbai/139732_english_hls_b8d63913fb57971_1ta-di_h264/index.m3u8",
+                "name": "🔗 wowza.com",
+                "url": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/qrpsvkxl/720/chunklist.m3u8",
                 "type": "hls"
             }
         ]
@@ -2160,6 +2202,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 madanichannel.tv",
                 "url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Men's Final VS Switzerland (atp 250 - Efg Swiss Open Gstaad 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/EFG-Swiss-Open-Gstaad_fc-Web.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-pdlive.fancode.com/mumbai/143496_english_hls_aa6d7ce41a64722_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2382,6 +2438,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Race VS Spa-francorchamps (porsche Mobil 1 Supercup 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/Porsche-Mobil-1-Supercup_Austria_Match_card_MRF_Old_match-card.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-pdlive.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Rtv (720p)",
         "category": "Unknown",
         "img": "",
@@ -2533,16 +2603,30 @@ window.rawChannels2 = [
             }
         ]
     }
+    ,
+
+    {
+        "name": "Zimbabwe VS Bangladesh (bangladesh Tour OF Zimbabwe- 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/ZIM-vs-BAN_Web-match-card_1783952837295.png",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-pdlive.fancode.com/mumbai/143405_english_hls_17da386da48875_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
     
 
 ];
 
 // STATISTICS
-// Total channels: 175
-// Total sources: 183
+// Total channels: 181
+// Total sources: 189
 // Top priority sources (⭐): 20
 // Other priority sources (⚡): 25
-// Regular sources: 138
+// Regular sources: 144
 // Categories: 10
-// Merged duplicates: 58 channels consolidated
+// Merged duplicates: 60 channels consolidated
 // Generated with M3U processor
