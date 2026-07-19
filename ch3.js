@@ -1,4 +1,4 @@
-// Generated: 2026-07-19 12:03 UTC
+// Generated: 2026-07-19 14:03 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -6,7 +6,7 @@
 window.rawChannels2 = [
 
     // ==================================================
-    // BANGLA (24 channels)
+    // BANGLA (20 channels)
     // ==================================================
 
     {
@@ -52,13 +52,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Bbc News",
+        "name": "Arabica TV",
         "category": "Bangla",
-        "img": "https://seeklogo.com/images/B/bbc-news-logo-8648ABD044-seeklogo.com.png",
+        "img": "",
         "sources": [
             {
-                "name": "🔗 skygo.mn",
-                "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News-avc1_3000000=8-mp4a_208000_eng=2.m3u8",
+                "name": "🌐 binarywaves.com",
+                "url": "http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -66,13 +66,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Channel-16",
+        "name": "Bbc News",
         "category": "Bangla",
-        "img": "",
+        "img": "https://seeklogo.com/images/B/bbc-news-logo-8648ABD044-seeklogo.com.png",
         "sources": [
             {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8",
+                "name": "🔗 skygo.mn",
+                "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News-avc1_3000000=8-mp4a_208000_eng=2.m3u8",
                 "type": "hls"
             }
         ]
@@ -155,20 +155,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "EP TV",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/eptv.stream/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Kolkata TV",
         "category": "Bangla",
         "img": "",
@@ -195,20 +181,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 sunplex.live",
                 "url": "http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Mohona TV",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -324,34 +296,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "RTV",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Somoy Tv-[2]",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 57.233",
-                "url": "http://114.130.57.233:8080/Somoy-TV-3Mb/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Surongo",
         "category": "Bangla",
         "img": "",
@@ -366,7 +310,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // NEWS (24 channels)
+    // NEWS (30 channels)
     // ==================================================
 
     {
@@ -440,6 +384,48 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "DW English",
+        "category": "News",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 akamaized.net",
+                "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8?v=1",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "DW English _",
+        "category": "News",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 akamaized.net",
+                "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "DW News",
+        "category": "News",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 akamaized.net",
+                "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Ekattor HD",
         "category": "News",
         "img": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739963327549.png",
@@ -475,6 +461,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 france24.com",
                 "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Global News (us)",
+        "category": "News",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 corusdigitaldev.com",
+                "url": "https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8",
                 "type": "hls"
             }
         ]
@@ -650,6 +650,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Rtnews Global",
+        "category": "News",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 rttv.com",
+                "url": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8?v=1",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Somoy TV",
         "category": "News",
         "img": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560559088.png",
@@ -657,6 +671,11 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 57.233",
+                "url": "http://114.130.57.233:8080/Somoy-TV-3Mb/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1",
                 "type": "hls"
             }
         ]
@@ -671,6 +690,20 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "T Global News (canada)",
+        "category": "News",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 corusdigitaldev.com",
+                "url": "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8",
                 "type": "hls"
             }
         ]
@@ -706,7 +739,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // SPORTS (9 channels)
+    // SPORTS (8 channels)
     // ==================================================
 
     {
@@ -759,20 +792,6 @@ window.rawChannels2 = [
             {
                 "name": "📡 gpcdn.net",
                 "url": "https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Live Sports-4",
-        "category": "Sports",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 18.177",
-                "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -836,22 +855,8 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // KIDS (14 channels)
+    // KIDS (11 channels)
     // ==================================================
-
-    {
-        "name": "Bbc Cbeebies",
-        "category": "Kids",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 bozztv.com",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
 
     {
         "name": "Buddystar HD",
@@ -861,20 +866,6 @@ window.rawChannels2 = [
             {
                 "name": "📡 gpcdn.net",
                 "url": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Cartoon Network",
-        "category": "Kids",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 bozztv.com",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -1021,20 +1012,6 @@ window.rawChannels2 = [
     }
     ,
 
-    {
-        "name": "ZB Cartoon",
-        "category": "Kids",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 zillarbarta.com",
-                "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
     // ==================================================
     // ENTERTAINMENT (9 channels)
     // ==================================================
@@ -1061,6 +1038,11 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 93.31",
+                "url": "http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -1130,12 +1112,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
                 "type": "hls"
             },
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -1469,7 +1451,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // MUSIC (5 channels)
+    // MUSIC (6 channels)
     // ==================================================
 
     {
@@ -1522,6 +1504,20 @@ window.rawChannels2 = [
             {
                 "name": "🌐 253.52",
                 "url": "http://146.59.253.52:8080/hindihitshd/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Music Mastii",
+        "category": "Music",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
                 "type": "hls"
             }
         ]
@@ -1663,7 +1659,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (67 channels)
+    // OTHERS (69 channels)
     // ==================================================
 
     {
@@ -1672,13 +1668,13 @@ window.rawChannels2 = [
         "img": "",
         "sources": [
             {
-                "name": "🔗 erbvr.com",
-                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
+                "name": "🔗 akamaized.net",
+                "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
                 "type": "hls"
             },
             {
-                "name": "🔗 akamaized.net",
-                "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
+                "name": "🔗 erbvr.com",
+                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
                 "type": "hls"
             }
         ]
@@ -1707,6 +1703,11 @@ window.rawChannels2 = [
             {
                 "name": "🔗 akamaized.net",
                 "url": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 edgenextcdn.net",
+                "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -1798,6 +1799,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Amazon Sat",
+        "category": "Infotainment Channels",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 com.br",
+                "url": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Ananda TV",
         "category": "Unknown",
         "img": "",
@@ -1882,6 +1897,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Bein Sports Direct HD",
+        "category": "Fifa World Cup 2026",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 5.177",
+                "url": "http://145.239.5.177/557a/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Bein Sports Tekrar",
         "category": "Fifa World Cup 2026",
         "img": "",
@@ -1903,20 +1932,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 sonarbanglatv.com",
                 "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Channel 1 News HD",
-        "category": "Cricket",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -2050,6 +2065,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Europe - Race 2 VS Portimao- Portugal (ferrari Challenge Series 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series_fc-web.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-pdlive.fancode.com/mumbai/143701_english_hls_a533b77c7995207_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Ewtn TV",
         "category": "Relagion Channel",
         "img": "",
@@ -2092,6 +2121,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Fox Sports HD",
+        "category": "Fifa World Cup 2026",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 244.63",
+                "url": "http://206.212.244.63/63/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "G Series Drama",
         "category": "Cricket",
         "img": "",
@@ -2113,11 +2156,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 ncare.live",
                 "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -2209,6 +2247,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Men's Final VS Sweden (atp 250 - Nordea Open 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/Nordea-Open_Web-match-card.png",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://bd-mc-pdlive.fancode.com/mumbai/143489_english_hls_7e09492a8c79814_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Men's Final VS Switzerland (atp 250 - Efg Swiss Open Gstaad 2026)",
         "category": "Live Event",
         "img": "https://www.fancode.com/skillup-uploads/cms-media/EFG-Swiss-Open-Gstaad_fc-Web.jpg",
@@ -2280,7 +2332,7 @@ window.rawChannels2 = [
 
     {
         "name": "Peace TV English",
-        "category": "Relagion Channel",
+        "category": "Islamic Channels",
         "img": "",
         "sources": [
             {
@@ -2307,90 +2359,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Pritam And Pedro(s1e1)",
-        "category": "Web Series",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ctgfun.com",
-                "url": "https://ftp.ctgfun.com/TV_Series/Pritam%20and%20Pedro/Pritam%20and%20Pedro%20S01%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Pritam%20and%20Pedro%20S01E01%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mp4",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Pritam And Pedro(s1e2)",
-        "category": "Web Series",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ctgfun.com",
-                "url": "https://ftp.ctgfun.com/TV_Series/Pritam%20and%20Pedro/Pritam%20and%20Pedro%20S01%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Pritam%20and%20Pedro%20S01E02%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mp4",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Pritam And Pedro(s1e3)",
-        "category": "Web Series",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ctgfun.com",
-                "url": "https://ftp.ctgfun.com/TV_Series/Pritam%20and%20Pedro/Pritam%20and%20Pedro%20S01%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Pritam%20and%20Pedro%20S01E03%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mp4",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Pritam And Pedro(s1e4)",
-        "category": "Web Series",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ctgfun.com",
-                "url": "https://ftp.ctgfun.com/TV_Series/Pritam%20and%20Pedro/Pritam%20and%20Pedro%20S01%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Pritam%20and%20Pedro%20S01E04%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mp4",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Pritam And Pedro(s1e5)",
-        "category": "Web Series",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ctgfun.com",
-                "url": "https://ftp.ctgfun.com/TV_Series/Pritam%20and%20Pedro/Pritam%20and%20Pedro%20S01%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Pritam%20and%20Pedro%20S01E05%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mp4",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Pritam And Pedro(s1e6)",
-        "category": "Web Series",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ctgfun.com",
-                "url": "https://ftp.ctgfun.com/TV_Series/Pritam%20and%20Pedro/Pritam%20and%20Pedro%20S01%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Pritam%20and%20Pedro%20S01E06%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mp4",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Ptv Sports HD",
         "category": "Fifa World Cup 2026",
         "img": "",
@@ -2398,6 +2366,20 @@ window.rawChannels2 = [
             {
                 "name": "🌐 93.31",
                 "url": "http://103.165.93.31:8095/Fifa-1/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Qaz Sports HD",
+        "category": "Fifa World Cup 2026",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 mcquack.net",
+                "url": "http://stream.mcquack.net/72/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2438,13 +2420,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Race VS Spa-francorchamps (porsche Mobil 1 Supercup 2026)",
+        "name": "Race VS Belgium (f1 Moet & Chandon Belgian Grand Prix 2026)",
         "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/Porsche-Mobil-1-Supercup_Austria_Match_card_MRF_Old_match-card.jpg",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/F1-BELGIAN-GRAND-PRIX-2026-old.png",
         "sources": [
             {
                 "name": "🔗 fancode.com",
-                "url": "https://bd-mc-pdlive.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/index.m3u8",
+                "url": "https://bd-mc-pdlive.fancode.com/mumbai/139471_english_hls_bcb585673323107_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2494,6 +2476,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Sochi 24 HD",
+        "category": "Infotainment Channels",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 vintera.tv",
+                "url": "http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Somoy News TV (1080p)",
         "category": "Unknown",
         "img": "",
@@ -2515,6 +2511,20 @@ window.rawChannels2 = [
             {
                 "name": "🌐 net.sa",
                 "url": "http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "T Sports HD",
+        "category": "Fifa World Cup 2026",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 93.31",
+                "url": "http://103.165.93.31:8095/tsports/video.m3u8",
                 "type": "hls"
             }
         ]
@@ -2557,6 +2567,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 wurl.tv",
                 "url": "https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Unite8 Sports 2",
+        "category": "Fifa World Cup 2026",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 18.186",
+                "url": "http://103.155.18.186:8000/play/a126/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2622,11 +2646,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 181
-// Total sources: 189
+// Total channels: 182
+// Total sources: 192
 // Top priority sources (⭐): 20
 // Other priority sources (⚡): 25
-// Regular sources: 144
+// Regular sources: 147
 // Categories: 10
 // Merged duplicates: 60 channels consolidated
 // Generated with M3U processor
