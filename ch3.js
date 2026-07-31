@@ -1,4 +1,4 @@
-// Generated: 2026-07-31 10:06 UTC
+// Generated: 2026-07-31 12:28 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -6,7 +6,7 @@
 window.rawChannels2 = [
 
     // ==================================================
-    // BANGLA (19 channels)
+    // BANGLA (16 channels)
     // ==================================================
 
     {
@@ -46,6 +46,11 @@ window.rawChannels2 = [
                 "name": "🔗 skygo.mn",
                 "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News-avc1_3000000=8-mp4a_208000_eng=2.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=bbc_news&format=.m3u8",
+                "type": "hls"
             }
         ]
     }
@@ -65,19 +70,10 @@ window.rawChannels2 = [
                 "name": "📡 gpcdn.net",
                 "url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8",
                 "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Desh TV",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
+            },
             {
-                "name": "🔗 bozztv.com",
-                "url": "https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8",
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=deepto_tv&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -127,34 +123,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Jalsha Movies HD",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 61.12",
-                "url": "http://103.151.61.12/Jalsha_Movie/tracks-v1a1/mono.m3u8?token=i7bZaZWaFrSIE0",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Kolkata TV",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 co.in",
-                "url": "https://cdn.ottlive.co.in/kolkatatv/index.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Maasranga TV",
         "category": "Bangla",
         "img": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/a/a3/Maasranga_TV_HD_logo.png",
@@ -167,6 +135,11 @@ window.rawChannels2 = [
             {
                 "name": "🌐 sunplex.live",
                 "url": "http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=maasranga_tv&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -181,6 +154,16 @@ window.rawChannels2 = [
             {
                 "name": "🌐 matribhumitv.com",
                 "url": "http://live.matribhumitv.com/music-bangla/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=mtv&format=.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=music_india&format=.m3u8",
                 "type": "hls"
             },
             {
@@ -205,6 +188,11 @@ window.rawChannels2 = [
             {
                 "name": "🔗 ncare.live",
                 "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=my_tv&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -296,7 +284,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // NEWS (28 channels)
+    // NEWS (26 channels)
     // ==================================================
 
     {
@@ -322,6 +310,11 @@ window.rawChannels2 = [
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=atn_news&format=.m3u8",
+                "type": "hls"
             }
         ]
     }
@@ -335,6 +328,11 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=channel_24&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -363,6 +361,11 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=dbc_news&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -398,20 +401,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "DW News",
-        "category": "News",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 akamaized.net",
-                "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Ekattor HD",
         "category": "News",
         "img": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739963327549.png",
@@ -419,6 +408,11 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=ekattor_tv&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -476,6 +470,11 @@ window.rawChannels2 = [
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=independent_tv&format=.m3u8",
+                "type": "hls"
             }
         ]
     }
@@ -489,6 +488,11 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=jamuna_tv&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -632,6 +636,11 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=somoy_tv&format=.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "🌐 93.31",
                 "url": "http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8",
                 "type": "hls"
@@ -648,6 +657,11 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=star_news&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -682,20 +696,6 @@ window.rawChannels2 = [
     }
     ,
 
-    {
-        "name": "Trt World",
-        "category": "News",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.tr",
-                "url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
     // ==================================================
     // SPORTS (50 channels)
     // ==================================================
@@ -707,12 +707,17 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn10.zohanayaan.com:1686/hls/asportshd.m3u8?md5=8uo6xOUvDPyRNFyQthSrrQ&expires=1785487814",
+                "url": "https://cdn10.zohanayaan.com:1686/hls/asportshd.m3u8?md5=oW1q6f4yDmjGOkDTfm5etA&expires=1785496816",
                 "type": "hls"
             },
             {
                 "name": "🔗 pages.dev",
                 "url": "https://playztv-apps.pages.dev/asports/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=a_sports&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -726,7 +731,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/fox501.m3u8?md5=V8KtfQQvTEppsEbojr1UWA&expires=1785487816",
+                "url": "https://cdn5.zohanayaan.com:1686/hls/fox501.m3u8?md5=1w-s_Tw9fLed0kpWWAp4Hw&expires=1785496820",
                 "type": "hls"
             }
         ]
@@ -768,7 +773,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/espnusa.m3u8?md5=L5iD28yR918fFwrI05EZ0g&expires=1785487816",
+                "url": "https://cdn6.zohanayaan.com:1686/hls/espnusa.m3u8?md5=FBsAbKq54a_z-ERJSQdLsw&expires=1785496821",
                 "type": "hls"
             }
         ]
@@ -782,7 +787,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn8.zohanayaan.com:1686/hls/espn2.m3u8?md5=VkDyCy7rFjGtxO9d6eogCQ&expires=1785487817",
+                "url": "https://cdn10.zohanayaan.com:1686/hls/espn2.m3u8?md5=kMWuTM9BAUbAew4MimNDVg&expires=1785496821",
                 "type": "hls"
             }
         ]
@@ -824,7 +829,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/fox501.m3u8?md5=V8KtfQQvTEppsEbojr1UWA&expires=1785487816",
+                "url": "https://cdn5.zohanayaan.com:1686/hls/fox501.m3u8?md5=1w-s_Tw9fLed0kpWWAp4Hw&expires=1785496820",
                 "type": "hls"
             }
         ]
@@ -838,7 +843,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/laligauk.m3u8?md5=At8Vcjm8Jq-iaiL-UKSRPw&expires=1785487816",
+                "url": "https://cdn5.zohanayaan.com:1686/hls/laligauk.m3u8?md5=F9Z206BsDoIBtBl6of4eCQ&expires=1785496820",
                 "type": "hls"
             }
         ]
@@ -876,7 +881,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn2.zohanayaan.com:1686/hls/premieruk.m3u8?md5=f4kBoyOtS1x-XQrZyeusRg&expires=1785487816",
+                "url": "https://cdn1.zohanayaan.com:1686/hls/premieruk.m3u8?md5=rdfh_HdGX4_t-uxqtbBO6Q&expires=1785496820",
                 "type": "hls"
             }
         ]
@@ -890,7 +895,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/hdchnl2.m3u8?md5=EhoQqKnazYmGk4vQYzDn8g&expires=1785487816",
+                "url": "https://cdn7.zohanayaan.com:1686/hls/hdchnl2.m3u8?md5=0EWK5dqPtkQcYujxvGyyjg&expires=1785496820",
                 "type": "hls"
             }
         ]
@@ -904,7 +909,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn5.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=7QJTVUQI3jIKHGjpcq8V8g&expires=1785487814",
+                "url": "https://cdn8.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=QFpx4IsMOQ30rqaaBDQ-rQ&expires=1785496816",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=ptv_sports&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -918,7 +928,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/skysme.m3u8?md5=mGojgOhjOOgMOCZDUJjCXw&expires=1785487814",
+                "url": "https://cdn7.zohanayaan.com:1686/hls/skysme.m3u8?md5=-JiYzxJmxVmOVAOf4AePzQ&expires=1785496817",
                 "type": "hls"
             }
         ]
@@ -932,7 +942,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/sky6nz.m3u8?md5=8NZJtug6Nd3gpOj6PNrmHw&expires=1785487815",
+                "url": "https://cdn10.zohanayaan.com:1686/hls/sky6nz.m3u8?md5=_ohToGhrBHu_9qCaccdkPA&expires=1785496818",
                 "type": "hls"
             }
         ]
@@ -946,7 +956,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn6.zohanayaan.com:1686/hls/sky1nz.m3u8?md5=L5KSLYSn3Sij4C7pste0uw&expires=1785487815",
+                "url": "https://cdn8.zohanayaan.com:1686/hls/sky1nz.m3u8?md5=ELZT_YVLZ1jCsptQ9NCcAA&expires=1785496818",
                 "type": "hls"
             }
         ]
@@ -960,7 +970,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/sky2nz.m3u8?md5=8oH-WKoS6zGXo6qkWBP4PQ&expires=1785487815",
+                "url": "https://cdn5.zohanayaan.com:1686/hls/sky2nz.m3u8?md5=MxHi3u57wN8PvbfNJVX5MQ&expires=1785496818",
                 "type": "hls"
             }
         ]
@@ -974,7 +984,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn10.zohanayaan.com:1686/hls/sky3nz.m3u8?md5=ANsJM8_dUYCDh7v3Q3I1aQ&expires=1785487815",
+                "url": "https://cdn10.zohanayaan.com:1686/hls/sky3nz.m3u8?md5=nZGIjChjJzl1LyYFzVtHBQ&expires=1785496818",
                 "type": "hls"
             }
         ]
@@ -988,7 +998,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/sky4nz.m3u8?md5=zE3P0OpbrNcplZMCKIYnEA&expires=1785487815",
+                "url": "https://cdn10.zohanayaan.com:1686/hls/sky4nz.m3u8?md5=Byj9XolpKa2OMbiHFdUB_w&expires=1785496818",
                 "type": "hls"
             }
         ]
@@ -1002,7 +1012,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn10.zohanayaan.com:1686/hls/sky5nz.m3u8?md5=C6V2V2HMgH-LkDJwDDBtrw&expires=1785487815",
+                "url": "https://cdn9.zohanayaan.com:1686/hls/sky5nz.m3u8?md5=eZODW2MljiGO1i3y_jY3bA&expires=1785496818",
                 "type": "hls"
             }
         ]
@@ -1016,7 +1026,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn2.zohanayaan.com:1686/hls/sky7nz.m3u8?md5=mDFWmrjSjqdtX6AbzICZFQ&expires=1785487815",
+                "url": "https://cdn3.zohanayaan.com:1686/hls/sky7nz.m3u8?md5=MF8QIsihmIBrqSVhJkBqXQ&expires=1785496819",
                 "type": "hls"
             }
         ]
@@ -1030,7 +1040,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/sky8nz.m3u8?md5=dOL2rmV4d1xd4F9a680v1w&expires=1785487815",
+                "url": "https://cdn2.zohanayaan.com:1686/hls/sky8nz.m3u8?md5=IP3dgpYntAVpy0zFU5poiA&expires=1785496819",
                 "type": "hls"
             }
         ]
@@ -1044,7 +1054,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn3.zohanayaan.com:1686/hls/sky9nz.m3u8?md5=lqwyBrEcr5lgU5gepFh0Wg&expires=1785487815",
+                "url": "https://cdn4.zohanayaan.com:1686/hls/sky9nz.m3u8?md5=rhIEviemrKUuMgQPNa4rDQ&expires=1785496819",
                 "type": "hls"
             }
         ]
@@ -1058,7 +1068,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/skysact.m3u8?md5=ZlhaRBve1L8ce0GHYEtt8A&expires=1785487816",
+                "url": "https://cdn6.zohanayaan.com:1686/hls/skysact.m3u8?md5=RqUJAZcNaXfiKq_0_Vm6zA&expires=1785496819",
                 "type": "hls"
             }
         ]
@@ -1072,7 +1082,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/skysare.m3u8?md5=I2RzzItc657ZbUiBrRp9gg&expires=1785487816",
+                "url": "https://cdn7.zohanayaan.com:1686/hls/skysare.m3u8?md5=4CceX76T7ifn6g6U8DfbwQ&expires=1785496820",
                 "type": "hls"
             }
         ]
@@ -1086,7 +1096,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn3.zohanayaan.com:1686/hls/skyscric.m3u8?md5=6OtF1aIgZfnLHAEx0qeSBA&expires=1785487814",
+                "url": "https://cdn10.zohanayaan.com:1686/hls/skyscric.m3u8?md5=bC2PCqDsooCg16-BnDCwMw&expires=1785496817",
                 "type": "hls"
             }
         ]
@@ -1100,7 +1110,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn9.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=1Afp4Nv-I7Nip89nbdgs7Q&expires=1785487816",
+                "url": "https://cdn8.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=mUH3LooKfARoiR2mXBt4Lw&expires=1785496820",
                 "type": "hls"
             }
         ]
@@ -1114,7 +1124,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn6.zohanayaan.com:1686/hls/skysfott.m3u8?md5=75tg6MarRrDC69LtJEgvpw&expires=1785487816",
+                "url": "https://cdn10.zohanayaan.com:1686/hls/skysfott.m3u8?md5=wNjLbZdlZca-HLxtBzVqhw&expires=1785496820",
                 "type": "hls"
             }
         ]
@@ -1128,7 +1138,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn3.zohanayaan.com:1686/hls/skysgol.m3u8?md5=OAk3FM1aiGYVU696Z8AL5g&expires=1785487816",
+                "url": "https://cdn9.zohanayaan.com:1686/hls/skysgol.m3u8?md5=WdsjAg2B-1XzvVHvFH5fMw&expires=1785496819",
                 "type": "hls"
             }
         ]
@@ -1142,7 +1152,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/skysme.m3u8?md5=mGojgOhjOOgMOCZDUJjCXw&expires=1785487814",
+                "url": "https://cdn7.zohanayaan.com:1686/hls/skysme.m3u8?md5=-JiYzxJmxVmOVAOf4AePzQ&expires=1785496817",
                 "type": "hls"
             }
         ]
@@ -1156,7 +1166,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn2.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=-swmIMdZkHp9XZ8lvdscXw&expires=1785487817",
+                "url": "https://cdn1.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=5zZAGaMJI0ryJnSYmrNXYw&expires=1785496821",
                 "type": "hls"
             }
         ]
@@ -1170,7 +1180,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/skysare.m3u8?md5=I2RzzItc657ZbUiBrRp9gg&expires=1785487816",
+                "url": "https://cdn7.zohanayaan.com:1686/hls/skysare.m3u8?md5=4CceX76T7ifn6g6U8DfbwQ&expires=1785496820",
                 "type": "hls"
             }
         ]
@@ -1184,7 +1194,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn5.zohanayaan.com:1686/hls/skysprem.m3u8?md5=taGsPtWKhgfQ4RxU_V4i8w&expires=1785487816",
+                "url": "https://cdn8.zohanayaan.com:1686/hls/skysprem.m3u8?md5=FWJOn8797pGdzWx0PG4Sbw&expires=1785496819",
                 "type": "hls"
             }
         ]
@@ -1198,7 +1208,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn8.zohanayaan.com:1686/hls/skystennis.m3u8?md5=bPOY97VS0pu-51nuwcCJqw&expires=1785487817",
+                "url": "https://cdn8.zohanayaan.com:1686/hls/skystennis.m3u8?md5=yS8CXpe30NMTIDyt0mR-hA&expires=1785496821",
                 "type": "hls"
             }
         ]
@@ -1212,7 +1222,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn5.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=j6cnnYdaHk_F9LiZJ78f-Q&expires=1785487817",
+                "url": "https://cdn3.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=EYmCqnRPhcxWqOoB80dO_w&expires=1785496821",
                 "type": "hls"
             }
         ]
@@ -1254,7 +1264,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn3.zohanayaan.com:1686/hls/star1in.m3u8?md5=sQpaRZORJC0Ukhiw6r6hFQ&expires=1785487814",
+                "url": "https://cdn2.zohanayaan.com:1686/hls/star1in.m3u8?md5=qV9mpFEHFawLtClSch_0dg&expires=1785496815",
                 "type": "hls"
             },
             {
@@ -1273,7 +1283,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn6.zohanayaan.com:1686/hls/starhindi.m3u8?md5=bye-GSx4_KySlr4NDd7_-A&expires=1785487814",
+                "url": "https://cdn5.zohanayaan.com:1686/hls/starhindi.m3u8?md5=GWMpZKU7593y8MCbe_Q4Ow&expires=1785496816",
                 "type": "hls"
             },
             {
@@ -1292,7 +1302,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn5.zohanayaan.com:1686/hls/superfotball.m3u8?md5=UHF-KARjUqFe_mFVVWXdbg&expires=1785487816",
+                "url": "https://cdn5.zohanayaan.com:1686/hls/superfotball.m3u8?md5=FOJX8tO4LcSIDFxxX8t_jQ&expires=1785496820",
                 "type": "hls"
             }
         ]
@@ -1306,7 +1316,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn8.zohanayaan.com:1686/hls/superpremier.m3u8?md5=_FtNcI2ATvSRtXW201H9sw&expires=1785487816",
+                "url": "https://cdn9.zohanayaan.com:1686/hls/superpremier.m3u8?md5=sqHbs6QQWNVxccdW5eVLTA&expires=1785496820",
                 "type": "hls"
             }
         ]
@@ -1320,7 +1330,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn7.zohanayaan.com:1686/hls/tenspk.m3u8?md5=LGLcZZxC0PmT6HYZbA7L3Q&expires=1785487814",
+                "url": "https://cdn7.zohanayaan.com:1686/hls/tenspk.m3u8?md5=edrVBu55xgd053eLGeuVQg&expires=1785496816",
                 "type": "hls"
             }
         ]
@@ -1348,7 +1358,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn8.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=XmaKXgqqTVx5FOb_dME5BA&expires=1785487814",
+                "url": "https://cdn9.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=RUExQIinTCBAr09TOs4o3A&expires=1785496817",
                 "type": "hls"
             }
         ]
@@ -1362,7 +1372,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn8.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=i5zAApl2j6-zClkZ4u3lMA&expires=1785487815",
+                "url": "https://cdn8.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=q3xPuQIUOd3GtO9DkS78nw&expires=1785496817",
                 "type": "hls"
             }
         ]
@@ -1376,7 +1386,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn6.zohanayaan.com:1686/hls/bbtsp3.m3u8?md5=UsIk1QOCYfW8vLJ83A4u6Q&expires=1785487815",
+                "url": "https://cdn6.zohanayaan.com:1686/hls/bbtsp3.m3u8?md5=zEFA5dFry1l7yQxVDMTxbg&expires=1785496818",
                 "type": "hls"
             }
         ]
@@ -1390,7 +1400,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn6.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=w-r5qBlSTsyGNKwW9o6xIQ&expires=1785487815",
+                "url": "https://cdn6.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=Qc7vCI2mawmqdOqHJik2hA&expires=1785496818",
                 "type": "hls"
             }
         ]
@@ -1404,12 +1414,17 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn10.zohanayaan.com:1686/hls/willowusa.m3u8?md5=cyu3H_0Ob7U6erctp3DXBQ&expires=1785487814",
+                "url": "https://cdn3.zohanayaan.com:1686/hls/willowusa.m3u8?md5=-3Rt7j5PK4j4nloZ6NGQvQ&expires=1785496816",
                 "type": "hls"
             },
             {
                 "name": "🔗 herokuapp.com",
                 "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=willow_tv&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -1423,7 +1438,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/willowextra.m3u8?md5=76qDwyzGw7QwKonTkzpq4Q&expires=1785487814",
+                "url": "https://cdn6.zohanayaan.com:1686/hls/willowextra.m3u8?md5=TmQXCyJr5gvQNl9FNY-z6Q&expires=1785496816",
                 "type": "hls"
             }
         ]
@@ -1431,7 +1446,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // KIDS (14 channels)
+    // KIDS (13 channels)
     // ==================================================
 
     {
@@ -1456,20 +1471,6 @@ window.rawChannels2 = [
             {
                 "name": "📡 gpcdn.net",
                 "url": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Cartoon Network",
-        "category": "Kids",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 bozztv.com",
-                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -1643,6 +1644,11 @@ window.rawChannels2 = [
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=bangla_vision&format=.m3u8",
+                "type": "hls"
             }
         ]
     }
@@ -1676,6 +1682,11 @@ window.rawChannels2 = [
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=channel_9&format=.m3u8",
+                "type": "hls"
             }
         ]
     }
@@ -1689,6 +1700,11 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=channel_i&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -1730,12 +1746,12 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
                 "type": "hls"
             },
             {
                 "name": "🔗 mediatriple.net",
-                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
+                "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -1750,6 +1766,11 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=ntv&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -1771,7 +1792,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // MOVIE (20 channels)
+    // MOVIE (18 channels)
     // ==================================================
 
     {
@@ -1852,34 +1873,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 pishow.tv",
                 "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Goldmines Bollywood",
-        "category": "Movie",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 73.12",
-                "url": "http://103.175.73.12:8080/live/52/52_0.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Goldmines Movies",
-        "category": "Movie",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 pishow.tv",
-                "url": "https://cdn-2.pishow.tv/live/1461/master.m3u8",
                 "type": "hls"
             }
         ]
@@ -2055,22 +2048,8 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // MUSIC (6 channels)
+    // MUSIC (5 channels)
     // ==================================================
-
-    {
-        "name": "9xm",
-        "category": "Music",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 73.12",
-                "url": "http://103.175.73.12:8080/live/155/155_0.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
 
     {
         "name": "Baallee",
@@ -2263,7 +2242,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (64 channels)
+    // OTHERS (175 channels)
     // ==================================================
 
     {
@@ -2286,6 +2265,25 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "9xm",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_665747d089b71dd7f26eb503b51abfed_playmist_9xm_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=9xm&format=.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 73.12",
+                "url": "http://103.175.73.12:8080/live/155/155_0.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "A Spor",
         "category": "Football",
         "img": "",
@@ -2293,6 +2291,62 @@ window.rawChannels2 = [
             {
                 "name": "🔗 ercdn.net",
                 "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Abc 7 Bay",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_08717fb2d69f80063278b28057347175_playmist_abc_news_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=abc_7_bay&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Abc News",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_a806cf1e3ba0981e00a8f340fab8a6f8_playmist_abc_news_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=abc_news&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Abn",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-14/images_8610a5f1c975ccf85e23a6077de2f1f2_playmist_abn.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=abn&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Accu Weather",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_a220fac6da08a832112ea4603c9a3c33_playmist_accu_weather_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=accu_weather&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -2389,6 +2443,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Aljazeera News",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_c8ecdf803a94e7b04619fb573f201146_playmist_aljazeera_news400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=aljazeera_news&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Almasira Mubasher",
         "category": "Islamic Channels",
         "img": "",
@@ -2417,13 +2485,88 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Amc",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-08/images_9db50b3bbf28a42f76b50d120b2e1db0_playmist_amc_500x296.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=amc&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Ananda TV",
-        "category": "Unknown",
-        "img": "",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_fb867854a7203c153946b83ab4e972e6_playmist_ananda_tv_400x400.jpg",
         "sources": [
             {
                 "name": "🔗 ncare.live",
                 "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=ananda_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Anb News",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_86e9d3e52b45d2bb9c321b8168aa01e9_playmist_anb_news_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=anb_news&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "And Pictures HD",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-08/images_b29360e9b3bf9d3ce34bd67d06d7c004_playmist_and_pictures_hd_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=and_pictures_hd&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "And TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_845fa61e4b31dbf35e442cd6037ed2e6_playmist_and_tv.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=and_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Animal Planet HD",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_a49ebd8c1eabd8e7cc20297a0fda92f5_playmist_animal_planet_hd_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=animal_planet_hd&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -2445,13 +2588,41 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Atn Music (360p)",
-        "category": "Unknown",
-        "img": "",
+        "name": "Asian TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_a5ac9561e182c07073e46bc30b3c8cab_playmist_asian_tv.png",
         "sources": [
             {
-                "name": "🔗 ncare.live",
-                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8",
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=asian_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "ATN Bangla",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-24/3a36a406fcc9616cd0b32514bb29eb36.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=atn_bangla&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "B4u Hitz",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_9cba0e4a98d7a55986c6b194441ac753_playmist_b4u_hitz_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=b4u_hitz&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -2473,6 +2644,48 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Bangla TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_8fd7517559098b744a0595d094228d8d_playmist_bangla_tv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=bangla_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Bein Sports",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_d42ab13fe207d824670f04d717bfd88b_playmist_bein_sports.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=bein_sports&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Bein Sports 1",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_02eb54f07cbc8c01db3c545aca60d37c_playmist_4g.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=bein_sports_1&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Bein Sports Direct HD",
         "category": "Football",
         "img": "",
@@ -2480,6 +2693,184 @@ window.rawChannels2 = [
             {
                 "name": "🌐 5.177",
                 "url": "http://145.239.5.177/557a/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Bharat Samachar",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_d52623f16135dea6bd76f7bdacd4b886_playmist_bharat_samachar_500x296.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=bharat_samachar&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Bijoy TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_82c9c8c5aa07c6b94a62cf2ffbe21375_playmist_bijoy_tv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=bijoy_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Bleav Football",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_c1c4607b44cda506121e777ebeafffce_playmist_bleav_football_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=bleav_football&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Bloomberg TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_e7674693d1fdcfada9523f3b4315d417_playmist_bloomberg_tv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=bloomberg_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Boishakhi TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_8a69251df11b66c4e85e7a2fe6d89286_playmist_boishakhi_tv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=boishakhi_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "BT Sports 2",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_5c48c1df205227964277087b833a9912_playmist_bt_sport_2400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=bt_sports_2&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Btv Ctg",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-24/b994ae24dd627fb8b680e5cd654d1e9c.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=btv_ctg&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Btv National HD",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-24/84c7f041c86c63b9acc2df8762b2935b.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=btv_national_hd&format=.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=btv_national&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Btv News",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_1b90aebe217ac437da23625feaba0b76_playmist_btv_news400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=btv_news&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Btv World",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_9ea3bc79ad1fad76ae1ef2e1dd3c1b42_playmist_btv_world_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=btv_world&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Cartoon Network",
+        "category": "Others",
+        "img": "https://s3.aynaott.com/storage/b7fc826556dc5d8465f5046ed959cf03",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=cartoon_network&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Cbs TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_5cd9688088c2f3b2201b17378bc5081c_playmist_cbs_tv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=cbs_tv&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -2515,6 +2906,90 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Cnbc TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_e67654cc3d37f4eda1a16709b2b88f6d_playmist_cnbc_tv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=cnbc_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Cnn",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_3ce5ce236141274767c8ee8148b88a5d_playmist_cnn_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=cnn&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "CP 24",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_eaacf02e8523f40c627b8234c614963d_playmist_cp_24_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=cp_24&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Cricket Gold",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-24/63dcbec8a9ed027c46e448fb003a0a64.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=cricket_gold&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "DD Bangla",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-13/images_9cd5e0424aa0759556a829aa36fd4121_playmist_dd_bangla400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=dd_bangla&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "DD Sports",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_c3b7a42d7ce8dd21ce151178bca8715d_playmist_dd_sports_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=dd_sports&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Delicious",
         "category": "Infotainment",
         "img": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
@@ -2522,6 +2997,25 @@ window.rawChannels2 = [
             {
                 "name": "📡 gpcdn.net",
                 "url": "https://nomawnoijl.gpcdn.net/akash/delicious/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Desh TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_c852d6eba40e680a258e9e18aff2d9f2_playmist_desh_tv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=desh_tv&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -2557,6 +3051,62 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Dhoom Music Bangla",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-14/images_308780d623c52c9b477206d44a374ff3_playmist_dhoom_music_bangla_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=dhoom_music_bangla&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Discovery Channel",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_e6222cfb0e0f7e22736f3496cc98a897_playmist_discovery_hd_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=discovery_hd&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Disney Channel",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_92666995d4995d2bb46b92598d2b3e48_playmist_disney_channel_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=disney_channel&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Disney Junior",
+        "category": "Others",
+        "img": "https://s3.aynaott.com/storage/f7bf0ed09ce9943149669a03acb4df70",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=disney_junior&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Doraemon TV",
         "category": "Cartoon Drama",
         "img": "",
@@ -2571,13 +3121,130 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Ekushey TV (480p)",
-        "category": "Unknown",
-        "img": "",
+        "name": "Drama 24",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-24/1efe6869f35988df55cde8f973f3b5bd.jpg",
         "sources": [
             {
-                "name": "🔗 ekusheyserver.com",
-                "url": "https://ekusheyserver.com/etvlivesn.m3u8",
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=drama_24&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Dubai Sports 1",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-14/images_178fd67f7c1b0e4143333962bc7600e7_playmist_dubai_sports_2_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=dubai_sports_1&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Dubai TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-14/images_ebb056ba1a466e52261aad45829a4160_playmist_dubai_tv400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=dubai_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Duronto TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_608bd1c995275bd65872dae5b2be9ba0_playmist_duronto_tv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=duronto_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "DW News",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_e9cbcb0f33668b33e4b5dd06143aa1c6_playmist_dw400x400.jpg",
+        "sources": [
+            {
+                "name": "🔗 akamaized.net",
+                "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=dw_news&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Ekhon TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_2ae0833e484c0a032e46050cbb8c9cc0_playmist_ekhon_tv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=ekhon_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Enter 10 Bangla",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-13/images_fc0d1242765efd4c1494fbfe4ff65c7a_playmist_enter_10_bangla400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=enter_10_bangla&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Espn",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_aa4e43db11b3d698b78989797debf18c_playmist_espn400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=espn&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Etv",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_0b5269c6ae6e8c382e43c2be02789c60_playmist_etv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=etv&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -2592,6 +3259,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 wowza.com",
                 "url": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/qrpsvkxl/720/chunklist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Fifa+",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-24/26530a5da6b296078125b8fe235e349f.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=fifa&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -2627,13 +3308,168 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Fox 5",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_fd05780c80bb076f35db9e243ee2d5f7_playmist_fox_5_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=fox_5&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Fox Business",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_bbcc532afe02dc4d7edd093b4f3882c4_playmist_fox_business400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=fox_business&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Fox News",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_8d6efb719d7295f50d5cbb49e3a11a0f_playmist_fox_news400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=fox_news&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Fox Weather",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_c6a3d7e8d5ba4bd874a958a0c6f16e8e_playmist_fox_weather400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=fox_weather&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "FX TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_aac39f78c7d0e3df940fda4299217e86_playmist_fx_tv400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=fx_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Gazi TV",
-        "category": "Unknown",
-        "img": "",
+        "category": "Others",
+        "img": "https://s3.aynaott.com/storage/d60be6284234186c03d07a4ad176bcb4",
         "sources": [
             {
                 "name": "🔗 ncare.live",
                 "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=gazi_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Global TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_e58bddfe000aa3e5df9f7c2e90416d90_playmist_global_tv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=global_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Goal TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_db46edea3e5aae6a063369b686c1192d_playmist_goal_tv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=goal_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Goldmines Bollywood",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-24/e0eb8b0468e84add45cf9dcedc27c612.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=goldmines_bollywood&format=.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 73.12",
+                "url": "http://103.175.73.12:8080/live/52/52_0.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Goldmines Movies",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_3f22715a97b25bb49be73ed06edcabef_playmist_goldmines_movies_400x400.jpg",
+        "sources": [
+            {
+                "name": "🔗 pishow.tv",
+                "url": "https://cdn-2.pishow.tv/live/1461/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=goldmines_movies&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Golf Channel",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_bf450d05727fd678bee456e883af98e8_playmist_golf_channel_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=golf_channel&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -2669,6 +3505,90 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Green TV HD",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_e50aa586435e7c34aca4fedb8aa0d9da_playmist_green_tv.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=green_tv_hd&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Hbo",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_c5adf129be936d1f292d53f697e9e4ef_playmist_hbo400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=hbo&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Hbo 2",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_2e95a01c1a6b96b71670420cfd9d8cbc_playmist_hbo_2400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=hbo_2&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Hindi Khabar",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_3f07da3fcbcf0b957c04c18d17bd612b_playmist_hindi_khabar_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=hindi_khabar&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Hindi Movie Classic 24",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_af0da7926606216768d48d2189e3e12c_playmist_hindi_movie_classic_24.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=hindi_movie_classic_24&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "India Today",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_c7e1c6e2ec548dee61a1a754955b76e1_playmist_india_today400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=india_today&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Iran News",
         "category": "Cricket",
         "img": "",
@@ -2683,6 +3603,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Iran Press",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-14/images_bf19837ffd975c6258a0f5ee993d73d1_playmist_iran_press400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=iran_press&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Islamic TV",
         "category": "Infotainment",
         "img": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1772728412891.png",
@@ -2690,6 +3624,39 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Kolkata TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_067234e427ca902620258631b762cea8_playmist_kolkata_tv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🔗 co.in",
+                "url": "https://cdn.ottlive.co.in/kolkatatv/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=kolkata_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Life Time",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_31a018cec62068612c9dc5efa6b13856_playmist_life_time_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=life_time&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -2758,6 +3725,34 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Manoranjan Movies",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_fa199bbc64f6fb27edca5b1205217dce_playmist_manoranjan_movies_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=manoranjan_movies&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Mohona TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_1c2c83a36e990c46964ce6ef25528d84_playmist_mohona_tv400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=mohona_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Motor Vision",
         "category": "Cricket",
         "img": "",
@@ -2779,6 +3774,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 bozztv.com",
                 "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Movie Bangla",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-14/images_4b0e2707eaa2037e3c13948ddce9be7b_playmist_movie_bangla_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=movie_bangla&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -2814,6 +3823,132 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "National Geographic",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_25b786047244481532eb505dfba85580_playmist_nat_geo_tv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=nat_geo_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Netherlands VS Namibia (icc Cwc League 2 Netherlands- 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/4246706_52990_NED_NAM_fc-Web.png",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://livecf.fancode.com/4246706_english_hls_0477c0fff848776_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "News 1 India",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_292f3cc412bf05a14544657749e4a0be_playmist_news_1_india_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=news_1_india&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "News 24 BD",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_a401495935874d01a5dcd992c40c3a2d_playmist_news24.png",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=news_24_bd&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "News India 24x7",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_50eab684012024afd51f7d4c4fcc7aa7_playmist_news_india_24x7_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=news_india_24x7&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "News Time Bangla",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_ffb6c3be0674cf2d59f66c78d4da5b9a_playmist_news_time_bangla_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=news_time_bangla&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Nexus TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_7e6104384dddd36f39e1a27fe0a61059_playmist_nexus_tv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=nexus_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Nfl Network",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_cadf0a534c4de626332004067cee3103_playmist_nfl_network400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=nfl_network&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Nickjr",
+        "category": "Others",
+        "img": "https://s3.aynaott.com/storage/55f043e74c7bbb36ca4664b4fa8c9d9c",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=nickjr&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Ntv (720p)",
         "category": "Unknown",
         "img": "",
@@ -2821,6 +3956,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Ntv Europe",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-28/images_7eb39c04f7cf7ab782e6324c484d93e5_playmist_ntv_europe_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=ntv_europe&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -2842,13 +3991,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Pakistan Women VS Sri Lanka Women (pakistan Women's Tour OF Sri Lanka- 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/333.png",
+        "name": "Peace TV Bangla HD",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_55fa6cf36df126454996a9e4cf7f8e85_playmist_peace_tv_bangla_hd_400x400.jpg",
         "sources": [
             {
-                "name": "🔗 fancode.com",
-                "url": "https://livecf.fancode.com/4247428_english_hls_4a6e5b769516666_1ta-di_h264/index.m3u8",
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=peace_tv_bangla_hd&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -2954,20 +4103,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Pritam And Pedro(s1e6)",
-        "category": "Web Series",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ctgfun.com",
-                "url": "https://ftp.ctgfun.com/TV_Series/Pritam%20and%20Pedro/Pritam%20and%20Pedro%20S01%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Pritam%20and%20Pedro%20S01E06%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mp4",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Qaz Sports HD",
         "category": "Football",
         "img": "",
@@ -3001,6 +4136,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "R Plus",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_0ec7deccac559ad2e22206dae03454e1_playmist_r_plus_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=r_plus&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Rajdhani TV (1080p)",
         "category": "Unknown",
         "img": "",
@@ -3008,6 +4157,48 @@ window.rawChannels2 = [
             {
                 "name": "🔗 shariarsuvo.com",
                 "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Republic Bangla",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-13/images_45a1af747f3728954d1e83ab457d8e53_playmist_republic_bangla_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=republic_bangla&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Republic TV Bharat",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_c126a1f2ceda33dad15b71f1d3210b44_playmist_republic_tv_bharat_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=republic_tv_bharat&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "RTV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_d6c5ece652161d2d88ed547f00343687_playmist_rtv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=rtv&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -3025,8 +4216,69 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen5.aynaott.com/RtvHD/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Rupshi Bangla",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-14/images_454ca4e52d414605814d0f4778fd8137_playmist_rupshi_bangla400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=rupshi_bangla&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "SA TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_b6f2363fef23e117f9a13b7c185ce26c_playmist_satv.png",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=sa_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Sadhna Prime News",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_ad482966b8ccc41fc9bd98dd9382ff0d_playmist_sadhna_prime_news_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=sadhna_prime_news&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Sangeet Bangla",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-13/images_68b8c3bbc8b629bbc2c00880b4546d74_playmist_sangeet_bangla400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=sangeet_bangla&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -3041,6 +4293,34 @@ window.rawChannels2 = [
             {
                 "name": "🔗 edgenextcdn.net",
                 "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Sky News",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_245b453c334a625e5049ee95e8a1eb13_playmist_sky_news_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=sky_news&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Sky News Weather",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_c9929be9ffadd600f20e2d1c4fd26b95_playmist_sky_news_weather400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=sky_news_weather&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -3076,6 +4356,34 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Sony Aath",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-14/images_6b500d2d4c6979f37f2854565a68bcf0_playmist_sony_aath_logowine.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=sony_aath&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Sports Fishing TV",
+        "category": "Others",
+        "img": "https://s3.aynaott.com/storage/bf65e9176988a3523b45793c8f47bead",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=sports_fishing_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Sunnah TV",
         "category": "Islamic Channels",
         "img": "",
@@ -3097,6 +4405,90 @@ window.rawChannels2 = [
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "T Sports HD",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-13/images_8b38d691dfaf072e6c964dea814a44ba_playmist_t_sports_hd400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=t_sports_hd&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Talk Sport",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-24/d37be82dbf29f05cbf9ecf97ce4ebce6.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=talk_sport&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Test Live TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-04-05/thumbnails_e7c232fc971625f04bb5f1c464a92159_playmist_live_tv_placeholder.png",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=test_live_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Thikana",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_b9a8bdbfcea2fb4656204d06f615682a_playmist_thikana400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=thikana&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Time TV USA",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_c05517a566e36853dc54d325a24921ad_playmist_time_tv_usa400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=time_tv_usa&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Tnt Sport 1",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_4af9a282522f487a6ed41692f99baad6_playmist_tnt_sports_1400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tnt_sport_1&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -3146,6 +4538,137 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Trt World",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_bad71649a48765ea1bfa3b043822e061_playmist_trt_world_400x400.jpg",
+        "sources": [
+            {
+                "name": "🔗 com.tr",
+                "url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=trt_world&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Tsn 1",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-20/images_d165c628a0db9286da3914ca916a4971_playmist_tsn_1400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_1&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Tsn 2",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_c92bf4f46958e65be6cc370e3fc1f0dd_playmist_tsn_2_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_2&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Tsn 3",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-19/images_905f151dfde79e14a2b9e7b934683ba6_playmist_tsn3_300.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_3&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Tv9 Bangla",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_4c08302f7fbe506a998e74c89fcf08ac_playmist_tv9_bangla_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tv9_bangla&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Tv9 Bharatvarsh",
+        "category": "Others",
+        "img": "https://s3.aynaott.com/storage/0d9da1f8dd16733fdcaed3729f89bca4",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tv9_bharatvarsh&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Unite8 Sports 2",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-20/images_9bd5db31bbc4d98defd1cb51a5606d9c_playmist_unite_sports_2.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=unite8_sports_2&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "USA TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_5a24c9ea31ddb4a1dd46cc0f11b79c8e_playmist_usa_tv_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=usa_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Vtv USA",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-14/images_48a2f0e255841fe6c7d77b642dd9a9b1_playmist_vtv_usa_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=vtv_usa&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Watch Fifa IN Full HD",
         "category": "Football",
         "img": "",
@@ -3153,6 +4676,34 @@ window.rawChannels2 = [
             {
                 "name": "🔗 live12.ir",
                 "url": "https://live12.ir/hls2/gemwc.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Weather Channel",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_8a12f27b8b702fb205273e384dbf83ab_playmist_weather_channel_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=weather_channel&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Weather Spy",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_12ff352e97642f2042f8e88a93eca33d_playmist_weather_spy400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=weather_spy&format=.m3u8",
                 "type": "hls"
             }
         ]
@@ -3174,6 +4725,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Wion",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_af4d270a6fc7246b2dc185399cce7dbd_playmist_wion_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=wion&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Yrf Music HD",
         "category": "Unknown",
         "img": "",
@@ -3185,16 +4750,44 @@ window.rawChannels2 = [
             }
         ]
     }
+    ,
+
+    {
+        "name": "Zee 24 Ghanta",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_281d2359842d306ac384314f30059648_playmist_zee_24_ghanta_400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=zee_24_ghanta&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Zoom TV",
+        "category": "Others",
+        "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_d5f21c410f16519379a4ca7f1c4a14f5_playmist_zoom_tv400x400.jpg",
+        "sources": [
+            {
+                "name": "🌐 sm-monirul.top",
+                "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=zoom_tv&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
     
 
 ];
 
 // STATISTICS
-// Total channels: 218
-// Total sources: 236
+// Total channels: 320
+// Total sources: 371
 // Top priority sources (⭐): 21
 // Other priority sources (⚡): 25
-// Regular sources: 190
+// Regular sources: 325
 // Categories: 10
-// Merged duplicates: 72 channels consolidated
+// Merged duplicates: 106 channels consolidated
 // Generated with M3U processor
