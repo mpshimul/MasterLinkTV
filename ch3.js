@@ -1,4 +1,4 @@
-// Generated: 2026-08-03 14:51 UTC
+// Generated: 2026-08-03 17:12 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -6,7 +6,7 @@
 window.rawChannels2 = [
 
     // ==================================================
-    // BANGLA (21 channels)
+    // BANGLA (16 channels)
     // ==================================================
 
     {
@@ -17,34 +17,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 pishow.tv",
                 "url": "https://cdn-4.pishow.tv/live/969/master.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Akash Aath",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 thebosstv.com",
-                "url": "https://live.thebosstv.com:30443/dwlive/AAKAASH-AATH/chunks.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Anando TV",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 itcnbd.live",
-                "url": "https://s2.itcnbd.live/server-2/stream/anandatv.m3u8",
                 "type": "hls"
             }
         ]
@@ -78,20 +50,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 sm-monirul.top",
                 "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=bbc_news&format=.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Channel-16",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -144,20 +102,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 72.204",
                 "url": "http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "EP TV",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/eptv.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -326,20 +270,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "R Plus News",
-        "category": "Bangla",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 thelegitpro.in",
-                "url": "https://thelegitpro.in/pntv/rplusnews24x7/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Surongo",
         "category": "Bangla",
         "img": "",
@@ -354,7 +284,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // NEWS (25 channels)
+    // NEWS (23 channels)
     // ==================================================
 
     {
@@ -436,20 +366,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 sm-monirul.top",
                 "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=dbc_news&format=.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "DW English",
-        "category": "News",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 akamaized.net",
-                "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8?v=1",
                 "type": "hls"
             }
         ]
@@ -598,6 +514,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Ndtv News",
+        "category": "News",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 akamaized.net",
+                "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/master.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "News Max 2",
         "category": "News",
         "img": "",
@@ -640,20 +570,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "RT News (en)",
-        "category": "News",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 rttv.com",
-                "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "RT News USA",
         "category": "News",
         "img": "",
@@ -661,20 +577,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 rttv.com",
                 "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8?v=1",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Rtnews Global",
-        "category": "News",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 rttv.com",
-                "url": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8?v=1",
                 "type": "hls"
             }
         ]
@@ -694,6 +596,11 @@ window.rawChannels2 = [
             {
                 "name": "🌐 sm-monirul.top",
                 "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=somoy_tv&format=.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 93.31",
+                "url": "http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -748,7 +655,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // SPORTS (51 channels)
+    // SPORTS (50 channels)
     // ==================================================
 
     {
@@ -758,7 +665,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn8.zohanayaan.com:1686/hls/asportshd.m3u8?md5=zFEMicP_ErypmQLO8MIFrQ&expires=1785761423",
+                "url": "https://cdn5.zohanayaan.com:1686/hls/asportshd.m3u8?md5=Oj2SN8BfOhCxUiXodXSCkQ&expires=1785774020",
                 "type": "hls"
             },
             {
@@ -782,7 +689,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn2.zohanayaan.com:1686/hls/fox501.m3u8?md5=Pmja20a0DhzJDmcO_4RinQ&expires=1785761427",
+                "url": "https://cdn9.zohanayaan.com:1686/hls/fox501.m3u8?md5=P0J0Y0YaVVWIiXw9raiuww&expires=1785774024",
                 "type": "hls"
             }
         ]
@@ -824,7 +731,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn9.zohanayaan.com:1686/hls/espnusa.m3u8?md5=vrS3yuwz4DcT6k1JqjJEbQ&expires=1785761427",
+                "url": "https://cdn6.zohanayaan.com:1686/hls/espnusa.m3u8?md5=qo7uz07fnVOeq3GmiemO1Q&expires=1785774024",
                 "type": "hls"
             }
         ]
@@ -838,7 +745,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn10.zohanayaan.com:1686/hls/espn2.m3u8?md5=60W9m3FcQX470WXSYi-EtQ&expires=1785761427",
+                "url": "https://cdn7.zohanayaan.com:1686/hls/espn2.m3u8?md5=imG_YeXLjKc4uP72hFxXqw&expires=1785774024",
                 "type": "hls"
             }
         ]
@@ -880,7 +787,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn2.zohanayaan.com:1686/hls/fox501.m3u8?md5=Pmja20a0DhzJDmcO_4RinQ&expires=1785761427",
+                "url": "https://cdn9.zohanayaan.com:1686/hls/fox501.m3u8?md5=P0J0Y0YaVVWIiXw9raiuww&expires=1785774024",
                 "type": "hls"
             }
         ]
@@ -894,7 +801,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn6.zohanayaan.com:1686/hls/laligauk.m3u8?md5=e0CMKBlHcTnkLHWU68UA-Q&expires=1785761426",
+                "url": "https://cdn1.zohanayaan.com:1686/hls/laligauk.m3u8?md5=V7BImyBdTvVOB-HYcE_v7g&expires=1785774024",
                 "type": "hls"
             }
         ]
@@ -913,17 +820,7 @@ window.rawChannels2 = [
             },
             {
                 "name": "🔗 itcnbd.live",
-                "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 itcnbd.live",
-                "url": "https://s3.itcnbd.live/channel/2929059f34d114ca.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 itcnbd.live",
-                "url": "https://s3.itcnbd.live/channel/ea25a516d781cb1c.m3u8",
+                "url": "https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             },
             {
@@ -933,21 +830,17 @@ window.rawChannels2 = [
             },
             {
                 "name": "🔗 itcnbd.live",
-                "url": "https://s2.itcnbd.live/server-2/stream/sony_sports_1_hd.m3u8",
+                "url": "https://s2.itcnbd.live/server-2/stream/ten_cricket.m3u8",
                 "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Live Sports-3",
-        "category": "Sports",
-        "img": "",
-        "sources": [
+            },
             {
-                "name": "🌐 18.177",
-                "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+                "name": "🔗 itcnbd.live",
+                "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 itcnbd.live",
+                "url": "https://s3.itcnbd.live/channel/ea25a516d781cb1c.m3u8",
                 "type": "hls"
             }
         ]
@@ -961,7 +854,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/premieruk.m3u8?md5=oKgYTdC46Tbwzi8mMy8duQ&expires=1785761426",
+                "url": "https://cdn7.zohanayaan.com:1686/hls/premieruk.m3u8?md5=q_QIXhVMS9pf8aTpm3pCpg&expires=1785774024",
                 "type": "hls"
             }
         ]
@@ -975,7 +868,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn7.zohanayaan.com:1686/hls/hdchnl2.m3u8?md5=gksWFq1Q5ZGyAi0nc92n2g&expires=1785761426",
+                "url": "https://cdn10.zohanayaan.com:1686/hls/hdchnl2.m3u8?md5=IIGiW2GTOq226lKOlZWGMQ&expires=1785774024",
                 "type": "hls"
             }
         ]
@@ -989,7 +882,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=t4nxDt2RItdaZLVTL27Q4Q&expires=1785761423",
+                "url": "https://cdn2.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=0PlAdj92f6XIt-yn0U6HeA&expires=1785774019",
                 "type": "hls"
             },
             {
@@ -1008,7 +901,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn2.zohanayaan.com:1686/hls/skysme.m3u8?md5=HT7nHWOPtALoDDnTBoyFcA&expires=1785761424",
+                "url": "https://cdn10.zohanayaan.com:1686/hls/skysme.m3u8?md5=cq3CYA7MKyNybD6i15LMEA&expires=1785774021",
                 "type": "hls"
             }
         ]
@@ -1022,7 +915,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn8.zohanayaan.com:1686/hls/sky6nz.m3u8?md5=rZIage91NLCkyIrK3n8ZPw&expires=1785761425",
+                "url": "https://cdn4.zohanayaan.com:1686/hls/sky6nz.m3u8?md5=6X4tDLEg9H-lB9ycM9r3gQ&expires=1785774022",
                 "type": "hls"
             }
         ]
@@ -1036,7 +929,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn2.zohanayaan.com:1686/hls/sky1nz.m3u8?md5=SvY4Y6F3cQzYCTqYnu76qA&expires=1785761424",
+                "url": "https://cdn7.zohanayaan.com:1686/hls/sky1nz.m3u8?md5=mwC8b6EKrLixFpGz-218gA&expires=1785774022",
                 "type": "hls"
             }
         ]
@@ -1050,7 +943,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn7.zohanayaan.com:1686/hls/sky2nz.m3u8?md5=mfQLe1G4jE4XBWVR8IsVMA&expires=1785761424",
+                "url": "https://cdn9.zohanayaan.com:1686/hls/sky2nz.m3u8?md5=y0Ht2P8K-eUuiXLGINS-aA&expires=1785774022",
                 "type": "hls"
             }
         ]
@@ -1064,7 +957,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn6.zohanayaan.com:1686/hls/sky3nz.m3u8?md5=1sZrbidXYFZ-GTPZuVAJ8w&expires=1785761425",
+                "url": "https://cdn8.zohanayaan.com:1686/hls/sky3nz.m3u8?md5=UNquR6bRPZ3bRXLKnkJHjA&expires=1785774022",
                 "type": "hls"
             }
         ]
@@ -1078,7 +971,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn10.zohanayaan.com:1686/hls/sky4nz.m3u8?md5=kRb8lcFWcyqlldwokzgecg&expires=1785761425",
+                "url": "https://cdn1.zohanayaan.com:1686/hls/sky4nz.m3u8?md5=3Rre6ZHuebQTcY5Bl8EqLg&expires=1785774022",
                 "type": "hls"
             }
         ]
@@ -1092,7 +985,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn3.zohanayaan.com:1686/hls/sky5nz.m3u8?md5=mdDTKveN4gNcn3ViXYlu5A&expires=1785761425",
+                "url": "https://cdn9.zohanayaan.com:1686/hls/sky5nz.m3u8?md5=XuQ1bmIvc2C8XhSC8nQo2A&expires=1785774022",
                 "type": "hls"
             }
         ]
@@ -1106,7 +999,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn3.zohanayaan.com:1686/hls/sky7nz.m3u8?md5=9wBj-gZLQ8Fd5FJP4T0dFQ&expires=1785761425",
+                "url": "https://cdn7.zohanayaan.com:1686/hls/sky7nz.m3u8?md5=b8e1Lv78jaVEwgBRZMHZ-Q&expires=1785774022",
                 "type": "hls"
             }
         ]
@@ -1120,7 +1013,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn6.zohanayaan.com:1686/hls/sky8nz.m3u8?md5=oJIoXWI795dhyaoVw9lneQ&expires=1785761425",
+                "url": "https://cdn5.zohanayaan.com:1686/hls/sky8nz.m3u8?md5=Z-0oxqcXlkTm-sTs3JsITQ&expires=1785774023",
                 "type": "hls"
             }
         ]
@@ -1134,7 +1027,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/sky9nz.m3u8?md5=6m67uFAg0-vfVfOs-FSuoA&expires=1785761425",
+                "url": "https://cdn4.zohanayaan.com:1686/hls/sky9nz.m3u8?md5=oubBVzkBXgXuhzI3Ll6LQg&expires=1785774023",
                 "type": "hls"
             }
         ]
@@ -1148,7 +1041,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn6.zohanayaan.com:1686/hls/skysact.m3u8?md5=_C7hfiVzyaI7BcuhKafHnQ&expires=1785761426",
+                "url": "https://cdn4.zohanayaan.com:1686/hls/skysact.m3u8?md5=HRl7EuY2PrL_YuL2VE3pDA&expires=1785774023",
                 "type": "hls"
             }
         ]
@@ -1162,7 +1055,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/skysare.m3u8?md5=Q7UZCiZJkEIT53ll5AymBA&expires=1785761426",
+                "url": "https://cdn7.zohanayaan.com:1686/hls/skysare.m3u8?md5=QCWDsaD8w3pcaiYqrOcPbw&expires=1785774023",
                 "type": "hls"
             }
         ]
@@ -1176,7 +1069,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn7.zohanayaan.com:1686/hls/skyscric.m3u8?md5=Y-XwXiaX8e0DQUbEmAGQNQ&expires=1785761424",
+                "url": "https://cdn8.zohanayaan.com:1686/hls/skyscric.m3u8?md5=cG_PYNJOO7BTNGVoA-043g&expires=1785774020",
                 "type": "hls"
             }
         ]
@@ -1190,7 +1083,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn6.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=m8l0fbabkzfy562XCteKOA&expires=1785761426",
+                "url": "https://cdn4.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=WzKTq5VF6xKa0AXj2b0JbA&expires=1785774023",
                 "type": "hls"
             }
         ]
@@ -1204,7 +1097,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/skysfott.m3u8?md5=mh4x7QmwGUDMdONVutCB7w&expires=1785761426",
+                "url": "https://cdn7.zohanayaan.com:1686/hls/skysfott.m3u8?md5=MOVjM4G_9Olv6pDdBvw2aw&expires=1785774023",
                 "type": "hls"
             }
         ]
@@ -1218,7 +1111,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn8.zohanayaan.com:1686/hls/skysgol.m3u8?md5=gZftEh74IilkTxupMrD4tg&expires=1785761426",
+                "url": "https://cdn3.zohanayaan.com:1686/hls/skysgol.m3u8?md5=dJGxHqIcZG3Pt6AJa8Kdvw&expires=1785774023",
                 "type": "hls"
             }
         ]
@@ -1232,7 +1125,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn2.zohanayaan.com:1686/hls/skysme.m3u8?md5=HT7nHWOPtALoDDnTBoyFcA&expires=1785761424",
+                "url": "https://cdn10.zohanayaan.com:1686/hls/skysme.m3u8?md5=cq3CYA7MKyNybD6i15LMEA&expires=1785774021",
                 "type": "hls"
             }
         ]
@@ -1246,7 +1139,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=qpFXTuBku6oNFft5khTA0g&expires=1785761427",
+                "url": "https://cdn10.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=VXmkuYzS6WBU8U9M0iStEw&expires=1785774025",
                 "type": "hls"
             }
         ]
@@ -1260,7 +1153,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/skysare.m3u8?md5=Q7UZCiZJkEIT53ll5AymBA&expires=1785761426",
+                "url": "https://cdn7.zohanayaan.com:1686/hls/skysare.m3u8?md5=QCWDsaD8w3pcaiYqrOcPbw&expires=1785774023",
                 "type": "hls"
             }
         ]
@@ -1274,7 +1167,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn6.zohanayaan.com:1686/hls/skysprem.m3u8?md5=GoaWkRwJviDv9YSzrczOew&expires=1785761426",
+                "url": "https://cdn1.zohanayaan.com:1686/hls/skysprem.m3u8?md5=S6JjZBcj4ZhE3AZSG3Ve2w&expires=1785774023",
                 "type": "hls"
             }
         ]
@@ -1288,7 +1181,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn8.zohanayaan.com:1686/hls/skystennis.m3u8?md5=Nl7KYEIwpdlHSIOL-YqSfA&expires=1785761427",
+                "url": "https://cdn6.zohanayaan.com:1686/hls/skystennis.m3u8?md5=daC8hQJEXpOYhAQrIzcTjw&expires=1785774025",
                 "type": "hls"
             }
         ]
@@ -1302,7 +1195,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn4.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=8SM01GtfhHJFFo-0xuYSWg&expires=1785761427",
+                "url": "https://cdn1.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=qfeQ9ojLyvoSyI19i-mnbg&expires=1785774025",
                 "type": "hls"
             }
         ]
@@ -1344,7 +1237,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn8.zohanayaan.com:1686/hls/star1in.m3u8?md5=gySnBmOmc8yM3W4eRh4fTA&expires=1785761422",
+                "url": "https://cdn10.zohanayaan.com:1686/hls/star1in.m3u8?md5=Lz162LWXB3RzV1sAqTKbFg&expires=1785774019",
                 "type": "hls"
             },
             {
@@ -1363,7 +1256,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn8.zohanayaan.com:1686/hls/starhindi.m3u8?md5=5rRR67FG73coo2TsrygZ_A&expires=1785761423",
+                "url": "https://cdn9.zohanayaan.com:1686/hls/starhindi.m3u8?md5=eh3H7F4xOGhd_dMDPDa4KQ&expires=1785774019",
                 "type": "hls"
             },
             {
@@ -1382,7 +1275,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn2.zohanayaan.com:1686/hls/superfotball.m3u8?md5=uDYbZwMxRvdmB0wJQ3Rz8w&expires=1785761427",
+                "url": "https://cdn9.zohanayaan.com:1686/hls/superfotball.m3u8?md5=gMkar6BmBuPtVVq-ytXOEg&expires=1785774024",
                 "type": "hls"
             }
         ]
@@ -1396,7 +1289,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn7.zohanayaan.com:1686/hls/superpremier.m3u8?md5=g1vXaOR9lLDqzWwY_YTK_g&expires=1785761427",
+                "url": "https://cdn10.zohanayaan.com:1686/hls/superpremier.m3u8?md5=CBcxyBc6K9G5zmJcisutGA&expires=1785774024",
                 "type": "hls"
             }
         ]
@@ -1410,7 +1303,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn1.zohanayaan.com:1686/hls/tenspk.m3u8?md5=DSl9OZDhGYoEN_tr0jn87Q&expires=1785761423",
+                "url": "https://cdn5.zohanayaan.com:1686/hls/tenspk.m3u8?md5=lSsle0uvS0jj0vZr7uKKow&expires=1785774020",
                 "type": "hls"
             }
         ]
@@ -1438,7 +1331,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn10.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=8IY7CizgJGbcMdWML5pWjA&expires=1785761424",
+                "url": "https://cdn1.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=CoLKAOpT6kgtErdKpbDTzQ&expires=1785774021",
                 "type": "hls"
             }
         ]
@@ -1452,7 +1345,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn10.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=YaF0OzHuYsGYZ4_9fFU3hA&expires=1785761424",
+                "url": "https://cdn4.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=2623nUwf2wyA6B3txF3TRw&expires=1785774021",
                 "type": "hls"
             }
         ]
@@ -1466,7 +1359,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn9.zohanayaan.com:1686/hls/bbtsp3.m3u8?md5=RQQdQRM2RU1w_YoFAypnew&expires=1785761424",
+                "url": "https://cdn5.zohanayaan.com:1686/hls/bbtsp3.m3u8?md5=KZTJouC0QJojvJ2XCEJUIg&expires=1785774021",
                 "type": "hls"
             }
         ]
@@ -1480,7 +1373,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn8.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=_1tWz2sgnZqOQWuuapMfuA&expires=1785761424",
+                "url": "https://cdn5.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=-39YgClUt8GpEGfTTVeUWw&expires=1785774021",
                 "type": "hls"
             }
         ]
@@ -1494,7 +1387,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn3.zohanayaan.com:1686/hls/willowusa.m3u8?md5=9cwMtWNIKucYFLHvhLQN_Q&expires=1785761423",
+                "url": "https://cdn9.zohanayaan.com:1686/hls/willowusa.m3u8?md5=Go8IMUwIo7FUrC-VHjX4GQ&expires=1785774020",
                 "type": "hls"
             },
             {
@@ -1518,7 +1411,7 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 zohanayaan.com",
-                "url": "https://cdn3.zohanayaan.com:1686/hls/willowextra.m3u8?md5=CHBszP13hF4C8gFMlVx6rQ&expires=1785761423",
+                "url": "https://cdn9.zohanayaan.com:1686/hls/willowextra.m3u8?md5=CdgYPM54V3wsJQKXAXn4TA&expires=1785774020",
                 "type": "hls"
             }
         ]
@@ -1526,7 +1419,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // KIDS (14 channels)
+    // KIDS (15 channels)
     // ==================================================
 
     {
@@ -1698,6 +1591,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Sony Yay",
+        "category": "Kids",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 itcnbd.live",
+                "url": "https://s2.itcnbd.live/server-2/stream/sonyyay.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Tom & Jarry",
         "category": "Kids",
         "img": "",
@@ -1756,6 +1663,11 @@ window.rawChannels2 = [
             {
                 "name": "⭐ gpcdn.net",
                 "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🌐 93.31",
+                "url": "http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -1883,6 +1795,20 @@ window.rawChannels2 = [
     // ==================================================
     // MOVIE (19 channels)
     // ==================================================
+
+    {
+        "name": "Action Hollywood Movies",
+        "category": "Movie",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 amagi.tv",
+                "url": "https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
 
     {
         "name": "B4u Kadak",
@@ -2053,20 +1979,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Sony Pix HD",
-        "category": "Movie",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 itcnbd.live",
-                "url": "https://s2.itcnbd.live/server-2/stream/sonypix_hd.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Superrix HD",
         "category": "Movie",
         "img": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770348388925.png",
@@ -2113,6 +2025,11 @@ window.rawChannels2 = [
         "category": "Movie",
         "img": "",
         "sources": [
+            {
+                "name": "🔗 itcnbd.live",
+                "url": "https://s2.itcnbd.live/server-2/stream/zee_action.m3u8",
+                "type": "hls"
+            },
             {
                 "name": "🌐 73.12",
                 "url": "http://103.175.73.12:8080/live/270/270_0.m3u8",
@@ -2305,11 +2222,6 @@ window.rawChannels2 = [
         "sources": [
             {
                 "name": "🔗 itcnbd.live",
-                "url": "https://s2.itcnbd.live/server-2/stream/sony_entertainment.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 itcnbd.live",
                 "url": "https://s2.itcnbd.live/server-2/stream/sonyentertainmnt_hd.m3u8",
                 "type": "hls"
             }
@@ -2346,7 +2258,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // DOCUMENTARY (3 channels)
+    // DOCUMENTARY (2 channels)
     // ==================================================
 
     {
@@ -2357,20 +2269,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 amagi.tv",
                 "url": "https://insighttv-samsung-us.amagi.tv/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Love Nature",
-        "category": "Documentary",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 logichost.in",
-                "url": "https://cdn1.logichost.in/ajmantv/live/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -2404,6 +2302,11 @@ window.rawChannels2 = [
                 "name": "🔗 akamaized.net",
                 "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
                 "type": "hls"
+            },
+            {
+                "name": "🔗 erbvr.com",
+                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
+                "type": "hls"
             }
         ]
     }
@@ -2422,20 +2325,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 73.12",
                 "url": "http://103.175.73.12:8080/live/155/155_0.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "A Spor",
-        "category": "Football",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ercdn.net",
-                "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8",
                 "type": "hls"
             }
         ]
@@ -2492,20 +2381,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 sm-monirul.top",
                 "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=accu_weather&format=.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Afghanistan Pathans VS Bangladesh Tigers (asian Legends League- 2026)",
-        "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/4248196_53019_AFP_BAT_fc-web.jpg",
-        "sources": [
-            {
-                "name": "🔗 fancode.com",
-                "url": "https://livecf.fancode.com/4248196_english_hls_474e9b2ae850769_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -2934,6 +2809,11 @@ window.rawChannels2 = [
         "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_8a69251df11b66c4e85e7a2fe6d89286_playmist_boishakhi_tv_400x400.jpg",
         "sources": [
             {
+                "name": "🔗 sonarbanglatv.com",
+                "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
+                "type": "hls"
+            },
+            {
                 "name": "🌐 sm-monirul.top",
                 "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=boishakhi_tv&format=.m3u8",
                 "type": "hls"
@@ -2995,11 +2875,6 @@ window.rawChannels2 = [
         "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_1b90aebe217ac437da23625feaba0b76_playmist_btv_news400x400.jpg",
         "sources": [
             {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/btvbd-office-sg.stream/index.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "🌐 sm-monirul.top",
                 "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=btv_news&format=.m3u8",
                 "type": "hls"
@@ -3033,11 +2908,6 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
-                "name": "🔗 itcnbd.live",
-                "url": "https://s2.itcnbd.live/server-2/stream/cartoon_network_sd.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "🌐 sm-monirul.top",
                 "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=cartoon_network&format=.m3u8",
                 "type": "hls"
@@ -3068,11 +2938,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 ncare.live",
                 "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channels.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -3468,6 +3333,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Food Food",
+        "category": "Information",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 73.12",
+                "url": "http://103.175.73.12:8080/live/143/143_0.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Fox 5",
         "category": "Others",
         "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_fd05780c80bb076f35db9e243ee2d5f7_playmist_fox_5_400x400.jpg",
@@ -3735,6 +3614,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Indian Royals VS Sri Lankan Lions (asian Legends League- 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/4248195_53019_INR_SLO_fc-web.jpg",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://livecf.fancode.com/4248195_english_hls_cb68ac446465541_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Iran News",
         "category": "Cricket",
         "img": "",
@@ -3781,11 +3674,6 @@ window.rawChannels2 = [
         "category": "Others",
         "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_067234e427ca902620258631b762cea8_playmist_kolkata_tv_400x400.jpg",
         "sources": [
-            {
-                "name": "🔗 co.in",
-                "url": "https://cdn.ottlive.co.in/kolkatatv/index.m3u8",
-                "type": "hls"
-            },
             {
                 "name": "🌐 sm-monirul.top",
                 "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=kolkata_tv&format=.m3u8",
@@ -4081,6 +3969,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "North Delhi Strikers VS Central Delhi Kings (delhi Premier League- 2026)",
+        "category": "Live Event",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/DPL-Mini.png",
+        "sources": [
+            {
+                "name": "🔗 fancode.com",
+                "url": "https://livecf.fancode.com/4247974_english_hls_4cd1944cee90089_1ta-di_h264/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Ntv (720p)",
         "category": "Unknown",
         "img": "",
@@ -4116,6 +4018,20 @@ window.rawChannels2 = [
             {
                 "name": "🌐 sm-monirul.top",
                 "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=peace_tv_bangla_hd&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Peace TV Urdu",
+        "category": "Relagion Channel",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 erbvr.com",
+                "url": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -4329,11 +4245,6 @@ window.rawChannels2 = [
         "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_d6c5ece652161d2d88ed547f00343687_playmist_rtv_400x400.jpg",
         "sources": [
             {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "🌐 sm-monirul.top",
                 "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=rtv&format=.m3u8",
                 "type": "hls"
@@ -4353,13 +4264,13 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
-                "name": "🔗 aynaott.com",
-                "url": "https://tvsen5.aynaott.com/RtvHD/index.m3u8",
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8",
                 "type": "hls"
             },
             {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8",
+                "name": "🔗 aynaott.com",
+                "url": "https://tvsen5.aynaott.com/RtvHD/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -4479,20 +4390,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Sochi 24 HD",
-        "category": "Infotainment Channels",
-        "img": "",
-        "sources": [
-            {
-                "name": "🌐 vintera.tv",
-                "url": "http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Somoy News TV (1080p)",
         "category": "Unknown",
         "img": "",
@@ -4584,20 +4481,6 @@ window.rawChannels2 = [
             {
                 "name": "🌐 sm-monirul.top",
                 "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=talk_sport&format=.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Ten Cricket HD",
-        "category": "Cricket",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 itcnbd.live",
-                "url": "https://s2.itcnbd.live/server-2/stream/ten_cricket.m3u8",
                 "type": "hls"
             }
         ]
@@ -4834,20 +4717,6 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "Watch Fifa IN Full HD",
-        "category": "Football",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 live12.ir",
-                "url": "https://live12.ir/hls2/gemwc.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
         "name": "Weather Channel",
         "category": "Others",
         "img": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_8a12f27b8b702fb205273e384dbf83ab_playmist_weather_channel_400x400.jpg",
@@ -4890,13 +4759,13 @@ window.rawChannels2 = [
     ,
 
     {
-        "name": "West Delhi Lions VS Purani Dilli-6 (delhi Premier League- 2026)",
+        "name": "West Indies VS Pakistan (pakistan Tour OF West Indies- 2026)",
         "category": "Live Event",
-        "img": "https://www.fancode.com/skillup-uploads/cms-media/DPL-Mini.png",
+        "img": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-Tour-of-West-Indies-2026-old1.png",
         "sources": [
             {
                 "name": "🔗 fancode.com",
-                "url": "https://livecf.fancode.com/4247968_english_hls_12b02df88b18060_1ta-di_h264/index.m3u8",
+                "url": "https://livecf.fancode.com/143634_english_hls_3a8752838638691_1ta-di_h264/index.m3u8",
                 "type": "hls"
             }
         ]
@@ -4911,6 +4780,20 @@ window.rawChannels2 = [
             {
                 "name": "🌐 sm-monirul.top",
                 "url": "http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=wion&format=.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Yrf Music HD",
+        "category": "Unknown",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 amagi.tv",
+                "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -4948,11 +4831,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 330
-// Total sources: 386
+// Total channels: 322
+// Total sources: 377
 // Top priority sources (⭐): 21
 // Other priority sources (⚡): 25
-// Regular sources: 340
+// Regular sources: 331
 // Categories: 10
-// Merged duplicates: 110 channels consolidated
+// Merged duplicates: 107 channels consolidated
 // Generated with M3U processor
