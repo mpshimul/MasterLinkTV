@@ -1,8 +1,8 @@
 {
-    "total_entries": 182,
-    "unique_channels": 173,
+    "total_entries": 185,
+    "unique_channels": 175,
     "channels_with_multiple_servers": 9,
-    "total_servers": 182,
+    "total_servers": 185,
     "channels_with_headers": 104,
     "total_headers": 207,
     "groups": {
@@ -12,20 +12,20 @@
         "Sports": 52,
         "Live Bdix": 63,
         "Promo": 1,
-        "Unknown": 13,
+        "Unknown": 16,
         "Star Jalsha": 1,
         "Bangladesh": 16,
-        "India": 4,
         "Indian Bangla": 1,
+        "India": 4,
         "Music": 4,
-        "Others": 3,
+        "Others": 2,
         "Kids": 1,
         "Infotainment": 1,
         "Cartoons 24 7": 2,
-        "Hindi 24 7": 2,
-        "Bangla 24 7": 1
+        "Bangla 24 7": 1,
+        "Hindi 24 7": 2
     },
-    "last_updated": "2026-08-30T02:41:16+00:00",
+    "last_updated": "2026-08-30T09:36:06+00:00",
     "source": "BD.m3u",
     "url": "https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u"
 }
