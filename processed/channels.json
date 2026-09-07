@@ -14,6 +14,36 @@
             }
         ]
     },
+    "fazilka_falcons_vs_amritsar_soormas_7_sep_2026_hin_sher_e_punjab_t20_league_live_event": {
+        "name": "Fazilka Falcons vs Amritsar Soormas - 7 Sep 2026 [HIN] - Sher-E-Punjab T20 League",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023603/178876680905358_PT20_Fazilka-Falcons-vs-Amritsar-Soormas_landscape_thumb.jpg",
+        "group": "Live Event",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonydaimenew.akamaized.net%2Fhls%2Flive%2F2022322%2Fcriclive0709%2FHIN%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1788826845%7Eacl%3D%2F%2A%7Eid%3D27332639181442796450139703566453%7Ehmac%3Defc5f7bb16c4299f00109d056ae2a576a2b1ed1b705caa2d135628d41e1f4e7d",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "fazilka_falcons_vs_amritsar_soormas_7_sep_2026_pan_sher_e_punjab_t20_league_live_event": {
+        "name": "Fazilka Falcons vs Amritsar Soormas - 7 Sep 2026 [PAN] - Sher-E-Punjab T20 League",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023603/178876680905358_PT20_Fazilka-Falcons-vs-Amritsar-Soormas_landscape_thumb.jpg",
+        "group": "Live Event",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonydaimenew.akamaized.net%2Fhls%2Flive%2F2022322%2Fcriclive0709%2FPAN%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1788826845%7Eacl%3D%2F%2A%7Eid%3D27332639181442796450139703566453%7Ehmac%3Defc5f7bb16c4299f00109d056ae2a576a2b1ed1b705caa2d135628d41e1f4e7d",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
     "ekushey_tv_akash_go": {
         "name": "Ekushey TV",
         "logo": "https://s4.gifyu.com/images/image534fa27d7683f33d.png",
@@ -193,7 +223,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzee_bangla%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919039%3AKeyName%3Dprod_linear%3ASignature%3De79989BT1vrK1Vqs23MH_zIfyTPjxY7-usXsEwUBzYsj3t3vbZ92WDejOlrztxqAIp1kr2We8X5OIrJxCAvFCw",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzee_bangla%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939708%3AKeyName%3Dprod_linear%3ASignature%3DAG6pT3BGHZyK6hkPDFj63m_8A_bRTUFQPJ3AwKEvi1zzjlJEUxfYvAwsEtom1gZBVB-AqBC9_xAWl8q-sn7MAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -208,7 +238,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fhum_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919039%3AKeyName%3Dprod_linear%3ASignature%3De79989BT1vrK1Vqs23MH_zIfyTPjxY7-usXsEwUBzYsj3t3vbZ92WDejOlrztxqAIp1kr2We8X5OIrJxCAvFCw",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fhum_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939708%3AKeyName%3Dprod_linear%3ASignature%3DAG6pT3BGHZyK6hkPDFj63m_8A_bRTUFQPJ3AwKEvi1zzjlJEUxfYvAwsEtom1gZBVB-AqBC9_xAWl8q-sn7MAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -223,7 +253,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fhum_masala%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919039%3AKeyName%3Dprod_linear%3ASignature%3De79989BT1vrK1Vqs23MH_zIfyTPjxY7-usXsEwUBzYsj3t3vbZ92WDejOlrztxqAIp1kr2We8X5OIrJxCAvFCw",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fhum_masala%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939708%3AKeyName%3Dprod_linear%3ASignature%3DAG6pT3BGHZyK6hkPDFj63m_8A_bRTUFQPJ3AwKEvi1zzjlJEUxfYvAwsEtom1gZBVB-AqBC9_xAWl8q-sn7MAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -238,7 +268,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fhum_sitaray%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919039%3AKeyName%3Dprod_linear%3ASignature%3De79989BT1vrK1Vqs23MH_zIfyTPjxY7-usXsEwUBzYsj3t3vbZ92WDejOlrztxqAIp1kr2We8X5OIrJxCAvFCw",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fhum_sitaray%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939708%3AKeyName%3Dprod_linear%3ASignature%3DAG6pT3BGHZyK6hkPDFj63m_8A_bRTUFQPJ3AwKEvi1zzjlJEUxfYvAwsEtom1gZBVB-AqBC9_xAWl8q-sn7MAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -253,7 +283,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ftoffee_drama%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919039%3AKeyName%3Dprod_linear%3ASignature%3De79989BT1vrK1Vqs23MH_zIfyTPjxY7-usXsEwUBzYsj3t3vbZ92WDejOlrztxqAIp1kr2We8X5OIrJxCAvFCw",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ftoffee_drama%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939708%3AKeyName%3Dprod_linear%3ASignature%3DAG6pT3BGHZyK6hkPDFj63m_8A_bRTUFQPJ3AwKEvi1zzjlJEUxfYvAwsEtom1gZBVB-AqBC9_xAWl8q-sn7MAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -268,7 +298,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fn_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919040%3AKeyName%3Dprod_linear%3ASignature%3D5Fl83TsdWAED8k_kJ4Cxbv4ZBAe66QqLtzT_pad5M1-2Kg85wIEKsxlT-0YrqVeEh2Gk5W1y_VaPCNtd4S9YCQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fn_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939708%3AKeyName%3Dprod_linear%3ASignature%3DAG6pT3BGHZyK6hkPDFj63m_8A_bRTUFQPJ3AwKEvi1zzjlJEUxfYvAwsEtom1gZBVB-AqBC9_xAWl8q-sn7MAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -283,7 +313,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsonyaath%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919040%3AKeyName%3Dprod_linear%3ASignature%3D5Fl83TsdWAED8k_kJ4Cxbv4ZBAe66QqLtzT_pad5M1-2Kg85wIEKsxlT-0YrqVeEh2Gk5W1y_VaPCNtd4S9YCQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsonyaath%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939708%3AKeyName%3Dprod_linear%3ASignature%3DAG6pT3BGHZyK6hkPDFj63m_8A_bRTUFQPJ3AwKEvi1zzjlJEUxfYvAwsEtom1gZBVB-AqBC9_xAWl8q-sn7MAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -298,7 +328,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fchannel_i%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919040%3AKeyName%3Dprod_linear%3ASignature%3D5Fl83TsdWAED8k_kJ4Cxbv4ZBAe66QqLtzT_pad5M1-2Kg85wIEKsxlT-0YrqVeEh2Gk5W1y_VaPCNtd4S9YCQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fchannel_i%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939708%3AKeyName%3Dprod_linear%3ASignature%3DAG6pT3BGHZyK6hkPDFj63m_8A_bRTUFQPJ3AwKEvi1zzjlJEUxfYvAwsEtom1gZBVB-AqBC9_xAWl8q-sn7MAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -313,7 +343,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzee_anmol%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919040%3AKeyName%3Dprod_linear%3ASignature%3D5Fl83TsdWAED8k_kJ4Cxbv4ZBAe66QqLtzT_pad5M1-2Kg85wIEKsxlT-0YrqVeEh2Gk5W1y_VaPCNtd4S9YCQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzee_anmol%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939708%3AKeyName%3Dprod_linear%3ASignature%3DAG6pT3BGHZyK6hkPDFj63m_8A_bRTUFQPJ3AwKEvi1zzjlJEUxfYvAwsEtom1gZBVB-AqBC9_xAWl8q-sn7MAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -328,7 +358,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fb4u_music%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919040%3AKeyName%3Dprod_linear%3ASignature%3D5Fl83TsdWAED8k_kJ4Cxbv4ZBAe66QqLtzT_pad5M1-2Kg85wIEKsxlT-0YrqVeEh2Gk5W1y_VaPCNtd4S9YCQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fb4u_music%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939708%3AKeyName%3Dprod_linear%3ASignature%3DAG6pT3BGHZyK6hkPDFj63m_8A_bRTUFQPJ3AwKEvi1zzjlJEUxfYvAwsEtom1gZBVB-AqBC9_xAWl8q-sn7MAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -343,7 +373,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzing_sd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919040%3AKeyName%3Dprod_linear%3ASignature%3D5Fl83TsdWAED8k_kJ4Cxbv4ZBAe66QqLtzT_pad5M1-2Kg85wIEKsxlT-0YrqVeEh2Gk5W1y_VaPCNtd4S9YCQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzing_sd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939708%3AKeyName%3Dprod_linear%3ASignature%3DAG6pT3BGHZyK6hkPDFj63m_8A_bRTUFQPJ3AwKEvi1zzjlJEUxfYvAwsEtom1gZBVB-AqBC9_xAWl8q-sn7MAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -358,7 +388,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_entertainment%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919044%3AKeyName%3Dprod_linear%3ASignature%3Dy1ukv19r5hKUMf4q3mx_qf_fxhWdzXDjpvJc1m2MrPVDq4KhpiGw_pDm5F0Rpg_VDuQVVTAESNAgKrBqczv7BQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_entertainment%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939712%3AKeyName%3Dprod_linear%3ASignature%3D1326O3PIAXn0W_TeEoR9SH76BLJQvzVgtkhNRpRbVpFMfp3jbmXk2ozINOsL3bMeoKA8PbWIOCHeSz7Y7oxxCw",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -366,7 +396,7 @@
                 "server_number": 1
             },
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsonyentertainmnt_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919040%3AKeyName%3Dprod_linear%3ASignature%3D5Fl83TsdWAED8k_kJ4Cxbv4ZBAe66QqLtzT_pad5M1-2Kg85wIEKsxlT-0YrqVeEh2Gk5W1y_VaPCNtd4S9YCQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsonyentertainmnt_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939708%3AKeyName%3Dprod_linear%3ASignature%3DAG6pT3BGHZyK6hkPDFj63m_8A_bRTUFQPJ3AwKEvi1zzjlJEUxfYvAwsEtom1gZBVB-AqBC9_xAWl8q-sn7MAQ",
                 "quality": "Unknown",
                 "priority": 2,
                 "has_headers": true,
@@ -381,7 +411,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsonysab_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919040%3AKeyName%3Dprod_linear%3ASignature%3D5Fl83TsdWAED8k_kJ4Cxbv4ZBAe66QqLtzT_pad5M1-2Kg85wIEKsxlT-0YrqVeEh2Gk5W1y_VaPCNtd4S9YCQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsonysab_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939708%3AKeyName%3Dprod_linear%3ASignature%3DAG6pT3BGHZyK6hkPDFj63m_8A_bRTUFQPJ3AwKEvi1zzjlJEUxfYvAwsEtom1gZBVB-AqBC9_xAWl8q-sn7MAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -396,7 +426,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzee_tv_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919040%3AKeyName%3Dprod_linear%3ASignature%3D5Fl83TsdWAED8k_kJ4Cxbv4ZBAe66QqLtzT_pad5M1-2Kg85wIEKsxlT-0YrqVeEh2Gk5W1y_VaPCNtd4S9YCQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzee_tv_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939708%3AKeyName%3Dprod_linear%3ASignature%3DAG6pT3BGHZyK6hkPDFj63m_8A_bRTUFQPJ3AwKEvi1zzjlJEUxfYvAwsEtom1gZBVB-AqBC9_xAWl8q-sn7MAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -411,7 +441,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fand_tv_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919044%3AKeyName%3Dprod_linear%3ASignature%3Dy1ukv19r5hKUMf4q3mx_qf_fxhWdzXDjpvJc1m2MrPVDq4KhpiGw_pDm5F0Rpg_VDuQVVTAESNAgKrBqczv7BQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fand_tv_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939712%3AKeyName%3Dprod_linear%3ASignature%3D1326O3PIAXn0W_TeEoR9SH76BLJQvzVgtkhNRpRbVpFMfp3jbmXk2ozINOsL3bMeoKA8PbWIOCHeSz7Y7oxxCw",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -426,7 +456,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsomoy_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919045%3AKeyName%3Dprod_linear%3ASignature%3Dz4oq4n8kezMfxeJQZMgo1J6fQVDvGpSa51Hp8jLYlAOdI3Z1HQnkRcEv1d_txHaQE87r66cGT0bFbWBzs5hBBw",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsomoy_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939713%3AKeyName%3Dprod_linear%3ASignature%3Dy-5HYPz2DmAPmODWTWayLEGbc6YU62yWcUskgXEk9GS4MREl8Y1pX2MHpeoD_4aBGlZ3QfXZiILB8RPfhDvVDg",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -441,7 +471,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fekhon_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919045%3AKeyName%3Dprod_linear%3ASignature%3Dz4oq4n8kezMfxeJQZMgo1J6fQVDvGpSa51Hp8jLYlAOdI3Z1HQnkRcEv1d_txHaQE87r66cGT0bFbWBzs5hBBw",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fekhon_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939714%3AKeyName%3Dprod_linear%3ASignature%3Dg6esY1zvFmLy_hBqY5s-6a6gYq-n-z27RODwtjUMej3H-0UZjwx3eygSo8hLUsZvPC5KxuuDfTrUX7HYz8L0AA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -456,7 +486,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fglobaltv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919045%3AKeyName%3Dprod_linear%3ASignature%3Dz4oq4n8kezMfxeJQZMgo1J6fQVDvGpSa51Hp8jLYlAOdI3Z1HQnkRcEv1d_txHaQE87r66cGT0bFbWBzs5hBBw",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fglobaltv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939714%3AKeyName%3Dprod_linear%3ASignature%3Dg6esY1zvFmLy_hBqY5s-6a6gYq-n-z27RODwtjUMej3H-0UZjwx3eygSo8hLUsZvPC5KxuuDfTrUX7HYz8L0AA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -471,7 +501,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ftoffee_movie%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919046%3AKeyName%3Dprod_linear%3ASignature%3DBvemvdbvz4-3szVQlFl_m-mYe_AvfSam9nymQwONx3vNn80eSKa2ro6U7ajG0j4KgA3Pe02HGSI49AY5TNtwDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ftoffee_movie%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939714%3AKeyName%3Dprod_linear%3ASignature%3Dg6esY1zvFmLy_hBqY5s-6a6gYq-n-z27RODwtjUMej3H-0UZjwx3eygSo8hLUsZvPC5KxuuDfTrUX7HYz8L0AA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -486,7 +516,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fjamuna_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919046%3AKeyName%3Dprod_linear%3ASignature%3DBvemvdbvz4-3szVQlFl_m-mYe_AvfSam9nymQwONx3vNn80eSKa2ro6U7ajG0j4KgA3Pe02HGSI49AY5TNtwDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fjamuna_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939714%3AKeyName%3Dprod_linear%3ASignature%3Dg6esY1zvFmLy_hBqY5s-6a6gYq-n-z27RODwtjUMej3H-0UZjwx3eygSo8hLUsZvPC5KxuuDfTrUX7HYz8L0AA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -501,7 +531,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Frajdhani_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919046%3AKeyName%3Dprod_linear%3ASignature%3DBvemvdbvz4-3szVQlFl_m-mYe_AvfSam9nymQwONx3vNn80eSKa2ro6U7ajG0j4KgA3Pe02HGSI49AY5TNtwDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Frajdhani_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939715%3AKeyName%3Dprod_linear%3ASignature%3DvfFa9T3OVkYa3sGYXT1XPJm6Dx-R4LOERB2buxhdPOBVlqKG0pFXAoatRdjGtg2ZgY88PCsUNcV0i7kzC7pyDw",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -516,7 +546,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fbangla_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919046%3AKeyName%3Dprod_linear%3ASignature%3DBvemvdbvz4-3szVQlFl_m-mYe_AvfSam9nymQwONx3vNn80eSKa2ro6U7ajG0j4KgA3Pe02HGSI49AY5TNtwDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fbangla_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939715%3AKeyName%3Dprod_linear%3ASignature%3DvfFa9T3OVkYa3sGYXT1XPJm6Dx-R4LOERB2buxhdPOBVlqKG0pFXAoatRdjGtg2ZgY88PCsUNcV0i7kzC7pyDw",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -531,7 +561,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Findependent_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919047%3AKeyName%3Dprod_linear%3ASignature%3DlvGBRt-0l8ctbDartDjZNCpctVKZHmQ2ceGpWvegvvq98nWpadQQBdEgdM3PbqFRIj1TDZGub9EfZLZDIcogDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Findependent_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939715%3AKeyName%3Dprod_linear%3ASignature%3DvfFa9T3OVkYa3sGYXT1XPJm6Dx-R4LOERB2buxhdPOBVlqKG0pFXAoatRdjGtg2ZgY88PCsUNcV0i7kzC7pyDw",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -546,7 +576,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fchannel_s_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919047%3AKeyName%3Dprod_linear%3ASignature%3DlvGBRt-0l8ctbDartDjZNCpctVKZHmQ2ceGpWvegvvq98nWpadQQBdEgdM3PbqFRIj1TDZGub9EfZLZDIcogDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fchannel_s_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939716%3AKeyName%3Dprod_linear%3ASignature%3DpuXNZJj4XekPiQLau5iMuRTxGFgh5LfXWKDWyvprdraj-TGW6fUsWU_D3yYEFKRGOHyGqUBPOWXMAKl57ojXAA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -561,7 +591,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fekattor_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919047%3AKeyName%3Dprod_linear%3ASignature%3DlvGBRt-0l8ctbDartDjZNCpctVKZHmQ2ceGpWvegvvq98nWpadQQBdEgdM3PbqFRIj1TDZGub9EfZLZDIcogDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fekattor_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939716%3AKeyName%3Dprod_linear%3ASignature%3DpuXNZJj4XekPiQLau5iMuRTxGFgh5LfXWKDWyvprdraj-TGW6fUsWU_D3yYEFKRGOHyGqUBPOWXMAKl57ojXAA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -576,7 +606,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fanandatv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919048%3AKeyName%3Dprod_linear%3ASignature%3DptHp1kfGlR9F3jIaQZQNvyRsXiv8YcZIXbEOkk_-poaZlmnCigAkAS6MV_BbM5xz6rgAj2JBfs741qLFxMMECQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fanandatv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939716%3AKeyName%3Dprod_linear%3ASignature%3DpuXNZJj4XekPiQLau5iMuRTxGFgh5LfXWKDWyvprdraj-TGW6fUsWU_D3yYEFKRGOHyGqUBPOWXMAKl57ojXAA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -591,7 +621,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fbijoytv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919048%3AKeyName%3Dprod_linear%3ASignature%3DptHp1kfGlR9F3jIaQZQNvyRsXiv8YcZIXbEOkk_-poaZlmnCigAkAS6MV_BbM5xz6rgAj2JBfs741qLFxMMECQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fbijoytv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939716%3AKeyName%3Dprod_linear%3ASignature%3DpuXNZJj4XekPiQLau5iMuRTxGFgh5LfXWKDWyvprdraj-TGW6fUsWU_D3yYEFKRGOHyGqUBPOWXMAKl57ojXAA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -606,7 +636,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fislamic_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919048%3AKeyName%3Dprod_linear%3ASignature%3DptHp1kfGlR9F3jIaQZQNvyRsXiv8YcZIXbEOkk_-poaZlmnCigAkAS6MV_BbM5xz6rgAj2JBfs741qLFxMMECQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fislamic_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939717%3AKeyName%3Dprod_linear%3ASignature%3DMVXKcAKdIQyzThqZtruLqG7ikTyG5egA_sFI6Zfs7UtVdb_i-A_W0jWGG354AnmdKHDOi_lWyB1mjAkCQQ93Cg",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -621,7 +651,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fasian_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919048%3AKeyName%3Dprod_linear%3ASignature%3DptHp1kfGlR9F3jIaQZQNvyRsXiv8YcZIXbEOkk_-poaZlmnCigAkAS6MV_BbM5xz6rgAj2JBfs741qLFxMMECQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fasian_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939717%3AKeyName%3Dprod_linear%3ASignature%3DMVXKcAKdIQyzThqZtruLqG7ikTyG5egA_sFI6Zfs7UtVdb_i-A_W0jWGG354AnmdKHDOi_lWyB1mjAkCQQ93Cg",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -636,7 +666,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fdesh_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919049%3AKeyName%3Dprod_linear%3ASignature%3D2Ul3OoFeo50hd1wgkWLg2Uz1uSf7HtEth2_AtbeXLF2BBDxUVY2u7Xfd_5t1fdCQqCfRekj2UuZ6n0yVyXvnAA",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fdesh_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939717%3AKeyName%3Dprod_linear%3ASignature%3DMVXKcAKdIQyzThqZtruLqG7ikTyG5egA_sFI6Zfs7UtVdb_i-A_W0jWGG354AnmdKHDOi_lWyB1mjAkCQQ93Cg",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -651,7 +681,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fnexus_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919049%3AKeyName%3Dprod_linear%3ASignature%3D2Ul3OoFeo50hd1wgkWLg2Uz1uSf7HtEth2_AtbeXLF2BBDxUVY2u7Xfd_5t1fdCQqCfRekj2UuZ6n0yVyXvnAA",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fnexus_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939717%3AKeyName%3Dprod_linear%3ASignature%3DMVXKcAKdIQyzThqZtruLqG7ikTyG5egA_sFI6Zfs7UtVdb_i-A_W0jWGG354AnmdKHDOi_lWyB1mjAkCQQ93Cg",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -666,7 +696,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fmohona_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919049%3AKeyName%3Dprod_linear%3ASignature%3D2Ul3OoFeo50hd1wgkWLg2Uz1uSf7HtEth2_AtbeXLF2BBDxUVY2u7Xfd_5t1fdCQqCfRekj2UuZ6n0yVyXvnAA",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fmohona_tv%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939718%3AKeyName%3Dprod_linear%3ASignature%3DsLdvBWOgXKTPQa1BIaSXLqcGynswfbfvhU2XhmOOxIXvmKLFRobamZmFONCQ0s-1XEB2XI3lXMdmcITpqtGCDw",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -681,7 +711,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fmovie_bangla%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919050%3AKeyName%3Dprod_linear%3ASignature%3DJqjOS7D4aZOSyohDiX6nHM1h37mYQvrtJspcgxDOH0jydS5vON10gUnWiiUvfRgvYb9By0lpIktPFv9LUPyjDw",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fmovie_bangla%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939718%3AKeyName%3Dprod_linear%3ASignature%3DsLdvBWOgXKTPQa1BIaSXLqcGynswfbfvhU2XhmOOxIXvmKLFRobamZmFONCQ0s-1XEB2XI3lXMdmcITpqtGCDw",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -692,7 +722,7 @@
     },
     "epl_channel_1_live_bdix": {
         "name": "EPL channel 1",
-        "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JS1AqZgBNnOkwJLWlwg-/posters/871e36dd-89b9-4dd4-a450-6da65409a805.png",
+        "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JS1AqZgBNnOkwJLWlwg-/posters/fe37f318-847e-49e2-8de8-60766fe0aca2.png",
         "group": "Live Bdix",
         "servers": [
             {
@@ -707,7 +737,7 @@
     },
     "epl_channel_2_live_bdix": {
         "name": "EPL channel 2",
-        "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Mi1QqZgBNnOkwJLWxggo/posters/e79e76e2-c9ac-474c-a781-f473b95ab730.png",
+        "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Mi1QqZgBNnOkwJLWxggo/posters/b5926099-dee1-4b0b-8183-fbda6e78d2dc.png",
         "group": "Live Bdix",
         "servers": [
             {
@@ -726,7 +756,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ffifa_world_cup%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919051%3AKeyName%3Dprod_linear%3ASignature%3DoxghSacFFbCLHJ_VSEmRXV9NGVrxCyczWs2ohTEEB2idJd3OlWgBqvPMU_sEmXq9agHQjEb1pahIqunxXSxXBA",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ffifa_world_cup%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939720%3AKeyName%3Dprod_linear%3ASignature%3DoJdSUL8rpHDLIstoLrWhhp1PHtpW1JU9Nc-cPxgwvgj_WMi2HwC723H1zquMCMMofqYm-hjCFAr6-0OB0IOjDA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -741,7 +771,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_sports_1_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919052%3AKeyName%3Dprod_linear%3ASignature%3D37oAMi1jqGGps235V9Gl3EE8gIf457FRXIZIzL3eDXXBcib0alK2TlwaPXX9D8sJLx79gUbqV770BT3UdpK2AQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_sports_1_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939720%3AKeyName%3Dprod_linear%3ASignature%3DoJdSUL8rpHDLIstoLrWhhp1PHtpW1JU9Nc-cPxgwvgj_WMi2HwC723H1zquMCMMofqYm-hjCFAr6-0OB0IOjDA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -756,7 +786,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_sports_2_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919052%3AKeyName%3Dprod_linear%3ASignature%3D37oAMi1jqGGps235V9Gl3EE8gIf457FRXIZIzL3eDXXBcib0alK2TlwaPXX9D8sJLx79gUbqV770BT3UdpK2AQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_sports_2_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939721%3AKeyName%3Dprod_linear%3ASignature%3D-fZb56F6osNuiV35iHVn5NHKSsytaGdY47dO9b_9r_ICrTsMlYVE0UN2AvY_dILyZWhtlTMHyWRRHQINOZ33CA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -771,7 +801,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_sports_5_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919052%3AKeyName%3Dprod_linear%3ASignature%3D37oAMi1jqGGps235V9Gl3EE8gIf457FRXIZIzL3eDXXBcib0alK2TlwaPXX9D8sJLx79gUbqV770BT3UdpK2AQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_sports_5_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939721%3AKeyName%3Dprod_linear%3ASignature%3D-fZb56F6osNuiV35iHVn5NHKSsytaGdY47dO9b_9r_ICrTsMlYVE0UN2AvY_dILyZWhtlTMHyWRRHQINOZ33CA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -786,7 +816,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ften_cricket%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919052%3AKeyName%3Dprod_linear%3ASignature%3D37oAMi1jqGGps235V9Gl3EE8gIf457FRXIZIzL3eDXXBcib0alK2TlwaPXX9D8sJLx79gUbqV770BT3UdpK2AQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ften_cricket%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939721%3AKeyName%3Dprod_linear%3ASignature%3D-fZb56F6osNuiV35iHVn5NHKSsytaGdY47dO9b_9r_ICrTsMlYVE0UN2AvY_dILyZWhtlTMHyWRRHQINOZ33CA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -801,7 +831,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Feuro_sports_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919052%3AKeyName%3Dprod_linear%3ASignature%3D37oAMi1jqGGps235V9Gl3EE8gIf457FRXIZIzL3eDXXBcib0alK2TlwaPXX9D8sJLx79gUbqV770BT3UdpK2AQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Feuro_sports_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939721%3AKeyName%3Dprod_linear%3ASignature%3D-fZb56F6osNuiV35iHVn5NHKSsytaGdY47dO9b_9r_ICrTsMlYVE0UN2AvY_dILyZWhtlTMHyWRRHQINOZ33CA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -816,7 +846,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_max%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919052%3AKeyName%3Dprod_linear%3ASignature%3D37oAMi1jqGGps235V9Gl3EE8gIf457FRXIZIzL3eDXXBcib0alK2TlwaPXX9D8sJLx79gUbqV770BT3UdpK2AQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_max%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939721%3AKeyName%3Dprod_linear%3ASignature%3D-fZb56F6osNuiV35iHVn5NHKSsytaGdY47dO9b_9r_ICrTsMlYVE0UN2AvY_dILyZWhtlTMHyWRRHQINOZ33CA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -824,7 +854,7 @@
                 "server_number": 1
             },
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_max_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919052%3AKeyName%3Dprod_linear%3ASignature%3D37oAMi1jqGGps235V9Gl3EE8gIf457FRXIZIzL3eDXXBcib0alK2TlwaPXX9D8sJLx79gUbqV770BT3UdpK2AQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsony_max_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939721%3AKeyName%3Dprod_linear%3ASignature%3D-fZb56F6osNuiV35iHVn5NHKSsytaGdY47dO9b_9r_ICrTsMlYVE0UN2AvY_dILyZWhtlTMHyWRRHQINOZ33CA",
                 "quality": "Unknown",
                 "priority": 2,
                 "has_headers": true,
@@ -839,7 +869,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsonypix_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919052%3AKeyName%3Dprod_linear%3ASignature%3D37oAMi1jqGGps235V9Gl3EE8gIf457FRXIZIzL3eDXXBcib0alK2TlwaPXX9D8sJLx79gUbqV770BT3UdpK2AQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsonypix_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939721%3AKeyName%3Dprod_linear%3ASignature%3D-fZb56F6osNuiV35iHVn5NHKSsytaGdY47dO9b_9r_ICrTsMlYVE0UN2AvY_dILyZWhtlTMHyWRRHQINOZ33CA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -854,7 +884,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzee_cafe_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919052%3AKeyName%3Dprod_linear%3ASignature%3D37oAMi1jqGGps235V9Gl3EE8gIf457FRXIZIzL3eDXXBcib0alK2TlwaPXX9D8sJLx79gUbqV770BT3UdpK2AQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzee_cafe_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939721%3AKeyName%3Dprod_linear%3ASignature%3D-fZb56F6osNuiV35iHVn5NHKSsytaGdY47dO9b_9r_ICrTsMlYVE0UN2AvY_dILyZWhtlTMHyWRRHQINOZ33CA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -869,7 +899,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fb4u_movies%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919052%3AKeyName%3Dprod_linear%3ASignature%3D37oAMi1jqGGps235V9Gl3EE8gIf457FRXIZIzL3eDXXBcib0alK2TlwaPXX9D8sJLx79gUbqV770BT3UdpK2AQ",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fb4u_movies%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939721%3AKeyName%3Dprod_linear%3ASignature%3D-fZb56F6osNuiV35iHVn5NHKSsytaGdY47dO9b_9r_ICrTsMlYVE0UN2AvY_dILyZWhtlTMHyWRRHQINOZ33CA",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -884,7 +914,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsonymax_2%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919056%3AKeyName%3Dprod_linear%3ASignature%3DOGuezniZWqzpN2FlwNWjg7EdyDEJxTPVj2wFpKwUOuPLDIk1FNDTpSHYi0xNBZYb5ywS5h5LQOn_AU4TkjblDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsonymax_2%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939725%3AKeyName%3Dprod_linear%3ASignature%3DXFUeKXUwWU8GZl3P4N21PFiGyuTVbwXdkbEbvwCrN3ZCx2GrsQG6UbITKV4orBdpJ-L_MasijDLWJkiv5RNVAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -899,7 +929,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzee_bangla_cinema%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919056%3AKeyName%3Dprod_linear%3ASignature%3DOGuezniZWqzpN2FlwNWjg7EdyDEJxTPVj2wFpKwUOuPLDIk1FNDTpSHYi0xNBZYb5ywS5h5LQOn_AU4TkjblDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzee_bangla_cinema%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939725%3AKeyName%3Dprod_linear%3ASignature%3DXFUeKXUwWU8GZl3P4N21PFiGyuTVbwXdkbEbvwCrN3ZCx2GrsQG6UbITKV4orBdpJ-L_MasijDLWJkiv5RNVAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -914,7 +944,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzee_cinema_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919056%3AKeyName%3Dprod_linear%3ASignature%3DOGuezniZWqzpN2FlwNWjg7EdyDEJxTPVj2wFpKwUOuPLDIk1FNDTpSHYi0xNBZYb5ywS5h5LQOn_AU4TkjblDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzee_cinema_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939725%3AKeyName%3Dprod_linear%3ASignature%3DXFUeKXUwWU8GZl3P4N21PFiGyuTVbwXdkbEbvwCrN3ZCx2GrsQG6UbITKV4orBdpJ-L_MasijDLWJkiv5RNVAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -929,7 +959,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fandpicture_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919056%3AKeyName%3Dprod_linear%3ASignature%3DOGuezniZWqzpN2FlwNWjg7EdyDEJxTPVj2wFpKwUOuPLDIk1FNDTpSHYi0xNBZYb5ywS5h5LQOn_AU4TkjblDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fandpicture_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939725%3AKeyName%3Dprod_linear%3ASignature%3DXFUeKXUwWU8GZl3P4N21PFiGyuTVbwXdkbEbvwCrN3ZCx2GrsQG6UbITKV4orBdpJ-L_MasijDLWJkiv5RNVAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -944,7 +974,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzee_bollywood%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919056%3AKeyName%3Dprod_linear%3ASignature%3DOGuezniZWqzpN2FlwNWjg7EdyDEJxTPVj2wFpKwUOuPLDIk1FNDTpSHYi0xNBZYb5ywS5h5LQOn_AU4TkjblDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzee_bollywood%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939725%3AKeyName%3Dprod_linear%3ASignature%3DXFUeKXUwWU8GZl3P4N21PFiGyuTVbwXdkbEbvwCrN3ZCx2GrsQG6UbITKV4orBdpJ-L_MasijDLWJkiv5RNVAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -959,7 +989,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzee_action%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919056%3AKeyName%3Dprod_linear%3ASignature%3DOGuezniZWqzpN2FlwNWjg7EdyDEJxTPVj2wFpKwUOuPLDIk1FNDTpSHYi0xNBZYb5ywS5h5LQOn_AU4TkjblDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fzee_action%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939725%3AKeyName%3Dprod_linear%3ASignature%3DXFUeKXUwWU8GZl3P4N21PFiGyuTVbwXdkbEbvwCrN3ZCx2GrsQG6UbITKV4orBdpJ-L_MasijDLWJkiv5RNVAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -974,7 +1004,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fcnn%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919056%3AKeyName%3Dprod_linear%3ASignature%3DOGuezniZWqzpN2FlwNWjg7EdyDEJxTPVj2wFpKwUOuPLDIk1FNDTpSHYi0xNBZYb5ywS5h5LQOn_AU4TkjblDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fcnn%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939725%3AKeyName%3Dprod_linear%3ASignature%3DXFUeKXUwWU8GZl3P4N21PFiGyuTVbwXdkbEbvwCrN3ZCx2GrsQG6UbITKV4orBdpJ-L_MasijDLWJkiv5RNVAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -989,7 +1019,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ftlc_sd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919056%3AKeyName%3Dprod_linear%3ASignature%3DOGuezniZWqzpN2FlwNWjg7EdyDEJxTPVj2wFpKwUOuPLDIk1FNDTpSHYi0xNBZYb5ywS5h5LQOn_AU4TkjblDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ftlc_sd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939725%3AKeyName%3Dprod_linear%3ASignature%3DXFUeKXUwWU8GZl3P4N21PFiGyuTVbwXdkbEbvwCrN3ZCx2GrsQG6UbITKV4orBdpJ-L_MasijDLWJkiv5RNVAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -997,7 +1027,7 @@
                 "server_number": 1
             },
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ftlc_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919056%3AKeyName%3Dprod_linear%3ASignature%3DOGuezniZWqzpN2FlwNWjg7EdyDEJxTPVj2wFpKwUOuPLDIk1FNDTpSHYi0xNBZYb5ywS5h5LQOn_AU4TkjblDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ftlc_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939725%3AKeyName%3Dprod_linear%3ASignature%3DXFUeKXUwWU8GZl3P4N21PFiGyuTVbwXdkbEbvwCrN3ZCx2GrsQG6UbITKV4orBdpJ-L_MasijDLWJkiv5RNVAQ",
                 "quality": "Unknown",
                 "priority": 2,
                 "has_headers": true,
@@ -1012,7 +1042,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fanimal_planet_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919056%3AKeyName%3Dprod_linear%3ASignature%3DOGuezniZWqzpN2FlwNWjg7EdyDEJxTPVj2wFpKwUOuPLDIk1FNDTpSHYi0xNBZYb5ywS5h5LQOn_AU4TkjblDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fanimal_planet_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939725%3AKeyName%3Dprod_linear%3ASignature%3DXFUeKXUwWU8GZl3P4N21PFiGyuTVbwXdkbEbvwCrN3ZCx2GrsQG6UbITKV4orBdpJ-L_MasijDLWJkiv5RNVAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1020,7 +1050,7 @@
                 "server_number": 1
             },
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fanimal_planet_sd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919056%3AKeyName%3Dprod_linear%3ASignature%3DOGuezniZWqzpN2FlwNWjg7EdyDEJxTPVj2wFpKwUOuPLDIk1FNDTpSHYi0xNBZYb5ywS5h5LQOn_AU4TkjblDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fanimal_planet_sd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939725%3AKeyName%3Dprod_linear%3ASignature%3DXFUeKXUwWU8GZl3P4N21PFiGyuTVbwXdkbEbvwCrN3ZCx2GrsQG6UbITKV4orBdpJ-L_MasijDLWJkiv5RNVAQ",
                 "quality": "Unknown",
                 "priority": 2,
                 "has_headers": true,
@@ -1035,7 +1065,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsonybbc_earth_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919066%3AKeyName%3Dprod_linear%3ASignature%3D45BsB5c-dyadBWHkFFVvg4Nvm9MEnBQ3JKbBH863AuKxTGcmu-ao8IyIgUIRoa1VW1rp8V5ueWh0FHC5atjVDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fsonybbc_earth_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939734%3AKeyName%3Dprod_linear%3ASignature%3DWBexin8EUtuRxBbBkIQ_Q-sKEuqTzk1qrpb0h2dZ2vC_XlsYLXGDRnlrzDiZDlxObiporaAzoodH--SmrTXyAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1050,7 +1080,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fdiscovery_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919066%3AKeyName%3Dprod_linear%3ASignature%3D45BsB5c-dyadBWHkFFVvg4Nvm9MEnBQ3JKbBH863AuKxTGcmu-ao8IyIgUIRoa1VW1rp8V5ueWh0FHC5atjVDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fdiscovery_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939734%3AKeyName%3Dprod_linear%3ASignature%3DWBexin8EUtuRxBbBkIQ_Q-sKEuqTzk1qrpb0h2dZ2vC_XlsYLXGDRnlrzDiZDlxObiporaAzoodH--SmrTXyAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1058,7 +1088,7 @@
                 "server_number": 1
             },
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fdiscovery_sd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919066%3AKeyName%3Dprod_linear%3ASignature%3D45BsB5c-dyadBWHkFFVvg4Nvm9MEnBQ3JKbBH863AuKxTGcmu-ao8IyIgUIRoa1VW1rp8V5ueWh0FHC5atjVDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fdiscovery_sd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939734%3AKeyName%3Dprod_linear%3ASignature%3DWBexin8EUtuRxBbBkIQ_Q-sKEuqTzk1qrpb0h2dZ2vC_XlsYLXGDRnlrzDiZDlxObiporaAzoodH--SmrTXyAQ",
                 "quality": "Unknown",
                 "priority": 2,
                 "has_headers": true,
@@ -1073,7 +1103,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fdiscovery_science%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919066%3AKeyName%3Dprod_linear%3ASignature%3D45BsB5c-dyadBWHkFFVvg4Nvm9MEnBQ3JKbBH863AuKxTGcmu-ao8IyIgUIRoa1VW1rp8V5ueWh0FHC5atjVDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fdiscovery_science%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939734%3AKeyName%3Dprod_linear%3ASignature%3DWBexin8EUtuRxBbBkIQ_Q-sKEuqTzk1qrpb0h2dZ2vC_XlsYLXGDRnlrzDiZDlxObiporaAzoodH--SmrTXyAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1088,7 +1118,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fdiscovery_turbo%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919066%3AKeyName%3Dprod_linear%3ASignature%3D45BsB5c-dyadBWHkFFVvg4Nvm9MEnBQ3JKbBH863AuKxTGcmu-ao8IyIgUIRoa1VW1rp8V5ueWh0FHC5atjVDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fdiscovery_turbo%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939734%3AKeyName%3Dprod_linear%3ASignature%3DWBexin8EUtuRxBbBkIQ_Q-sKEuqTzk1qrpb0h2dZ2vC_XlsYLXGDRnlrzDiZDlxObiporaAzoodH--SmrTXyAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1103,7 +1133,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fdiscovary_investigation_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919066%3AKeyName%3Dprod_linear%3ASignature%3D45BsB5c-dyadBWHkFFVvg4Nvm9MEnBQ3JKbBH863AuKxTGcmu-ao8IyIgUIRoa1VW1rp8V5ueWh0FHC5atjVDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fdiscovary_investigation_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939734%3AKeyName%3Dprod_linear%3ASignature%3DWBexin8EUtuRxBbBkIQ_Q-sKEuqTzk1qrpb0h2dZ2vC_XlsYLXGDRnlrzDiZDlxObiporaAzoodH--SmrTXyAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1118,7 +1148,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fcartoon_network_sd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919066%3AKeyName%3Dprod_linear%3ASignature%3D45BsB5c-dyadBWHkFFVvg4Nvm9MEnBQ3JKbBH863AuKxTGcmu-ao8IyIgUIRoa1VW1rp8V5ueWh0FHC5atjVDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fcartoon_network_sd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939734%3AKeyName%3Dprod_linear%3ASignature%3DWBexin8EUtuRxBbBkIQ_Q-sKEuqTzk1qrpb0h2dZ2vC_XlsYLXGDRnlrzDiZDlxObiporaAzoodH--SmrTXyAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1133,7 +1163,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fcartoon_network_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919066%3AKeyName%3Dprod_linear%3ASignature%3D45BsB5c-dyadBWHkFFVvg4Nvm9MEnBQ3JKbBH863AuKxTGcmu-ao8IyIgUIRoa1VW1rp8V5ueWh0FHC5atjVDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fcartoon_network_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939734%3AKeyName%3Dprod_linear%3ASignature%3DWBexin8EUtuRxBbBkIQ_Q-sKEuqTzk1qrpb0h2dZ2vC_XlsYLXGDRnlrzDiZDlxObiporaAzoodH--SmrTXyAQ",
                 "quality": "HD",
                 "priority": 1,
                 "has_headers": true,
@@ -1148,7 +1178,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fdiscovery_kids%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919066%3AKeyName%3Dprod_linear%3ASignature%3D45BsB5c-dyadBWHkFFVvg4Nvm9MEnBQ3JKbBH863AuKxTGcmu-ao8IyIgUIRoa1VW1rp8V5ueWh0FHC5atjVDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fdiscovery_kids%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939734%3AKeyName%3Dprod_linear%3ASignature%3DWBexin8EUtuRxBbBkIQ_Q-sKEuqTzk1qrpb0h2dZ2vC_XlsYLXGDRnlrzDiZDlxObiporaAzoodH--SmrTXyAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1163,7 +1193,7 @@
         "group": "Live Bdix",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fpogo_sd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788919066%3AKeyName%3Dprod_linear%3ASignature%3D45BsB5c-dyadBWHkFFVvg4Nvm9MEnBQ3JKbBH863AuKxTGcmu-ao8IyIgUIRoa1VW1rp8V5ueWh0FHC5atjVDg",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fpogo_sd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1788939734%3AKeyName%3Dprod_linear%3ASignature%3DWBexin8EUtuRxBbBkIQ_Q-sKEuqTzk1qrpb0h2dZ2vC_XlsYLXGDRnlrzDiZDlxObiporaAzoodH--SmrTXyAQ",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1193,7 +1223,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn4.zohanayaan.com%3A1686%2Fhls%2Fstar1in.m3u8%3Fmd5%3DODV29BDKG_apH0zp5bayTw%26expires%3D1788758293&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn1.zohanayaan.com%3A1686%2Fhls%2Fstar1in.m3u8%3Fmd5%3DZJxPHwASZ4Hc7jzvt77fBA%26expires%3D1788777287&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1208,7 +1238,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn2.zohanayaan.com%3A1686%2Fhls%2Fstarhindi.m3u8%3Fmd5%3D9OMtF1WWoqv9nau--kz14g%26expires%3D1788758294&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn7.zohanayaan.com%3A1686%2Fhls%2Fstarhindi.m3u8%3Fmd5%3DybpycYhsul1-opxvJXOdRw%26expires%3D1788777288&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1231,7 +1261,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn10.zohanayaan.com%3A1686%2Fhls%2Fptvpk.m3u8%3Fmd5%3DeUj5ChPB-M8yn1RIObiZ3g%26expires%3D1788758294&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn7.zohanayaan.com%3A1686%2Fhls%2Fptvpk.m3u8%3Fmd5%3DkrN46LZJpfCbTeIHvveCpA%26expires%3D1788777288&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1246,7 +1276,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn4.zohanayaan.com%3A1686%2Fhls%2Fwillowusa.m3u8%3Fmd5%3DVvfh--skuuwk8uwsVsftdg%26expires%3D1788758294&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn2.zohanayaan.com%3A1686%2Fhls%2Fwillowusa.m3u8%3Fmd5%3D65tpxy2d3DRlB4YNrEeOng%26expires%3D1788777288&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1261,7 +1291,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn5.zohanayaan.com%3A1686%2Fhls%2Fwillowextra.m3u8%3Fmd5%3DA4lTeK04y-xFiV1cGpUnsw%26expires%3D1788758294&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn6.zohanayaan.com%3A1686%2Fhls%2Fwillowextra.m3u8%3Fmd5%3DYCf3lJJGoAmYhUajgdCwFA%26expires%3D1788777288&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "HD",
                 "priority": 1,
                 "has_headers": true,
@@ -1276,7 +1306,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn2.zohanayaan.com%3A1686%2Fhls%2Ftenspk.m3u8%3Fmd5%3DbRO0dG2cBieA8tJo-3l_hw%26expires%3D1788758294&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn1.zohanayaan.com%3A1686%2Fhls%2Ftenspk.m3u8%3Fmd5%3D0wRqPkgI15uq0TwhvY4tHA%26expires%3D1788777289&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1291,7 +1321,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn6.zohanayaan.com%3A1686%2Fhls%2Fasportshd.m3u8%3Fmd5%3Dg8nt-0oJUQ-yidXwwjMyWg%26expires%3D1788758294&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn3.zohanayaan.com%3A1686%2Fhls%2Fasportshd.m3u8%3Fmd5%3DNft1iMF4RMEmrqNzrs5Ppg%26expires%3D1788777289&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1322,7 +1352,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn8.zohanayaan.com%3A1686%2Fhls%2Fskyscric.m3u8%3Fmd5%3DKryiFL-cIsf2FI2MoT43pg%26expires%3D1788758295&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn4.zohanayaan.com%3A1686%2Fhls%2Fskyscric.m3u8%3Fmd5%3DktRKsSx1UJRvVhxLGjzxyw%26expires%3D1788777289&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1337,7 +1367,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn9.zohanayaan.com%3A1686%2Fhls%2Fskysme.m3u8%3Fmd5%3DGsmIfjO5PIDX_y6LTlp0AA%26expires%3D1788758295&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn1.zohanayaan.com%3A1686%2Fhls%2Fskysme.m3u8%3Fmd5%3DrSs-f0yaPRfMBDh_qWkilQ%26expires%3D1788777289&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1352,7 +1382,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn6.zohanayaan.com%3A1686%2Fhls%2Fbbtsp1.m3u8%3Fmd5%3D2cWpuUF1_lLqjby6KndteA%26expires%3D1788758295&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn2.zohanayaan.com%3A1686%2Fhls%2Fbbtsp1.m3u8%3Fmd5%3Djkf2cOPa-G8whIZ_CVm4Tg%26expires%3D1788777289&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1367,7 +1397,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn3.zohanayaan.com%3A1686%2Fhls%2Fbbtsp2.m3u8%3Fmd5%3DIeim0uU7alRDyTXq7QSEdg%26expires%3D1788758295&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn3.zohanayaan.com%3A1686%2Fhls%2Fbbtsp2.m3u8%3Fmd5%3Dav3oS4gqpa-J9J9s8gjcxA%26expires%3D1788777290&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1382,7 +1412,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn9.zohanayaan.com%3A1686%2Fhls%2Fbbtsp3.m3u8%3Fmd5%3DLMjp1Xa3lEuvJp_ssissIQ%26expires%3D1788758295&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn8.zohanayaan.com%3A1686%2Fhls%2Fbbtsp3.m3u8%3Fmd5%3Dys8yDMbMP38J-ymGedJEQQ%26expires%3D1788777290&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1397,7 +1427,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn7.zohanayaan.com%3A1686%2Fhls%2Fbbtespn.m3u8%3Fmd5%3DHXo6A6AUPztSw8cWqXUeFg%26expires%3D1788758295&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn6.zohanayaan.com%3A1686%2Fhls%2Fbbtespn.m3u8%3Fmd5%3DIz-X9xnJO8ADwvLga6L9gw%26expires%3D1788777290&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1412,7 +1442,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn8.zohanayaan.com%3A1686%2Fhls%2Fsky1nz.m3u8%3Fmd5%3D4qPbGkbH_S3PUI4l3L9z4g%26expires%3D1788758295&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn3.zohanayaan.com%3A1686%2Fhls%2Fsky1nz.m3u8%3Fmd5%3D83N1zIagYjDHP22r7pUHBw%26expires%3D1788777290&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1427,7 +1457,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn9.zohanayaan.com%3A1686%2Fhls%2Fsky2nz.m3u8%3Fmd5%3DBE1Dg-8hfXE3qa8pWJGPKw%26expires%3D1788758296&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn2.zohanayaan.com%3A1686%2Fhls%2Fsky2nz.m3u8%3Fmd5%3Dp8SDI8OvUSghkhlyd3Rheg%26expires%3D1788777290&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1442,7 +1472,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn8.zohanayaan.com%3A1686%2Fhls%2Fsky3nz.m3u8%3Fmd5%3DHrfrFLLa03IQ6ATR1cOxDg%26expires%3D1788758296&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn2.zohanayaan.com%3A1686%2Fhls%2Fsky3nz.m3u8%3Fmd5%3D0G4R_y7ao46VOF1kKImiuA%26expires%3D1788777290&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1457,7 +1487,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn2.zohanayaan.com%3A1686%2Fhls%2Fsky4nz.m3u8%3Fmd5%3DJC8oai3JsozZWqKTtUidXg%26expires%3D1788758296&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn10.zohanayaan.com%3A1686%2Fhls%2Fsky4nz.m3u8%3Fmd5%3D1R5qEM2sh0G5Jvh0C-hRgg%26expires%3D1788777291&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1472,7 +1502,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn10.zohanayaan.com%3A1686%2Fhls%2Fsky5nz.m3u8%3Fmd5%3D1Pk97D38RCercq_NH22J_A%26expires%3D1788758296&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn7.zohanayaan.com%3A1686%2Fhls%2Fsky5nz.m3u8%3Fmd5%3DT77_1PuoZDAGlOOUihxrGA%26expires%3D1788777291&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1487,7 +1517,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn8.zohanayaan.com%3A1686%2Fhls%2Fsky6nz.m3u8%3Fmd5%3DhomcrXV03t4KTgj7f6mWMg%26expires%3D1788758296&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn5.zohanayaan.com%3A1686%2Fhls%2Fsky6nz.m3u8%3Fmd5%3DpWl8QtgFvd54yP_vBqpHNw%26expires%3D1788777291&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1502,7 +1532,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn8.zohanayaan.com%3A1686%2Fhls%2Fsky7nz.m3u8%3Fmd5%3DFp3BdZTZL39uwOKdpmckdA%26expires%3D1788758296&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn4.zohanayaan.com%3A1686%2Fhls%2Fsky7nz.m3u8%3Fmd5%3DIm87PgL4_thvxjOMrcn_1A%26expires%3D1788777291&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1517,7 +1547,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn2.zohanayaan.com%3A1686%2Fhls%2Fsky8nz.m3u8%3Fmd5%3DmAqYESHv7C5i1C7P3jxfUw%26expires%3D1788758296&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn9.zohanayaan.com%3A1686%2Fhls%2Fsky8nz.m3u8%3Fmd5%3DSjXcw97HM8yeZwF-9-bh4Q%26expires%3D1788777291&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1532,7 +1562,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn6.zohanayaan.com%3A1686%2Fhls%2Fsky9nz.m3u8%3Fmd5%3DB_i_PRAyJSzaCXrc4H8eKw%26expires%3D1788758296&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn1.zohanayaan.com%3A1686%2Fhls%2Fsky9nz.m3u8%3Fmd5%3D_jxgL0Z_JVmHPQlMyEH8zA%26expires%3D1788777291&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1547,7 +1577,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn9.zohanayaan.com%3A1686%2Fhls%2Fskysme.m3u8%3Fmd5%3DGsmIfjO5PIDX_y6LTlp0AA%26expires%3D1788758295&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn1.zohanayaan.com%3A1686%2Fhls%2Fskysme.m3u8%3Fmd5%3DrSs-f0yaPRfMBDh_qWkilQ%26expires%3D1788777289&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1562,7 +1592,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn6.zohanayaan.com%3A1686%2Fhls%2Fskysact.m3u8%3Fmd5%3D0wtUjirQPTt3J1bXv_9dyQ%26expires%3D1788758297&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn8.zohanayaan.com%3A1686%2Fhls%2Fskysact.m3u8%3Fmd5%3Db-B6nCYTVlGvya2XjR7cow%26expires%3D1788777291&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1577,7 +1607,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn4.zohanayaan.com%3A1686%2Fhls%2Fskysgol.m3u8%3Fmd5%3Dj0BlrAwG1HXcm9bdpBpJDw%26expires%3D1788758297&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn5.zohanayaan.com%3A1686%2Fhls%2Fskysgol.m3u8%3Fmd5%3DpULbSx-UJPd4cVULzc9BWw%26expires%3D1788777292&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1592,7 +1622,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn2.zohanayaan.com%3A1686%2Fhls%2Fskysprem.m3u8%3Fmd5%3D1BeZ24yLiIR0uzFycmq1iw%26expires%3D1788758297&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn4.zohanayaan.com%3A1686%2Fhls%2Fskysprem.m3u8%3Fmd5%3D9ohwTNncn6-GTrMxxUv27w%26expires%3D1788777292&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1607,7 +1637,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn8.zohanayaan.com%3A1686%2Fhls%2Fskysfott.m3u8%3Fmd5%3DiZ8_A2ugnemnLPMyAvWLbw%26expires%3D1788758297&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn8.zohanayaan.com%3A1686%2Fhls%2Fskysfott.m3u8%3Fmd5%3DgRJMadVgz0OIaUVL2mxqrQ%26expires%3D1788777292&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1622,7 +1652,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn7.zohanayaan.com%3A1686%2Fhls%2Fskysare.m3u8%3Fmd5%3DMw05HFtUYouWFGd5-x3EpA%26expires%3D1788758297&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn10.zohanayaan.com%3A1686%2Fhls%2Fskysare.m3u8%3Fmd5%3DMGEn91ZEXY9SzjD5gFkjkg%26expires%3D1788777292&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1637,7 +1667,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn2.zohanayaan.com%3A1686%2Fhls%2Fskysfor1.m3u8%3Fmd5%3Don1FFSzVPtb4lRk6FwWWYw%26expires%3D1788758297&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn1.zohanayaan.com%3A1686%2Fhls%2Fskysfor1.m3u8%3Fmd5%3DdkThsl7Ljrxa0ShCV0BB5g%26expires%3D1788777292&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1652,7 +1682,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn9.zohanayaan.com%3A1686%2Fhls%2Flaligauk.m3u8%3Fmd5%3DjR2rVvpytU2T32P0DKrDZg%26expires%3D1788758297&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn4.zohanayaan.com%3A1686%2Fhls%2Flaligauk.m3u8%3Fmd5%3D0pkLL9Tx7X1D9UCt-9y17Q%26expires%3D1788777292&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1667,7 +1697,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn7.zohanayaan.com%3A1686%2Fhls%2Fpremieruk.m3u8%3Fmd5%3DuPvK2wTg2vZOFbTFqGg0Bw%26expires%3D1788758297&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn8.zohanayaan.com%3A1686%2Fhls%2Fpremieruk.m3u8%3Fmd5%3DM1lgHyPUyhIN5NEhXdiexQ%26expires%3D1788777292&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1682,7 +1712,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn2.zohanayaan.com%3A1686%2Fhls%2Fhdchnl2.m3u8%3Fmd5%3DxbfL2UMrRtRFEp_UIIy9Ig%26expires%3D1788758297&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn10.zohanayaan.com%3A1686%2Fhls%2Fhdchnl2.m3u8%3Fmd5%3DOflpOkNVRmZxoirhwGOH7A%26expires%3D1788777292&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1697,7 +1727,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn8.zohanayaan.com%3A1686%2Fhls%2Fsuperfotball.m3u8%3Fmd5%3Dw05Yu7sWYjB4190z8XSpLA%26expires%3D1788758298&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn5.zohanayaan.com%3A1686%2Fhls%2Fsuperfotball.m3u8%3Fmd5%3D167rFkor23sQPYlQmQDYVQ%26expires%3D1788777292&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1712,7 +1742,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn6.zohanayaan.com%3A1686%2Fhls%2Fsuperpremier.m3u8%3Fmd5%3DFvjRjdzPmUkAGDGIIQ_a1g%26expires%3D1788758298&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn6.zohanayaan.com%3A1686%2Fhls%2Fsuperpremier.m3u8%3Fmd5%3DH61AhAvgkmccxUhkQAFqnQ%26expires%3D1788777293&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1727,7 +1757,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn9.zohanayaan.com%3A1686%2Fhls%2Ffox501.m3u8%3Fmd5%3DTfFebCsZ-7yE84M0XRxu2Q%26expires%3D1788758298&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn9.zohanayaan.com%3A1686%2Fhls%2Ffox501.m3u8%3Fmd5%3DkQgGyBkN9kWtPY2ySgQlxw%26expires%3D1788777293&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1742,7 +1772,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn9.zohanayaan.com%3A1686%2Fhls%2Fespnusa.m3u8%3Fmd5%3DsOl8quGYix8cRKnMXLDn8g%26expires%3D1788758298&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn1.zohanayaan.com%3A1686%2Fhls%2Fespnusa.m3u8%3Fmd5%3DV6Qy1PJfSN1gC_iffRWq1Q%26expires%3D1788777293&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1757,7 +1787,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn1.zohanayaan.com%3A1686%2Fhls%2Fespn2.m3u8%3Fmd5%3DEx-284mQGGhr_4lvd0bPVg%26expires%3D1788758298&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn10.zohanayaan.com%3A1686%2Fhls%2Fespn2.m3u8%3Fmd5%3DOXzV0uWsuUDYkUocauwDFA%26expires%3D1788777293&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1772,7 +1802,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn7.zohanayaan.com%3A1686%2Fhls%2Fskysare.m3u8%3Fmd5%3DMw05HFtUYouWFGd5-x3EpA%26expires%3D1788758297&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn10.zohanayaan.com%3A1686%2Fhls%2Fskysare.m3u8%3Fmd5%3DMGEn91ZEXY9SzjD5gFkjkg%26expires%3D1788777292&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1787,7 +1817,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn1.zohanayaan.com%3A1686%2Fhls%2Fskysmixx.m3u8%3Fmd5%3D9p8QWH6ZRes5LyQgGe-ExQ%26expires%3D1788758298&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn9.zohanayaan.com%3A1686%2Fhls%2Fskysmixx.m3u8%3Fmd5%3DZDWi29CtUd9lniuqsKOvnA%26expires%3D1788777293&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1802,7 +1832,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn2.zohanayaan.com%3A1686%2Fhls%2Fskystennis.m3u8%3Fmd5%3DzzOt15p5AK1zvo_-fiMHrQ%26expires%3D1788758298&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn10.zohanayaan.com%3A1686%2Fhls%2Fskystennis.m3u8%3Fmd5%3D4zyILjppoKzq3oe1o-tkJw%26expires%3D1788777293&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1817,7 +1847,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn9.zohanayaan.com%3A1686%2Fhls%2Ffox501.m3u8%3Fmd5%3DTfFebCsZ-7yE84M0XRxu2Q%26expires%3D1788758298&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn9.zohanayaan.com%3A1686%2Fhls%2Ffox501.m3u8%3Fmd5%3DkQgGyBkN9kWtPY2ySgQlxw%26expires%3D1788777293&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -1832,7 +1862,7 @@
         "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn5.zohanayaan.com%3A1686%2Fhls%2Ften1hd.m3u8%3Fmd5%3DuvmIyatKEg2QpVwUiXg41g%26expires%3D1788758298&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn5.zohanayaan.com%3A1686%2Fhls%2Ften1hd.m3u8%3Fmd5%3DlZkbjjWxXPltTiVhTqALEw%26expires%3D1788777293&referer=https%3A%2F%2Fexecuteandship.com%2F&origin=https%3A%2F%2Fexecuteandship.com",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": true,
@@ -5389,21 +5419,6 @@
             }
         ]
     },
-    "my_tv_unknown": {
-        "name": "My TV",
-        "logo": "",
-        "group": "Unknown",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fapp.ncare.live%2Fc3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2%2Fmytv-up-off.stream%2Flive-orgin%2Fmytv-up-off.stream%2Fplaylist.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
     "ananda_tv_unknown": {
         "name": "Ananda TV",
         "logo": "",
@@ -5419,13 +5434,13 @@
             }
         ]
     },
-    "channel_s_unknown": {
-        "name": "Channel S",
+    "green_tv_1080p_unknown": {
+        "name": "Green TV (1080p)",
         "logo": "",
         "group": "Unknown",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fapp.ncare.live%2Fc3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2%2Fchannels.stream%2Flive-orgin%2Fchannels.stream%2Fplaylist.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fapp.ncare.live%2Fc3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2%2Fgreentv.stream%2Flive-orgin%2Fgreentv.stream%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5434,13 +5449,28 @@
             }
         ]
     },
-    "green_tv_1080p_unknown": {
-        "name": "Green TV (1080p)",
+    "boishakhi_tv_unknown": {
+        "name": "Boishakhi TV",
         "logo": "",
         "group": "Unknown",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fapp.ncare.live%2Fc3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2%2Fgreentv.stream%2Flive-orgin%2Fgreentv.stream%2Fplaylist.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fboishakhi.sonarbanglatv.com%2Fboishakhi%2Fboishakhitv%2Findex.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "my_tv_unknown": {
+        "name": "My TV",
+        "logo": "",
+        "group": "Unknown",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fapp.ncare.live%2Fc3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2%2Fmytv-up-off.stream%2Flive-orgin%2Fmytv-up-off.stream%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5487,21 +5517,6 @@
             }
         ]
     },
-    "boishakhi_tv_unknown": {
-        "name": "Boishakhi TV",
-        "logo": "",
-        "group": "Unknown",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fboishakhi.sonarbanglatv.com%2Fboishakhi%2Fboishakhitv%2Findex.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
     "rtv_720p_unknown": {
         "name": "RTV (720p)",
         "logo": "",
@@ -5516,30 +5531,22 @@
                 "server_number": 1
             },
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fapp24.jagobd.com.bd%2Fc3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2%2Frtv-sg.stream%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2Ftvsen5.aynascope.net%2FRtvHD%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 2,
                 "has_headers": false,
                 "headers_count": 0,
                 "server_number": 2
-            },
-            {
-                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2Ftvsen5.aynascope.net%2FRtvHD%2Findex.m3u8",
-                "quality": "Unknown",
-                "priority": 3,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 3
             }
         ]
     },
-    "rajdhani_tv_1080p_unknown": {
-        "name": "Rajdhani TV (1080p)",
+    "duronto_tv_720p_unknown": {
+        "name": "Duronto TV (720p)",
         "logo": "",
         "group": "Unknown",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fstream.shariarsuvo.com%2Fhls5%2Frajdhanicable.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F6xyZ3N4oHv2KBJdB6W4p%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5563,13 +5570,13 @@
             }
         ]
     },
-    "duronto_tv_720p_unknown": {
-        "name": "Duronto TV (720p)",
+    "rajdhani_tv_1080p_unknown": {
+        "name": "Rajdhani TV (1080p)",
         "logo": "",
         "group": "Unknown",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F6xyZ3N4oHv2KBJdB6W4p%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fstream.shariarsuvo.com%2Fhls5%2Frajdhanicable.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5585,6 +5592,21 @@
         "servers": [
             {
                 "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FTnMn5kZz8aLm%2Findex.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "nexus_tv_576p_unknown": {
+        "name": "Nexus TV (576p)",
+        "logo": "",
+        "group": "Unknown",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FEpm7WrFa%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5623,13 +5645,13 @@
             }
         ]
     },
-    "atn_news_bangladesh": {
-        "name": "ATN News",
+    "boishakhi_tv_bangladesh": {
+        "name": "Boishakhi TV",
         "logo": "",
         "group": "Bangladesh",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fda6WMXAk%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F1d3uG9VCgrR9DRtWZM57%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5638,13 +5660,13 @@
             }
         ]
     },
-    "boishakhi_tv_bangladesh": {
-        "name": "Boishakhi TV",
+    "atn_news_bangladesh": {
+        "name": "ATN News",
         "logo": "",
         "group": "Bangladesh",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F1d3uG9VCgrR9DRtWZM57%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fda6WMXAk%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5683,36 +5705,6 @@
             }
         ]
     },
-    "bein_sports_extra_2_sports": {
-        "name": "Bein Sports Extra 2",
-        "logo": "",
-        "group": "Sports",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbein-esp-xumo.amagi.tv%2FplaylistR1080p.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "ntv_bangladesh": {
-        "name": "NTV",
-        "logo": "",
-        "group": "Bangladesh",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FxV4jEKf3D9zc%2Ftracks-v1a1%2Fmono.ts.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
     "rtv_bangladesh": {
         "name": "RTV",
         "logo": "",
@@ -5728,13 +5720,28 @@
             }
         ]
     },
-    "desh_tv_bangladesh": {
-        "name": "Desh TV",
+    "bein_sports_extra_2_sports": {
+        "name": "Bein Sports Extra 2",
         "logo": "",
-        "group": "Bangladesh",
+        "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FryFkXfd1a4CQ7mMdc820%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbein-esp-xumo.amagi.tv%2FplaylistR1080p.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "sony_8_indian_bangla": {
+        "name": "Sony 8",
+        "logo": "",
+        "group": "Indian Bangla",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fstream.ottplus.live%2Flive%2Fsony_aath_abr%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5758,13 +5765,13 @@
             }
         ]
     },
-    "ekushe_etv_bangladesh": {
-        "name": "Ekushe ETV",
+    "desh_tv_bangladesh": {
+        "name": "Desh TV",
         "logo": "",
         "group": "Bangladesh",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fy4mEVZNAbeNWTbd6Z2Pw%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FryFkXfd1a4CQ7mMdc820%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5773,28 +5780,13 @@
             }
         ]
     },
-    "horse_country_sports": {
-        "name": "Horse & Country",
+    "ntv_bangladesh": {
+        "name": "NTV",
         "logo": "",
-        "group": "Sports",
+        "group": "Bangladesh",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fhncfree-samsungau.amagi.tv%2Fplaylist.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "pardesi_tv_india": {
-        "name": "Pardesi TV",
-        "logo": "",
-        "group": "India",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fstream.pardesitv.online%2Fpardesi%2Ftracks-v1a1%2Fmono.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FxV4jEKf3D9zc%2Ftracks-v1a1%2Fmono.ts.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5818,13 +5810,43 @@
             }
         ]
     },
-    "hindi_hits_music": {
-        "name": "Hindi Hits",
+    "ekushe_etv_bangladesh": {
+        "name": "Ekushe ETV",
         "logo": "",
-        "group": "Music",
+        "group": "Bangladesh",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F146.59.253.52%3A8080%2Fhindihitshd%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fy4mEVZNAbeNWTbd6Z2Pw%2Findex.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "pardesi_tv_india": {
+        "name": "Pardesi TV",
+        "logo": "",
+        "group": "India",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fstream.pardesitv.online%2Fpardesi%2Ftracks-v1a1%2Fmono.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "horse_country_sports": {
+        "name": "Horse & Country",
+        "logo": "",
+        "group": "Sports",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fhncfree-samsungau.amagi.tv%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5840,36 +5862,6 @@
         "servers": [
             {
                 "url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fpremimum.online%3A80%2Flive%2Fjen12345%2Fjen54321%2F98854.ts",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "music_tv_music": {
-        "name": "Music TV",
-        "logo": "",
-        "group": "Music",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fbitcdn-kronehit.bitmovin.com%2Fv2%2Fhls%2Fchunklist_b3128000.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "bhojpuri_cinema_india": {
-        "name": "Bhojpuri Cinema",
-        "logo": "",
-        "group": "India",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive-bhojpuri.akamaized.net%2Fliveabr%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5908,6 +5900,21 @@
             }
         ]
     },
+    "hindi_hits_music": {
+        "name": "Hindi Hits",
+        "logo": "",
+        "group": "Music",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F146.59.253.52%3A8080%2Fhindihitshd%2Findex.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
     "wil_sports": {
         "name": "Wil",
         "logo": "",
@@ -5923,13 +5930,28 @@
             }
         ]
     },
-    "dw_others": {
-        "name": "DW",
+    "news_21_bangladesh": {
+        "name": "News 21",
         "logo": "",
-        "group": "Others",
+        "group": "Bangladesh",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fdwamdstream102.akamaized.net%2Fhls%2Flive%2F2015525%2Fdwstream102%2Fmaster.m3u8",
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F103.190.133.68%3A1935%2Fnews21live%2Flive%2Fchunklist_w54225199.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "music_tv_music": {
+        "name": "Music TV",
+        "logo": "",
+        "group": "Music",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fbitcdn-kronehit.bitmovin.com%2Fv2%2Fhls%2Fchunklist_b3128000.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5953,6 +5975,21 @@
             }
         ]
     },
+    "bhojpuri_cinema_india": {
+        "name": "Bhojpuri Cinema",
+        "logo": "",
+        "group": "India",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive-bhojpuri.akamaized.net%2Fliveabr%2Fplaylist.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
     "mohona_tv_bangladesh": {
         "name": "Mohona TV",
         "logo": "",
@@ -5968,28 +6005,13 @@
             }
         ]
     },
-    "animal_planet_infotainment": {
-        "name": "Animal Planet",
-        "logo": "",
-        "group": "Infotainment",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftiger-hub.vercel.app%40vodzong.mjunoon.tv%3A8087%2Fstreamtest%2FAnimal-Planet-158-3%2Fplaylist.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "digital_fashion_others": {
-        "name": "Digital Fashion",
+    "dw_others": {
+        "name": "DW",
         "logo": "",
         "group": "Others",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F115.187.41.216%3A8080%2Fhls%2Fdigitalfashion%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fdwamdstream102.akamaized.net%2Fhls%2Flive%2F2015525%2Fdwstream102%2Fmaster.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -6013,13 +6035,13 @@
             }
         ]
     },
-    "sony_8_indian_bangla": {
-        "name": "Sony 8",
+    "digital_fashion_others": {
+        "name": "Digital Fashion",
         "logo": "",
-        "group": "Indian Bangla",
+        "group": "Others",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fstream.ottplus.live%2Flive%2Fsony_aath_abr%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F115.187.41.216%3A8080%2Fhls%2Fdigitalfashion%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -6028,13 +6050,13 @@
             }
         ]
     },
-    "tnt_music_music": {
-        "name": "TNT Music",
+    "animal_planet_infotainment": {
+        "name": "Animal Planet",
         "logo": "",
-        "group": "Music",
+        "group": "Infotainment",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftntm.mediacdn.ru%2Fcdn%2Ftntmusic%2Fplaylist.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftiger-hub.vercel.app%40vodzong.mjunoon.tv%3A8087%2Fstreamtest%2FAnimal-Planet-158-3%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -6050,6 +6072,21 @@
         "servers": [
             {
                 "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fstream.ottplus.bd%2Flive%2Fpix_hd_abr%2Flive%2Fsony_pix_hd_720%2Fchunks.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "tnt_music_music": {
+        "name": "TNT Music",
+        "logo": "",
+        "group": "Music",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftntm.mediacdn.ru%2Fcdn%2Ftntmusic%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -6088,21 +6125,6 @@
             }
         ]
     },
-    "motu_patlu_cartoons_24_7": {
-        "name": "Motu Patlu",
-        "logo": "",
-        "group": "Cartoons 24 7",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209622%2Ftracks-v1a1%2Fmono.ts.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
     "hindi_movies_hindi_24_7": {
         "name": "Hindi Movies",
         "logo": "",
@@ -6125,6 +6147,21 @@
         "servers": [
             {
                 "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209902%2Ftracks-v1a1%2Fmono.ts.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "motu_patlu_cartoons_24_7": {
+        "name": "Motu Patlu",
+        "logo": "",
+        "group": "Cartoons 24 7",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209622%2Ftracks-v1a1%2Fmono.ts.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
