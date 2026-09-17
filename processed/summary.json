@@ -1,13 +1,13 @@
 {
-    "total_entries": 405,
-    "unique_channels": 395,
+    "total_entries": 413,
+    "unique_channels": 403,
     "channels_with_multiple_servers": 9,
-    "total_servers": 405,
+    "total_servers": 413,
     "channels_with_headers": 103,
     "total_headers": 205,
     "groups": {
         "Welcome To Playz Tv New App": 1,
-        "Live Event": 1,
+        "Live Event": 8,
         "Akash Go": 3,
         "Bangla": 36,
         "Sports": 86,
@@ -26,7 +26,7 @@
         "Football": 6,
         "Cricket": 7,
         "Promo": 1,
-        "Unknown": 11,
+        "Unknown": 12,
         "Star Jalsha": 1,
         "Bangladesh": 7,
         "India": 4,
@@ -36,7 +36,7 @@
         "Bangla 24 7": 1,
         "Hindi 24 7": 1
     },
-    "last_updated": "2026-09-17T19:25:51+00:00",
+    "last_updated": "2026-09-17T22:32:43+00:00",
     "source": "BD.m3u",
     "url": "https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u"
 }
