@@ -1,4 +1,4 @@
-// Generated: 2026-09-18 18:13 UTC
+// Generated: 2026-09-18 21:09 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
