@@ -1,4 +1,4 @@
-// Generated: 2026-10-05 17:00 UTC
+// Generated: 2026-10-05 23:07 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -2767,7 +2767,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (69 channels)
+    // OTHERS (68 channels)
     // ==================================================
 
     {
@@ -3128,20 +3128,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 bozztv.com",
                 "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8",
-                "type": "hls"
-            }
-        ]
-    }
-    ,
-
-    {
-        "name": "Green TV (1080p)",
-        "category": "Unknown",
-        "img": "",
-        "sources": [
-            {
-                "name": "🔗 ncare.live",
-                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -3759,11 +3745,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 251
-// Total sources: 292
+// Total channels: 250
+// Total sources: 291
 // Top priority sources (⭐): 4
 // Other priority sources (⚡): 1
-// Regular sources: 287
+// Regular sources: 286
 // Categories: 8
 // Merged duplicates: 83 channels consolidated
 // Generated with M3U processor
