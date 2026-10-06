@@ -28,13 +28,13 @@
         "Unknown": 13,
         "Bangladesh": 14,
         "India": 4,
-        "Infotainment": 1,
         "Others": 1,
+        "Infotainment": 1,
+        "Bangla 24 7": 1,
         "Cartoons 24 7": 2,
-        "Hindi 24 7": 2,
-        "Bangla 24 7": 1
+        "Hindi 24 7": 2
     },
-    "last_updated": "2026-10-06T04:02:08+00:00",
+    "last_updated": "2026-10-06T12:29:03+00:00",
     "source": "BD.m3u",
     "url": "https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u"
 }
