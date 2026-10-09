@@ -1,8 +1,8 @@
 {
-    "total_entries": 345,
-    "unique_channels": 334,
+    "total_entries": 350,
+    "unique_channels": 338,
     "channels_with_multiple_servers": 11,
-    "total_servers": 345,
+    "total_servers": 350,
     "channels_with_headers": 40,
     "total_headers": 40,
     "groups": {
@@ -25,15 +25,16 @@
         "Football": 6,
         "Cricket": 7,
         "Promo": 1,
-        "Unknown": 11,
+        "Unknown": 12,
         "Bangladesh": 14,
-        "India": 3,
+        "India": 4,
         "Others": 1,
         "Infotainment": 1,
-        "Hindi 24 7": 2,
-        "Cartoons 24 7": 1
+        "Cartoons 24 7": 2,
+        "Bangla 24 7": 1,
+        "Hindi 24 7": 2
     },
-    "last_updated": "2026-10-08T19:34:42+00:00",
+    "last_updated": "2026-10-09T00:03:49+00:00",
     "source": "BD.m3u",
     "url": "https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u"
 }
