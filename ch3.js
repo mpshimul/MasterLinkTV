@@ -1,4 +1,4 @@
-// Generated: 2026-10-08 20:36 UTC
+// Generated: 2026-10-09 01:05 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -6,7 +6,7 @@
 window.rawChannels2 = [
 
     // ==================================================
-    // BANGLA (53 channels)
+    // BANGLA (54 channels)
     // ==================================================
 
     {
@@ -328,6 +328,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 sonarbanglatv.com",
                 "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Doraemon",
+        "category": "Bangla",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
                 "type": "hls"
             }
         ]
@@ -2748,7 +2762,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (64 channels)
+    // OTHERS (67 channels)
     // ==================================================
 
     {
@@ -3032,6 +3046,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Ekushey TV (480p)",
+        "category": "Unknown",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ekusheyserver.com",
+                "url": "https://ekusheyserver.com/etvlivesn.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Epix TV",
         "category": "English",
         "img": "https://s3.aynaott.com/storage/c0b0c986890a8c88c3566d93e18cada6",
@@ -3191,6 +3219,20 @@ window.rawChannels2 = [
     ,
 
     {
+        "name": "Motu Patlu",
+        "category": "Cartoons | 24/7",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 bozztv.com",
+                "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
         "name": "Movie Sphere",
         "category": "English",
         "img": "https://s3.aynaott.com/storage/4d343b446b1e7164bb7239bbe822a570",
@@ -3254,6 +3296,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 klowdtv.com",
                 "url": "https://a-cdn.klowdtv.com/live1/oan_720p/playlist.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Pardesi TV",
+        "category": "India",
+        "img": "",
+        "sources": [
+            {
+                "name": "🌐 pardesitv.online",
+                "url": "http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8",
                 "type": "hls"
             }
         ]
@@ -3455,6 +3511,11 @@ window.rawChannels2 = [
             {
                 "name": "⭐ aynascope.net",
                 "url": "http://tvsen5.aynascope.net/RtvHD/index.m3u8",
+                "type": "hls"
+            },
+            {
+                "name": "🔗 com.bd",
+                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8",
                 "type": "hls"
             },
             {
@@ -3665,11 +3726,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 245
-// Total sources: 284
+// Total channels: 249
+// Total sources: 289
 // Top priority sources (⭐): 4
 // Other priority sources (⚡): 1
-// Regular sources: 279
+// Regular sources: 284
 // Categories: 8
-// Merged duplicates: 81 channels consolidated
+// Merged duplicates: 83 channels consolidated
 // Generated with M3U processor
