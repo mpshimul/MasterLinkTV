@@ -1,4 +1,4 @@
-// Generated: 2026-10-10 12:56 UTC
+// Generated: 2026-10-10 17:45 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -2767,7 +2767,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (68 channels)
+    // OTHERS (69 channels)
     // ==================================================
 
     {
@@ -3058,6 +3058,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 akamaized.net",
                 "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Ekushey TV (480p)",
+        "category": "Unknown",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ekusheyserver.com",
+                "url": "https://ekusheyserver.com/etvlivesn.m3u8",
                 "type": "hls"
             }
         ]
@@ -3745,11 +3759,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 250
-// Total sources: 291
+// Total channels: 251
+// Total sources: 292
 // Top priority sources (⭐): 4
 // Other priority sources (⚡): 1
-// Regular sources: 286
+// Regular sources: 287
 // Categories: 8
 // Merged duplicates: 83 channels consolidated
 // Generated with M3U processor
