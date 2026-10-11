@@ -1,4 +1,4 @@
-// Generated: 2026-10-11 00:23 UTC
+// Generated: 2026-10-11 06:16 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -459,11 +459,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen5.aynaott.com/Ravc7gPCZpxk/index.m3u8?e=1784102565&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=36497099fc726a799b13d41016259efc",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 ncare.live",
-                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
                 "type": "hls"
             }
         ]
@@ -2767,7 +2762,7 @@ window.rawChannels2 = [
     ,
 
     // ==================================================
-    // OTHERS (66 channels)
+    // OTHERS (67 channels)
     // ==================================================
 
     {
@@ -3044,6 +3039,20 @@ window.rawChannels2 = [
             {
                 "name": "🔗 akamaized.net",
                 "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
+                "type": "hls"
+            }
+        ]
+    }
+    ,
+
+    {
+        "name": "Ekushey TV (480p)",
+        "category": "Unknown",
+        "img": "",
+        "sources": [
+            {
+                "name": "🔗 ekusheyserver.com",
+                "url": "https://ekusheyserver.com/etvlivesn.m3u8",
                 "type": "hls"
             }
         ]
@@ -3505,11 +3514,6 @@ window.rawChannels2 = [
                 "type": "hls"
             },
             {
-                "name": "🔗 com.bd",
-                "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8",
-                "type": "hls"
-            },
-            {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen5.aynaott.com/RtvHD/index.m3u8",
                 "type": "hls"
@@ -3717,11 +3721,11 @@ window.rawChannels2 = [
 ];
 
 // STATISTICS
-// Total channels: 248
-// Total sources: 289
+// Total channels: 249
+// Total sources: 288
 // Top priority sources (⭐): 4
 // Other priority sources (⚡): 1
-// Regular sources: 284
+// Regular sources: 283
 // Categories: 8
-// Merged duplicates: 82 channels consolidated
+// Merged duplicates: 83 channels consolidated
 // Generated with M3U processor
