@@ -1,8 +1,8 @@
 {
-    "total_entries": 351,
+    "total_entries": 350,
     "unique_channels": 341,
-    "channels_with_multiple_servers": 10,
-    "total_servers": 351,
+    "channels_with_multiple_servers": 9,
+    "total_servers": 350,
     "channels_with_headers": 43,
     "total_headers": 43,
     "groups": {
@@ -34,7 +34,7 @@
         "Bangla 24 7": 1,
         "Hindi 24 7": 2
     },
-    "last_updated": "2026-10-17T21:53:43+00:00",
+    "last_updated": "2026-10-17T23:39:42+00:00",
     "source": "BD.m3u",
     "url": "https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u"
 }
