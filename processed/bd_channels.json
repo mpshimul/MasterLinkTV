@@ -1,14 +1,14 @@
 {
     "statistics": {
-        "total_entries": 355,
-        "unique_channels": 346,
+        "total_entries": 350,
+        "unique_channels": 341,
         "channels_with_multiple_servers": 9,
-        "total_servers": 355,
+        "total_servers": 350,
         "channels_with_headers": 43,
         "total_headers": 43,
         "groups": {
             "Welcome To Playz Tv New App": 1,
-            "Live Event": 5,
+            "Live Event": 1,
             "Akash Go": 3,
             "Bangla": 36,
             "Sports": 43,
@@ -27,16 +27,16 @@
             "Football": 6,
             "Cricket": 7,
             "Promo": 1,
-            "Unknown": 13,
+            "Unknown": 14,
             "Bangladesh": 13,
             "India": 4,
             "Others": 1,
             "Infotainment": 1,
-            "Cartoons 24 7": 2,
+            "Cartoons 24 7": 1,
             "Bangla 24 7": 1,
-            "Hindi 24 7": 2
+            "Hindi 24 7": 1
         },
-        "last_updated": "2026-10-18T02:18:45+00:00",
+        "last_updated": "2026-10-18T08:26:13+00:00",
         "source": "BD.m3u",
         "url": "https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u"
     },
@@ -59,93 +59,21 @@
                 }
             ]
         },
-        "ufc_fight_night_buckley_vs_malott_18_oct_2026_eng_ufc_fight_night_buckley_vs_malott_live_event": {
-            "id": "ufc_fight_night_buckley_vs_malott_18_oct_2026_eng_",
-            "name": "UFC Fight Night - Buckley vs Malott - 18 Oct 2026 [ENG] - UFC Fight Night - Buckley vs Malott",
-            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026508/1792166210323579_UFC_FN_Buckley_vs_Malott_landscape_thumb.jpg",
+        "sjm_macao_open_day_4_18_oct_2026_eng_asian_tour_2026_live_event": {
+            "id": "sjm_macao_open_day_4_18_oct_2026_eng_asian_tour_20",
+            "name": "SJM Macao Open - Day 4 - 18 Oct 2026 [ENG] - Asian Tour 2026",
+            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026410/1792055378971141_Asian-Tour_LINK-Hong-Kong-Open_D4_live_landscape_thumb.jpg",
             "group": "Live Event",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://sonydaimenew.akamaized.net/hls/live/2018457/UFC_UFCF1710/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792326352~acl=/*~id=43671983054107287776928900071875~hmac=523b660219281dddd4ff46c19f862087164989b60ef35fd8a6856316607fcd15",
+                    "url": "https://sonydaimenew.akamaized.net/hls/live/2120299/Golf_SJM1810/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792342717~acl=/*~id=87509128882038833730907573637770~hmac=8ee038906a8b3a64013fc8ef819c3b113354a1d68d2d73b87feca503b1186f8b",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonydaimenew.akamaized.net%2Fhls%2Flive%2F2018457%2FUFC_UFCF1710%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1792326352%7Eacl%3D%2F%2A%7Eid%3D43671983054107287776928900071875%7Ehmac%3D523b660219281dddd4ff46c19f862087164989b60ef35fd8a6856316607fcd15"
-                }
-            ]
-        },
-        "ufc_fight_night_buckley_vs_malott_18_oct_2026_hin_ufc_fight_night_buckley_vs_malott_live_event": {
-            "id": "ufc_fight_night_buckley_vs_malott_18_oct_2026_hin_",
-            "name": "UFC Fight Night - Buckley vs Malott - 18 Oct 2026 [HIN] - UFC Fight Night - Buckley vs Malott",
-            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026508/1792166210323579_UFC_FN_Buckley_vs_Malott_landscape_thumb.jpg",
-            "group": "Live Event",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://sonydaimenew.akamaized.net/hls/live/2094587/UFC_UFCF1710/HIN/std_lrh-800300010.m3u8?hdnea=exp=1792326352~acl=/*~id=43671983054107287776928900071875~hmac=523b660219281dddd4ff46c19f862087164989b60ef35fd8a6856316607fcd15",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonydaimenew.akamaized.net%2Fhls%2Flive%2F2094587%2FUFC_UFCF1710%2FHIN%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1792326352%7Eacl%3D%2F%2A%7Eid%3D43671983054107287776928900071875%7Ehmac%3D523b660219281dddd4ff46c19f862087164989b60ef35fd8a6856316607fcd15"
-                }
-            ]
-        },
-        "ufc_fight_night_buckley_vs_malott_18_oct_2026_tam_ufc_fight_night_buckley_vs_malott_live_event": {
-            "id": "ufc_fight_night_buckley_vs_malott_18_oct_2026_tam_",
-            "name": "UFC Fight Night - Buckley vs Malott - 18 Oct 2026 [TAM] - UFC Fight Night - Buckley vs Malott",
-            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026508/1792166210323579_UFC_FN_Buckley_vs_Malott_landscape_thumb.jpg",
-            "group": "Live Event",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://sonydaimenew.akamaized.net/hls/live/2094588/UFC_UFCF1710/TAM/std_lrh-800300010.m3u8?hdnea=exp=1792326352~acl=/*~id=43671983054107287776928900071875~hmac=523b660219281dddd4ff46c19f862087164989b60ef35fd8a6856316607fcd15",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonydaimenew.akamaized.net%2Fhls%2Flive%2F2094588%2FUFC_UFCF1710%2FTAM%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1792326352%7Eacl%3D%2F%2A%7Eid%3D43671983054107287776928900071875%7Ehmac%3D523b660219281dddd4ff46c19f862087164989b60ef35fd8a6856316607fcd15"
-                }
-            ]
-        },
-        "ufc_fight_night_buckley_vs_malott_18_oct_2026_tel_ufc_fight_night_buckley_vs_malott_live_event": {
-            "id": "ufc_fight_night_buckley_vs_malott_18_oct_2026_tel_",
-            "name": "UFC Fight Night - Buckley vs Malott - 18 Oct 2026 [TEL] - UFC Fight Night - Buckley vs Malott",
-            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026508/1792166210323579_UFC_FN_Buckley_vs_Malott_landscape_thumb.jpg",
-            "group": "Live Event",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://sonydaimenew.akamaized.net/hls/live/2094589/UFC_UFCF1710/TEL/std_lrh-800300010.m3u8?hdnea=exp=1792326352~acl=/*~id=43671983054107287776928900071875~hmac=523b660219281dddd4ff46c19f862087164989b60ef35fd8a6856316607fcd15",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonydaimenew.akamaized.net%2Fhls%2Flive%2F2094589%2FUFC_UFCF1710%2FTEL%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1792326352%7Eacl%3D%2F%2A%7Eid%3D43671983054107287776928900071875%7Ehmac%3D523b660219281dddd4ff46c19f862087164989b60ef35fd8a6856316607fcd15"
-                }
-            ]
-        },
-        "ufc_fight_night_buckley_vs_malott_18_oct_2026_kan_ufc_fight_night_buckley_vs_malott_live_event": {
-            "id": "ufc_fight_night_buckley_vs_malott_18_oct_2026_kan_",
-            "name": "UFC Fight Night - Buckley vs Malott - 18 Oct 2026 [KAN] - UFC Fight Night - Buckley vs Malott",
-            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026508/1792166210323579_UFC_FN_Buckley_vs_Malott_landscape_thumb.jpg",
-            "group": "Live Event",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://sonydaimenew.akamaized.net/hls/live/2005445/UFC_UFCF1710/KAN/std_lrh-800300010.m3u8?hdnea=exp=1792326352~acl=/*~id=43671983054107287776928900071875~hmac=523b660219281dddd4ff46c19f862087164989b60ef35fd8a6856316607fcd15",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonydaimenew.akamaized.net%2Fhls%2Flive%2F2005445%2FUFC_UFCF1710%2FKAN%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1792326352%7Eacl%3D%2F%2A%7Eid%3D43671983054107287776928900071875%7Ehmac%3D523b660219281dddd4ff46c19f862087164989b60ef35fd8a6856316607fcd15"
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonydaimenew.akamaized.net%2Fhls%2Flive%2F2120299%2FGolf_SJM1810%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1792342717%7Eacl%3D%2F%2A%7Eid%3D87509128882038833730907573637770%7Ehmac%3D8ee038906a8b3a64013fc8ef819c3b113354a1d68d2d73b87feca503b1186f8b"
                 }
             ]
         },
@@ -5627,6 +5555,24 @@
                 }
             ]
         },
+        "green_tv_1080p_unknown": {
+            "id": "green_tv_1080p",
+            "name": "Green TV (1080p)",
+            "logo": "",
+            "group": "Unknown",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fapp.ncare.live%2Fc3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2%2Fgreentv.stream%2Flive-orgin%2Fgreentv.stream%2Fplaylist.m3u8"
+                }
+            ]
+        },
         "nan_tv_unknown": {
             "id": "nan_tv",
             "name": "NAN TV",
@@ -5663,6 +5609,24 @@
                 }
             ]
         },
+        "nexus_tv_576p_unknown": {
+            "id": "nexus_tv_576p",
+            "name": "Nexus TV (576p)",
+            "logo": "",
+            "group": "Unknown",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FEpm7WrFa%2Findex.m3u8"
+                }
+            ]
+        },
         "maasranga_tv_720p_unknown": {
             "id": "maasranga_tv_720p",
             "name": "Maasranga TV (720p)",
@@ -5678,6 +5642,24 @@
                     "source_file": "BD.m3u",
                     "server_number": 1,
                     "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2Fmaasrangatv%2Findex.m3u8"
+                }
+            ]
+        },
+        "ntv_720p_unknown": {
+            "id": "ntv_720p",
+            "name": "NTV (720p)",
+            "logo": "",
+            "group": "Unknown",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FxV4jEKf3D9zc%2Findex.m3u8"
                 }
             ]
         },
@@ -5714,42 +5696,6 @@
                     "source_file": "BD.m3u",
                     "server_number": 1,
                     "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F6xyZ3N4oHv2KBJdB6W4p%2Findex.m3u8"
-                }
-            ]
-        },
-        "ntv_720p_unknown": {
-            "id": "ntv_720p",
-            "name": "NTV (720p)",
-            "logo": "",
-            "group": "Unknown",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FxV4jEKf3D9zc%2Findex.m3u8"
-                }
-            ]
-        },
-        "nexus_tv_576p_unknown": {
-            "id": "nexus_tv_576p",
-            "name": "Nexus TV (576p)",
-            "logo": "",
-            "group": "Unknown",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FEpm7WrFa%2Findex.m3u8"
                 }
             ]
         },
@@ -5816,24 +5762,6 @@
                 }
             ]
         },
-        "atn_news_bangladesh": {
-            "id": "atn_news",
-            "name": "ATN News",
-            "logo": "",
-            "group": "Bangladesh",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://tvsen6.aynaott.com/da6WMXAk/index.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fda6WMXAk%2Findex.m3u8"
-                }
-            ]
-        },
         "ananda_tv_bangladesh": {
             "id": "ananda_tv",
             "name": "Ananda TV",
@@ -5849,6 +5777,24 @@
                     "source_file": "BD.m3u",
                     "server_number": 1,
                     "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FLeUAm4F1iixYns3s3Non%2Findex.m3u8"
+                }
+            ]
+        },
+        "atn_news_bangladesh": {
+            "id": "atn_news",
+            "name": "ATN News",
+            "logo": "",
+            "group": "Bangladesh",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://tvsen6.aynaott.com/da6WMXAk/index.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fda6WMXAk%2Findex.m3u8"
                 }
             ]
         },
@@ -5888,24 +5834,6 @@
                 }
             ]
         },
-        "bein_sports_extra_2_sports": {
-            "id": "bein_sports_extra_2",
-            "name": "Bein Sports Extra 2",
-            "logo": "",
-            "group": "Sports",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbein-esp-xumo.amagi.tv%2FplaylistR1080p.m3u8"
-                }
-            ]
-        },
         "channel_i_bangladesh": {
             "id": "channel_i",
             "name": "Channel I",
@@ -5921,6 +5849,24 @@
                     "source_file": "BD.m3u",
                     "server_number": 1,
                     "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FFNHpYvGZ7FkCE10PwTHm%2Findex.m3u8"
+                }
+            ]
+        },
+        "bein_sports_extra_2_sports": {
+            "id": "bein_sports_extra_2",
+            "name": "Bein Sports Extra 2",
+            "logo": "",
+            "group": "Sports",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbein-esp-xumo.amagi.tv%2FplaylistR1080p.m3u8"
                 }
             ]
         },
@@ -5996,24 +5942,6 @@
                 }
             ]
         },
-        "global_tv_bangladesh": {
-            "id": "global_tv",
-            "name": "Global TV",
-            "logo": "",
-            "group": "Bangladesh",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://tvsen6.aynaott.com/y0q9eFAuquAtvTxRzUHq/index.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fy0q9eFAuquAtvTxRzUHq%2Findex.m3u8"
-                }
-            ]
-        },
         "mtrspt_sports": {
             "id": "mtrspt",
             "name": "MTRSPT",
@@ -6032,93 +5960,21 @@
                 }
             ]
         },
-        "horse_country_sports": {
-            "id": "horse_country",
-            "name": "Horse & Country",
-            "logo": "",
-            "group": "Sports",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://hncfree-samsungau.amagi.tv/playlist.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fhncfree-samsungau.amagi.tv%2Fplaylist.m3u8"
-                }
-            ]
-        },
-        "my_tv_bangladesh": {
-            "id": "my_tv",
-            "name": "My TV",
+        "global_tv_bangladesh": {
+            "id": "global_tv",
+            "name": "Global TV",
             "logo": "",
             "group": "Bangladesh",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8",
+                    "url": "https://tvsen6.aynaott.com/y0q9eFAuquAtvTxRzUHq/index.m3u8",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FXMpHaEf0ANBhv8w6NWR7%2Findex.m3u8"
-                }
-            ]
-        },
-        "ntv_bangladesh": {
-            "id": "ntv",
-            "name": "NTV",
-            "logo": "",
-            "group": "Bangladesh",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/tracks-v1a1/mono.ts.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FxV4jEKf3D9zc%2Ftracks-v1a1%2Fmono.ts.m3u8"
-                }
-            ]
-        },
-        "sony_tv_india": {
-            "id": "sony_tv",
-            "name": "Sony TV",
-            "logo": "",
-            "group": "India",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "http://premimum.online:80/live/jen12345/jen54321/98854.ts",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fpremimum.online%3A80%2Flive%2Fjen12345%2Fjen54321%2F98854.ts"
-                }
-            ]
-        },
-        "pardesi_tv_india": {
-            "id": "pardesi_tv",
-            "name": "Pardesi TV",
-            "logo": "",
-            "group": "India",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fstream.pardesitv.online%2Fpardesi%2Ftracks-v1a1%2Fmono.m3u8"
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fy0q9eFAuquAtvTxRzUHq%2Findex.m3u8"
                 }
             ]
         },
@@ -6140,6 +5996,78 @@
                 }
             ]
         },
+        "pardesi_tv_india": {
+            "id": "pardesi_tv",
+            "name": "Pardesi TV",
+            "logo": "",
+            "group": "India",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fstream.pardesitv.online%2Fpardesi%2Ftracks-v1a1%2Fmono.m3u8"
+                }
+            ]
+        },
+        "horse_country_sports": {
+            "id": "horse_country",
+            "name": "Horse & Country",
+            "logo": "",
+            "group": "Sports",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://hncfree-samsungau.amagi.tv/playlist.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fhncfree-samsungau.amagi.tv%2Fplaylist.m3u8"
+                }
+            ]
+        },
+        "ntv_bangladesh": {
+            "id": "ntv",
+            "name": "NTV",
+            "logo": "",
+            "group": "Bangladesh",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/tracks-v1a1/mono.ts.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FxV4jEKf3D9zc%2Ftracks-v1a1%2Fmono.ts.m3u8"
+                }
+            ]
+        },
+        "my_tv_bangladesh": {
+            "id": "my_tv",
+            "name": "My TV",
+            "logo": "",
+            "group": "Bangladesh",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FXMpHaEf0ANBhv8w6NWR7%2Findex.m3u8"
+                }
+            ]
+        },
         "sa_tv_bangladesh": {
             "id": "sa_tv",
             "name": "SA TV",
@@ -6158,93 +6086,21 @@
                 }
             ]
         },
-        "hindi_hits_music": {
-            "id": "hindi_hits",
-            "name": "Hindi Hits",
-            "logo": "",
-            "group": "Music",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "http://146.59.253.52:8080/hindihitshd/index.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=http%3A%2F%2F146.59.253.52%3A8080%2Fhindihitshd%2Findex.m3u8"
-                }
-            ]
-        },
-        "music_tv_music": {
-            "id": "music_tv",
-            "name": "Music TV",
-            "logo": "",
-            "group": "Music",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fbitcdn-kronehit.bitmovin.com%2Fv2%2Fhls%2Fchunklist_b3128000.m3u8"
-                }
-            ]
-        },
-        "bhojpuri_cinema_india": {
-            "id": "bhojpuri_cinema",
-            "name": "Bhojpuri Cinema",
+        "sony_tv_india": {
+            "id": "sony_tv",
+            "name": "Sony TV",
             "logo": "",
             "group": "India",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8",
+                    "url": "http://premimum.online:80/live/jen12345/jen54321/98854.ts",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive-bhojpuri.akamaized.net%2Fliveabr%2Fplaylist.m3u8"
-                }
-            ]
-        },
-        "trace_sport_sports": {
-            "id": "trace_sport",
-            "name": "Trace Sport",
-            "logo": "",
-            "group": "Sports",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flightning-tracesport-samsungau.amagi.tv%2Fplaylist.m3u8"
-                }
-            ]
-        },
-        "dw_others": {
-            "id": "dw",
-            "name": "DW",
-            "logo": "",
-            "group": "Others",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fdwamdstream102.akamaized.net%2Fhls%2Flive%2F2015525%2Fdwstream102%2Fmaster.m3u8"
+                    "proxy_url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fpremimum.online%3A80%2Flive%2Fjen12345%2Fjen54321%2F98854.ts"
                 }
             ]
         },
@@ -6266,39 +6122,57 @@
                 }
             ]
         },
-        "30a_music_music": {
-            "id": "30a_music",
-            "name": "30A Music",
+        "hindi_hits_music": {
+            "id": "hindi_hits",
+            "name": "Hindi Hits",
             "logo": "",
             "group": "Music",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://30a-tv.com/music.m3u8",
+                    "url": "http://146.59.253.52:8080/hindihitshd/index.m3u8",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2F30a-tv.com%2Fmusic.m3u8"
+                    "proxy_url": "https://your-server.com/proxy.php?url=http%3A%2F%2F146.59.253.52%3A8080%2Fhindihitshd%2Findex.m3u8"
                 }
             ]
         },
-        "rongeen_tv_kids": {
-            "id": "rongeen_tv",
-            "name": "Rongeen TV",
+        "bhojpuri_cinema_india": {
+            "id": "bhojpuri_cinema",
+            "name": "Bhojpuri Cinema",
             "logo": "",
-            "group": "Kids",
+            "group": "India",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8",
+                    "url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fserver.thelegitpro.in%2Frongeentv%2Frongeentv%2Ftracks-v1a1%2Fmono.m3u8"
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive-bhojpuri.akamaized.net%2Fliveabr%2Fplaylist.m3u8"
+                }
+            ]
+        },
+        "music_tv_music": {
+            "id": "music_tv",
+            "name": "Music TV",
+            "logo": "",
+            "group": "Music",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fbitcdn-kronehit.bitmovin.com%2Fv2%2Fhls%2Fchunklist_b3128000.m3u8"
                 }
             ]
         },
@@ -6317,6 +6191,78 @@
                     "source_file": "BD.m3u",
                     "server_number": 1,
                     "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fa.files.bbci.co.uk%2Fms6%2Flive%2F3441A116-B12E-4D2F-ACA8-C1984642FA4B%2Faudio%2Fsimulcast%2Fhls%2Fnonuk%2Faudio_syndication_vlow_sbr_v1%2Fcfs%2Fbbc_world_service_news_internet.m3u8"
+                }
+            ]
+        },
+        "trace_sport_sports": {
+            "id": "trace_sport",
+            "name": "Trace Sport",
+            "logo": "",
+            "group": "Sports",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flightning-tracesport-samsungau.amagi.tv%2Fplaylist.m3u8"
+                }
+            ]
+        },
+        "30a_music_music": {
+            "id": "30a_music",
+            "name": "30A Music",
+            "logo": "",
+            "group": "Music",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://30a-tv.com/music.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2F30a-tv.com%2Fmusic.m3u8"
+                }
+            ]
+        },
+        "dw_others": {
+            "id": "dw",
+            "name": "DW",
+            "logo": "",
+            "group": "Others",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fdwamdstream102.akamaized.net%2Fhls%2Flive%2F2015525%2Fdwstream102%2Fmaster.m3u8"
+                }
+            ]
+        },
+        "rongeen_tv_kids": {
+            "id": "rongeen_tv",
+            "name": "Rongeen TV",
+            "logo": "",
+            "group": "Kids",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fserver.thelegitpro.in%2Frongeentv%2Frongeentv%2Ftracks-v1a1%2Fmono.m3u8"
                 }
             ]
         },
@@ -6409,47 +6355,11 @@
                     "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209593%2Ftracks-v1a1%2Fmono.ts.m3u8"
                 }
             ]
-        },
-        "motu_patlu_cartoons_24_7": {
-            "id": "motu_patlu",
-            "name": "Motu Patlu",
-            "logo": "",
-            "group": "Cartoons 24 7",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209622%2Ftracks-v1a1%2Fmono.ts.m3u8"
-                }
-            ]
-        },
-        "hindi_movies_hindi_24_7": {
-            "id": "hindi_movies",
-            "name": "Hindi Movies",
-            "logo": "",
-            "group": "Hindi 24 7",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209612%2Ftracks-v1a1%2Fmono.ts.m3u8"
-                }
-            ]
         }
     },
     "metadata": {
         "version": "2.0",
         "format": "grouped",
-        "last_updated": "2026-10-18T02:18:45+00:00"
+        "last_updated": "2026-10-18T08:26:13+00:00"
     }
 }
