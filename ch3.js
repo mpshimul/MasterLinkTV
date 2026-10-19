@@ -1,4 +1,4 @@
-// Generated: 2026-10-18 21:44 UTC
+// Generated: 2026-10-19 00:02 UTC
 // Priority domains: aynascope.net, roarzone.info, owrcovcrpy.gpcdn.net, gpcdn.net
 // Format optimized for tplay.live
 // Duplicate channels merged automatically
@@ -634,11 +634,6 @@ window.rawChannels2 = [
             {
                 "name": "🔗 aynaott.com",
                 "url": "https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8?e=1784102573&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=ae3f9c12e1d065b5ae78d27fb2e192fc",
-                "type": "hls"
-            },
-            {
-                "name": "🔗 ncare.live",
-                "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8",
                 "type": "hls"
             },
             {
@@ -3755,10 +3750,10 @@ window.rawChannels2 = [
 
 // STATISTICS
 // Total channels: 251
-// Total sources: 291
+// Total sources: 290
 // Top priority sources (⭐): 4
 // Other priority sources (⚡): 1
-// Regular sources: 286
+// Regular sources: 285
 // Categories: 8
 // Merged duplicates: 83 channels consolidated
 // Generated with M3U processor
