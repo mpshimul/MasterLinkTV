@@ -14,13 +14,13 @@
             }
         ]
     },
-    "manchester_united_vs_as_roma_4_nov_2026_eng_uefa_champions_league_2026_27_live_event": {
-        "name": "Manchester United vs AS Roma - 4 Nov 2026 [ENG] - UEFA Champions League 2026-27",
-        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027329/1792952482824378_UCL26_MD4_Man_United_vs_AS_Roma_eng_landscape_thumb.jpg",
+    "1st_odi_4_nov_2026_eng_india_tour_of_new_zealand_2026_live_event": {
+        "name": "1st ODI - 4 Nov 2026 [ENG] - India Tour of New Zealand 2026",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028131/1793689445603200_NZvsIND_1st_odi_landscape_thumb.jpg",
         "group": "Live Event",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2120308%2Ffootlive0311%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1793785336%7Eacl%3D%2F%2A%7Eid%3D36522415224748079322868740486571%7Ehmac%3Dc7f8e43e875867f2634737eae8cf5c950d62a469e05ab015d44011a65793276c",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2119931%2Fcricodi_0311%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1793799309%7Eacl%3D%2F%2A%7Eid%3D04271810832664523438698242474266%7Ehmac%3Dd707c286dd43c009b11399f78455312dd5c7e6e3818f67f184a928ac0e9141b2",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -29,13 +29,13 @@
             }
         ]
     },
-    "manchester_united_vs_as_roma_4_nov_2026_hin_uefa_champions_league_2026_27_live_event": {
-        "name": "Manchester United vs AS Roma - 4 Nov 2026 [HIN] - UEFA Champions League 2026-27",
-        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027329/1792952482824378_UCL26_MD4_Man_United_vs_AS_Roma_eng_landscape_thumb.jpg",
+    "1st_odi_4_nov_2026_hin_india_tour_of_new_zealand_2026_live_event": {
+        "name": "1st ODI - 4 Nov 2026 [HIN] - India Tour of New Zealand 2026",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028131/1793689445603200_NZvsIND_1st_odi_landscape_thumb.jpg",
         "group": "Live Event",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2120306%2Ffootlive0311%2FHIN%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1793785336%7Eacl%3D%2F%2A%7Eid%3D36522415224748079322868740486571%7Ehmac%3Dc7f8e43e875867f2634737eae8cf5c950d62a469e05ab015d44011a65793276c",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2119921%2Fcricodi_0311%2FHIN%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1793799309%7Eacl%3D%2F%2A%7Eid%3D04271810832664523438698242474266%7Ehmac%3Dd707c286dd43c009b11399f78455312dd5c7e6e3818f67f184a928ac0e9141b2",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -44,13 +44,13 @@
             }
         ]
     },
-    "manchester_united_vs_as_roma_4_nov_2026_tam_uefa_champions_league_2026_27_live_event": {
-        "name": "Manchester United vs AS Roma - 4 Nov 2026 [TAM] - UEFA Champions League 2026-27",
-        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027329/1792952482824378_UCL26_MD4_Man_United_vs_AS_Roma_eng_landscape_thumb.jpg",
+    "1st_odi_4_nov_2026_tam_india_tour_of_new_zealand_2026_live_event": {
+        "name": "1st ODI - 4 Nov 2026 [TAM] - India Tour of New Zealand 2026",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028131/1793689445603200_NZvsIND_1st_odi_landscape_thumb.jpg",
         "group": "Live Event",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2005444%2Ffootlive0311%2FTAM%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1793785336%7Eacl%3D%2F%2A%7Eid%3D36522415224748079322868740486571%7Ehmac%3Dc7f8e43e875867f2634737eae8cf5c950d62a469e05ab015d44011a65793276c",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2119951%2Fcricodi_0311%2FTAM%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1793799309%7Eacl%3D%2F%2A%7Eid%3D04271810832664523438698242474266%7Ehmac%3Dd707c286dd43c009b11399f78455312dd5c7e6e3818f67f184a928ac0e9141b2",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -59,13 +59,13 @@
             }
         ]
     },
-    "manchester_united_vs_as_roma_4_nov_2026_tel_uefa_champions_league_2026_27_live_event": {
-        "name": "Manchester United vs AS Roma - 4 Nov 2026 [TEL] - UEFA Champions League 2026-27",
-        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027329/1792952482824378_UCL26_MD4_Man_United_vs_AS_Roma_eng_landscape_thumb.jpg",
+    "1st_odi_4_nov_2026_tel_india_tour_of_new_zealand_2026_live_event": {
+        "name": "1st ODI - 4 Nov 2026 [TEL] - India Tour of New Zealand 2026",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028131/1793689445603200_NZvsIND_1st_odi_landscape_thumb.jpg",
         "group": "Live Event",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2120307%2Ffootlive0311%2FTEL%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1793785336%7Eacl%3D%2F%2A%7Eid%3D36522415224748079322868740486571%7Ehmac%3Dc7f8e43e875867f2634737eae8cf5c950d62a469e05ab015d44011a65793276c",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2119941%2Fcricodi_0311%2FTEL%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1793799309%7Eacl%3D%2F%2A%7Eid%3D04271810832664523438698242474266%7Ehmac%3Dd707c286dd43c009b11399f78455312dd5c7e6e3818f67f184a928ac0e9141b2",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -74,103 +74,13 @@
             }
         ]
     },
-    "manchester_united_vs_as_roma_4_nov_2026_kan_uefa_champions_league_2026_27_live_event": {
-        "name": "Manchester United vs AS Roma - 4 Nov 2026 [KAN] - UEFA Champions League 2026-27",
-        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027329/1792952482824378_UCL26_MD4_Man_United_vs_AS_Roma_eng_landscape_thumb.jpg",
+    "1st_odi_4_nov_2026_kan_india_tour_of_new_zealand_2026_live_event": {
+        "name": "1st ODI - 4 Nov 2026 [KAN] - India Tour of New Zealand 2026",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028131/1793689445603200_NZvsIND_1st_odi_landscape_thumb.jpg",
         "group": "Live Event",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2120305%2Ffootlive0311%2FKAN%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1793785336%7Eacl%3D%2F%2A%7Eid%3D36522415224748079322868740486571%7Ehmac%3Dc7f8e43e875867f2634737eae8cf5c950d62a469e05ab015d44011a65793276c",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "barcelona_vs_aston_villa_4_nov_2026_eng_uefa_champions_league_2026_27_live_event": {
-        "name": "Barcelona vs Aston Villa - 4 Nov 2026 [ENG] - UEFA Champions League 2026-27",
-        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027329/1792951817788378_UCL26_MD4_Barcelona_vs_Aston_Villa_landscape_thumb.jpg",
-        "group": "Live Event",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2120300%2Ffootlive0311%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1793785336%7Eacl%3D%2F%2A%7Eid%3D36522415224748079322868740486571%7Ehmac%3Dc7f8e43e875867f2634737eae8cf5c950d62a469e05ab015d44011a65793276c",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "atl_tico_de_madrid_vs_bayern_munich_4_nov_2026_eng_uefa_champions_league_2026_27_live_event": {
-        "name": "Atl\u00e9tico de Madrid vs Bayern Munich - 4 Nov 2026 [ENG] - UEFA Champions League 2026-27",
-        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027329/1792952088187378_UCL26_MD4_Atletico_vs_Bayern_landscape_thumb.jpg",
-        "group": "Live Event",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2120302%2Ffootlive0311%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1793785336%7Eacl%3D%2F%2A%7Eid%3D36522415224748079322868740486571%7Ehmac%3Dc7f8e43e875867f2634737eae8cf5c950d62a469e05ab015d44011a65793276c",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "villarreal_vs_psg_4_nov_2026_eng_uefa_champions_league_2026_27_live_event": {
-        "name": "Villarreal vs PSG - 4 Nov 2026 [ENG] - UEFA Champions League 2026-27",
-        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027330/1792953428976243_UCL26_MD4_Villarreal_vs_PSG_landscape_thumb.jpg",
-        "group": "Live Event",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2094589%2Ffootlive0311%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1793785336%7Eacl%3D%2F%2A%7Eid%3D36522415224748079322868740486571%7Ehmac%3Dc7f8e43e875867f2634737eae8cf5c950d62a469e05ab015d44011a65793276c",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "feyenoord_vs_inter_milan_4_nov_2026_eng_uefa_champions_league_2026_27_live_event": {
-        "name": "Feyenoord vs Inter Milan - 4 Nov 2026 [ENG] - UEFA Champions League 2026-27",
-        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027329/1792952919459378_UCL26_MD4_Feyenoord_vs_Inter_Milan_landscape_thumb.jpg",
-        "group": "Live Event",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2094588%2Ffootlive0311%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1793785336%7Eacl%3D%2F%2A%7Eid%3D36522415224748079322868740486571%7Ehmac%3Dc7f8e43e875867f2634737eae8cf5c950d62a469e05ab015d44011a65793276c",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "lask_vs_slovan_bratislava_4_nov_2026_eng_uefa_champions_league_2026_27_live_event": {
-        "name": "LASK vs Slovan Bratislava - 4 Nov 2026 [ENG] - UEFA Champions League 2026-27",
-        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027329/1792953756095378_UCL26_MD4_LASK_vs_Bratislava_landscape_thumb.jpg",
-        "group": "Live Event",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2094587%2Ffootlive0311%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1793785336%7Eacl%3D%2F%2A%7Eid%3D36522415224748079322868740486571%7Ehmac%3Dc7f8e43e875867f2634737eae8cf5c950d62a469e05ab015d44011a65793276c",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "bod_glimt_vs_lille_4_nov_2026_eng_uefa_champions_league_2026_27_live_event": {
-        "name": "Bod\u00f8/Glimt vs Lille - 4 Nov 2026 [ENG] - UEFA Champions League 2026-27",
-        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027329/1792953144488378_UCL26_MD4_Bodo_vs_Lille_landscape_thumb.jpg",
-        "group": "Live Event",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2018457%2Ffootlive0311%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1793785336%7Eacl%3D%2F%2A%7Eid%3D36522415224748079322868740486571%7Ehmac%3Dc7f8e43e875867f2634737eae8cf5c950d62a469e05ab015d44011a65793276c",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2119782%2Fcricodi_0311%2FKAN%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1793799309%7Eacl%3D%2F%2A%7Eid%3D04271810832664523438698242474266%7Ehmac%3Dd707c286dd43c009b11399f78455312dd5c7e6e3818f67f184a928ac0e9141b2",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4608,21 +4518,6 @@
             }
         ]
     },
-    "rajdhani_tv_1080p_unknown": {
-        "name": "Rajdhani TV (1080p)",
-        "logo": "",
-        "group": "Unknown",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fstream.shariarsuvo.com%2Fhls5%2Frajdhanicable.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
     "maasranga_tv_720p_unknown": {
         "name": "Maasranga TV (720p)",
         "logo": "",
@@ -4669,13 +4564,28 @@
             }
         ]
     },
-    "ntv_720p_unknown": {
-        "name": "NTV (720p)",
+    "rajdhani_tv_1080p_unknown": {
+        "name": "Rajdhani TV (1080p)",
         "logo": "",
         "group": "Unknown",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FxV4jEKf3D9zc%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fstream.shariarsuvo.com%2Fhls5%2Frajdhanicable.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "nexus_tv_576p_unknown": {
+        "name": "Nexus TV (576p)",
+        "logo": "",
+        "group": "Unknown",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FEpm7WrFa%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4699,13 +4609,13 @@
             }
         ]
     },
-    "nexus_tv_576p_unknown": {
-        "name": "Nexus TV (576p)",
+    "ntv_720p_unknown": {
+        "name": "NTV (720p)",
         "logo": "",
         "group": "Unknown",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FEpm7WrFa%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FxV4jEKf3D9zc%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4752,13 +4662,13 @@
             }
         ]
     },
-    "atn_news_bangladesh": {
-        "name": "ATN News",
+    "ananda_tv_bangladesh": {
+        "name": "Ananda TV",
         "logo": "",
         "group": "Bangladesh",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fda6WMXAk%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FLeUAm4F1iixYns3s3Non%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4767,13 +4677,13 @@
             }
         ]
     },
-    "ananda_tv_bangladesh": {
-        "name": "Ananda TV",
+    "atn_news_bangladesh": {
+        "name": "ATN News",
         "logo": "",
         "group": "Bangladesh",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FLeUAm4F1iixYns3s3Non%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fda6WMXAk%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4842,13 +4752,13 @@
             }
         ]
     },
-    "mtrspt_sports": {
-        "name": "MTRSPT",
+    "rtv_bangladesh": {
+        "name": "RTV",
         "logo": "",
-        "group": "Sports",
+        "group": "Bangladesh",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Famg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv%2Fplaylist%2Famg02873-kravemedia-mtrspt1-sportstribal%2Fplaylist.m3u8",
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2Ftvsen5.aynascope.net%2FRtvHD%2Ftracks-v1a1%2Fmono.ts.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4872,36 +4782,6 @@
             }
         ]
     },
-    "ekhon_tv_bangladesh": {
-        "name": "Ekhon TV",
-        "logo": "",
-        "group": "Bangladesh",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FfbgZV3X17hwWcyfZ4pdb%2Findex.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "rtv_bangladesh": {
-        "name": "RTV",
-        "logo": "",
-        "group": "Bangladesh",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2Ftvsen5.aynascope.net%2FRtvHD%2Ftracks-v1a1%2Fmono.ts.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
     "ekattor_tv_bangladesh": {
         "name": "Ekattor TV",
         "logo": "",
@@ -4909,21 +4789,6 @@
         "servers": [
             {
                 "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FEWDrV5QskgarZEUBb3pU%2Findex.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "horse_country_sports": {
-        "name": "Horse & Country",
-        "logo": "",
-        "group": "Sports",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fhncfree-samsungau.amagi.tv%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -4947,6 +4812,36 @@
             }
         ]
     },
+    "horse_country_sports": {
+        "name": "Horse & Country",
+        "logo": "",
+        "group": "Sports",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fhncfree-samsungau.amagi.tv%2Fplaylist.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "ekhon_tv_bangladesh": {
+        "name": "Ekhon TV",
+        "logo": "",
+        "group": "Bangladesh",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FfbgZV3X17hwWcyfZ4pdb%2Findex.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
     "desh_tv_bangladesh": {
         "name": "Desh TV",
         "logo": "",
@@ -4954,36 +4849,6 @@
         "servers": [
             {
                 "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FryFkXfd1a4CQ7mMdc820%2Findex.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "willow_extra_sports": {
-        "name": "Willow Extra",
-        "logo": "",
-        "group": "Sports",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F27.124.71.27%2FWillow_Extra%2Findex.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "global_tv_bangladesh": {
-        "name": "Global TV",
-        "logo": "",
-        "group": "Bangladesh",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fy0q9eFAuquAtvTxRzUHq%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5007,13 +4872,43 @@
             }
         ]
     },
-    "hindi_hits_music": {
-        "name": "Hindi Hits",
+    "mtrspt_sports": {
+        "name": "MTRSPT",
         "logo": "",
-        "group": "Music",
+        "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F146.59.253.52%3A8080%2Fhindihitshd%2Findex.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Famg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv%2Fplaylist%2Famg02873-kravemedia-mtrspt1-sportstribal%2Fplaylist.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "global_tv_bangladesh": {
+        "name": "Global TV",
+        "logo": "",
+        "group": "Bangladesh",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fy0q9eFAuquAtvTxRzUHq%2Findex.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "willow_extra_sports": {
+        "name": "Willow Extra",
+        "logo": "",
+        "group": "Sports",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F27.124.71.27%2FWillow_Extra%2Findex.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5052,6 +4947,36 @@
             }
         ]
     },
+    "hindi_hits_music": {
+        "name": "Hindi Hits",
+        "logo": "",
+        "group": "Music",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=http%3A%2F%2F146.59.253.52%3A8080%2Fhindihitshd%2Findex.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "dw_others": {
+        "name": "DW",
+        "logo": "",
+        "group": "Others",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fdwamdstream102.akamaized.net%2Fhls%2Flive%2F2015525%2Fdwstream102%2Fmaster.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
     "music_tv_music": {
         "name": "Music TV",
         "logo": "",
@@ -5082,43 +5007,13 @@
             }
         ]
     },
-    "bhojpuri_cinema_india": {
-        "name": "Bhojpuri Cinema",
+    "trace_sport_sports": {
+        "name": "Trace Sport",
         "logo": "",
-        "group": "India",
+        "group": "Sports",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive-bhojpuri.akamaized.net%2Fliveabr%2Fplaylist.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "dw_others": {
-        "name": "DW",
-        "logo": "",
-        "group": "Others",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fdwamdstream102.akamaized.net%2Fhls%2Flive%2F2015525%2Fdwstream102%2Fmaster.m3u8",
-                "quality": "Unknown",
-                "priority": 1,
-                "has_headers": false,
-                "headers_count": 0,
-                "server_number": 1
-            }
-        ]
-    },
-    "shemaroo_bollywood_india": {
-        "name": "Shemaroo Bollywood",
-        "logo": "",
-        "group": "India",
-        "servers": [
-            {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg00864-shemarooenterta-shemabollywood-ono%2Fplaylist.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flightning-tracesport-samsungau.amagi.tv%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5142,13 +5037,13 @@
             }
         ]
     },
-    "trace_sport_sports": {
-        "name": "Trace Sport",
+    "shemaroo_bollywood_india": {
+        "name": "Shemaroo Bollywood",
         "logo": "",
-        "group": "Sports",
+        "group": "India",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flightning-tracesport-samsungau.amagi.tv%2Fplaylist.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg00864-shemarooenterta-shemabollywood-ono%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5164,6 +5059,21 @@
         "servers": [
             {
                 "url": "https://your-server.com/proxy.php?url=https%3A%2F%2F30a-tv.com%2Fmusic.m3u8",
+                "quality": "Unknown",
+                "priority": 1,
+                "has_headers": false,
+                "headers_count": 0,
+                "server_number": 1
+            }
+        ]
+    },
+    "bhojpuri_cinema_india": {
+        "name": "Bhojpuri Cinema",
+        "logo": "",
+        "group": "India",
+        "servers": [
+            {
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive-bhojpuri.akamaized.net%2Fliveabr%2Fplaylist.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5232,13 +5142,13 @@
             }
         ]
     },
-    "motu_patlu_cartoons_24_7": {
-        "name": "Motu Patlu",
+    "doraemon_bangla_24_7": {
+        "name": "Doraemon",
         "logo": "",
-        "group": "Cartoons 24 7",
+        "group": "Bangla 24 7",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209622%2Ftracks-v1a1%2Fmono.ts.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209902%2Ftracks-v1a1%2Fmono.ts.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5247,13 +5157,13 @@
             }
         ]
     },
-    "doraemon_bangla_24_7": {
-        "name": "Doraemon",
+    "south_movies_hindi_24_7": {
+        "name": "South Movies",
         "logo": "",
-        "group": "Bangla 24 7",
+        "group": "Hindi 24 7",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209902%2Ftracks-v1a1%2Fmono.ts.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209593%2Ftracks-v1a1%2Fmono.ts.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
@@ -5277,13 +5187,13 @@
             }
         ]
     },
-    "south_movies_hindi_24_7": {
-        "name": "South Movies",
+    "motu_patlu_cartoons_24_7": {
+        "name": "Motu Patlu",
         "logo": "",
-        "group": "Hindi 24 7",
+        "group": "Cartoons 24 7",
         "servers": [
             {
-                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209593%2Ftracks-v1a1%2Fmono.ts.m3u8",
+                "url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive20.bozztv.com%2Fgiatvplayout7%2Fgiatv-209622%2Ftracks-v1a1%2Fmono.ts.m3u8",
                 "quality": "Unknown",
                 "priority": 1,
                 "has_headers": false,
