@@ -32,7 +32,7 @@
             "Others": 1,
             "Infotainment": 1
         },
-        "last_updated": "2026-11-11T17:34:50+00:00",
+        "last_updated": "2026-11-11T23:52:52+00:00",
         "source": "BD.m3u",
         "url": "https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u"
     },
@@ -6199,6 +6199,6 @@
     "metadata": {
         "version": "2.0",
         "format": "grouped",
-        "last_updated": "2026-11-11T17:34:51+00:00"
+        "last_updated": "2026-11-11T23:52:52+00:00"
     }
 }
