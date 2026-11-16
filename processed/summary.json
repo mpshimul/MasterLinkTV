@@ -1,8 +1,8 @@
 {
-    "total_entries": 341,
-    "unique_channels": 333,
+    "total_entries": 340,
+    "unique_channels": 332,
     "channels_with_multiple_servers": 8,
-    "total_servers": 341,
+    "total_servers": 340,
     "channels_with_headers": 41,
     "total_headers": 41,
     "groups": {
@@ -19,7 +19,7 @@
         "Weather": 1,
         "Music": 5,
         "Urdhu": 1,
-        "Indian Bangla": 14,
+        "Indian Bangla": 13,
         "Radio": 8,
         "Latest": 10,
         "Football": 6,
@@ -30,7 +30,7 @@
         "India": 4,
         "Others": 1
     },
-    "last_updated": "2026-11-16T03:59:13+00:00",
+    "last_updated": "2026-11-16T12:30:27+00:00",
     "source": "BD.m3u",
     "url": "https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u"
 }
