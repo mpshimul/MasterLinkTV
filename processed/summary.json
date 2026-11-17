@@ -1,8 +1,8 @@
 {
-    "total_entries": 343,
-    "unique_channels": 335,
+    "total_entries": 342,
+    "unique_channels": 334,
     "channels_with_multiple_servers": 8,
-    "total_servers": 343,
+    "total_servers": 342,
     "channels_with_headers": 41,
     "total_headers": 41,
     "groups": {
@@ -27,11 +27,11 @@
         "Promo": 1,
         "Unknown": 9,
         "Bangladesh": 13,
-        "India": 4,
+        "India": 3,
         "Others": 1,
         "Infotainment": 1
     },
-    "last_updated": "2026-11-17T05:51:37+00:00",
+    "last_updated": "2026-11-17T15:14:15+00:00",
     "source": "BD.m3u",
     "url": "https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u"
 }
