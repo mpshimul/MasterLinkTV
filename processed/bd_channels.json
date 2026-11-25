@@ -1,14 +1,14 @@
 {
     "statistics": {
-        "total_entries": 349,
-        "unique_channels": 341,
+        "total_entries": 355,
+        "unique_channels": 347,
         "channels_with_multiple_servers": 8,
-        "total_servers": 349,
+        "total_servers": 355,
         "channels_with_headers": 41,
         "total_headers": 41,
         "groups": {
             "Welcome To Playz Tv New App": 1,
-            "Live Event": 6,
+            "Live Event": 11,
             "Akash Go": 3,
             "Bangla": 36,
             "Sports": 49,
@@ -29,11 +29,11 @@
             "Promo": 1,
             "Unknown": 10,
             "Bangladesh": 13,
-            "India": 3,
+            "India": 4,
             "Others": 1,
             "Infotainment": 1
         },
-        "last_updated": "2026-11-25T00:14:24+00:00",
+        "last_updated": "2026-11-25T10:43:11+00:00",
         "source": "BD.m3u",
         "url": "https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/BD.m3u"
     },
@@ -56,111 +56,201 @@
                 }
             ]
         },
-        "india_a_vs_uae_24_nov_2026_eng_acc_men_s_asia_cup_rising_stars_2026_live_event": {
-            "id": "india_a_vs_uae_24_nov_2026_eng_acc_men_s_asia_cup_",
-            "name": "India A vs UAE - 24 Nov 2026 [ENG] - ACC Men's Asia Cup Rising Stars 2026",
-            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029712/1795394747843314_ACRS_India_A_vs_UAE_live_landscape_thumb.jpg",
+        "arsenal_vs_borussia_dortmund_25_nov_2026_eng_uefa_champions_league_2026_27_live_event": {
+            "id": "arsenal_vs_borussia_dortmund_25_nov_2026_eng_uefa_",
+            "name": "Arsenal vs Borussia Dortmund - 25 Nov 2026 [ENG] - UEFA Champions League 2026-27",
+            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029637/1795320397654444_UCL26_MD5_Arsenal_vs_Dortmund_landscape_thumb.jpg",
             "group": "Live Event",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_2411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795561045~acl=/*~id=40299324667696236618405203464960~hmac=4397bd197787cea5a690ecf53e6c3ed4799bc4d1df4029d9c6fef9c19af7d35d",
+                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2094587/Footlive2411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795597475~acl=/*~id=11346480681595816473793870014791~hmac=a78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2119931%2Fcricodi_2411%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795561045%7Eacl%3D%2F%2A%7Eid%3D40299324667696236618405203464960%7Ehmac%3D4397bd197787cea5a690ecf53e6c3ed4799bc4d1df4029d9c6fef9c19af7d35d"
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2094587%2FFootlive2411%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795597475%7Eacl%3D%2F%2A%7Eid%3D11346480681595816473793870014791%7Ehmac%3Da78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b"
                 }
             ]
         },
-        "india_a_vs_uae_24_nov_2026_hin_acc_men_s_asia_cup_rising_stars_2026_live_event": {
-            "id": "india_a_vs_uae_24_nov_2026_hin_acc_men_s_asia_cup_",
-            "name": "India A vs UAE - 24 Nov 2026 [HIN] - ACC Men's Asia Cup Rising Stars 2026",
-            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029712/1795394747843314_ACRS_India_A_vs_UAE_live_landscape_thumb.jpg",
+        "arsenal_vs_borussia_dortmund_25_nov_2026_hin_uefa_champions_league_2026_27_live_event": {
+            "id": "arsenal_vs_borussia_dortmund_25_nov_2026_hin_uefa_",
+            "name": "Arsenal vs Borussia Dortmund - 25 Nov 2026 [HIN] - UEFA Champions League 2026-27",
+            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029637/1795320397654444_UCL26_MD5_Arsenal_vs_Dortmund_landscape_thumb.jpg",
             "group": "Live Event",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2411/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795561045~acl=/*~id=40299324667696236618405203464960~hmac=4397bd197787cea5a690ecf53e6c3ed4799bc4d1df4029d9c6fef9c19af7d35d",
+                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2018458/Footlive2411/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795597475~acl=/*~id=11346480681595816473793870014791~hmac=a78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2119921%2Fcricodi_2411%2FHIN%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795561045%7Eacl%3D%2F%2A%7Eid%3D40299324667696236618405203464960%7Ehmac%3D4397bd197787cea5a690ecf53e6c3ed4799bc4d1df4029d9c6fef9c19af7d35d"
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2018458%2FFootlive2411%2FHIN%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795597475%7Eacl%3D%2F%2A%7Eid%3D11346480681595816473793870014791%7Ehmac%3Da78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b"
                 }
             ]
         },
-        "india_a_vs_uae_24_nov_2026_tam_acc_men_s_asia_cup_rising_stars_2026_live_event": {
-            "id": "india_a_vs_uae_24_nov_2026_tam_acc_men_s_asia_cup_",
-            "name": "India A vs UAE - 24 Nov 2026 [TAM] - ACC Men's Asia Cup Rising Stars 2026",
-            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029712/1795394747843314_ACRS_India_A_vs_UAE_live_landscape_thumb.jpg",
+        "arsenal_vs_borussia_dortmund_25_nov_2026_tam_uefa_champions_league_2026_27_live_event": {
+            "id": "arsenal_vs_borussia_dortmund_25_nov_2026_tam_uefa_",
+            "name": "Arsenal vs Borussia Dortmund - 25 Nov 2026 [TAM] - UEFA Champions League 2026-27",
+            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029637/1795320397654444_UCL26_MD5_Arsenal_vs_Dortmund_landscape_thumb.jpg",
             "group": "Live Event",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_2411/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795561045~acl=/*~id=40299324667696236618405203464960~hmac=4397bd197787cea5a690ecf53e6c3ed4799bc4d1df4029d9c6fef9c19af7d35d",
+                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2005444/Footlive2411/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795597475~acl=/*~id=11346480681595816473793870014791~hmac=a78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2119951%2Fcricodi_2411%2FTAM%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795561045%7Eacl%3D%2F%2A%7Eid%3D40299324667696236618405203464960%7Ehmac%3D4397bd197787cea5a690ecf53e6c3ed4799bc4d1df4029d9c6fef9c19af7d35d"
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2005444%2FFootlive2411%2FTAM%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795597475%7Eacl%3D%2F%2A%7Eid%3D11346480681595816473793870014791%7Ehmac%3Da78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b"
                 }
             ]
         },
-        "india_a_vs_uae_24_nov_2026_tel_acc_men_s_asia_cup_rising_stars_2026_live_event": {
-            "id": "india_a_vs_uae_24_nov_2026_tel_acc_men_s_asia_cup_",
-            "name": "India A vs UAE - 24 Nov 2026 [TEL] - ACC Men's Asia Cup Rising Stars 2026",
-            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029712/1795394747843314_ACRS_India_A_vs_UAE_live_landscape_thumb.jpg",
+        "arsenal_vs_borussia_dortmund_25_nov_2026_tel_uefa_champions_league_2026_27_live_event": {
+            "id": "arsenal_vs_borussia_dortmund_25_nov_2026_tel_uefa_",
+            "name": "Arsenal vs Borussia Dortmund - 25 Nov 2026 [TEL] - UEFA Champions League 2026-27",
+            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029637/1795320397654444_UCL26_MD5_Arsenal_vs_Dortmund_landscape_thumb.jpg",
             "group": "Live Event",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_2411/TEL/std_lrh-800300010.m3u8?hdnea=exp=1795561045~acl=/*~id=40299324667696236618405203464960~hmac=4397bd197787cea5a690ecf53e6c3ed4799bc4d1df4029d9c6fef9c19af7d35d",
+                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2094589/Footlive2411/TEL/std_lrh-800300010.m3u8?hdnea=exp=1795597475~acl=/*~id=11346480681595816473793870014791~hmac=a78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2119941%2Fcricodi_2411%2FTEL%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795561045%7Eacl%3D%2F%2A%7Eid%3D40299324667696236618405203464960%7Ehmac%3D4397bd197787cea5a690ecf53e6c3ed4799bc4d1df4029d9c6fef9c19af7d35d"
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2094589%2FFootlive2411%2FTEL%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795597475%7Eacl%3D%2F%2A%7Eid%3D11346480681595816473793870014791%7Ehmac%3Da78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b"
                 }
             ]
         },
-        "india_a_vs_uae_24_nov_2026_kan_acc_men_s_asia_cup_rising_stars_2026_live_event": {
-            "id": "india_a_vs_uae_24_nov_2026_kan_acc_men_s_asia_cup_",
-            "name": "India A vs UAE - 24 Nov 2026 [KAN] - ACC Men's Asia Cup Rising Stars 2026",
-            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029712/1795394747843314_ACRS_India_A_vs_UAE_live_landscape_thumb.jpg",
+        "arsenal_vs_borussia_dortmund_25_nov_2026_kan_uefa_champions_league_2026_27_live_event": {
+            "id": "arsenal_vs_borussia_dortmund_25_nov_2026_kan_uefa_",
+            "name": "Arsenal vs Borussia Dortmund - 25 Nov 2026 [KAN] - UEFA Champions League 2026-27",
+            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029637/1795320397654444_UCL26_MD5_Arsenal_vs_Dortmund_landscape_thumb.jpg",
             "group": "Live Event",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2411/KAN/std_lrh-800300010.m3u8?hdnea=exp=1795561045~acl=/*~id=40299324667696236618405203464960~hmac=4397bd197787cea5a690ecf53e6c3ed4799bc4d1df4029d9c6fef9c19af7d35d",
+                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2018457/Footlive2411/KAN/std_lrh-800300010.m3u8?hdnea=exp=1795597475~acl=/*~id=11346480681595816473793870014791~hmac=a78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2119782%2Fcricodi_2411%2FKAN%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795561045%7Eacl%3D%2F%2A%7Eid%3D40299324667696236618405203464960%7Ehmac%3D4397bd197787cea5a690ecf53e6c3ed4799bc4d1df4029d9c6fef9c19af7d35d"
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2018457%2FFootlive2411%2FKAN%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795597475%7Eacl%3D%2F%2A%7Eid%3D11346480681595816473793870014791%7Ehmac%3Da78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b"
                 }
             ]
         },
-        "pakistan_a_vs_nepal_24_nov_2026_eng_acc_men_s_asia_cup_rising_stars_2026_live_event": {
-            "id": "pakistan_a_vs_nepal_24_nov_2026_eng_acc_men_s_asia",
-            "name": "Pakistan A vs Nepal - 24 Nov 2026 [ENG] - ACC Men's Asia Cup Rising Stars 2026",
-            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029724/1795410670843751_ACRS26_PAK_A_vs_NEPAL_live_landscape_thumb.jpg",
+        "manchester_city_vs_napoli_25_nov_2026_eng_uefa_champions_league_2026_27_live_event": {
+            "id": "manchester_city_vs_napoli_25_nov_2026_eng_uefa_cha",
+            "name": "Manchester City vs Napoli - 25 Nov 2026 [ENG] - UEFA Champions League 2026-27",
+            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029637/1795318910325444_UCL26_MD5_Man_City_vs_Napoli_landscape_thumb.jpg",
             "group": "Live Event",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120299/Criclive2411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795561045~acl=/*~id=40299324667696236618405203464960~hmac=4397bd197787cea5a690ecf53e6c3ed4799bc4d1df4029d9c6fef9c19af7d35d",
+                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120308/Footlive2411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795597475~acl=/*~id=11346480681595816473793870014791~hmac=a78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2120299%2FCriclive2411%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795561045%7Eacl%3D%2F%2A%7Eid%3D40299324667696236618405203464960%7Ehmac%3D4397bd197787cea5a690ecf53e6c3ed4799bc4d1df4029d9c6fef9c19af7d35d"
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2120308%2FFootlive2411%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795597475%7Eacl%3D%2F%2A%7Eid%3D11346480681595816473793870014791%7Ehmac%3Da78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b"
+                }
+            ]
+        },
+        "real_madrid_vs_psv_eindhoven_25_nov_2026_eng_uefa_champions_league_2026_27_live_event": {
+            "id": "real_madrid_vs_psv_eindhoven_25_nov_2026_eng_uefa_",
+            "name": "Real Madrid vs PSV Eindhoven - 25 Nov 2026 [ENG] - UEFA Champions League 2026-27",
+            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029637/1795315004894444_UCL26_MD5_Real_Madrid_vs_PSV_landscape_thumb.jpg",
+            "group": "Live Event",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120300/Footlive2411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795597475~acl=/*~id=11346480681595816473793870014791~hmac=a78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2120300%2FFootlive2411%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795597475%7Eacl%3D%2F%2A%7Eid%3D11346480681595816473793870014791%7Ehmac%3Da78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b"
+                }
+            ]
+        },
+        "como_1907_vs_aek_athens_25_nov_2026_eng_uefa_champions_league_2026_27_live_event": {
+            "id": "como_1907_vs_aek_athens_25_nov_2026_eng_uefa_champ",
+            "name": "Como 1907 vs AEK Athens - 25 Nov 2026 [ENG] - UEFA Champions League 2026-27",
+            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029666/1795330600882198_UCL26_MD5_Como_vs_Athens_landscape_thumb.jpg",
+            "group": "Live Event",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2022316/Footlive2411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795597475~acl=/*~id=11346480681595816473793870014791~hmac=a78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2022316%2FFootlive2411%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795597475%7Eacl%3D%2F%2A%7Eid%3D11346480681595816473793870014791%7Ehmac%3Da78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b"
+                }
+            ]
+        },
+        "rb_leipzig_vs_rc_lens_25_nov_2026_eng_uefa_champions_league_2026_27_live_event": {
+            "id": "rb_leipzig_vs_rc_lens_25_nov_2026_eng_uefa_champio",
+            "name": "RB Leipzig vs RC Lens - 25 Nov 2026 [ENG] - UEFA Champions League 2026-27",
+            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029666/1795326333966198_UCL26_MD5_RB_Leipzig_vs_RC_Lens_landscape_thumb.jpg",
+            "group": "Live Event",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120305/Footlive2411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795597475~acl=/*~id=11346480681595816473793870014791~hmac=a78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2120305%2FFootlive2411%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795597475%7Eacl%3D%2F%2A%7Eid%3D11346480681595816473793870014791%7Ehmac%3Da78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b"
+                }
+            ]
+        },
+        "feyenoord_vs_fc_porto_25_nov_2026_eng_uefa_champions_league_2026_27_live_event": {
+            "id": "feyenoord_vs_fc_porto_25_nov_2026_eng_uefa_champio",
+            "name": "Feyenoord vs FC Porto - 25 Nov 2026 [ENG] - UEFA Champions League 2026-27",
+            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029637/1795320669674444_UCL26_MD5_Feyenoord_vs_Porto_landscape_thumb.jpg",
+            "group": "Live Event",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120302/Footlive2411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795597475~acl=/*~id=11346480681595816473793870014791~hmac=a78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2120302%2FFootlive2411%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795597475%7Eacl%3D%2F%2A%7Eid%3D11346480681595816473793870014791%7Ehmac%3Da78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b"
+                }
+            ]
+        },
+        "slovan_bratislava_vs_real_betis_25_nov_2026_eng_uefa_champions_league_2026_27_live_event": {
+            "id": "slovan_bratislava_vs_real_betis_25_nov_2026_eng_ue",
+            "name": "Slovan Bratislava vs Real Betis - 25 Nov 2026 [ENG] - UEFA Champions League 2026-27",
+            "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000029666/1795330176307198_UCL26_MD5_Bratislava_vs_Real_Betis_landscape_thumb.jpg",
+            "group": "Live Event",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://sonyeventsglobal.akamaized.net/hls/live/2094588/Footlive2411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795597475~acl=/*~id=11346480681595816473793870014791~hmac=a78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fsonyeventsglobal.akamaized.net%2Fhls%2Flive%2F2094588%2FFootlive2411%2FENG%2Fstd_lrh-800300010.m3u8%3Fhdnea%3Dexp%3D1795597475%7Eacl%3D%2F%2A%7Eid%3D11346480681595816473793870014791%7Ehmac%3Da78d1e64966d423e22517ed34f9e8b119cdfc3fc5afc05a6bf0951bbedd7755b"
                 }
             ]
         },
@@ -335,9 +425,9 @@
                 }
             ]
         },
-        "t_sports_1080p_1_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_sports": {
+        "t_sports_1080p_1_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_sports": {
             "id": "t_sports_1080p_1_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2",
-            "name": "T Sports (1080p) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2)",
+            "name": "T Sports (1080p) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2)",
             "logo": "https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/images/images%20(6)%20(9).jpeg",
             "group": "Sports",
             "quality": "Unknown",
@@ -353,9 +443,9 @@
                 }
             ]
         },
-        "t_sports_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_sports": {
+        "t_sports_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_sports": {
             "id": "t_sports_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3_3",
-            "name": "T Sports (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3)",
+            "name": "T Sports (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3)",
             "logo": "https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/images/images%20(6)%20(9).jpeg",
             "group": "Sports",
             "quality": "Unknown",
@@ -371,9 +461,9 @@
                 }
             ]
         },
-        "t_sports_hd_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_sports": {
+        "t_sports_hd_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_sports": {
             "id": "t_sports_hd_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_4_",
-            "name": "T Sports HD (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4)",
+            "name": "T Sports HD (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4)",
             "logo": "https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/images/images%20(6)%20(9).jpeg",
             "group": "Sports",
             "quality": "HD",
@@ -389,9 +479,9 @@
                 }
             ]
         },
-        "t_sports_hd_5_5_5_5_5_5_5_5_5_5_5_5_5_5_5_5_5_sports": {
-            "id": "t_sports_hd_5_5_5_5_5_5_5_5_5_5_5_5_5_5_5_5_5",
-            "name": "T Sports HD (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5)",
+        "t_sports_hd_5_5_5_5_5_5_5_5_5_5_5_5_5_5_5_5_5_5_sports": {
+            "id": "t_sports_hd_5_5_5_5_5_5_5_5_5_5_5_5_5_5_5_5_5_5",
+            "name": "T Sports HD (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5)",
             "logo": "https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/images/images%20(6)%20(9).jpeg",
             "group": "Sports",
             "quality": "HD",
@@ -407,9 +497,9 @@
                 }
             ]
         },
-        "t_sports_7_6_6_6_6_6_6_6_6_6_6_6_6_6_6_6_sports": {
-            "id": "t_sports_7_6_6_6_6_6_6_6_6_6_6_6_6_6_6_6",
-            "name": "T Sports 7 (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6)",
+        "t_sports_7_6_6_6_6_6_6_6_6_6_6_6_6_6_6_6_6_sports": {
+            "id": "t_sports_7_6_6_6_6_6_6_6_6_6_6_6_6_6_6_6_6",
+            "name": "T Sports 7 (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6)",
             "logo": "https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/images/images%20(6)%20(9).jpeg",
             "group": "Sports",
             "quality": "Unknown",
@@ -425,9 +515,9 @@
                 }
             ]
         },
-        "t_sports_hd_7_7_7_7_7_7_7_7_7_7_7_7_7_sports": {
-            "id": "t_sports_hd_7_7_7_7_7_7_7_7_7_7_7_7_7",
-            "name": "T Sports HD (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7)",
+        "t_sports_hd_7_7_7_7_7_7_7_7_7_7_7_7_7_7_sports": {
+            "id": "t_sports_hd_7_7_7_7_7_7_7_7_7_7_7_7_7_7",
+            "name": "T Sports HD (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7)",
             "logo": "https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/images/images%20(6)%20(9).jpeg",
             "group": "Sports",
             "quality": "HD",
@@ -443,9 +533,9 @@
                 }
             ]
         },
-        "t_sports_hd_8_8_8_8_8_8_8_8_8_8_8_sports": {
-            "id": "t_sports_hd_8_8_8_8_8_8_8_8_8_8_8",
-            "name": "T Sports HD (8) (8) (8) (8) (8) (8) (8) (8) (8) (8) (8)",
+        "t_sports_hd_8_8_8_8_8_8_8_8_8_8_8_8_sports": {
+            "id": "t_sports_hd_8_8_8_8_8_8_8_8_8_8_8_8",
+            "name": "T Sports HD (8) (8) (8) (8) (8) (8) (8) (8) (8) (8) (8) (8)",
             "logo": "https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/images/images%20(6)%20(9).jpeg",
             "group": "Sports",
             "quality": "HD",
@@ -461,9 +551,9 @@
                 }
             ]
         },
-        "t_sports_hd_9_9_9_9_9_9_9_9_sports": {
-            "id": "t_sports_hd_9_9_9_9_9_9_9_9",
-            "name": "T Sports HD (9) (9) (9) (9) (9) (9) (9) (9)",
+        "t_sports_hd_9_9_9_9_9_9_9_9_9_sports": {
+            "id": "t_sports_hd_9_9_9_9_9_9_9_9_9",
+            "name": "T Sports HD (9) (9) (9) (9) (9) (9) (9) (9) (9)",
             "logo": "https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/images/images%20(6)%20(9).jpeg",
             "group": "Sports",
             "quality": "HD",
@@ -750,6 +840,26 @@
                 }
             ]
         },
+        "eurosport_live_bdix": {
+            "id": "eurosport",
+            "name": "Eurosport",
+            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Uy6Q-JQBv9knK3AHcDUQ/posters/01709bcd-6d53-4710-a64f-bc49cecf1d61.webp",
+            "group": "Live Bdix",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": {
+                        "User-Agent": "Toffee (Linux;Android 14)"
+                    },
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Feuro_sports_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29"
+                }
+            ]
+        },
         "epl_channel_1_live_bdix": {
             "id": "epl_channel_1",
             "name": "EPL channel 1",
@@ -827,26 +937,6 @@
                     "source_file": "BD.m3u",
                     "server_number": 1,
                     "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Ften_cricket%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29"
-                }
-            ]
-        },
-        "eurosport_live_bdix": {
-            "id": "eurosport",
-            "name": "Eurosport",
-            "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Uy6Q-JQBv9knK3AHcDUQ/posters/01709bcd-6d53-4710-a64f-bc49cecf1d61.webp",
-            "group": "Live Bdix",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": {
-                        "User-Agent": "Toffee (Linux;Android 14)"
-                    },
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Feuro_sports_hd%2Fplaylist.m3u8&user_agent=Toffee+%28Linux%3BAndroid+14%29"
                 }
             ]
         },
@@ -5672,24 +5762,6 @@
                 }
             ]
         },
-        "rtv_720p_unknown": {
-            "id": "rtv_720p",
-            "name": "RTV (720p)",
-            "logo": "",
-            "group": "Unknown",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://tvsen5.aynaott.com/RtvHD/index.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FRtvHD%2Findex.m3u8"
-                }
-            ]
-        },
         "rajdhani_tv_1080p_unknown": {
             "id": "rajdhani_tv_1080p",
             "name": "Rajdhani TV (1080p)",
@@ -5719,30 +5791,10 @@
                     "url": "https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8",
                     "quality": "Unknown",
                     "priority": 1,
-                    "headers": {
-                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/109.0.0.0 Safari/537.36"
-                    },
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FEpm7WrFa%2Findex.m3u8&user_agent=Mozilla%2F5.0+%28Windows+NT+10.0+Win64+x64%29+AppleWebKit%2F537.36+%28KHTML+like+Gecko%29+Chrome%2F109.0.0.0+Safari%2F537.36"
-                }
-            ]
-        },
-        "duronto_tv_720p_unknown": {
-            "id": "duronto_tv_720p",
-            "name": "Duronto TV (720p)",
-            "logo": "",
-            "group": "Unknown",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F6xyZ3N4oHv2KBJdB6W4p%2Findex.m3u8"
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FEpm7WrFa%2Findex.m3u8"
                 }
             ]
         },
@@ -5764,6 +5816,24 @@
                 }
             ]
         },
+        "rtv_720p_unknown": {
+            "id": "rtv_720p",
+            "name": "RTV (720p)",
+            "logo": "",
+            "group": "Unknown",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://tvsen5.aynaott.com/RtvHD/index.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FRtvHD%2Findex.m3u8"
+                }
+            ]
+        },
         "ntv_720p_unknown": {
             "id": "ntv_720p",
             "name": "NTV (720p)",
@@ -5775,10 +5845,30 @@
                     "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
                     "quality": "Unknown",
                     "priority": 1,
+                    "headers": {
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/109.0.0.0 Safari/537.36"
+                    },
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FxV4jEKf3D9zc%2Findex.m3u8&user_agent=Mozilla%2F5.0+%28Windows+NT+10.0+Win64+x64%29+AppleWebKit%2F537.36+%28KHTML+like+Gecko%29+Chrome%2F109.0.0.0+Safari%2F537.36"
+                }
+            ]
+        },
+        "duronto_tv_720p_unknown": {
+            "id": "duronto_tv_720p",
+            "name": "Duronto TV (720p)",
+            "logo": "",
+            "group": "Unknown",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen5.aynaott.com%2FxV4jEKf3D9zc%2Findex.m3u8"
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F6xyZ3N4oHv2KBJdB6W4p%2Findex.m3u8"
                 }
             ]
         },
@@ -5800,21 +5890,21 @@
                 }
             ]
         },
-        "sananda_tv_indian_bangla": {
-            "id": "sananda_tv",
-            "name": "Sananda TV",
+        "atn_news_bangladesh": {
+            "id": "atn_news",
+            "name": "ATN News",
             "logo": "",
-            "group": "Indian Bangla",
+            "group": "Bangladesh",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "http://27.124.71.27/Zee_Bangla/tracks-v1a1/mono.m3u8",
+                    "url": "https://tvsen6.aynaott.com/da6WMXAk/index.m3u8",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=http%3A%2F%2F27.124.71.27%2FZee_Bangla%2Ftracks-v1a1%2Fmono.m3u8"
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fda6WMXAk%2Findex.m3u8"
                 }
             ]
         },
@@ -5836,21 +5926,21 @@
                 }
             ]
         },
-        "atn_news_bangladesh": {
-            "id": "atn_news",
-            "name": "ATN News",
+        "sananda_tv_indian_bangla": {
+            "id": "sananda_tv",
+            "name": "Sananda TV",
             "logo": "",
-            "group": "Bangladesh",
+            "group": "Indian Bangla",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://tvsen6.aynaott.com/da6WMXAk/index.m3u8",
+                    "url": "http://27.124.71.27/Zee_Bangla/tracks-v1a1/mono.m3u8",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fda6WMXAk%2Findex.m3u8"
+                    "proxy_url": "https://your-server.com/proxy.php?url=http%3A%2F%2F27.124.71.27%2FZee_Bangla%2Ftracks-v1a1%2Fmono.m3u8"
                 }
             ]
         },
@@ -5872,24 +5962,6 @@
                 }
             ]
         },
-        "boishakhi_tv_bangladesh": {
-            "id": "boishakhi_tv",
-            "name": "Boishakhi TV",
-            "logo": "",
-            "group": "Bangladesh",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://tvsen6.aynaott.com/1d3uG9VCgrR9DRtWZM57/index.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F1d3uG9VCgrR9DRtWZM57%2Findex.m3u8"
-                }
-            ]
-        },
         "btv_chattogram_bangladesh": {
             "id": "btv_chattogram",
             "name": "BTV Chattogram",
@@ -5905,6 +5977,24 @@
                     "source_file": "BD.m3u",
                     "server_number": 1,
                     "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FTjGR1GcxKetHNVcMVxbq%2Findex.m3u8"
+                }
+            ]
+        },
+        "boishakhi_tv_bangladesh": {
+            "id": "boishakhi_tv",
+            "name": "Boishakhi TV",
+            "logo": "",
+            "group": "Bangladesh",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://tvsen6.aynaott.com/1d3uG9VCgrR9DRtWZM57/index.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2F1d3uG9VCgrR9DRtWZM57%2Findex.m3u8"
                 }
             ]
         },
@@ -5926,57 +6016,57 @@
                 }
             ]
         },
-        "willow_extra_sports": {
-            "id": "willow_extra",
-            "name": "Willow Extra",
-            "logo": "",
-            "group": "Sports",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "http://27.124.71.27/Willow_Extra/index.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=http%3A%2F%2F27.124.71.27%2FWillow_Extra%2Findex.m3u8"
-                }
-            ]
-        },
-        "mtrspt_sports": {
-            "id": "mtrspt",
-            "name": "MTRSPT",
-            "logo": "",
-            "group": "Sports",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Famg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv%2Fplaylist%2Famg02873-kravemedia-mtrspt1-sportstribal%2Fplaylist.m3u8"
-                }
-            ]
-        },
-        "global_tv_bangladesh": {
-            "id": "global_tv",
-            "name": "Global TV",
+        "ekhon_tv_bangladesh": {
+            "id": "ekhon_tv",
+            "name": "Ekhon TV",
             "logo": "",
             "group": "Bangladesh",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://tvsen6.aynaott.com/y0q9eFAuquAtvTxRzUHq/index.m3u8",
+                    "url": "https://tvsen6.aynaott.com/fbgZV3X17hwWcyfZ4pdb/index.m3u8",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fy0q9eFAuquAtvTxRzUHq%2Findex.m3u8"
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FfbgZV3X17hwWcyfZ4pdb%2Findex.m3u8"
+                }
+            ]
+        },
+        "pardesi_tv_india": {
+            "id": "pardesi_tv",
+            "name": "Pardesi TV",
+            "logo": "",
+            "group": "India",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fstream.pardesitv.online%2Fpardesi%2Ftracks-v1a1%2Fmono.m3u8"
+                }
+            ]
+        },
+        "ekushe_etv_bangladesh": {
+            "id": "ekushe_etv",
+            "name": "Ekushe ETV",
+            "logo": "",
+            "group": "Bangladesh",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/index.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fy4mEVZNAbeNWTbd6Z2Pw%2Findex.m3u8"
                 }
             ]
         },
@@ -6016,57 +6106,21 @@
                 }
             ]
         },
-        "ekushe_etv_bangladesh": {
-            "id": "ekushe_etv",
-            "name": "Ekushe ETV",
+        "global_tv_bangladesh": {
+            "id": "global_tv",
+            "name": "Global TV",
             "logo": "",
             "group": "Bangladesh",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/index.m3u8",
+                    "url": "https://tvsen6.aynaott.com/y0q9eFAuquAtvTxRzUHq/index.m3u8",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fy4mEVZNAbeNWTbd6Z2Pw%2Findex.m3u8"
-                }
-            ]
-        },
-        "ekhon_tv_bangladesh": {
-            "id": "ekhon_tv",
-            "name": "Ekhon TV",
-            "logo": "",
-            "group": "Bangladesh",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://tvsen6.aynaott.com/fbgZV3X17hwWcyfZ4pdb/index.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FfbgZV3X17hwWcyfZ4pdb%2Findex.m3u8"
-                }
-            ]
-        },
-        "ekattor_tv_bangladesh": {
-            "id": "ekattor_tv",
-            "name": "Ekattor TV",
-            "logo": "",
-            "group": "Bangladesh",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FEWDrV5QskgarZEUBb3pU%2Findex.m3u8"
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2Fy0q9eFAuquAtvTxRzUHq%2Findex.m3u8"
                 }
             ]
         },
@@ -6088,60 +6142,6 @@
                 }
             ]
         },
-        "my_tv_bangladesh": {
-            "id": "my_tv",
-            "name": "My TV",
-            "logo": "",
-            "group": "Bangladesh",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FXMpHaEf0ANBhv8w6NWR7%2Findex.m3u8"
-                }
-            ]
-        },
-        "pardesi_tv_india": {
-            "id": "pardesi_tv",
-            "name": "Pardesi TV",
-            "logo": "",
-            "group": "India",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fstream.pardesitv.online%2Fpardesi%2Ftracks-v1a1%2Fmono.m3u8"
-                }
-            ]
-        },
-        "sa_tv_bangladesh": {
-            "id": "sa_tv",
-            "name": "SA TV",
-            "logo": "",
-            "group": "Bangladesh",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://tvsen6.aynaott.com/rELXiuUXqbgzPb06Npom/index.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FrELXiuUXqbgzPb06Npom%2Findex.m3u8"
-                }
-            ]
-        },
         "sony_tv_india": {
             "id": "sony_tv",
             "name": "Sony TV",
@@ -6157,6 +6157,24 @@
                     "source_file": "BD.m3u",
                     "server_number": 1,
                     "proxy_url": "https://your-server.com/proxy.php?url=http%3A%2F%2Fpremimum.online%3A80%2Flive%2Fjen12345%2Fjen54321%2F98854.ts"
+                }
+            ]
+        },
+        "my_tv_bangladesh": {
+            "id": "my_tv",
+            "name": "My TV",
+            "logo": "",
+            "group": "Bangladesh",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FXMpHaEf0ANBhv8w6NWR7%2Findex.m3u8"
                 }
             ]
         },
@@ -6178,57 +6196,39 @@
                 }
             ]
         },
-        "dw_others": {
-            "id": "dw",
-            "name": "DW",
+        "ekattor_tv_bangladesh": {
+            "id": "ekattor_tv",
+            "name": "Ekattor TV",
             "logo": "",
-            "group": "Others",
+            "group": "Bangladesh",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
+                    "url": "https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fdwamdstream102.akamaized.net%2Fhls%2Flive%2F2015525%2Fdwstream102%2Fmaster.m3u8"
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FEWDrV5QskgarZEUBb3pU%2Findex.m3u8"
                 }
             ]
         },
-        "trace_sport_sports": {
-            "id": "trace_sport",
-            "name": "Trace Sport",
+        "willow_extra_sports": {
+            "id": "willow_extra",
+            "name": "Willow Extra",
             "logo": "",
             "group": "Sports",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+                    "url": "http://27.124.71.27/Willow_Extra/index.m3u8",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flightning-tracesport-samsungau.amagi.tv%2Fplaylist.m3u8"
-                }
-            ]
-        },
-        "radio_bbc_radio": {
-            "id": "radio_bbc",
-            "name": "Radio BBC",
-            "logo": "",
-            "group": "Radio",
-            "quality": "Unknown",
-            "servers": [
-                {
-                    "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_vlow_sbr_v1/cfs/bbc_world_service_news_internet.m3u8",
-                    "quality": "Unknown",
-                    "priority": 1,
-                    "headers": [],
-                    "source_file": "BD.m3u",
-                    "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fa.files.bbci.co.uk%2Fms6%2Flive%2F3441A116-B12E-4D2F-ACA8-C1984642FA4B%2Faudio%2Fsimulcast%2Fhls%2Fnonuk%2Faudio_syndication_vlow_sbr_v1%2Fcfs%2Fbbc_world_service_news_internet.m3u8"
+                    "proxy_url": "https://your-server.com/proxy.php?url=http%3A%2F%2F27.124.71.27%2FWillow_Extra%2Findex.m3u8"
                 }
             ]
         },
@@ -6250,6 +6250,60 @@
                 }
             ]
         },
+        "trace_sport_sports": {
+            "id": "trace_sport",
+            "name": "Trace Sport",
+            "logo": "",
+            "group": "Sports",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flightning-tracesport-samsungau.amagi.tv%2Fplaylist.m3u8"
+                }
+            ]
+        },
+        "sa_tv_bangladesh": {
+            "id": "sa_tv",
+            "name": "SA TV",
+            "logo": "",
+            "group": "Bangladesh",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://tvsen6.aynaott.com/rELXiuUXqbgzPb06Npom/index.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftvsen6.aynaott.com%2FrELXiuUXqbgzPb06Npom%2Findex.m3u8"
+                }
+            ]
+        },
+        "shemaroo_bollywood_india": {
+            "id": "shemaroo_bollywood",
+            "name": "Shemaroo Bollywood",
+            "logo": "",
+            "group": "India",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg00864-shemarooenterta-shemabollywood-ono%2Fplaylist.m3u8"
+                }
+            ]
+        },
         "bhojpuri_cinema_india": {
             "id": "bhojpuri_cinema",
             "name": "Bhojpuri Cinema",
@@ -6265,6 +6319,24 @@
                     "source_file": "BD.m3u",
                     "server_number": 1,
                     "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Flive-bhojpuri.akamaized.net%2Fliveabr%2Fplaylist.m3u8"
+                }
+            ]
+        },
+        "dw_others": {
+            "id": "dw",
+            "name": "DW",
+            "logo": "",
+            "group": "Others",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fdwamdstream102.akamaized.net%2Fhls%2Flive%2F2015525%2Fdwstream102%2Fmaster.m3u8"
                 }
             ]
         },
@@ -6286,21 +6358,21 @@
                 }
             ]
         },
-        "rongeen_tv_kids": {
-            "id": "rongeen_tv",
-            "name": "Rongeen TV",
+        "radio_bbc_radio": {
+            "id": "radio_bbc",
+            "name": "Radio BBC",
             "logo": "",
-            "group": "Kids",
+            "group": "Radio",
             "quality": "Unknown",
             "servers": [
                 {
-                    "url": "https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8",
+                    "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_vlow_sbr_v1/cfs/bbc_world_service_news_internet.m3u8",
                     "quality": "Unknown",
                     "priority": 1,
                     "headers": [],
                     "source_file": "BD.m3u",
                     "server_number": 1,
-                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fserver.thelegitpro.in%2Frongeentv%2Frongeentv%2Ftracks-v1a1%2Fmono.m3u8"
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fa.files.bbci.co.uk%2Fms6%2Flive%2F3441A116-B12E-4D2F-ACA8-C1984642FA4B%2Faudio%2Fsimulcast%2Fhls%2Fnonuk%2Faudio_syndication_vlow_sbr_v1%2Fcfs%2Fbbc_world_service_news_internet.m3u8"
                 }
             ]
         },
@@ -6322,6 +6394,24 @@
                 }
             ]
         },
+        "rongeen_tv_kids": {
+            "id": "rongeen_tv",
+            "name": "Rongeen TV",
+            "logo": "",
+            "group": "Kids",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Fserver.thelegitpro.in%2Frongeentv%2Frongeentv%2Ftracks-v1a1%2Fmono.m3u8"
+                }
+            ]
+        },
         "tnt_music_music": {
             "id": "tnt_music",
             "name": "TNT Music",
@@ -6339,11 +6429,29 @@
                     "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Ftntm.mediacdn.ru%2Fcdn%2Ftntmusic%2Fplaylist.m3u8"
                 }
             ]
+        },
+        "mtrspt_sports": {
+            "id": "mtrspt",
+            "name": "MTRSPT",
+            "logo": "",
+            "group": "Sports",
+            "quality": "Unknown",
+            "servers": [
+                {
+                    "url": "https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8",
+                    "quality": "Unknown",
+                    "priority": 1,
+                    "headers": [],
+                    "source_file": "BD.m3u",
+                    "server_number": 1,
+                    "proxy_url": "https://your-server.com/proxy.php?url=https%3A%2F%2Famg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv%2Fplaylist%2Famg02873-kravemedia-mtrspt1-sportstribal%2Fplaylist.m3u8"
+                }
+            ]
         }
     },
     "metadata": {
         "version": "2.0",
         "format": "grouped",
-        "last_updated": "2026-11-25T00:14:24+00:00"
+        "last_updated": "2026-11-25T10:43:11+00:00"
     }
 }
